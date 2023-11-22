@@ -1,0 +1,125 @@
+vulnerability_id: VCID-2tmr-yvsr-aaam
+aliases:
+  - CVE-2020-10718
+summary: A flaw was found in Wildfly before wildfly-embedded-13.0.0.Final, where the embedded
+  managed process API has an exposed setting of the Thread Context Classloader (TCCL). This
+  setting is exposed as a public method, which can bypass the security manager. The highest
+  threat from this vulnerability is to confidentiality.
+severities:
+  - id: 610449
+    reference_id: 931672
+    scoring_system: cvssv3
+    value: '5.9'
+    scoring_elements: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
+  - id: 610448
+    reference_id: 931671
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 430471
+    reference_id: 812200
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 430469
+    reference_id: 812200
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+  - id: 49241
+    reference_id: 173535
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49242
+    reference_id: 173536
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49238
+    reference_id: 173532
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49239
+    reference_id: 173533
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 50141
+    reference_id: 174647
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 50143
+    reference_id: 174649
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49245
+    reference_id: 173539
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49243
+    reference_id: 173537
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49244
+    reference_id: 173538
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49237
+    reference_id: 173531
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 931672
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2020-10718.json
+    reference_id:
+  - id: 931671
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1828476
+    reference_id: 1828476
+  - id: 766405
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_fuse:7.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_fuse:7.0.0:*:*:*:*:*:*:*
+  - id: 734792
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:wildfly:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:wildfly:*:*:*:*:*:*:*:*
+  - id: 812200
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-10718
+    reference_id: CVE-2020-10718
+  - id: 173535
+    url: https://access.redhat.com/errata/RHSA-2020:3461
+    reference_id: RHSA-2020:3461
+  - id: 173536
+    url: https://access.redhat.com/errata/RHSA-2020:3462
+    reference_id: RHSA-2020:3462
+  - id: 173532
+    url: https://access.redhat.com/errata/RHSA-2020:3463
+    reference_id: RHSA-2020:3463
+  - id: 173533
+    url: https://access.redhat.com/errata/RHSA-2020:3464
+    reference_id: RHSA-2020:3464
+  - id: 174647
+    url: https://access.redhat.com/errata/RHSA-2020:3501
+    reference_id: RHSA-2020:3501
+  - id: 174649
+    url: https://access.redhat.com/errata/RHSA-2020:3539
+    reference_id: RHSA-2020:3539
+  - id: 173539
+    url: https://access.redhat.com/errata/RHSA-2020:3637
+    reference_id: RHSA-2020:3637
+  - id: 173537
+    url: https://access.redhat.com/errata/RHSA-2020:3638
+    reference_id: RHSA-2020:3638
+  - id: 173538
+    url: https://access.redhat.com/errata/RHSA-2020:3639
+    reference_id: RHSA-2020:3639
+  - id: 173531
+    url: https://access.redhat.com/errata/RHSA-2020:3642
+    reference_id: RHSA-2020:3642
+weaknesses: []

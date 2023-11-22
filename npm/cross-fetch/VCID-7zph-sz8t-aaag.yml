@@ -1,0 +1,75 @@
+vulnerability_id: VCID-7zph-sz8t-aaag
+aliases:
+  - CVE-2022-1365
+  - GHSA-7gc6-qh9x-w6h8
+summary: |
+  Incorrect Authorization
+  Exposure of Private Personal Information to an Unauthorized Actor in GitHub repository lquixada/cross-fetch prior to 3.1.5.
+severities:
+  - id: 103832
+    reference_id: 306380
+    scoring_system: cvssv3
+    value: '7.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:N
+  - id: 103831
+    reference_id: 306379
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 579034
+    reference_id: 31673
+    scoring_system: cvssv2
+    value: '5.8'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:P/A:N
+  - id: 579032
+    reference_id: 31673
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+  - id: 706925
+    reference_id: 31676
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 37590
+    reference_id: 157295
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 641051
+    reference_id: 1181557
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 306380
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-1365.json
+    reference_id:
+  - id: 31674
+    url: https://github.com/lquixada/cross-fetch/commit/a3b3a9481091ddd06b8f83784ba9c4e034dc912a
+    reference_id:
+  - id: 1468579
+    url: https://github.com/lquixada/cross-fetch/pull/135
+    reference_id:
+  - id: 31675
+    url: https://huntr.dev/bounties/ab55dfdd-2a60-437a-a832-e3efe3d264ac
+    reference_id:
+  - id: 306379
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=2076133
+    reference_id: 2076133
+  - id: 910608
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:cross-fetch_project:cross-fetch:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:cross-fetch_project:cross-fetch:*:*:*:*:*:node.js:*:*
+  - id: 31673
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-1365
+    reference_id: CVE-2022-1365
+  - id: 31676
+    url: https://github.com/advisories/GHSA-7gc6-qh9x-w6h8
+    reference_id: GHSA-7gc6-qh9x-w6h8
+  - id: 157295
+    url: https://access.redhat.com/errata/RHSA-2022:1681
+    reference_id: RHSA-2022:1681
+  - id: 1181557
+    url: https://access.redhat.com/errata/RHSA-2022:5840
+    reference_id: RHSA-2022:5840
+weaknesses: []

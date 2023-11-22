@@ -1,0 +1,94 @@
+vulnerability_id: VCID-4auy-ps2x-aaaq
+aliases:
+  - CVE-2014-7853
+summary: 'CVE-2014-7853 JBoss AS/WildFly JacORB Subsystem: Information disclosure via incorrect
+  sensitivity classification of attribute'
+severities:
+  - id: 56495
+    reference_id: 182183
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 188566
+    reference_id: 584572
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:N/A:N
+  - id: 56489
+    reference_id: 182174
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 56488
+    reference_id: 182173
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 56487
+    reference_id: 182172
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 56486
+    reference_id: 182171
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 56494
+    reference_id: 182181
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 13699
+    url: http://rhn.redhat.com/errata/RHSA-2015-0215.html
+    reference_id:
+  - id: 13700
+    url: http://rhn.redhat.com/errata/RHSA-2015-0216.html
+    reference_id:
+  - id: 13701
+    url: http://rhn.redhat.com/errata/RHSA-2015-0217.html
+    reference_id:
+  - id: 13702
+    url: http://rhn.redhat.com/errata/RHSA-2015-0218.html
+    reference_id:
+  - id: 13707
+    url: http://rhn.redhat.com/errata/RHSA-2015-0920.html
+    reference_id:
+  - id: 182184
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2014-7853.json
+    reference_id:
+  - id: 584571
+    url: https://exchange.xforce.ibmcloud.com/vulnerabilities/100891
+    reference_id:
+  - id: 13709
+    url: http://www.securitytracker.com/id/1031741
+    reference_id:
+  - id: 182183
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1165522
+    reference_id: 1165522
+  - id: 157730
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:*:*:*:*:*:*:*:*
+  - id: 584573
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_operations_network:3.3.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_operations_network:3.3.1:*:*:*:*:*:*:*
+  - id: 584572
+    url: https://nvd.nist.gov/vuln/detail/CVE-2014-7853
+    reference_id: CVE-2014-7853
+  - id: 182174
+    url: https://access.redhat.com/errata/RHSA-2015:0215
+    reference_id: RHSA-2015:0215
+  - id: 182173
+    url: https://access.redhat.com/errata/RHSA-2015:0216
+    reference_id: RHSA-2015:0216
+  - id: 182172
+    url: https://access.redhat.com/errata/RHSA-2015:0217
+    reference_id: RHSA-2015:0217
+  - id: 182171
+    url: https://access.redhat.com/errata/RHSA-2015:0218
+    reference_id: RHSA-2015:0218
+  - id: 182181
+    url: https://access.redhat.com/errata/RHSA-2015:0920
+    reference_id: RHSA-2015:0920
+weaknesses: []

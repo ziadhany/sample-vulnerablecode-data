@@ -1,0 +1,43 @@
+vulnerability_id: VCID-v19j-6tsa-aaag
+aliases:
+  - CVE-2020-12265
+  - GHSA-qgfr-5hqp-vrw9
+summary: |
+  Path Traversal
+  decompress for Node.js is vulnerable to Arbitrary File Write via `../` in an archive member, when a symlink is used, because of Directory Traversal.
+severities:
+  - id: 435579
+    reference_id: 32753
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 435577
+    reference_id: 32753
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 706121
+    reference_id: 1467632
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 815684
+    url: https://github.com/kevva/decompress/issues/71
+    reference_id:
+  - id: 815685
+    url: https://github.com/kevva/decompress/pull/73
+    reference_id:
+  - id: 815686
+    url: https://www.npmjs.com/advisories/1217
+    reference_id:
+  - id: 815687
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:decompress_project:decompress:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:decompress_project:decompress:*:*:*:*:*:node.js:*:*
+  - id: 32753
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-12265
+    reference_id: CVE-2020-12265
+  - id: 1467632
+    url: https://github.com/advisories/GHSA-qgfr-5hqp-vrw9
+    reference_id: GHSA-qgfr-5hqp-vrw9
+weaknesses: []

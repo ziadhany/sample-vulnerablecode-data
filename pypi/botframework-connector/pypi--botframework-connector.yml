@@ -1,0 +1,46 @@
+package: pkg:pypi/botframework-connector
+versions:
+  - purl: pkg:pypi/botframework-connector@4.10.0
+    affected_by_vulnerabilities:
+      - VCID-g7wk-137f-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/botframework-connector@4.10.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-g7wk-137f-aaaa
+  - purl: pkg:pypi/botframework-connector@4.7.0
+    affected_by_vulnerabilities:
+      - VCID-g7wk-137f-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/botframework-connector@4.7.1
+    affected_by_vulnerabilities:
+      - VCID-g7wk-137f-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/botframework-connector@4.7.2
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-g7wk-137f-aaaa
+  - purl: pkg:pypi/botframework-connector@4.8.0
+    affected_by_vulnerabilities:
+      - VCID-g7wk-137f-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/botframework-connector@4.8.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-g7wk-137f-aaaa
+  - purl: pkg:pypi/botframework-connector@4.9.0
+    affected_by_vulnerabilities:
+      - VCID-g7wk-137f-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/botframework-connector@4.9.1
+    affected_by_vulnerabilities:
+      - VCID-g7wk-137f-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/botframework-connector@4.9.2
+    affected_by_vulnerabilities:
+      - VCID-g7wk-137f-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/botframework-connector@4.9.3
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-g7wk-137f-aaaa

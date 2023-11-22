@@ -1,0 +1,6 @@
+package: pkg:rpm/redhat/libcdr
+versions:
+  - purl: pkg:rpm/redhat/libcdr@0.1.1-1?arch=el7
+    affected_by_vulnerabilities:
+      - VCID-zm87-g2wx-aaad
+    fixing_vulnerabilities: []

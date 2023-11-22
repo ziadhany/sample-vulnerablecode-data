@@ -1,0 +1,239 @@
+package: pkg:nuget/Microsoft.AspNetCore.App
+versions:
+  - purl: pkg:nuget/Microsoft.AspNetCore.App@2.1.0
+    affected_by_vulnerabilities:
+      - VCID-3c5z-k9qt-aaaa
+      - VCID-63fu-pwhf-aaaf
+      - VCID-bsmn-prby-aaan
+      - VCID-c413-2csk-aaam
+      - VCID-h1ra-1p9m-aaag
+      - VCID-hg9g-j6zh-aaaa
+      - VCID-rcjn-7ufv-aaag
+      - VCID-tsvj-kuwx-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.App@2.1.0-preview1-final
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.App@2.1.0-preview2-final
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.App@2.1.0-rc1-final
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.App@2.1.1
+    affected_by_vulnerabilities:
+      - VCID-3c5z-k9qt-aaaa
+      - VCID-63fu-pwhf-aaaf
+      - VCID-bsmn-prby-aaan
+      - VCID-c413-2csk-aaam
+      - VCID-h1ra-1p9m-aaag
+      - VCID-hg9g-j6zh-aaaa
+      - VCID-rcjn-7ufv-aaag
+      - VCID-tsvj-kuwx-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.App@2.1.10
+    affected_by_vulnerabilities:
+      - VCID-63fu-pwhf-aaaf
+      - VCID-bsmn-prby-aaan
+      - VCID-c413-2csk-aaam
+      - VCID-rcjn-7ufv-aaag
+      - VCID-tsvj-kuwx-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.App@2.1.11
+    affected_by_vulnerabilities:
+      - VCID-63fu-pwhf-aaaf
+      - VCID-bsmn-prby-aaan
+      - VCID-c413-2csk-aaam
+      - VCID-rcjn-7ufv-aaag
+      - VCID-tsvj-kuwx-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.App@2.1.12
+    affected_by_vulnerabilities:
+      - VCID-63fu-pwhf-aaaf
+      - VCID-bsmn-prby-aaan
+      - VCID-c413-2csk-aaam
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities:
+      - VCID-tsvj-kuwx-aaag
+  - purl: pkg:nuget/Microsoft.AspNetCore.App@2.1.13
+    affected_by_vulnerabilities:
+      - VCID-63fu-pwhf-aaaf
+      - VCID-bsmn-prby-aaan
+      - VCID-c413-2csk-aaam
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.App@2.1.14
+    affected_by_vulnerabilities:
+      - VCID-63fu-pwhf-aaaf
+      - VCID-bsmn-prby-aaan
+      - VCID-c413-2csk-aaam
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.App@2.1.15
+    affected_by_vulnerabilities:
+      - VCID-bsmn-prby-aaan
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities:
+      - VCID-63fu-pwhf-aaaf
+      - VCID-c413-2csk-aaam
+  - purl: pkg:nuget/Microsoft.AspNetCore.App@2.1.16
+    affected_by_vulnerabilities:
+      - VCID-bsmn-prby-aaan
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.App@2.1.17
+    affected_by_vulnerabilities:
+      - VCID-bsmn-prby-aaan
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.App@2.1.18
+    affected_by_vulnerabilities:
+      - VCID-bsmn-prby-aaan
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.App@2.1.19
+    affected_by_vulnerabilities:
+      - VCID-bsmn-prby-aaan
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.App@2.1.2
+    affected_by_vulnerabilities:
+      - VCID-3c5z-k9qt-aaaa
+      - VCID-63fu-pwhf-aaaf
+      - VCID-bsmn-prby-aaan
+      - VCID-c413-2csk-aaam
+      - VCID-h1ra-1p9m-aaag
+      - VCID-rcjn-7ufv-aaag
+      - VCID-tsvj-kuwx-aaag
+    fixing_vulnerabilities:
+      - VCID-hg9g-j6zh-aaaa
+  - purl: pkg:nuget/Microsoft.AspNetCore.App@2.1.20
+    affected_by_vulnerabilities:
+      - VCID-bsmn-prby-aaan
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.App@2.1.21
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities:
+      - VCID-bsmn-prby-aaan
+  - purl: pkg:nuget/Microsoft.AspNetCore.App@2.1.22
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+  - purl: pkg:nuget/Microsoft.AspNetCore.App@2.1.3
+    affected_by_vulnerabilities:
+      - VCID-3c5z-k9qt-aaaa
+      - VCID-63fu-pwhf-aaaf
+      - VCID-bsmn-prby-aaan
+      - VCID-c413-2csk-aaam
+      - VCID-h1ra-1p9m-aaag
+      - VCID-rcjn-7ufv-aaag
+      - VCID-tsvj-kuwx-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.App@2.1.4
+    affected_by_vulnerabilities:
+      - VCID-63fu-pwhf-aaaf
+      - VCID-bsmn-prby-aaan
+      - VCID-c413-2csk-aaam
+      - VCID-h1ra-1p9m-aaag
+      - VCID-rcjn-7ufv-aaag
+      - VCID-tsvj-kuwx-aaag
+    fixing_vulnerabilities:
+      - VCID-3c5z-k9qt-aaaa
+  - purl: pkg:nuget/Microsoft.AspNetCore.App@2.1.5
+    affected_by_vulnerabilities:
+      - VCID-63fu-pwhf-aaaf
+      - VCID-bsmn-prby-aaan
+      - VCID-c413-2csk-aaam
+      - VCID-h1ra-1p9m-aaag
+      - VCID-rcjn-7ufv-aaag
+      - VCID-tsvj-kuwx-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.App@2.1.6
+    affected_by_vulnerabilities:
+      - VCID-63fu-pwhf-aaaf
+      - VCID-bsmn-prby-aaan
+      - VCID-c413-2csk-aaam
+      - VCID-h1ra-1p9m-aaag
+      - VCID-rcjn-7ufv-aaag
+      - VCID-tsvj-kuwx-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.App@2.1.7
+    affected_by_vulnerabilities:
+      - VCID-63fu-pwhf-aaaf
+      - VCID-bsmn-prby-aaan
+      - VCID-c413-2csk-aaam
+      - VCID-rcjn-7ufv-aaag
+      - VCID-tsvj-kuwx-aaag
+    fixing_vulnerabilities:
+      - VCID-h1ra-1p9m-aaag
+  - purl: pkg:nuget/Microsoft.AspNetCore.App@2.1.8
+    affected_by_vulnerabilities:
+      - VCID-63fu-pwhf-aaaf
+      - VCID-bsmn-prby-aaan
+      - VCID-c413-2csk-aaam
+      - VCID-rcjn-7ufv-aaag
+      - VCID-tsvj-kuwx-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.App@2.1.9
+    affected_by_vulnerabilities:
+      - VCID-63fu-pwhf-aaaf
+      - VCID-bsmn-prby-aaan
+      - VCID-c413-2csk-aaam
+      - VCID-rcjn-7ufv-aaag
+      - VCID-tsvj-kuwx-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.App@2.2.0
+    affected_by_vulnerabilities:
+      - VCID-h1ra-1p9m-aaag
+      - VCID-tsvj-kuwx-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.App@2.2.1
+    affected_by_vulnerabilities:
+      - VCID-tsvj-kuwx-aaag
+    fixing_vulnerabilities:
+      - VCID-h1ra-1p9m-aaag
+  - purl: pkg:nuget/Microsoft.AspNetCore.App@2.2.2
+    affected_by_vulnerabilities:
+      - VCID-tsvj-kuwx-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.App@2.2.3
+    affected_by_vulnerabilities:
+      - VCID-tsvj-kuwx-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.App@2.2.4
+    affected_by_vulnerabilities:
+      - VCID-tsvj-kuwx-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.App@2.2.5
+    affected_by_vulnerabilities:
+      - VCID-tsvj-kuwx-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.App@2.2.6
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-tsvj-kuwx-aaag
+  - purl: pkg:nuget/Microsoft.AspNetCore.App@3.0.0
+    affected_by_vulnerabilities:
+      - VCID-63fu-pwhf-aaaf
+      - VCID-c413-2csk-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.App@3.0.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-63fu-pwhf-aaaf
+      - VCID-c413-2csk-aaam
+  - purl: pkg:nuget/Microsoft.AspNetCore.App@3.1.0
+    affected_by_vulnerabilities:
+      - VCID-63fu-pwhf-aaaf
+      - VCID-c413-2csk-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.App@3.1.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-63fu-pwhf-aaaf
+      - VCID-c413-2csk-aaam

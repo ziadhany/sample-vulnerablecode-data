@@ -1,0 +1,53 @@
+vulnerability_id: VCID-wqjf-333h-aaac
+aliases:
+  - CVE-2021-25939
+summary: |
+  Server-Side Request Forgery (SSRF)
+  In ArangoDB, versions v3.7.0 through v3.9.0-alpha.1 have a feature which allows downloading a Foxx service from a publicly available URL. This feature does not enforce proper filtering of requests performed internally, which can be abused by a highly-privileged attacker to perform blind SSRF and send internal requests to localhost.
+severities:
+  - id: 219622
+    reference_id: 636479
+    scoring_system: cvssv3
+    value: '2.7'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:N
+  - id: 219621
+    reference_id: 636478
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 523150
+    reference_id: 21761
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:N/I:P/A:N
+  - id: 523148
+    reference_id: 21761
+    scoring_system: cvssv3
+    value: '2.7'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:N
+references:
+  - id: 636479
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-25939.json
+    reference_id:
+  - id: 21764
+    url: https://github.com/arangodb/arangodb/commit/d7b35a6884c6b2802d34d79fb2a79fb2c9ec2175
+    reference_id:
+  - id: 21763
+    url: https://github.com/arangodb/arangodb/commit/d9b7f019d2435f107b19a59190bf9cc27d5f34dd
+    reference_id:
+  - id: 873529
+    url: https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25939
+    reference_id:
+  - id: 636478
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=2053269
+    reference_id: 2053269
+  - id: 873530
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:arangodb:arangodb:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:arangodb:arangodb:*:*:*:*:*:*:*:*
+  - id: 873531
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:arangodb:arangodb:3.9.0:alpha1:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:arangodb:arangodb:3.9.0:alpha1:*:*:*:*:*:*
+  - id: 21761
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-25939
+    reference_id: CVE-2021-25939
+weaknesses: []

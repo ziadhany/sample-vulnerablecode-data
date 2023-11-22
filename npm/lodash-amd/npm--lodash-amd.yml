@@ -1,0 +1,340 @@
+package: pkg:npm/lodash-amd
+versions:
+  - purl: pkg:npm/lodash-amd@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@2.1.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@2.2.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@2.2.1
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@2.3.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@2.4.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@2.4.1
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@3.0.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@3.0.1
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@3.1.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@3.10.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@3.10.1
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@3.10.2
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@3.2.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@3.3.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@3.3.1
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@3.4.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@3.5.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@3.6.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@3.7.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@3.8.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@3.9.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@3.9.2
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@3.9.3
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@4.0.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@4.0.1
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@4.1.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@4.10.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@4.11.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@4.11.1
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@4.11.2
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@4.12.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@4.13.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@4.13.1
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@4.14.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@4.14.1
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@4.14.2
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@4.15.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@4.16.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@4.16.1
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@4.16.2
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@4.16.3
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@4.16.4
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@4.16.5
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@4.16.6
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@4.17.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@4.17.1
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@4.17.10
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@4.17.11
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+    fixing_vulnerabilities:
+      - VCID-w9bm-fzsd-aaac
+  - purl: pkg:npm/lodash-amd@4.17.12
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@4.17.13
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+  - purl: pkg:npm/lodash-amd@4.17.2
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@4.17.3
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@4.17.4
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@4.17.5
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@4.17.9
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@4.2.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@4.2.1
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@4.3.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@4.4.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@4.5.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@4.5.1
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@4.6.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@4.6.1
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@4.7.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@4.8.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@4.8.2
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-amd@4.9.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+      - VCID-w9bm-fzsd-aaac
+    fixing_vulnerabilities: []

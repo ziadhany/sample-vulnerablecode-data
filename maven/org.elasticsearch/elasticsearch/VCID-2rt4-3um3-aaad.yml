@@ -1,0 +1,60 @@
+vulnerability_id: VCID-2rt4-3um3-aaad
+aliases:
+  - CVE-2021-22134
+  - GHSA-hwvv-438r-mhvj
+summary: Exposure of Sensitive Information to an Unauthorized Actor
+severities:
+  - id: 606783
+    reference_id: 928984
+    scoring_system: cvssv3
+    value: '2.6'
+    scoring_elements: CVSS:3.1/AV:A/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N
+  - id: 606782
+    reference_id: 928983
+    scoring_system: rhbs
+    value: low
+    scoring_elements:
+  - id: 511098
+    reference_id: 12636
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:N/A:N
+  - id: 511096
+    reference_id: 12636
+    scoring_system: cvssv3
+    value: '4.3'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N
+  - id: 1366
+    reference_id: 12639
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 928984
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-22134.json
+    reference_id:
+  - id: 12637
+    url: https://discuss.elastic.co/t/elastic-stack-7-11-0-security-update/265835
+    reference_id:
+  - id: 12638
+    url: https://security.netapp.com/advisory/ntap-20210430-0006/
+    reference_id:
+  - id: 389
+    url: https://www.oracle.com/security-alerts/cpuapr2022.html
+    reference_id:
+  - id: 928983
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1934745
+    reference_id: '1934745'
+  - id: 159755
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:elastic:elasticsearch:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:elastic:elasticsearch:*:*:*:*:*:*:*:*
+  - id: 766943
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:communications_cloud_native_core_automated_test_suite:1.8.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:communications_cloud_native_core_automated_test_suite:1.8.0:*:*:*:*:*:*:*
+  - id: 12636
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-22134
+    reference_id: CVE-2021-22134
+  - id: 12639
+    url: https://github.com/advisories/GHSA-hwvv-438r-mhvj
+    reference_id: GHSA-hwvv-438r-mhvj
+weaknesses: []

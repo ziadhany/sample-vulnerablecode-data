@@ -1,0 +1,21 @@
+vulnerability_id: VCID-kgy1-yshb-aaaq
+aliases:
+  - OSVDB-118830
+summary: |
+  Sensitive information in production logs
+  The program stores sensitive information in production logs. This may allow a local attacker to gain access to sensitive information.
+severities: []
+references:
+  - id: 39135
+    url: https://github.com/apsoto/doorkeeper/commit/ff434bb8fc49e132bff4d0f974ee0c1a8a69c143
+    reference_id:
+  - id: 39136
+    url: https://github.com/doorkeeper-gem/doorkeeper/commit/d6bca5f32b741b8cee83a4aeb818338b919181fe
+    reference_id:
+  - id: 39137
+    url: https://github.com/doorkeeper-gem/doorkeeper/issues/576
+    reference_id:
+  - id: 39134
+    url: http://www.osvdb.com/show/osvdb/118830
+    reference_id:
+weaknesses: []

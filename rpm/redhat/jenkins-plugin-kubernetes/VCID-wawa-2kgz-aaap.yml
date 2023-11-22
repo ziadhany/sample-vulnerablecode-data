@@ -1,0 +1,66 @@
+vulnerability_id: VCID-wawa-2kgz-aaap
+aliases:
+  - CVE-2016-0792
+summary: 'CVE-2016-0792 jenkins: Remote code execution through remote API (SECURITY-247)'
+severities:
+  - id: 51098
+    reference_id: 175751
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 211364
+    reference_id: 625529
+    scoring_system: cvssv2
+    value: '9.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:C/I:C/A:C
+  - id: 211362
+    reference_id: 625529
+    scoring_system: cvssv3
+    value: '8.8'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+  - id: 49672
+    reference_id: 174061
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 15573
+    url: http://rhn.redhat.com/errata/RHSA-2016-1773.html
+    reference_id:
+  - id: 625519
+    url: https://access.redhat.com/errata/RHSA-2016:0711
+    reference_id:
+  - id: 175752
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2016-0792.json
+    reference_id:
+  - id: 27020
+    url: https://wiki.jenkins-ci.org/display/SECURITY/Jenkins+Security+Advisory+2016-02-24
+    reference_id:
+  - id: 625526
+    url: https://www.contrastsecurity.com/security-influencers/serialization-must-die-act-2-xstream
+    reference_id:
+  - id: 625527
+    url: https://www.exploit-db.com/exploits/42394/
+    reference_id:
+  - id: 625528
+    url: https://www.exploit-db.com/exploits/43375/
+    reference_id:
+  - id: 175751
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1311950
+    reference_id: 1311950
+  - id: 159205
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:jenkins:jenkins:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:jenkins:jenkins:*:*:*:*:*:*:*:*
+  - id: 159206
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:jenkins:jenkins:*:*:*:*:lts:*:*:*
+    reference_id: cpe:2.3:a:jenkins:jenkins:*:*:*:*:lts:*:*:*
+  - id: 614312
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift:3.1:*:*:*:enterprise:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift:3.1:*:*:*:enterprise:*:*:*
+  - id: 625529
+    url: https://nvd.nist.gov/vuln/detail/CVE-2016-0792
+    reference_id: CVE-2016-0792
+  - id: 174061
+    url: https://access.redhat.com/errata/RHSA-2016:1773
+    reference_id: RHSA-2016:1773
+weaknesses: []

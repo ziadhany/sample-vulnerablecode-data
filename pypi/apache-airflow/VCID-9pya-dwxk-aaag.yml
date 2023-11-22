@@ -1,0 +1,25 @@
+vulnerability_id: VCID-9pya-dwxk-aaag
+aliases:
+  - CVE-2023-25695
+  - GHSA-h6g5-wqqr-3mw3
+summary: Sensitive Information in Error Messages in Apache Airflow
+severities:
+  - id: 708116
+    reference_id: 1472180
+    scoring_system: cvssv3.1_qr
+    value: LOW
+    scoring_elements:
+references:
+  - id: 1472178
+    url: https://github.com/apache/airflow/pull/29501
+    reference_id:
+  - id: 1472179
+    url: https://lists.apache.org/thread/z8w6ckzs61ql365tv4d19k82o67r15p2
+    reference_id:
+  - id: 1472177
+    url: https://nvd.nist.gov/vuln/detail/CVE-2023-25695
+    reference_id: CVE-2023-25695
+  - id: 1472180
+    url: https://github.com/advisories/GHSA-h6g5-wqqr-3mw3
+    reference_id: GHSA-h6g5-wqqr-3mw3
+weaknesses: []

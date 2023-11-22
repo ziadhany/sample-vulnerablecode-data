@@ -1,0 +1,22 @@
+package: pkg:gem/echor
+versions:
+  - purl: pkg:gem/echor@0.0.0
+    affected_by_vulnerabilities:
+      - VCID-tku6-wdp5-aaam
+      - VCID-xf68-p48r-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/echor@0.1.4
+    affected_by_vulnerabilities:
+      - VCID-tku6-wdp5-aaam
+      - VCID-xf68-p48r-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/echor@0.1.5
+    affected_by_vulnerabilities:
+      - VCID-tku6-wdp5-aaam
+      - VCID-xf68-p48r-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/echor@0.1.6
+    affected_by_vulnerabilities:
+      - VCID-tku6-wdp5-aaam
+      - VCID-xf68-p48r-aaaf
+    fixing_vulnerabilities: []

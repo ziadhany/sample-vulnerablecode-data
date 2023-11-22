@@ -1,0 +1,40 @@
+vulnerability_id: VCID-qg6u-axk7-aaab
+aliases:
+  - CVE-2020-7642
+  - GHSA-hg2p-2cvq-4ppv
+summary: |
+  Cross-site Scripting
+  lazysizes allows execution of malicious JavaScript. The following attributes are not sanitized by the video-embed plugin: `data-vimeo`, `data-vimeoparams`, `data-youtube` and `data-ytparams`
+severities:
+  - id: 489201
+    reference_id: 36455
+    scoring_system: cvssv2
+    value: '3.5'
+    scoring_elements: AV:N/AC:M/Au:S/C:N/I:P/A:N
+  - id: 489199
+    reference_id: 36455
+    scoring_system: cvssv3
+    value: '5.4'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N
+  - id: 706340
+    reference_id: 1467898
+    scoring_system: cvssv3.1_qr
+    value: LOW
+    scoring_elements:
+references:
+  - id: 852715
+    url: https://github.com/aFarkas/lazysizes/commit/3720ab8262552d4e063a38d8492f9490a231fd48
+    reference_id:
+  - id: 852716
+    url: https://snyk.io/vuln/SNYK-JS-LAZYSIZES-567144
+    reference_id:
+  - id: 852717
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:lazysizes_project:lazysizes:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:lazysizes_project:lazysizes:*:*:*:*:*:*:*:*
+  - id: 36455
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-7642
+    reference_id: CVE-2020-7642
+  - id: 1467898
+    url: https://github.com/advisories/GHSA-hg2p-2cvq-4ppv
+    reference_id: GHSA-hg2p-2cvq-4ppv
+weaknesses: []

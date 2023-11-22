@@ -1,0 +1,25 @@
+vulnerability_id: VCID-t5jt-9tez-aaan
+aliases:
+  - CVE-2023-25696
+  - GHSA-9mwf-mw74-9cv5
+summary: Apache Airflow Hive Provider Improper Input Validation vulnerability
+severities:
+  - id: 708038
+    reference_id: 1471814
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 1471812
+    url: https://github.com/apache/airflow/pull/29502
+    reference_id:
+  - id: 1471813
+    url: https://lists.apache.org/thread/99g0qm56wmgdxmbtdsvhj4rdnxhpzpml
+    reference_id:
+  - id: 1471811
+    url: https://nvd.nist.gov/vuln/detail/CVE-2023-25696
+    reference_id: CVE-2023-25696
+  - id: 1471814
+    url: https://github.com/advisories/GHSA-9mwf-mw74-9cv5
+    reference_id: GHSA-9mwf-mw74-9cv5
+weaknesses: []

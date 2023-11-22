@@ -1,0 +1,10 @@
+package: pkg:nuget/SS.CMS
+versions:
+  - purl: pkg:nuget/SS.CMS@6.9.0
+    affected_by_vulnerabilities:
+      - VCID-c4t8-rr4t-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/SS.CMS@6.9.1-beta
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-c4t8-rr4t-aaag

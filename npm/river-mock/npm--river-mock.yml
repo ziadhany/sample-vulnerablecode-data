@@ -1,0 +1,10 @@
+package: pkg:npm/river-mock
+versions:
+  - purl: pkg:npm/river-mock@0.0.0
+    affected_by_vulnerabilities:
+      - VCID-y1rx-y8kj-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/river-mock@0.0.1-security
+    affected_by_vulnerabilities:
+      - VCID-y1rx-y8kj-aaak
+    fixing_vulnerabilities: []

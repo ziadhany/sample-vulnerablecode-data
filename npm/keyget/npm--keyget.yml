@@ -1,0 +1,49 @@
+package: pkg:npm/keyget
+versions:
+  - purl: pkg:npm/keyget@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-fmns-b2w4-aaak
+      - VCID-pfmb-5ba3-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keyget@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-fmns-b2w4-aaak
+      - VCID-pfmb-5ba3-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keyget@2.0.1
+    affected_by_vulnerabilities:
+      - VCID-fmns-b2w4-aaak
+      - VCID-pfmb-5ba3-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keyget@2.1.0
+    affected_by_vulnerabilities:
+      - VCID-fmns-b2w4-aaak
+      - VCID-pfmb-5ba3-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keyget@2.2.0
+    affected_by_vulnerabilities:
+      - VCID-fmns-b2w4-aaak
+      - VCID-pfmb-5ba3-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keyget@2.3.0
+    affected_by_vulnerabilities:
+      - VCID-pfmb-5ba3-aaah
+    fixing_vulnerabilities:
+      - VCID-fmns-b2w4-aaak
+  - purl: pkg:npm/keyget@2.3.0-rc.1
+    affected_by_vulnerabilities:
+      - VCID-pfmb-5ba3-aaah
+    fixing_vulnerabilities:
+      - VCID-fmns-b2w4-aaak
+  - purl: pkg:npm/keyget@2.3.0-rc.2
+    affected_by_vulnerabilities:
+      - VCID-pfmb-5ba3-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keyget@2.3.0-rc.3
+    affected_by_vulnerabilities:
+      - VCID-pfmb-5ba3-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keyget@2.4.0
+    affected_by_vulnerabilities:
+      - VCID-pfmb-5ba3-aaah
+    fixing_vulnerabilities: []

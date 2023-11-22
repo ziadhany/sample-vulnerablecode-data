@@ -1,0 +1,31 @@
+vulnerability_id: VCID-xu3t-qbm1-aaac
+aliases:
+  - CVE-2022-36599
+  - GHSA-w3rc-2whg-w934
+summary: Mingsoft MCMS 5.2.8 was discovered to contain a SQL injection vulnerability in /mdiy/model/delete
+  URI via models Lists.
+severities:
+  - id: 644724
+    reference_id: 1344490
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 646300
+    reference_id: 1414680
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 1344489
+    url: https://gitee.com/mingSoft/MCMS/issues/I5I1P5
+    reference_id:
+  - id: 950212
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:mingsoft:mcms:5.2.8:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:mingsoft:mcms:5.2.8:*:*:*:*:*:*:*
+  - id: 1344490
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-36599
+    reference_id: CVE-2022-36599
+  - id: 1414680
+    url: https://github.com/advisories/GHSA-w3rc-2whg-w934
+    reference_id: GHSA-w3rc-2whg-w934
+weaknesses: []

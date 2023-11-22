@@ -1,0 +1,182 @@
+vulnerability_id: VCID-8u7y-frmm-aaah
+aliases:
+  - CVE-2019-14887
+summary: 'CVE-2019-14887 wildfly: The ''enabled-protocols'' value in legacy security is not
+  respected if OpenSSL security provider is in use'
+severities:
+  - id: 53489
+    reference_id: 178531
+    scoring_system: cvssv3
+    value: '7.4'
+    scoring_elements: CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+  - id: 53482
+    reference_id: 178524
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 383305
+    reference_id: 779473
+    scoring_system: cvssv2
+    value: '6.4'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:N
+  - id: 383303
+    reference_id: 779473
+    scoring_system: cvssv3
+    value: '9.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
+  - id: 53487
+    reference_id: 178529
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 53486
+    reference_id: 178528
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 53488
+    reference_id: 178530
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 53483
+    reference_id: 178525
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 53186
+    reference_id: 178202
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 53485
+    reference_id: 178527
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 53484
+    reference_id: 178526
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 52339
+    reference_id: 177155
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 51125
+    reference_id: 175779
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49706
+    reference_id: 174113
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49711
+    reference_id: 174118
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49712
+    reference_id: 174119
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49710
+    reference_id: 174117
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 48860
+    reference_id: 173188
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 178531
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2019-14887.json
+    reference_id:
+  - id: 779470
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2019-14887
+    reference_id:
+  - id: 779471
+    url: https://issues.redhat.com/browse/JBEAP-17965
+    reference_id:
+  - id: 779472
+    url: https://security.netapp.com/advisory/ntap-20200327-0007/
+    reference_id:
+  - id: 178524
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1772008
+    reference_id: 1772008
+  - id: 766308
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_data_grid:7.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_data_grid:7.0.0:*:*:*:*:*:*:*
+  - id: 659699
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:7.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:7.0.0:*:*:*:*:*:*:*
+  - id: 766405
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_fuse:7.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_fuse:7.0.0:*:*:*:*:*:*:*
+  - id: 779474
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift_application_runtimes:-:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift_application_runtimes:-:*:*:*:*:*:*:*
+  - id: 766462
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:single_sign-on:7.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:single_sign-on:7.0:*:*:*:*:*:*:*
+  - id: 779475
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:wildfly:7.2.0:general_availability:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:wildfly:7.2.0:general_availability:*:*:*:*:*:*
+  - id: 779476
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:wildfly:7.2.3:general_availability:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:wildfly:7.2.3:general_availability:*:*:*:*:*:*
+  - id: 779477
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:wildfly:7.2.5:cr2:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:wildfly:7.2.5:cr2:*:*:*:*:*:*
+  - id: 779473
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-14887
+    reference_id: CVE-2019-14887
+  - id: 178529
+    url: https://access.redhat.com/errata/RHSA-2020:0804
+    reference_id: RHSA-2020:0804
+  - id: 178528
+    url: https://access.redhat.com/errata/RHSA-2020:0805
+    reference_id: RHSA-2020:0805
+  - id: 178530
+    url: https://access.redhat.com/errata/RHSA-2020:0806
+    reference_id: RHSA-2020:0806
+  - id: 178525
+    url: https://access.redhat.com/errata/RHSA-2020:0811
+    reference_id: RHSA-2020:0811
+  - id: 178202
+    url: https://access.redhat.com/errata/RHSA-2020:0951
+    reference_id: RHSA-2020:0951
+  - id: 178527
+    url: https://access.redhat.com/errata/RHSA-2020:0961
+    reference_id: RHSA-2020:0961
+  - id: 178526
+    url: https://access.redhat.com/errata/RHSA-2020:0962
+    reference_id: RHSA-2020:0962
+  - id: 177155
+    url: https://access.redhat.com/errata/RHSA-2020:2067
+    reference_id: RHSA-2020:2067
+  - id: 175779
+    url: https://access.redhat.com/errata/RHSA-2020:2333
+    reference_id: RHSA-2020:2333
+  - id: 174113
+    url: https://access.redhat.com/errata/RHSA-2020:2511
+    reference_id: RHSA-2020:2511
+  - id: 174118
+    url: https://access.redhat.com/errata/RHSA-2020:2512
+    reference_id: RHSA-2020:2512
+  - id: 174119
+    url: https://access.redhat.com/errata/RHSA-2020:2513
+    reference_id: RHSA-2020:2513
+  - id: 174117
+    url: https://access.redhat.com/errata/RHSA-2020:2515
+    reference_id: RHSA-2020:2515
+  - id: 173188
+    url: https://access.redhat.com/errata/RHSA-2021:3140
+    reference_id: RHSA-2021:3140
+weaknesses: []

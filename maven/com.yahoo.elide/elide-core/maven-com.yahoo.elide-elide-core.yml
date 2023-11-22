@@ -1,0 +1,574 @@
+package: pkg:maven/com.yahoo.elide/elide-core
+versions:
+  - purl: pkg:maven/com.yahoo.elide/elide-core@1.0.0.1
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@1.0.0.10
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@1.0.0.11
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@1.0.0.12
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@1.0.0.13
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@1.0.0.14
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@1.0.0.15
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@1.0.0.16
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@1.0.0.17
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@1.0.0.18
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@1.0.0.19
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@1.0.0.20
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@1.0.0.21
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@1.0.0.22
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@1.0.0.23
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@1.0.0.24
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@1.0.0.25
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@1.0.0.3
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@1.0.0.4
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@1.0.0.5
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@1.0.0.6
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@1.0.0.7
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@1.0.0.8
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@1.0.0.9
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.0.1
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.0.10
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.0.2
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.0.3
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.0.4
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.0.5
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.0.6
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.0.7
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.0.8
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.0.9
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.1.0
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.2.0
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.2.1
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.2.2
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.3.0
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.3.1
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.3.10
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.3.11
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.3.12
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.3.13
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.3.14
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.3.15
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.3.16
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.3.17
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.3.2
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.3.3
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.3.4
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.3.5
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.3.6
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.3.7
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.3.8
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.3.9
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.4.0
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.4.10
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.4.11
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.4.12
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.4.13
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.4.2
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.4.3
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.4.4
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.4.5
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.4.6
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.4.7
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.4.8
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.4.9
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.5.0
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.5.1
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@2.5.2
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@3.0.0
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@3.0.1
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@3.0.10
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@3.0.11
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@3.0.12
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@3.0.13
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@3.0.14
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@3.0.15
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@3.0.16
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@3.0.2
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@3.0.3
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@3.0.4
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@3.0.5
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@3.0.6
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@3.0.7
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@3.0.8
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@3.0.9
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@3.1.0
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@3.1.1
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@3.1.2
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@3.1.3
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@3.1.4
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@3.2.0
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@3.2.1
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@3.2.2
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@4.0.0
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@4.0.1
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@4.0.2
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@4.0-beta-1
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@4.0-beta-2
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@4.0-beta-3
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@4.0-beta-4
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@4.0-beta-5
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@4.1.0
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@4.2.0
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@4.2.1
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@4.2.10
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@4.2.11
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@4.2.12
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@4.2.14
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@4.2.2
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@4.2.3
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@4.2.4
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@4.2.5
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@4.2.6
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@4.2.7
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@4.2.8
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@4.3.0
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@4.3.1
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@4.3.3
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@4.4.0
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@4.4.1
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@4.4.2
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@4.4.3
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@4.4.4
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@4.4.5
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@4.5.0
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@4.5.1
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@4.5.12
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@4.5.13
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@4.5.14
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+  - purl: pkg:maven/com.yahoo.elide/elide-core@4.5.2
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@4.5.3
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@4.5.4
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@4.5.6
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@4.5.7
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@4.5.8
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@4.5.9
+    affected_by_vulnerabilities:
+      - VCID-x7rt-ws5a-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@6.1.3
+    affected_by_vulnerabilities:
+      - VCID-anzh-qppr-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.elide/elide-core@6.1.4
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-anzh-qppr-aaaa

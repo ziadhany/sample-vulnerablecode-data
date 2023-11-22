@@ -1,0 +1,38 @@
+vulnerability_id: VCID-k96h-h5ac-aaac
+aliases:
+  - CVE-2022-28158
+  - GHSA-4c7h-f2j9-9c46
+summary: Missing permission Phoenix AutoTest Plugin
+severities:
+  - id: 596428
+    reference_id: 666
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:N/A:N
+  - id: 596426
+    reference_id: 666
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+  - id: 24
+    reference_id: 668
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 667
+    url: https://www.jenkins.io/security/advisory/2022-03-29/#SECURITY-2685
+    reference_id:
+  - id: 662
+    url: http://www.openwall.com/lists/oss-security/2022/03/29/1
+    reference_id:
+  - id: 921605
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:jenkins:pipeline\:_phoenix_autotest:*:*:*:*:*:jenkins:*:*
+    reference_id: cpe:2.3:a:jenkins:pipeline\:_phoenix_autotest:*:*:*:*:*:jenkins:*:*
+  - id: 666
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-28158
+    reference_id: CVE-2022-28158
+  - id: 668
+    url: https://github.com/advisories/GHSA-4c7h-f2j9-9c46
+    reference_id: GHSA-4c7h-f2j9-9c46
+weaknesses: []

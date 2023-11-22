@@ -1,0 +1,15 @@
+vulnerability_id: VCID-jzx2-58p2-aaaq
+aliases:
+  - CVE-2022-41076
+summary: |
+  Code Injection
+  PowerShell Remote Code Execution Vulnerability.
+severities: []
+references:
+  - id: 1470701
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-41076
+    reference_id: CVE-2022-41076
+  - id: 1470702
+    url: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41076
+    reference_id: CVE-2022-41076
+weaknesses: []

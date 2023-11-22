@@ -1,0 +1,46 @@
+vulnerability_id: VCID-26tc-mkp5-aaae
+aliases:
+  - CVE-2022-24762
+  - GHSA-4vvg-x86p-mvqc
+summary: |
+  Exposure of Sensitive Information to an Unauthorized Actor
+  sysend.js is a library that allows a user to send messages between pages that are open in the same browser. Users that use cross-origin communication may have their communications intercepted. Impact is limited by the communication occurring in the same browser. This issue has been patched in sysend.js version 1.10.0. The only currently known workaround is to avoid sending communications that a user does not want to have intercepted via sysend messages.
+severities:
+  - id: 589979
+    reference_id: 34197
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:N/A:N
+  - id: 589977
+    reference_id: 34197
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+  - id: 707014
+    reference_id: 34199
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 34196
+    url: https://github.com/jcubic/sysend.js/commit/a24f4b776fb18191ae0f7e3d90c2c7bec459431a
+    reference_id:
+  - id: 34195
+    url: https://github.com/jcubic/sysend.js/issues/33
+    reference_id:
+  - id: 34198
+    url: https://github.com/jcubic/sysend.js/releases/tag/1.10.0
+    reference_id:
+  - id: 917584
+    url: https://github.com/jcubic/sysend.js/security/advisories/GHSA-4vvg-x86p-mvqc
+    reference_id:
+  - id: 917585
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:sysend.js_project:sysend.js:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:sysend.js_project:sysend.js:*:*:*:*:*:node.js:*:*
+  - id: 34197
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-24762
+    reference_id: CVE-2022-24762
+  - id: 34199
+    url: https://github.com/advisories/GHSA-4vvg-x86p-mvqc
+    reference_id: GHSA-4vvg-x86p-mvqc
+weaknesses: []

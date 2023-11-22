@@ -1,0 +1,34 @@
+vulnerability_id: VCID-yb46-w72u-aaag
+aliases:
+  - CVE-2022-25598
+  - GHSA-qg5x-66hp-cw5p
+  - PYSEC-2022-176
+summary: Uncontrolled Resource Consumption in Apache DolphinScheduler
+severities:
+  - id: 591971
+    reference_id: 680
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 591969
+    reference_id: 680
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+references:
+  - id: 1416737
+    url: https://github.com/advisories/GHSA-qg5x-66hp-cw5p
+    reference_id:
+  - id: 682
+    url: https://github.com/pypa/advisory-database/tree/main/vulns/apache-dolphinscheduler/PYSEC-2022-176.yaml
+    reference_id:
+  - id: 681
+    url: https://lists.apache.org/thread/hwnw7xr969sg5nv84wz75nfr2c76fl93
+    reference_id:
+  - id: 876434
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:dolphinscheduler:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:dolphinscheduler:*:*:*:*:*:*:*:*
+  - id: 680
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-25598
+    reference_id: CVE-2022-25598
+weaknesses: []

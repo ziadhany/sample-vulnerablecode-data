@@ -1,0 +1,10 @@
+vulnerability_id: VCID-2q3s-huh9-aaaq
+aliases:
+  - CVE-2022-39278
+summary: Denial of service attack due to Go Regex Library.
+severities: []
+references:
+  - id: 1470888
+    url: https://istio.io/latest/news/security/ISTIO-SECURITY-2022-007/
+    reference_id: ISTIO-SECURITY-2022-007
+weaknesses: []

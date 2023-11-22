@@ -1,0 +1,14 @@
+package: pkg:gem/tmpdir
+versions:
+  - purl: pkg:gem/tmpdir@0.1.0
+    affected_by_vulnerabilities:
+      - VCID-mh1w-vx86-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/tmpdir@0.1.1
+    affected_by_vulnerabilities:
+      - VCID-mh1w-vx86-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/tmpdir@0.1.2
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-mh1w-vx86-aaan

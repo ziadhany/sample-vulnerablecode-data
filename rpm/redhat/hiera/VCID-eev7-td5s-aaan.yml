@@ -1,0 +1,81 @@
+vulnerability_id: VCID-eev7-td5s-aaan
+aliases:
+  - CVE-2018-14623
+  - GHSA-jx5v-788g-qw58
+summary: |
+  SQL Injection
+  An SQL injection was found in katello's errata-related API. An authenticated remote attacker can craft input data to force a malformed SQL query to the backend database, which will leak internal IDs. This is issue is related to an incomplete fix for CVE-2016-3072.
+severities:
+  - id: 613445
+    reference_id: 933884
+    scoring_system: cvssv3
+    value: '4.3'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N
+  - id: 613444
+    reference_id: 933883
+    scoring_system: rhbs
+    value: low
+    scoring_elements:
+  - id: 324159
+    reference_id: 38731
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:N/A:N
+  - id: 324157
+    reference_id: 38731
+    scoring_system: cvssv3
+    value: '4.3'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N
+  - id: 708183
+    reference_id: 1469855
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 707479
+    reference_id: 1469857
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 48853
+    reference_id: 173183
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 933884
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2018-14623.json
+    reference_id:
+  - id: 38733
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2018-14623
+    reference_id:
+  - id: 1469856
+    url: https://web.archive.org/web/20200227100255/http://www.securityfocus.com/bid/106224
+    reference_id:
+  - id: 38732
+    url: http://www.securityfocus.com/bid/106224
+    reference_id:
+  - id: 933883
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1623719
+    reference_id: 1623719
+  - id: 523526
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:katello:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:katello:*:*:*:*:*:*:*:*
+  - id: 1472495
+    url: https://access.redhat.com/security/cve/CVE-2018-14623
+    reference_id: CVE-2018-14623
+  - id: 38731
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-14623
+    reference_id: CVE-2018-14623
+  - id: 1472496
+    url: https://github.com/rubysec/ruby-advisory-db/blob/master/gems/katello/CVE-2018-14623.yml
+    reference_id: CVE-2018-14623.YML
+  - id: 1469855
+    url: https://github.com/advisories/GHSA-527r-mfmj-prqf
+    reference_id: GHSA-527r-mfmj-prqf
+  - id: 1469857
+    url: https://github.com/advisories/GHSA-jx5v-788g-qw58
+    reference_id: GHSA-jx5v-788g-qw58
+  - id: 173183
+    url: https://access.redhat.com/errata/RHSA-2018:0336
+    reference_id: RHSA-2018:0336
+weaknesses: []

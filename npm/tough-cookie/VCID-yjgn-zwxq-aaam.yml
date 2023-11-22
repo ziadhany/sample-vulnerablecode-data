@@ -1,0 +1,17 @@
+vulnerability_id: VCID-yjgn-zwxq-aaam
+aliases:
+  - GMS-2017-210
+summary: |
+  Regular Expression Denial of Service
+  The `tough-cookie` module is vulnerable to regular expression denial of service. Input of around k characters is required for a slow down of around 2 seconds. Unless node was compiled using the `-DHTTP_MAX_HEADER_SIZE=` option the default header max length is kb so the impact of the ReDoS is limited to around seconds of blocking.
+severities:
+  - id: 675715
+    reference_id: 34975
+    scoring_system: generic_textual
+    value: Medium
+    scoring_elements:
+references:
+  - id: 34975
+    url: https://github.com/salesforce/tough-cookie/issues/92
+    reference_id:
+weaknesses: []

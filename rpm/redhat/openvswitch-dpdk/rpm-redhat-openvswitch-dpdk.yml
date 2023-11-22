@@ -1,0 +1,6 @@
+package: pkg:rpm/redhat/openvswitch-dpdk
+versions:
+  - purl: pkg:rpm/redhat/openvswitch-dpdk@2.4.0-0.10346.git97bab959.3?arch=el7_2
+    affected_by_vulnerabilities:
+      - VCID-2hjv-qfcd-aaaa
+    fixing_vulnerabilities: []

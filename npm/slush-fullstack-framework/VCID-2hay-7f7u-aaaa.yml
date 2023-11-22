@@ -1,0 +1,15 @@
+vulnerability_id: VCID-2hay-7f7u-aaaa
+aliases:
+  - GHSA-4j54-mmmv-hjpm
+  - GMS-2020-518
+summary: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+  in slush-fullstack-framework.
+severities: []
+references:
+  - id: 32973
+    url: https://www.npmjs.com/advisories/1108
+    reference_id:
+  - id: 32974
+    url: https://github.com/advisories/GHSA-4j54-mmmv-hjpm
+    reference_id: GHSA-4j54-mmmv-hjpm
+weaknesses: []

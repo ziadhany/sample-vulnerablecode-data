@@ -1,0 +1,12 @@
+vulnerability_id: VCID-2zmb-w7b3-aaad
+aliases:
+  - GMS-2017-197
+summary: |
+  Regular Expression Denial of Service
+  charset is vulnerable to regular expression denial of service. Input of around k characters is required for a slow down of around 2 seconds. Unless node was compiled using the `-DHTTP_MAX_HEADER_SIZE=` option the default header max length is kb so the impact of the ReDoS is relatively low.
+severities: []
+references:
+  - id: 31758
+    url: https://github.com/node-modules/charset/issues/10
+    reference_id:
+weaknesses: []

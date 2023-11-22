@@ -1,0 +1,85 @@
+vulnerability_id: VCID-td3d-v749-aaac
+aliases:
+  - CVE-2017-5653
+  - GHSA-hgg6-8x62-m9gf
+summary: |
+  Improper Certificate Validation
+  JAX-RS XML Security streaming clients in Apache CXF does not validate that the service response was signed or encrypted, which allows remote attackers to spoof servers.
+severities:
+  - id: 623716
+    reference_id: 941199
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
+  - id: 623715
+    reference_id: 941198
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 288229
+    reference_id: 26295
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:P/A:N
+  - id: 288227
+    reference_id: 26295
+    scoring_system: cvssv3
+    value: '5.3'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+  - id: 630339
+    reference_id: 946447
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 51941
+    reference_id: 176643
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 941199
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2017-5653.json
+    reference_id:
+  - id: 10867
+    url: https://lists.apache.org/thread.html/r36e44ffc1a9b365327df62cdfaabe85b9a5637de102cea07d79b2dbf@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10866
+    url: https://lists.apache.org/thread.html/rc774278135816e7afc943dc9fc78eb0764f2c84a2b96470a0187315c@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10872
+    url: https://lists.apache.org/thread.html/rd49aabd984ed540c8ff7916d4d79405f3fa311d2fdbcf9ed307839a6@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10860
+    url: https://lists.apache.org/thread.html/rec7160382badd3ef4ad017a22f64a266c7188b9ba71394f0d321e2d4@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10862
+    url: https://lists.apache.org/thread.html/rfb87e0bf3995e7d560afeed750fac9329ff5f1ad49da365129b7f89e@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10873
+    url: https://lists.apache.org/thread.html/rff42cfa5e7d75b7c1af0e37589140a8f1999e578a75738740b244bd4@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 26296
+    url: http://www.securityfocus.com/bid/97968
+    reference_id:
+  - id: 26297
+    url: http://www.securitytracker.com/id/1038279
+    reference_id:
+  - id: 941198
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1445327
+    reference_id: 1445327
+  - id: 158434
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:*:*:*:*:*:*:*:*
+  - id: 26295
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-5653
+    reference_id: CVE-2017-5653
+  - id: 946446
+    url: http://cxf.apache.org/security-advisories.data/CVE-2017-5653.txt.asc?version=1&modificationDate=1492515074710&api=v2
+    reference_id: CVE-2017-5653.TXT.ASC?VERSION=1&MODIFICATIONDATE=1492515074710&API=V2
+  - id: 946447
+    url: https://github.com/advisories/GHSA-hgg6-8x62-m9gf
+    reference_id: GHSA-hgg6-8x62-m9gf
+  - id: 176643
+    url: https://access.redhat.com/errata/RHSA-2017:1832
+    reference_id: RHSA-2017:1832
+weaknesses: []

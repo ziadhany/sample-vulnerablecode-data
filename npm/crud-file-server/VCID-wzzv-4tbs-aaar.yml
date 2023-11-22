@@ -1,0 +1,42 @@
+vulnerability_id: VCID-wzzv-4tbs-aaar
+aliases:
+  - CVE-2018-3733
+  - GHSA-vfp9-gwrh-wq9g
+summary: crud-file-server node suffers from a Path Traversal vulnerability due to incorrect
+  validation of url, which allows a malicious user to read content of any file with known path.
+severities:
+  - id: 345577
+    reference_id: 36932
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 345575
+    reference_id: 36932
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+  - id: 705914
+    reference_id: 1467347
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 751200
+    url: https://github.com/omphalos/crud-file-server/commit/4fc3b404f718abb789f4ce4272c39c7a138c7a82
+    reference_id:
+  - id: 36933
+    url: https://hackerone.com/reports/310690
+    reference_id:
+  - id: 1467348
+    url: https://www.npmjs.com/advisories/1003
+    reference_id:
+  - id: 751201
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:crud-file-server_project:crud-file-server:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:crud-file-server_project:crud-file-server:*:*:*:*:*:node.js:*:*
+  - id: 36932
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-3733
+    reference_id: CVE-2018-3733
+  - id: 1467347
+    url: https://github.com/advisories/GHSA-vfp9-gwrh-wq9g
+    reference_id: GHSA-vfp9-gwrh-wq9g
+weaknesses: []

@@ -1,0 +1,18 @@
+package: pkg:nuget/Microsoft.AspNetCore.Server.IIS
+versions:
+  - purl: pkg:nuget/Microsoft.AspNetCore.Server.IIS@2.2.0
+    affected_by_vulnerabilities:
+      - VCID-tsvj-kuwx-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Server.IIS@2.2.1
+    affected_by_vulnerabilities:
+      - VCID-tsvj-kuwx-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Server.IIS@2.2.2
+    affected_by_vulnerabilities:
+      - VCID-tsvj-kuwx-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Server.IIS@2.2.6
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-tsvj-kuwx-aaag

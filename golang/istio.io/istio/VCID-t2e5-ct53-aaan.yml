@@ -1,0 +1,50 @@
+vulnerability_id: VCID-t2e5-ct53-aaan
+aliases:
+  - CVE-2019-14993
+summary: 'CVE-2019-14993 istio/envoy: mishandling regular expressions for long URIs leading
+  to DoS'
+severities:
+  - id: 70215
+    reference_id: 200246
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 383649
+    reference_id: 779736
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 383647
+    reference_id: 779736
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+references:
+  - id: 200246
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2019-14993.json
+    reference_id:
+  - id: 779732
+    url: https://discuss.istio.io/t/upcoming-security-updates-in-istio-1-2-4-and-1-1-13/3383
+    reference_id:
+  - id: 779733
+    url: https://gcc.gnu.org/bugzilla/show_bug.cgi?id=86164
+    reference_id:
+  - id: 779734
+    url: https://github.com/envoyproxy/envoy/issues/7728
+    reference_id:
+  - id: 779735
+    url: https://istio.io/blog/2019/istio-security-003-004/
+    reference_id:
+  - id: 767896
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:istio:istio:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:istio:istio:*:*:*:*:*:*:*:*
+  - id: 779736
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-14993
+    reference_id: CVE-2019-14993
+  - id: 1470877
+    url: https://istio.io/latest/news/security/ISTIO-SECURITY-2019-003/
+    reference_id: ISTIO-SECURITY-2019-003
+  - id: 200245
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1759816
+    reference_id: RHEA-2020:1416
+weaknesses: []

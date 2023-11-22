@@ -1,0 +1,46 @@
+vulnerability_id: VCID-tcnx-14hz-aaah
+aliases:
+  - CVE-2015-9236
+  - GHSA-vwrf-r5r4-7775
+summary: |
+  Exposure of Sensitive Information to an Unauthorized Actor
+  Hapi versions less than 11.0.0 implement CORS incorrectly and allowed for configurations that at best returned inconsistent headers and at worst allowed cross-origin activities that were expected to be forbidden. If the connection has CORS enabled but one route has it off, and the route is not GET, the OPTIONS prefetch request will return the default CORS headers and then the actual request will go through and return no CORS headers. This defeats the purpose of turning CORS on the route.
+severities:
+  - id: 207949
+    reference_id: 37202
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 207947
+    reference_id: 37202
+    scoring_system: cvssv3
+    value: '5.3'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+  - id: 705352
+    reference_id: 37205
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 37203
+    url: https://github.com/hapijs/hapi/issues/2840
+    reference_id:
+  - id: 37204
+    url: https://github.com/hapijs/hapi/issues/2850
+    reference_id:
+  - id: 37207
+    url: https://nodesecurity.io/advisories/45
+    reference_id:
+  - id: 37206
+    url: https://www.npmjs.com/advisories/45
+    reference_id:
+  - id: 621306
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:hapijs:hapi:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:hapijs:hapi:*:*:*:*:*:node.js:*:*
+  - id: 37202
+    url: https://nvd.nist.gov/vuln/detail/CVE-2015-9236
+    reference_id: CVE-2015-9236
+  - id: 37205
+    url: https://github.com/advisories/GHSA-vwrf-r5r4-7775
+    reference_id: GHSA-vwrf-r5r4-7775
+weaknesses: []

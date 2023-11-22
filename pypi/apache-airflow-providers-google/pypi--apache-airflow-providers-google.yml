@@ -1,0 +1,352 @@
+package: pkg:pypi/apache-airflow-providers-google
+versions:
+  - purl: pkg:pypi/apache-airflow-providers-google@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@1.0.0b1
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@1.0.0b2
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@1.0.0rc1
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@2.0.0rc1
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@2.1.0
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@2.1.0rc1
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@2.2.0
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@2.2.0rc1
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@3.0.0
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@3.0.0rc1
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@4.0.0
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@4.0.0rc1
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@4.0.0rc2
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@4.1.0rc1
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@5.0.0
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@5.0.0rc2
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@5.1.0
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@5.1.0rc1
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@6.0.0
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@6.0.0rc1
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@6.1.0
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@6.1.0rc1
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@6.2.0
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@6.2.0rc1
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@6.3.0
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@6.3.0rc1
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@6.4.0
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@6.4.0rc1
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@6.4.0rc2
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@6.4.0rc3
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@6.5.0
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@6.5.0rc1
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@6.6.0
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@6.6.0rc1
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@6.7.0
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@6.7.0rc1
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@6.8.0
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@6.8.0rc1
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@7.0.0
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@7.0.0rc1
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@8.0.0
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@8.0.0rc1
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@8.0.0rc2
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@8.1.0
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@8.10.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+  - purl: pkg:pypi/apache-airflow-providers-google@8.10.0rc1
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@8.1.0rc1
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@8.2.0
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@8.2.0rc1
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@8.3.0
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@8.3.0rc1
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@8.3.0rc2
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@8.3.0rc3
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@8.4.0
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@8.4.0rc1
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@8.4.0rc2
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@8.5.0
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@8.5.0rc1
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@8.6.0
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@8.6.0rc2
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@8.6.0rc3
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@8.7.0
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@8.7.0rc1
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@8.7.0rc2
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@8.8.0
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@8.8.0rc1
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@8.9.0
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-google@8.9.0rc1
+    affected_by_vulnerabilities:
+      - VCID-eb23-dnxu-aaab
+      - VCID-m58t-sfbm-aaaj
+    fixing_vulnerabilities: []

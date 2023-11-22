@@ -1,0 +1,32 @@
+vulnerability_id: VCID-2c7b-5jnb-aaaq
+aliases:
+  - CVE-2019-12243
+summary: Istio 1.1.x through 1.1.6 has Incorrect Access Control.
+severities:
+  - id: 368950
+    reference_id: 767895
+    scoring_system: cvssv2
+    value: '5.4'
+    scoring_elements: AV:A/AC:M/Au:N/C:P/I:P/A:P
+  - id: 368948
+    reference_id: 767895
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+references:
+  - id: 767893
+    url: https://istio.io/about/notes/
+    reference_id:
+  - id: 767894
+    url: https://istio.io/blog/2019/cve-2019-12243/
+    reference_id:
+  - id: 767896
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:istio:istio:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:istio:istio:*:*:*:*:*:*:*:*
+  - id: 767895
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-12243
+    reference_id: CVE-2019-12243
+  - id: 1470875
+    url: https://istio.io/latest/news/security/ISTIO-SECURITY-2019-001/
+    reference_id: ISTIO-SECURITY-2019-001
+weaknesses: []

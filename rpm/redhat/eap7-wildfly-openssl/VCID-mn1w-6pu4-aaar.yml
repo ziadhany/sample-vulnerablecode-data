@@ -1,0 +1,188 @@
+vulnerability_id: VCID-mn1w-6pu4-aaar
+aliases:
+  - CVE-2017-2582
+  - GHSA-c77r-6f64-478q
+summary: Moderate severity vulnerability that affects org.keycloak:keycloak-core
+severities:
+  - id: 620499
+    reference_id: 938933
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+  - id: 620490
+    reference_id: 938924
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 280939
+    reference_id: 2788
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:N/A:N
+  - id: 280937
+    reference_id: 2788
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+  - id: 469
+    reference_id: 2789
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 51943
+    reference_id: 176645
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 51944
+    reference_id: 176646
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 51942
+    reference_id: 176644
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 51940
+    reference_id: 176642
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 620496
+    reference_id: 938930
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 620497
+    reference_id: 938931
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 620494
+    reference_id: 938928
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 620495
+    reference_id: 938929
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 620493
+    reference_id: 938927
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 615082
+    reference_id: 935087
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 615081
+    reference_id: 935086
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 615080
+    reference_id: 935085
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 615078
+    reference_id: 935083
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 620491
+    reference_id: 938925
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 620492
+    reference_id: 938926
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 620498
+    reference_id: 938932
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 938933
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2017-2582.json
+    reference_id:
+  - id: 34965
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2017-2582
+    reference_id:
+  - id: 696195
+    url: https://github.com/keycloak/keycloak/pull/3715/commits/0cb5ba0f6e83162d221681f47b470c3042eef237
+    reference_id:
+  - id: 34964
+    url: http://www.securityfocus.com/bid/101046
+    reference_id:
+  - id: 11139
+    url: http://www.securitytracker.com/id/1041707
+    reference_id:
+  - id: 938924
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1410481
+    reference_id: 1410481
+  - id: 568146
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:keycloak:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:keycloak:*:*:*:*:*:*:*:*
+  - id: 2788
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-2582
+    reference_id: CVE-2017-2582
+  - id: 2789
+    url: https://github.com/advisories/GHSA-c77r-6f64-478q
+    reference_id: GHSA-c77r-6f64-478q
+  - id: 176645
+    url: https://access.redhat.com/errata/RHSA-2017:2808
+    reference_id: RHSA-2017:2808
+  - id: 176646
+    url: https://access.redhat.com/errata/RHSA-2017:2809
+    reference_id: RHSA-2017:2809
+  - id: 176644
+    url: https://access.redhat.com/errata/RHSA-2017:2810
+    reference_id: RHSA-2017:2810
+  - id: 176642
+    url: https://access.redhat.com/errata/RHSA-2017:2811
+    reference_id: RHSA-2017:2811
+  - id: 938930
+    url: https://access.redhat.com/errata/RHSA-2017:3216
+    reference_id: RHSA-2017:3216
+  - id: 938931
+    url: https://access.redhat.com/errata/RHSA-2017:3217
+    reference_id: RHSA-2017:3217
+  - id: 938928
+    url: https://access.redhat.com/errata/RHSA-2017:3218
+    reference_id: RHSA-2017:3218
+  - id: 938929
+    url: https://access.redhat.com/errata/RHSA-2017:3219
+    reference_id: RHSA-2017:3219
+  - id: 938927
+    url: https://access.redhat.com/errata/RHSA-2017:3220
+    reference_id: RHSA-2017:3220
+  - id: 935087
+    url: https://access.redhat.com/errata/RHSA-2018:2740
+    reference_id: RHSA-2018:2740
+  - id: 935086
+    url: https://access.redhat.com/errata/RHSA-2018:2741
+    reference_id: RHSA-2018:2741
+  - id: 935085
+    url: https://access.redhat.com/errata/RHSA-2018:2742
+    reference_id: RHSA-2018:2742
+  - id: 935083
+    url: https://access.redhat.com/errata/RHSA-2018:2743
+    reference_id: RHSA-2018:2743
+  - id: 938925
+    url: https://access.redhat.com/errata/RHSA-2019:0136
+    reference_id: RHSA-2019:0136
+  - id: 938926
+    url: https://access.redhat.com/errata/RHSA-2019:0137
+    reference_id: RHSA-2019:0137
+  - id: 938932
+    url: https://access.redhat.com/errata/RHSA-2019:0139
+    reference_id: RHSA-2019:0139
+weaknesses: []

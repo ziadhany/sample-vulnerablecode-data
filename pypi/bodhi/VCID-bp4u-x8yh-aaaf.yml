@@ -1,0 +1,28 @@
+vulnerability_id: VCID-bp4u-x8yh-aaaf
+aliases:
+  - CVE-2017-1002152
+  - PYSEC-2019-150
+summary: Bodhi 2.9.0 and lower is vulnerable to cross-site scripting resulting in code injection
+  caused by incorrect validation of bug titles.
+severities:
+  - id: 250704
+    reference_id: 23571
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+  - id: 250702
+    reference_id: 23571
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+references:
+  - id: 6186
+    url: https://github.com/fedora-infra/bodhi/issues/1740
+    reference_id:
+  - id: 669455
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:bodhi:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:bodhi:*:*:*:*:*:*:*:*
+  - id: 23571
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-1002152
+    reference_id: CVE-2017-1002152
+weaknesses: []

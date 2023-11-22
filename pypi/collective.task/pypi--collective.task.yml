@@ -1,0 +1,62 @@
+package: pkg:pypi/collective.task
+versions:
+  - purl: pkg:pypi/collective.task@2.1
+    affected_by_vulnerabilities:
+      - VCID-reg6-34bw-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.task@2.2
+    affected_by_vulnerabilities:
+      - VCID-reg6-34bw-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.task@2.2.1
+    affected_by_vulnerabilities:
+      - VCID-reg6-34bw-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.task@2.3
+    affected_by_vulnerabilities:
+      - VCID-reg6-34bw-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.task@2.5
+    affected_by_vulnerabilities:
+      - VCID-reg6-34bw-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.task@3.0
+    affected_by_vulnerabilities:
+      - VCID-reg6-34bw-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.task@3.0.1
+    affected_by_vulnerabilities:
+      - VCID-reg6-34bw-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.task@3.0.2
+    affected_by_vulnerabilities:
+      - VCID-reg6-34bw-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.task@3.0.3
+    affected_by_vulnerabilities:
+      - VCID-reg6-34bw-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.task@3.0.4
+    affected_by_vulnerabilities:
+      - VCID-reg6-34bw-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.task@3.0.5
+    affected_by_vulnerabilities:
+      - VCID-reg6-34bw-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.task@3.0.6
+    affected_by_vulnerabilities:
+      - VCID-reg6-34bw-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.task@3.0.7
+    affected_by_vulnerabilities:
+      - VCID-reg6-34bw-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.task@3.0.8
+    affected_by_vulnerabilities:
+      - VCID-reg6-34bw-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.task@3.0.9
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-reg6-34bw-aaac

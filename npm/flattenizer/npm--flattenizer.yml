@@ -1,0 +1,38 @@
+package: pkg:npm/flattenizer
+versions:
+  - purl: pkg:npm/flattenizer@0.0.5
+    affected_by_vulnerabilities:
+      - VCID-8nme-w4qr-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/flattenizer@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-8nme-w4qr-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/flattenizer@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-8nme-w4qr-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/flattenizer@1.0.2
+    affected_by_vulnerabilities:
+      - VCID-8nme-w4qr-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/flattenizer@1.0.3
+    affected_by_vulnerabilities:
+      - VCID-8nme-w4qr-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/flattenizer@1.0.4
+    affected_by_vulnerabilities:
+      - VCID-8nme-w4qr-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/flattenizer@1.0.5
+    affected_by_vulnerabilities:
+      - VCID-8nme-w4qr-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/flattenizer@1.1.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-8nme-w4qr-aaaa
+  - purl: pkg:npm/flattenizer@1.1.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-8nme-w4qr-aaaa

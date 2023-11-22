@@ -1,0 +1,109 @@
+vulnerability_id: VCID-bgy8-u88m-aaak
+aliases:
+  - CVE-2021-26423
+  - GHSA-rh58-r7jh-xhx3
+summary: .NET Core and Visual Studio Denial of Service Vulnerability
+severities:
+  - id: 603144
+    reference_id: 926307
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 603143
+    reference_id: 926306
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 524114
+    reference_id: 874070
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 524112
+    reference_id: 874070
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 647974
+    reference_id: 1418161
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 647973
+    reference_id: 1418159
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 603135
+    reference_id: 926299
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 603138
+    reference_id: 926302
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 603140
+    reference_id: 926304
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 603139
+    reference_id: 926303
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 926307
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-26423.json
+    reference_id:
+  - id: 1418160
+    url: https://github.com/dotnet/announcements/issues/194
+    reference_id:
+  - id: 874069
+    url: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26423
+    reference_id:
+  - id: 926306
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1990295
+    reference_id: '1990295'
+  - id: 855833
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:.net:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:.net:*:*:*:*:*:*:*:*
+  - id: 813085
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:.net_core:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:.net_core:*:*:*:*:*:*:*:*
+  - id: 874071
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:powershell_core:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:powershell_core:*:*:*:*:*:*:*:*
+  - id: 775516
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:visual_studio_2017:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:visual_studio_2017:*:*:*:*:*:*:*:*
+  - id: 776266
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:visual_studio_2019:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:visual_studio_2019:*:*:*:*:*:*:*:*
+  - id: 874072
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:visual_studio_2019:8.10:*:*:*:*:macos:*:*
+    reference_id: cpe:2.3:a:microsoft:visual_studio_2019:8.10:*:*:*:*:macos:*:*
+  - id: 874070
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-26423
+    reference_id: CVE-2021-26423
+  - id: 1418161
+    url: https://github.com/advisories/GHSA-rh58-r7jh-xhx3
+    reference_id: GHSA-rh58-r7jh-xhx3
+  - id: 1418159
+    url: https://github.com/dotnet/runtime/security/advisories/GHSA-rh58-r7jh-xhx3
+    reference_id: GHSA-rh58-r7jh-xhx3
+  - id: 926299
+    url: https://access.redhat.com/errata/RHSA-2021:3142
+    reference_id: RHSA-2021:3142
+  - id: 926302
+    url: https://access.redhat.com/errata/RHSA-2021:3143
+    reference_id: RHSA-2021:3143
+  - id: 926304
+    url: https://access.redhat.com/errata/RHSA-2021:3147
+    reference_id: RHSA-2021:3147
+  - id: 926303
+    url: https://access.redhat.com/errata/RHSA-2021:3148
+    reference_id: RHSA-2021:3148
+weaknesses: []

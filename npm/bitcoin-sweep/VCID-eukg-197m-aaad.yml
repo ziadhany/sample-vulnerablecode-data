@@ -1,0 +1,23 @@
+vulnerability_id: VCID-eukg-197m-aaad
+aliases:
+  - GHSA-8hqw-qp6r-vqcm
+  - GMS-2020-114
+summary: |
+  Malicious Package
+  All versions of this package contained malware. The package was designed to find and exfiltrate cryptocurrency wallets. Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer.
+
+  The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.
+severities:
+  - id: 704766
+    reference_id: 34766
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 34765
+    url: https://www.npmjs.com/advisories/1366
+    reference_id:
+  - id: 34766
+    url: https://github.com/advisories/GHSA-8hqw-qp6r-vqcm
+    reference_id: GHSA-8hqw-qp6r-vqcm
+weaknesses: []

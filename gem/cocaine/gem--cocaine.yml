@@ -1,0 +1,30 @@
+package: pkg:gem/cocaine
+versions:
+  - purl: pkg:gem/cocaine@0.4.0
+    affected_by_vulnerabilities:
+      - VCID-e2uz-e7xy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/cocaine@0.4.1
+    affected_by_vulnerabilities:
+      - VCID-e2uz-e7xy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/cocaine@0.4.2
+    affected_by_vulnerabilities:
+      - VCID-e2uz-e7xy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/cocaine@0.5.0
+    affected_by_vulnerabilities:
+      - VCID-e2uz-e7xy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/cocaine@0.5.1
+    affected_by_vulnerabilities:
+      - VCID-e2uz-e7xy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/cocaine@0.5.2
+    affected_by_vulnerabilities:
+      - VCID-e2uz-e7xy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/cocaine@0.5.3
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-e2uz-e7xy-aaab

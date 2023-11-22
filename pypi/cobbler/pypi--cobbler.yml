@@ -1,0 +1,61 @@
+package: pkg:pypi/cobbler
+versions:
+  - purl: pkg:pypi/cobbler@0.0a0
+    affected_by_vulnerabilities:
+      - VCID-bh9b-sufh-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cobbler@0.6.3.post2
+    affected_by_vulnerabilities:
+      - VCID-1x5a-sgzp-aaaa
+      - VCID-3tm7-2kmz-aaag
+      - VCID-enbf-yhvu-aaah
+      - VCID-kzy9-kj63-aaah
+      - VCID-skh8-eckg-aaah
+      - VCID-yd9d-s9uq-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cobbler@3.1.2
+    affected_by_vulnerabilities:
+      - VCID-1x5a-sgzp-aaaa
+      - VCID-3tm7-2kmz-aaag
+      - VCID-enbf-yhvu-aaah
+      - VCID-kzy9-kj63-aaah
+      - VCID-skh8-eckg-aaah
+      - VCID-yd9d-s9uq-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cobbler@3.2.1
+    affected_by_vulnerabilities:
+      - VCID-1x5a-sgzp-aaaa
+      - VCID-3tm7-2kmz-aaag
+      - VCID-enbf-yhvu-aaah
+      - VCID-kzy9-kj63-aaah
+      - VCID-skh8-eckg-aaah
+      - VCID-yd9d-s9uq-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cobbler@3.2.2
+    affected_by_vulnerabilities:
+      - VCID-1x5a-sgzp-aaaa
+      - VCID-3tm7-2kmz-aaag
+      - VCID-enbf-yhvu-aaah
+      - VCID-kzy9-kj63-aaah
+      - VCID-skh8-eckg-aaah
+      - VCID-yd9d-s9uq-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cobbler@3.3.0
+    affected_by_vulnerabilities:
+      - VCID-1x5a-sgzp-aaaa
+      - VCID-3tm7-2kmz-aaag
+      - VCID-kzy9-kj63-aaah
+    fixing_vulnerabilities:
+      - VCID-enbf-yhvu-aaah
+      - VCID-skh8-eckg-aaah
+      - VCID-yd9d-s9uq-aaae
+  - purl: pkg:pypi/cobbler@3.3.1
+    affected_by_vulnerabilities:
+      - VCID-1x5a-sgzp-aaaa
+    fixing_vulnerabilities:
+      - VCID-3tm7-2kmz-aaag
+      - VCID-kzy9-kj63-aaah
+  - purl: pkg:pypi/cobbler@3.3.2
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-1x5a-sgzp-aaaa

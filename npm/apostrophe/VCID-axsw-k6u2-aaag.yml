@@ -1,0 +1,28 @@
+vulnerability_id: VCID-axsw-k6u2-aaag
+aliases:
+  - CVE-2022-28396
+summary: |
+  Code Injection
+  Apostrophe v3.16.1 was discovered to contain a remote code execution (RCE) vulnerability via the component uploadfs.
+severities:
+  - id: 596951
+    reference_id: 33344
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 596949
+    reference_id: 33344
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+references:
+  - id: 33345
+    url: https://www.npmjs.com/package/apostrophe
+    reference_id:
+  - id: 921874
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apostrophecms:apostrophecms:3.16.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apostrophecms:apostrophecms:3.16.1:*:*:*:*:*:*:*
+  - id: 33344
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-28396
+    reference_id: CVE-2022-28396
+weaknesses: []

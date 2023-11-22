@@ -1,0 +1,40 @@
+vulnerability_id: VCID-hpjz-33xg-aaaa
+aliases:
+  - CVE-2019-15607
+  - GHSA-8w65-xjc5-9w79
+summary: |
+  Cross-site Scripting
+  A stored XSS vulnerability is present within the node-red npm package, which is a visual tool for wiring the Internet of Things. This issue will allow the attacker to steal session cookies, deface web applications, etc.
+severities:
+  - id: 385763
+    reference_id: 36374
+    scoring_system: cvssv2
+    value: '3.5'
+    scoring_elements: AV:N/AC:M/Au:S/C:N/I:P/A:N
+  - id: 385761
+    reference_id: 36374
+    scoring_system: cvssv3
+    value: '5.4'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N
+  - id: 706043
+    reference_id: 1467517
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 36375
+    url: https://hackerone.com/reports/681986
+    reference_id:
+  - id: 1467516
+    url: https://www.npmjs.com/advisories/1456
+    reference_id:
+  - id: 781185
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:nodered:node-red:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:nodered:node-red:*:*:*:*:*:node.js:*:*
+  - id: 36374
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-15607
+    reference_id: CVE-2019-15607
+  - id: 1467517
+    url: https://github.com/advisories/GHSA-8w65-xjc5-9w79
+    reference_id: GHSA-8w65-xjc5-9w79
+weaknesses: []

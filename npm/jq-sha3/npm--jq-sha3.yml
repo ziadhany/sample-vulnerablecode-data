@@ -1,0 +1,10 @@
+package: pkg:npm/jq-sha3
+versions:
+  - purl: pkg:npm/jq-sha3@0.0.0
+    affected_by_vulnerabilities:
+      - VCID-nsd7-ky4f-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/jq-sha3@0.0.1-security
+    affected_by_vulnerabilities:
+      - VCID-nsd7-ky4f-aaar
+    fixing_vulnerabilities: []

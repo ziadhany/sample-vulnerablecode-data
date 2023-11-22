@@ -1,0 +1,55 @@
+vulnerability_id: VCID-5wea-ygr8-aaap
+aliases:
+  - CVE-2014-4991
+  - GHSA-w9vv-fvw8-j6q3
+summary: |
+  Command injection vulnerability
+  It exposes the password to the process table, and is vulnerable to command injection if used in the context of a RoR application. The #{@username} and #{@password} variables aren't properly sanitized before being passed to the command line.
+severities:
+  - id: 183300
+    reference_id: 574294
+    scoring_system: cvssv2
+    value: '2.1'
+    scoring_elements: AV:L/AC:L/Au:N/C:P/I:N/A:N
+  - id: 183298
+    reference_id: 574294
+    scoring_system: cvssv3
+    value: '7.8'
+    scoring_elements: CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+  - id: 708174
+    reference_id: 1472433
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 1472430
+    url: https://github.com/codders/dataset/blob/master/lib/dataset/database/mysql.rb#L16-L27
+    reference_id:
+  - id: 1472431
+    url: https://github.com/codders/dataset/blob/master/lib/dataset/database/postgresql.rb#L16-L27
+    reference_id:
+  - id: 1472432
+    url: https://web.archive.org/web/20200229055915/https://www.securityfocus.com/bid/68733/
+    reference_id:
+  - id: 574292
+    url: http://www.openwall.com/lists/oss-security/2014/07/07/8
+    reference_id:
+  - id: 27312
+    url: http://www.openwall.com/lists/oss-security/2014/07/17/5
+    reference_id:
+  - id: 574293
+    url: http://www.securityfocus.com/bid/68733
+    reference_id:
+  - id: 38758
+    url: http://www.vapid.dhs.org/advisories/codders-dataset-1.3.2.1.html
+    reference_id:
+  - id: 574295
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:codders-dataset_project:codders-dataset:1.3.2.1:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:codders-dataset_project:codders-dataset:1.3.2.1:*:*:*:*:ruby:*:*
+  - id: 574294
+    url: https://nvd.nist.gov/vuln/detail/CVE-2014-4991
+    reference_id: CVE-2014-4991
+  - id: 1472433
+    url: https://github.com/advisories/GHSA-w9vv-fvw8-j6q3
+    reference_id: GHSA-w9vv-fvw8-j6q3
+weaknesses: []

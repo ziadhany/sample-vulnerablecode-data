@@ -1,0 +1,113 @@
+vulnerability_id: VCID-ejrs-b1xv-aaah
+aliases:
+  - CVE-2014-0036
+  - GHSA-ww79-8xwv-932x
+summary: Moderate severity vulnerability that affects rbovirt
+severities:
+  - id: 60183
+    reference_id: 187173
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 174005
+    reference_id: 30685
+    scoring_system: cvssv2
+    value: '6.8'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:P/A:P
+  - id: 5354
+    reference_id: 30687
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 30688
+    url: http://lists.fedoraproject.org/pipermail/package-announce/2014-March/130148.html
+    reference_id:
+  - id: 30689
+    url: http://lists.fedoraproject.org/pipermail/package-announce/2014-March/130180.html
+    reference_id:
+  - id: 187174
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2014-0036.json
+    reference_id:
+  - id: 30690
+    url: http://seclists.org/oss-sec/2014/q1/509
+    reference_id:
+  - id: 187173
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1058595
+    reference_id: 1058595
+  - id: 549384
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:amos_benari:rbovirt:0.0.10:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:amos_benari:rbovirt:0.0.10:*:*:*:*:ruby:*:*
+  - id: 549385
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:amos_benari:rbovirt:0.0.11:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:amos_benari:rbovirt:0.0.11:*:*:*:*:ruby:*:*
+  - id: 549386
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:amos_benari:rbovirt:0.0.12:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:amos_benari:rbovirt:0.0.12:*:*:*:*:ruby:*:*
+  - id: 549387
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:amos_benari:rbovirt:0.0.13:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:amos_benari:rbovirt:0.0.13:*:*:*:*:ruby:*:*
+  - id: 549388
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:amos_benari:rbovirt:0.0.14:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:amos_benari:rbovirt:0.0.14:*:*:*:*:ruby:*:*
+  - id: 549389
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:amos_benari:rbovirt:0.0.15:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:amos_benari:rbovirt:0.0.15:*:*:*:*:ruby:*:*
+  - id: 549390
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:amos_benari:rbovirt:0.0.16:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:amos_benari:rbovirt:0.0.16:*:*:*:*:ruby:*:*
+  - id: 549391
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:amos_benari:rbovirt:0.0.17:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:amos_benari:rbovirt:0.0.17:*:*:*:*:ruby:*:*
+  - id: 549392
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:amos_benari:rbovirt:0.0.18:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:amos_benari:rbovirt:0.0.18:*:*:*:*:ruby:*:*
+  - id: 549393
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:amos_benari:rbovirt:0.0.19:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:amos_benari:rbovirt:0.0.19:*:*:*:*:ruby:*:*
+  - id: 549394
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:amos_benari:rbovirt:0.0.1:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:amos_benari:rbovirt:0.0.1:*:*:*:*:ruby:*:*
+  - id: 549395
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:amos_benari:rbovirt:0.0.20:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:amos_benari:rbovirt:0.0.20:*:*:*:*:ruby:*:*
+  - id: 549396
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:amos_benari:rbovirt:0.0.21:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:amos_benari:rbovirt:0.0.21:*:*:*:*:ruby:*:*
+  - id: 549397
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:amos_benari:rbovirt:0.0.22:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:amos_benari:rbovirt:0.0.22:*:*:*:*:ruby:*:*
+  - id: 549398
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:amos_benari:rbovirt:0.0.2:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:amos_benari:rbovirt:0.0.2:*:*:*:*:ruby:*:*
+  - id: 549399
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:amos_benari:rbovirt:0.0.3:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:amos_benari:rbovirt:0.0.3:*:*:*:*:ruby:*:*
+  - id: 549400
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:amos_benari:rbovirt:0.0.4:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:amos_benari:rbovirt:0.0.4:*:*:*:*:ruby:*:*
+  - id: 549401
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:amos_benari:rbovirt:0.0.5:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:amos_benari:rbovirt:0.0.5:*:*:*:*:ruby:*:*
+  - id: 549402
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:amos_benari:rbovirt:0.0.6:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:amos_benari:rbovirt:0.0.6:*:*:*:*:ruby:*:*
+  - id: 549403
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:amos_benari:rbovirt:0.0.7:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:amos_benari:rbovirt:0.0.7:*:*:*:*:ruby:*:*
+  - id: 549404
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:amos_benari:rbovirt:0.0.8:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:amos_benari:rbovirt:0.0.8:*:*:*:*:ruby:*:*
+  - id: 549405
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:amos_benari:rbovirt:0.0.9:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:amos_benari:rbovirt:0.0.9:*:*:*:*:ruby:*:*
+  - id: 549383
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:amos_benari:rbovirt:*:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:amos_benari:rbovirt:*:*:*:*:*:ruby:*:*
+  - id: 30685
+    url: https://nvd.nist.gov/vuln/detail/CVE-2014-0036
+    reference_id: CVE-2014-0036
+  - id: 30687
+    url: https://github.com/advisories/GHSA-ww79-8xwv-932x
+    reference_id: GHSA-ww79-8xwv-932x
+weaknesses: []

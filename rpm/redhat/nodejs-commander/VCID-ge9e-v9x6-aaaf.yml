@@ -1,0 +1,39 @@
+vulnerability_id: VCID-ge9e-v9x6-aaaf
+aliases:
+  - CVE-2013-2033
+summary: 'CVE-2013-2033 Jenkins: Build Description XSS'
+severities:
+  - id: 164669
+    reference_id: 522641
+    scoring_system: cvssv2
+    value: '2.1'
+    scoring_elements: AV:N/AC:H/Au:S/C:N/I:P/A:N
+references:
+  - id: 522639
+    url: http://osvdb.org/92982
+    reference_id:
+  - id: 189955
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2013-2033.json
+    reference_id:
+  - id: 522640
+    url: https://exchange.xforce.ibmcloud.com/vulnerabilities/84004
+    reference_id:
+  - id: 520537
+    url: http://www.cloudbees.com/jenkins-advisory/jenkins-security-advisory-2013-05-02.cb
+    reference_id:
+  - id: 481302
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:cloudbees:jenkins:*:*:*:*:enterprise:*:*:*
+    reference_id: cpe:2.3:a:cloudbees:jenkins:*:*:*:*:enterprise:*:*:*
+  - id: 159205
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:jenkins:jenkins:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:jenkins:jenkins:*:*:*:*:*:*:*:*
+  - id: 159206
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:jenkins:jenkins:*:*:*:*:lts:*:*:*
+    reference_id: cpe:2.3:a:jenkins:jenkins:*:*:*:*:lts:*:*:*
+  - id: 522641
+    url: https://nvd.nist.gov/vuln/detail/CVE-2013-2033
+    reference_id: CVE-2013-2033
+  - id: 189954
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=958957
+    reference_id: RHEA-2013:1032
+weaknesses: []

@@ -1,0 +1,198 @@
+package: pkg:npm/insight-api
+versions:
+  - purl: pkg:npm/insight-api@0.0.0
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/insight-api@0.3.0
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/insight-api@0.3.1
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/insight-api@0.3.2
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/insight-api@0.4.0
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/insight-api@0.4.1
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/insight-api@0.4.2
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/insight-api@0.4.3
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/insight-api@5.0.0
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/insight-api@5.0.0-beta.1
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/insight-api@5.0.0-beta.11
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/insight-api@5.0.0-beta.12
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/insight-api@5.0.0-beta.13
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/insight-api@5.0.0-beta.14
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/insight-api@5.0.0-beta.15
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/insight-api@5.0.0-beta.16
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/insight-api@5.0.0-beta.17
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/insight-api@5.0.0-beta.18
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/insight-api@5.0.0-beta.19
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/insight-api@5.0.0-beta.2
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/insight-api@5.0.0-beta.20
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/insight-api@5.0.0-beta.21
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/insight-api@5.0.0-beta.22
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/insight-api@5.0.0-beta.23
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/insight-api@5.0.0-beta.24
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/insight-api@5.0.0-beta.25
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/insight-api@5.0.0-beta.26
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/insight-api@5.0.0-beta.27
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/insight-api@5.0.0-beta.28
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/insight-api@5.0.0-beta.29
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/insight-api@5.0.0-beta.3
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/insight-api@5.0.0-beta.30
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/insight-api@5.0.0-beta.31
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/insight-api@5.0.0-beta.32
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/insight-api@5.0.0-beta.33
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/insight-api@5.0.0-beta.34
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/insight-api@5.0.0-beta.35
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/insight-api@5.0.0-beta.36
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/insight-api@5.0.0-beta.37
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/insight-api@5.0.0-beta.38
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/insight-api@5.0.0-beta.39
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/insight-api@5.0.0-beta.4
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/insight-api@5.0.0-beta.40
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/insight-api@5.0.0-beta.41
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/insight-api@5.0.0-beta.42
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/insight-api@5.0.0-beta.43
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/insight-api@5.0.0-beta.44
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/insight-api@5.0.0-beta.5
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/insight-api@5.0.0-beta.6
+    affected_by_vulnerabilities:
+      - VCID-m21k-ve83-aaab
+    fixing_vulnerabilities: []

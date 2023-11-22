@@ -1,0 +1,35 @@
+vulnerability_id: VCID-ha49-uv5v-aaah
+aliases:
+  - CVE-2021-38555
+  - GHSA-838r-hvwh-24h8
+summary: XML Injection in Any23
+severities:
+  - id: 554781
+    reference_id: 10347
+    scoring_system: cvssv2
+    value: '6.4'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:N
+  - id: 554779
+    reference_id: 10347
+    scoring_system: cvssv3
+    value: '9.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
+  - id: 965
+    reference_id: 10349
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 10348
+    url: https://lists.apache.org/thread.html/r589d1a9f94dbeee7a0f5dbe8513a0e300dfe669bd964ba2fbfe28e07%40%3Cannounce.apache.org%3E
+    reference_id:
+  - id: 894079
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:any23:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:any23:*:*:*:*:*:*:*:*
+  - id: 10347
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-38555
+    reference_id: CVE-2021-38555
+  - id: 10349
+    url: https://github.com/advisories/GHSA-838r-hvwh-24h8
+    reference_id: GHSA-838r-hvwh-24h8
+weaknesses: []

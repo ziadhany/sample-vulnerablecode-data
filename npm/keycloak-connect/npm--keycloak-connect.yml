@@ -1,0 +1,1848 @@
+package: pkg:npm/keycloak-connect
+versions:
+  - purl: pkg:npm/keycloak-connect@0.0.17
+    affected_by_vulnerabilities:
+      - VCID-1cjj-syex-aaar
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-a39j-e5q2-aaan
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j4st-9p5f-aaae
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-mn1w-6pu4-aaar
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-v6wq-pc8s-aaam
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@0.1.0
+    affected_by_vulnerabilities:
+      - VCID-1cjj-syex-aaar
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-a39j-e5q2-aaan
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j4st-9p5f-aaae
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-mn1w-6pu4-aaar
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-v6wq-pc8s-aaam
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@0.2.0
+    affected_by_vulnerabilities:
+      - VCID-1cjj-syex-aaar
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-a39j-e5q2-aaan
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j4st-9p5f-aaae
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-mn1w-6pu4-aaar
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-v6wq-pc8s-aaam
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@0.2.1
+    affected_by_vulnerabilities:
+      - VCID-1cjj-syex-aaar
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-a39j-e5q2-aaan
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j4st-9p5f-aaae
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-mn1w-6pu4-aaar
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-v6wq-pc8s-aaam
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@10.0.0
+    affected_by_vulnerabilities:
+      - VCID-5yyq-kxcg-aaas
+      - VCID-ksng-jvwm-aaar
+      - VCID-m93w-vwub-aaab
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-rfye-2s3j-aaaf
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities:
+      - VCID-1eym-s789-aaad
+      - VCID-6q92-s7v5-aaab
+      - VCID-7ht9-272k-aaaf
+  - purl: pkg:npm/keycloak-connect@10.0.1
+    affected_by_vulnerabilities:
+      - VCID-5yyq-kxcg-aaas
+      - VCID-ksng-jvwm-aaar
+      - VCID-m93w-vwub-aaab
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-rfye-2s3j-aaaf
+      - VCID-ydp2-dstr-aaas
+      - VCID-zejc-g1wg-aaad
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@10.0.2
+    affected_by_vulnerabilities:
+      - VCID-5yyq-kxcg-aaas
+      - VCID-ksng-jvwm-aaar
+      - VCID-m93w-vwub-aaab
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-rfye-2s3j-aaaf
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities:
+      - VCID-zejc-g1wg-aaad
+  - purl: pkg:npm/keycloak-connect@11.0.0
+    affected_by_vulnerabilities:
+      - VCID-5yyq-kxcg-aaas
+      - VCID-ksng-jvwm-aaar
+      - VCID-m93w-vwub-aaab
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-rfye-2s3j-aaaf
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@11.0.1
+    affected_by_vulnerabilities:
+      - VCID-5yyq-kxcg-aaas
+      - VCID-ksng-jvwm-aaar
+      - VCID-m93w-vwub-aaab
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-rfye-2s3j-aaaf
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@11.0.2
+    affected_by_vulnerabilities:
+      - VCID-5yyq-kxcg-aaas
+      - VCID-ksng-jvwm-aaar
+      - VCID-m93w-vwub-aaab
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-rfye-2s3j-aaaf
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@11.0.3
+    affected_by_vulnerabilities:
+      - VCID-5yyq-kxcg-aaas
+      - VCID-ksng-jvwm-aaar
+      - VCID-m93w-vwub-aaab
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-rfye-2s3j-aaaf
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@12.0.0
+    affected_by_vulnerabilities:
+      - VCID-5yyq-kxcg-aaas
+      - VCID-j9x9-5u7p-aaaj
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-rfye-2s3j-aaaf
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities:
+      - VCID-ksng-jvwm-aaar
+      - VCID-m93w-vwub-aaab
+  - purl: pkg:npm/keycloak-connect@12.0.1
+    affected_by_vulnerabilities:
+      - VCID-5yyq-kxcg-aaas
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-rfye-2s3j-aaaf
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities:
+      - VCID-j9x9-5u7p-aaaj
+  - purl: pkg:npm/keycloak-connect@12.0.2
+    affected_by_vulnerabilities:
+      - VCID-5yyq-kxcg-aaas
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-rfye-2s3j-aaaf
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@12.0.3
+    affected_by_vulnerabilities:
+      - VCID-5yyq-kxcg-aaas
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-rfye-2s3j-aaaf
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@12.0.4
+    affected_by_vulnerabilities:
+      - VCID-5yyq-kxcg-aaas
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-rfye-2s3j-aaaf
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@13.0.0
+    affected_by_vulnerabilities:
+      - VCID-q4tz-awfu-aaaa
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities:
+      - VCID-q8mt-excf-aaaa
+      - VCID-rfye-2s3j-aaaf
+      - VCID-ydp2-dstr-aaas
+  - purl: pkg:npm/keycloak-connect@13.0.1
+    affected_by_vulnerabilities:
+      - VCID-q4tz-awfu-aaaa
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@14.0.0
+    affected_by_vulnerabilities:
+      - VCID-q4tz-awfu-aaaa
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@15.0.0
+    affected_by_vulnerabilities:
+      - VCID-q4tz-awfu-aaaa
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@15.0.1
+    affected_by_vulnerabilities:
+      - VCID-q4tz-awfu-aaaa
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@15.0.2
+    affected_by_vulnerabilities:
+      - VCID-q4tz-awfu-aaaa
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@15.1.0
+    affected_by_vulnerabilities:
+      - VCID-q4tz-awfu-aaaa
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@15.1.1
+    affected_by_vulnerabilities:
+      - VCID-q4tz-awfu-aaaa
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@16.0.0
+    affected_by_vulnerabilities:
+      - VCID-q4tz-awfu-aaaa
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@16.1.0
+    affected_by_vulnerabilities:
+      - VCID-q4tz-awfu-aaaa
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@16.1.1
+    affected_by_vulnerabilities:
+      - VCID-q4tz-awfu-aaaa
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@17.0.0
+    affected_by_vulnerabilities:
+      - VCID-q4tz-awfu-aaaa
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@17.0.1
+    affected_by_vulnerabilities:
+      - VCID-q4tz-awfu-aaaa
+    fixing_vulnerabilities:
+      - VCID-zyfe-ntqu-aaap
+  - purl: pkg:npm/keycloak-connect@18.0.0
+    affected_by_vulnerabilities:
+      - VCID-q4tz-awfu-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@18.0.1
+    affected_by_vulnerabilities:
+      - VCID-q4tz-awfu-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@18.0.2
+    affected_by_vulnerabilities:
+      - VCID-q4tz-awfu-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@19.0.0
+    affected_by_vulnerabilities:
+      - VCID-q4tz-awfu-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@19.0.1
+    affected_by_vulnerabilities:
+      - VCID-q4tz-awfu-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@19.0.2
+    affected_by_vulnerabilities:
+      - VCID-q4tz-awfu-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@19.0.3
+    affected_by_vulnerabilities:
+      - VCID-q4tz-awfu-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@20.0.0
+    affected_by_vulnerabilities:
+      - VCID-q4tz-awfu-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@20.0.1
+    affected_by_vulnerabilities:
+      - VCID-q4tz-awfu-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@20.0.2
+    affected_by_vulnerabilities:
+      - VCID-q4tz-awfu-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@20.0.3
+    affected_by_vulnerabilities:
+      - VCID-q4tz-awfu-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@20.0.5
+    affected_by_vulnerabilities:
+      - VCID-q4tz-awfu-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@21.0.0
+    affected_by_vulnerabilities:
+      - VCID-q4tz-awfu-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@21.0.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-q4tz-awfu-aaaa
+  - purl: pkg:npm/keycloak-connect@2.2.0
+    affected_by_vulnerabilities:
+      - VCID-1cjj-syex-aaar
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-a39j-e5q2-aaan
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j4st-9p5f-aaae
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-mn1w-6pu4-aaar
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-v6wq-pc8s-aaam
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@2.2.0-cr.1
+    affected_by_vulnerabilities:
+      - VCID-1cjj-syex-aaar
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-a39j-e5q2-aaan
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j4st-9p5f-aaae
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-mn1w-6pu4-aaar
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-v6wq-pc8s-aaam
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@2.2.1
+    affected_by_vulnerabilities:
+      - VCID-1cjj-syex-aaar
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-a39j-e5q2-aaan
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j4st-9p5f-aaae
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-mn1w-6pu4-aaar
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-v6wq-pc8s-aaam
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@2.3.0
+    affected_by_vulnerabilities:
+      - VCID-1cjj-syex-aaar
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-a39j-e5q2-aaan
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j4st-9p5f-aaae
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-mn1w-6pu4-aaar
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-v6wq-pc8s-aaam
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@2.3.0-cr.1
+    affected_by_vulnerabilities:
+      - VCID-1cjj-syex-aaar
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-a39j-e5q2-aaan
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j4st-9p5f-aaae
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-mn1w-6pu4-aaar
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-v6wq-pc8s-aaam
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@2.4.0
+    affected_by_vulnerabilities:
+      - VCID-1cjj-syex-aaar
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-a39j-e5q2-aaan
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j4st-9p5f-aaae
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-mn1w-6pu4-aaar
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-v6wq-pc8s-aaam
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@2.4.0-cr.1
+    affected_by_vulnerabilities:
+      - VCID-1cjj-syex-aaar
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-a39j-e5q2-aaan
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j4st-9p5f-aaae
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-mn1w-6pu4-aaar
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-v6wq-pc8s-aaam
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@2.5.0
+    affected_by_vulnerabilities:
+      - VCID-1cjj-syex-aaar
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-733r-y5bp-aaae
+      - VCID-7ht9-272k-aaaf
+      - VCID-a39j-e5q2-aaan
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j4st-9p5f-aaae
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-mn1w-6pu4-aaar
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-v6wq-pc8s-aaam
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@2.5.0-cr.1
+    affected_by_vulnerabilities:
+      - VCID-1cjj-syex-aaar
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-a39j-e5q2-aaan
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j4st-9p5f-aaae
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-mn1w-6pu4-aaar
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-v6wq-pc8s-aaam
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@2.5.1
+    affected_by_vulnerabilities:
+      - VCID-1cjj-syex-aaar
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-733r-y5bp-aaae
+      - VCID-7ht9-272k-aaaf
+      - VCID-a39j-e5q2-aaan
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j4st-9p5f-aaae
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities:
+      - VCID-mn1w-6pu4-aaar
+      - VCID-v6wq-pc8s-aaam
+  - purl: pkg:npm/keycloak-connect@2.5.4
+    affected_by_vulnerabilities:
+      - VCID-1cjj-syex-aaar
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-733r-y5bp-aaae
+      - VCID-7ht9-272k-aaaf
+      - VCID-a39j-e5q2-aaan
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j4st-9p5f-aaae
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@2.5.5
+    affected_by_vulnerabilities:
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-733r-y5bp-aaae
+      - VCID-7ht9-272k-aaaf
+      - VCID-a39j-e5q2-aaan
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j4st-9p5f-aaae
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities:
+      - VCID-1cjj-syex-aaar
+  - purl: pkg:npm/keycloak-connect@3.0.0
+    affected_by_vulnerabilities:
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-733r-y5bp-aaae
+      - VCID-7ht9-272k-aaaf
+      - VCID-a39j-e5q2-aaan
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j4st-9p5f-aaae
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@3.0.0-cr.1
+    affected_by_vulnerabilities:
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-733r-y5bp-aaae
+      - VCID-7ht9-272k-aaaf
+      - VCID-a39j-e5q2-aaan
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j4st-9p5f-aaae
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@3.1.0
+    affected_by_vulnerabilities:
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-a39j-e5q2-aaan
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j4st-9p5f-aaae
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities:
+      - VCID-733r-y5bp-aaae
+  - purl: pkg:npm/keycloak-connect@3.1.0-cr.1
+    affected_by_vulnerabilities:
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-733r-y5bp-aaae
+      - VCID-7ht9-272k-aaaf
+      - VCID-a39j-e5q2-aaan
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j4st-9p5f-aaae
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@3.2.0
+    affected_by_vulnerabilities:
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-a39j-e5q2-aaan
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j4st-9p5f-aaae
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@3.2.0-cr.1
+    affected_by_vulnerabilities:
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-a39j-e5q2-aaan
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j4st-9p5f-aaae
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@3.2.1
+    affected_by_vulnerabilities:
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-9h9c-t5xe-aaah
+      - VCID-a39j-e5q2-aaan
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j4st-9p5f-aaae
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@3.3.0
+    affected_by_vulnerabilities:
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-a39j-e5q2-aaan
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j4st-9p5f-aaae
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@3.3.0-cr.1
+    affected_by_vulnerabilities:
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-a39j-e5q2-aaan
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j4st-9p5f-aaae
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities:
+      - VCID-9h9c-t5xe-aaah
+  - purl: pkg:npm/keycloak-connect@3.3.0-cr.2
+    affected_by_vulnerabilities:
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-a39j-e5q2-aaan
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j4st-9p5f-aaae
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@3.4.0
+    affected_by_vulnerabilities:
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-a39j-e5q2-aaan
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j4st-9p5f-aaae
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@3.4.0-cr.1
+    affected_by_vulnerabilities:
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-a39j-e5q2-aaan
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j4st-9p5f-aaae
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@3.4.1
+    affected_by_vulnerabilities:
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-a39j-e5q2-aaan
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j4st-9p5f-aaae
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@3.4.1-cr.1
+    affected_by_vulnerabilities:
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-a39j-e5q2-aaan
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j4st-9p5f-aaae
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@3.4.2
+    affected_by_vulnerabilities:
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-a39j-e5q2-aaan
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j4st-9p5f-aaae
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@3.4.3
+    affected_by_vulnerabilities:
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-a39j-e5q2-aaan
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j4st-9p5f-aaae
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-pmym-rq6e-aaas
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-wyud-q1dq-aaab
+      - VCID-xcg8-g3tg-aaae
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@4.0.0
+    affected_by_vulnerabilities:
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-a39j-e5q2-aaan
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j4st-9p5f-aaae
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities:
+      - VCID-xcg8-g3tg-aaae
+  - purl: pkg:npm/keycloak-connect@4.0.0-beta.1
+    affected_by_vulnerabilities:
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-a39j-e5q2-aaan
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j4st-9p5f-aaae
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities:
+      - VCID-pmym-rq6e-aaas
+      - VCID-xcg8-g3tg-aaae
+  - purl: pkg:npm/keycloak-connect@4.0.0-beta.2
+    affected_by_vulnerabilities:
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-a39j-e5q2-aaan
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j4st-9p5f-aaae
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@4.0.0%2BBeta2
+    affected_by_vulnerabilities:
+      - VCID-pmym-rq6e-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@4.0.0-beta.3
+    affected_by_vulnerabilities:
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-a39j-e5q2-aaan
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j4st-9p5f-aaae
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@4.1.0
+    affected_by_vulnerabilities:
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-a39j-e5q2-aaan
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j4st-9p5f-aaae
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities:
+      - VCID-pmym-rq6e-aaas
+  - purl: pkg:npm/keycloak-connect@4.2.0
+    affected_by_vulnerabilities:
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-a39j-e5q2-aaan
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j4st-9p5f-aaae
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@4.2.1
+    affected_by_vulnerabilities:
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-a39j-e5q2-aaan
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j4st-9p5f-aaae
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-tj6m-xz2w-aaak
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@4.3.0
+    affected_by_vulnerabilities:
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-a39j-e5q2-aaan
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j4st-9p5f-aaae
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-pmym-rq6e-aaas
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-tj6m-xz2w-aaak
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@4.4.0
+    affected_by_vulnerabilities:
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-a39j-e5q2-aaan
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j4st-9p5f-aaae
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities:
+      - VCID-pmym-rq6e-aaas
+      - VCID-tj6m-xz2w-aaak
+  - purl: pkg:npm/keycloak-connect@4.5.0
+    affected_by_vulnerabilities:
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-a39j-e5q2-aaan
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j4st-9p5f-aaae
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@4.6.0
+    affected_by_vulnerabilities:
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-a39j-e5q2-aaan
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities:
+      - VCID-j4st-9p5f-aaae
+  - purl: pkg:npm/keycloak-connect@4.7.0
+    affected_by_vulnerabilities:
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-a39j-e5q2-aaan
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@4.8.0
+    affected_by_vulnerabilities:
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-a39j-e5q2-aaan
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@4.8.1
+    affected_by_vulnerabilities:
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-a39j-e5q2-aaan
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@4.8.2
+    affected_by_vulnerabilities:
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-a39j-e5q2-aaan
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@4.8.3
+    affected_by_vulnerabilities:
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities:
+      - VCID-a39j-e5q2-aaan
+  - purl: pkg:npm/keycloak-connect@5.0.0
+    affected_by_vulnerabilities:
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@6.0.0
+    affected_by_vulnerabilities:
+      - VCID-1eym-s789-aaad
+      - VCID-34qq-mtaq-aaap
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@6.0.1
+    affected_by_vulnerabilities:
+      - VCID-1eym-s789-aaad
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j888-b4zp-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-qg6f-nunh-aaaj
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities:
+      - VCID-34qq-mtaq-aaap
+  - purl: pkg:npm/keycloak-connect@7.0.0
+    affected_by_vulnerabilities:
+      - VCID-1eym-s789-aaad
+      - VCID-1m3m-ay28-aaag
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j888-b4zp-aaad
+      - VCID-jat1-5ptn-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-wyud-q1dq-aaab
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities:
+      - VCID-nrxj-tdyg-aaah
+      - VCID-p67f-hed7-aaac
+      - VCID-qg6f-nunh-aaaj
+  - purl: pkg:npm/keycloak-connect@7.0.1
+    affected_by_vulnerabilities:
+      - VCID-1eym-s789-aaad
+      - VCID-1m3m-ay28-aaag
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-apu1-t8te-aaaj
+      - VCID-cd3d-w38e-aaac
+      - VCID-cvan-qun2-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-gfmn-evwc-aaaf
+      - VCID-j888-b4zp-aaad
+      - VCID-jat1-5ptn-aaad
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-q12f-hsw1-aaam
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@8.0.0
+    affected_by_vulnerabilities:
+      - VCID-1eym-s789-aaad
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-apu1-t8te-aaaj
+      - VCID-gfmn-evwc-aaaf
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities:
+      - VCID-1m3m-ay28-aaag
+      - VCID-cd3d-w38e-aaac
+      - VCID-cvan-qun2-aaac
+      - VCID-dr9d-wkdt-aaar
+      - VCID-j888-b4zp-aaad
+      - VCID-jat1-5ptn-aaad
+      - VCID-q12f-hsw1-aaam
+      - VCID-wyud-q1dq-aaab
+  - purl: pkg:npm/keycloak-connect@8.0.1
+    affected_by_vulnerabilities:
+      - VCID-1eym-s789-aaad
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-apu1-t8te-aaaj
+      - VCID-gfmn-evwc-aaaf
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@8.0.2
+    affected_by_vulnerabilities:
+      - VCID-1eym-s789-aaad
+      - VCID-5v5t-uhz9-aaaq
+      - VCID-5yyq-kxcg-aaas
+      - VCID-6nqn-fym4-aaaq
+      - VCID-7ht9-272k-aaaf
+      - VCID-apu1-t8te-aaaj
+      - VCID-gfmn-evwc-aaaf
+      - VCID-ksng-jvwm-aaar
+      - VCID-m3sb-ekyc-aaad
+      - VCID-m93w-vwub-aaab
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@9.0.0
+    affected_by_vulnerabilities:
+      - VCID-1eym-s789-aaad
+      - VCID-5v5t-uhz9-aaaq
+      - VCID-5yyq-kxcg-aaas
+      - VCID-7ht9-272k-aaaf
+      - VCID-apu1-t8te-aaaj
+      - VCID-gfmn-evwc-aaaf
+      - VCID-ksng-jvwm-aaar
+      - VCID-m93w-vwub-aaab
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-rfye-2s3j-aaaf
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities:
+      - VCID-6nqn-fym4-aaaq
+      - VCID-m3sb-ekyc-aaad
+  - purl: pkg:npm/keycloak-connect@9.0.13
+    affected_by_vulnerabilities:
+      - VCID-6q92-s7v5-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-connect@9.0.2
+    affected_by_vulnerabilities:
+      - VCID-1eym-s789-aaad
+      - VCID-5yyq-kxcg-aaas
+      - VCID-7ht9-272k-aaaf
+      - VCID-ksng-jvwm-aaar
+      - VCID-m93w-vwub-aaab
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-rfye-2s3j-aaaf
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities:
+      - VCID-5v5t-uhz9-aaaq
+      - VCID-apu1-t8te-aaaj
+      - VCID-gfmn-evwc-aaaf
+  - purl: pkg:npm/keycloak-connect@9.0.3
+    affected_by_vulnerabilities:
+      - VCID-1eym-s789-aaad
+      - VCID-5yyq-kxcg-aaas
+      - VCID-ksng-jvwm-aaar
+      - VCID-m93w-vwub-aaab
+      - VCID-q4tz-awfu-aaaa
+      - VCID-q8mt-excf-aaaa
+      - VCID-rfye-2s3j-aaaf
+      - VCID-ydp2-dstr-aaas
+      - VCID-zyfe-ntqu-aaap
+    fixing_vulnerabilities: []

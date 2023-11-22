@@ -1,0 +1,710 @@
+package: pkg:npm/ecstatic
+versions:
+  - purl: pkg:npm/ecstatic@0.0.0
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@0.0.1
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@0.1.0
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@0.1.1
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@0.1.1-1
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@0.1.2
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@0.1.2-1
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@0.1.4
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@0.1.5
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@0.1.6
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@0.1.7
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@0.3.0
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@0.3.1
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@0.3.2
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@0.4.0
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@0.4.1
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@0.4.10
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@0.4.11
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@0.4.12
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@0.4.13
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@0.4.2
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@0.4.3
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@0.4.4
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@0.4.5
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@0.4.6
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@0.4.7
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@0.4.8
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@0.4.9
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@0.5.0
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@0.5.1
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@0.5.2
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@0.5.3
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@0.5.4
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@0.5.5
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@0.5.6
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@0.5.7
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@0.5.8
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@0.6.0
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@0.6.1
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@0.7.0
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@0.7.1
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@0.7.2
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@0.7.3
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@0.7.4
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@0.7.5
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@0.7.6
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@0.8.0
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@1.1.0
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@1.1.1
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@1.1.2
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@1.1.3
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@1.2.0
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@1.3.0
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@1.3.1
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@1.4.0
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities:
+      - VCID-7hsv-yb7z-aaad
+      - VCID-agym-8ad6-aaam
+  - purl: pkg:npm/ecstatic@1.4.1
+    affected_by_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+      - VCID-z76u-74zc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+    fixing_vulnerabilities:
+      - VCID-5n2a-xr34-aaah
+      - VCID-z76u-74zc-aaaq
+  - purl: pkg:npm/ecstatic@2.1.0
+    affected_by_vulnerabilities:
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@2.2.0
+    affected_by_vulnerabilities:
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@2.2.1
+    affected_by_vulnerabilities:
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@2.2.2
+    affected_by_vulnerabilities:
+      - VCID-mm8c-1xyr-aaaq
+    fixing_vulnerabilities:
+      - VCID-b3gk-75vc-aaaf
+      - VCID-w9vc-tacu-aaab
+  - purl: pkg:npm/ecstatic@3.0.0
+    affected_by_vulnerabilities:
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@3.1.0
+    affected_by_vulnerabilities:
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@3.1.1
+    affected_by_vulnerabilities:
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@3.2.0
+    affected_by_vulnerabilities:
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@3.2.1
+    affected_by_vulnerabilities:
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@3.2.2
+    affected_by_vulnerabilities:
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@3.3.0
+    affected_by_vulnerabilities:
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@3.3.1
+    affected_by_vulnerabilities:
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@3.3.2
+    affected_by_vulnerabilities:
+      - VCID-mm8c-1xyr-aaaq
+    fixing_vulnerabilities:
+      - VCID-b3gk-75vc-aaaf
+      - VCID-w9vc-tacu-aaab
+  - purl: pkg:npm/ecstatic@4.0.0
+    affected_by_vulnerabilities:
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@4.0.1
+    affected_by_vulnerabilities:
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@4.0.2
+    affected_by_vulnerabilities:
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@4.1.0
+    affected_by_vulnerabilities:
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@4.1.1
+    affected_by_vulnerabilities:
+      - VCID-b3gk-75vc-aaaf
+      - VCID-mm8c-1xyr-aaaq
+      - VCID-w9vc-tacu-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecstatic@4.1.2
+    affected_by_vulnerabilities:
+      - VCID-mm8c-1xyr-aaaq
+    fixing_vulnerabilities:
+      - VCID-b3gk-75vc-aaaf
+      - VCID-w9vc-tacu-aaab
+  - purl: pkg:npm/ecstatic@4.1.3
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-mm8c-1xyr-aaaq
+  - purl: pkg:npm/ecstatic@4.1.4
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-mm8c-1xyr-aaaq

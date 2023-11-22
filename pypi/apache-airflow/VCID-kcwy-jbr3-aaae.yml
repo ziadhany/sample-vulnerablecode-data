@@ -1,0 +1,43 @@
+vulnerability_id: VCID-kcwy-jbr3-aaae
+aliases:
+  - CVE-2020-11978
+  - GHSA-rvmq-4x66-q7j3
+  - PYSEC-2020-14
+summary: An issue was found in Apache Airflow versions 1.10.10 and below. A remote code/command
+  injection vulnerability was discovered in one of the example DAGs shipped with Airflow which
+  would allow any authenticated user to run arbitrary commands as the user running airflow worker/scheduler
+  (depending on the executor in use). If you already have examples disabled by setting load_examples=False
+  in the config then you are not vulnerable.
+severities:
+  - id: 434811
+    reference_id: 17205
+    scoring_system: cvssv2
+    value: '6.5'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:P/A:P
+  - id: 434809
+    reference_id: 17205
+    scoring_system: cvssv3
+    value: '8.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+  - id: 4600
+    reference_id: 25912
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 23479
+    url: http://packetstormsecurity.com/files/162908/Apache-Airflow-1.10.10-Remote-Code-Execution.html
+    reference_id:
+  - id: 6689
+    url: https://lists.apache.org/thread.html/r7255cf0be3566f23a768e2a04b40fb09e52fcd1872695428ba9afe91%40%3Cusers.airflow.apache.org%3E
+    reference_id:
+  - id: 677676
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:airflow:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:airflow:*:*:*:*:*:*:*:*
+  - id: 17205
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-11978
+    reference_id: CVE-2020-11978
+  - id: 25912
+    url: https://github.com/advisories/GHSA-rvmq-4x66-q7j3
+    reference_id: GHSA-rvmq-4x66-q7j3
+weaknesses: []

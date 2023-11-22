@@ -1,0 +1,16 @@
+package: pkg:npm/ipip-coffee
+versions:
+  - purl: pkg:npm/ipip-coffee@0.0.0-alpha
+    affected_by_vulnerabilities:
+      - VCID-5br3-1pjd-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ipip-coffee@1.0.7
+    affected_by_vulnerabilities:
+      - VCID-5br3-1pjd-aaan
+      - VCID-h3k2-mcz4-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ipip-coffee@1.0.9
+    affected_by_vulnerabilities:
+      - VCID-5br3-1pjd-aaan
+      - VCID-h3k2-mcz4-aaac
+    fixing_vulnerabilities: []

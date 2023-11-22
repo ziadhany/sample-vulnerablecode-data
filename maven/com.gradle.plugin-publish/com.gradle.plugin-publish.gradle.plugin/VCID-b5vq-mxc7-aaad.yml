@@ -1,0 +1,43 @@
+vulnerability_id: VCID-b5vq-mxc7-aaad
+aliases:
+  - CVE-2020-7599
+  - GHSA-cv78-v957-jx34
+summary: |
+  Inclusion of Sensitive Information in Log Files
+  The Gradle publish plugin is vulnerable to Insertion of Sensitive Information into Log File. When a plugin author publishes a Gradle plugin while running Gradle with the `--info` log level flag, the Gradle Logger logs an AWS pre-signed URL.
+severities:
+  - id: 489037
+    reference_id: 31024
+    scoring_system: cvssv2
+    value: '3.3'
+    scoring_elements: AV:A/AC:L/Au:N/C:P/I:N/A:N
+  - id: 489035
+    reference_id: 31024
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+  - id: 640157
+    reference_id: 1179915
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 31025
+    url: https://blog.gradle.org/plugin-portal-update
+    reference_id:
+  - id: 1179914
+    url: https://plugins.gradle.org/plugin/com.gradle.plugin-publish
+    reference_id:
+  - id: 852607
+    url: https://snyk.io/vuln/SNYK-JAVA-COMGRADLEPLUGINPUBLISH-559866
+    reference_id:
+  - id: 852608
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:gradle:plugin_publishing:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:gradle:plugin_publishing:*:*:*:*:*:*:*:*
+  - id: 31024
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-7599
+    reference_id: CVE-2020-7599
+  - id: 1179915
+    url: https://github.com/advisories/GHSA-cv78-v957-jx34
+    reference_id: GHSA-cv78-v957-jx34
+weaknesses: []

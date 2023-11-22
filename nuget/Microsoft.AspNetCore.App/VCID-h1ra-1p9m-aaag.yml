@@ -1,0 +1,70 @@
+vulnerability_id: VCID-h1ra-1p9m-aaag
+aliases:
+  - CVE-2019-0564
+  - GHSA-6px8-22w5-w334
+summary: |
+  Uncontrolled Resource Consumption
+  A denial of service vulnerability exists when ASP.NET Core improperly handles web requests, aka "ASP.NET Core Denial of Service Vulnerability." This affects ASP.NET Core This CVE ID is unique from CVE-2019-0548.
+severities:
+  - id: 613275
+    reference_id: 933756
+    scoring_system: cvssv3
+    value: '5.9'
+    scoring_elements: CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 613274
+    reference_id: 933755
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 363905
+    reference_id: 37575
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 363903
+    reference_id: 37575
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 630549
+    reference_id: 946727
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 613271
+    reference_id: 933753
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 933756
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2019-0564.json
+    reference_id:
+  - id: 946726
+    url: https://github.com/aspnet/Announcements/issues/334
+    reference_id:
+  - id: 946724
+    url: https://github.com/github/advisory-database/issues/302
+    reference_id:
+  - id: 764101
+    url: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-0564
+    reference_id:
+  - id: 37578
+    url: http://www.securityfocus.com/bid/106413
+    reference_id:
+  - id: 933755
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1660634
+    reference_id: 1660634
+  - id: 759926
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:asp.net_core:2.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:asp.net_core:2.1:*:*:*:*:*:*:*
+  - id: 37575
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-0564
+    reference_id: CVE-2019-0564
+  - id: 946727
+    url: https://github.com/advisories/GHSA-6px8-22w5-w334
+    reference_id: GHSA-6px8-22w5-w334
+  - id: 933753
+    url: https://access.redhat.com/errata/RHSA-2019:0040
+    reference_id: RHSA-2019:0040
+weaknesses: []

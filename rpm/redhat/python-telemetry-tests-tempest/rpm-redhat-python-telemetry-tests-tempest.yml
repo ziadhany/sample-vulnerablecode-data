@@ -1,0 +1,10 @@
+package: pkg:rpm/redhat/python-telemetry-tests-tempest
+versions:
+  - purl: pkg:rpm/redhat/python-telemetry-tests-tempest@0.2.0-0.20190222195250.7f0e315?arch=el7ost
+    affected_by_vulnerabilities:
+      - VCID-v73f-wbae-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/python-telemetry-tests-tempest@0.4.0-0.20191001213421.d60e6e2?arch=el8ost
+    affected_by_vulnerabilities:
+      - VCID-2cqt-v8wb-aaac
+    fixing_vulnerabilities: []

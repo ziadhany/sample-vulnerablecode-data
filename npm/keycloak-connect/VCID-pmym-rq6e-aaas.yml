@@ -1,0 +1,77 @@
+vulnerability_id: VCID-pmym-rq6e-aaas
+aliases:
+  - CVE-2018-14655
+summary: |
+  Cross-site Scripting
+  When using `response_mode=form_post` it is possible to inject arbitrary Javascript-Code via the `state`-parameter in the authentication URL. This allows an XSS-Attack upon succesfully login.
+severities:
+  - id: 613730
+    reference_id: 934092
+    scoring_system: cvssv3
+    value: '4.6'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:N
+  - id: 613729
+    reference_id: 934091
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 324307
+    reference_id: 34962
+    scoring_system: cvssv2
+    value: '3.5'
+    scoring_elements: AV:N/AC:M/Au:S/C:N/I:P/A:N
+  - id: 324305
+    reference_id: 34962
+    scoring_system: cvssv3
+    value: '5.4'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N
+  - id: 613651
+    reference_id: 934035
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 613650
+    reference_id: 934034
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 613652
+    reference_id: 934036
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 934092
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2018-14655.json
+    reference_id:
+  - id: 34963
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2018-14655
+    reference_id:
+  - id: 934091
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1625396
+    reference_id: 1625396
+  - id: 725159
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:keycloak:3.4.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:keycloak:3.4.3:*:*:*:*:*:*:*
+  - id: 734919
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:keycloak:4.0.0:beta2:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:keycloak:4.0.0:beta2:*:*:*:*:*:*
+  - id: 734920
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:keycloak:4.3.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:keycloak:4.3.0:*:*:*:*:*:*:*
+  - id: 734921
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:single_sign-on:-:*:*:*:text-only:*:*:*
+    reference_id: cpe:2.3:a:redhat:single_sign-on:-:*:*:*:text-only:*:*:*
+  - id: 34962
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-14655
+    reference_id: CVE-2018-14655
+  - id: 934035
+    url: https://access.redhat.com/errata/RHSA-2018:3592
+    reference_id: RHSA-2018:3592
+  - id: 934034
+    url: https://access.redhat.com/errata/RHSA-2018:3593
+    reference_id: RHSA-2018:3593
+  - id: 934036
+    url: https://access.redhat.com/errata/RHSA-2018:3595
+    reference_id: RHSA-2018:3595
+weaknesses: []

@@ -1,0 +1,473 @@
+package: pkg:npm/uglify-js
+versions:
+  - purl: pkg:npm/uglify-js@0.0.1
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@0.0.2
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@0.0.3
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@0.0.4
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@0.0.5
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@1.0.2
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@1.0.3
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@1.0.4
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@1.0.5
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@1.0.6
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@1.0.7
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@1.1.0
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@1.1.1
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@1.2.0
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@1.2.1
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@1.2.2
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@1.2.3
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@1.2.4
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@1.2.5
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@1.2.6
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@1.3.0
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@1.3.1
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@1.3.2
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@1.3.3
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@1.3.4
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@1.3.5
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@2.2.0
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@2.2.1
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@2.2.2
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@2.2.3
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@2.2.4
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@2.2.5
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@2.3.0
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@2.3.1
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@2.3.2
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@2.3.3
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@2.3.4
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@2.3.5
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@2.3.6
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@2.4.0
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@2.4.1
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@2.4.10
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@2.4.11
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@2.4.12
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@2.4.13
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@2.4.14
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@2.4.15
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@2.4.16
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@2.4.17
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@2.4.18
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@2.4.19
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@2.4.2
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@2.4.20
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@2.4.21
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@2.4.22
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@2.4.23
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@2.4.24
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+    fixing_vulnerabilities:
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+  - purl: pkg:npm/uglify-js@2.4.3
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@2.4.4
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@2.4.5
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@2.4.6
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@2.4.7
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@2.4.8
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@2.4.9
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+      - VCID-5w4w-kksm-aaad
+      - VCID-jxhr-3g73-aaap
+      - VCID-qy1s-d8zb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@2.5.0
+    affected_by_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@2.6.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-3xu4-trke-aaaf
+  - purl: pkg:npm/uglify-js@3.13.2
+    affected_by_vulnerabilities:
+      - VCID-966h-1t5g-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uglify-js@3.13.3
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-966h-1t5g-aaae

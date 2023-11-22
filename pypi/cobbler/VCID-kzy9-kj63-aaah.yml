@@ -1,0 +1,90 @@
+vulnerability_id: VCID-kzy9-kj63-aaah
+aliases:
+  - CVE-2021-45083
+  - GHSA-5946-mpw5-pqxx
+  - PYSEC-2022-38
+summary: An issue was discovered in Cobbler before 3.3.1. Files in /etc/cobbler are world readable.
+  Two of those files contain some sensitive information that can be exposed to a local user
+  who has non-privileged access to the server. The users.digest file contains the sha2-512 digest
+  of users in a Cobbler local installation. In the case of an easy-to-guess password, it's trivial
+  to obtain the plaintext string. The settings.yaml file contains secrets such as the hashed
+  default password.
+severities:
+  - id: '192660'
+    reference_id: 593321
+    scoring_system: cvssv3
+    value: '7.1'
+    scoring_elements: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N
+  - id: '192659'
+    reference_id: 593320
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 570845
+    reference_id: 21079
+    scoring_system: cvssv2
+    value: '3.6'
+    scoring_elements: AV:L/AC:L/Au:N/C:P/I:P/A:N
+  - id: 570843
+    reference_id: 21079
+    scoring_system: cvssv3
+    value: '7.1'
+    scoring_elements: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N
+  - id: 3434
+    reference_id: 21085
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 593321
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-45083.json
+    reference_id:
+  - id: 9003
+    url: https://bugzilla.suse.com/show_bug.cgi?id=1193671
+    reference_id:
+  - id: 1472645
+    url: https://github.com/cobbler/cobbler/commit/10b2112db83fedfc391e900edfedc2b4e507d3f7
+    reference_id:
+  - id: 21080
+    url: https://github.com/cobbler/cobbler/pull/2945
+    reference_id:
+  - id: 655
+    url: https://github.com/cobbler/cobbler/releases
+    reference_id:
+  - id: 21081
+    url: https://github.com/cobbler/cobbler/releases/tag/v3.3.1
+    reference_id:
+  - id: 21082
+    url: https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/TEJN7CPW6YCHBFQPFZKGA6AVA6T5NPIW/
+    reference_id:
+  - id: 21083
+    url: https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/Z5CSXQE7Q4TVDQJKFYBO4XDH3BZ7BLAR/
+    reference_id:
+  - id: 21084
+    url: https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZCXMOUW4DH4DYWIJN44SMSU6R3CZDZBE/
+    reference_id:
+  - id: 9002
+    url: https://www.openwall.com/lists/oss-security/2022/02/18/3
+    reference_id:
+  - id: 593320
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=2056389
+    reference_id: 2056389
+  - id: 474280
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:cobbler_project:cobbler:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:cobbler_project:cobbler:*:*:*:*:*:*:*:*
+  - id: 169238
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:fedoraproject:fedora:34:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:fedoraproject:fedora:34:*:*:*:*:*:*:*
+  - id: 169239
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:fedoraproject:fedora:35:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:fedoraproject:fedora:35:*:*:*:*:*:*:*
+  - id: 169240
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:fedoraproject:fedora:36:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:fedoraproject:fedora:36:*:*:*:*:*:*:*
+  - id: 21079
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-45083
+    reference_id: CVE-2021-45083
+  - id: 21085
+    url: https://github.com/advisories/GHSA-5946-mpw5-pqxx
+    reference_id: GHSA-5946-mpw5-pqxx
+weaknesses: []

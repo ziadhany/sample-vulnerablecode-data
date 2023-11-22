@@ -1,0 +1,15 @@
+vulnerability_id: VCID-hgh4-nwrp-aaaf
+aliases:
+  - GHSA-3wjm-33mw-h388
+  - GMS-2020-489
+summary: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+  in s3asy.
+severities: []
+references:
+  - id: 37333
+    url: https://www.npmjs.com/advisories/636
+    reference_id:
+  - id: 37334
+    url: https://github.com/advisories/GHSA-3wjm-33mw-h388
+    reference_id: GHSA-3wjm-33mw-h388
+weaknesses: []

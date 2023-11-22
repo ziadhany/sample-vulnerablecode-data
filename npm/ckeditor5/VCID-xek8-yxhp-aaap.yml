@@ -1,0 +1,27 @@
+vulnerability_id: VCID-xek8-yxhp-aaap
+aliases:
+  - CVE-2022-48110
+  - GHSA-6p89-3p7c-qrhv
+summary: |
+  Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')
+  CKSource CKEditor5 35.4.0 was discovered to contain a cross-site scripting (XSS) vulnerability via the Full Featured CKEditor5 widget.
+severities:
+  - id: 708233
+    reference_id: 1472308
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 1181855
+    url: https://ckeditor.com/docs/ckeditor5/latest/features/html-embed.html
+    reference_id:
+  - id: 1472307
+    url: https://packetstormsecurity.com/files/170927/CKSource-CKEditor5-35.4.0-Cross-Site-Scripting.html
+    reference_id:
+  - id: 1472306
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-48110
+    reference_id: CVE-2022-48110
+  - id: 1472308
+    url: https://github.com/advisories/GHSA-6p89-3p7c-qrhv
+    reference_id: GHSA-6p89-3p7c-qrhv
+weaknesses: []

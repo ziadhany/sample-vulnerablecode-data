@@ -1,0 +1,14 @@
+package: pkg:maven/com.sun.faces/jsf-api
+versions:
+  - purl: pkg:maven/com.sun.faces/jsf-api@1.2
+    affected_by_vulnerabilities:
+      - VCID-g6uj-597g-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-api@1.2.08
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-g6uj-597g-aaak
+  - purl: pkg:maven/com.sun.faces/jsf-api@2.0.4-b10
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-g6uj-597g-aaak

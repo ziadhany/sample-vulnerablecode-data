@@ -1,0 +1,43 @@
+vulnerability_id: VCID-ut18-2fv8-aaae
+aliases:
+  - CVE-2019-16761
+  - GHSA-wmx6-vxcf-c3gr
+summary: |
+  Improper Input Validation
+  A specially crafted Bitcoin script can cause a discrepancy between the specified SLP consensus rules and the validation result of the slp-validate@1.0.0 npm package. An attacker could create a specially crafted Bitcoin script in order to cause a hard-fork from the SLP consensus.
+severities:
+  - id: 389546
+    reference_id: 32057
+    scoring_system: cvssv2
+    value: '4.9'
+    scoring_elements: AV:N/AC:M/Au:S/C:N/I:P/A:P
+  - id: 389544
+    reference_id: 32057
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:N/I:H/A:H
+  - id: 706052
+    reference_id: 1467533
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 784180
+    url: https://github.com/simpleledger/slp-validate/commit/50ad96c2798dad6b9f9a13333dd05232defe5730#diff-fe58606994c412ba56a65141a7aa4a62L123
+    reference_id:
+  - id: 784181
+    url: https://github.com/simpleledger/slp-validate/security/advisories/GHSA-wmx6-vxcf-c3gr
+    reference_id:
+  - id: 1467534
+    url: https://www.npmjs.com/advisories/1422
+    reference_id:
+  - id: 784182
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:simpleledger:slp-validate:1.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:simpleledger:slp-validate:1.0.0:*:*:*:*:*:*:*
+  - id: 32057
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-16761
+    reference_id: CVE-2019-16761
+  - id: 1467533
+    url: https://github.com/advisories/GHSA-wmx6-vxcf-c3gr
+    reference_id: GHSA-wmx6-vxcf-c3gr
+weaknesses: []

@@ -1,0 +1,76 @@
+vulnerability_id: VCID-dr72-63u4-aaaj
+aliases:
+  - CVE-2021-32777
+summary: Envoy is an open source L7 proxy and communication bus designed for large modern service
+  oriented architectures. In affected versions when ext-authz extension is sending request headers
+  to the external authorization service it must merge multiple value headers according to the
+  HTTP spec. However, only the last header value is sent. This may allow specifically crafted
+  requests to bypass authorization. Attackers may be able to escalate privileges when using
+  ext-authz extension or back end service that uses multiple value headers for authorization.
+  A specifically constructed request may be delivered by an untrusted downstream peer in the
+  presence of ext-authz extension. Envoy versions 1.19.1, 1.18.4, 1.17.4, 1.16.5 contain fixes
+  to the ext-authz extension to correctly merge multiple request header values, when sending
+  request for authorization.
+severities:
+  - id: 602904
+    reference_id: 926129
+    scoring_system: cvssv3
+    value: '8.3'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:L
+  - id: 602903
+    reference_id: 926128
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 540909
+    reference_id: 884988
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 540907
+    reference_id: 884988
+    scoring_system: cvssv3
+    value: '8.3'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:L
+  - id: 602897
+    reference_id: 926124
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 602896
+    reference_id: 926123
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 926129
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-32777.json
+    reference_id:
+  - id: 884986
+    url: https://github.com/envoyproxy/envoy/security/advisories/GHSA-6g4j-5vrw-2m8h
+    reference_id:
+  - id: 884987
+    url: https://www.envoyproxy.io/docs/envoy/v1.19.0/version_history/version_history
+    reference_id:
+  - id: 926128
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1996933
+    reference_id: '1996933'
+  - id: 780349
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:envoyproxy:envoy:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:envoyproxy:envoy:*:*:*:*:*:*:*:*
+  - id: 884989
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:envoyproxy:envoy:1.19.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:envoyproxy:envoy:1.19.0:*:*:*:*:*:*:*
+  - id: 884988
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-32777
+    reference_id: CVE-2021-32777
+  - id: 1470884
+    url: https://istio.io/latest/news/security/ISTIO-SECURITY-2021-008/
+    reference_id: ISTIO-SECURITY-2021-008
+  - id: 926124
+    url: https://access.redhat.com/errata/RHSA-2021:3272
+    reference_id: RHSA-2021:3272
+  - id: 926123
+    url: https://access.redhat.com/errata/RHSA-2021:3273
+    reference_id: RHSA-2021:3273
+weaknesses: []

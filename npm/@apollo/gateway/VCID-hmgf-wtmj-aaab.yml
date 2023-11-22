@@ -1,0 +1,29 @@
+vulnerability_id: VCID-hmgf-wtmj-aaab
+aliases:
+  - GHSA-74cr-77xc-8g6r
+  - GMS-2019-8
+summary: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+  in @apollo/gateway.
+severities:
+  - id: 704699
+    reference_id: 36450
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 36447
+    url: https://github.com/apollographql/apollo-server/commit/cea7397582a293af6a5f60947da34b95e669c6c1
+    reference_id:
+  - id: 36446
+    url: https://github.com/apollographql/apollo-server/pull/2779
+    reference_id:
+  - id: 36449
+    url: https://snyk.io/vuln/SNYK-JS-APOLLOGATEWAY-174915
+    reference_id:
+  - id: 36448
+    url: https://www.npmjs.com/advisories/917
+    reference_id:
+  - id: 36450
+    url: https://github.com/advisories/GHSA-74cr-77xc-8g6r
+    reference_id: GHSA-74cr-77xc-8g6r
+weaknesses: []

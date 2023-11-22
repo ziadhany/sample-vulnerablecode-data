@@ -1,0 +1,12 @@
+vulnerability_id: VCID-z8kq-ug5b-aaah
+aliases:
+  - GMS-2017-218
+summary: |
+  Directory Traversal
+  `goserv` is vulnerable to a directory traversal issue, giving an attacker access to the filesystem by placing "../" in the URL.
+severities: []
+references:
+  - id: 33393
+    url: https://github.com/JacksonGL/NPM-Vuln-PoC/tree/master/directory-traversal/goserv
+    reference_id:
+weaknesses: []

@@ -1,0 +1,462 @@
+package: pkg:pypi/apache-superset
+versions:
+  - purl: pkg:pypi/apache-superset@0.23.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-t1ye-hjhr-aaak
+  - purl: pkg:pypi/apache-superset@0.31
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-yh8n-pjck-aaad
+  - purl: pkg:pypi/apache-superset@0.31.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-yh8n-pjck-aaad
+  - purl: pkg:pypi/apache-superset@0.32
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-dr87-zt1t-aaab
+  - purl: pkg:pypi/apache-superset@0.32.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-dr87-zt1t-aaab
+  - purl: pkg:pypi/apache-superset@0.34.0
+    affected_by_vulnerabilities:
+      - VCID-2pdw-ea89-aaaf
+      - VCID-58d6-e2dy-aaan
+      - VCID-8gft-cfs4-aaap
+      - VCID-951p-fg4c-aaas
+      - VCID-aw17-47b4-aaad
+      - VCID-c2ux-wuw4-aaam
+      - VCID-cdge-6db4-aaaf
+      - VCID-du63-wjjm-aaah
+      - VCID-g1ch-murf-aaah
+      - VCID-hpp6-kgwy-aaan
+      - VCID-hxmn-w27z-aaae
+      - VCID-mjsr-6nup-aaam
+      - VCID-pjf4-28gc-aaac
+      - VCID-r7pu-pwxs-aaae
+      - VCID-spt5-7gsq-aaar
+      - VCID-t8yf-n6fz-aaaq
+      - VCID-w17h-tsej-aaah
+      - VCID-ww26-far3-aaaq
+      - VCID-xksj-5sxb-aaaq
+    fixing_vulnerabilities:
+      - VCID-dr87-zt1t-aaab
+      - VCID-yh8n-pjck-aaad
+  - purl: pkg:pypi/apache-superset@0.34.1
+    affected_by_vulnerabilities:
+      - VCID-2pdw-ea89-aaaf
+      - VCID-58d6-e2dy-aaan
+      - VCID-8gft-cfs4-aaap
+      - VCID-951p-fg4c-aaas
+      - VCID-aw17-47b4-aaad
+      - VCID-c2ux-wuw4-aaam
+      - VCID-cdge-6db4-aaaf
+      - VCID-du63-wjjm-aaah
+      - VCID-g1ch-murf-aaah
+      - VCID-hpp6-kgwy-aaan
+      - VCID-hxmn-w27z-aaae
+      - VCID-mjsr-6nup-aaam
+      - VCID-pjf4-28gc-aaac
+      - VCID-r7pu-pwxs-aaae
+      - VCID-spt5-7gsq-aaar
+      - VCID-t8yf-n6fz-aaaq
+      - VCID-w17h-tsej-aaah
+      - VCID-ww26-far3-aaaq
+      - VCID-xksj-5sxb-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-superset@0.35.0
+    affected_by_vulnerabilities:
+      - VCID-spt5-7gsq-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-superset@0.35.1
+    affected_by_vulnerabilities:
+      - VCID-2pdw-ea89-aaaf
+      - VCID-58d6-e2dy-aaan
+      - VCID-8gft-cfs4-aaap
+      - VCID-951p-fg4c-aaas
+      - VCID-aw17-47b4-aaad
+      - VCID-c2ux-wuw4-aaam
+      - VCID-cdge-6db4-aaaf
+      - VCID-du63-wjjm-aaah
+      - VCID-g1ch-murf-aaah
+      - VCID-hpp6-kgwy-aaan
+      - VCID-hxmn-w27z-aaae
+      - VCID-mjsr-6nup-aaam
+      - VCID-pjf4-28gc-aaac
+      - VCID-r7pu-pwxs-aaae
+      - VCID-spt5-7gsq-aaar
+      - VCID-t8yf-n6fz-aaaq
+      - VCID-w17h-tsej-aaah
+      - VCID-ww26-far3-aaaq
+      - VCID-xksj-5sxb-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-superset@0.35.2
+    affected_by_vulnerabilities:
+      - VCID-2pdw-ea89-aaaf
+      - VCID-58d6-e2dy-aaan
+      - VCID-8gft-cfs4-aaap
+      - VCID-951p-fg4c-aaas
+      - VCID-aw17-47b4-aaad
+      - VCID-c2ux-wuw4-aaam
+      - VCID-cdge-6db4-aaaf
+      - VCID-du63-wjjm-aaah
+      - VCID-g1ch-murf-aaah
+      - VCID-hpp6-kgwy-aaan
+      - VCID-hxmn-w27z-aaae
+      - VCID-mjsr-6nup-aaam
+      - VCID-pjf4-28gc-aaac
+      - VCID-r7pu-pwxs-aaae
+      - VCID-t8yf-n6fz-aaaq
+      - VCID-w17h-tsej-aaah
+      - VCID-ww26-far3-aaaq
+      - VCID-xksj-5sxb-aaaq
+    fixing_vulnerabilities:
+      - VCID-spt5-7gsq-aaar
+  - purl: pkg:pypi/apache-superset@0.36.0
+    affected_by_vulnerabilities:
+      - VCID-2pdw-ea89-aaaf
+      - VCID-58d6-e2dy-aaan
+      - VCID-8gft-cfs4-aaap
+      - VCID-951p-fg4c-aaas
+      - VCID-aw17-47b4-aaad
+      - VCID-c2ux-wuw4-aaam
+      - VCID-cdge-6db4-aaaf
+      - VCID-du63-wjjm-aaah
+      - VCID-g1ch-murf-aaah
+      - VCID-hpp6-kgwy-aaan
+      - VCID-hxmn-w27z-aaae
+      - VCID-mjsr-6nup-aaam
+      - VCID-pjf4-28gc-aaac
+      - VCID-r7pu-pwxs-aaae
+      - VCID-t8yf-n6fz-aaaq
+      - VCID-w17h-tsej-aaah
+      - VCID-ww26-far3-aaaq
+      - VCID-xksj-5sxb-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-superset@0.37.0
+    affected_by_vulnerabilities:
+      - VCID-2pdw-ea89-aaaf
+      - VCID-58d6-e2dy-aaan
+      - VCID-8gft-cfs4-aaap
+      - VCID-951p-fg4c-aaas
+      - VCID-aw17-47b4-aaad
+      - VCID-c2ux-wuw4-aaam
+      - VCID-cdge-6db4-aaaf
+      - VCID-du63-wjjm-aaah
+      - VCID-g1ch-murf-aaah
+      - VCID-hpp6-kgwy-aaan
+      - VCID-hxmn-w27z-aaae
+      - VCID-mjsr-6nup-aaam
+      - VCID-pjf4-28gc-aaac
+      - VCID-r7pu-pwxs-aaae
+      - VCID-t8yf-n6fz-aaaq
+      - VCID-w17h-tsej-aaah
+      - VCID-ww26-far3-aaaq
+      - VCID-xksj-5sxb-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-superset@0.37.1
+    affected_by_vulnerabilities:
+      - VCID-2pdw-ea89-aaaf
+      - VCID-58d6-e2dy-aaan
+      - VCID-8gft-cfs4-aaap
+      - VCID-951p-fg4c-aaas
+      - VCID-aw17-47b4-aaad
+      - VCID-c2ux-wuw4-aaam
+      - VCID-cdge-6db4-aaaf
+      - VCID-du63-wjjm-aaah
+      - VCID-hpp6-kgwy-aaan
+      - VCID-hxmn-w27z-aaae
+      - VCID-mjsr-6nup-aaam
+      - VCID-pjf4-28gc-aaac
+      - VCID-r7pu-pwxs-aaae
+      - VCID-t8yf-n6fz-aaaq
+      - VCID-w17h-tsej-aaah
+      - VCID-ww26-far3-aaaq
+      - VCID-xksj-5sxb-aaaq
+    fixing_vulnerabilities:
+      - VCID-g1ch-murf-aaah
+  - purl: pkg:pypi/apache-superset@0.37.2
+    affected_by_vulnerabilities:
+      - VCID-2pdw-ea89-aaaf
+      - VCID-58d6-e2dy-aaan
+      - VCID-8gft-cfs4-aaap
+      - VCID-951p-fg4c-aaas
+      - VCID-aw17-47b4-aaad
+      - VCID-c2ux-wuw4-aaam
+      - VCID-cdge-6db4-aaaf
+      - VCID-du63-wjjm-aaah
+      - VCID-hpp6-kgwy-aaan
+      - VCID-hxmn-w27z-aaae
+      - VCID-mjsr-6nup-aaam
+      - VCID-pjf4-28gc-aaac
+      - VCID-r7pu-pwxs-aaae
+      - VCID-t8yf-n6fz-aaaq
+      - VCID-w17h-tsej-aaah
+      - VCID-ww26-far3-aaaq
+    fixing_vulnerabilities:
+      - VCID-xksj-5sxb-aaaq
+  - purl: pkg:pypi/apache-superset@0.38.0
+    affected_by_vulnerabilities:
+      - VCID-2pdw-ea89-aaaf
+      - VCID-58d6-e2dy-aaan
+      - VCID-8gft-cfs4-aaap
+      - VCID-951p-fg4c-aaas
+      - VCID-aw17-47b4-aaad
+      - VCID-c2ux-wuw4-aaam
+      - VCID-cdge-6db4-aaaf
+      - VCID-du63-wjjm-aaah
+      - VCID-hpp6-kgwy-aaan
+      - VCID-hxmn-w27z-aaae
+      - VCID-mjsr-6nup-aaam
+      - VCID-pjf4-28gc-aaac
+      - VCID-r7pu-pwxs-aaae
+      - VCID-t8yf-n6fz-aaaq
+      - VCID-w17h-tsej-aaah
+      - VCID-ww26-far3-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-superset@0.38.1
+    affected_by_vulnerabilities:
+      - VCID-2pdw-ea89-aaaf
+      - VCID-58d6-e2dy-aaan
+      - VCID-951p-fg4c-aaas
+      - VCID-aw17-47b4-aaad
+      - VCID-c2ux-wuw4-aaam
+      - VCID-cdge-6db4-aaaf
+      - VCID-du63-wjjm-aaah
+      - VCID-hpp6-kgwy-aaan
+      - VCID-hxmn-w27z-aaae
+      - VCID-mjsr-6nup-aaam
+      - VCID-pjf4-28gc-aaac
+      - VCID-r7pu-pwxs-aaae
+      - VCID-t8yf-n6fz-aaaq
+      - VCID-w17h-tsej-aaah
+      - VCID-ww26-far3-aaaq
+    fixing_vulnerabilities:
+      - VCID-8gft-cfs4-aaap
+  - purl: pkg:pypi/apache-superset@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-2pdw-ea89-aaaf
+      - VCID-58d6-e2dy-aaan
+      - VCID-951p-fg4c-aaas
+      - VCID-aw17-47b4-aaad
+      - VCID-c2ux-wuw4-aaam
+      - VCID-cdge-6db4-aaaf
+      - VCID-du63-wjjm-aaah
+      - VCID-hpp6-kgwy-aaan
+      - VCID-hxmn-w27z-aaae
+      - VCID-mjsr-6nup-aaam
+      - VCID-pjf4-28gc-aaac
+      - VCID-r7pu-pwxs-aaae
+      - VCID-t8yf-n6fz-aaaq
+      - VCID-w17h-tsej-aaah
+      - VCID-ww26-far3-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-superset@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-2pdw-ea89-aaaf
+      - VCID-58d6-e2dy-aaan
+      - VCID-951p-fg4c-aaas
+      - VCID-aw17-47b4-aaad
+      - VCID-c2ux-wuw4-aaam
+      - VCID-cdge-6db4-aaaf
+      - VCID-du63-wjjm-aaah
+      - VCID-hpp6-kgwy-aaan
+      - VCID-hxmn-w27z-aaae
+      - VCID-mjsr-6nup-aaam
+      - VCID-pjf4-28gc-aaac
+      - VCID-r7pu-pwxs-aaae
+      - VCID-t8yf-n6fz-aaaq
+      - VCID-w17h-tsej-aaah
+      - VCID-ww26-far3-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-superset@1.1
+    affected_by_vulnerabilities:
+      - VCID-w17h-tsej-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-superset@1.1.0
+    affected_by_vulnerabilities:
+      - VCID-2pdw-ea89-aaaf
+      - VCID-58d6-e2dy-aaan
+      - VCID-951p-fg4c-aaas
+      - VCID-aw17-47b4-aaad
+      - VCID-c2ux-wuw4-aaam
+      - VCID-cdge-6db4-aaaf
+      - VCID-du63-wjjm-aaah
+      - VCID-hpp6-kgwy-aaan
+      - VCID-mjsr-6nup-aaam
+      - VCID-pjf4-28gc-aaac
+      - VCID-r7pu-pwxs-aaae
+      - VCID-t8yf-n6fz-aaaq
+      - VCID-w17h-tsej-aaah
+      - VCID-ww26-far3-aaaq
+    fixing_vulnerabilities:
+      - VCID-hxmn-w27z-aaae
+  - purl: pkg:pypi/apache-superset@1.2
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-w17h-tsej-aaah
+  - purl: pkg:pypi/apache-superset@1.2.0
+    affected_by_vulnerabilities:
+      - VCID-2pdw-ea89-aaaf
+      - VCID-58d6-e2dy-aaan
+      - VCID-951p-fg4c-aaas
+      - VCID-aw17-47b4-aaad
+      - VCID-c2ux-wuw4-aaam
+      - VCID-cdge-6db4-aaaf
+      - VCID-du63-wjjm-aaah
+      - VCID-hpp6-kgwy-aaan
+      - VCID-mjsr-6nup-aaam
+      - VCID-pjf4-28gc-aaac
+      - VCID-r7pu-pwxs-aaae
+      - VCID-t8yf-n6fz-aaaq
+      - VCID-ww26-far3-aaaq
+    fixing_vulnerabilities:
+      - VCID-w17h-tsej-aaah
+  - purl: pkg:pypi/apache-superset@1.3.0
+    affected_by_vulnerabilities:
+      - VCID-2pdw-ea89-aaaf
+      - VCID-58d6-e2dy-aaan
+      - VCID-951p-fg4c-aaas
+      - VCID-aw17-47b4-aaad
+      - VCID-c2ux-wuw4-aaam
+      - VCID-cdge-6db4-aaaf
+      - VCID-du63-wjjm-aaah
+      - VCID-hpp6-kgwy-aaan
+      - VCID-mjsr-6nup-aaam
+      - VCID-pjf4-28gc-aaac
+      - VCID-r7pu-pwxs-aaae
+      - VCID-t8yf-n6fz-aaaq
+      - VCID-ww26-far3-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-superset@1.3.1
+    affected_by_vulnerabilities:
+      - VCID-2pdw-ea89-aaaf
+      - VCID-58d6-e2dy-aaan
+      - VCID-951p-fg4c-aaas
+      - VCID-aw17-47b4-aaad
+      - VCID-cdge-6db4-aaaf
+      - VCID-du63-wjjm-aaah
+      - VCID-hpp6-kgwy-aaan
+      - VCID-mjsr-6nup-aaam
+      - VCID-pjf4-28gc-aaac
+      - VCID-r7pu-pwxs-aaae
+      - VCID-t8yf-n6fz-aaaq
+      - VCID-ww26-far3-aaaq
+    fixing_vulnerabilities:
+      - VCID-c2ux-wuw4-aaam
+  - purl: pkg:pypi/apache-superset@1.3.2
+    affected_by_vulnerabilities:
+      - VCID-2pdw-ea89-aaaf
+      - VCID-58d6-e2dy-aaan
+      - VCID-951p-fg4c-aaas
+      - VCID-aw17-47b4-aaad
+      - VCID-cdge-6db4-aaaf
+      - VCID-du63-wjjm-aaah
+      - VCID-hpp6-kgwy-aaan
+      - VCID-pjf4-28gc-aaac
+      - VCID-r7pu-pwxs-aaae
+      - VCID-t8yf-n6fz-aaaq
+    fixing_vulnerabilities:
+      - VCID-mjsr-6nup-aaam
+      - VCID-ww26-far3-aaaq
+  - purl: pkg:pypi/apache-superset@1.4.0
+    affected_by_vulnerabilities:
+      - VCID-2pdw-ea89-aaaf
+      - VCID-58d6-e2dy-aaan
+      - VCID-951p-fg4c-aaas
+      - VCID-aw17-47b4-aaad
+      - VCID-cdge-6db4-aaaf
+      - VCID-du63-wjjm-aaah
+      - VCID-hpp6-kgwy-aaan
+      - VCID-pjf4-28gc-aaac
+      - VCID-t8yf-n6fz-aaaq
+    fixing_vulnerabilities:
+      - VCID-r7pu-pwxs-aaae
+  - purl: pkg:pypi/apache-superset@1.4.1
+    affected_by_vulnerabilities:
+      - VCID-2pdw-ea89-aaaf
+      - VCID-58d6-e2dy-aaan
+      - VCID-951p-fg4c-aaas
+      - VCID-aw17-47b4-aaad
+      - VCID-cdge-6db4-aaaf
+      - VCID-du63-wjjm-aaah
+      - VCID-hpp6-kgwy-aaan
+      - VCID-pjf4-28gc-aaac
+      - VCID-t8yf-n6fz-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-superset@1.4.2
+    affected_by_vulnerabilities:
+      - VCID-2pdw-ea89-aaaf
+      - VCID-58d6-e2dy-aaan
+      - VCID-951p-fg4c-aaas
+      - VCID-aw17-47b4-aaad
+      - VCID-du63-wjjm-aaah
+      - VCID-hpp6-kgwy-aaan
+      - VCID-pjf4-28gc-aaac
+      - VCID-t8yf-n6fz-aaaq
+    fixing_vulnerabilities:
+      - VCID-cdge-6db4-aaaf
+  - purl: pkg:pypi/apache-superset@1.5.0
+    affected_by_vulnerabilities:
+      - VCID-2pdw-ea89-aaaf
+      - VCID-58d6-e2dy-aaan
+      - VCID-951p-fg4c-aaas
+      - VCID-aw17-47b4-aaad
+      - VCID-du63-wjjm-aaah
+      - VCID-hpp6-kgwy-aaan
+      - VCID-pjf4-28gc-aaac
+      - VCID-t8yf-n6fz-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-superset@1.5.1
+    affected_by_vulnerabilities:
+      - VCID-2pdw-ea89-aaaf
+      - VCID-58d6-e2dy-aaan
+      - VCID-951p-fg4c-aaas
+      - VCID-aw17-47b4-aaad
+      - VCID-du63-wjjm-aaah
+      - VCID-pjf4-28gc-aaac
+      - VCID-t8yf-n6fz-aaaq
+    fixing_vulnerabilities:
+      - VCID-hpp6-kgwy-aaan
+  - purl: pkg:pypi/apache-superset@1.5.2
+    affected_by_vulnerabilities:
+      - VCID-2pdw-ea89-aaaf
+      - VCID-58d6-e2dy-aaan
+      - VCID-951p-fg4c-aaas
+      - VCID-aw17-47b4-aaad
+      - VCID-du63-wjjm-aaah
+      - VCID-pjf4-28gc-aaac
+      - VCID-t8yf-n6fz-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-superset@1.5.3
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-2pdw-ea89-aaaf
+      - VCID-58d6-e2dy-aaan
+      - VCID-951p-fg4c-aaas
+      - VCID-aw17-47b4-aaad
+      - VCID-du63-wjjm-aaah
+      - VCID-pjf4-28gc-aaac
+      - VCID-t8yf-n6fz-aaaq
+  - purl: pkg:pypi/apache-superset@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-2pdw-ea89-aaaf
+      - VCID-58d6-e2dy-aaan
+      - VCID-951p-fg4c-aaas
+      - VCID-aw17-47b4-aaad
+      - VCID-du63-wjjm-aaah
+      - VCID-pjf4-28gc-aaac
+      - VCID-t8yf-n6fz-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-superset@2.0.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-2pdw-ea89-aaaf
+      - VCID-58d6-e2dy-aaan
+      - VCID-951p-fg4c-aaas
+      - VCID-aw17-47b4-aaad
+      - VCID-du63-wjjm-aaah
+      - VCID-pjf4-28gc-aaac
+      - VCID-t8yf-n6fz-aaaq

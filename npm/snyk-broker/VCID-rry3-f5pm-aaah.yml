@@ -1,0 +1,40 @@
+vulnerability_id: VCID-rry3-f5pm-aaah
+aliases:
+  - CVE-2020-7653
+  - GHSA-4vj3-f849-5r48
+summary: |
+  Information Exposure
+  snyk-broker is vulnerable to Arbitrary File Read. It allows arbitrary file reads for users with access to Snyk's internal network by creating symlinks to match certain paths.
+severities:
+  - id: 489241
+    reference_id: 35789
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:N/A:N
+  - id: 489239
+    reference_id: 35789
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+  - id: 706349
+    reference_id: 1467906
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 35790
+    url: https://snyk.io/vuln/SNYK-JS-SNYKBROKER-570612
+    reference_id:
+  - id: 35788
+    url: https://updates.snyk.io/snyk-broker-security-fixes-152338
+    reference_id:
+  - id: 852729
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:synk:broker:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:synk:broker:*:*:*:*:*:*:*:*
+  - id: 35789
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-7653
+    reference_id: CVE-2020-7653
+  - id: 1467906
+    url: https://github.com/advisories/GHSA-4vj3-f849-5r48
+    reference_id: GHSA-4vj3-f849-5r48
+weaknesses: []

@@ -1,0 +1,100 @@
+vulnerability_id: VCID-zrxn-gnee-aaad
+aliases:
+  - CVE-2021-34532
+  - GHSA-q7cg-43mg-qp69
+summary: ASP.NET Core Information Disclosure Vulnerability
+severities:
+  - id: 603147
+    reference_id: 926309
+    scoring_system: cvssv3
+    value: '5.5'
+    scoring_elements: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+  - id: 603146
+    reference_id: 926308
+    scoring_system: rhbs
+    value: low
+    scoring_elements:
+  - id: 544460
+    reference_id: 15964
+    scoring_system: cvssv2
+    value: '2.1'
+    scoring_elements: AV:L/AC:L/Au:N/C:P/I:N/A:N
+  - id: 544458
+    reference_id: 15964
+    scoring_system: cvssv3
+    value: '5.5'
+    scoring_elements: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+  - id: 1859
+    reference_id: 15966
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 1858
+    reference_id: 15963
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 603135
+    reference_id: 926299
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 603138
+    reference_id: 926302
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 603140
+    reference_id: 926304
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 603139
+    reference_id: 926303
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 926309
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-34532.json
+    reference_id:
+  - id: 37602
+    url: https://github.com/dotnet/announcements/issues/195
+    reference_id:
+  - id: 887387
+    url: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34532
+    reference_id:
+  - id: 926308
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1990300
+    reference_id: '1990300'
+  - id: 860507
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:asp.net_core:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:asp.net_core:*:*:*:*:*:*:*:*
+  - id: 776266
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:visual_studio_2019:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:visual_studio_2019:*:*:*:*:*:*:*:*
+  - id: 874072
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:visual_studio_2019:8.10:*:*:*:*:macos:*:*
+    reference_id: cpe:2.3:a:microsoft:visual_studio_2019:8.10:*:*:*:*:macos:*:*
+  - id: 15964
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-34532
+    reference_id: CVE-2021-34532
+  - id: 15966
+    url: https://github.com/advisories/GHSA-q7cg-43mg-qp69
+    reference_id: GHSA-q7cg-43mg-qp69
+  - id: 15963
+    url: https://github.com/dotnet/aspnetcore/security/advisories/GHSA-q7cg-43mg-qp69
+    reference_id: GHSA-q7cg-43mg-qp69
+  - id: 926299
+    url: https://access.redhat.com/errata/RHSA-2021:3142
+    reference_id: RHSA-2021:3142
+  - id: 926302
+    url: https://access.redhat.com/errata/RHSA-2021:3143
+    reference_id: RHSA-2021:3143
+  - id: 926304
+    url: https://access.redhat.com/errata/RHSA-2021:3147
+    reference_id: RHSA-2021:3147
+  - id: 926303
+    url: https://access.redhat.com/errata/RHSA-2021:3148
+    reference_id: RHSA-2021:3148
+weaknesses: []

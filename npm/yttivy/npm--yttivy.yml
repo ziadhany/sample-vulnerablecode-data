@@ -1,0 +1,11 @@
+package: pkg:npm/yttivy
+versions:
+  - purl: pkg:npm/yttivy@0.0.0-alpha
+    affected_by_vulnerabilities:
+      - VCID-cp1c-erv7-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/yttivy@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-cp1c-erv7-aaab
+      - VCID-wxs9-4pem-aaaa
+    fixing_vulnerabilities: []

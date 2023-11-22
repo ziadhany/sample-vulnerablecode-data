@@ -1,0 +1,22 @@
+vulnerability_id: VCID-shw4-mwht-aaan
+aliases:
+  - CVE-2022-46364
+  - GHSA-x3x3-qwjq-8gj4
+summary: Apache CXF Server-Side Request Forgery vulnerability
+severities:
+  - id: 703127
+    reference_id: 1463443
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 1463441
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-46364
+    reference_id: CVE-2022-46364
+  - id: 1463442
+    url: https://cxf.apache.org/security-advisories.data/CVE-2022-46364.txt?version=1&modificationDate=1670944472739&api=v2
+    reference_id: CVE-2022-46364.TXT?VERSION=1&MODIFICATIONDATE=1670944472739&API=V2
+  - id: 1463443
+    url: https://github.com/advisories/GHSA-x3x3-qwjq-8gj4
+    reference_id: GHSA-x3x3-qwjq-8gj4
+weaknesses: []

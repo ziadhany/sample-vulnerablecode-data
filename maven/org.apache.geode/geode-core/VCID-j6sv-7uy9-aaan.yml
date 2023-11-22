@@ -1,0 +1,38 @@
+vulnerability_id: VCID-j6sv-7uy9-aaan
+aliases:
+  - CVE-2021-34797
+  - GHSA-mw25-f5r2-hpc6
+summary: Insertion of Sensitive Information into Log File in Apache Geode
+severities:
+  - id: 545444
+    reference_id: 9865
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 545442
+    reference_id: 9865
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+  - id: 867
+    reference_id: 9868
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 9866
+    url: https://lists.apache.org/thread/nq2w9gjzm1cjx1rh6zw41ty39qw7qpx4
+    reference_id:
+  - id: 9867
+    url: https://lists.apache.org/thread/p4l0g49rzzzpn8yt9q9p0xp52h3zmsmk
+    reference_id:
+  - id: 677805
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:geode:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:geode:*:*:*:*:*:*:*:*
+  - id: 9865
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-34797
+    reference_id: CVE-2021-34797
+  - id: 9868
+    url: https://github.com/advisories/GHSA-mw25-f5r2-hpc6
+    reference_id: GHSA-mw25-f5r2-hpc6
+weaknesses: []

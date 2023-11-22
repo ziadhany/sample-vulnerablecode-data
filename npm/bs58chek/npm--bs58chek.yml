@@ -1,0 +1,10 @@
+package: pkg:npm/bs58chek
+versions:
+  - purl: pkg:npm/bs58chek@0.0.0
+    affected_by_vulnerabilities:
+      - VCID-pkab-512d-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/bs58chek@0.0.1-security
+    affected_by_vulnerabilities:
+      - VCID-pkab-512d-aaaf
+    fixing_vulnerabilities: []

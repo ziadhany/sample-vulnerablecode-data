@@ -1,0 +1,122 @@
+package: pkg:nuget/Microsoft.NETCore.App.Runtime.rhel.6-x64
+versions:
+  - purl: pkg:nuget/Microsoft.NETCore.App.Runtime.rhel.6-x64@3.1.0
+    affected_by_vulnerabilities:
+      - VCID-7rqf-k1ux-aaac
+      - VCID-8aeh-beb9-aaap
+      - VCID-9nw8-71z9-aaab
+      - VCID-bgy8-u88m-aaak
+      - VCID-zmyz-tr92-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.NETCore.App.Runtime.rhel.6-x64@3.1.1
+    affected_by_vulnerabilities:
+      - VCID-7rqf-k1ux-aaac
+      - VCID-8aeh-beb9-aaap
+      - VCID-9nw8-71z9-aaab
+      - VCID-bgy8-u88m-aaak
+      - VCID-zmyz-tr92-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.NETCore.App.Runtime.rhel.6-x64@3.1.10
+    affected_by_vulnerabilities:
+      - VCID-8aeh-beb9-aaap
+      - VCID-bgy8-u88m-aaak
+      - VCID-zmyz-tr92-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.NETCore.App.Runtime.rhel.6-x64@3.1.11
+    affected_by_vulnerabilities:
+      - VCID-8aeh-beb9-aaap
+      - VCID-bgy8-u88m-aaak
+      - VCID-zmyz-tr92-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.NETCore.App.Runtime.rhel.6-x64@3.1.12
+    affected_by_vulnerabilities:
+      - VCID-bgy8-u88m-aaak
+      - VCID-zmyz-tr92-aaan
+    fixing_vulnerabilities:
+      - VCID-8aeh-beb9-aaap
+  - purl: pkg:nuget/Microsoft.NETCore.App.Runtime.rhel.6-x64@3.1.13
+    affected_by_vulnerabilities:
+      - VCID-bgy8-u88m-aaak
+      - VCID-zmyz-tr92-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.NETCore.App.Runtime.rhel.6-x64@3.1.14
+    affected_by_vulnerabilities:
+      - VCID-bgy8-u88m-aaak
+      - VCID-zmyz-tr92-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.NETCore.App.Runtime.rhel.6-x64@3.1.15
+    affected_by_vulnerabilities:
+      - VCID-bgy8-u88m-aaak
+      - VCID-zmyz-tr92-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.NETCore.App.Runtime.rhel.6-x64@3.1.16
+    affected_by_vulnerabilities:
+      - VCID-bgy8-u88m-aaak
+      - VCID-zmyz-tr92-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.NETCore.App.Runtime.rhel.6-x64@3.1.17
+    affected_by_vulnerabilities:
+      - VCID-bgy8-u88m-aaak
+      - VCID-zmyz-tr92-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.NETCore.App.Runtime.rhel.6-x64@3.1.18
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-bgy8-u88m-aaak
+      - VCID-zmyz-tr92-aaan
+  - purl: pkg:nuget/Microsoft.NETCore.App.Runtime.rhel.6-x64@3.1.2
+    affected_by_vulnerabilities:
+      - VCID-7rqf-k1ux-aaac
+      - VCID-8aeh-beb9-aaap
+      - VCID-9nw8-71z9-aaab
+      - VCID-bgy8-u88m-aaak
+      - VCID-zmyz-tr92-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.NETCore.App.Runtime.rhel.6-x64@3.1.3
+    affected_by_vulnerabilities:
+      - VCID-7rqf-k1ux-aaac
+      - VCID-8aeh-beb9-aaap
+      - VCID-9nw8-71z9-aaab
+      - VCID-bgy8-u88m-aaak
+      - VCID-zmyz-tr92-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.NETCore.App.Runtime.rhel.6-x64@3.1.4
+    affected_by_vulnerabilities:
+      - VCID-7rqf-k1ux-aaac
+      - VCID-8aeh-beb9-aaap
+      - VCID-bgy8-u88m-aaak
+      - VCID-zmyz-tr92-aaan
+    fixing_vulnerabilities:
+      - VCID-9nw8-71z9-aaab
+  - purl: pkg:nuget/Microsoft.NETCore.App.Runtime.rhel.6-x64@3.1.5
+    affected_by_vulnerabilities:
+      - VCID-7rqf-k1ux-aaac
+      - VCID-8aeh-beb9-aaap
+      - VCID-bgy8-u88m-aaak
+      - VCID-zmyz-tr92-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.NETCore.App.Runtime.rhel.6-x64@3.1.6
+    affected_by_vulnerabilities:
+      - VCID-8aeh-beb9-aaap
+      - VCID-bgy8-u88m-aaak
+      - VCID-zmyz-tr92-aaan
+    fixing_vulnerabilities:
+      - VCID-7rqf-k1ux-aaac
+  - purl: pkg:nuget/Microsoft.NETCore.App.Runtime.rhel.6-x64@3.1.7
+    affected_by_vulnerabilities:
+      - VCID-8aeh-beb9-aaap
+      - VCID-bgy8-u88m-aaak
+      - VCID-zmyz-tr92-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.NETCore.App.Runtime.rhel.6-x64@3.1.8
+    affected_by_vulnerabilities:
+      - VCID-8aeh-beb9-aaap
+      - VCID-bgy8-u88m-aaak
+      - VCID-zmyz-tr92-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.NETCore.App.Runtime.rhel.6-x64@3.1.9
+    affected_by_vulnerabilities:
+      - VCID-8aeh-beb9-aaap
+      - VCID-bgy8-u88m-aaak
+      - VCID-zmyz-tr92-aaan
+    fixing_vulnerabilities: []

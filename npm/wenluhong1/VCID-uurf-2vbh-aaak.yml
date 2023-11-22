@@ -1,0 +1,40 @@
+vulnerability_id: VCID-uurf-2vbh-aaak
+aliases:
+  - GHSA-224h-p7p5-rh85
+  - GMS-2020-794
+summary: |
+  Directory Traversal in wenluhong1
+  Affected versions of `wenluhong1` resolve relative file paths, resulting in a directory traversal vulnerability. A malicious actor can use this vulnerability to access files outside of the intended directory root, which may result in the disclosure of private files on the vulnerable system.
+
+  Example request:
+  ```
+  GET /../../../../../../../../../../etc/passwd HTTP/1.1
+  host:foo
+  ```
+
+
+  ## Recommendation
+
+  No patch is available for this vulnerability.
+
+  It is recommended that the package is only used for local development, and if the functionality is needed for production, a different package is used instead.
+severities:
+  - id: 704482
+    reference_id: 32578
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 32575
+    url: https://github.com/JacksonGL/NPM-Vuln-PoC/blob/master/directory-traversal/wenluhong1
+    reference_id:
+  - id: 32577
+    url: https://snyk.io/vuln/npm:wenluhong1:20170509
+    reference_id:
+  - id: 32576
+    url: https://www.npmjs.com/advisories/409
+    reference_id:
+  - id: 32578
+    url: https://github.com/advisories/GHSA-224h-p7p5-rh85
+    reference_id: GHSA-224h-p7p5-rh85
+weaknesses: []

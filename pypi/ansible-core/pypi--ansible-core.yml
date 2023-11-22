@@ -1,0 +1,10 @@
+package: pkg:pypi/ansible-core
+versions:
+  - purl: pkg:pypi/ansible-core@2.0
+    affected_by_vulnerabilities:
+      - VCID-2zwd-cb9n-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ansible-core@2.11.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-2zwd-cb9n-aaaf

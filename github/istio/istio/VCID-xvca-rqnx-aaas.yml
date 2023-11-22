@@ -1,0 +1,50 @@
+vulnerability_id: VCID-xvca-rqnx-aaas
+aliases:
+  - CVE-2021-34824
+summary: Istio (1.8.x, 1.9.0-1.9.5 and 1.10.0-1.10.1) contains a remotely exploitable vulnerability
+  where credentials specified in the Gateway and DestinationRule credentialName field can be
+  accessed from different namespaces.
+severities:
+  - id: 603949
+    reference_id: 926912
+    scoring_system: cvssv3
+    value: '9.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:L/A:L
+  - id: 603948
+    reference_id: 926911
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 545528
+    reference_id: 888209
+    scoring_system: cvssv2
+    value: '6.5'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:P/A:P
+  - id: 545526
+    reference_id: 888209
+    scoring_system: cvssv3
+    value: '8.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+references:
+  - id: 926912
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-34824.json
+    reference_id:
+  - id: 826229
+    url: https://github.com/istio/istio/releases
+    reference_id:
+  - id: 888208
+    url: https://istio.io/latest/news/security/istio-security-2021-007
+    reference_id:
+  - id: 926911
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1973478
+    reference_id: '1973478'
+  - id: 767896
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:istio:istio:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:istio:istio:*:*:*:*:*:*:*:*
+  - id: 888209
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-34824
+    reference_id: CVE-2021-34824
+  - id: 1474021
+    url: https://istio.io/latest/news/security/ISTIO-SECURITY-2021-007/
+    reference_id: ISTIO-SECURITY-2021-007
+weaknesses: []

@@ -1,0 +1,72 @@
+package: pkg:npm/http-proxy-agent
+versions:
+  - purl: pkg:npm/http-proxy-agent@0.0.1
+    affected_by_vulnerabilities:
+      - VCID-n2fc-kzrx-aaaf
+      - VCID-xtut-1bqk-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/http-proxy-agent@0.0.2
+    affected_by_vulnerabilities:
+      - VCID-n2fc-kzrx-aaaf
+      - VCID-xtut-1bqk-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/http-proxy-agent@0.1.0
+    affected_by_vulnerabilities:
+      - VCID-n2fc-kzrx-aaaf
+      - VCID-xtut-1bqk-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/http-proxy-agent@0.2.0
+    affected_by_vulnerabilities:
+      - VCID-n2fc-kzrx-aaaf
+      - VCID-xtut-1bqk-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/http-proxy-agent@0.2.1
+    affected_by_vulnerabilities:
+      - VCID-n2fc-kzrx-aaaf
+      - VCID-xtut-1bqk-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/http-proxy-agent@0.2.2
+    affected_by_vulnerabilities:
+      - VCID-n2fc-kzrx-aaaf
+      - VCID-xtut-1bqk-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/http-proxy-agent@0.2.3
+    affected_by_vulnerabilities:
+      - VCID-n2fc-kzrx-aaaf
+      - VCID-xtut-1bqk-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/http-proxy-agent@0.2.4
+    affected_by_vulnerabilities:
+      - VCID-n2fc-kzrx-aaaf
+      - VCID-xtut-1bqk-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/http-proxy-agent@0.2.5
+    affected_by_vulnerabilities:
+      - VCID-n2fc-kzrx-aaaf
+      - VCID-xtut-1bqk-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/http-proxy-agent@0.2.6
+    affected_by_vulnerabilities:
+      - VCID-n2fc-kzrx-aaaf
+      - VCID-xtut-1bqk-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/http-proxy-agent@0.2.7
+    affected_by_vulnerabilities:
+      - VCID-n2fc-kzrx-aaaf
+      - VCID-xtut-1bqk-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/http-proxy-agent@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-n2fc-kzrx-aaaf
+      - VCID-xtut-1bqk-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/http-proxy-agent@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-n2fc-kzrx-aaaf
+      - VCID-xtut-1bqk-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/http-proxy-agent@2.1.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-n2fc-kzrx-aaaf
+      - VCID-xtut-1bqk-aaar

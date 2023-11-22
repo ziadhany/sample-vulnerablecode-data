@@ -1,0 +1,51 @@
+vulnerability_id: VCID-4f5k-nmsq-aaam
+aliases:
+  - CVE-2013-5671
+  - GHSA-qrgf-jqqm-x7xv
+summary: High severity vulnerability that affects dragonfly
+severities:
+  - id: 171173
+    reference_id: 30625
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 5344
+    reference_id: 30626
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 30627
+    url: http://seclists.org/fulldisclosure/2013/Sep/18
+    reference_id:
+  - id: 30628
+    url: http://seclists.org/oss-sec/2013/q3/526
+    reference_id:
+  - id: 30629
+    url: http://seclists.org/oss-sec/2013/q3/528
+    reference_id:
+  - id: 39181
+    url: https://github.com/markevans/dragonfly/commit/47f95bd6b8af11fb0a44d6ab1c6f7d00d880cb68
+    reference_id:
+  - id: 39182
+    url: https://github.com/markevans/dragonfly/commit/ff141bb1d921fff506084b62a562f7a83d5e01fe#lib/dragonfly/image_magick/utils.rb
+    reference_id:
+  - id: 947113
+    url: https://github.com/markevans/dragonfly/issues/520
+    reference_id:
+  - id: 30630
+    url: http://www.osvdb.org/96798
+    reference_id:
+  - id: 30631
+    url: http://www.vapid.dhs.org/advisories/fog-dragonfly-0.8.2-cmd-inj.html
+    reference_id:
+  - id: 540708
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:mark_evans:fog-dragonfly:0.8.2:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:mark_evans:fog-dragonfly:0.8.2:*:*:*:*:ruby:*:*
+  - id: 30625
+    url: https://nvd.nist.gov/vuln/detail/CVE-2013-5671
+    reference_id: CVE-2013-5671
+  - id: 30626
+    url: https://github.com/advisories/GHSA-qrgf-jqqm-x7xv
+    reference_id: GHSA-qrgf-jqqm-x7xv
+weaknesses: []

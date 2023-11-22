@@ -1,0 +1,60 @@
+vulnerability_id: VCID-hp9r-e7uw-aaan
+aliases:
+  - CVE-2022-29228
+summary: Envoy is a cloud-native high-performance proxy. In versions prior to 1.22.1 the OAuth
+  filter would try to invoke the remaining filters in the chain after emitting a local response,
+  which triggers an ASSERT() in newer versions and corrupts memory on earlier versions. continueDecoding()
+  shouldnâ€™t ever be called from filters after a local reply has been sent. Users are advised
+  to upgrade. There are no known workarounds for this issue.
+severities:
+  - id: 638839
+    reference_id: 951971
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 638838
+    reference_id: 951970
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 628123
+    reference_id: 922891
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 628121
+    reference_id: 922891
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 638832
+    reference_id: 951966
+    scoring_system: rhas
+    value: Critical
+    scoring_elements:
+references:
+  - id: 951971
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-29228.json
+    reference_id:
+  - id: 922788
+    url: https://github.com/envoyproxy/envoy/commit/7ffda4e809dec74449ebc330cebb9d2f4ab61360
+    reference_id:
+  - id: 922890
+    url: https://github.com/envoyproxy/envoy/security/advisories/GHSA-rww6-8h7g-8jf6
+    reference_id:
+  - id: 951970
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=2088740
+    reference_id: 2088740
+  - id: 780349
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:envoyproxy:envoy:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:envoyproxy:envoy:*:*:*:*:*:*:*:*
+  - id: 922891
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-29228
+    reference_id: CVE-2022-29228
+  - id: 1470887
+    url: https://istio.io/latest/news/security/ISTIO-SECURITY-2022-005/
+    reference_id: ISTIO-SECURITY-2022-005
+  - id: 951966
+    url: https://access.redhat.com/errata/RHSA-2022:5004
+    reference_id: RHSA-2022:5004
+weaknesses: []

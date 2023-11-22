@@ -1,0 +1,27 @@
+vulnerability_id: VCID-j9m5-4ej9-aaaa
+aliases:
+  - GHSA-wrrw-crp8-979q
+  - GMS-2022-4208
+summary: Pageflow vulnerable to sensitive user data extraction via Ransack query injection
+severities:
+  - id: 647543
+    reference_id: 1416839
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 647542
+    reference_id: 1416838
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 1416831
+    url: https://github.com/codevise/pageflow/pull/1862
+    reference_id:
+  - id: 1416839
+    url: https://github.com/advisories/GHSA-wrrw-crp8-979q
+    reference_id: GHSA-wrrw-crp8-979q
+  - id: 1416838
+    url: https://github.com/codevise/pageflow/security/advisories/GHSA-wrrw-crp8-979q
+    reference_id: GHSA-wrrw-crp8-979q
+weaknesses: []

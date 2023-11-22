@@ -1,0 +1,18 @@
+package: pkg:maven/org.apache.geronimo.framework/geronimo-jmx-remoting
+versions:
+  - purl: pkg:maven/org.apache.geronimo.framework/geronimo-jmx-remoting@3.0.0
+    affected_by_vulnerabilities:
+      - VCID-g89h-epqw-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.geronimo.framework/geronimo-jmx-remoting@3.0.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-g89h-epqw-aaaf
+  - purl: pkg:maven/org.apache.geronimo.framework/geronimo-jmx-remoting@3.0-beta-1
+    affected_by_vulnerabilities:
+      - VCID-g89h-epqw-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.geronimo.framework/geronimo-jmx-remoting@3.0-M1
+    affected_by_vulnerabilities:
+      - VCID-g89h-epqw-aaaf
+    fixing_vulnerabilities: []

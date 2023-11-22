@@ -1,0 +1,35 @@
+vulnerability_id: VCID-z3mz-qmp3-aaag
+aliases:
+  - CVE-2022-33113
+  - GHSA-9pvq-4cc7-24jg
+summary: Cross-site Scripting in Jfinal CMS
+severities:
+  - id: 637121
+    reference_id: 946613
+    scoring_system: cvssv2
+    value: '3.5'
+    scoring_elements: AV:N/AC:M/Au:S/C:N/I:P/A:N
+  - id: 637119
+    reference_id: 946613
+    scoring_system: cvssv3
+    value: '5.4'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N
+  - id: 630462
+    reference_id: 946615
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 946614
+    url: https://github.com/jflyfox/jfinal_cms/issues/39
+    reference_id:
+  - id: 891792
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:jflyfox:jfinal_cms:5.1.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:jflyfox:jfinal_cms:5.1.0:*:*:*:*:*:*:*
+  - id: 946613
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-33113
+    reference_id: CVE-2022-33113
+  - id: 946615
+    url: https://github.com/advisories/GHSA-9pvq-4cc7-24jg
+    reference_id: GHSA-9pvq-4cc7-24jg
+weaknesses: []

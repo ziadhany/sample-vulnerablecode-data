@@ -1,0 +1,59 @@
+vulnerability_id: VCID-cd3d-w38e-aaac
+aliases:
+  - CVE-2019-10170
+  - GHSA-7m27-3587-83xf
+summary: Privilege Defined With Unsafe Actions in Keycloak
+severities:
+  - id: 50507
+    reference_id: 175070
+    scoring_system: cvssv3
+    value: '6.6'
+    scoring_elements: CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H
+  - id: 50505
+    reference_id: 175068
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 367112
+    reference_id: 10145
+    scoring_system: cvssv2
+    value: '6.5'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:P/A:P
+  - id: 367110
+    reference_id: 10145
+    scoring_system: cvssv3
+    value: '7.2'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H
+  - id: 922
+    reference_id: 10147
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 50506
+    reference_id: 175069
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 175070
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2019-10170.json
+    reference_id:
+  - id: 10146
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2019-10170
+    reference_id:
+  - id: 175068
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1721295
+    reference_id: 1721295
+  - id: 568146
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:keycloak:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:keycloak:*:*:*:*:*:*:*:*
+  - id: 10145
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-10170
+    reference_id: CVE-2019-10170
+  - id: 10147
+    url: https://github.com/advisories/GHSA-7m27-3587-83xf
+    reference_id: GHSA-7m27-3587-83xf
+  - id: 175069
+    url: https://access.redhat.com/errata/RHSA-2019:3050
+    reference_id: RHSA-2019:3050
+weaknesses: []

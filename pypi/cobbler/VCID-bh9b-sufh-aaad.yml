@@ -1,0 +1,76 @@
+vulnerability_id: VCID-bh9b-sufh-aaad
+aliases:
+  - CVE-2014-3225
+summary: |
+  Local File inclusion
+  A local file inclusion is possible by specifying full path to any desired file in the Kickstart value in Cobbler's WebUI.
+severities:
+  - id: 59609
+    reference_id: 186317
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 179955
+    reference_id: 565232
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:N/A:N
+references:
+  - id: 565224
+    url: http://packetstormsecurity.com/files/126553/Cobbler-Local-File-Inclusion.html
+    reference_id:
+  - id: 186318
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2014-3225.json
+    reference_id:
+  - id: 565225
+    url: http://seclists.org/oss-sec/2014/q2/273
+    reference_id:
+  - id: 565226
+    url: http://seclists.org/oss-sec/2014/q2/274
+    reference_id:
+  - id: 23591
+    url: https://github.com/cobbler/cobbler/issues/939
+    reference_id:
+  - id: 565231
+    url: https://www.youtube.com/watch?v=vuBaoQUFEYQ&feature=youtu.be
+    reference_id:
+  - id: 565227
+    url: http://www.exploit-db.com/exploits/33252
+    reference_id:
+  - id: 565228
+    url: http://www.osvdb.org/106759
+    reference_id:
+  - id: 565229
+    url: http://www.securityfocus.com/archive/1/532094/100/0/threaded
+    reference_id:
+  - id: 565230
+    url: http://www.securityfocus.com/bid/67277
+    reference_id:
+  - id: 186317
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1095844
+    reference_id: 1095844
+  - id: 565233
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:cobblerd:cobbler:2.4.0:-:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:cobblerd:cobbler:2.4.0:-:*:*:*:*:*:*
+  - id: 565234
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:cobblerd:cobbler:2.4.0:1:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:cobblerd:cobbler:2.4.0:1:*:*:*:*:*:*
+  - id: 565235
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:cobblerd:cobbler:2.4.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:cobblerd:cobbler:2.4.1:*:*:*:*:*:*:*
+  - id: 565236
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:cobblerd:cobbler:2.4.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:cobblerd:cobbler:2.4.2:*:*:*:*:*:*:*
+  - id: 565237
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:cobblerd:cobbler:2.4.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:cobblerd:cobbler:2.4.3:*:*:*:*:*:*:*
+  - id: 565238
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:cobblerd:cobbler:2.4.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:cobblerd:cobbler:2.4.4:*:*:*:*:*:*:*
+  - id: 565239
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:cobblerd:cobbler:2.6.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:cobblerd:cobbler:2.6.0:*:*:*:*:*:*:*
+  - id: 565232
+    url: https://nvd.nist.gov/vuln/detail/CVE-2014-3225
+    reference_id: CVE-2014-3225
+weaknesses: []

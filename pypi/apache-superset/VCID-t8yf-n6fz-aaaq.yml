@@ -1,0 +1,22 @@
+vulnerability_id: VCID-t8yf-n6fz-aaaq
+aliases:
+  - CVE-2022-43720
+  - GHSA-fpmr-qmgh-42x2
+summary: Apache Superset vulnerable to Injection
+severities:
+  - id: 707567
+    reference_id: 1470266
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 1470265
+    url: https://lists.apache.org/thread/jts6x56kghr9mbowb653bk70pl81jp8l
+    reference_id:
+  - id: 1470264
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-43720
+    reference_id: CVE-2022-43720
+  - id: 1470266
+    url: https://github.com/advisories/GHSA-fpmr-qmgh-42x2
+    reference_id: GHSA-fpmr-qmgh-42x2
+weaknesses: []

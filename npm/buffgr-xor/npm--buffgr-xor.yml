@@ -1,0 +1,10 @@
+package: pkg:npm/buffgr-xor
+versions:
+  - purl: pkg:npm/buffgr-xor@0.0.0
+    affected_by_vulnerabilities:
+      - VCID-rdsu-7mqy-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/buffgr-xor@0.0.1-security
+    affected_by_vulnerabilities:
+      - VCID-rdsu-7mqy-aaaa
+    fixing_vulnerabilities: []

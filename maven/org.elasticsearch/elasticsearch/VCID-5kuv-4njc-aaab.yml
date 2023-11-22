@@ -1,0 +1,62 @@
+vulnerability_id: VCID-5kuv-4njc-aaab
+aliases:
+  - CVE-2015-3337
+  - GHSA-x8q8-4hp5-463w
+summary: 'CVE-2015-3337 elasticsearch: directory traversal flaw'
+severities:
+  - id: 55659
+    reference_id: 181004
+    scoring_system: rhbs
+    value: low
+    scoring_elements:
+  - id: '199406'
+    reference_id: 607235
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:N/A:N
+  - id: 630184
+    reference_id: 946187
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 607230
+    url: http://packetstormsecurity.com/files/131646/Elasticsearch-Directory-Traversal.html
+    reference_id:
+  - id: 181005
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2015-3337.json
+    reference_id:
+  - id: 26207
+    url: https://www.elastic.co/community/security
+    reference_id:
+  - id: 607234
+    url: https://www.exploit-db.com/exploits/37054/
+    reference_id:
+  - id: 607231
+    url: http://www.debian.org/security/2015/dsa-3241
+    reference_id:
+  - id: 607232
+    url: http://www.securityfocus.com/archive/1/535385
+    reference_id:
+  - id: 607233
+    url: http://www.securityfocus.com/bid/74353
+    reference_id:
+  - id: 181004
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1216014
+    reference_id: 1216014
+  - id: 160900
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:elasticsearch:elasticsearch:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:elasticsearch:elasticsearch:*:*:*:*:*:*:*:*
+  - id: 607236
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:elasticsearch:elasticsearch:1.5.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:elasticsearch:elasticsearch:1.5.0:*:*:*:*:*:*:*
+  - id: 607237
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:elasticsearch:elasticsearch:1.5.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:elasticsearch:elasticsearch:1.5.1:*:*:*:*:*:*:*
+  - id: 607235
+    url: https://nvd.nist.gov/vuln/detail/CVE-2015-3337
+    reference_id: CVE-2015-3337
+  - id: 946187
+    url: https://github.com/advisories/GHSA-x8q8-4hp5-463w
+    reference_id: GHSA-x8q8-4hp5-463w
+weaknesses: []

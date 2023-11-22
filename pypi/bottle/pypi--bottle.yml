@@ -1,0 +1,493 @@
+package: pkg:pypi/bottle
+versions:
+  - purl: pkg:pypi/bottle@0.10.1
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-sszz-4pah-aaak
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.10.10
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-sszz-4pah-aaak
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.10.11
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-sszz-4pah-aaak
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.10.12
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities:
+      - VCID-sszz-4pah-aaak
+  - purl: pkg:pypi/bottle@0.10.2
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-sszz-4pah-aaak
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.10.3
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-sszz-4pah-aaak
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.10.4
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-sszz-4pah-aaak
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.10.5
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-sszz-4pah-aaak
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.10.6
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-sszz-4pah-aaak
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.10.7
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-sszz-4pah-aaak
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.10.8
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-sszz-4pah-aaak
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.10.9
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-sszz-4pah-aaak
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.11.1
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-mzmu-4xgp-aaah
+      - VCID-sszz-4pah-aaak
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.11.2
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-mzmu-4xgp-aaah
+      - VCID-sszz-4pah-aaak
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.11.3
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-mzmu-4xgp-aaah
+      - VCID-sszz-4pah-aaak
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.11.4
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-mzmu-4xgp-aaah
+      - VCID-sszz-4pah-aaak
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.11.5
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-mzmu-4xgp-aaah
+      - VCID-sszz-4pah-aaak
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.11.6
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-mzmu-4xgp-aaah
+      - VCID-sszz-4pah-aaak
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.11.7
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities:
+      - VCID-mzmu-4xgp-aaah
+      - VCID-sszz-4pah-aaak
+  - purl: pkg:pypi/bottle@0.12.1
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-mzmu-4xgp-aaah
+      - VCID-sszz-4pah-aaak
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.12.10
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.12.11
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities:
+      - VCID-csvh-xavj-aaab
+  - purl: pkg:pypi/bottle@0.12.12
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.12.13
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.12.14
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.12.15
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.12.16
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.12.17
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.12.18
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.12.19
+    affected_by_vulnerabilities:
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+  - purl: pkg:pypi/bottle@0.12.2
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-mzmu-4xgp-aaah
+      - VCID-sszz-4pah-aaak
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.12.20
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-wr41-twbv-aaas
+  - purl: pkg:pypi/bottle@0.12.3
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-mzmu-4xgp-aaah
+      - VCID-sszz-4pah-aaak
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.12.4
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-mzmu-4xgp-aaah
+      - VCID-sszz-4pah-aaak
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.12.5
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-mzmu-4xgp-aaah
+      - VCID-sszz-4pah-aaak
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.12.6
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities:
+      - VCID-mzmu-4xgp-aaah
+      - VCID-sszz-4pah-aaak
+  - purl: pkg:pypi/bottle@0.12.7
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.12.8
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.12.9
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.4.10
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.4.11
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.4.12
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.4.13
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.4.14
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.4.3
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.4.4
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.4.6
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.4.7
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.4.8
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.4.9
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.5.3
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.5.4
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.5.6
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.5.7
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.5.8
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.6.0
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.6.1
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.6.2
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.6.3
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.6.4
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.6.5
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.6.6
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.8.1
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-sszz-4pah-aaak
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.8.2
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-sszz-4pah-aaak
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.8.3
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-sszz-4pah-aaak
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.8.4
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-sszz-4pah-aaak
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.8.5
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-sszz-4pah-aaak
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.9.1
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-sszz-4pah-aaak
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.9.2
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-sszz-4pah-aaak
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.9.3
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-sszz-4pah-aaak
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.9.4
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-sszz-4pah-aaak
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.9.5
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-sszz-4pah-aaak
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.9.6
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-sszz-4pah-aaak
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.9.7
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-sszz-4pah-aaak
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bottle@0.9.8
+    affected_by_vulnerabilities:
+      - VCID-6tzu-a4pp-aaag
+      - VCID-csvh-xavj-aaab
+      - VCID-sszz-4pah-aaak
+      - VCID-wr41-twbv-aaas
+    fixing_vulnerabilities: []

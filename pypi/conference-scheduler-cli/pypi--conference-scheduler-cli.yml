@@ -1,0 +1,78 @@
+package: pkg:pypi/conference-scheduler-cli
+versions:
+  - purl: pkg:pypi/conference-scheduler-cli@0.1.0
+    affected_by_vulnerabilities:
+      - VCID-zch8-s8bb-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/conference-scheduler-cli@0.10.1
+    affected_by_vulnerabilities:
+      - VCID-zch8-s8bb-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/conference-scheduler-cli@0.2.0
+    affected_by_vulnerabilities:
+      - VCID-zch8-s8bb-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/conference-scheduler-cli@0.3.0
+    affected_by_vulnerabilities:
+      - VCID-zch8-s8bb-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/conference-scheduler-cli@0.3.1
+    affected_by_vulnerabilities:
+      - VCID-zch8-s8bb-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/conference-scheduler-cli@0.4.0
+    affected_by_vulnerabilities:
+      - VCID-zch8-s8bb-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/conference-scheduler-cli@0.4.1
+    affected_by_vulnerabilities:
+      - VCID-zch8-s8bb-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/conference-scheduler-cli@0.5.0
+    affected_by_vulnerabilities:
+      - VCID-zch8-s8bb-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/conference-scheduler-cli@0.6.0
+    affected_by_vulnerabilities:
+      - VCID-zch8-s8bb-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/conference-scheduler-cli@0.7.0
+    affected_by_vulnerabilities:
+      - VCID-zch8-s8bb-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/conference-scheduler-cli@0.7.1
+    affected_by_vulnerabilities:
+      - VCID-zch8-s8bb-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/conference-scheduler-cli@0.7.2
+    affected_by_vulnerabilities:
+      - VCID-zch8-s8bb-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/conference-scheduler-cli@0.8.0
+    affected_by_vulnerabilities:
+      - VCID-zch8-s8bb-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/conference-scheduler-cli@0.8.1
+    affected_by_vulnerabilities:
+      - VCID-zch8-s8bb-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/conference-scheduler-cli@0.8.2
+    affected_by_vulnerabilities:
+      - VCID-zch8-s8bb-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/conference-scheduler-cli@0.8.3
+    affected_by_vulnerabilities:
+      - VCID-zch8-s8bb-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/conference-scheduler-cli@0.8.4
+    affected_by_vulnerabilities:
+      - VCID-zch8-s8bb-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/conference-scheduler-cli@0.9.0
+    affected_by_vulnerabilities:
+      - VCID-zch8-s8bb-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/conference-scheduler-cli@0.9.1
+    affected_by_vulnerabilities:
+      - VCID-zch8-s8bb-aaac
+    fixing_vulnerabilities: []

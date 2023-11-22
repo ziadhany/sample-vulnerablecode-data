@@ -1,0 +1,30 @@
+vulnerability_id: VCID-83dj-mf2y-aaan
+aliases:
+  - GHSA-8c8c-4vfj-rrpc
+  - GMS-2020-764
+summary: |
+  Reflected Cross-Site Scripting in redis-commander
+  Affected versions of `redis-commander` contain a cross-site scripting vulnerability in the `highlighterId` paramter of the `clipboard.swf` component on hosts serving Redis Commander.
+severities:
+  - id: 704757
+    reference_id: 33038
+    scoring_system: cvssv3.1_qr
+    value: LOW
+    scoring_elements:
+references:
+  - id: 1466363
+    url: https://github.com/joeferner/redis-commander/commit/1a483ebb3a706cf199dd283cf0aead96606adb14
+    reference_id:
+  - id: 1466364
+    url: https://github.com/joeferner/redis-commander/releases/tag/v0.5.0
+    reference_id:
+  - id: 33036
+    url: https://hackerone.com/reports/296377
+    reference_id:
+  - id: 33037
+    url: https://www.npmjs.com/advisories/562
+    reference_id:
+  - id: 33038
+    url: https://github.com/advisories/GHSA-8c8c-4vfj-rrpc
+    reference_id: GHSA-8c8c-4vfj-rrpc
+weaknesses: []

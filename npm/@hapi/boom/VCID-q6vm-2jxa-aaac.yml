@@ -1,0 +1,21 @@
+vulnerability_id: VCID-q6vm-2jxa-aaac
+aliases:
+  - GHSA-2ggq-vfcp-gwhj
+  - GMS-2020-26
+summary: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')
+  in @hapi/boom.
+severities: []
+references:
+  - id: 31463
+    url: https://github.com/hapijs/boom
+    reference_id:
+  - id: 31461
+    url: https://snyk.io/vuln/SNYK-JS-HAPIBOOM-541183
+    reference_id:
+  - id: 31462
+    url: https://www.npmjs.com/advisories/1459
+    reference_id:
+  - id: 31464
+    url: https://github.com/advisories/GHSA-2ggq-vfcp-gwhj
+    reference_id: GHSA-2ggq-vfcp-gwhj
+weaknesses: []

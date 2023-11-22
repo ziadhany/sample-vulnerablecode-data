@@ -1,0 +1,159 @@
+vulnerability_id: VCID-117h-jsy3-aaam
+aliases:
+  - CVE-2012-3370
+summary: 'CVE-2012-3370 JBoss: SecurityAssociation.getCredential() will return the previous
+  credential if no security context is provided'
+severities:
+  - id: 63236
+    reference_id: '191412'
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 155587
+    reference_id: 496532
+    scoring_system: cvssv2
+    value: '5.8'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:P/A:N
+  - id: 63229
+    reference_id: '191402'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63231
+    reference_id: '191404'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63230
+    reference_id: '191403'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63227
+    reference_id: '191400'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63226
+    reference_id: '191399'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63228
+    reference_id: '191401'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63233
+    reference_id: '191406'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63232
+    reference_id: '191405'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63032
+    reference_id: '191137'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 408373
+    url: http://rhn.redhat.com/errata/RHSA-2013-0191.html
+    reference_id:
+  - id: 408374
+    url: http://rhn.redhat.com/errata/RHSA-2013-0192.html
+    reference_id:
+  - id: 408375
+    url: http://rhn.redhat.com/errata/RHSA-2013-0193.html
+    reference_id:
+  - id: 408376
+    url: http://rhn.redhat.com/errata/RHSA-2013-0194.html
+    reference_id:
+  - id: 408377
+    url: http://rhn.redhat.com/errata/RHSA-2013-0195.html
+    reference_id:
+  - id: 408378
+    url: http://rhn.redhat.com/errata/RHSA-2013-0196.html
+    reference_id:
+  - id: 408379
+    url: http://rhn.redhat.com/errata/RHSA-2013-0197.html
+    reference_id:
+  - id: 408380
+    url: http://rhn.redhat.com/errata/RHSA-2013-0198.html
+    reference_id:
+  - id: 408381
+    url: http://rhn.redhat.com/errata/RHSA-2013-0221.html
+    reference_id:
+  - id: 408382
+    url: http://rhn.redhat.com/errata/RHSA-2013-0533.html
+    reference_id:
+  - id: '191413'
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2012-3370.json
+    reference_id:
+  - id: 496530
+    url: https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=836456
+    reference_id:
+  - id: 408383
+    url: http://secunia.com/advisories/51984
+    reference_id:
+  - id: 408384
+    url: http://secunia.com/advisories/52054
+    reference_id:
+  - id: 482319
+    url: http://securitytracker.com/id?1028042
+    reference_id:
+  - id: 496531
+    url: https://exchange.xforce.ibmcloud.com/vulnerabilities/81513
+    reference_id:
+  - id: 496528
+    url: http://www.osvdb.org/89581
+    reference_id:
+  - id: 496529
+    url: http://www.securityfocus.com/bid/57550
+    reference_id:
+  - id: '191412'
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=836456
+    reference_id: 836456
+  - id: 472139
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:5.2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:5.2.0:*:*:*:*:*:*:*
+  - id: 469829
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_brms_platform:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_brms_platform:*:*:*:*:*:*:*:*
+  - id: 472140
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_web_platform:5.2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_web_platform:5.2.0:*:*:*:*:*:*:*
+  - id: 496532
+    url: https://nvd.nist.gov/vuln/detail/CVE-2012-3370
+    reference_id: CVE-2012-3370
+  - id: '191402'
+    url: https://access.redhat.com/errata/RHSA-2013:0191
+    reference_id: RHSA-2013:0191
+  - id: '191404'
+    url: https://access.redhat.com/errata/RHSA-2013:0192
+    reference_id: RHSA-2013:0192
+  - id: '191403'
+    url: https://access.redhat.com/errata/RHSA-2013:0193
+    reference_id: RHSA-2013:0193
+  - id: '191400'
+    url: https://access.redhat.com/errata/RHSA-2013:0194
+    reference_id: RHSA-2013:0194
+  - id: '191399'
+    url: https://access.redhat.com/errata/RHSA-2013:0195
+    reference_id: RHSA-2013:0195
+  - id: '191401'
+    url: https://access.redhat.com/errata/RHSA-2013:0196
+    reference_id: RHSA-2013:0196
+  - id: '191406'
+    url: https://access.redhat.com/errata/RHSA-2013:0198
+    reference_id: RHSA-2013:0198
+  - id: '191405'
+    url: https://access.redhat.com/errata/RHSA-2013:0221
+    reference_id: RHSA-2013:0221
+  - id: '191137'
+    url: https://access.redhat.com/errata/RHSA-2013:0533
+    reference_id: RHSA-2013:0533
+weaknesses: []

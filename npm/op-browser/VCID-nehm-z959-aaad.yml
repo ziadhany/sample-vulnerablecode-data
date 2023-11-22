@@ -1,0 +1,46 @@
+vulnerability_id: VCID-nehm-z959-aaad
+aliases:
+  - CVE-2020-7625
+  - GHSA-3hq6-rmv7-39vh
+summary: |
+  Injection Vulnerability
+  op-browser is vulnerable to Command Injection. It allows execution of arbitrary commands via the `url` function.
+severities:
+  - id: 489133
+    reference_id: 32843
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 489131
+    reference_id: 32843
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 706324
+    reference_id: 1467881
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 852665
+    url: https://github.com/hiproxy/open-browser/blob/master/lib/index.js#L75,
+    reference_id:
+  - id: 1467879
+    url: https://github.com/hiproxy/open-browser/pull/3
+    reference_id:
+  - id: 1467880
+    url: https://github.com/hiproxy/open-browser/pull/4
+    reference_id:
+  - id: 852666
+    url: https://snyk.io/vuln/SNYK-JS-OPBROWSER-564259
+    reference_id:
+  - id: 852667
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:op-browser_project:op-browser:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:op-browser_project:op-browser:*:*:*:*:*:node.js:*:*
+  - id: 32843
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-7625
+    reference_id: CVE-2020-7625
+  - id: 1467881
+    url: https://github.com/advisories/GHSA-3hq6-rmv7-39vh
+    reference_id: GHSA-3hq6-rmv7-39vh
+weaknesses: []

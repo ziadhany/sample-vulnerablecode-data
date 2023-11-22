@@ -1,0 +1,38 @@
+package: pkg:npm/keycloak-auth-utils
+versions:
+  - purl: pkg:npm/keycloak-auth-utils@2.5.0
+    affected_by_vulnerabilities:
+      - VCID-733r-y5bp-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-auth-utils@2.5.1
+    affected_by_vulnerabilities:
+      - VCID-733r-y5bp-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-auth-utils@2.5.4
+    affected_by_vulnerabilities:
+      - VCID-733r-y5bp-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-auth-utils@2.5.5
+    affected_by_vulnerabilities:
+      - VCID-733r-y5bp-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-auth-utils@2.5.7
+    affected_by_vulnerabilities:
+      - VCID-733r-y5bp-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-auth-utils@3.0.0
+    affected_by_vulnerabilities:
+      - VCID-733r-y5bp-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/keycloak-auth-utils@3.0.0-cr.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-733r-y5bp-aaae
+  - purl: pkg:npm/keycloak-auth-utils@3.1.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-733r-y5bp-aaae
+  - purl: pkg:npm/keycloak-auth-utils@3.1.0-cr.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-733r-y5bp-aaae

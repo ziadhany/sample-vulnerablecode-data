@@ -1,0 +1,35 @@
+vulnerability_id: VCID-dzty-mthg-aaam
+aliases:
+  - CVE-2022-31943
+  - GHSA-4828-473v-37gh
+summary: Unrestricted Upload of File with Dangerous Type in MCMS
+severities:
+  - id: 635993
+    reference_id: 945906
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 635991
+    reference_id: 945906
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 630028
+    reference_id: 945908
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 945907
+    url: https://github.com/ming-soft/MCMS/issues/95
+    reference_id:
+  - id: 950212
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:mingsoft:mcms:5.2.8:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:mingsoft:mcms:5.2.8:*:*:*:*:*:*:*
+  - id: 945906
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-31943
+    reference_id: CVE-2022-31943
+  - id: 945908
+    url: https://github.com/advisories/GHSA-4828-473v-37gh
+    reference_id: GHSA-4828-473v-37gh
+weaknesses: []

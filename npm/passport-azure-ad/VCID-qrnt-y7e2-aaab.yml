@@ -1,0 +1,121 @@
+vulnerability_id: VCID-qrnt-y7e2-aaab
+aliases:
+  - CVE-2016-7191
+  - GHSA-73jp-3c67-hjfv
+summary: |
+  Authentication bypass
+  The library does not recognize the `validateIssuer` setting, which allows remote attackers to bypass authentication via a crafted token.
+severities:
+  - id: 708558
+    reference_id: 32800
+    scoring_system: cvssv3
+    value: 10
+    scoring_elements:
+  - id: 708559
+    reference_id: 32801
+    scoring_system: cvssv3
+    value: 10
+    scoring_elements:
+  - id: 708560
+    reference_id: 1473449
+    scoring_system: cvssv3
+    value: 10
+    scoring_elements:
+  - id: 237673
+    reference_id: 655731
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:N/A:N
+  - id: 237671
+    reference_id: 655731
+    scoring_system: cvssv3
+    value: '8.1'
+    scoring_elements: CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 705576
+    reference_id: 1466698
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 32800
+    url: https://github.com/AzureAD/passport-azure-ad/blob/master/SECURITY-NOTICE.MD
+    reference_id:
+  - id: 32801
+    url: https://support.microsoft.com/en-us/kb/3187742
+    reference_id:
+  - id: 655730
+    url: https://support.microsoft.com/kb/3187742
+    reference_id:
+  - id: 1466699
+    url: https://www.npmjs.com/advisories/151
+    reference_id:
+  - id: 655729
+    url: http://www.securityfocus.com/bid/93213
+    reference_id:
+  - id: 641741
+    url: http://www.securitytracker.com/id/1036996
+    reference_id:
+  - id: 1473449
+    url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/151.json
+    reference_id: 151
+  - id: 655732
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:azure_active_directory_passport:1.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:azure_active_directory_passport:1.0.0:*:*:*:*:*:*:*
+  - id: 655733
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:azure_active_directory_passport:1.1.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:azure_active_directory_passport:1.1.0:*:*:*:*:*:*:*
+  - id: 655734
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:azure_active_directory_passport:1.1.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:azure_active_directory_passport:1.1.1:*:*:*:*:*:*:*
+  - id: 655735
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:azure_active_directory_passport:1.2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:azure_active_directory_passport:1.2.0:*:*:*:*:*:*:*
+  - id: 655736
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:azure_active_directory_passport:1.3.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:azure_active_directory_passport:1.3.0:*:*:*:*:*:*:*
+  - id: 655737
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:azure_active_directory_passport:1.3.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:azure_active_directory_passport:1.3.1:*:*:*:*:*:*:*
+  - id: 655738
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:azure_active_directory_passport:1.3.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:azure_active_directory_passport:1.3.2:*:*:*:*:*:*:*
+  - id: 655739
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:azure_active_directory_passport:1.3.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:azure_active_directory_passport:1.3.3:*:*:*:*:*:*:*
+  - id: 655740
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:azure_active_directory_passport:1.3.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:azure_active_directory_passport:1.3.4:*:*:*:*:*:*:*
+  - id: 655741
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:azure_active_directory_passport:1.3.5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:azure_active_directory_passport:1.3.5:*:*:*:*:*:*:*
+  - id: 655742
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:azure_active_directory_passport:1.3.6:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:azure_active_directory_passport:1.3.6:*:*:*:*:*:*:*
+  - id: 655743
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:azure_active_directory_passport:1.4.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:azure_active_directory_passport:1.4.0:*:*:*:*:*:*:*
+  - id: 655744
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:azure_active_directory_passport:1.4.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:azure_active_directory_passport:1.4.1:*:*:*:*:*:*:*
+  - id: 655745
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:azure_active_directory_passport:1.4.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:azure_active_directory_passport:1.4.2:*:*:*:*:*:*:*
+  - id: 655746
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:azure_active_directory_passport:1.4.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:azure_active_directory_passport:1.4.3:*:*:*:*:*:*:*
+  - id: 655747
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:azure_active_directory_passport:1.4.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:azure_active_directory_passport:1.4.4:*:*:*:*:*:*:*
+  - id: 655748
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:azure_active_directory_passport:1.4.5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:azure_active_directory_passport:1.4.5:*:*:*:*:*:*:*
+  - id: 655749
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:azure_active_directory_passport:2.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:azure_active_directory_passport:2.0.0:*:*:*:*:*:*:*
+  - id: 655731
+    url: https://nvd.nist.gov/vuln/detail/CVE-2016-7191
+    reference_id: CVE-2016-7191
+  - id: 1466698
+    url: https://github.com/advisories/GHSA-73jp-3c67-hjfv
+    reference_id: GHSA-73jp-3c67-hjfv
+weaknesses: []

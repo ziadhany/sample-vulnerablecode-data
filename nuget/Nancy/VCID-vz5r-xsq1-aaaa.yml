@@ -1,0 +1,46 @@
+vulnerability_id: VCID-vz5r-xsq1-aaaa
+aliases:
+  - CVE-2017-9785
+  - GHSA-mx3q-j2g2-5qxq
+summary: |
+  Deserialization of Untrusted Data
+  Csrf.cs in NancyFX Nancy has Remote Code Execution via Deserialization of JSON data in a CSRF Cookie.
+severities:
+  - id: 302374
+    reference_id: 37830
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 302372
+    reference_id: 37830
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 630566
+    reference_id: 945236
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 37831
+    url: https://github.com/NancyFx/Nancy/releases/tag/v1.4.4
+    reference_id:
+  - id: 716782
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:nancyfx:nancy:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:nancyfx:nancy:*:*:*:*:*:*:*:*
+  - id: 716783
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:nancyfx:nancy:2.0.0:alpha:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:nancyfx:nancy:2.0.0:alpha:*:*:*:*:*:*
+  - id: 716784
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:nancyfx:nancy:2.0.0:barneyrubble:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:nancyfx:nancy:2.0.0:barneyrubble:*:*:*:*:*:*
+  - id: 716785
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:nancyfx:nancy:2.0.0:clinteastwood:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:nancyfx:nancy:2.0.0:clinteastwood:*:*:*:*:*:*
+  - id: 37830
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-9785
+    reference_id: CVE-2017-9785
+  - id: 945236
+    url: https://github.com/advisories/GHSA-mx3q-j2g2-5qxq
+    reference_id: GHSA-mx3q-j2g2-5qxq
+weaknesses: []

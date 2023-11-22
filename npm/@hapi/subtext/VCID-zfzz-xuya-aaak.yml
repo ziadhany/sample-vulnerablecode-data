@@ -1,0 +1,21 @@
+vulnerability_id: VCID-zfzz-xuya-aaak
+aliases:
+  - GHSA-g9cg-h3jm-cwrc
+  - GMS-2020-31
+summary: |
+  Prototype Pollution in @hapi/subtext
+  Versions of `@hapi/subtext` are vulnerable to Prototype Pollution. A multipart payload can be constructed in a way that one of the parts’ content can be set as the entire payload object’s prototype. If this prototype contains data, it may bypass other validation rules which enforce access and privacy. If this prototype evaluates to null, it can cause unhandled exceptions when the request payload is accessed.
+severities:
+  - id: 704924
+    reference_id: 31466
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 31465
+    url: https://www.npmjs.com/advisories/1480
+    reference_id:
+  - id: 31466
+    url: https://github.com/advisories/GHSA-g9cg-h3jm-cwrc
+    reference_id: GHSA-g9cg-h3jm-cwrc
+weaknesses: []

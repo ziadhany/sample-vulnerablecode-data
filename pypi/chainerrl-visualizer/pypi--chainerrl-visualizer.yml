@@ -1,0 +1,10 @@
+package: pkg:pypi/chainerrl-visualizer
+versions:
+  - purl: pkg:pypi/chainerrl-visualizer@0.1.0
+    affected_by_vulnerabilities:
+      - VCID-ds82-7n49-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/chainerrl-visualizer@0.1.1
+    affected_by_vulnerabilities:
+      - VCID-ds82-7n49-aaan
+    fixing_vulnerabilities: []

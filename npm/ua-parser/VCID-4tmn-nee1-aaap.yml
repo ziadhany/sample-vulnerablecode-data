@@ -1,0 +1,9 @@
+vulnerability_id: VCID-4tmn-nee1-aaap
+aliases:
+  - GMS-2017-184
+summary: |
+  ReDoS via long UserAgent header
+  ua-parser is vulnerable to a ReDoS (Regular Expression Denial of Service) attack when given a specially crafted UserAgent header.
+severities: []
+references: []
+weaknesses: []

@@ -1,0 +1,40 @@
+vulnerability_id: VCID-pasu-sp7r-aaag
+aliases:
+  - CVE-2020-7651
+  - GHSA-45hw-29x7-9x95
+summary: |
+  Information Exposure
+  snyk-broker is vulnerable to Arbitrary File Read. It allows partial file reads for users who have access to Snyk's internal network via patch history from GitHub Commits API.
+severities:
+  - id: 489233
+    reference_id: 35795
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:N/A:N
+  - id: 489231
+    reference_id: 35795
+    scoring_system: cvssv3
+    value: '4.3'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N
+  - id: 706347
+    reference_id: 1467904
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 35796
+    url: https://snyk.io/vuln/SNYK-JS-SNYKBROKER-570610
+    reference_id:
+  - id: 35788
+    url: https://updates.snyk.io/snyk-broker-security-fixes-152338
+    reference_id:
+  - id: 852729
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:synk:broker:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:synk:broker:*:*:*:*:*:*:*:*
+  - id: 35795
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-7651
+    reference_id: CVE-2020-7651
+  - id: 1467904
+    url: https://github.com/advisories/GHSA-45hw-29x7-9x95
+    reference_id: GHSA-45hw-29x7-9x95
+weaknesses: []

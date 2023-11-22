@@ -1,0 +1,10 @@
+package: pkg:npm/dhkey
+versions:
+  - purl: pkg:npm/dhkey@0.0.0
+    affected_by_vulnerabilities:
+      - VCID-epm2-wsjt-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/dhkey@0.0.1-security
+    affected_by_vulnerabilities:
+      - VCID-epm2-wsjt-aaah
+    fixing_vulnerabilities: []

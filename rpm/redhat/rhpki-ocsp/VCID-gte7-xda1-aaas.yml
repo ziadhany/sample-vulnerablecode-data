@@ -1,0 +1,178 @@
+vulnerability_id: VCID-gte7-xda1-aaas
+aliases:
+  - CVE-2005-3510
+summary: Apache Tomcat 5.5.0 to 5.5.11 allows remote attackers to cause a denial of service
+  (CPU consumption) via a large number of simultaneous requests to list a web directory that
+  has a large number of files.
+severities:
+  - id: 78427
+    reference_id: 210055
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 33283
+    reference_id: 136270
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 78330
+    reference_id: 209898
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 77704
+    reference_id: 208817
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 77487
+    reference_id: 208448
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 68202
+    reference_id: '197689'
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 68204
+    reference_id: '197691'
+    scoring_system: rhas
+    value: Low
+    scoring_elements:
+  - id: 68958
+    reference_id: '198602'
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 125568
+    url: http://community.ca.com/blogs/casecurityresponseblog/archive/2009/01/23.aspx
+    reference_id:
+  - id: 210056
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2005-3510.json
+    reference_id:
+  - id: 136264
+    url: http://secunia.com/advisories/17416
+    reference_id:
+  - id: 76683
+    url: http://secunia.com/advisories/30899
+    reference_id:
+  - id: 76684
+    url: http://secunia.com/advisories/30908
+    reference_id:
+  - id: 125576
+    url: http://secunia.com/advisories/33668
+    reference_id:
+  - id: 136265
+    url: http://securitytracker.com/id?1015147
+    reference_id:
+  - id: 9049
+    url: https://lists.apache.org/thread.html/29dc6c2b625789e70a9c4756b5a327e6547273ff8bde7e0327af48c5@%3Cdev.tomcat.apache.org%3E
+    reference_id:
+  - id: 9051
+    url: https://lists.apache.org/thread.html/c62b0e3a7bf23342352a5810c640a94b6db69957c5c19db507004d74@%3Cdev.tomcat.apache.org%3E
+    reference_id:
+  - id: 9054
+    url: https://lists.apache.org/thread.html/rb71997f506c6cc8b530dd845c084995a9878098846c7b4eacfae8db3@%3Cdev.tomcat.apache.org%3E
+    reference_id:
+  - id: 76685
+    url: http://sunsolve.sun.com/search/document.do?assetkey=1-26-239312-1
+    reference_id:
+  - id: 125579
+    url: http://support.ca.com/irj/portal/anonymous/phpsupcontent?contentID=197540
+    reference_id:
+  - id: 9066
+    url: http://tomcat.apache.org/security-4.html
+    reference_id:
+  - id: 9067
+    url: http://tomcat.apache.org/security-5.html
+    reference_id:
+  - id: 136266
+    url: http://www.osvdb.org/20439
+    reference_id:
+  - id: 136267
+    url: http://www.redhat.com/support/errata/RHSA-2006-0161.html
+    reference_id:
+  - id: 97202
+    url: http://www.redhat.com/support/errata/RHSA-2008-0261.html
+    reference_id:
+  - id: 136268
+    url: http://www.securityfocus.com/archive/1/415782/30/0/threaded
+    reference_id:
+  - id: 125584
+    url: http://www.securityfocus.com/archive/1/500396/100/0/threaded
+    reference_id:
+  - id: 125585
+    url: http://www.securityfocus.com/archive/1/500412/100/0/threaded
+    reference_id:
+  - id: 136269
+    url: http://www.securityfocus.com/bid/15325
+    reference_id:
+  - id: 76688
+    url: http://www.vupen.com/english/advisories/2008/1979/references
+    reference_id:
+  - id: 125590
+    url: http://www.vupen.com/english/advisories/2009/0233
+    reference_id:
+  - id: 210055
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=237085
+    reference_id: 237085
+  - id: 136271
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:tomcat:5.5.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:tomcat:5.5.0:*:*:*:*:*:*:*
+  - id: 136274
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:tomcat:5.5.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:tomcat:5.5.1:*:*:*:*:*:*:*
+  - id: 136272
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:tomcat:5.5.10:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:tomcat:5.5.10:*:*:*:*:*:*:*
+  - id: 136273
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:tomcat:5.5.11:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:tomcat:5.5.11:*:*:*:*:*:*:*
+  - id: 136275
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:tomcat:5.5.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:tomcat:5.5.2:*:*:*:*:*:*:*
+  - id: 136276
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:tomcat:5.5.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:tomcat:5.5.3:*:*:*:*:*:*:*
+  - id: 136277
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:tomcat:5.5.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:tomcat:5.5.4:*:*:*:*:*:*:*
+  - id: 136278
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:tomcat:5.5.5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:tomcat:5.5.5:*:*:*:*:*:*:*
+  - id: 136279
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:tomcat:5.5.6:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:tomcat:5.5.6:*:*:*:*:*:*:*
+  - id: 136280
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:tomcat:5.5.7:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:tomcat:5.5.7:*:*:*:*:*:*:*
+  - id: 136281
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:tomcat:5.5.8:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:tomcat:5.5.8:*:*:*:*:*:*:*
+  - id: 136282
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:tomcat:5.5.9:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:tomcat:5.5.9:*:*:*:*:*:*:*
+  - id: 136270
+    url: https://nvd.nist.gov/vuln/detail/CVE-2005-3510
+    reference_id: CVE-2005-3510
+  - id: 209898
+    url: https://access.redhat.com/errata/RHSA-2006:0161
+    reference_id: RHSA-2006:0161
+  - id: 208817
+    url: https://access.redhat.com/errata/RHSA-2007:0340
+    reference_id: RHSA-2007:0340
+  - id: 208448
+    url: https://access.redhat.com/errata/RHSA-2007:1069
+    reference_id: RHSA-2007:1069
+  - id: '197689'
+    url: https://access.redhat.com/errata/RHSA-2008:0261
+    reference_id: RHSA-2008:0261
+  - id: '197691'
+    url: https://access.redhat.com/errata/RHSA-2008:0524
+    reference_id: RHSA-2008:0524
+  - id: '198602'
+    url: https://access.redhat.com/errata/RHSA-2010:0602
+    reference_id: RHSA-2010:0602
+weaknesses: []

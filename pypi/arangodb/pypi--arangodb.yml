@@ -1,0 +1,22 @@
+package: pkg:pypi/arangodb
+versions:
+  - purl: pkg:pypi/arangodb@3.7.0
+    affected_by_vulnerabilities:
+      - VCID-wqjf-333h-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/arangodb@3.7.6
+    affected_by_vulnerabilities:
+      - VCID-6j7h-9cfj-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/arangodb@3.8.3
+    affected_by_vulnerabilities:
+      - VCID-6j7h-9cfj-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/arangodb@3.8.5.1
+    affected_by_vulnerabilities:
+      - VCID-wqjf-333h-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/arangodb@3.9.0
+    affected_by_vulnerabilities:
+      - VCID-wqjf-333h-aaac
+    fixing_vulnerabilities: []

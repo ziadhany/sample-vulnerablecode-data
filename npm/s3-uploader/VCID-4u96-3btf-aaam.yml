@@ -1,0 +1,36 @@
+vulnerability_id: VCID-4u96-3btf-aaam
+aliases:
+  - CVE-2021-34084
+  - GHSA-gwp3-f7mr-qpfv
+summary: OS command injection vulnerability in Turistforeningen node-s3-uploader through 2.0.3
+  for Node.js allows attackers to execute arbitrary commands via the metadata() function.
+severities:
+  - id: 543377
+    reference_id: 886713
+    scoring_system: cvssv2
+    value: '10.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:C/I:C/A:C
+  - id: 543375
+    reference_id: 886713
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 706778
+    reference_id: 952143
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 886712
+    url: https://advisory.checkmarx.net/advisory/CX-2021-4776
+    reference_id:
+  - id: 886714
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:s3-uploader_project:s3-uploader:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:s3-uploader_project:s3-uploader:*:*:*:*:*:node.js:*:*
+  - id: 886713
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-34084
+    reference_id: CVE-2021-34084
+  - id: 952143
+    url: https://github.com/advisories/GHSA-gwp3-f7mr-qpfv
+    reference_id: GHSA-gwp3-f7mr-qpfv
+weaknesses: []

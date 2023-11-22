@@ -1,0 +1,47 @@
+package: pkg:npm/sandbox
+versions:
+  - purl: pkg:npm/sandbox@0.0.0
+    affected_by_vulnerabilities:
+      - VCID-bskb-ery2-aaaf
+      - VCID-pzrw-nb2d-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/sandbox@0.7.0
+    affected_by_vulnerabilities:
+      - VCID-bskb-ery2-aaaf
+      - VCID-pzrw-nb2d-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/sandbox@0.8.0
+    affected_by_vulnerabilities:
+      - VCID-bskb-ery2-aaaf
+      - VCID-pzrw-nb2d-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/sandbox@0.8.1
+    affected_by_vulnerabilities:
+      - VCID-bskb-ery2-aaaf
+      - VCID-pzrw-nb2d-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/sandbox@0.8.2
+    affected_by_vulnerabilities:
+      - VCID-bskb-ery2-aaaf
+      - VCID-pzrw-nb2d-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/sandbox@0.8.3
+    affected_by_vulnerabilities:
+      - VCID-bskb-ery2-aaaf
+      - VCID-pzrw-nb2d-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/sandbox@0.8.4
+    affected_by_vulnerabilities:
+      - VCID-bskb-ery2-aaaf
+      - VCID-pzrw-nb2d-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/sandbox@0.8.5
+    affected_by_vulnerabilities:
+      - VCID-bskb-ery2-aaaf
+      - VCID-pzrw-nb2d-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/sandbox@0.8.6
+    affected_by_vulnerabilities:
+      - VCID-bskb-ery2-aaaf
+      - VCID-pzrw-nb2d-aaag
+    fixing_vulnerabilities: []

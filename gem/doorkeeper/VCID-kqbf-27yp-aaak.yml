@@ -1,0 +1,28 @@
+vulnerability_id: VCID-kqbf-27yp-aaak
+aliases:
+  - GHSA-5p9f-55j8-922m
+summary: Moderate severity vulnerability that affects doorkeeper
+severities:
+  - id: 235462
+    reference_id: 29387
+    scoring_system: cvssv2
+    value: '6.4'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:P/A:P
+  - id: 235460
+    reference_id: 29387
+    scoring_system: cvssv3
+    value: '9.1'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H
+  - id: 5207
+    reference_id: 29388
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 29387
+    url: https://nvd.nist.gov/vuln/detail/CVE-2016-6582
+    reference_id: CVE-2016-6582
+  - id: 29388
+    url: https://github.com/advisories/GHSA-5p9f-55j8-922m
+    reference_id: GHSA-5p9f-55j8-922m
+weaknesses: []

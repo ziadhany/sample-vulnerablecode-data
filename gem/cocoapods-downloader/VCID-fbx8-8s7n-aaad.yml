@@ -1,0 +1,44 @@
+vulnerability_id: VCID-fbx8-8s7n-aaad
+aliases:
+  - CVE-2022-24440
+  - GHSA-7627-mp87-jf6q
+summary: Command injection in cocoapods-downloader
+severities:
+  - id: 589027
+    reference_id: 26775
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 589025
+    reference_id: 26775
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 4885
+    reference_id: 26779
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 26776
+    url: https://github.com/CocoaPods/cocoapods-downloader/pull/124
+    reference_id:
+  - id: 26777
+    url: https://github.com/CocoaPods/cocoapods-downloader/pull/128
+    reference_id:
+  - id: 26778
+    url: https://snyk.io/vuln/SNYK-RUBY-COCOAPODSDOWNLOADER-2414278
+    reference_id:
+  - id: 912343
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:cocoapods:cocoapods-downloader:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:cocoapods:cocoapods-downloader:*:*:*:*:*:*:*:*
+  - id: 916924
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:cocoapods:cocoapods-downloader:1.6.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:cocoapods:cocoapods-downloader:1.6.2:*:*:*:*:*:*:*
+  - id: 26775
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-24440
+    reference_id: CVE-2022-24440
+  - id: 26779
+    url: https://github.com/advisories/GHSA-7627-mp87-jf6q
+    reference_id: GHSA-7627-mp87-jf6q
+weaknesses: []

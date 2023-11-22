@@ -1,0 +1,57 @@
+package: pkg:pypi/cherrymusic
+versions:
+  - purl: pkg:pypi/cherrymusic@0.30.0
+    affected_by_vulnerabilities:
+      - VCID-183g-a8tu-aaap
+      - VCID-epf3-jk95-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cherrymusic@0.31.0
+    affected_by_vulnerabilities:
+      - VCID-183g-a8tu-aaap
+      - VCID-epf3-jk95-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cherrymusic@0.31.1
+    affected_by_vulnerabilities:
+      - VCID-183g-a8tu-aaap
+      - VCID-epf3-jk95-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cherrymusic@0.31.2
+    affected_by_vulnerabilities:
+      - VCID-183g-a8tu-aaap
+      - VCID-epf3-jk95-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cherrymusic@0.32.0
+    affected_by_vulnerabilities:
+      - VCID-183g-a8tu-aaap
+      - VCID-epf3-jk95-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cherrymusic@0.33.0
+    affected_by_vulnerabilities:
+      - VCID-183g-a8tu-aaap
+      - VCID-epf3-jk95-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cherrymusic@0.34.0
+    affected_by_vulnerabilities:
+      - VCID-183g-a8tu-aaap
+      - VCID-epf3-jk95-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cherrymusic@0.34.1
+    affected_by_vulnerabilities:
+      - VCID-183g-a8tu-aaap
+      - VCID-epf3-jk95-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cherrymusic@0.35.1
+    affected_by_vulnerabilities:
+      - VCID-183g-a8tu-aaap
+      - VCID-epf3-jk95-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cherrymusic@0.35.2
+    affected_by_vulnerabilities:
+      - VCID-183g-a8tu-aaap
+      - VCID-epf3-jk95-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cherrymusic@0.36.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-183g-a8tu-aaap
+      - VCID-epf3-jk95-aaak

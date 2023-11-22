@@ -1,0 +1,50 @@
+vulnerability_id: VCID-8j6y-z3b5-aaaq
+aliases:
+  - CVE-2014-0140
+summary: 'CVE-2014-0140 CFME: default routes expose controllers and actions'
+severities:
+  - id: 174235
+    reference_id: 550204
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:N/I:P/A:N
+  - id: 58425
+    reference_id: 184714
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 550202
+    url: http://rhn.redhat.com/errata/RHSA-2014-1317.html
+    reference_id:
+  - id: 184715
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2014-0140.json
+    reference_id:
+  - id: 550203
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1077359
+    reference_id:
+  - id: 550205
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:cloudforms_3.0.1_management_engine:5.2.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:cloudforms_3.0.1_management_engine:5.2.1:*:*:*:*:*:*:*
+  - id: 550206
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:cloudforms_3.0.2_management_engine:5.2.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:cloudforms_3.0.2_management_engine:5.2.2:*:*:*:*:*:*:*
+  - id: 550207
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:cloudforms_3.0.3_management_engine:5.2.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:cloudforms_3.0.3_management_engine:5.2.3:*:*:*:*:*:*:*
+  - id: 550208
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:cloudforms_3.0.4_management_engine:5.2.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:cloudforms_3.0.4_management_engine:5.2.4:*:*:*:*:*:*:*
+  - id: 550209
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:cloudforms_3.0.5_management_engine:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:cloudforms_3.0.5_management_engine:*:*:*:*:*:*:*:*
+  - id: 544307
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:cloudforms_3.0_management_engine:5.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:cloudforms_3.0_management_engine:5.2:*:*:*:*:*:*:*
+  - id: 550204
+    url: https://nvd.nist.gov/vuln/detail/CVE-2014-0140
+    reference_id: CVE-2014-0140
+  - id: 184714
+    url: https://access.redhat.com/errata/RHSA-2014:1317
+    reference_id: RHSA-2014:1317
+weaknesses: []

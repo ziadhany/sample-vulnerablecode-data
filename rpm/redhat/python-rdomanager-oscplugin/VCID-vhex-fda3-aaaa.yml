@@ -1,0 +1,73 @@
+vulnerability_id: VCID-vhex-fda3-aaaa
+aliases:
+  - CVE-2015-5271
+  - GHSA-8936-44gw-7664
+  - PYSEC-2016-34
+summary: The TripleO Heat templates (tripleo-heat-templates) do not properly order the Identity
+  Service (keystone) before the OpenStack Object Storage (Swift) staticweb middleware in the
+  swiftproxy pipeline when the staticweb middleware is enabled, which might allow remote attackers
+  to obtain sensitive information from private containers via unspecified vectors.
+severities:
+  - id: 53395
+    reference_id: 178425
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 38005
+    reference_id: 158604
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 38003
+    reference_id: 158604
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+  - id: 708179
+    reference_id: 1471453
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 53396
+    reference_id: 178426
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 178427
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2015-5271.json
+    reference_id:
+  - id: 5024
+    url: https://bugs.launchpad.net/tripleo/+bug/1494896
+    reference_id:
+  - id: 1471451
+    url: https://git.openstack.org/cgit/openstack/tripleo-heat-templates/commit/?id=1730d95acdbee7c7bbcfe1eba8a48ef2b0cc1476
+    reference_id:
+  - id: 5026
+    url: https://launchpadlibrarian.net/217268516/CVE-2015-5271_puppet-swift.patch
+    reference_id:
+  - id: 1471452
+    url: https://review.openstack.org/226541
+    reference_id:
+  - id: 178425
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1261697
+    reference_id: 1261697
+  - id: 158605
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:openstack:tripleo_heat_templates:-:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:openstack:tripleo_heat_templates:-:*:*:*:*:*:*:*
+  - id: 158177
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openstack:7.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:openstack:7.0:*:*:*:*:*:*:*
+  - id: 1471450
+    url: https://access.redhat.com/security/cve/CVE-2015-5271
+    reference_id: CVE-2015-5271
+  - id: 158604
+    url: https://nvd.nist.gov/vuln/detail/CVE-2015-5271
+    reference_id: CVE-2015-5271
+  - id: 1471453
+    url: https://github.com/advisories/GHSA-8936-44gw-7664
+    reference_id: GHSA-8936-44gw-7664
+  - id: 178426
+    url: https://access.redhat.com/errata/RHSA-2015:1862
+    reference_id: RHSA-2015:1862
+weaknesses: []

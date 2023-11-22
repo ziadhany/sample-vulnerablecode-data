@@ -1,0 +1,85 @@
+vulnerability_id: VCID-zy22-kpy3-aaag
+aliases:
+  - CVE-2015-6254
+summary: 'The (1) Service Provider (SP) and (2) Identity Provider (IdP) in PicketLink before
+  2.7.0 does not ensure that the Destination attribute in a Response element in a SAML assertion
+  matches the location from which the message was received, which allows remote attackers to
+  have unspecified impact via unknown vectors.  NOTE: this identifier was SPLIT from CVE-2015-0277
+  per ADT2 due to different vulnerability types.'
+severities:
+  - id: 55889
+    reference_id: 181336
+    scoring_system: cvssv3
+    value: '6.3'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L
+  - id: 55888
+    reference_id: 181335
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 40494
+    reference_id: 163782
+    scoring_system: cvssv2
+    value: '6.0'
+    scoring_elements: AV:N/AC:M/Au:S/C:P/I:P/A:P
+  - id: 55599
+    reference_id: 180914
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 55598
+    reference_id: 180913
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 55597
+    reference_id: 180912
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 55803
+    reference_id: 181201
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 163776
+    url: http://rhn.redhat.com/errata/RHSA-2015-0846.html
+    reference_id:
+  - id: 163777
+    url: http://rhn.redhat.com/errata/RHSA-2015-0847.html
+    reference_id:
+  - id: 163778
+    url: http://rhn.redhat.com/errata/RHSA-2015-0848.html
+    reference_id:
+  - id: 163779
+    url: http://rhn.redhat.com/errata/RHSA-2015-0849.html
+    reference_id:
+  - id: 181336
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2015-6254.json
+    reference_id:
+  - id: 163781
+    url: https://issues.jboss.org/browse/PLINK-680
+    reference_id:
+  - id: 181335
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1974359
+    reference_id: '1974359'
+  - id: 163783
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:picketlink:picketlink:*:cr5:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:picketlink:picketlink:*:cr5:*:*:*:*:*:*
+  - id: 163782
+    url: https://nvd.nist.gov/vuln/detail/CVE-2015-6254
+    reference_id: CVE-2015-6254
+  - id: 180914
+    url: https://access.redhat.com/errata/RHSA-2015:0846
+    reference_id: RHSA-2015:0846
+  - id: 180913
+    url: https://access.redhat.com/errata/RHSA-2015:0847
+    reference_id: RHSA-2015:0847
+  - id: 180912
+    url: https://access.redhat.com/errata/RHSA-2015:0848
+    reference_id: RHSA-2015:0848
+  - id: 181201
+    url: https://access.redhat.com/errata/RHSA-2015:0849
+    reference_id: RHSA-2015:0849
+weaknesses: []

@@ -1,0 +1,264 @@
+package: pkg:npm/fullpage.js
+versions:
+  - purl: pkg:npm/fullpage.js@2.6.5
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@2.6.6
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@2.6.6-2
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@2.6.6-3
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@2.6.7
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@2.6.8
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@2.6.9
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@2.7.0
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@2.7.1
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@2.7.2
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@2.7.3
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@2.7.4
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@2.7.5
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@2.7.6
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@2.7.7
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@2.7.8
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@2.7.9
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@2.8.0
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@2.8.1
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@2.8.2
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@2.8.3
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@2.8.4
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@2.8.5
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@2.8.6
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@2.8.7
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@2.8.8
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@2.8.9
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@2.9.0
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@2.9.2
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@2.9.3
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@2.9.4
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@2.9.5
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@2.9.6
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@2.9.7
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@3.0.0
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@3.0.1
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@3.0.2
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@3.0.3
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@3.0.4
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@3.0.5
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@3.0.6
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@3.0.7
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@3.0.8
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@3.0.9
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@3.1.0
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@3.1.1
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@3.1.2
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@4.0.0
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@4.0.1
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+      - VCID-kw74-ct4g-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@4.0.2
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+    fixing_vulnerabilities:
+      - VCID-kw74-ct4g-aaaa
+  - purl: pkg:npm/fullpage.js@4.0.3
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@4.0.4
+    affected_by_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fullpage.js@4.0.5
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-2ue5-f5qh-aaak

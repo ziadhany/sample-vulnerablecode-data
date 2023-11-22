@@ -1,0 +1,39 @@
+vulnerability_id: VCID-j3z9-4xv8-aaah
+aliases:
+  - CVE-2022-31026
+  - GHSA-5g4r-2qhx-vqfm
+  - GMS-2022-1921
+summary: Use of Uninitialized Variable in trilogy
+severities:
+  - id: 601435
+    reference_id: 26605
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 601433
+    reference_id: 26605
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+  - id: 4847
+    reference_id: 26606
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 26604
+    url: https://github.com/github/trilogy/commit/6bed62789eaf119902b0fe247d2a91d56c31a962
+    reference_id:
+  - id: 924875
+    url: https://github.com/github/trilogy/security/advisories/GHSA-5g4r-2qhx-vqfm
+    reference_id:
+  - id: 924876
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:trilogy_project:trilogy:*:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:trilogy_project:trilogy:*:*:*:*:*:ruby:*:*
+  - id: 26605
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-31026
+    reference_id: CVE-2022-31026
+  - id: 26606
+    url: https://github.com/advisories/GHSA-5g4r-2qhx-vqfm
+    reference_id: GHSA-5g4r-2qhx-vqfm
+weaknesses: []

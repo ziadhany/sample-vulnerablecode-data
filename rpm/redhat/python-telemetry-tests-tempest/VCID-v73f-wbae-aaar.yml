@@ -1,0 +1,60 @@
+vulnerability_id: VCID-v73f-wbae-aaar
+aliases:
+  - CVE-2019-10138
+  - GHSA-xf8c-3cgx-fcwm
+  - PYSEC-2019-192
+summary: A flaw was discovered in the python-novajoin plugin, all versions up to, excluding
+  1.1.1, for Red Hat OpenStack Platform. The novajoin API lacked sufficient access control,
+  allowing any keystone authenticated user to generate FreeIPA tokens.
+severities:
+  - id: 69241
+    reference_id: '198925'
+    scoring_system: cvssv3
+    value: '7.1'
+    scoring_elements: CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H
+  - id: 366964
+    reference_id: 8442
+    scoring_system: cvssv2
+    value: '6.5'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:P/A:P
+  - id: 366962
+    reference_id: 8442
+    scoring_system: cvssv3
+    value: '8.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+  - id: 4649
+    reference_id: 26106
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 69240
+    reference_id: '198924'
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: '198925'
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2019-10138.json
+    reference_id:
+  - id: 6397
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2019-10138
+    reference_id:
+  - id: 6398
+    url: https://review.opendev.org/#/c/631240/
+    reference_id:
+  - id: 766227
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:python:novajoin:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:python:novajoin:*:*:*:*:*:*:*:*
+  - id: 8442
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-10138
+    reference_id: CVE-2019-10138
+  - id: 26106
+    url: https://github.com/advisories/GHSA-xf8c-3cgx-fcwm
+    reference_id: GHSA-xf8c-3cgx-fcwm
+  - id: '198923'
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1670573
+    reference_id: RHBA-2019:0944
+  - id: '198924'
+    url: https://access.redhat.com/errata/RHSA-2019:1728
+    reference_id: RHSA-2019:1728
+weaknesses: []

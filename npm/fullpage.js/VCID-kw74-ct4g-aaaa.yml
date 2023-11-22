@@ -1,0 +1,40 @@
+vulnerability_id: VCID-kw74-ct4g-aaaa
+aliases:
+  - CVE-2022-1295
+  - GHSA-vpgw-ffh3-648h
+summary: |
+  Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution')
+  Prototype Pollution in GitHub repository alvarotrigo/fullpage.js prior to 4.0.2.
+severities:
+  - id: 578870
+    reference_id: 33274
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 578868
+    reference_id: 33274
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 706923
+    reference_id: 34168
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 33276
+    url: https://github.com/alvarotrigo/fullpage.js/commit/bf62492a22e5d296e63c3ed918a42fc5645a0d48
+    reference_id:
+  - id: 33275
+    url: https://huntr.dev/bounties/3b9d450c-24ac-4037-b04d-4d4dafbf593a
+    reference_id:
+  - id: 910492
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:fullpage_project:fullpage:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:fullpage_project:fullpage:*:*:*:*:*:node.js:*:*
+  - id: 33274
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-1295
+    reference_id: CVE-2022-1295
+  - id: 34168
+    url: https://github.com/advisories/GHSA-vpgw-ffh3-648h
+    reference_id: GHSA-vpgw-ffh3-648h
+weaknesses: []

@@ -1,0 +1,50 @@
+package: pkg:nuget/Wire
+versions:
+  - purl: pkg:nuget/Wire@0.0.1
+    affected_by_vulnerabilities:
+      - VCID-6feh-jxdz-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wire@0.0.2
+    affected_by_vulnerabilities:
+      - VCID-6feh-jxdz-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wire@0.0.3
+    affected_by_vulnerabilities:
+      - VCID-6feh-jxdz-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wire@0.0.4
+    affected_by_vulnerabilities:
+      - VCID-6feh-jxdz-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wire@0.0.5
+    affected_by_vulnerabilities:
+      - VCID-6feh-jxdz-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wire@0.0.6
+    affected_by_vulnerabilities:
+      - VCID-6feh-jxdz-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wire@0.7.0
+    affected_by_vulnerabilities:
+      - VCID-6feh-jxdz-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wire@0.7.1
+    affected_by_vulnerabilities:
+      - VCID-6feh-jxdz-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wire@0.8.0
+    affected_by_vulnerabilities:
+      - VCID-6feh-jxdz-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wire@0.8.1
+    affected_by_vulnerabilities:
+      - VCID-6feh-jxdz-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wire@0.8.2
+    affected_by_vulnerabilities:
+      - VCID-6feh-jxdz-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wire@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-6feh-jxdz-aaar
+    fixing_vulnerabilities: []

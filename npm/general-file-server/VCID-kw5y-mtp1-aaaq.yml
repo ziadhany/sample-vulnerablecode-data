@@ -1,0 +1,74 @@
+vulnerability_id: VCID-kw5y-mtp1-aaaq
+aliases:
+  - CVE-2018-3724
+  - GHSA-wv2f-3rxv-jqhp
+summary: general-file-server node module suffers from a Path Traversal vulnerability due to
+  lack of validation of currpath, which allows a malicious user to read content of any file
+  with known path.
+severities:
+  - id: 708649
+    reference_id: 751180
+    scoring_system: cvssv3
+    value: '8.6'
+    scoring_elements:
+  - id: 708650
+    reference_id: 1473489
+    scoring_system: cvssv3
+    value: '8.6'
+    scoring_elements:
+  - id: 345549
+    reference_id: 36720
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 345547
+    reference_id: 36720
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+  - id: 705906
+    reference_id: 1467330
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 751180
+    url: https://hackerone.com/reports/310943
+    reference_id:
+  - id: 1467331
+    url: https://www.npmjs.com/advisories/592
+    reference_id:
+  - id: 1473489
+    url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/387.json
+    reference_id: 387
+  - id: 751181
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:general-file-server_project:general-file-server:1.0.0:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:general-file-server_project:general-file-server:1.0.0:*:*:*:*:node.js:*:*
+  - id: 751182
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:general-file-server_project:general-file-server:1.1.2:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:general-file-server_project:general-file-server:1.1.2:*:*:*:*:node.js:*:*
+  - id: 751183
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:general-file-server_project:general-file-server:1.1.3:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:general-file-server_project:general-file-server:1.1.3:*:*:*:*:node.js:*:*
+  - id: 751184
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:general-file-server_project:general-file-server:1.1.4:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:general-file-server_project:general-file-server:1.1.4:*:*:*:*:node.js:*:*
+  - id: 751185
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:general-file-server_project:general-file-server:1.1.5:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:general-file-server_project:general-file-server:1.1.5:*:*:*:*:node.js:*:*
+  - id: 751186
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:general-file-server_project:general-file-server:1.1.6:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:general-file-server_project:general-file-server:1.1.6:*:*:*:*:node.js:*:*
+  - id: 751187
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:general-file-server_project:general-file-server:1.1.7:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:general-file-server_project:general-file-server:1.1.7:*:*:*:*:node.js:*:*
+  - id: 751188
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:general-file-server_project:general-file-server:1.1.8:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:general-file-server_project:general-file-server:1.1.8:*:*:*:*:node.js:*:*
+  - id: 36720
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-3724
+    reference_id: CVE-2018-3724
+  - id: 1467330
+    url: https://github.com/advisories/GHSA-wv2f-3rxv-jqhp
+    reference_id: GHSA-wv2f-3rxv-jqhp
+weaknesses: []

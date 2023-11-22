@@ -1,0 +1,140 @@
+vulnerability_id: VCID-54ft-fk3u-aaas
+aliases:
+  - CVE-2021-3717
+  - GHSA-p9xf-3rm3-qh2h
+summary: A flaw was found in Wildfly. An incorrect JBOSS_LOCAL_USER challenge location when
+  using the elytron configuration may lead to JBOSS_LOCAL_USER access to all users on the machine.
+  The highest threat from this vulnerability is to confidentiality, integrity, and availability.
+  This flaw affects wildfly-core versions prior to 17.0.
+severities:
+  - id: 603015
+    reference_id: 926208
+    scoring_system: cvssv3
+    value: '6.8'
+    scoring_elements: CVSS:3.1/AV:A/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H
+  - id: 603011
+    reference_id: 926204
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 550999
+    reference_id: 891636
+    scoring_system: cvssv2
+    value: '4.6'
+    scoring_elements: AV:L/AC:L/Au:N/C:P/I:P/A:P
+  - id: 550997
+    reference_id: 891636
+    scoring_system: cvssv3
+    value: '7.8'
+    scoring_elements: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+  - id: 627804
+    reference_id: 944006
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 603012
+    reference_id: 926205
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 603013
+    reference_id: 926206
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 603014
+    reference_id: 926207
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 602495
+    reference_id: 925832
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 602493
+    reference_id: 925830
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 602494
+    reference_id: 925831
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 602491
+    reference_id: 925828
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 602492
+    reference_id: 925829
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 602496
+    reference_id: 925833
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 642082
+    reference_id: 1182816
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 926208
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-3717.json
+    reference_id:
+  - id: 1181954
+    url: https://security.netapp.com/advisory/ntap-20220804-0002/
+    reference_id:
+  - id: 926204
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1991305
+    reference_id: '1991305'
+  - id: 766420
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:-:*:*:*:text-only:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:-:*:*:*:text-only:*:*:*
+  - id: 734921
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:single_sign-on:-:*:*:*:text-only:*:*:*
+    reference_id: cpe:2.3:a:redhat:single_sign-on:-:*:*:*:text-only:*:*:*
+  - id: 724991
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:wildfly_core:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:wildfly_core:*:*:*:*:*:*:*:*
+  - id: 891636
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-3717
+    reference_id: CVE-2021-3717
+  - id: 944006
+    url: https://github.com/advisories/GHSA-p9xf-3rm3-qh2h
+    reference_id: GHSA-p9xf-3rm3-qh2h
+  - id: 926205
+    url: https://access.redhat.com/errata/RHSA-2021:4676
+    reference_id: RHSA-2021:4676
+  - id: 926206
+    url: https://access.redhat.com/errata/RHSA-2021:4677
+    reference_id: RHSA-2021:4677
+  - id: 926207
+    url: https://access.redhat.com/errata/RHSA-2021:4679
+    reference_id: RHSA-2021:4679
+  - id: 925832
+    url: https://access.redhat.com/errata/RHSA-2021:5149
+    reference_id: RHSA-2021:5149
+  - id: 925830
+    url: https://access.redhat.com/errata/RHSA-2021:5150
+    reference_id: RHSA-2021:5150
+  - id: 925831
+    url: https://access.redhat.com/errata/RHSA-2021:5151
+    reference_id: RHSA-2021:5151
+  - id: 925828
+    url: https://access.redhat.com/errata/RHSA-2021:5154
+    reference_id: RHSA-2021:5154
+  - id: 925829
+    url: https://access.redhat.com/errata/RHSA-2021:5170
+    reference_id: RHSA-2021:5170
+  - id: 925833
+    url: https://access.redhat.com/errata/RHSA-2022:0146
+    reference_id: RHSA-2022:0146
+  - id: 1182816
+    url: https://access.redhat.com/errata/RHSA-2022:5903
+    reference_id: RHSA-2022:5903
+weaknesses: []

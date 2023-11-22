@@ -1,0 +1,47 @@
+vulnerability_id: VCID-3yxz-dcac-aaaf
+aliases:
+  - CVE-2022-29214
+  - GHSA-q2mx-j4x2-2h74
+summary: NextAuth.js (next-auth) is am open source authentication solution for Next.js applications.
+  Prior to versions 3.29.3 and 4.3.3, an open redirect vulnerability is present when the developer
+  is implementing an OAuth 1 provider. Versions 3.29.3 and 4.3.3 contain a patch for this issue.
+  The maintainers recommend adding a certain configuration to one's `callbacks` option as a
+  workaround for those unable to upgrade.
+severities:
+  - id: 598479
+    reference_id: 922854
+    scoring_system: cvssv2
+    value: '5.8'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:P/A:N
+  - id: 598477
+    reference_id: 922854
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+  - id: 707090
+    reference_id: 945195
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 707089
+    reference_id: 945194
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 922852
+    url: https://github.com/nextauthjs/next-auth/releases/tag/next-auth%40v4.3.3
+    reference_id:
+  - id: 863829
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:nextauth.js:next-auth:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:nextauth.js:next-auth:*:*:*:*:*:node.js:*:*
+  - id: 922854
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-29214
+    reference_id: CVE-2022-29214
+  - id: 945195
+    url: https://github.com/advisories/GHSA-q2mx-j4x2-2h74
+    reference_id: GHSA-q2mx-j4x2-2h74
+  - id: 945194
+    url: https://github.com/nextauthjs/next-auth/security/advisories/GHSA-q2mx-j4x2-2h74
+    reference_id: GHSA-q2mx-j4x2-2h74
+weaknesses: []

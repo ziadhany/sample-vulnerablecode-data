@@ -1,0 +1,15 @@
+vulnerability_id: VCID-tbje-ggth-aaaq
+aliases:
+  - GMS-2014-29
+summary: |
+  Hidden Directories always served
+  The inert directory handler always allows files in hidden directories to be served, even when `showHidden` is false.
+severities: []
+references:
+  - id: 33904
+    url: https://github.com/hapijs/inert/commit/e8f99f94da4cb08e8032eda984761c3f111e3e82
+    reference_id:
+  - id: 33905
+    url: https://github.com/hapijs/inert/pull/15
+    reference_id:
+weaknesses: []

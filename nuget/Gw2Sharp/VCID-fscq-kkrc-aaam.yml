@@ -1,0 +1,24 @@
+vulnerability_id: VCID-fscq-kkrc-aaam
+aliases:
+  - GHSA-4vr3-9v7h-5f8v
+  - GMS-2019-70
+summary: Low severity vulnerability that affects Gw2Sharp
+severities:
+  - id: '1975'
+    reference_id: 16422
+    scoring_system: cvssv3.1_qr
+    value: LOW
+    scoring_elements:
+  - id: '1974'
+    reference_id: 16421
+    scoring_system: cvssv3.1_qr
+    value: LOW
+    scoring_elements:
+references:
+  - id: 16422
+    url: https://github.com/advisories/GHSA-4vr3-9v7h-5f8v
+    reference_id: GHSA-4vr3-9v7h-5f8v
+  - id: 16421
+    url: https://github.com/Archomeda/Gw2Sharp/security/advisories/GHSA-4vr3-9v7h-5f8v
+    reference_id: GHSA-4vr3-9v7h-5f8v
+weaknesses: []

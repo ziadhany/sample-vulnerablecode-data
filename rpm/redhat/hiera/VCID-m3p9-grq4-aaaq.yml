@@ -1,0 +1,59 @@
+vulnerability_id: VCID-m3p9-grq4-aaaq
+aliases:
+  - CVE-2016-4451
+summary: 'CVE-2016-4451 foreman: privilege escalation through Organization and Locations API'
+severities:
+  - id: 49470
+    reference_id: 173811
+    scoring_system: cvssv3
+    value: '6.3'
+    scoring_elements: CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:C/C:N/I:H/A:N
+  - id: 49469
+    reference_id: 173810
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 228265
+    reference_id: 645287
+    scoring_system: cvssv2
+    value: '6.0'
+    scoring_elements: AV:N/AC:M/Au:S/C:P/I:P/A:P
+  - id: 228263
+    reference_id: 645287
+    scoring_system: cvssv3
+    value: '5.0'
+    scoring_elements: CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:L
+  - id: 48853
+    reference_id: 173183
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 645284
+    url: http://projects.theforeman.org/issues/15182
+    reference_id:
+  - id: 645285
+    url: http://projects.theforeman.org/projects/foreman/repository/revisions/1144040f444b4bf4aae81940a150b26b23b4623c
+    reference_id:
+  - id: 173811
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2016-4451.json
+    reference_id:
+  - id: 645286
+    url: https://theforeman.org/security.html#2016-4451
+    reference_id:
+  - id: 173810
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1339889
+    reference_id: 1339889
+  - id: 158226
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:foreman:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:foreman:*:*:*:*:*:*:*:*
+  - id: 158682
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:foreman:1.12.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:foreman:1.12.0:*:*:*:*:*:*:*
+  - id: 645287
+    url: https://nvd.nist.gov/vuln/detail/CVE-2016-4451
+    reference_id: CVE-2016-4451
+  - id: 173183
+    url: https://access.redhat.com/errata/RHSA-2018:0336
+    reference_id: RHSA-2018:0336
+weaknesses: []

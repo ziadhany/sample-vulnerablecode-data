@@ -1,0 +1,65 @@
+vulnerability_id: VCID-n3vw-pvhw-aaaf
+aliases:
+  - CVE-2020-1738
+  - GHSA-f85h-23mf-2fwh
+  - PYSEC-2020-10
+summary: A flaw was found in Ansible Engine when the module package or service is used and the
+  parameter 'use' is not specified. If a previous task is executed with a malicious user, the
+  module sent can be selected by the attacker using the ansible facts file. All versions in
+  2.7.x, 2.8.x and 2.9.x branches are believed to be vulnerable.
+severities:
+  - id: 54999
+    reference_id: 180138
+    scoring_system: cvssv3
+    value: '3.9'
+    scoring_elements: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:N/I:L/A:L
+  - id: 450670
+    reference_id: 22289
+    scoring_system: cvssv2
+    value: '2.6'
+    scoring_elements: AV:L/AC:H/Au:N/C:N/I:P/A:P
+  - id: 450668
+    reference_id: 22289
+    scoring_system: cvssv3
+    value: '3.9'
+    scoring_elements: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:N/I:L/A:L
+  - id: 4395
+    reference_id: 24996
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 180138
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2020-1738.json
+    reference_id:
+  - id: 6566
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2020-1738
+    reference_id:
+  - id: 6567
+    url: https://github.com/ansible/ansible/issues/67796
+    reference_id:
+  - id: 6564
+    url: https://security.gentoo.org/glsa/202006-11
+    reference_id:
+  - id: 163666
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:ansible:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:ansible:*:*:*:*:*:*:*:*
+  - id: 655192
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:ansible_tower:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:ansible_tower:*:*:*:*:*:*:*:*
+  - id: 511587
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:cloudforms_management_engine:5.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:cloudforms_management_engine:5.0:*:*:*:*:*:*:*
+  - id: 637842
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openstack:13:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:openstack:13:*:*:*:*:*:*:*
+  - id: 22289
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-1738
+    reference_id: CVE-2020-1738
+  - id: 24996
+    url: https://github.com/advisories/GHSA-f85h-23mf-2fwh
+    reference_id: GHSA-f85h-23mf-2fwh
+  - id: 180137
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1802164
+    reference_id: RHBA-2020:1539
+weaknesses: []

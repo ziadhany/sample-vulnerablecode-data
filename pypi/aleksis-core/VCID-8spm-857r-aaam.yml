@@ -1,0 +1,44 @@
+vulnerability_id: VCID-8spm-857r-aaam
+aliases:
+  - CVE-2022-29773
+  - GHSA-76x2-h8h3-cwjg
+summary: Access control issue in AlekSIS-Core
+severities:
+  - id: 599569
+    reference_id: 20328
+    scoring_system: cvssv2
+    value: '3.5'
+    scoring_elements: AV:N/AC:M/Au:S/C:P/I:N/A:N
+  - id: 599567
+    reference_id: 20328
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+  - id: 3165
+    reference_id: 20333
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 20332
+    url: https://aleksis.org/2022-05-04_advisory.html
+    reference_id:
+  - id: 20330
+    url: https://edugit.org/AlekSIS/official/AlekSIS-Core/-/commit/0d39d5f566e1d916e3c8dedd3f5bd62161f30bd8
+    reference_id:
+  - id: 20329
+    url: https://edugit.org/AlekSIS/official/AlekSIS-Core/-/issues/688
+    reference_id:
+  - id: 20331
+    url: https://edugit.org/AlekSIS/official/AlekSIS-Core/-/merge_requests/1011
+    reference_id:
+  - id: 923745
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:aleksis:aleksis:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:aleksis:aleksis:*:*:*:*:*:*:*:*
+  - id: 20328
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-29773
+    reference_id: CVE-2022-29773
+  - id: 20333
+    url: https://github.com/advisories/GHSA-76x2-h8h3-cwjg
+    reference_id: GHSA-76x2-h8h3-cwjg
+weaknesses: []

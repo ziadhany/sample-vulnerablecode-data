@@ -1,0 +1,75 @@
+vulnerability_id: VCID-w5ct-jkjq-aaak
+aliases:
+  - CVE-2021-39155
+summary: Istio is an open source platform for providing a uniform way to integrate microservices,
+  manage traffic flow across microservices, enforce policies and aggregate telemetry data. According
+  to [RFC 4343](https://datatracker.ietf.org/doc/html/rfc4343), Istio authorization policy should
+  compare the hostname in the HTTP Host header in a case insensitive way, but currently the
+  comparison is case sensitive. The proxy will route the request hostname in a case-insensitive
+  way which means the authorization policy could be bypassed. As an example, the user may have
+  an authorization policy that rejects request with hostname "httpbin.foo" for some source IPs,
+  but the attacker can bypass this by sending the request with hostname "Httpbin.Foo". Patches
+  are available in Istio 1.11.1, Istio 1.10.4 and Istio 1.9.8. As a work around a Lua filter
+  may be written to normalize Host header before the authorization check. This is similar to
+  the Path normalization presented in the [Security Best Practices](https://istio.io/latest/docs/ops/best-practices/security/#case-normalization)
+  guide.
+severities:
+  - id: 602901
+    reference_id: 926127
+    scoring_system: cvssv3
+    value: '8.3'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:L
+  - id: 602900
+    reference_id: 926126
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 556205
+    reference_id: 895118
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 556203
+    reference_id: 895118
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+  - id: 602897
+    reference_id: 926124
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 602896
+    reference_id: 926123
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 926127
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-39155.json
+    reference_id:
+  - id: 895116
+    url: https://datatracker.ietf.org/doc/html/rfc4343
+    reference_id:
+  - id: 895117
+    url: https://github.com/istio/istio/security/advisories/GHSA-7774-7vr3-cc8j
+    reference_id:
+  - id: 926126
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1996929
+    reference_id: '1996929'
+  - id: 767896
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:istio:istio:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:istio:istio:*:*:*:*:*:*:*:*
+  - id: 895118
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-39155
+    reference_id: CVE-2021-39155
+  - id: 1470884
+    url: https://istio.io/latest/news/security/ISTIO-SECURITY-2021-008/
+    reference_id: ISTIO-SECURITY-2021-008
+  - id: 926124
+    url: https://access.redhat.com/errata/RHSA-2021:3272
+    reference_id: RHSA-2021:3272
+  - id: 926123
+    url: https://access.redhat.com/errata/RHSA-2021:3273
+    reference_id: RHSA-2021:3273
+weaknesses: []

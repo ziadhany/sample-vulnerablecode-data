@@ -1,0 +1,12 @@
+vulnerability_id: VCID-sjrc-rbsw-aaac
+aliases:
+  - GMS-2017-242
+summary: |
+  Directory Traversal
+  `infraserver` is vulnerable to a directory traversal issue, giving an attacker access to the filesystem by placing "../" in the url./n
+severities: []
+references:
+  - id: 32601
+    url: https://github.com/JacksonGL/NPM-Vuln-PoC/blob/master/directory-traversal/infraserver
+    reference_id:
+weaknesses: []

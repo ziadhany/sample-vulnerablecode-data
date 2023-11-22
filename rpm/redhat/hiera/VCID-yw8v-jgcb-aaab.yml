@@ -1,0 +1,62 @@
+vulnerability_id: VCID-yw8v-jgcb-aaab
+aliases:
+  - CVE-2016-8613
+summary: A flaw was found in foreman 1.5.1. The remote execution plugin runs commands on hosts
+  over SSH from the Foreman web UI. When a job is submitted that contains HTML tags, the console
+  output shown in the web UI does not escape the output causing any HTML or JavaScript to run
+  in the user's browser. The output of the job is stored, making this a stored XSS vulnerability.
+severities:
+  - id: 626291
+    reference_id: 942955
+    scoring_system: cvssv3
+    value: '6.4'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N
+  - id: 626290
+    reference_id: 942954
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 241268
+    reference_id: 659663
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+  - id: 241266
+    reference_id: 659663
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+  - id: 48853
+    reference_id: 173183
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 942955
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2016-8613.json
+    reference_id:
+  - id: 659660
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2016-8613
+    reference_id:
+  - id: 659661
+    url: https://github.com/theforeman/foreman_remote_execution/pull/208
+    reference_id:
+  - id: 659662
+    url: https://projects.theforeman.org/issues/17066/
+    reference_id:
+  - id: 659659
+    url: http://www.securityfocus.com/bid/93859
+    reference_id:
+  - id: 942954
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1387232
+    reference_id: 1387232
+  - id: 612900
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:foreman:1.5.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:foreman:1.5.1:*:*:*:*:*:*:*
+  - id: 659663
+    url: https://nvd.nist.gov/vuln/detail/CVE-2016-8613
+    reference_id: CVE-2016-8613
+  - id: 173183
+    url: https://access.redhat.com/errata/RHSA-2018:0336
+    reference_id: RHSA-2018:0336
+weaknesses: []

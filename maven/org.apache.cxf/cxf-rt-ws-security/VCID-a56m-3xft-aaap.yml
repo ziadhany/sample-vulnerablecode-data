@@ -1,0 +1,93 @@
+vulnerability_id: VCID-a56m-3xft-aaap
+aliases:
+  - CVE-2017-5656
+  - GHSA-v936-x3j5-c76j
+summary: |
+  Session Fixation
+  Apache CXF's STSClient uses a flawed way of caching tokens that are associated with delegation tokens, which means that an attacker could craft a token which would return an identifer corresponding to a cached token for another user.
+severities:
+  - id: 623594
+    reference_id: 941111
+    scoring_system: cvssv3
+    value: '5.3'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+  - id: 623592
+    reference_id: 941109
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 288241
+    reference_id: 26278
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 288239
+    reference_id: 26278
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+  - id: 630340
+    reference_id: 946449
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 51941
+    reference_id: 176643
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 623593
+    reference_id: 941110
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 941111
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2017-5656.json
+    reference_id:
+  - id: 10867
+    url: https://lists.apache.org/thread.html/r36e44ffc1a9b365327df62cdfaabe85b9a5637de102cea07d79b2dbf@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10866
+    url: https://lists.apache.org/thread.html/rc774278135816e7afc943dc9fc78eb0764f2c84a2b96470a0187315c@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10872
+    url: https://lists.apache.org/thread.html/rd49aabd984ed540c8ff7916d4d79405f3fa311d2fdbcf9ed307839a6@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10860
+    url: https://lists.apache.org/thread.html/rec7160382badd3ef4ad017a22f64a266c7188b9ba71394f0d321e2d4@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10862
+    url: https://lists.apache.org/thread.html/rfb87e0bf3995e7d560afeed750fac9329ff5f1ad49da365129b7f89e@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10873
+    url: https://lists.apache.org/thread.html/rff42cfa5e7d75b7c1af0e37589140a8f1999e578a75738740b244bd4@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 26279
+    url: http://www.securityfocus.com/bid/97971
+    reference_id:
+  - id: 26280
+    url: http://www.securitytracker.com/id/1038282
+    reference_id:
+  - id: 941109
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1445329
+    reference_id: 1445329
+  - id: 158434
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:*:*:*:*:*:*:*:*
+  - id: 26278
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-5656
+    reference_id: CVE-2017-5656
+  - id: 946448
+    url: http://cxf.apache.org/security-advisories.data/CVE-2017-5656.txt.asc?version=1&modificationDate=1492515113282&api=v2
+    reference_id: CVE-2017-5656.TXT.ASC?VERSION=1&MODIFICATIONDATE=1492515113282&API=V2
+  - id: 946449
+    url: https://github.com/advisories/GHSA-v936-x3j5-c76j
+    reference_id: GHSA-v936-x3j5-c76j
+  - id: 176643
+    url: https://access.redhat.com/errata/RHSA-2017:1832
+    reference_id: RHSA-2017:1832
+  - id: 941110
+    url: https://access.redhat.com/errata/RHSA-2018:1694
+    reference_id: RHSA-2018:1694
+weaknesses: []

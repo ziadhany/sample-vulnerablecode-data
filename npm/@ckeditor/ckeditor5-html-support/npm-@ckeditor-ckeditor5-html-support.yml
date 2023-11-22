@@ -1,0 +1,54 @@
+package: pkg:npm/%40ckeditor/ckeditor5-html-support
+versions:
+  - purl: pkg:npm/%40ckeditor/ckeditor5-html-support@29.0.0
+    affected_by_vulnerabilities:
+      - VCID-v8zt-z5a9-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-html-support@29.1.0
+    affected_by_vulnerabilities:
+      - VCID-v8zt-z5a9-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-html-support@29.2.0
+    affected_by_vulnerabilities:
+      - VCID-v8zt-z5a9-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-html-support@30.0.0
+    affected_by_vulnerabilities:
+      - VCID-v8zt-z5a9-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-html-support@31.0.0
+    affected_by_vulnerabilities:
+      - VCID-v8zt-z5a9-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-html-support@31.1.0
+    affected_by_vulnerabilities:
+      - VCID-v8zt-z5a9-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-html-support@32.0.0
+    affected_by_vulnerabilities:
+      - VCID-v8zt-z5a9-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-html-support@33.0.0
+    affected_by_vulnerabilities:
+      - VCID-v8zt-z5a9-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-html-support@34.0.0
+    affected_by_vulnerabilities:
+      - VCID-v8zt-z5a9-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-html-support@34.1.0
+    affected_by_vulnerabilities:
+      - VCID-v8zt-z5a9-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-html-support@34.2.0
+    affected_by_vulnerabilities:
+      - VCID-v8zt-z5a9-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-html-support@35.0.0
+    affected_by_vulnerabilities:
+      - VCID-v8zt-z5a9-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-html-support@35.0.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-v8zt-z5a9-aaas

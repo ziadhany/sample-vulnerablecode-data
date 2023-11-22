@@ -1,0 +1,66 @@
+vulnerability_id: VCID-g89h-epqw-aaaf
+aliases:
+  - CVE-2013-1777
+  - GHSA-v64w-96p6-fx7w
+summary: 'CVE-2013-1777 geronimo: Improper RMI classloader implementation in JMX remoting functionality
+  leading to arbitrary code execution'
+severities:
+  - id: 61903
+    reference_id: 189670
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 164107
+    reference_id: 520254
+    scoring_system: cvssv2
+    value: '10.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:C/I:C/A:C
+  - id: 640160
+    reference_id: 1179922
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 520250
+    url: http://archives.neohapsis.com/archives/bugtraq/2013-07/0008.html
+    reference_id:
+  - id: 520251
+    url: http://geronimo.apache.org/30x-security-report.html
+    reference_id:
+  - id: 189671
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2013-1777.json
+    reference_id:
+  - id: 520253
+    url: https://issues.apache.org/jira/browse/GERONIMO-6477
+    reference_id:
+  - id: 1179920
+    url: http://svn.apache.org/viewvc/geronimo/server/trunk
+    reference_id:
+  - id: 1179921
+    url: http://svn.apache.org/viewvc?view=revision&revision=1458113
+    reference_id:
+  - id: 520252
+    url: http://www-01.ibm.com/support/docview.wss?uid=swg21643282
+    reference_id:
+  - id: 189670
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=984057
+    reference_id: 984057
+  - id: 520255
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:geronimo:3.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:geronimo:3.0:*:*:*:*:*:*:*
+  - id: 520256
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:geronimo:3.0:beta1:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:geronimo:3.0:beta1:*:*:*:*:*:*
+  - id: 520257
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:geronimo:3.0:m1:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:geronimo:3.0:m1:*:*:*:*:*:*
+  - id: 520258
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:ibm:websphere_application_server:3.0.0.3:-:community:*:*:*:*:*
+    reference_id: cpe:2.3:a:ibm:websphere_application_server:3.0.0.3:-:community:*:*:*:*:*
+  - id: 520254
+    url: https://nvd.nist.gov/vuln/detail/CVE-2013-1777
+    reference_id: CVE-2013-1777
+  - id: 1179922
+    url: https://github.com/advisories/GHSA-v64w-96p6-fx7w
+    reference_id: GHSA-v64w-96p6-fx7w
+weaknesses: []

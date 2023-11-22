@@ -1,0 +1,95 @@
+vulnerability_id: VCID-f6xz-v53x-aaah
+aliases:
+  - CVE-2016-4459
+summary: Stack-based buffer overflow in native/mod_manager/node.c in mod_cluster 1.2.9.
+severities:
+  - id: 626551
+    reference_id: 943138
+    scoring_system: cvssv3
+    value: '4.8'
+    scoring_elements: CVSS:3.0/AV:A/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+  - id: 626550
+    reference_id: 943137
+    scoring_system: rhbs
+    value: low
+    scoring_elements:
+  - id: 228289
+    reference_id: 645320
+    scoring_system: cvssv2
+    value: '7.8'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:C
+  - id: 228287
+    reference_id: 645320
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 54287
+    reference_id: 179489
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 54286
+    reference_id: 179488
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 49833
+    reference_id: 174273
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49550
+    reference_id: 173911
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 606222
+    url: http://rhn.redhat.com/errata/RHSA-2016-2054.html
+    reference_id:
+  - id: 606223
+    url: http://rhn.redhat.com/errata/RHSA-2016-2055.html
+    reference_id:
+  - id: 606224
+    url: http://rhn.redhat.com/errata/RHSA-2016-2056.html
+    reference_id:
+  - id: 482338
+    url: http://rhn.redhat.com/errata/RHSA-2016-2957.html
+    reference_id:
+  - id: 637758
+    url: https://access.redhat.com/errata/RHSA-2017:0193
+    reference_id:
+  - id: 637759
+    url: https://access.redhat.com/errata/RHSA-2017:0194
+    reference_id:
+  - id: 943138
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2016-4459.json
+    reference_id:
+  - id: 645318
+    url: http://www.securityfocus.com/bid/93555
+    reference_id:
+  - id: 943137
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1341583
+    reference_id: 1341583
+  - id: 645321
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:mod_cluster:1.2.9:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:mod_cluster:1.2.9:*:*:*:*:*:*:*
+  - id: 111851
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:redhat:enterprise_linux:6.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:redhat:enterprise_linux:6.0:*:*:*:*:*:*:*
+  - id: 645320
+    url: https://nvd.nist.gov/vuln/detail/CVE-2016-4459
+    reference_id: CVE-2016-4459
+  - id: 179489
+    url: https://access.redhat.com/errata/RHSA-2016:2054
+    reference_id: RHSA-2016:2054
+  - id: 179488
+    url: https://access.redhat.com/errata/RHSA-2016:2055
+    reference_id: RHSA-2016:2055
+  - id: 174273
+    url: https://access.redhat.com/errata/RHSA-2016:2056
+    reference_id: RHSA-2016:2056
+  - id: 173911
+    url: https://access.redhat.com/errata/RHSA-2016:2957
+    reference_id: RHSA-2016:2957
+weaknesses: []

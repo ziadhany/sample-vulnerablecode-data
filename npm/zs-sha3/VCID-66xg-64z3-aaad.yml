@@ -1,0 +1,21 @@
+vulnerability_id: VCID-66xg-64z3-aaad
+aliases:
+  - GHSA-7696-qr5q-pg37
+  - GMS-2020-568
+summary: |
+  Malicious Package
+  contained malicious code. The package targeted the Ethereum cryptocurrency and performed transactions to wallets not controlled by the user. Remove the package from your environment. Ensure no Ethereum funds were compromised.
+severities:
+  - id: 704704
+    reference_id: 32762
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 32761
+    url: https://www.npmjs.com/advisories/1299
+    reference_id:
+  - id: 32762
+    url: https://github.com/advisories/GHSA-7696-qr5q-pg37
+    reference_id: GHSA-7696-qr5q-pg37
+weaknesses: []

@@ -1,0 +1,46 @@
+vulnerability_id: VCID-anxk-aahr-aaan
+aliases:
+  - CVE-2021-26541
+  - GHSA-67mm-m3wx-j7fr
+summary: |
+  Command Injection
+  The gitlog function in src/index.ts in gitlog has a command injection vulnerability.
+severities:
+  - id: 524238
+    reference_id: 35380
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 524236
+    reference_id: 35380
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 706687
+    reference_id: 1468319
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 874151
+    url: https://advisory.checkmarx.net/advisory/CX-2020-4301
+    reference_id:
+  - id: 874152
+    url: https://github.com/domharrington/node-gitlog/pull/65
+    reference_id:
+  - id: 1468318
+    url: https://github.com/domharrington/node-gitlog/pull/65/commits/bb22ffb2c907e0284f887ab625e12b88c31f4bf4
+    reference_id:
+  - id: 874153
+    url: https://www.npmjs.com/package/gitlog
+    reference_id:
+  - id: 874154
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:gitlog_project:gitlog:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:gitlog_project:gitlog:*:*:*:*:*:node.js:*:*
+  - id: 35380
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-26541
+    reference_id: CVE-2021-26541
+  - id: 1468319
+    url: https://github.com/advisories/GHSA-67mm-m3wx-j7fr
+    reference_id: GHSA-67mm-m3wx-j7fr
+weaknesses: []

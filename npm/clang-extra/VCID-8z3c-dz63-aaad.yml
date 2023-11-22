@@ -1,0 +1,40 @@
+vulnerability_id: VCID-8z3c-dz63-aaad
+aliases:
+  - CVE-2016-10655
+  - GHSA-59m2-j944-839w
+summary: |
+  Cryptographic Issues
+  The clang-extra module installs LLVM's clang-extra tools and downloads binary resources over HTTP, which leaves it vulnerable to MITM attacks. It may be possible to cause remote code execution (RCE) by swapping out the requested resources with an attacker controlled copy if the attacker is on the network or positioned in between the user and the remote server.
+severities:
+  - id: 215191
+    reference_id: 32625
+    scoring_system: cvssv2
+    value: '9.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:C/I:C/A:C
+  - id: 215189
+    reference_id: 32625
+    scoring_system: cvssv3
+    value: '8.1'
+    scoring_elements: CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 705519
+    reference_id: 1466644
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 628795
+    url: https://nodesecurity.io/advisories/265
+    reference_id:
+  - id: 1466645
+    url: https://www.npmjs.com/advisories/265
+    reference_id:
+  - id: 628796
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:clang-extra_project:clang-extra:-:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:clang-extra_project:clang-extra:-:*:*:*:*:node.js:*:*
+  - id: 32625
+    url: https://nvd.nist.gov/vuln/detail/CVE-2016-10655
+    reference_id: CVE-2016-10655
+  - id: 1466644
+    url: https://github.com/advisories/GHSA-59m2-j944-839w
+    reference_id: GHSA-59m2-j944-839w
+weaknesses: []

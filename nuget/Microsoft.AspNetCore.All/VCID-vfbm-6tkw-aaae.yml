@@ -1,0 +1,73 @@
+vulnerability_id: VCID-vfbm-6tkw-aaae
+aliases:
+  - CVE-2018-8416
+  - GHSA-5633-f33j-c6f7
+summary: |
+  Path Traversal
+  A tampering vulnerability exists when .NET Core improperly handles specially crafted files, aka ".NET Core Tampering Vulnerability."
+severities:
+  - id: 613741
+    reference_id: 934100
+    scoring_system: cvssv3
+    value: '5.5'
+    scoring_elements: CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
+  - id: 613739
+    reference_id: 934098
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 358840
+    reference_id: 37571
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:N/I:P/A:N
+  - id: 358838
+    reference_id: 37571
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
+  - id: 630551
+    reference_id: 946732
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 613740
+    reference_id: 934099
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 934100
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2018-8416.json
+    reference_id:
+  - id: 946731
+    url: https://github.com/dotnet/announcements/issues/95
+    reference_id:
+  - id: 946724
+    url: https://github.com/github/advisory-database/issues/302
+    reference_id:
+  - id: 760271
+    url: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8416
+    reference_id:
+  - id: 760268
+    url: http://www.securityfocus.com/bid/105798
+    reference_id:
+  - id: 760269
+    url: http://www.securitytracker.com/id/1042128
+    reference_id:
+  - id: 934098
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1649693
+    reference_id: 1649693
+  - id: 759926
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:asp.net_core:2.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:asp.net_core:2.1:*:*:*:*:*:*:*
+  - id: 37571
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-8416
+    reference_id: CVE-2018-8416
+  - id: 946732
+    url: https://github.com/advisories/GHSA-5633-f33j-c6f7
+    reference_id: GHSA-5633-f33j-c6f7
+  - id: 934099
+    url: https://access.redhat.com/errata/RHSA-2018:3676
+    reference_id: RHSA-2018:3676
+weaknesses: []

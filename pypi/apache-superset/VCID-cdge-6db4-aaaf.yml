@@ -1,0 +1,41 @@
+vulnerability_id: VCID-cdge-6db4-aaaf
+aliases:
+  - CVE-2022-27479
+  - GHSA-wh73-hpcg-v32j
+  - PYSEC-2022-188
+summary: Apache Superset before 1.4.2 is vulnerable to SQL injection in chart data requests.
+  Users should update to 1.4.2 or higher which addresses this issue.
+severities:
+  - id: 595278
+    reference_id: 20443
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 595276
+    reference_id: 20443
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+references:
+  - id: 1416741
+    url: https://github.com/advisories/GHSA-wh73-hpcg-v32j
+    reference_id:
+  - id: 20444
+    url: https://github.com/pypa/advisory-database/tree/main/vulns/apache-superset/PYSEC-2022-188.yaml
+    reference_id:
+  - id: 8914
+    url: https://lists.apache.org/thread/94th50j5d0y2fw7ysx0g7w3t6jk3z7q6
+    reference_id:
+  - id: 8915
+    url: https://lists.apache.org/thread/ztb9b6jd9rngoxwvq8r4fhpp401o613y
+    reference_id:
+  - id: 8916
+    url: http://www.openwall.com/lists/oss-security/2022/04/13/3
+    reference_id:
+  - id: 759276
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:superset:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:superset:*:*:*:*:*:*:*:*
+  - id: 20443
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-27479
+    reference_id: CVE-2022-27479
+weaknesses: []

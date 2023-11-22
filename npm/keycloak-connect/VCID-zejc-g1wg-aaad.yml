@@ -1,0 +1,59 @@
+vulnerability_id: VCID-zejc-g1wg-aaad
+aliases:
+  - CVE-2020-10748
+  - GHSA-hgpg-593r-hhvp
+summary: Cross-site Scripting in Keycloak
+severities:
+  - id: 611214
+    reference_id: 932224
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+  - id: 611213
+    reference_id: 932223
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 430595
+    reference_id: 12409
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+  - id: 430593
+    reference_id: 12409
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+  - id: 1301
+    reference_id: 12411
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 49610
+    reference_id: 173979
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 932224
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2020-10748.json
+    reference_id:
+  - id: 932223
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1836786
+    reference_id: 1836786
+  - id: 812295
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:keycloak:10.0.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:keycloak:10.0.1:*:*:*:*:*:*:*
+  - id: 766307
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:single_sign-on:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:single_sign-on:*:*:*:*:*:*:*:*
+  - id: 12409
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-10748
+    reference_id: CVE-2020-10748
+  - id: 12411
+    url: https://github.com/advisories/GHSA-hgpg-593r-hhvp
+    reference_id: GHSA-hgpg-593r-hhvp
+  - id: 173979
+    url: https://access.redhat.com/errata/RHSA-2020:2813
+    reference_id: RHSA-2020:2813
+weaknesses: []

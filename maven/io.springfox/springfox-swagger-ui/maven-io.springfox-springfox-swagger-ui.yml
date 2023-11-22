@@ -1,0 +1,70 @@
+package: pkg:maven/io.springfox/springfox-swagger-ui
+versions:
+  - purl: pkg:maven/io.springfox/springfox-swagger-ui@2.0.1
+    affected_by_vulnerabilities:
+      - VCID-tgyt-wcae-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/io.springfox/springfox-swagger-ui@2.0.3
+    affected_by_vulnerabilities:
+      - VCID-tgyt-wcae-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/io.springfox/springfox-swagger-ui@2.1.0
+    affected_by_vulnerabilities:
+      - VCID-tgyt-wcae-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/io.springfox/springfox-swagger-ui@2.10.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-tgyt-wcae-aaah
+  - purl: pkg:maven/io.springfox/springfox-swagger-ui@2.1.1
+    affected_by_vulnerabilities:
+      - VCID-tgyt-wcae-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/io.springfox/springfox-swagger-ui@2.1.2
+    affected_by_vulnerabilities:
+      - VCID-tgyt-wcae-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/io.springfox/springfox-swagger-ui@2.2.2
+    affected_by_vulnerabilities:
+      - VCID-tgyt-wcae-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/io.springfox/springfox-swagger-ui@2.3.0
+    affected_by_vulnerabilities:
+      - VCID-tgyt-wcae-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/io.springfox/springfox-swagger-ui@2.3.1
+    affected_by_vulnerabilities:
+      - VCID-tgyt-wcae-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/io.springfox/springfox-swagger-ui@2.4.0
+    affected_by_vulnerabilities:
+      - VCID-tgyt-wcae-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/io.springfox/springfox-swagger-ui@2.5.0
+    affected_by_vulnerabilities:
+      - VCID-tgyt-wcae-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/io.springfox/springfox-swagger-ui@2.6.0
+    affected_by_vulnerabilities:
+      - VCID-tgyt-wcae-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/io.springfox/springfox-swagger-ui@2.6.1
+    affected_by_vulnerabilities:
+      - VCID-tgyt-wcae-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/io.springfox/springfox-swagger-ui@2.7.0
+    affected_by_vulnerabilities:
+      - VCID-tgyt-wcae-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/io.springfox/springfox-swagger-ui@2.8.0
+    affected_by_vulnerabilities:
+      - VCID-tgyt-wcae-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/io.springfox/springfox-swagger-ui@2.9.1
+    affected_by_vulnerabilities:
+      - VCID-tgyt-wcae-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/io.springfox/springfox-swagger-ui@2.9.2
+    affected_by_vulnerabilities:
+      - VCID-tgyt-wcae-aaah
+    fixing_vulnerabilities: []

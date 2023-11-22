@@ -1,0 +1,42 @@
+package: pkg:npm/im-resize
+versions:
+  - purl: pkg:npm/im-resize@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-updm-yu95-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/im-resize@1.1.0
+    affected_by_vulnerabilities:
+      - VCID-updm-yu95-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/im-resize@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-updm-yu95-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/im-resize@2.0.2
+    affected_by_vulnerabilities:
+      - VCID-updm-yu95-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/im-resize@2.1.0
+    affected_by_vulnerabilities:
+      - VCID-updm-yu95-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/im-resize@2.2.0
+    affected_by_vulnerabilities:
+      - VCID-updm-yu95-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/im-resize@2.2.1
+    affected_by_vulnerabilities:
+      - VCID-updm-yu95-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/im-resize@2.3.0
+    affected_by_vulnerabilities:
+      - VCID-updm-yu95-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/im-resize@2.3.1
+    affected_by_vulnerabilities:
+      - VCID-updm-yu95-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/im-resize@2.3.2
+    affected_by_vulnerabilities:
+      - VCID-updm-yu95-aaas
+    fixing_vulnerabilities: []

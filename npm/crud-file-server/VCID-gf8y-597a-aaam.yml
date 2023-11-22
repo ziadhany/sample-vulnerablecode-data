@@ -1,0 +1,25 @@
+vulnerability_id: VCID-gf8y-597a-aaam
+aliases:
+  - GMS-2018-19
+summary: |
+  Stored XSS in filenames
+  crud-file-server allows embeding HTML in file names, which in certain conditions might lead to malicious JavaScript execution.
+severities:
+  - id: 708654
+    reference_id: 36930
+    scoring_system: cvssv3
+    value: '9.6'
+    scoring_elements:
+  - id: 708653
+    reference_id: 36931
+    scoring_system: cvssv3
+    value: '9.6'
+    scoring_elements:
+references:
+  - id: 36930
+    url: https://github.com/omphalos/crud-file-server/commit/4155bfe068bf211b49a0b3ffd06e78cbaf1b40fa
+    reference_id:
+  - id: 36931
+    url: https://hackerone.com/reports/311101
+    reference_id:
+weaknesses: []

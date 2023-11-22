@@ -1,0 +1,47 @@
+vulnerability_id: VCID-mf3u-4t39-aaab
+aliases:
+  - CVE-2015-1844
+summary: 'CVE-2015-1844 foreman: API not scoping resources to taxonomies'
+severities:
+  - id: 56002
+    reference_id: 181494
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: '196383'
+    reference_id: 601059
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:N/A:N
+references:
+  - id: 601055
+    url: http://projects.theforeman.org/issues/9947
+    reference_id:
+  - id: 600898
+    url: https://access.redhat.com/errata/RHSA-2015:1591
+    reference_id:
+  - id: 600899
+    url: https://access.redhat.com/errata/RHSA-2015:1592
+    reference_id:
+  - id: 181495
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2015-1844.json
+    reference_id:
+  - id: 601056
+    url: https://github.com/theforeman/foreman/pull/2273
+    reference_id:
+  - id: 601057
+    url: https://groups.google.com/forum/#!topic/foreman-announce/37KYWhIk4FY
+    reference_id:
+  - id: 601058
+    url: https://groups.google.com/forum/#!topic/foreman-users/qAGZh5n6n6M
+    reference_id:
+  - id: 181494
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1207589
+    reference_id: 1207589
+  - id: 158226
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:foreman:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:foreman:*:*:*:*:*:*:*:*
+  - id: 601059
+    url: https://nvd.nist.gov/vuln/detail/CVE-2015-1844
+    reference_id: CVE-2015-1844
+weaknesses: []

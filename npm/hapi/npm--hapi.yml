@@ -1,0 +1,2775 @@
+package: pkg:npm/hapi
+versions:
+  - purl: pkg:npm/hapi@0.0.0
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.0.1
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.0.2
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.0.3
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.0.4
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.0.5
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.0.6
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.1.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.10.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.10.1
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.1.1
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.11.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.11.1
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.11.2
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.11.3
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.11.4
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.1.2
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.12.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.1.3
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.13.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.13.1
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.13.2
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.13.3
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.14.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.14.1
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.14.2
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.15.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.15.1
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.15.2
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.15.3
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.15.4
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.15.5
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.15.6
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.15.7
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.15.8
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.15.9
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.16.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.2.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.2.1
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.3.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.4.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.4.1
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.4.2
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.4.3
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.4.4
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.5.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.5.1
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.5.1-a
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.5.1-b
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.5.1-b2
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.5.1-c
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.5.2
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.6.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.6.1
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.7.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.7.1
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.8.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.8.1
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.8.2
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.8.3
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.8.4
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.9.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.9.1
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@0.9.2
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@10.0.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-73mf-jg6j-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@10.0.1
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-73mf-jg6j-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@10.1.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-73mf-jg6j-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@1.0.2
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@10.2.1
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-73mf-jg6j-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@1.0.3
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@10.4.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-73mf-jg6j-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@10.4.1
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-73mf-jg6j-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@10.5.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-73mf-jg6j-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@1.1.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@1.10.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@11.0.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-73mf-jg6j-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+    fixing_vulnerabilities:
+      - VCID-tcnx-14hz-aaah
+      - VCID-ztcu-dmz2-aaag
+  - purl: pkg:npm/hapi@11.0.1
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-73mf-jg6j-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@11.0.2
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-73mf-jg6j-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@11.0.3
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-73mf-jg6j-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@11.0.4
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-73mf-jg6j-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@11.0.5
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-73mf-jg6j-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@1.11.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@11.1.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-73mf-jg6j-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@1.11.1
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@11.1.1
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-73mf-jg6j-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@11.1.2
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-73mf-jg6j-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@11.1.3
+    affected_by_vulnerabilities:
+      - VCID-73mf-jg6j-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-u847-czmr-aaah
+    fixing_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-wxcb-4m51-aaak
+  - purl: pkg:npm/hapi@11.1.4
+    affected_by_vulnerabilities:
+      - VCID-73mf-jg6j-aaan
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities:
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-u847-czmr-aaah
+  - purl: pkg:npm/hapi@1.12.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@1.13.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@1.14.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@1.15.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@1.16.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@1.16.1
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@1.17.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@1.18.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@1.19.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@1.19.1
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@1.19.2
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@1.19.3
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@1.19.4
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@1.19.5
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@1.2.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@1.20.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@12.0.0
+    affected_by_vulnerabilities:
+      - VCID-73mf-jg6j-aaan
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@12.0.1
+    affected_by_vulnerabilities:
+      - VCID-73mf-jg6j-aaan
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@12.1.0
+    affected_by_vulnerabilities:
+      - VCID-73mf-jg6j-aaan
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@1.3.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@13.0.0
+    affected_by_vulnerabilities:
+      - VCID-73mf-jg6j-aaan
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@13.1.0
+    affected_by_vulnerabilities:
+      - VCID-73mf-jg6j-aaan
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@13.2.0
+    affected_by_vulnerabilities:
+      - VCID-73mf-jg6j-aaan
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@13.2.1
+    affected_by_vulnerabilities:
+      - VCID-73mf-jg6j-aaan
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@13.2.2
+    affected_by_vulnerabilities:
+      - VCID-73mf-jg6j-aaan
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@13.3.0
+    affected_by_vulnerabilities:
+      - VCID-73mf-jg6j-aaan
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@13.4.0
+    affected_by_vulnerabilities:
+      - VCID-73mf-jg6j-aaan
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@13.4.1
+    affected_by_vulnerabilities:
+      - VCID-73mf-jg6j-aaan
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@13.4.2
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities:
+      - VCID-73mf-jg6j-aaan
+  - purl: pkg:npm/hapi@13.5.0
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@13.5.3
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@1.4.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@14.0.0
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@14.1.0
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@14.2.0
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@1.5.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@15.0.0
+    affected_by_vulnerabilities:
+      - VCID-b12n-e6wq-aaag
+      - VCID-fksq-eyfy-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@15.0.1
+    affected_by_vulnerabilities:
+      - VCID-b12n-e6wq-aaag
+      - VCID-fksq-eyfy-aaad
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@15.0.2
+    affected_by_vulnerabilities:
+      - VCID-b12n-e6wq-aaag
+      - VCID-fksq-eyfy-aaad
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@15.0.3
+    affected_by_vulnerabilities:
+      - VCID-b12n-e6wq-aaag
+      - VCID-fksq-eyfy-aaad
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@15.1.0
+    affected_by_vulnerabilities:
+      - VCID-b12n-e6wq-aaag
+      - VCID-fksq-eyfy-aaad
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@15.1.1
+    affected_by_vulnerabilities:
+      - VCID-b12n-e6wq-aaag
+      - VCID-fksq-eyfy-aaad
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@15.2.0
+    affected_by_vulnerabilities:
+      - VCID-b12n-e6wq-aaag
+      - VCID-fksq-eyfy-aaad
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@1.6.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@16.0.0
+    affected_by_vulnerabilities:
+      - VCID-b12n-e6wq-aaag
+      - VCID-fksq-eyfy-aaad
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@16.0.1
+    affected_by_vulnerabilities:
+      - VCID-b12n-e6wq-aaag
+      - VCID-fksq-eyfy-aaad
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@16.0.2
+    affected_by_vulnerabilities:
+      - VCID-b12n-e6wq-aaag
+      - VCID-fksq-eyfy-aaad
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@16.0.3
+    affected_by_vulnerabilities:
+      - VCID-b12n-e6wq-aaag
+      - VCID-fksq-eyfy-aaad
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@1.6.1
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@16.1.0
+    affected_by_vulnerabilities:
+      - VCID-b12n-e6wq-aaag
+      - VCID-fksq-eyfy-aaad
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@16.1.1
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities:
+      - VCID-b12n-e6wq-aaag
+      - VCID-fksq-eyfy-aaad
+  - purl: pkg:npm/hapi@1.6.2
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@16.2.0
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@16.3.0
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@16.3.1
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@16.4.0
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@16.4.1
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@16.4.2
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@16.4.3
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@16.5.0
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@16.5.1
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@16.5.2
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@16.6.0
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@16.6.1
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@16.6.2
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@16.6.3
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@16.6.4
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@16.6.5
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@16.7.0
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@1.7.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@17.0.0
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@17.0.0-rc1
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@17.0.0-rc10
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@17.0.0-rc2
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@17.0.0-rc3
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@17.0.0-rc4
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@17.0.0-rc6
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@17.0.0-rc8
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@17.0.0-rc9
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@17.0.1
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@17.0.2
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@1.7.1
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@17.1.0
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@17.1.1
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@1.7.2
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@17.2.0
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@17.2.1
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@17.2.2
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@17.2.3
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@1.7.3
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@17.3.0
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@17.3.1
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@17.4.0
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@17.5.0
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@17.5.1
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@17.5.2
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@17.5.3
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@17.5.4
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@17.5.5
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@17.6.0
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@17.6.1
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@17.6.2
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@17.6.3
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@17.6.4
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@17.7.0
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@17.8.0
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@17.8.1
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@17.8.2
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@17.8.3
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@17.8.4
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@17.8.5
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@1.8.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@18.0.0
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@18.0.1
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@1.8.1
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@18.1.0
+    affected_by_vulnerabilities:
+      - VCID-s9u2-k5vg-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@1.8.2
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@1.8.3
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@1.9.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@1.9.1
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@1.9.2
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@1.9.3
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@1.9.4
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@1.9.5
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@1.9.6
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@1.9.7
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-jv4p-2pwp-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@2.0.0-preview
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@2.0.0%2Bx
+    affected_by_vulnerabilities:
+      - VCID-jv4p-2pwp-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@2.1.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-jv4p-2pwp-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@2.1.0%2Bx
+    affected_by_vulnerabilities:
+      - VCID-jv4p-2pwp-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@2.1.1
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-jv4p-2pwp-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@2.1.2
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-jv4p-2pwp-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@2.2.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities:
+      - VCID-jv4p-2pwp-aaaf
+  - purl: pkg:npm/hapi@2.3.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@2.4.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@2.5.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@2.6.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@3.0.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@3.0.1
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@3.0.2
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@3.1.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@4.0.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@4.0.1
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@4.0.2
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@4.0.3
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@4.1.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@4.1.1
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@4.1.2
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@4.1.3
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@4.1.4
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@5.0.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@5.1.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@6.0.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@6.0.1
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@6.0.2
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-h132-rvch-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-umft-e3q3-aaad
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@6.1.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities:
+      - VCID-h132-rvch-aaan
+      - VCID-umft-e3q3-aaad
+  - purl: pkg:npm/hapi@6.10.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@6.11.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@6.11.1
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@6.2.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@6.2.1
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@6.2.2
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@6.3.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@6.4.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@6.5.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@6.5.1
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@6.6.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@6.7.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@6.7.1
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@6.8.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@6.8.1
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@6.9.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@7.0.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@7.0.1
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@7.1.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@7.1.1
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@7.2.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@7.3.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@7.4.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@7.5.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@7.5.1
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@7.5.2
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@7.5.3
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@8.0.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-73mf-jg6j-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@8.0.0-rc4
+    affected_by_vulnerabilities:
+      - VCID-73mf-jg6j-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@8.1.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-73mf-jg6j-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@8.2.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-73mf-jg6j-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@8.3.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-73mf-jg6j-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@8.3.1
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-73mf-jg6j-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@8.4.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-73mf-jg6j-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@8.5.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-73mf-jg6j-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@8.5.1
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-73mf-jg6j-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@8.5.2
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-73mf-jg6j-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@8.5.3
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-73mf-jg6j-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@8.6.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-73mf-jg6j-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@8.6.1
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-73mf-jg6j-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@8.8.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-73mf-jg6j-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@8.8.1
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-73mf-jg6j-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@9.0.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-73mf-jg6j-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@9.0.1
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-73mf-jg6j-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@9.0.2
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-73mf-jg6j-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@9.0.3
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-73mf-jg6j-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@9.0.4
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-73mf-jg6j-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@9.1.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-73mf-jg6j-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@9.2.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-73mf-jg6j-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@9.3.0
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-73mf-jg6j-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@9.3.1
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-73mf-jg6j-aaan
+      - VCID-hdkb-y2wa-aaaf
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+      - VCID-wxcb-4m51-aaak
+      - VCID-ztcu-dmz2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/hapi@9.5.1
+    affected_by_vulnerabilities:
+      - VCID-5pc2-dczg-aaad
+      - VCID-73mf-jg6j-aaan
+      - VCID-s9u2-k5vg-aaaj
+      - VCID-tcnx-14hz-aaah
+      - VCID-u847-czmr-aaah
+    fixing_vulnerabilities: []

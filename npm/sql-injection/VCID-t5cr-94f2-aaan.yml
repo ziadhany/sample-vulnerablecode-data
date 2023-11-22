@@ -1,0 +1,21 @@
+vulnerability_id: VCID-t5cr-94f2-aaan
+aliases:
+  - GHSA-hvxq-j2r4-4jm8
+  - GMS-2020-526
+summary: |
+  Regular Expression Denial of Service in sql-injection
+  All versions of `sql-injection` are vulnerable to Regular Expression Denial of Service. The package processes a request's body with regular expressions that may take exponentially longer to execute for large inputs. No fix is currently available. Consider using an alternative package until a fix is made available.
+severities:
+  - id: 704979
+    reference_id: 36698
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 36697
+    url: https://www.npmjs.com/advisories/1163
+    reference_id:
+  - id: 36698
+    url: https://github.com/advisories/GHSA-hvxq-j2r4-4jm8
+    reference_id: GHSA-hvxq-j2r4-4jm8
+weaknesses: []

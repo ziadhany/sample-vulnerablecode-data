@@ -1,0 +1,25 @@
+vulnerability_id: VCID-hkrv-te6h-aaac
+aliases:
+  - All versions
+summary: |
+  XSS vulnerability
+  By exploiting a Cross-site scripting vulnerability the attacker can hijack a user session. This means that the malicious hacker can change a user's password and invalidate the session of the victim.
+severities:
+  - id: 708465
+    reference_id: 21882
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements:
+  - id: 708466
+    reference_id: 21883
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements:
+references:
+  - id: 21882
+    url: https://github.com/DataTables/DataTables/issues/602
+    reference_id:
+  - id: 21883
+    url: https://github.com/DataTables/DataTablesSrc/commit/ccf86dc5982bd8e16d
+    reference_id:
+weaknesses: []

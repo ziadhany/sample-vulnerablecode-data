@@ -1,0 +1,110 @@
+package: pkg:npm/slug
+versions:
+  - purl: pkg:npm/slug@0.0.0-alpha
+    affected_by_vulnerabilities:
+      - VCID-5qxg-qmt1-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/slug@0.1.0
+    affected_by_vulnerabilities:
+      - VCID-5qxg-qmt1-aaaf
+      - VCID-6mue-gmgn-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/slug@0.1.1
+    affected_by_vulnerabilities:
+      - VCID-5qxg-qmt1-aaaf
+      - VCID-6mue-gmgn-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/slug@0.2.0
+    affected_by_vulnerabilities:
+      - VCID-5qxg-qmt1-aaaf
+      - VCID-6mue-gmgn-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/slug@0.2.1
+    affected_by_vulnerabilities:
+      - VCID-5qxg-qmt1-aaaf
+      - VCID-6mue-gmgn-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/slug@0.2.2
+    affected_by_vulnerabilities:
+      - VCID-5qxg-qmt1-aaaf
+      - VCID-6mue-gmgn-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/slug@0.3.0
+    affected_by_vulnerabilities:
+      - VCID-5qxg-qmt1-aaaf
+      - VCID-6mue-gmgn-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/slug@0.3.1
+    affected_by_vulnerabilities:
+      - VCID-5qxg-qmt1-aaaf
+      - VCID-6mue-gmgn-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/slug@0.3.2
+    affected_by_vulnerabilities:
+      - VCID-5qxg-qmt1-aaaf
+      - VCID-6mue-gmgn-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/slug@0.3.3
+    affected_by_vulnerabilities:
+      - VCID-5qxg-qmt1-aaaf
+      - VCID-6mue-gmgn-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/slug@0.3.4
+    affected_by_vulnerabilities:
+      - VCID-5qxg-qmt1-aaaf
+      - VCID-6mue-gmgn-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/slug@0.4.0
+    affected_by_vulnerabilities:
+      - VCID-5qxg-qmt1-aaaf
+      - VCID-6mue-gmgn-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/slug@0.4.1
+    affected_by_vulnerabilities:
+      - VCID-5qxg-qmt1-aaaf
+      - VCID-6mue-gmgn-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/slug@0.4.2
+    affected_by_vulnerabilities:
+      - VCID-5qxg-qmt1-aaaf
+      - VCID-6mue-gmgn-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/slug@0.5.0
+    affected_by_vulnerabilities:
+      - VCID-5qxg-qmt1-aaaf
+      - VCID-6mue-gmgn-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/slug@0.6.0
+    affected_by_vulnerabilities:
+      - VCID-5qxg-qmt1-aaaf
+      - VCID-6mue-gmgn-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/slug@0.7.0
+    affected_by_vulnerabilities:
+      - VCID-5qxg-qmt1-aaaf
+      - VCID-6mue-gmgn-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/slug@0.7.1
+    affected_by_vulnerabilities:
+      - VCID-5qxg-qmt1-aaaf
+      - VCID-6mue-gmgn-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/slug@0.8.0
+    affected_by_vulnerabilities:
+      - VCID-5qxg-qmt1-aaaf
+      - VCID-6mue-gmgn-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/slug@0.9.0
+    affected_by_vulnerabilities:
+      - VCID-5qxg-qmt1-aaaf
+      - VCID-6mue-gmgn-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/slug@0.9.1
+    affected_by_vulnerabilities:
+      - VCID-5qxg-qmt1-aaaf
+      - VCID-6mue-gmgn-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/slug@0.9.2
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-6mue-gmgn-aaap

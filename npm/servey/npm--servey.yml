@@ -1,0 +1,158 @@
+package: pkg:npm/servey
+versions:
+  - purl: pkg:npm/servey@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-9bzd-kfza-aaae
+      - VCID-w7cw-g5wk-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/servey@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-9bzd-kfza-aaae
+      - VCID-w7cw-g5wk-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/servey@1.0.2
+    affected_by_vulnerabilities:
+      - VCID-9bzd-kfza-aaae
+      - VCID-w7cw-g5wk-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/servey@1.0.3
+    affected_by_vulnerabilities:
+      - VCID-9bzd-kfza-aaae
+      - VCID-w7cw-g5wk-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/servey@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-9bzd-kfza-aaae
+      - VCID-w7cw-g5wk-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/servey@2.0.1
+    affected_by_vulnerabilities:
+      - VCID-9bzd-kfza-aaae
+      - VCID-w7cw-g5wk-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/servey@2.1.0
+    affected_by_vulnerabilities:
+      - VCID-9bzd-kfza-aaae
+      - VCID-w7cw-g5wk-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/servey@2.1.1
+    affected_by_vulnerabilities:
+      - VCID-9bzd-kfza-aaae
+      - VCID-w7cw-g5wk-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/servey@2.1.2
+    affected_by_vulnerabilities:
+      - VCID-9bzd-kfza-aaae
+      - VCID-w7cw-g5wk-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/servey@2.1.3
+    affected_by_vulnerabilities:
+      - VCID-9bzd-kfza-aaae
+      - VCID-w7cw-g5wk-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/servey@2.1.4
+    affected_by_vulnerabilities:
+      - VCID-9bzd-kfza-aaae
+      - VCID-w7cw-g5wk-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/servey@2.1.5
+    affected_by_vulnerabilities:
+      - VCID-9bzd-kfza-aaae
+      - VCID-w7cw-g5wk-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/servey@2.1.6
+    affected_by_vulnerabilities:
+      - VCID-9bzd-kfza-aaae
+      - VCID-w7cw-g5wk-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/servey@2.1.7
+    affected_by_vulnerabilities:
+      - VCID-9bzd-kfza-aaae
+      - VCID-w7cw-g5wk-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/servey@2.2.0
+    affected_by_vulnerabilities:
+      - VCID-9bzd-kfza-aaae
+      - VCID-w7cw-g5wk-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/servey@3.1.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-9bzd-kfza-aaae
+      - VCID-w7cw-g5wk-aaaa
+  - purl: pkg:npm/servey@3.1.1
+    affected_by_vulnerabilities:
+      - VCID-9bzd-kfza-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/servey@3.1.10
+    affected_by_vulnerabilities:
+      - VCID-9bzd-kfza-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/servey@3.1.11
+    affected_by_vulnerabilities:
+      - VCID-9bzd-kfza-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/servey@3.1.2
+    affected_by_vulnerabilities:
+      - VCID-9bzd-kfza-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/servey@3.1.3
+    affected_by_vulnerabilities:
+      - VCID-9bzd-kfza-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/servey@3.1.4
+    affected_by_vulnerabilities:
+      - VCID-9bzd-kfza-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/servey@3.1.5
+    affected_by_vulnerabilities:
+      - VCID-9bzd-kfza-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/servey@3.1.6
+    affected_by_vulnerabilities:
+      - VCID-9bzd-kfza-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/servey@3.1.7
+    affected_by_vulnerabilities:
+      - VCID-9bzd-kfza-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/servey@3.1.8
+    affected_by_vulnerabilities:
+      - VCID-9bzd-kfza-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/servey@3.1.9
+    affected_by_vulnerabilities:
+      - VCID-9bzd-kfza-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/servey@3.2.0
+    affected_by_vulnerabilities:
+      - VCID-9bzd-kfza-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/servey@3.2.1
+    affected_by_vulnerabilities:
+      - VCID-9bzd-kfza-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/servey@3.2.2
+    affected_by_vulnerabilities:
+      - VCID-9bzd-kfza-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/servey@3.2.3
+    affected_by_vulnerabilities:
+      - VCID-9bzd-kfza-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/servey@3.2.4
+    affected_by_vulnerabilities:
+      - VCID-9bzd-kfza-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/servey@3.3.0
+    affected_by_vulnerabilities:
+      - VCID-9bzd-kfza-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/servey@3.3.1
+    affected_by_vulnerabilities:
+      - VCID-9bzd-kfza-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/servey@3.3.2
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-9bzd-kfza-aaae

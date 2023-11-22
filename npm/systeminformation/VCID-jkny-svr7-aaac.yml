@@ -1,0 +1,49 @@
+vulnerability_id: VCID-jkny-svr7-aaac
+aliases:
+  - CVE-2021-21388
+  - GHSA-jff2-qjw8-5476
+summary: |
+  OS Command Injection
+  systeminformation is an open source system and OS information library for node.Please upgrade to If you cannot upgrade, be sure to check or sanitize service parameters that are passed to si.inetLatency(), si.inetChecksite(), si.services(), si.processLoad() and other commands. Only allow strings, reject any arrays. String sanitation works as expected.
+severities:
+  - id: 508348
+    reference_id: 33898
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 508346
+    reference_id: 33898
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 706520
+    reference_id: 1468126
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 864086
+    url: https://github.com/sebhildebrandt/systeminformation/commit/01ef56cd5824ed6da1c11b37013a027fdef67524
+    reference_id:
+  - id: 864087
+    url: https://github.com/sebhildebrandt/systeminformation/commit/0be6fcd575c05687d1076d5cd6d75af2ebae5a46
+    reference_id:
+  - id: 864088
+    url: https://github.com/sebhildebrandt/systeminformation/commit/7922366d707de7f20995fc8e30ac3153636bf35f
+    reference_id:
+  - id: 864089
+    url: https://github.com/sebhildebrandt/systeminformation/security/advisories/GHSA-jff2-qjw8-5476
+    reference_id:
+  - id: 835429
+    url: https://www.npmjs.com/package/systeminformation
+    reference_id:
+  - id: 835285
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:systeminformation:systeminformation:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:systeminformation:systeminformation:*:*:*:*:*:node.js:*:*
+  - id: 33898
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-21388
+    reference_id: CVE-2021-21388
+  - id: 1468126
+    url: https://github.com/advisories/GHSA-jff2-qjw8-5476
+    reference_id: GHSA-jff2-qjw8-5476
+weaknesses: []

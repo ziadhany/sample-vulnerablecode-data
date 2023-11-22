@@ -1,0 +1,10 @@
+package: pkg:npm/http_server
+versions:
+  - purl: pkg:npm/http_server@1.0.11
+    affected_by_vulnerabilities:
+      - VCID-szwu-df91-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/http_server@1.0.12
+    affected_by_vulnerabilities:
+      - VCID-szwu-df91-aaaf
+    fixing_vulnerabilities: []

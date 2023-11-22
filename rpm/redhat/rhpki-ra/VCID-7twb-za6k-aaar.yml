@@ -1,0 +1,54 @@
+vulnerability_id: VCID-7twb-za6k-aaar
+aliases:
+  - CVE-2009-0588
+summary: 'CVE-2009-0588 rhpki-ra: improper authorization checks in Cerificate System''s Registration
+  Authority'
+severities:
+  - id: 122912
+    reference_id: 383237
+    scoring_system: cvssv2
+    value: '6.5'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:P/A:P
+  - id: 73317
+    reference_id: 203940
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 203941
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2009-0588.json
+    reference_id:
+  - id: 383235
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=484828
+    reference_id:
+  - id: 383236
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=488706
+    reference_id:
+  - id: 383230
+    url: http://secunia.com/advisories/35242
+    reference_id:
+  - id: 383231
+    url: http://secunia.com/advisories/35263
+    reference_id:
+  - id: 383232
+    url: http://www.redhat.com/support/errata/RHSA-2009-1065.html
+    reference_id:
+  - id: 383233
+    url: http://www.securityfocus.com/bid/35104
+    reference_id:
+  - id: 383234
+    url: http://www.securitytracker.com/id?1022278
+    reference_id:
+  - id: 363622
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:certificate_system:7.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:certificate_system:7.3:*:*:*:*:*:*:*
+  - id: 383238
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:dogtag_certificate_system:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:dogtag_certificate_system:*:*:*:*:*:*:*:*
+  - id: 383237
+    url: https://nvd.nist.gov/vuln/detail/CVE-2009-0588
+    reference_id: CVE-2009-0588
+  - id: 203940
+    url: https://access.redhat.com/errata/RHSA-2009:1065
+    reference_id: RHSA-2009:1065
+weaknesses: []

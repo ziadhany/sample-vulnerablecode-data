@@ -1,0 +1,117 @@
+vulnerability_id: VCID-vq6d-cmr8-aaah
+aliases:
+  - CVE-2014-3584
+  - GHSA-gw5j-77f9-v2g2
+summary: |
+  Denial of Service (DoS) via invalid JAX-RS SAML tokens
+  The `SamlHeaderInHandler` in this package allows remote attackers to cause a denial of service (infinite loop) via a crafted SAML token in the authorization header of a request to a JAX-RS service.
+severities:
+  - id: 57981
+    reference_id: 184158
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 180655
+    reference_id: 567699
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 630146
+    reference_id: 946131
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 57982
+    reference_id: 184159
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 567694
+    url: http://cxf.apache.org/security-advisories.data/CVE-2014-3584.txt.asc
+    reference_id:
+  - id: 184160
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2014-3584.json
+    reference_id:
+  - id: 567695
+    url: http://seclists.org/oss-sec/2014/q4/437
+    reference_id:
+  - id: 567696
+    url: http://secunia.com/advisories/61909
+    reference_id:
+  - id: 567698
+    url: https://exchange.xforce.ibmcloud.com/vulnerabilities/97753
+    reference_id:
+  - id: 26300
+    url: https://issues.apache.org/jira/browse/CXF-5390
+    reference_id:
+  - id: 10867
+    url: https://lists.apache.org/thread.html/r36e44ffc1a9b365327df62cdfaabe85b9a5637de102cea07d79b2dbf@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10866
+    url: https://lists.apache.org/thread.html/rc774278135816e7afc943dc9fc78eb0764f2c84a2b96470a0187315c@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10872
+    url: https://lists.apache.org/thread.html/rd49aabd984ed540c8ff7916d4d79405f3fa311d2fdbcf9ed307839a6@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10860
+    url: https://lists.apache.org/thread.html/rec7160382badd3ef4ad017a22f64a266c7188b9ba71394f0d321e2d4@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10862
+    url: https://lists.apache.org/thread.html/rfb87e0bf3995e7d560afeed750fac9329ff5f1ad49da365129b7f89e@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10873
+    url: https://lists.apache.org/thread.html/rff42cfa5e7d75b7c1af0e37589140a8f1999e578a75738740b244bd4@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 567697
+    url: http://www.securityfocus.com/bid/70738
+    reference_id:
+  - id: 184158
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1157330
+    reference_id: 1157330
+  - id: 158434
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:*:*:*:*:*:*:*:*
+  - id: 507236
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.6.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.6.1:*:*:*:*:*:*:*
+  - id: 507242
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.7.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.7.0:*:*:*:*:*:*:*
+  - id: 507243
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.7.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.7.1:*:*:*:*:*:*:*
+  - id: 507244
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.7.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.7.2:*:*:*:*:*:*:*
+  - id: 507245
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.7.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.7.3:*:*:*:*:*:*:*
+  - id: 549373
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.7.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.7.4:*:*:*:*:*:*:*
+  - id: 549374
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.7.5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.7.5:*:*:*:*:*:*:*
+  - id: 549375
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.7.6:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.7.6:*:*:*:*:*:*:*
+  - id: 549376
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.7.7:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.7.7:*:*:*:*:*:*:*
+  - id: 567700
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:3.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:3.0.0:*:*:*:*:*:*:*
+  - id: 26299
+    url: https://bugzilla.redhat.com/CVE-2014-3584
+    reference_id: CVE-2014-3584
+  - id: 567699
+    url: https://nvd.nist.gov/vuln/detail/CVE-2014-3584
+    reference_id: CVE-2014-3584
+  - id: 946131
+    url: https://github.com/advisories/GHSA-gw5j-77f9-v2g2
+    reference_id: GHSA-gw5j-77f9-v2g2
+  - id: 184159
+    url: https://access.redhat.com/errata/RHSA-2014:0400
+    reference_id: RHSA-2014:0400
+weaknesses: []

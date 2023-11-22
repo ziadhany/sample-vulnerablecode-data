@@ -1,0 +1,20 @@
+vulnerability_id: VCID-qgdf-ha4h-aaae
+aliases:
+  - GHSA-9pcf-h8q9-63f6
+  - GMS-2020-766
+summary: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+  in safe-eval.
+severities:
+  - id: 704814
+    reference_id: 36291
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 36290
+    url: https://www.npmjs.com/advisories/1033
+    reference_id:
+  - id: 36291
+    url: https://github.com/advisories/GHSA-9pcf-h8q9-63f6
+    reference_id: GHSA-9pcf-h8q9-63f6
+weaknesses: []

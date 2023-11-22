@@ -1,0 +1,6 @@
+package: pkg:npm/seria-number
+versions:
+  - purl: pkg:npm/seria-number@0.0.8
+    affected_by_vulnerabilities:
+      - VCID-1cq7-j83w-aaas
+    fixing_vulnerabilities: []

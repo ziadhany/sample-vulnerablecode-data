@@ -1,0 +1,291 @@
+package: pkg:npm/ckeditor
+versions:
+  - purl: pkg:npm/ckeditor@4.0.0
+    affected_by_vulnerabilities:
+      - VCID-8bkd-41bu-aaag
+      - VCID-cka9-1snb-aaag
+      - VCID-esfj-nun2-aaar
+      - VCID-rngv-wrx6-aaas
+      - VCID-z2pc-nq4m-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ckeditor@4.10.0
+    affected_by_vulnerabilities:
+      - VCID-5gue-w1qp-aaah
+      - VCID-8bkd-41bu-aaag
+      - VCID-cka9-1snb-aaag
+      - VCID-esfj-nun2-aaar
+      - VCID-rngv-wrx6-aaas
+      - VCID-tcjq-uanz-aaak
+      - VCID-z2pc-nq4m-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ckeditor@4.10.1
+    affected_by_vulnerabilities:
+      - VCID-5gue-w1qp-aaah
+      - VCID-8bkd-41bu-aaag
+      - VCID-cka9-1snb-aaag
+      - VCID-esfj-nun2-aaar
+      - VCID-rngv-wrx6-aaas
+      - VCID-tcjq-uanz-aaak
+      - VCID-z2pc-nq4m-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ckeditor@4.11.0
+    affected_by_vulnerabilities:
+      - VCID-5gue-w1qp-aaah
+      - VCID-8bkd-41bu-aaag
+      - VCID-esfj-nun2-aaar
+      - VCID-rngv-wrx6-aaas
+      - VCID-tcjq-uanz-aaak
+      - VCID-z2pc-nq4m-aaas
+    fixing_vulnerabilities:
+      - VCID-cka9-1snb-aaag
+  - purl: pkg:npm/ckeditor@4.11.1
+    affected_by_vulnerabilities:
+      - VCID-5gue-w1qp-aaah
+      - VCID-8bkd-41bu-aaag
+      - VCID-esfj-nun2-aaar
+      - VCID-rngv-wrx6-aaas
+      - VCID-tcjq-uanz-aaak
+      - VCID-z2pc-nq4m-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ckeditor@4.11.2
+    affected_by_vulnerabilities:
+      - VCID-5gue-w1qp-aaah
+      - VCID-8bkd-41bu-aaag
+      - VCID-esfj-nun2-aaar
+      - VCID-rngv-wrx6-aaas
+      - VCID-tcjq-uanz-aaak
+      - VCID-z2pc-nq4m-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ckeditor@4.11.3
+    affected_by_vulnerabilities:
+      - VCID-5gue-w1qp-aaah
+      - VCID-8bkd-41bu-aaag
+      - VCID-esfj-nun2-aaar
+      - VCID-rngv-wrx6-aaas
+      - VCID-tcjq-uanz-aaak
+      - VCID-z2pc-nq4m-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ckeditor@4.11.4
+    affected_by_vulnerabilities:
+      - VCID-5gue-w1qp-aaah
+      - VCID-8bkd-41bu-aaag
+      - VCID-esfj-nun2-aaar
+      - VCID-rngv-wrx6-aaas
+      - VCID-tcjq-uanz-aaak
+      - VCID-z2pc-nq4m-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ckeditor@4.12.0
+    affected_by_vulnerabilities:
+      - VCID-5gue-w1qp-aaah
+      - VCID-8bkd-41bu-aaag
+      - VCID-esfj-nun2-aaar
+      - VCID-rngv-wrx6-aaas
+      - VCID-tcjq-uanz-aaak
+      - VCID-z2pc-nq4m-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ckeditor@4.12.1
+    affected_by_vulnerabilities:
+      - VCID-5gue-w1qp-aaah
+      - VCID-8bkd-41bu-aaag
+      - VCID-esfj-nun2-aaar
+      - VCID-rngv-wrx6-aaas
+      - VCID-tcjq-uanz-aaak
+      - VCID-z2pc-nq4m-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ckeditor@4.13.0
+    affected_by_vulnerabilities:
+      - VCID-479a-c8zj-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ckeditor@4.14.0
+    affected_by_vulnerabilities:
+      - VCID-7s25-1pn3-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ckeditor@4.16.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-8bkd-41bu-aaag
+      - VCID-rngv-wrx6-aaas
+  - purl: pkg:npm/ckeditor@4.16.2
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-5gue-w1qp-aaah
+      - VCID-tcjq-uanz-aaak
+  - purl: pkg:npm/ckeditor@4.18.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-esfj-nun2-aaar
+      - VCID-z2pc-nq4m-aaas
+  - purl: pkg:npm/ckeditor@4.5.10
+    affected_by_vulnerabilities:
+      - VCID-5gue-w1qp-aaah
+      - VCID-8bkd-41bu-aaag
+      - VCID-cka9-1snb-aaag
+      - VCID-esfj-nun2-aaar
+      - VCID-rngv-wrx6-aaas
+      - VCID-tcjq-uanz-aaak
+      - VCID-z2pc-nq4m-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ckeditor@4.5.11
+    affected_by_vulnerabilities:
+      - VCID-5gue-w1qp-aaah
+      - VCID-8bkd-41bu-aaag
+      - VCID-cka9-1snb-aaag
+      - VCID-esfj-nun2-aaar
+      - VCID-rngv-wrx6-aaas
+      - VCID-tcjq-uanz-aaak
+      - VCID-z2pc-nq4m-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ckeditor@4.5.2
+    affected_by_vulnerabilities:
+      - VCID-tcjq-uanz-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ckeditor@4.5.6
+    affected_by_vulnerabilities:
+      - VCID-5gue-w1qp-aaah
+      - VCID-8bkd-41bu-aaag
+      - VCID-cka9-1snb-aaag
+      - VCID-esfj-nun2-aaar
+      - VCID-rngv-wrx6-aaas
+      - VCID-tcjq-uanz-aaak
+      - VCID-z2pc-nq4m-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ckeditor@4.5.7
+    affected_by_vulnerabilities:
+      - VCID-5gue-w1qp-aaah
+      - VCID-8bkd-41bu-aaag
+      - VCID-cka9-1snb-aaag
+      - VCID-esfj-nun2-aaar
+      - VCID-rngv-wrx6-aaas
+      - VCID-tcjq-uanz-aaak
+      - VCID-z2pc-nq4m-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ckeditor@4.5.8
+    affected_by_vulnerabilities:
+      - VCID-5gue-w1qp-aaah
+      - VCID-8bkd-41bu-aaag
+      - VCID-cka9-1snb-aaag
+      - VCID-esfj-nun2-aaar
+      - VCID-rngv-wrx6-aaas
+      - VCID-tcjq-uanz-aaak
+      - VCID-z2pc-nq4m-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ckeditor@4.5.9
+    affected_by_vulnerabilities:
+      - VCID-5gue-w1qp-aaah
+      - VCID-8bkd-41bu-aaag
+      - VCID-cka9-1snb-aaag
+      - VCID-esfj-nun2-aaar
+      - VCID-rngv-wrx6-aaas
+      - VCID-tcjq-uanz-aaak
+      - VCID-z2pc-nq4m-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ckeditor@4.6.0
+    affected_by_vulnerabilities:
+      - VCID-5gue-w1qp-aaah
+      - VCID-8bkd-41bu-aaag
+      - VCID-cka9-1snb-aaag
+      - VCID-esfj-nun2-aaar
+      - VCID-rngv-wrx6-aaas
+      - VCID-tcjq-uanz-aaak
+      - VCID-z2pc-nq4m-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ckeditor@4.6.1
+    affected_by_vulnerabilities:
+      - VCID-5gue-w1qp-aaah
+      - VCID-8bkd-41bu-aaag
+      - VCID-cka9-1snb-aaag
+      - VCID-esfj-nun2-aaar
+      - VCID-rngv-wrx6-aaas
+      - VCID-tcjq-uanz-aaak
+      - VCID-z2pc-nq4m-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ckeditor@4.6.2
+    affected_by_vulnerabilities:
+      - VCID-5gue-w1qp-aaah
+      - VCID-8bkd-41bu-aaag
+      - VCID-cka9-1snb-aaag
+      - VCID-esfj-nun2-aaar
+      - VCID-rngv-wrx6-aaas
+      - VCID-tcjq-uanz-aaak
+      - VCID-z2pc-nq4m-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ckeditor@4.7.0
+    affected_by_vulnerabilities:
+      - VCID-5gue-w1qp-aaah
+      - VCID-8bkd-41bu-aaag
+      - VCID-cka9-1snb-aaag
+      - VCID-esfj-nun2-aaar
+      - VCID-rngv-wrx6-aaas
+      - VCID-tcjq-uanz-aaak
+      - VCID-z2pc-nq4m-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ckeditor@4.7.1
+    affected_by_vulnerabilities:
+      - VCID-5gue-w1qp-aaah
+      - VCID-8bkd-41bu-aaag
+      - VCID-cka9-1snb-aaag
+      - VCID-esfj-nun2-aaar
+      - VCID-rngv-wrx6-aaas
+      - VCID-tcjq-uanz-aaak
+      - VCID-z2pc-nq4m-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ckeditor@4.7.2
+    affected_by_vulnerabilities:
+      - VCID-5gue-w1qp-aaah
+      - VCID-8bkd-41bu-aaag
+      - VCID-cka9-1snb-aaag
+      - VCID-esfj-nun2-aaar
+      - VCID-rngv-wrx6-aaas
+      - VCID-tcjq-uanz-aaak
+      - VCID-z2pc-nq4m-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ckeditor@4.7.3
+    affected_by_vulnerabilities:
+      - VCID-5gue-w1qp-aaah
+      - VCID-8bkd-41bu-aaag
+      - VCID-cka9-1snb-aaag
+      - VCID-esfj-nun2-aaar
+      - VCID-rngv-wrx6-aaas
+      - VCID-tcjq-uanz-aaak
+      - VCID-z2pc-nq4m-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ckeditor@4.8.0
+    affected_by_vulnerabilities:
+      - VCID-5gue-w1qp-aaah
+      - VCID-8bkd-41bu-aaag
+      - VCID-cka9-1snb-aaag
+      - VCID-esfj-nun2-aaar
+      - VCID-rngv-wrx6-aaas
+      - VCID-tcjq-uanz-aaak
+      - VCID-z2pc-nq4m-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ckeditor@4.9.0
+    affected_by_vulnerabilities:
+      - VCID-5gue-w1qp-aaah
+      - VCID-8bkd-41bu-aaag
+      - VCID-cka9-1snb-aaag
+      - VCID-esfj-nun2-aaar
+      - VCID-rngv-wrx6-aaas
+      - VCID-tcjq-uanz-aaak
+      - VCID-z2pc-nq4m-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ckeditor@4.9.1
+    affected_by_vulnerabilities:
+      - VCID-5gue-w1qp-aaah
+      - VCID-8bkd-41bu-aaag
+      - VCID-cka9-1snb-aaag
+      - VCID-esfj-nun2-aaar
+      - VCID-rngv-wrx6-aaas
+      - VCID-tcjq-uanz-aaak
+      - VCID-z2pc-nq4m-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ckeditor@4.9.2
+    affected_by_vulnerabilities:
+      - VCID-5gue-w1qp-aaah
+      - VCID-8bkd-41bu-aaag
+      - VCID-cka9-1snb-aaag
+      - VCID-esfj-nun2-aaar
+      - VCID-rngv-wrx6-aaas
+      - VCID-tcjq-uanz-aaak
+      - VCID-z2pc-nq4m-aaas
+    fixing_vulnerabilities: []

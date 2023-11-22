@@ -1,0 +1,6 @@
+package: pkg:rpm/redhat/iproute
+versions:
+  - purl: pkg:rpm/redhat/iproute@2.4.7-11.30E?arch=1
+    affected_by_vulnerabilities:
+      - VCID-d45t-2m2a-aaab
+    fixing_vulnerabilities: []

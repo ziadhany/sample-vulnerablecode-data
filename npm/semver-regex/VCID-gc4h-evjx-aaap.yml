@@ -1,0 +1,73 @@
+vulnerability_id: VCID-gc4h-evjx-aaap
+aliases:
+  - CVE-2021-3795
+  - GHSA-44c6-4v22-4mhx
+summary: semver-regex is vulnerable to Inefficient Regular Expression Complexity
+severities:
+  - id: 602611
+    reference_id: 925918
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 602610
+    reference_id: 925917
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 552854
+    reference_id: 31404
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 552852
+    reference_id: 31404
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 706802
+    reference_id: 1468445
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 602359
+    reference_id: 925734
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 602594
+    reference_id: 925906
+    scoring_system: rhas
+    value: Low
+    scoring_elements:
+references:
+  - id: 925918
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-3795.json
+    reference_id:
+  - id: 892738
+    url: https://github.com/sindresorhus/semver-regex/commit/11c66245f4e1976dccc52977ed183696a21a3fd7
+    reference_id:
+  - id: 892739
+    url: https://huntr.dev/bounties/006624e3-35ac-448f-aab9-7b5183f30e28
+    reference_id:
+  - id: 925917
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=2006009
+    reference_id: 2006009
+  - id: 892740
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:semver-regex_project:semver-regex:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:semver-regex_project:semver-regex:*:*:*:*:*:*:*:*
+  - id: 1180811
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:semver-regex_project:semver-regex:4.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:semver-regex_project:semver-regex:4.0.0:*:*:*:*:*:*:*
+  - id: 31404
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-3795
+    reference_id: CVE-2021-3795
+  - id: 1468445
+    url: https://github.com/advisories/GHSA-44c6-4v22-4mhx
+    reference_id: GHSA-44c6-4v22-4mhx
+  - id: 925734
+    url: https://access.redhat.com/errata/RHSA-2021:3873
+    reference_id: RHSA-2021:3873
+  - id: 925906
+    url: https://access.redhat.com/errata/RHSA-2021:5038
+    reference_id: RHSA-2021:5038
+weaknesses: []

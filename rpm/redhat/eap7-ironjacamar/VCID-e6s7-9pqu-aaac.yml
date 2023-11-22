@@ -1,0 +1,85 @@
+vulnerability_id: VCID-e6s7-9pqu-aaac
+aliases:
+  - CVE-2017-12189
+summary: It was discovered that the jboss init script as used in Red Hat JBoss Enterprise Application
+  Platform 7.0.7.GA performed unsafe file handling which could result in local privilege escalation.
+  This issue is a result of an incomplete fix for CVE-2016-8656.
+severities:
+  - id: 619185
+    reference_id: 938019
+    scoring_system: cvssv3
+    value: '7.0'
+    scoring_elements: CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+  - id: 619180
+    reference_id: 938014
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 257561
+    reference_id: 676050
+    scoring_system: cvssv2
+    value: '4.6'
+    scoring_elements: AV:L/AC:L/Au:N/C:P/I:P/A:P
+  - id: 257559
+    reference_id: 676050
+    scoring_system: cvssv3
+    value: '7.8'
+    scoring_elements: CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+  - id: 619182
+    reference_id: 938016
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 619184
+    reference_id: 938018
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 619183
+    reference_id: 938017
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 619181
+    reference_id: 938015
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 938019
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2017-12189.json
+    reference_id:
+  - id: 676049
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2017-12189
+    reference_id:
+  - id: 676048
+    url: http://www.securityfocus.com/bid/102407
+    reference_id:
+  - id: 938014
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1499631
+    reference_id: 1499631
+  - id: 652244
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:7.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:7.0:*:*:*:*:*:*:*
+  - id: 111851
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:redhat:enterprise_linux:6.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:redhat:enterprise_linux:6.0:*:*:*:*:*:*:*
+  - id: 111852
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:redhat:enterprise_linux:7.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:redhat:enterprise_linux:7.0:*:*:*:*:*:*:*
+  - id: 676050
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-12189
+    reference_id: CVE-2017-12189
+  - id: 938016
+    url: https://access.redhat.com/errata/RHSA-2018:0002
+    reference_id: RHSA-2018:0002
+  - id: 938018
+    url: https://access.redhat.com/errata/RHSA-2018:0003
+    reference_id: RHSA-2018:0003
+  - id: 938017
+    url: https://access.redhat.com/errata/RHSA-2018:0004
+    reference_id: RHSA-2018:0004
+  - id: 938015
+    url: https://access.redhat.com/errata/RHSA-2018:0005
+    reference_id: RHSA-2018:0005
+weaknesses: []

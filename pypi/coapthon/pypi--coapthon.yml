@@ -1,0 +1,18 @@
+package: pkg:pypi/coapthon
+versions:
+  - purl: pkg:pypi/coapthon@3.1
+    affected_by_vulnerabilities:
+      - VCID-6u7p-ydgd-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/coapthon@4.0.0
+    affected_by_vulnerabilities:
+      - VCID-6u7p-ydgd-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/coapthon@4.0.1
+    affected_by_vulnerabilities:
+      - VCID-6u7p-ydgd-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/coapthon@4.0.2
+    affected_by_vulnerabilities:
+      - VCID-6u7p-ydgd-aaap
+    fixing_vulnerabilities: []

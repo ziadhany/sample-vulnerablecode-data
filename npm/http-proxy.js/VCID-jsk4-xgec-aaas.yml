@@ -1,0 +1,9 @@
+vulnerability_id: VCID-jsk4-xgec-aaas
+aliases:
+  - GMS-2017-146
+summary: |
+  Hijacked Environment Variables
+  `http-proxy.js` was a malicious module published with the intent to hijack environment variables. It has been unpublished by npm.
+severities: []
+references: []
+weaknesses: []

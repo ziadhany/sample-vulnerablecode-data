@@ -1,0 +1,43 @@
+vulnerability_id: VCID-nd9q-6nmw-aaaf
+aliases:
+  - CVE-2020-18974
+summary: Buffer Overflow in Netwide Assembler (NASM) v2.15.xx allows attackers to cause a denial
+  of service via 'crc64i' in the component 'nasmlib/crc64'. This issue is different than CVE-2019-7147.
+severities:
+  - id: 55175
+    reference_id: 180348
+    scoring_system: cvssv3
+    value: '3.3'
+    scoring_elements: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L
+  - id: 55174
+    reference_id: 180347
+    scoring_system: rhbs
+    value: low
+    scoring_elements:
+  - id: 452528
+    reference_id: 37663
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:N/A:P
+  - id: 452526
+    reference_id: 37663
+    scoring_system: cvssv3
+    value: '3.3'
+    scoring_elements: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L
+references:
+  - id: 180348
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2020-18974.json
+    reference_id:
+  - id: 37664
+    url: https://bugzilla.nasm.us/show_bug.cgi?id=3392568
+    reference_id:
+  - id: 180347
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1998315
+    reference_id: '1998315'
+  - id: 377740
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:nasm:netwide_assembler:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:nasm:netwide_assembler:*:*:*:*:*:*:*:*
+  - id: 37663
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-18974
+    reference_id: CVE-2020-18974
+weaknesses: []

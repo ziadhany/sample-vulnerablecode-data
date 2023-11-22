@@ -1,0 +1,123 @@
+vulnerability_id: VCID-dxcn-vbzm-aaar
+aliases:
+  - CVE-2020-27193
+  - GHSA-4m44-5j2g-xf64
+summary: |
+  Cross-site Scripting
+  A cross-site scripting (XSS) vulnerability in the Color Dialog plugin for CKEdit allows remote attackers to run arbitrary web script after persuading a user to copy and paste crafted HTML code into one of editor inputs.
+severities:
+  - id: 701265
+    reference_id: 387
+    scoring_system: generic_textual
+    value: Medium
+    scoring_elements:
+  - id: 465941
+    reference_id: 35462
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+  - id: 465939
+    reference_id: 35462
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+  - id: 706192
+    reference_id: 1467723
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 35463
+    url: https://ckeditor.com/blog/CKEditor-4.15.1-with-a-security-patch-released/
+    reference_id:
+  - id: 35464
+    url: https://ckeditor.com/cke4/release/CKEditor-4.15.1
+    reference_id:
+  - id: 35465
+    url: https://ckeditor.com/ckeditor-4/download/
+    reference_id:
+  - id: 420
+    url: https://www.oracle.com/security-alerts/cpuApr2021.html
+    reference_id:
+  - id: 386
+    url: https://www.oracle.com//security-alerts/cpujul2021.html
+    reference_id:
+  - id: 387
+    url: https://www.oracle.com/security-alerts/cpuoct2021.html
+    reference_id:
+  - id: 836788
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:ckeditor:ckeditor:4.15.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:ckeditor:ckeditor:4.15.0:*:*:*:*:*:*:*
+  - id: 669521
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:agile_plm:9.3.5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:agile_plm:9.3.5:*:*:*:*:*:*:*
+  - id: 171274
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:agile_plm:9.3.6:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:agile_plm:9.3.6:*:*:*:*:*:*:*
+  - id: 169874
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:application_express:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:application_express:*:*:*:*:*:*:*:*
+  - id: 766924
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:banking_party_management:2.7.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:banking_party_management:2.7.0:*:*:*:*:*:*:*
+  - id: 630081
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:banking_platform:2.4.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:banking_platform:2.4.0:*:*:*:*:*:*:*
+  - id: 766925
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:banking_platform:2.7.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:banking_platform:2.7.0:*:*:*:*:*:*:*
+  - id: 765580
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:banking_platform:2.7.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:banking_platform:2.7.1:*:*:*:*:*:*:*
+  - id: 773162
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:banking_platform:2.8.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:banking_platform:2.8.0:*:*:*:*:*:*:*
+  - id: 765581
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:banking_platform:2.9.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:banking_platform:2.9.0:*:*:*:*:*:*:*
+  - id: 836789
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:commerce_merchandising:11.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:commerce_merchandising:11.0.0:*:*:*:*:*:*:*
+  - id: 836790
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:commerce_merchandising:11.1.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:commerce_merchandising:11.1.0:*:*:*:*:*:*:*
+  - id: 836791
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:commerce_merchandising:11.2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:commerce_merchandising:11.2.0:*:*:*:*:*:*:*
+  - id: 836792
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:commerce_merchandising:11.3.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:commerce_merchandising:11.3.0:*:*:*:*:*:*:*
+  - id: 836793
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:commerce_merchandising:11.3.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:commerce_merchandising:11.3.1:*:*:*:*:*:*:*
+  - id: 836794
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:commerce_merchandising:11.3.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:commerce_merchandising:11.3.2:*:*:*:*:*:*:*
+  - id: 621354
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:financial_services_analytical_applications_infrastructure:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:financial_services_analytical_applications_infrastructure:*:*:*:*:*:*:*:*
+  - id: 815059
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:financial_services_analytical_applications_infrastructure:8.1.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:financial_services_analytical_applications_infrastructure:8.1.0:*:*:*:*:*:*:*
+  - id: 815060
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:financial_services_analytical_applications_infrastructure:8.1.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:financial_services_analytical_applications_infrastructure:8.1.1:*:*:*:*:*:*:*
+  - id: 765608
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:jd_edwards_enterpriseone_tools:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:jd_edwards_enterpriseone_tools:*:*:*:*:*:*:*:*
+  - id: 169482
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:peoplesoft_enterprise_peopletools:8.56:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:peoplesoft_enterprise_peopletools:8.56:*:*:*:*:*:*:*
+  - id: 621376
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:peoplesoft_enterprise_peopletools:8.57:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:peoplesoft_enterprise_peopletools:8.57:*:*:*:*:*:*:*
+  - id: 759307
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:peoplesoft_enterprise_peopletools:8.58:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:peoplesoft_enterprise_peopletools:8.58:*:*:*:*:*:*:*
+  - id: 35462
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-27193
+    reference_id: CVE-2020-27193
+  - id: 1467723
+    url: https://github.com/advisories/GHSA-4m44-5j2g-xf64
+    reference_id: GHSA-4m44-5j2g-xf64
+weaknesses: []

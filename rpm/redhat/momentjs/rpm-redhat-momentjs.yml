@@ -1,0 +1,8 @@
+package: pkg:rpm/redhat/momentjs
+versions:
+  - purl: pkg:rpm/redhat/momentjs@2.6.0-2.2?arch=el6sat
+    affected_by_vulnerabilities:
+      - VCID-ux3q-3s3u-aaaj
+      - VCID-w4m8-cct6-aaan
+      - VCID-wb45-3j9u-aaap
+    fixing_vulnerabilities: []

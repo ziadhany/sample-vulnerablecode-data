@@ -1,0 +1,198 @@
+package: pkg:gem/git
+versions:
+  - purl: pkg:gem/git@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-c31n-yh53-aaad
+      - VCID-mq3x-ux1s-aaar
+      - VCID-q6pv-vpwn-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/git@1.0.2
+    affected_by_vulnerabilities:
+      - VCID-c31n-yh53-aaad
+      - VCID-mq3x-ux1s-aaar
+      - VCID-q6pv-vpwn-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/git@1.0.3
+    affected_by_vulnerabilities:
+      - VCID-c31n-yh53-aaad
+      - VCID-mq3x-ux1s-aaar
+      - VCID-q6pv-vpwn-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/git@1.0.4
+    affected_by_vulnerabilities:
+      - VCID-c31n-yh53-aaad
+      - VCID-mq3x-ux1s-aaar
+      - VCID-q6pv-vpwn-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/git@1.0.5
+    affected_by_vulnerabilities:
+      - VCID-c31n-yh53-aaad
+      - VCID-mq3x-ux1s-aaar
+      - VCID-q6pv-vpwn-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/git@1.10.0
+    affected_by_vulnerabilities:
+      - VCID-c31n-yh53-aaad
+      - VCID-mq3x-ux1s-aaar
+      - VCID-q6pv-vpwn-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/git@1.10.1
+    affected_by_vulnerabilities:
+      - VCID-c31n-yh53-aaad
+      - VCID-mq3x-ux1s-aaar
+      - VCID-q6pv-vpwn-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/git@1.10.2
+    affected_by_vulnerabilities:
+      - VCID-c31n-yh53-aaad
+      - VCID-mq3x-ux1s-aaar
+      - VCID-q6pv-vpwn-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/git@1.1.1
+    affected_by_vulnerabilities:
+      - VCID-c31n-yh53-aaad
+      - VCID-mq3x-ux1s-aaar
+      - VCID-q6pv-vpwn-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/git@1.11.0
+    affected_by_vulnerabilities:
+      - VCID-c31n-yh53-aaad
+      - VCID-mq3x-ux1s-aaar
+    fixing_vulnerabilities:
+      - VCID-q6pv-vpwn-aaaj
+  - purl: pkg:gem/git@1.12.0
+    affected_by_vulnerabilities:
+      - VCID-c31n-yh53-aaad
+      - VCID-mq3x-ux1s-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/git@1.13.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-c31n-yh53-aaad
+      - VCID-mq3x-ux1s-aaar
+  - purl: pkg:gem/git@1.2.0
+    affected_by_vulnerabilities:
+      - VCID-c31n-yh53-aaad
+      - VCID-mq3x-ux1s-aaar
+      - VCID-q6pv-vpwn-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/git@1.2.1
+    affected_by_vulnerabilities:
+      - VCID-c31n-yh53-aaad
+      - VCID-mq3x-ux1s-aaar
+      - VCID-q6pv-vpwn-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/git@1.2.2
+    affected_by_vulnerabilities:
+      - VCID-c31n-yh53-aaad
+      - VCID-mq3x-ux1s-aaar
+      - VCID-q6pv-vpwn-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/git@1.2.3
+    affected_by_vulnerabilities:
+      - VCID-c31n-yh53-aaad
+      - VCID-mq3x-ux1s-aaar
+      - VCID-q6pv-vpwn-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/git@1.2.4
+    affected_by_vulnerabilities:
+      - VCID-c31n-yh53-aaad
+      - VCID-mq3x-ux1s-aaar
+      - VCID-q6pv-vpwn-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/git@1.2.5
+    affected_by_vulnerabilities:
+      - VCID-c31n-yh53-aaad
+      - VCID-mq3x-ux1s-aaar
+      - VCID-q6pv-vpwn-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/git@1.2.6
+    affected_by_vulnerabilities:
+      - VCID-c31n-yh53-aaad
+      - VCID-mq3x-ux1s-aaar
+      - VCID-q6pv-vpwn-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/git@1.2.7
+    affected_by_vulnerabilities:
+      - VCID-c31n-yh53-aaad
+      - VCID-mq3x-ux1s-aaar
+      - VCID-q6pv-vpwn-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/git@1.2.8
+    affected_by_vulnerabilities:
+      - VCID-c31n-yh53-aaad
+      - VCID-mq3x-ux1s-aaar
+      - VCID-q6pv-vpwn-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/git@1.2.9
+    affected_by_vulnerabilities:
+      - VCID-c31n-yh53-aaad
+      - VCID-mq3x-ux1s-aaar
+      - VCID-q6pv-vpwn-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/git@1.2.9.1
+    affected_by_vulnerabilities:
+      - VCID-c31n-yh53-aaad
+      - VCID-mq3x-ux1s-aaar
+      - VCID-q6pv-vpwn-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/git@1.3.0
+    affected_by_vulnerabilities:
+      - VCID-c31n-yh53-aaad
+      - VCID-mq3x-ux1s-aaar
+      - VCID-q6pv-vpwn-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/git@1.4.0
+    affected_by_vulnerabilities:
+      - VCID-c31n-yh53-aaad
+      - VCID-mq3x-ux1s-aaar
+      - VCID-q6pv-vpwn-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/git@1.5.0
+    affected_by_vulnerabilities:
+      - VCID-c31n-yh53-aaad
+      - VCID-mq3x-ux1s-aaar
+      - VCID-q6pv-vpwn-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/git@1.6.0
+    affected_by_vulnerabilities:
+      - VCID-c31n-yh53-aaad
+      - VCID-mq3x-ux1s-aaar
+      - VCID-q6pv-vpwn-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/git@1.6.0.pre1
+    affected_by_vulnerabilities:
+      - VCID-c31n-yh53-aaad
+      - VCID-mq3x-ux1s-aaar
+      - VCID-q6pv-vpwn-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/git@1.7.0
+    affected_by_vulnerabilities:
+      - VCID-c31n-yh53-aaad
+      - VCID-mq3x-ux1s-aaar
+      - VCID-q6pv-vpwn-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/git@1.8.0
+    affected_by_vulnerabilities:
+      - VCID-c31n-yh53-aaad
+      - VCID-mq3x-ux1s-aaar
+      - VCID-q6pv-vpwn-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/git@1.8.1
+    affected_by_vulnerabilities:
+      - VCID-c31n-yh53-aaad
+      - VCID-mq3x-ux1s-aaar
+      - VCID-q6pv-vpwn-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/git@1.9.0
+    affected_by_vulnerabilities:
+      - VCID-c31n-yh53-aaad
+      - VCID-mq3x-ux1s-aaar
+      - VCID-q6pv-vpwn-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/git@1.9.1
+    affected_by_vulnerabilities:
+      - VCID-c31n-yh53-aaad
+      - VCID-mq3x-ux1s-aaar
+      - VCID-q6pv-vpwn-aaaj
+    fixing_vulnerabilities: []

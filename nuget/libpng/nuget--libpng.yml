@@ -1,0 +1,299 @@
+package: pkg:nuget/libpng
+versions:
+  - purl: pkg:nuget/libpng@0.8
+    affected_by_vulnerabilities:
+      - VCID-7ep2-beej-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/libpng@0.90
+    affected_by_vulnerabilities:
+      - VCID-52ek-nmkc-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/libpng@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-51sn-78qt-aaab
+      - VCID-53c3-zc8k-aaam
+      - VCID-ef5v-w8g5-aaak
+      - VCID-kerg-g769-aaap
+      - VCID-mfxw-xnvp-aaac
+      - VCID-t8mn-b96e-aaaj
+      - VCID-t99a-x9bm-aaam
+      - VCID-vq4h-f8a5-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/libpng@1.0.28
+    affected_by_vulnerabilities:
+      - VCID-7ep2-beej-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/libpng@1.0.57
+    affected_by_vulnerabilities:
+      - VCID-ef5v-w8g5-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/libpng@1.0.58
+    affected_by_vulnerabilities:
+      - VCID-vq4h-f8a5-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/libpng@1.0.64
+    affected_by_vulnerabilities:
+      - VCID-canc-ytmr-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/libpng@1.1.1
+    affected_by_vulnerabilities:
+      - VCID-2vwq-s4y4-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/libpng@1.2.0
+    affected_by_vulnerabilities:
+      - VCID-51sn-78qt-aaab
+      - VCID-53c3-zc8k-aaam
+      - VCID-7ep2-beej-aaaf
+      - VCID-ef5v-w8g5-aaak
+      - VCID-kerg-g769-aaap
+      - VCID-mfxw-xnvp-aaac
+      - VCID-t99a-x9bm-aaam
+      - VCID-vq4h-f8a5-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/libpng@1.2.2
+    affected_by_vulnerabilities:
+      - VCID-ef5v-w8g5-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/libpng@1.2.35
+    affected_by_vulnerabilities:
+      - VCID-t8mn-b96e-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/libpng@1.2.48
+    affected_by_vulnerabilities:
+      - VCID-vq4h-f8a5-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/libpng@1.2.55
+    affected_by_vulnerabilities:
+      - VCID-52ek-nmkc-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/libpng@1.2.56
+    affected_by_vulnerabilities:
+      - VCID-7ep2-beej-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/libpng@1.3.0
+    affected_by_vulnerabilities:
+      - VCID-2vwq-s4y4-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/libpng@1.4.0
+    affected_by_vulnerabilities:
+      - VCID-51sn-78qt-aaab
+      - VCID-52ek-nmkc-aaaf
+      - VCID-53c3-zc8k-aaam
+      - VCID-7ep2-beej-aaaf
+      - VCID-ef5v-w8g5-aaak
+      - VCID-gwcb-88br-aaae
+      - VCID-kerg-g769-aaap
+      - VCID-mfxw-xnvp-aaac
+      - VCID-t99a-x9bm-aaam
+      - VCID-vq4h-f8a5-aaap
+      - VCID-wnh2-s874-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/libpng@1.4.10
+    affected_by_vulnerabilities:
+      - VCID-vq4h-f8a5-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/libpng@1.4.18
+    affected_by_vulnerabilities:
+      - VCID-52ek-nmkc-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/libpng@1.4.19
+    affected_by_vulnerabilities:
+      - VCID-7ep2-beej-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/libpng@1.4.9
+    affected_by_vulnerabilities:
+      - VCID-ef5v-w8g5-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/libpng@1.5.0
+    affected_by_vulnerabilities:
+      - VCID-2vwq-s4y4-aaae
+      - VCID-4nkw-ugs7-aaae
+      - VCID-51sn-78qt-aaab
+      - VCID-52ek-nmkc-aaaf
+      - VCID-53c3-zc8k-aaam
+      - VCID-6xqm-tgr1-aaaj
+      - VCID-7ep2-beej-aaaf
+      - VCID-ef5v-w8g5-aaak
+      - VCID-kerg-g769-aaap
+      - VCID-r8pr-8tth-aaaj
+      - VCID-t99a-x9bm-aaam
+      - VCID-vq4h-f8a5-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/libpng@1.5.10
+    affected_by_vulnerabilities:
+      - VCID-ef5v-w8g5-aaak
+      - VCID-vq4h-f8a5-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/libpng@1.5.10.11
+    affected_by_vulnerabilities:
+      - VCID-2vwq-s4y4-aaae
+      - VCID-4nkw-ugs7-aaae
+      - VCID-4wrn-uqht-aaan
+      - VCID-52ek-nmkc-aaaf
+      - VCID-6xqm-tgr1-aaaj
+      - VCID-7ep2-beej-aaaf
+      - VCID-canc-ytmr-aaae
+      - VCID-n3zc-yzy3-aaaq
+      - VCID-pkbe-c1vr-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/libpng@1.5.10.13
+    affected_by_vulnerabilities:
+      - VCID-2vwq-s4y4-aaae
+      - VCID-4nkw-ugs7-aaae
+      - VCID-4wrn-uqht-aaan
+      - VCID-52ek-nmkc-aaaf
+      - VCID-6xqm-tgr1-aaaj
+      - VCID-7ep2-beej-aaaf
+      - VCID-canc-ytmr-aaae
+      - VCID-n3zc-yzy3-aaaq
+      - VCID-pkbe-c1vr-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/libpng@1.5.10.9
+    affected_by_vulnerabilities:
+      - VCID-2vwq-s4y4-aaae
+      - VCID-4nkw-ugs7-aaae
+      - VCID-4wrn-uqht-aaan
+      - VCID-52ek-nmkc-aaaf
+      - VCID-6xqm-tgr1-aaaj
+      - VCID-7ep2-beej-aaaf
+      - VCID-canc-ytmr-aaae
+      - VCID-n3zc-yzy3-aaaq
+      - VCID-pkbe-c1vr-aaaf
+    fixing_vulnerabilities:
+      - VCID-81v7-229n-aaan
+      - VCID-e797-7nbn-aaaj
+      - VCID-gwcb-88br-aaae
+      - VCID-kerg-g769-aaap
+      - VCID-mfxw-xnvp-aaac
+      - VCID-t8mn-b96e-aaaj
+      - VCID-wnh2-s874-aaaj
+  - purl: pkg:nuget/libpng@1.5.13
+    affected_by_vulnerabilities:
+      - VCID-4nkw-ugs7-aaae
+      - VCID-6xqm-tgr1-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/libpng@1.5.25
+    affected_by_vulnerabilities:
+      - VCID-52ek-nmkc-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/libpng@1.5.27
+    affected_by_vulnerabilities:
+      - VCID-7ep2-beej-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/libpng@1.6.0
+    affected_by_vulnerabilities:
+      - VCID-2vwq-s4y4-aaae
+      - VCID-731z-2fss-aaaq
+      - VCID-7ep2-beej-aaaf
+      - VCID-7t81-ercm-aaam
+      - VCID-apat-tmy7-aaac
+      - VCID-p2mj-2bgk-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/libpng@1.6.15
+    affected_by_vulnerabilities:
+      - VCID-7t81-ercm-aaam
+      - VCID-apat-tmy7-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/libpng@1.6.18.1
+    affected_by_vulnerabilities:
+      - VCID-2vwq-s4y4-aaae
+      - VCID-4wrn-uqht-aaan
+      - VCID-7ep2-beej-aaaf
+      - VCID-n3zc-yzy3-aaaq
+      - VCID-pkbe-c1vr-aaaf
+    fixing_vulnerabilities:
+      - VCID-4nkw-ugs7-aaae
+      - VCID-51sn-78qt-aaab
+      - VCID-52ek-nmkc-aaaf
+      - VCID-53c3-zc8k-aaam
+      - VCID-6xqm-tgr1-aaaj
+      - VCID-731z-2fss-aaaq
+      - VCID-7t81-ercm-aaam
+      - VCID-apat-tmy7-aaac
+      - VCID-canc-ytmr-aaae
+      - VCID-ef5v-w8g5-aaak
+      - VCID-p2mj-2bgk-aaar
+      - VCID-r8pr-8tth-aaaj
+      - VCID-t99a-x9bm-aaam
+      - VCID-vq4h-f8a5-aaap
+  - purl: pkg:nuget/libpng@1.6.19
+    affected_by_vulnerabilities:
+      - VCID-n3zc-yzy3-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/libpng@1.6.19.1
+    affected_by_vulnerabilities:
+      - VCID-4wrn-uqht-aaan
+      - VCID-7ep2-beej-aaaf
+      - VCID-pkbe-c1vr-aaaf
+    fixing_vulnerabilities:
+      - VCID-2vwq-s4y4-aaae
+      - VCID-n3zc-yzy3-aaaq
+  - purl: pkg:nuget/libpng@1.6.20.1
+    affected_by_vulnerabilities:
+      - VCID-4wrn-uqht-aaan
+      - VCID-7ep2-beej-aaaf
+      - VCID-pkbe-c1vr-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/libpng@1.6.23.1
+    affected_by_vulnerabilities:
+      - VCID-4wrn-uqht-aaan
+      - VCID-7ep2-beej-aaaf
+      - VCID-pkbe-c1vr-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/libpng@1.6.24.1
+    affected_by_vulnerabilities:
+      - VCID-4wrn-uqht-aaan
+      - VCID-7ep2-beej-aaaf
+      - VCID-pkbe-c1vr-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/libpng@1.6.25.1
+    affected_by_vulnerabilities:
+      - VCID-4wrn-uqht-aaan
+      - VCID-7ep2-beej-aaaf
+      - VCID-pkbe-c1vr-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/libpng@1.6.26
+    affected_by_vulnerabilities:
+      - VCID-7ep2-beej-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/libpng@1.6.26.1
+    affected_by_vulnerabilities:
+      - VCID-4wrn-uqht-aaan
+      - VCID-pkbe-c1vr-aaaf
+    fixing_vulnerabilities:
+      - VCID-7ep2-beej-aaaf
+  - purl: pkg:nuget/libpng@1.6.28.1
+    affected_by_vulnerabilities:
+      - VCID-4wrn-uqht-aaan
+      - VCID-pkbe-c1vr-aaaf
+    fixing_vulnerabilities:
+      - VCID-7ep2-beej-aaaf
+  - purl: pkg:nuget/libpng@1.6.34
+    affected_by_vulnerabilities:
+      - VCID-8hwe-kj4e-aaaj
+      - VCID-guvv-1uwj-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/libpng@1.6.35
+    affected_by_vulnerabilities:
+      - VCID-pkbe-c1vr-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/libpng@1.6.36
+    affected_by_vulnerabilities:
+      - VCID-97x6-pdeg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/libpng@1.6.37
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-pkbe-c1vr-aaaf
+  - purl: pkg:nuget/libpng@1.6.6
+    affected_by_vulnerabilities:
+      - VCID-canc-ytmr-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/libpng@1.6.7
+    affected_by_vulnerabilities:
+      - VCID-731z-2fss-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/libpng@1.6.9
+    affected_by_vulnerabilities:
+      - VCID-p2mj-2bgk-aaar
+    fixing_vulnerabilities: []

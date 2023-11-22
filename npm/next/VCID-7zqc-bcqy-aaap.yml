@@ -1,0 +1,40 @@
+vulnerability_id: VCID-7zqc-bcqy-aaap
+aliases:
+  - CVE-2020-15242
+  - GHSA-x56p-c8cg-q435
+summary: |
+  URL Redirection to Untrusted Site (Open Redirect)
+  Next.js is vulnerable to an Open Redirect. Specially encoded paths could be used with the trailing slash redirect to allow an open redirect to occur to an external site. In general, this redirect does not directly harm users although can allow for phishing attacks by redirecting to an attackers domain from a trusted domain.
+severities:
+  - id: 445471
+    reference_id: 35881
+    scoring_system: cvssv2
+    value: '5.8'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:P/A:N
+  - id: 445469
+    reference_id: 35881
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+  - id: 706150
+    reference_id: 1467678
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 822989
+    url: https://github.com/vercel/next.js/security/advisories/GHSA-x56p-c8cg-q435
+    reference_id:
+  - id: 822990
+    url: https://github.com/zeit/next.js/releases/tag/v9.5.4
+    reference_id:
+  - id: 822991
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:vercel:next.js:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:vercel:next.js:*:*:*:*:*:node.js:*:*
+  - id: 35881
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-15242
+    reference_id: CVE-2020-15242
+  - id: 1467678
+    url: https://github.com/advisories/GHSA-x56p-c8cg-q435
+    reference_id: GHSA-x56p-c8cg-q435
+weaknesses: []

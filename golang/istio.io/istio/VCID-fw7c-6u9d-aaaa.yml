@@ -1,0 +1,64 @@
+vulnerability_id: VCID-fw7c-6u9d-aaaa
+aliases:
+  - CVE-2022-29225
+summary: 'CVE-2022-29225 envoy: Decompressors can be zip bombed'
+severities:
+  - id: 5450
+    reference_id: 39257
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 5448
+    reference_id: 39255
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 628111
+    reference_id: 922758
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 628109
+    reference_id: 922758
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 5449
+    reference_id: 39256
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 638832
+    reference_id: 951966
+    scoring_system: rhas
+    value: Critical
+    scoring_elements:
+references:
+  - id: 39257
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-29225.json
+    reference_id:
+  - id: 922756
+    url: https://github.com/envoyproxy/envoy/commit/cb4ef0b09200c720dfdb07e097092dd105450343
+    reference_id:
+  - id: 922757
+    url: https://github.com/envoyproxy/envoy/security/advisories/GHSA-75hv-2jjj-89hh
+    reference_id:
+  - id: 39255
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=2088737
+    reference_id: 2088737
+  - id: 780349
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:envoyproxy:envoy:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:envoyproxy:envoy:*:*:*:*:*:*:*:*
+  - id: 922758
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-29225
+    reference_id: CVE-2022-29225
+  - id: 1470887
+    url: https://istio.io/latest/news/security/ISTIO-SECURITY-2022-005/
+    reference_id: ISTIO-SECURITY-2022-005
+  - id: 39256
+    url: https://access.redhat.com/errata/RHSA-2022:5003
+    reference_id: RHSA-2022:5003
+  - id: 951966
+    url: https://access.redhat.com/errata/RHSA-2022:5004
+    reference_id: RHSA-2022:5004
+weaknesses: []

@@ -1,0 +1,106 @@
+package: pkg:gem/gitaly
+versions:
+  - purl: pkg:gem/gitaly@12.10.0
+    affected_by_vulnerabilities:
+      - VCID-qm3q-ekzv-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/gitaly@12.9.0.pre.rc4
+    affected_by_vulnerabilities:
+      - VCID-qm3q-ekzv-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/gitaly@13.0.0.pre.rc1
+    affected_by_vulnerabilities:
+      - VCID-qm3q-ekzv-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/gitaly@13.1.0.pre.rc1
+    affected_by_vulnerabilities:
+      - VCID-qm3q-ekzv-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/gitaly@13.1.0.pre.rc3
+    affected_by_vulnerabilities:
+      - VCID-qm3q-ekzv-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/gitaly@13.1.0.pre.rc4
+    affected_by_vulnerabilities:
+      - VCID-qm3q-ekzv-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/gitaly@13.2.0.pre.rc1
+    affected_by_vulnerabilities:
+      - VCID-qm3q-ekzv-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/gitaly@13.2.0.pre.rc2
+    affected_by_vulnerabilities:
+      - VCID-qm3q-ekzv-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/gitaly@13.3.0.pre.rc1
+    affected_by_vulnerabilities:
+      - VCID-qm3q-ekzv-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/gitaly@13.3.0.pre.rc2
+    affected_by_vulnerabilities:
+      - VCID-qm3q-ekzv-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/gitaly@13.3.0.pre.rc3
+    affected_by_vulnerabilities:
+      - VCID-qm3q-ekzv-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/gitaly@13.3.0.pre.rc4
+    affected_by_vulnerabilities:
+      - VCID-qm3q-ekzv-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/gitaly@13.3.0.pre.rc5
+    affected_by_vulnerabilities:
+      - VCID-qm3q-ekzv-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/gitaly@13.4.0
+    affected_by_vulnerabilities:
+      - VCID-qm3q-ekzv-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/gitaly@13.4.0.pre.rc1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-qm3q-ekzv-aaan
+  - purl: pkg:gem/gitaly@13.5.0
+    affected_by_vulnerabilities:
+      - VCID-qm3q-ekzv-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/gitaly@13.6.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-qm3q-ekzv-aaan
+  - purl: pkg:gem/gitaly@1.79.0
+    affected_by_vulnerabilities:
+      - VCID-qm3q-ekzv-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/gitaly@1.80.0
+    affected_by_vulnerabilities:
+      - VCID-qm3q-ekzv-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/gitaly@1.81.0
+    affected_by_vulnerabilities:
+      - VCID-qm3q-ekzv-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/gitaly@1.82.0
+    affected_by_vulnerabilities:
+      - VCID-qm3q-ekzv-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/gitaly@1.83.0
+    affected_by_vulnerabilities:
+      - VCID-qm3q-ekzv-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/gitaly@1.84.0
+    affected_by_vulnerabilities:
+      - VCID-qm3q-ekzv-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/gitaly@1.85.0
+    affected_by_vulnerabilities:
+      - VCID-qm3q-ekzv-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/gitaly@1.86.0
+    affected_by_vulnerabilities:
+      - VCID-qm3q-ekzv-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/gitaly@1.87.0
+    affected_by_vulnerabilities:
+      - VCID-qm3q-ekzv-aaan
+    fixing_vulnerabilities: []

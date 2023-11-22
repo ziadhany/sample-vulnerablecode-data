@@ -1,0 +1,137 @@
+vulnerability_id: VCID-7rqf-k1ux-aaac
+aliases:
+  - CVE-2020-1147
+  - GHSA-g5vf-38cp-4px9
+summary: A remote code execution vulnerability exists in .NET Framework, Microsoft SharePoint,
+  and Visual Studio when the software fails to check the source markup of XML file input, aka
+  '.NET Framework, SharePoint Server, and Visual Studio Remote Code Execution Vulnerability'.
+severities:
+  - id: 610890
+    reference_id: 932000
+    scoring_system: cvssv3
+    value: '8.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+  - id: 610883
+    reference_id: 931993
+    scoring_system: rhbs
+    value: urgent
+    scoring_elements:
+  - id: 432929
+    reference_id: 813773
+    scoring_system: cvssv2
+    value: '6.8'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:P/A:P
+  - id: 432927
+    reference_id: 813773
+    scoring_system: cvssv3
+    value: '7.8'
+    scoring_elements: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+  - id: 647964
+    reference_id: 1418135
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 610886
+    reference_id: 931996
+    scoring_system: rhas
+    value: Critical
+    scoring_elements:
+  - id: 610884
+    reference_id: 931994
+    scoring_system: rhas
+    value: Critical
+    scoring_elements:
+  - id: 610885
+    reference_id: 931995
+    scoring_system: rhas
+    value: Critical
+    scoring_elements:
+  - id: 610888
+    reference_id: 931998
+    scoring_system: rhas
+    value: Critical
+    scoring_elements:
+  - id: 610889
+    reference_id: 931999
+    scoring_system: rhas
+    value: Critical
+    scoring_elements:
+  - id: 610887
+    reference_id: 931997
+    scoring_system: rhas
+    value: Critical
+    scoring_elements:
+references:
+  - id: 813768
+    url: http://packetstormsecurity.com/files/158694/SharePoint-DataSet-DataTable-Deserialization.html
+    reference_id:
+  - id: 813769
+    url: http://packetstormsecurity.com/files/158876/Microsoft-SharePoint-Server-2019-Remote-Code-Execution.html
+    reference_id:
+  - id: 813770
+    url: http://packetstormsecurity.com/files/163644/Microsoft-SharePoint-Server-2019-Remote-Code-Execution.html
+    reference_id:
+  - id: 932000
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2020-1147.json
+    reference_id:
+  - id: 1418134
+    url: https://github.com/dotnet/announcements/issues/159
+    reference_id:
+  - id: 813771
+    url: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-1147
+    reference_id:
+  - id: 813772
+    url: https://www.exploitalert.com/view-details.html?id=35992
+    reference_id:
+  - id: 931993
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1856929
+    reference_id: 1856929
+  - id: 760240
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:.net_core:2.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:.net_core:2.1:*:*:*:*:*:*:*
+  - id: 809616
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:.net_core:3.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:.net_core:3.1:*:*:*:*:*:*:*
+  - id: 674818
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:sharepoint_enterprise_server:2013:sp1:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:sharepoint_enterprise_server:2013:sp1:*:*:*:*:*:*
+  - id: 664507
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:sharepoint_enterprise_server:2016:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:sharepoint_enterprise_server:2016:*:*:*:*:*:*:*
+  - id: 163075
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:sharepoint_server:2010:sp2:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:sharepoint_server:2010:sp2:*:*:*:*:*:*
+  - id: 172074
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:sharepoint_server:2019:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:sharepoint_server:2019:*:*:*:*:*:*:*
+  - id: 775516
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:visual_studio_2017:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:visual_studio_2017:*:*:*:*:*:*:*:*
+  - id: 776266
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:visual_studio_2019:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:visual_studio_2019:*:*:*:*:*:*:*:*
+  - id: 813773
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-1147
+    reference_id: CVE-2020-1147
+  - id: 1418135
+    url: https://github.com/advisories/GHSA-g5vf-38cp-4px9
+    reference_id: GHSA-g5vf-38cp-4px9
+  - id: 931996
+    url: https://access.redhat.com/errata/RHSA-2020:2937
+    reference_id: RHSA-2020:2937
+  - id: 931994
+    url: https://access.redhat.com/errata/RHSA-2020:2938
+    reference_id: RHSA-2020:2938
+  - id: 931995
+    url: https://access.redhat.com/errata/RHSA-2020:2939
+    reference_id: RHSA-2020:2939
+  - id: 931998
+    url: https://access.redhat.com/errata/RHSA-2020:2954
+    reference_id: RHSA-2020:2954
+  - id: 931999
+    url: https://access.redhat.com/errata/RHSA-2020:2988
+    reference_id: RHSA-2020:2988
+  - id: 931997
+    url: https://access.redhat.com/errata/RHSA-2020:2989
+    reference_id: RHSA-2020:2989
+weaknesses: []

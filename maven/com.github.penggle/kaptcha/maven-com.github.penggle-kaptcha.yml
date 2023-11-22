@@ -1,0 +1,6 @@
+package: pkg:maven/com.github.penggle/kaptcha
+versions:
+  - purl: pkg:maven/com.github.penggle/kaptcha@2.3.2
+    affected_by_vulnerabilities:
+      - VCID-w2vg-5d2z-aaag
+    fixing_vulnerabilities: []

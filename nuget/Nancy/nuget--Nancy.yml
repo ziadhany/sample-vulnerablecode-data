@@ -1,0 +1,190 @@
+package: pkg:nuget/Nancy
+versions:
+  - purl: pkg:nuget/Nancy@0.10.0
+    affected_by_vulnerabilities:
+      - VCID-vz5r-xsq1-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Nancy@0.11.0
+    affected_by_vulnerabilities:
+      - VCID-vz5r-xsq1-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Nancy@0.12.0
+    affected_by_vulnerabilities:
+      - VCID-vz5r-xsq1-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Nancy@0.12.1
+    affected_by_vulnerabilities:
+      - VCID-vz5r-xsq1-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Nancy@0.13.0
+    affected_by_vulnerabilities:
+      - VCID-vz5r-xsq1-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Nancy@0.14.0
+    affected_by_vulnerabilities:
+      - VCID-vz5r-xsq1-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Nancy@0.14.1
+    affected_by_vulnerabilities:
+      - VCID-vz5r-xsq1-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Nancy@0.15.0
+    affected_by_vulnerabilities:
+      - VCID-vz5r-xsq1-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Nancy@0.15.1
+    affected_by_vulnerabilities:
+      - VCID-vz5r-xsq1-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Nancy@0.15.2
+    affected_by_vulnerabilities:
+      - VCID-vz5r-xsq1-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Nancy@0.15.3
+    affected_by_vulnerabilities:
+      - VCID-vz5r-xsq1-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Nancy@0.16.0
+    affected_by_vulnerabilities:
+      - VCID-vz5r-xsq1-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Nancy@0.16.1
+    affected_by_vulnerabilities:
+      - VCID-vz5r-xsq1-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Nancy@0.17.0
+    affected_by_vulnerabilities:
+      - VCID-vz5r-xsq1-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Nancy@0.17.1
+    affected_by_vulnerabilities:
+      - VCID-vz5r-xsq1-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Nancy@0.18.0
+    affected_by_vulnerabilities:
+      - VCID-vz5r-xsq1-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Nancy@0.20.0
+    affected_by_vulnerabilities:
+      - VCID-vz5r-xsq1-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Nancy@0.21.0
+    affected_by_vulnerabilities:
+      - VCID-vz5r-xsq1-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Nancy@0.21.1
+    affected_by_vulnerabilities:
+      - VCID-vz5r-xsq1-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Nancy@0.22.0
+    affected_by_vulnerabilities:
+      - VCID-vz5r-xsq1-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Nancy@0.22.1
+    affected_by_vulnerabilities:
+      - VCID-vz5r-xsq1-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Nancy@0.22.2
+    affected_by_vulnerabilities:
+      - VCID-vz5r-xsq1-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Nancy@0.23.0
+    affected_by_vulnerabilities:
+      - VCID-vz5r-xsq1-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Nancy@0.23.1
+    affected_by_vulnerabilities:
+      - VCID-vz5r-xsq1-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Nancy@0.23.2
+    affected_by_vulnerabilities:
+      - VCID-vz5r-xsq1-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Nancy@0.4.0
+    affected_by_vulnerabilities:
+      - VCID-vz5r-xsq1-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Nancy@0.5.0
+    affected_by_vulnerabilities:
+      - VCID-vz5r-xsq1-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Nancy@0.6.0
+    affected_by_vulnerabilities:
+      - VCID-vz5r-xsq1-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Nancy@0.7.0
+    affected_by_vulnerabilities:
+      - VCID-vz5r-xsq1-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Nancy@0.7.1
+    affected_by_vulnerabilities:
+      - VCID-vz5r-xsq1-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Nancy@0.8.0
+    affected_by_vulnerabilities:
+      - VCID-vz5r-xsq1-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Nancy@0.8.1
+    affected_by_vulnerabilities:
+      - VCID-vz5r-xsq1-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Nancy@0.9.0
+    affected_by_vulnerabilities:
+      - VCID-vz5r-xsq1-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Nancy@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-vz5r-xsq1-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Nancy@1.1.0
+    affected_by_vulnerabilities:
+      - VCID-vz5r-xsq1-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Nancy@1.2.0
+    affected_by_vulnerabilities:
+      - VCID-vz5r-xsq1-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Nancy@1.3.0
+    affected_by_vulnerabilities:
+      - VCID-vz5r-xsq1-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Nancy@1.4.0
+    affected_by_vulnerabilities:
+      - VCID-vz5r-xsq1-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Nancy@1.4.1
+    affected_by_vulnerabilities:
+      - VCID-vz5r-xsq1-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Nancy@1.4.2
+    affected_by_vulnerabilities:
+      - VCID-vz5r-xsq1-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Nancy@1.4.3
+    affected_by_vulnerabilities:
+      - VCID-vz5r-xsq1-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Nancy@1.4.4
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-vz5r-xsq1-aaaa
+  - purl: pkg:nuget/Nancy@2.0.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-vz5r-xsq1-aaaa
+  - purl: pkg:nuget/Nancy@2.0.0-alpha
+    affected_by_vulnerabilities:
+      - VCID-vz5r-xsq1-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Nancy@2.0.0-barneyrubble
+    affected_by_vulnerabilities:
+      - VCID-vz5r-xsq1-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Nancy@2.0.0-clienteastwood
+    affected_by_vulnerabilities:
+      - VCID-vz5r-xsq1-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Nancy@2.0.0-clinteastwood
+    affected_by_vulnerabilities:
+      - VCID-vz5r-xsq1-aaaa
+    fixing_vulnerabilities: []

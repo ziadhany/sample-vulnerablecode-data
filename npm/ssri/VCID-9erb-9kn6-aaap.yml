@@ -1,0 +1,15 @@
+vulnerability_id: VCID-9erb-9kn6-aaap
+aliases:
+  - GMS-2018-11
+summary: |
+  ReDoS
+  There is a Regular Expression Denial of Service vulnerability in the strict mode functionality.
+severities: []
+references:
+  - id: 34655
+    url: https://github.com/zkat/ssri/commit/d0ebcdc
+    reference_id:
+  - id: 34656
+    url: https://github.com/zkat/ssri/pull/10
+    reference_id:
+weaknesses: []

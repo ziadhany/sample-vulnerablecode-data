@@ -1,0 +1,20 @@
+vulnerability_id: VCID-x6nj-cdzv-aaaq
+aliases:
+  - GHSA-4964-cjrr-jg97
+  - GMS-2020-307
+summary: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+  in jqeury.
+severities:
+  - id: 704560
+    reference_id: 31289
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 31288
+    url: https://www.npmjs.com/advisories/906
+    reference_id:
+  - id: 31289
+    url: https://github.com/advisories/GHSA-4964-cjrr-jg97
+    reference_id: GHSA-4964-cjrr-jg97
+weaknesses: []

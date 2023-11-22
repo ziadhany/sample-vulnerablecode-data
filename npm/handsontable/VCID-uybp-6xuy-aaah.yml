@@ -1,0 +1,58 @@
+vulnerability_id: VCID-uybp-6xuy-aaah
+aliases:
+  - CVE-2021-23446
+  - GHSA-hf66-r44g-p7j9
+summary: |
+  Inefficient Regular Expression Complexity
+  The package handsontable is vulnerable to Regular Expression Denial of Service (ReDoS) in Handsontable.helper.isNumeric function.
+severities:
+  - id: 515531
+    reference_id: 32103
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 515529
+    reference_id: 32103
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 706614
+    reference_id: 1468245
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 868668
+    url: https://github.com/handsontable/handsontable/issues/8752
+    reference_id:
+  - id: 868669
+    url: https://github.com/handsontable/handsontable/pull/8742
+    reference_id:
+  - id: 868670
+    url: https://snyk.io/vuln/SNYK-DOTNET-HANDSONTABLE-1726793
+    reference_id:
+  - id: 868671
+    url: https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARS-1726795
+    reference_id:
+  - id: 868672
+    url: https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSBOWER-1726796
+    reference_id:
+  - id: 868673
+    url: https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSBOWERGITHUBHANDSONTABLE-1726794
+    reference_id:
+  - id: 868674
+    url: https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-1726797
+    reference_id:
+  - id: 868675
+    url: https://snyk.io/vuln/SNYK-JS-HANDSONTABLE-1726770
+    reference_id:
+  - id: 868676
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:handsontable:handsontable:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:handsontable:handsontable:*:*:*:*:*:node.js:*:*
+  - id: 32103
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-23446
+    reference_id: CVE-2021-23446
+  - id: 1468245
+    url: https://github.com/advisories/GHSA-hf66-r44g-p7j9
+    reference_id: GHSA-hf66-r44g-p7j9
+weaknesses: []

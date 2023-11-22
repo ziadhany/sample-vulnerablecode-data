@@ -1,0 +1,30 @@
+package: pkg:gem/matestack-ui-core
+versions:
+  - purl: pkg:gem/matestack-ui-core@0.6.0
+    affected_by_vulnerabilities:
+      - VCID-fk22-xg64-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/matestack-ui-core@0.7.0
+    affected_by_vulnerabilities:
+      - VCID-fk22-xg64-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/matestack-ui-core@0.7.1
+    affected_by_vulnerabilities:
+      - VCID-fk22-xg64-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/matestack-ui-core@0.7.2
+    affected_by_vulnerabilities:
+      - VCID-fk22-xg64-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/matestack-ui-core@0.7.2.1
+    affected_by_vulnerabilities:
+      - VCID-fk22-xg64-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/matestack-ui-core@0.7.3
+    affected_by_vulnerabilities:
+      - VCID-fk22-xg64-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/matestack-ui-core@0.7.4
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-fk22-xg64-aaan

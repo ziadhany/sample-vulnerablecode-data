@@ -1,0 +1,31 @@
+vulnerability_id: VCID-fh1j-t7wh-aaad
+aliases:
+  - CVE-2022-4495
+  - GHSA-r48c-4vfj-h426
+summary: collective.dms.basecontent Cross-site Scripting vulnerability
+severities:
+  - id: 704431
+    reference_id: 1466001
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 1465999
+    url: https://github.com/collective/collective.dms.basecontent/commit/6c4d616fcc771822a14ebae5e23f3f6d96d134bd
+    reference_id:
+  - id: 1470708
+    url: https://github.com/collective/collective.dms.basecontent/releases/tag/1.10
+    reference_id:
+  - id: 1466177
+    url: https://github.com/collective/collective.dms.basecontent/releases/tag/1.7
+    reference_id:
+  - id: 1466000
+    url: https://vuldb.com/?id.215813
+    reference_id:
+  - id: 1465998
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-4495
+    reference_id: CVE-2022-4495
+  - id: 1466001
+    url: https://github.com/advisories/GHSA-r48c-4vfj-h426
+    reference_id: GHSA-r48c-4vfj-h426
+weaknesses: []

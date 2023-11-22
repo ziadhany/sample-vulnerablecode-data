@@ -1,0 +1,56 @@
+package: pkg:rpm/redhat/pygobject3
+versions:
+  - purl: pkg:rpm/redhat/pygobject3@3.28.3-2?arch=el7sat
+    affected_by_vulnerabilities:
+      - VCID-1rm6-bsbu-aaam
+      - VCID-2pnz-pceq-aaan
+      - VCID-2pu9-dr4c-aaas
+      - VCID-3d7x-hvq1-aaad
+      - VCID-3sj8-9xug-aaap
+      - VCID-4q2p-kb2w-aaar
+      - VCID-4ube-rm8g-aaam
+      - VCID-4w75-wzwz-aaar
+      - VCID-54jv-na1n-aaac
+      - VCID-76nh-pw41-aaar
+      - VCID-7me3-3wxs-aaac
+      - VCID-88cw-7m98-aaah
+      - VCID-88dg-349s-aaap
+      - VCID-8cwn-mamx-aaab
+      - VCID-8gt6-hg94-aaac
+      - VCID-94jd-rgvr-aaas
+      - VCID-9z2v-67w9-aaan
+      - VCID-adan-1pt3-aaad
+      - VCID-bp5a-qr4t-aaad
+      - VCID-bx2w-gk4f-aaaf
+      - VCID-by8q-f3h8-aaaf
+      - VCID-byh6-2vn3-aaaa
+      - VCID-cw2z-su4w-aaar
+      - VCID-d96z-ne4f-aaae
+      - VCID-efvk-eu3s-aaaf
+      - VCID-f3h3-7htd-aaar
+      - VCID-f3uu-yu8c-aaaq
+      - VCID-fj9q-869j-aaap
+      - VCID-fpuu-b2rb-aaak
+      - VCID-gh4n-hy9b-aaaq
+      - VCID-hexc-rwtm-aaae
+      - VCID-juj3-jyhg-aaas
+      - VCID-k5ed-khh4-aaaj
+      - VCID-kwwj-765a-aaap
+      - VCID-kz2t-1jdd-aaaf
+      - VCID-psxz-je1e-aaap
+      - VCID-qkms-sdd6-aaah
+      - VCID-rt2v-jprf-aaas
+      - VCID-sc9x-9frn-aaae
+      - VCID-t8mm-96zp-aaag
+      - VCID-thw8-v921-aaac
+      - VCID-urgd-kgye-aaak
+      - VCID-utum-9m1g-aaan
+      - VCID-vqtk-e5du-aaas
+      - VCID-w15x-4t64-aaaa
+      - VCID-w4a2-967h-aaan
+      - VCID-wc8h-7ucw-aaac
+      - VCID-wnuk-tmsw-aaas
+      - VCID-wpbd-m9bh-aaak
+      - VCID-x3m2-ek7t-aaaa
+      - VCID-zjs5-tpt3-aaap
+    fixing_vulnerabilities: []

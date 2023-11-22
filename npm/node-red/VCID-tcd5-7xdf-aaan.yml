@@ -1,0 +1,46 @@
+vulnerability_id: VCID-tcd5-7xdf-aaan
+aliases:
+  - CVE-2021-21298
+  - GHSA-m33v-338h-4v9f
+summary: |
+  Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')
+  Node-Red is a low-code programming for event-driven applications built using nodejs. Node-RED has a vulnerability which allows arbitrary path traversal via the Projects API. If the Projects feature is enabled, a user with `projects.read` permission is able to access any file via the Projects API. The issue has been patched in Node-RED The vulnerability applies only to the Projects feature which is not enabled by default in Node-RED. The primary workaround is not give untrusted users read access to the Node-RED editor.
+severities:
+  - id: 507965
+    reference_id: 34450
+    scoring_system: cvssv2
+    value: '3.5'
+    scoring_elements: AV:N/AC:M/Au:S/C:P/I:N/A:N
+  - id: 507963
+    reference_id: 34450
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+  - id: 706506
+    reference_id: 34451
+    scoring_system: cvssv3.1_qr
+    value: LOW
+    scoring_elements:
+references:
+  - id: 34447
+    url: https://github.com/node-red/node-red/commit/74db3e17d075f23d9c95d7871586cf461524c456
+    reference_id:
+  - id: 34448
+    url: https://github.com/node-red/node-red/releases/tag/1.2.8
+    reference_id:
+  - id: 863758
+    url: https://github.com/node-red/node-red/security/advisories/GHSA-m33v-338h-4v9f
+    reference_id:
+  - id: 34449
+    url: https://www.npmjs.com/package/@node-red/runtime
+    reference_id:
+  - id: 781185
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:nodered:node-red:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:nodered:node-red:*:*:*:*:*:node.js:*:*
+  - id: 34450
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-21298
+    reference_id: CVE-2021-21298
+  - id: 34451
+    url: https://github.com/advisories/GHSA-m33v-338h-4v9f
+    reference_id: GHSA-m33v-338h-4v9f
+weaknesses: []

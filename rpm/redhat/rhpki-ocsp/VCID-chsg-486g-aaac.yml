@@ -1,0 +1,252 @@
+vulnerability_id: VCID-chsg-486g-aaac
+aliases:
+  - CVE-2005-2090
+summary: 'Jakarta Tomcat 5.0.19 (Coyote/1.1) and Tomcat 4.1.24 (Coyote/1.0) allows remote attackers
+  to poison the web cache, bypass web application firewall protection, and conduct XSS attacks
+  via an HTTP request with both a "Transfer-Encoding: chunked" header and a Content-Length header,
+  which causes Tomcat to incorrectly handle and forward the body of the request in a way that
+  causes the receiving server to process it as a separate HTTP request, aka "HTTP Request Smuggling."'
+severities:
+  - id: 650165
+    reference_id: 9068
+    scoring_system: generic_textual
+    value: Low
+    scoring_elements:
+  - id: 78688
+    reference_id: 210484
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 30642
+    reference_id: 125592
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+  - id: 77628
+    reference_id: 208688
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 77629
+    reference_id: 208689
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 77630
+    reference_id: 208690
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 77704
+    reference_id: 208817
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 77487
+    reference_id: 208448
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 68202
+    reference_id: '197689'
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 68204
+    reference_id: '197691'
+    scoring_system: rhas
+    value: Low
+    scoring_elements:
+  - id: 68958
+    reference_id: '198602'
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 125568
+    url: http://community.ca.com/blogs/casecurityresponseblog/archive/2009/01/23.aspx
+    reference_id:
+  - id: 98199
+    url: http://docs.info.apple.com/article.html?artnum=306172
+    reference_id:
+  - id: 125569
+    url: http://h20000.www2.hp.com/bizsupport/TechSupport/Document.jsp?objectID=c01178795
+    reference_id:
+  - id: 98200
+    url: http://lists.apple.com/archives/security-announce//2007/Jul/msg00004.html
+    reference_id:
+  - id: 125570
+    url: http://lists.opensuse.org/opensuse-security-announce/2008-03/msg00001.html
+    reference_id:
+  - id: 125571
+    url: http://lists.vmware.com/pipermail/security-announce/2008/000003.html
+    reference_id:
+  - id: 210485
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2005-2090.json
+    reference_id:
+  - id: 125506
+    url: http://seclists.org/lists/bugtraq/2005/Jun/0025.html
+    reference_id:
+  - id: 98202
+    url: http://secunia.com/advisories/26235
+    reference_id:
+  - id: 125572
+    url: http://secunia.com/advisories/26660
+    reference_id:
+  - id: 125573
+    url: http://secunia.com/advisories/27037
+    reference_id:
+  - id: 125574
+    url: http://secunia.com/advisories/28365
+    reference_id:
+  - id: 125575
+    url: http://secunia.com/advisories/29242
+    reference_id:
+  - id: 76683
+    url: http://secunia.com/advisories/30899
+    reference_id:
+  - id: 76684
+    url: http://secunia.com/advisories/30908
+    reference_id:
+  - id: 125576
+    url: http://secunia.com/advisories/33668
+    reference_id:
+  - id: 125577
+    url: http://securitytracker.com/id?1014365
+    reference_id:
+  - id: 9049
+    url: https://lists.apache.org/thread.html/29dc6c2b625789e70a9c4756b5a327e6547273ff8bde7e0327af48c5@%3Cdev.tomcat.apache.org%3E
+    reference_id:
+  - id: 1738
+    url: https://lists.apache.org/thread.html/37220405a377c0182d2afdbc36461c4783b2930fbeae3a17f1333113@%3Cdev.tomcat.apache.org%3E
+    reference_id:
+  - id: 1740
+    url: https://lists.apache.org/thread.html/39ae1f0bd5867c15755a6f959b271ade1aea04ccdc3b2e639dcd903b@%3Cdev.tomcat.apache.org%3E
+    reference_id:
+  - id: 1746
+    url: https://lists.apache.org/thread.html/b84ad1258a89de5c9c853c7f2d3ad77e5b8b2930be9e132d5cef6b95@%3Cdev.tomcat.apache.org%3E
+    reference_id:
+  - id: 1747
+    url: https://lists.apache.org/thread.html/b8a1bf18155b552dcf9a928ba808cbadad84c236d85eab3033662cfb@%3Cdev.tomcat.apache.org%3E
+    reference_id:
+  - id: 9051
+    url: https://lists.apache.org/thread.html/c62b0e3a7bf23342352a5810c640a94b6db69957c5c19db507004d74@%3Cdev.tomcat.apache.org%3E
+    reference_id:
+  - id: 1748
+    url: https://lists.apache.org/thread.html/r03c597a64de790ba42c167efacfa23300c3d6c9fe589ab87fe02859c@%3Cdev.tomcat.apache.org%3E
+    reference_id:
+  - id: 1749
+    url: https://lists.apache.org/thread.html/r587e50b86c1a96ee301f751d50294072d142fd6dc08a8987ae9f3a9b@%3Cdev.tomcat.apache.org%3E
+    reference_id:
+  - id: 9054
+    url: https://lists.apache.org/thread.html/rb71997f506c6cc8b530dd845c084995a9878098846c7b4eacfae8db3@%3Cdev.tomcat.apache.org%3E
+    reference_id:
+  - id: 125591
+    url: https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A10499
+    reference_id:
+  - id: 76685
+    url: http://sunsolve.sun.com/search/document.do?assetkey=1-26-239312-1
+    reference_id:
+  - id: 125578
+    url: http://support.avaya.com/elmodocs2/security/ASA-2007-206.htm
+    reference_id:
+  - id: 125579
+    url: http://support.ca.com/irj/portal/anonymous/phpsupcontent?contentID=197540
+    reference_id:
+  - id: 9066
+    url: http://tomcat.apache.org/security-4.html
+    reference_id:
+  - id: 9067
+    url: http://tomcat.apache.org/security-5.html
+    reference_id:
+  - id: 9068
+    url: http://tomcat.apache.org/security-6.html
+    reference_id:
+  - id: 125580
+    url: http://www.fujitsu.com/global/support/software/security/products-f/interstage-200703e.html
+    reference_id:
+  - id: 125581
+    url: http://www.redhat.com/support/errata/RHSA-2007-0327.html
+    reference_id:
+  - id: 125582
+    url: http://www.redhat.com/support/errata/RHSA-2007-0360.html
+    reference_id:
+  - id: 97202
+    url: http://www.redhat.com/support/errata/RHSA-2008-0261.html
+    reference_id:
+  - id: 125519
+    url: http://www.securiteam.com/securityreviews/5GP0220G0U.html
+    reference_id:
+  - id: 125583
+    url: http://www.securityfocus.com/archive/1/485938/100/0/threaded
+    reference_id:
+  - id: 125584
+    url: http://www.securityfocus.com/archive/1/500396/100/0/threaded
+    reference_id:
+  - id: 125585
+    url: http://www.securityfocus.com/archive/1/500412/100/0/threaded
+    reference_id:
+  - id: 125586
+    url: http://www.securityfocus.com/bid/13873
+    reference_id:
+  - id: 98209
+    url: http://www.securityfocus.com/bid/25159
+    reference_id:
+  - id: 98210
+    url: http://www.vupen.com/english/advisories/2007/2732
+    reference_id:
+  - id: 125587
+    url: http://www.vupen.com/english/advisories/2007/3087
+    reference_id:
+  - id: 125588
+    url: http://www.vupen.com/english/advisories/2007/3386
+    reference_id:
+  - id: 125589
+    url: http://www.vupen.com/english/advisories/2008/0065
+    reference_id:
+  - id: 76688
+    url: http://www.vupen.com/english/advisories/2008/1979/references
+    reference_id:
+  - id: 125590
+    url: http://www.vupen.com/english/advisories/2009/0233
+    reference_id:
+  - id: 125525
+    url: http://www.watchfire.com/resources/HTTP-Request-Smuggling.pdf
+    reference_id:
+  - id: 210484
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=237079
+    reference_id: 237079
+  - id: 125593
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:tomcat:4.1.24:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:tomcat:4.1.24:*:*:*:*:*:*:*
+  - id: 125594
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:tomcat:5.0.19:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:tomcat:5.0.19:*:*:*:*:*:*:*
+  - id: 125592
+    url: https://nvd.nist.gov/vuln/detail/CVE-2005-2090
+    reference_id: CVE-2005-2090
+  - id: 208688
+    url: https://access.redhat.com/errata/RHSA-2007:0326
+    reference_id: RHSA-2007:0326
+  - id: 208689
+    url: https://access.redhat.com/errata/RHSA-2007:0327
+    reference_id: RHSA-2007:0327
+  - id: 208690
+    url: https://access.redhat.com/errata/RHSA-2007:0328
+    reference_id: RHSA-2007:0328
+  - id: 208817
+    url: https://access.redhat.com/errata/RHSA-2007:0340
+    reference_id: RHSA-2007:0340
+  - id: 208448
+    url: https://access.redhat.com/errata/RHSA-2007:1069
+    reference_id: RHSA-2007:1069
+  - id: '197689'
+    url: https://access.redhat.com/errata/RHSA-2008:0261
+    reference_id: RHSA-2008:0261
+  - id: '197691'
+    url: https://access.redhat.com/errata/RHSA-2008:0524
+    reference_id: RHSA-2008:0524
+  - id: '198602'
+    url: https://access.redhat.com/errata/RHSA-2010:0602
+    reference_id: RHSA-2010:0602
+weaknesses: []

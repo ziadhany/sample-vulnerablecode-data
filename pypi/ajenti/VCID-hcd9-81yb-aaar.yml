@@ -1,0 +1,36 @@
+vulnerability_id: VCID-hcd9-81yb-aaar
+aliases:
+  - CVE-2014-2260
+  - PYSEC-2014-98
+summary: Cross-site scripting (XSS) vulnerability in plugins/main/content/js/ajenti.coffee in
+  Eugene Pankov Ajenti 1.2.13 allows remote authenticated users to inject arbitrary web script
+  or HTML via the command field in the Cron functionality.
+severities:
+  - id: 178239
+    reference_id: 560332
+    scoring_system: cvssv2
+    value: '3.5'
+    scoring_elements: AV:N/AC:M/Au:S/C:N/I:P/A:N
+references:
+  - id: 4716
+    url: http://packetstormsecurity.com/files/124804/Ajenti-1.2.13-Cross-Site-Scripting.html
+    reference_id:
+  - id: 4714
+    url: https://github.com/Eugeny/ajenti/commit/3270fd1d78391bb847b4c9ce37cf921f485b1310
+    reference_id:
+  - id: 4717
+    url: https://github.com/Eugeny/ajenti/issues/233
+    reference_id:
+  - id: 4715
+    url: http://www.osvdb.org/102174
+    reference_id:
+  - id: 4713
+    url: http://www.securityfocus.com/bid/64982
+    reference_id:
+  - id: 560333
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:ajenti:ajenti:1.2.13:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:ajenti:ajenti:1.2.13:*:*:*:*:*:*:*
+  - id: 560332
+    url: https://nvd.nist.gov/vuln/detail/CVE-2014-2260
+    reference_id: CVE-2014-2260
+weaknesses: []

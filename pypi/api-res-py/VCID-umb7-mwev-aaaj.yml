@@ -1,0 +1,42 @@
+vulnerability_id: VCID-umb7-mwev-aaaj
+aliases:
+  - CVE-2022-31313
+  - GHSA-6978-4w92-428p
+summary: api-res-py package in PyPI 0.1 is vulnerable to a code execution backdoor in the request
+  package.
+severities:
+  - id: 601499
+    reference_id: 925041
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 601497
+    reference_id: 925041
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 627854
+    reference_id: 944086
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 8909
+    url: http://pypi.doubanio.com/simple/request
+    reference_id:
+  - id: 925039
+    url: https://github.com/rakeshrkz7/as_api_res/issues/1
+    reference_id:
+  - id: 925040
+    url: https://pypi.org/project/api-res-py/
+    reference_id:
+  - id: 925042
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:api-res-py_project:api-res-py:0.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:api-res-py_project:api-res-py:0.1:*:*:*:*:*:*:*
+  - id: 925041
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-31313
+    reference_id: CVE-2022-31313
+  - id: 944086
+    url: https://github.com/advisories/GHSA-6978-4w92-428p
+    reference_id: GHSA-6978-4w92-428p
+weaknesses: []

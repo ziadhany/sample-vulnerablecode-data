@@ -1,0 +1,149 @@
+vulnerability_id: VCID-8bb3-psvg-aaan
+aliases:
+  - CVE-2019-10174
+  - GHSA-h47x-2j37-fw5m
+summary: 'CVE-2019-10174 infinispan: invokeAccessibly method from ReflectionUtil class allows
+  to invoke private methods'
+severities:
+  - id: 66175
+    reference_id: '195205'
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+  - id: 66170
+    reference_id: '195200'
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 367128
+    reference_id: 766415
+    scoring_system: cvssv2
+    value: '6.5'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:P/A:P
+  - id: 367126
+    reference_id: 766415
+    scoring_system: cvssv3
+    value: '8.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+  - id: 630409
+    reference_id: 946545
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 66174
+    reference_id: '195204'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 55137
+    reference_id: 180303
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 66171
+    reference_id: '195201'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 54436
+    reference_id: 179621
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 66172
+    reference_id: '195202'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 66173
+    reference_id: '195203'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 54924
+    reference_id: 180037
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 51125
+    reference_id: 175779
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: '195205'
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2019-10174.json
+    reference_id:
+  - id: 766413
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2019-10174
+    reference_id:
+  - id: 946543
+    url: https://github.com/infinispan/infinispan/commit/5dbb05cfaca01a1a66732b82a0f5ba615ccbd214
+    reference_id:
+  - id: 946544
+    url: https://github.com/infinispan/infinispan/commit/7bdc2822ccf79127a488130239c49a5e944e3ca2
+    reference_id:
+  - id: 766414
+    url: https://security.netapp.com/advisory/ntap-20220210-0018/
+    reference_id:
+  - id: '195200'
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1703469
+    reference_id: 1703469
+  - id: 625197
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:infinispan:infinispan:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:infinispan:infinispan:*:*:*:*:*:*:*:*
+  - id: 766416
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:netapp:active_iq_unified_manager:-:*:*:*:*:linux:*:*
+    reference_id: cpe:2.3:a:netapp:active_iq_unified_manager:-:*:*:*:*:linux:*:*
+  - id: 766417
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:netapp:active_iq_unified_manager:-:*:*:*:*:vmware_vsphere:*:*
+    reference_id: cpe:2.3:a:netapp:active_iq_unified_manager:-:*:*:*:*:vmware_vsphere:*:*
+  - id: 766418
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:netapp:active_iq_unified_manager:-:*:*:*:*:windows:*:*
+    reference_id: cpe:2.3:a:netapp:active_iq_unified_manager:-:*:*:*:*:windows:*:*
+  - id: 702837
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:fuse:1.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:fuse:1.0:*:*:*:*:*:*:*
+  - id: 766419
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_data_grid:-:*:*:*:text-only:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_data_grid:-:*:*:*:text-only:*:*:*
+  - id: 766420
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:-:*:*:*:text-only:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:-:*:*:*:text-only:*:*:*
+  - id: 766421
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift_application_runtimes:-:*:*:*:text-only:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift_application_runtimes:-:*:*:*:text-only:*:*:*
+  - id: 734921
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:single_sign-on:-:*:*:*:text-only:*:*:*
+    reference_id: cpe:2.3:a:redhat:single_sign-on:-:*:*:*:text-only:*:*:*
+  - id: 766415
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-10174
+    reference_id: CVE-2019-10174
+  - id: 946545
+    url: https://github.com/advisories/GHSA-h47x-2j37-fw5m
+    reference_id: GHSA-h47x-2j37-fw5m
+  - id: '195204'
+    url: https://access.redhat.com/errata/RHSA-2019:3901
+    reference_id: RHSA-2019:3901
+  - id: 180303
+    url: https://access.redhat.com/errata/RHSA-2020:0481
+    reference_id: RHSA-2020:0481
+  - id: '195201'
+    url: https://access.redhat.com/errata/RHSA-2020:0727
+    reference_id: RHSA-2020:0727
+  - id: 179621
+    url: https://access.redhat.com/errata/RHSA-2020:0983
+    reference_id: RHSA-2020:0983
+  - id: '195202'
+    url: https://access.redhat.com/errata/RHSA-2020:2062
+    reference_id: RHSA-2020:2062
+  - id: '195203'
+    url: https://access.redhat.com/errata/RHSA-2020:2063
+    reference_id: RHSA-2020:2063
+  - id: 180037
+    url: https://access.redhat.com/errata/RHSA-2020:2113
+    reference_id: RHSA-2020:2113
+  - id: 175779
+    url: https://access.redhat.com/errata/RHSA-2020:2333
+    reference_id: RHSA-2020:2333
+weaknesses: []

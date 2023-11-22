@@ -1,0 +1,28 @@
+vulnerability_id: VCID-b7p2-n9eq-aaab
+aliases:
+  - GHSA-fmr4-7g9q-7hc7
+summary: Moderate severity vulnerability that affects handlebars
+severities:
+  - id: 206693
+    reference_id: 35099
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+  - id: 206691
+    reference_id: 35099
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+  - id: 704895
+    reference_id: 1466392
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 35099
+    url: https://nvd.nist.gov/vuln/detail/CVE-2015-8861
+    reference_id: CVE-2015-8861
+  - id: 1466392
+    url: https://github.com/advisories/GHSA-fmr4-7g9q-7hc7
+    reference_id: GHSA-fmr4-7g9q-7hc7
+weaknesses: []

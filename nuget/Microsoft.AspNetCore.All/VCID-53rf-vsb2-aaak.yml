@@ -1,0 +1,62 @@
+vulnerability_id: VCID-53rf-vsb2-aaak
+aliases:
+  - CVE-2021-43877
+summary: |
+  Improper Privilege Management
+  ASP.NET Core and Visual Studio Elevation of Privilege Vulnerability
+severities:
+  - id: 470054
+    reference_id: 839657
+    scoring_system: cvssv3
+    value: '7.8'
+    scoring_elements: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+  - id: 470053
+    reference_id: 839656
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 568169
+    reference_id: 37600
+    scoring_system: cvssv2
+    value: '4.6'
+    scoring_elements: AV:L/AC:L/Au:N/C:P/I:P/A:P
+  - id: 568167
+    reference_id: 37600
+    scoring_system: cvssv3
+    value: '7.8'
+    scoring_elements: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+references:
+  - id: 839657
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-43877.json
+    reference_id:
+  - id: 903428
+    url: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-43877
+    reference_id:
+  - id: 839656
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=2031201
+    reference_id: 2031201
+  - id: 809607
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:asp.net_core:3.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:asp.net_core:3.1:*:*:*:*:*:*:*
+  - id: 903429
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:asp.net_core:5.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:asp.net_core:5.0:*:*:*:*:*:*:*
+  - id: 903430
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:asp.net_core:6.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:asp.net_core:6.0:*:*:*:*:*:*:*
+  - id: 903431
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:visual_studio_2019:16.11:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:visual_studio_2019:16.11:*:*:*:*:*:*:*
+  - id: 836120
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:visual_studio_2019:16.7:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:visual_studio_2019:16.7:*:*:*:*:*:*:*
+  - id: 903432
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:visual_studio_2019:16.9:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:visual_studio_2019:16.9:*:*:*:*:*:*:*
+  - id: 903433
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:visual_studio_2022:17.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:visual_studio_2022:17.0:*:*:*:*:*:*:*
+  - id: 37600
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-43877
+    reference_id: CVE-2021-43877
+weaknesses: []

@@ -1,0 +1,36 @@
+vulnerability_id: VCID-8ugw-7akm-aaah
+aliases:
+  - CVE-2015-3235
+summary: 'CVE-2015-3235 foreman: edit_users permission allows changing of admin passwords'
+severities:
+  - id: '199166'
+    reference_id: 606605
+    scoring_system: cvssv2
+    value: '6.0'
+    scoring_elements: AV:N/AC:M/Au:S/C:P/I:P/A:P
+references:
+  - id: 606602
+    url: http://projects.theforeman.org/issues/10829
+    reference_id:
+  - id: 600898
+    url: https://access.redhat.com/errata/RHSA-2015:1591
+    reference_id:
+  - id: 600899
+    url: https://access.redhat.com/errata/RHSA-2015:1592
+    reference_id:
+  - id: 180393
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2015-3235.json
+    reference_id:
+  - id: 606604
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1232366
+    reference_id:
+  - id: 606603
+    url: http://theforeman.org/manuals/1.9/index.html#Releasenotesfor1.9
+    reference_id:
+  - id: 158226
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:foreman:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:foreman:*:*:*:*:*:*:*:*
+  - id: 606605
+    url: https://nvd.nist.gov/vuln/detail/CVE-2015-3235
+    reference_id: CVE-2015-3235
+weaknesses: []

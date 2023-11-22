@@ -1,0 +1,51 @@
+vulnerability_id: VCID-zfvd-5tbe-aaas
+aliases:
+  - CVE-2021-3840
+  - GHSA-hgc3-hp6x-wpgx
+  - PYSEC-2021-840
+summary: A dependency confusion vulnerability was reported in the Antilles open-source software
+  prior to version 1.0.1 that could allow for remote code execution during installation due
+  to a package listed in requirements.txt not existing in the public package index (PyPi). MITRE
+  classifies this weakness as an Uncontrolled Search Path Element (CWE-427) in which a private
+  package dependency may be replaced by an unauthorized package of the same name published to
+  a well-known public repository such as PyPi. The configuration has been updated to only install
+  components built by Antilles, removing all other public package indexes. Additionally, the
+  antilles-tools dependency has been published to PyPi.
+severities:
+  - id: 554141
+    reference_id: 21778
+    scoring_system: cvssv2
+    value: '6.8'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:P/A:P
+  - id: 554139
+    reference_id: 21778
+    scoring_system: cvssv3
+    value: '8.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+  - id: 3772
+    reference_id: 21779
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 3771
+    reference_id: 21776
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 21777
+    url: https://github.com/lenovo/Antilles/commit/c7b9c5740908b343aceefe69733d9972e64df0b9
+    reference_id:
+  - id: 893796
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:lenovo:antilles:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:lenovo:antilles:*:*:*:*:*:*:*:*
+  - id: 21778
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-3840
+    reference_id: CVE-2021-3840
+  - id: 21779
+    url: https://github.com/advisories/GHSA-hgc3-hp6x-wpgx
+    reference_id: GHSA-hgc3-hp6x-wpgx
+  - id: 21776
+    url: https://github.com/lenovo/Antilles/security/advisories/GHSA-hgc3-hp6x-wpgx
+    reference_id: GHSA-hgc3-hp6x-wpgx
+weaknesses: []

@@ -1,0 +1,43 @@
+vulnerability_id: VCID-63gk-pycb-aaaa
+aliases:
+  - CVE-2021-32830
+  - GHSA-8c3f-x5f9-6h62
+summary: |
+  Command Injection
+  The @diez/generation npm package is a client for Diez. The `locateFont` method of @diez/generation has a command injection vulnerability. Clients of the @diez/generation library are unlikely to be aware of this, so they might unwittingly write code that contains a vulnerability. This issue may lead to remote code execution if a client of the library calls the vulnerable method with untrusted input.
+severities:
+  - id: 541133
+    reference_id: 33885
+    scoring_system: cvssv2
+    value: '6.8'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:P/A:P
+  - id: 541131
+    reference_id: 33885
+    scoring_system: cvssv3
+    value: '7.0'
+    scoring_elements: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+  - id: 706762
+    reference_id: 1468393
+    scoring_system: cvssv3.1_qr
+    value: LOW
+    scoring_elements:
+references:
+  - id: 885163
+    url: https://github.com/diez/diez
+    reference_id:
+  - id: 885164
+    url: https://securitylab.github.com/advisories/GHSL-2021-061-diez-generation-cmd-injection/
+    reference_id:
+  - id: 885165
+    url: https://www.npmjs.com/package/@diez/generation
+    reference_id:
+  - id: 885166
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:haikuforteams:diez:-:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:haikuforteams:diez:-:*:*:*:*:node.js:*:*
+  - id: 33885
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-32830
+    reference_id: CVE-2021-32830
+  - id: 1468393
+    url: https://github.com/advisories/GHSA-8c3f-x5f9-6h62
+    reference_id: GHSA-8c3f-x5f9-6h62
+weaknesses: []

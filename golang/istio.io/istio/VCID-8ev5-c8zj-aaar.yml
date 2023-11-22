@@ -1,0 +1,64 @@
+vulnerability_id: VCID-8ev5-c8zj-aaar
+aliases:
+  - CVE-2021-43824
+summary: 'CVE-2021-43824 envoy: Null pointer dereference when using JWT filter safe_regex match'
+severities:
+  - id: 176927
+    reference_id: 556761
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 176926
+    reference_id: 556760
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 567981
+    reference_id: 903282
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:N/A:P
+  - id: 567979
+    reference_id: 903282
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 159098
+    reference_id: 506887
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 159097
+    reference_id: 506886
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 556761
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-43824.json
+    reference_id:
+  - id: 903280
+    url: https://github.com/envoyproxy/envoy/commit/9371333230b1a6e1be2eccf4868771e11af6253a
+    reference_id:
+  - id: 903281
+    url: https://github.com/envoyproxy/envoy/security/advisories/GHSA-vj5m-rch8-5r2p
+    reference_id:
+  - id: 556760
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=2050744
+    reference_id: 2050744
+  - id: 780349
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:envoyproxy:envoy:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:envoyproxy:envoy:*:*:*:*:*:*:*:*
+  - id: 903282
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-43824
+    reference_id: CVE-2021-43824
+  - id: 1470885
+    url: https://istio.io/latest/news/security/ISTIO-SECURITY-2022-003/
+    reference_id: ISTIO-SECURITY-2022-003
+  - id: 506887
+    url: https://access.redhat.com/errata/RHSA-2022:1275
+    reference_id: RHSA-2022:1275
+  - id: 506886
+    url: https://access.redhat.com/errata/RHSA-2022:1276
+    reference_id: RHSA-2022:1276
+weaknesses: []

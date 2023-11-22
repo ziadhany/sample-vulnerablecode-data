@@ -1,0 +1,35 @@
+vulnerability_id: VCID-xjrg-vh85-aaae
+aliases:
+  - CVE-2021-46037
+  - GHSA-73wx-rpj3-mx46
+summary: Path traversal in MCMS
+severities:
+  - id: 573120
+    reference_id: 1130
+    scoring_system: cvssv2
+    value: '5.5'
+    scoring_elements: AV:N/AC:L/Au:S/C:N/I:P/A:P
+  - id: 573118
+    reference_id: 1130
+    scoring_system: cvssv3
+    value: '8.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H
+  - id: 139
+    reference_id: 1132
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 1131
+    url: https://lycshub.github.io/2021/12/28/MCMS-vulnerabilities/
+    reference_id:
+  - id: 907011
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:mingsoft:mcms:5.2.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:mingsoft:mcms:5.2.4:*:*:*:*:*:*:*
+  - id: 1130
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-46037
+    reference_id: CVE-2021-46037
+  - id: 1132
+    url: https://github.com/advisories/GHSA-73wx-rpj3-mx46
+    reference_id: GHSA-73wx-rpj3-mx46
+weaknesses: []

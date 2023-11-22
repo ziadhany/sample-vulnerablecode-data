@@ -1,0 +1,9 @@
+vulnerability_id: VCID-8hcp-xnrj-aaag
+aliases:
+  - GMS-2017-164
+summary: |
+  Hijacked Environment Variables
+  `nodemssql` was a malicious module published with the intent to hijack environment variables. It has been unpublished by npm.
+severities: []
+references: []
+weaknesses: []

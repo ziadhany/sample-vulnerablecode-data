@@ -1,0 +1,43 @@
+vulnerability_id: VCID-a26s-4esf-aaah
+aliases:
+  - CVE-2021-32660
+  - GHSA-pwhf-39xg-4rxw
+summary: |
+  Unrestricted Upload of File with Dangerous Type
+  Backstage is an open platform for building developer portals, and techdocs-common contains common functionalities for Backstage's TechDocs. In versions of `@backstage/tehdocs-common` prior to 0.6.4, a malicious internal actor is able to upload documentation content with malicious scripts. These scripts would normally be sanitized by the TechDocs frontend, but by tricking a user to visit the content via the TechDocs API, the content sanitazion will be bypassed. If the TechDocs API is hosted on the same origin as the Backstage app or other backend plugins, this may give access to sensitive data. The ability to upload malicious content may be limited by internal code review processes, unless the chosen TechDocs deployment method is to use an object store and the actor has access to upload files directly to that store. The vulnerability is patched in the `0.6.4` release of `@backstage/techdocs-common`.
+severities:
+  - id: 540417
+    reference_id: 37455
+    scoring_system: cvssv2
+    value: '5.8'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:P/A:N
+  - id: 540415
+    reference_id: 37455
+    scoring_system: cvssv3
+    value: '8.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+  - id: 706739
+    reference_id: 37456
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 37441
+    url: https://github.com/backstage/backstage/commit/aad98c544e59369901fe9e0a85f6357644dceb5c
+    reference_id:
+  - id: 37442
+    url: https://github.com/backstage/backstage/releases/tag/release-2021-06-03
+    reference_id:
+  - id: 884585
+    url: https://github.com/backstage/backstage/security/advisories/GHSA-pwhf-39xg-4rxw
+    reference_id:
+  - id: 884586
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:linuxfoundation:\@backstage\/techdocs-common:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:linuxfoundation:\@backstage\/techdocs-common:*:*:*:*:*:node.js:*:*
+  - id: 37455
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-32660
+    reference_id: CVE-2021-32660
+  - id: 37456
+    url: https://github.com/advisories/GHSA-pwhf-39xg-4rxw
+    reference_id: GHSA-pwhf-39xg-4rxw
+weaknesses: []

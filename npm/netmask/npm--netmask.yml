@@ -1,0 +1,46 @@
+package: pkg:npm/netmask
+versions:
+  - purl: pkg:npm/netmask@0.0.0
+    affected_by_vulnerabilities:
+      - VCID-pkmw-w2pe-aaac
+      - VCID-raby-gez8-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/netmask@0.0.1
+    affected_by_vulnerabilities:
+      - VCID-pkmw-w2pe-aaac
+      - VCID-raby-gez8-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/netmask@0.0.2
+    affected_by_vulnerabilities:
+      - VCID-pkmw-w2pe-aaac
+      - VCID-raby-gez8-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/netmask@1.0.3
+    affected_by_vulnerabilities:
+      - VCID-pkmw-w2pe-aaac
+      - VCID-raby-gez8-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/netmask@1.0.4
+    affected_by_vulnerabilities:
+      - VCID-pkmw-w2pe-aaac
+      - VCID-raby-gez8-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/netmask@1.0.5
+    affected_by_vulnerabilities:
+      - VCID-pkmw-w2pe-aaac
+      - VCID-raby-gez8-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/netmask@1.0.6
+    affected_by_vulnerabilities:
+      - VCID-pkmw-w2pe-aaac
+      - VCID-raby-gez8-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/netmask@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-pkmw-w2pe-aaac
+    fixing_vulnerabilities:
+      - VCID-raby-gez8-aaan
+  - purl: pkg:npm/netmask@2.0.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-pkmw-w2pe-aaac

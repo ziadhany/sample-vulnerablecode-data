@@ -1,0 +1,38 @@
+vulnerability_id: VCID-6f2h-b6xh-aaam
+aliases:
+  - CVE-2014-3531
+summary: 'CVE-2014-3531 foreman: XSS with operating system name/description'
+severities:
+  - id: 180537
+    reference_id: 567172
+    scoring_system: cvssv2
+    value: '3.5'
+    scoring_elements: AV:N/AC:M/Au:S/C:N/I:P/A:N
+  - id: 180535
+    reference_id: 567172
+    scoring_system: cvssv3
+    value: '5.4'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N
+references:
+  - id: 567168
+    url: http://projects.theforeman.org/issues/6580
+    reference_id:
+  - id: 185689
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2014-3531.json
+    reference_id:
+  - id: 567169
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1108745
+    reference_id:
+  - id: 567170
+    url: https://github.com/theforeman/foreman/pull/1580
+    reference_id:
+  - id: 567171
+    url: https://theforeman.org/security.html#2014-3531
+    reference_id:
+  - id: 158226
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:foreman:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:foreman:*:*:*:*:*:*:*:*
+  - id: 567172
+    url: https://nvd.nist.gov/vuln/detail/CVE-2014-3531
+    reference_id: CVE-2014-3531
+weaknesses: []

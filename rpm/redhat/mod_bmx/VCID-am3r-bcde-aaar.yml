@@ -1,0 +1,74 @@
+vulnerability_id: VCID-am3r-bcde-aaar
+aliases:
+  - CVE-2015-0298
+summary: 'CVE-2015-0298 mod_cluster: JavaScript code injection is possible via MCMP mod_manager
+  messages'
+severities:
+  - id: '193136'
+    reference_id: 594397
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+  - id: 55599
+    reference_id: 180914
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 55598
+    reference_id: 180913
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 55597
+    reference_id: 180912
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 55596
+    reference_id: 180911
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 55595
+    reference_id: 180909
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 585851
+    url: http://rhn.redhat.com/errata/RHSA-2015-1641.html
+    reference_id:
+  - id: 585852
+    url: http://rhn.redhat.com/errata/RHSA-2015-1642.html
+    reference_id:
+  - id: 180915
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2015-0298.json
+    reference_id:
+  - id: 594396
+    url: https://issues.jboss.org/browse/MODCLUSTER-453
+    reference_id:
+  - id: 594398
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:mod_cluster:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:mod_cluster:*:*:*:*:*:*:*:*
+  - id: 594397
+    url: https://nvd.nist.gov/vuln/detail/CVE-2015-0298
+    reference_id: CVE-2015-0298
+  - id: 180910
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1197769
+    reference_id: RHEA-2015:0945
+  - id: 180914
+    url: https://access.redhat.com/errata/RHSA-2015:0846
+    reference_id: RHSA-2015:0846
+  - id: 180913
+    url: https://access.redhat.com/errata/RHSA-2015:0847
+    reference_id: RHSA-2015:0847
+  - id: 180912
+    url: https://access.redhat.com/errata/RHSA-2015:0848
+    reference_id: RHSA-2015:0848
+  - id: 180911
+    url: https://access.redhat.com/errata/RHSA-2015:1641
+    reference_id: RHSA-2015:1641
+  - id: 180909
+    url: https://access.redhat.com/errata/RHSA-2015:1642
+    reference_id: RHSA-2015:1642
+weaknesses: []

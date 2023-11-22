@@ -1,0 +1,261 @@
+package: pkg:npm/nodewebkit
+versions:
+  - purl: pkg:npm/nodewebkit@0.0.0
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.10.0
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.10.0-rc1
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.10.0-rc1-1
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.10.0-rc1-2
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.10.0-rc1-3
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.10.1
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.10.1-1
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.10.2
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.10.3
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.10.4
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.10.5
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.11.0
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.11.1
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.11.2
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.11.2-1
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.11.3
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.11.4
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.11.5
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.11.6
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.7.3
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.7.4
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.7.5
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.7.5-1
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.7.5-2
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.7.5-3
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.8.0
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.8.1
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.8.2
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.8.2-1
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.8.4
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.8.4-1
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.8.4-2
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.8.5
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.8.5-1
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.8.5-2
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.8.5-3
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.8.5-4
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.8.5-5
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.8.6
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.8.6-1
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.8.6-2
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.8.6-3
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.9.2
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.9.2-1
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.9.2-2
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.9.2-3
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.9.2-4
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.9.2-5
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.9.2-6
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.9.2-7
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodewebkit@0.9.2-8
+    affected_by_vulnerabilities:
+      - VCID-jek4-hhp2-aaag
+      - VCID-mupq-tte9-aaae
+    fixing_vulnerabilities: []

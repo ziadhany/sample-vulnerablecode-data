@@ -1,0 +1,38 @@
+vulnerability_id: VCID-cj1g-pvf8-aaaa
+aliases:
+  - CVE-2022-27340
+  - GHSA-g94p-h263-c26q
+summary: Cross Site Request Forgery in Mingsoft MCMS
+severities:
+  - id: 594970
+    reference_id: 9287
+    scoring_system: cvssv2
+    value: '6.8'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:P/A:P
+  - id: 594968
+    reference_id: 9287
+    scoring_system: cvssv3
+    value: '8.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+  - id: 752
+    reference_id: 9290
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 9289
+    url: https://github.com/ming-soft/MCMS
+    reference_id:
+  - id: 9288
+    url: https://github.com/UDKI11/vul/blob/main/Mcms%E8%B7%A8%E7%AB%99%E8%AF%B7%E6%B1%82%E4%BC%AA%E9%80%A0.docx
+    reference_id:
+  - id: 906964
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:mingsoft:mcms:5.2.7:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:mingsoft:mcms:5.2.7:*:*:*:*:*:*:*
+  - id: 9287
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-27340
+    reference_id: CVE-2022-27340
+  - id: 9290
+    url: https://github.com/advisories/GHSA-g94p-h263-c26q
+    reference_id: GHSA-g94p-h263-c26q
+weaknesses: []

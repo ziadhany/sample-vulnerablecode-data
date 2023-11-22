@@ -1,0 +1,207 @@
+package: pkg:nuget/PeterO.Cbor
+versions:
+  - purl: pkg:nuget/PeterO.Cbor@0.21.0
+    affected_by_vulnerabilities:
+      - VCID-jsnx-su1f-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@0.22.0
+    affected_by_vulnerabilities:
+      - VCID-jsnx-su1f-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@0.23.0
+    affected_by_vulnerabilities:
+      - VCID-jsnx-su1f-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-jsnx-su1f-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@1.1.0
+    affected_by_vulnerabilities:
+      - VCID-jsnx-su1f-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@1.2.0
+    affected_by_vulnerabilities:
+      - VCID-jsnx-su1f-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@1.3.0
+    affected_by_vulnerabilities:
+      - VCID-jsnx-su1f-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-jsnx-su1f-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@2.1.0
+    affected_by_vulnerabilities:
+      - VCID-jsnx-su1f-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@2.2.0
+    affected_by_vulnerabilities:
+      - VCID-jsnx-su1f-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@2.3.0
+    affected_by_vulnerabilities:
+      - VCID-jsnx-su1f-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@2.3.1
+    affected_by_vulnerabilities:
+      - VCID-jsnx-su1f-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@2.4.0
+    affected_by_vulnerabilities:
+      - VCID-jsnx-su1f-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@2.4.1
+    affected_by_vulnerabilities:
+      - VCID-jsnx-su1f-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@2.4.2
+    affected_by_vulnerabilities:
+      - VCID-jsnx-su1f-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@2.5.0
+    affected_by_vulnerabilities:
+      - VCID-jsnx-su1f-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@2.5.1
+    affected_by_vulnerabilities:
+      - VCID-jsnx-su1f-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@2.5.2
+    affected_by_vulnerabilities:
+      - VCID-jsnx-su1f-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@3.0.0
+    affected_by_vulnerabilities:
+      - VCID-jsnx-su1f-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@3.0.1
+    affected_by_vulnerabilities:
+      - VCID-jsnx-su1f-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@3.0.2
+    affected_by_vulnerabilities:
+      - VCID-jsnx-su1f-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@3.0.3
+    affected_by_vulnerabilities:
+      - VCID-jsnx-su1f-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@3.1.0
+    affected_by_vulnerabilities:
+      - VCID-jsnx-su1f-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@3.2.0
+    affected_by_vulnerabilities:
+      - VCID-jsnx-su1f-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@3.2.1
+    affected_by_vulnerabilities:
+      - VCID-jsnx-su1f-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@3.3.0
+    affected_by_vulnerabilities:
+      - VCID-jsnx-su1f-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@3.4.0
+    affected_by_vulnerabilities:
+      - VCID-jsnx-su1f-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@3.4.0-alpha1
+    affected_by_vulnerabilities:
+      - VCID-jsnx-su1f-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@3.4.0-beta1
+    affected_by_vulnerabilities:
+      - VCID-jsnx-su1f-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@3.5.0
+    affected_by_vulnerabilities:
+      - VCID-jsnx-su1f-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@3.5.1
+    affected_by_vulnerabilities:
+      - VCID-jsnx-su1f-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@3.5.2
+    affected_by_vulnerabilities:
+      - VCID-jsnx-su1f-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@3.6.0
+    affected_by_vulnerabilities:
+      - VCID-jsnx-su1f-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@4.0.0
+    affected_by_vulnerabilities:
+      - VCID-8u9t-q4g2-aaae
+    fixing_vulnerabilities:
+      - VCID-jsnx-su1f-aaan
+  - purl: pkg:nuget/PeterO.Cbor@4.0.0-alpha1
+    affected_by_vulnerabilities:
+      - VCID-jsnx-su1f-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@4.0.0-alpha2
+    affected_by_vulnerabilities:
+      - VCID-jsnx-su1f-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@4.0.0-beta1
+    affected_by_vulnerabilities:
+      - VCID-jsnx-su1f-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@4.0.0-beta2
+    affected_by_vulnerabilities:
+      - VCID-jsnx-su1f-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@4.0.1
+    affected_by_vulnerabilities:
+      - VCID-8u9t-q4g2-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@4.1.0
+    affected_by_vulnerabilities:
+      - VCID-8u9t-q4g2-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@4.1.1
+    affected_by_vulnerabilities:
+      - VCID-8u9t-q4g2-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@4.1.2
+    affected_by_vulnerabilities:
+      - VCID-8u9t-q4g2-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@4.1.3
+    affected_by_vulnerabilities:
+      - VCID-8u9t-q4g2-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@4.2.0
+    affected_by_vulnerabilities:
+      - VCID-8u9t-q4g2-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@4.3.0
+    affected_by_vulnerabilities:
+      - VCID-8u9t-q4g2-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@4.4.0
+    affected_by_vulnerabilities:
+      - VCID-8u9t-q4g2-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@4.4.1
+    affected_by_vulnerabilities:
+      - VCID-8u9t-q4g2-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@4.4.2
+    affected_by_vulnerabilities:
+      - VCID-8u9t-q4g2-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@4.4.4
+    affected_by_vulnerabilities:
+      - VCID-8u9t-q4g2-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@4.5.0
+    affected_by_vulnerabilities:
+      - VCID-8u9t-q4g2-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/PeterO.Cbor@4.5.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-8u9t-q4g2-aaae

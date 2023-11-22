@@ -1,0 +1,219 @@
+package: pkg:nuget/powershell
+versions:
+  - purl: pkg:nuget/powershell@7.0
+    affected_by_vulnerabilities:
+      - VCID-75cy-7mx4-aaae
+      - VCID-9nw8-71z9-aaab
+      - VCID-p8r7-5y9v-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/powershell@7.0.0
+    affected_by_vulnerabilities:
+      - VCID-1gzq-upmj-aaaa
+      - VCID-75cy-7mx4-aaae
+      - VCID-9nw8-71z9-aaab
+      - VCID-p8r7-5y9v-aaae
+      - VCID-xydq-jftc-aaak
+      - VCID-yphv-5btv-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/powershell@7.0.1
+    affected_by_vulnerabilities:
+      - VCID-1gzq-upmj-aaaa
+      - VCID-75cy-7mx4-aaae
+      - VCID-p8r7-5y9v-aaae
+      - VCID-xydq-jftc-aaak
+      - VCID-yphv-5btv-aaam
+    fixing_vulnerabilities:
+      - VCID-9nw8-71z9-aaab
+  - purl: pkg:nuget/powershell@7.0.10
+    affected_by_vulnerabilities:
+      - VCID-1gzq-upmj-aaaa
+      - VCID-xydq-jftc-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/powershell@7.0.11
+    affected_by_vulnerabilities:
+      - VCID-1gzq-upmj-aaaa
+    fixing_vulnerabilities:
+      - VCID-xydq-jftc-aaak
+  - purl: pkg:nuget/powershell@7.0.2
+    affected_by_vulnerabilities:
+      - VCID-1gzq-upmj-aaaa
+      - VCID-75cy-7mx4-aaae
+      - VCID-p8r7-5y9v-aaae
+      - VCID-xydq-jftc-aaak
+      - VCID-yphv-5btv-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/powershell@7.0.3
+    affected_by_vulnerabilities:
+      - VCID-1gzq-upmj-aaaa
+      - VCID-75cy-7mx4-aaae
+      - VCID-p8r7-5y9v-aaae
+      - VCID-xydq-jftc-aaak
+      - VCID-yphv-5btv-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/powershell@7.0.4
+    affected_by_vulnerabilities:
+      - VCID-1gzq-upmj-aaaa
+      - VCID-75cy-7mx4-aaae
+      - VCID-p8r7-5y9v-aaae
+      - VCID-xydq-jftc-aaak
+      - VCID-yphv-5btv-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/powershell@7.0.5
+    affected_by_vulnerabilities:
+      - VCID-1gzq-upmj-aaaa
+      - VCID-75cy-7mx4-aaae
+      - VCID-p8r7-5y9v-aaae
+      - VCID-xydq-jftc-aaak
+      - VCID-yphv-5btv-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/powershell@7.0.6
+    affected_by_vulnerabilities:
+      - VCID-1gzq-upmj-aaaa
+      - VCID-75cy-7mx4-aaae
+      - VCID-p8r7-5y9v-aaae
+      - VCID-xydq-jftc-aaak
+      - VCID-yphv-5btv-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/powershell@7.0.7
+    affected_by_vulnerabilities:
+      - VCID-1gzq-upmj-aaaa
+      - VCID-75cy-7mx4-aaae
+      - VCID-p8r7-5y9v-aaae
+      - VCID-xydq-jftc-aaak
+      - VCID-yphv-5btv-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/powershell@7.0.8
+    affected_by_vulnerabilities:
+      - VCID-1gzq-upmj-aaaa
+      - VCID-75cy-7mx4-aaae
+      - VCID-p8r7-5y9v-aaae
+      - VCID-xydq-jftc-aaak
+      - VCID-yphv-5btv-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/powershell@7.0.9
+    affected_by_vulnerabilities:
+      - VCID-1gzq-upmj-aaaa
+      - VCID-xydq-jftc-aaak
+      - VCID-yphv-5btv-aaam
+    fixing_vulnerabilities:
+      - VCID-75cy-7mx4-aaae
+  - purl: pkg:nuget/powershell@7.1
+    affected_by_vulnerabilities:
+      - VCID-75cy-7mx4-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/powershell@7.1.0
+    affected_by_vulnerabilities:
+      - VCID-75cy-7mx4-aaae
+      - VCID-p8r7-5y9v-aaae
+      - VCID-yphv-5btv-aaam
+    fixing_vulnerabilities:
+      - VCID-1gzq-upmj-aaaa
+      - VCID-9nw8-71z9-aaab
+      - VCID-xydq-jftc-aaak
+  - purl: pkg:nuget/powershell@7.1.1
+    affected_by_vulnerabilities:
+      - VCID-75cy-7mx4-aaae
+      - VCID-p8r7-5y9v-aaae
+      - VCID-yphv-5btv-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/powershell@7.1.2
+    affected_by_vulnerabilities:
+      - VCID-75cy-7mx4-aaae
+      - VCID-p8r7-5y9v-aaae
+      - VCID-yphv-5btv-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/powershell@7.1.3
+    affected_by_vulnerabilities:
+      - VCID-75cy-7mx4-aaae
+      - VCID-p8r7-5y9v-aaae
+      - VCID-yphv-5btv-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/powershell@7.1.4
+    affected_by_vulnerabilities:
+      - VCID-75cy-7mx4-aaae
+      - VCID-p8r7-5y9v-aaae
+      - VCID-yphv-5btv-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/powershell@7.1.5
+    affected_by_vulnerabilities:
+      - VCID-75cy-7mx4-aaae
+      - VCID-p8r7-5y9v-aaae
+      - VCID-yphv-5btv-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/powershell@7.1.6
+    affected_by_vulnerabilities:
+      - VCID-yphv-5btv-aaam
+    fixing_vulnerabilities:
+      - VCID-75cy-7mx4-aaae
+  - purl: pkg:nuget/powershell@7.2
+    affected_by_vulnerabilities:
+      - VCID-75cy-7mx4-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/powershell@7.2.0
+    affected_by_vulnerabilities:
+      - VCID-1gzq-upmj-aaaa
+      - VCID-75cy-7mx4-aaae
+      - VCID-c7kh-duun-aaag
+      - VCID-jzx2-58p2-aaaq
+      - VCID-p8r7-5y9v-aaae
+      - VCID-xydq-jftc-aaak
+      - VCID-yphv-5btv-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/powershell@7.2.1
+    affected_by_vulnerabilities:
+      - VCID-1gzq-upmj-aaaa
+      - VCID-75cy-7mx4-aaae
+      - VCID-c7kh-duun-aaag
+      - VCID-jzx2-58p2-aaaq
+      - VCID-xydq-jftc-aaak
+      - VCID-yphv-5btv-aaam
+    fixing_vulnerabilities:
+      - VCID-p8r7-5y9v-aaae
+  - purl: pkg:nuget/powershell@7.2.2
+    affected_by_vulnerabilities:
+      - VCID-1gzq-upmj-aaaa
+      - VCID-c7kh-duun-aaag
+      - VCID-jzx2-58p2-aaaq
+      - VCID-xydq-jftc-aaak
+      - VCID-yphv-5btv-aaam
+    fixing_vulnerabilities:
+      - VCID-75cy-7mx4-aaae
+  - purl: pkg:nuget/powershell@7.2.3
+    affected_by_vulnerabilities:
+      - VCID-1gzq-upmj-aaaa
+      - VCID-c7kh-duun-aaag
+      - VCID-jzx2-58p2-aaaq
+      - VCID-xydq-jftc-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/powershell@7.2.4
+    affected_by_vulnerabilities:
+      - VCID-1gzq-upmj-aaaa
+      - VCID-c7kh-duun-aaag
+      - VCID-jzx2-58p2-aaaq
+    fixing_vulnerabilities:
+      - VCID-xydq-jftc-aaak
+  - purl: pkg:nuget/powershell@7.2.5
+    affected_by_vulnerabilities:
+      - VCID-1gzq-upmj-aaaa
+      - VCID-c7kh-duun-aaag
+      - VCID-jzx2-58p2-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/powershell@7.2.6
+    affected_by_vulnerabilities:
+      - VCID-c7kh-duun-aaag
+      - VCID-jzx2-58p2-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/powershell@7.2.7
+    affected_by_vulnerabilities:
+      - VCID-c7kh-duun-aaag
+      - VCID-jzx2-58p2-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/powershell@7.2.8
+    affected_by_vulnerabilities:
+      - VCID-c7kh-duun-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/powershell@7.3.0
+    affected_by_vulnerabilities:
+      - VCID-jzx2-58p2-aaaq
+    fixing_vulnerabilities:
+      - VCID-c7kh-duun-aaag

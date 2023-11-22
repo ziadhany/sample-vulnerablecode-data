@@ -1,0 +1,80 @@
+vulnerability_id: VCID-ksng-jvwm-aaar
+aliases:
+  - CVE-2020-10776
+  - GHSA-484q-784p-8m5h
+summary: Cross-site Scripting in keycloak
+severities:
+  - id: 608713
+    reference_id: 930411
+    scoring_system: cvssv3
+    value: '4.0'
+    scoring_elements: CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:C/C:L/I:L/A:N
+  - id: 608709
+    reference_id: 930407
+    scoring_system: rhbs
+    value: low
+    scoring_elements:
+  - id: 430711
+    reference_id: 1267
+    scoring_system: cvssv2
+    value: '3.5'
+    scoring_elements: AV:N/AC:M/Au:S/C:N/I:P/A:N
+  - id: 430709
+    reference_id: 1267
+    scoring_system: cvssv3
+    value: '4.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N
+  - id: 175
+    reference_id: 1269
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 608711
+    reference_id: 930409
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 608710
+    reference_id: 930408
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 52695
+    reference_id: 177596
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 608712
+    reference_id: 930410
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 930411
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2020-10776.json
+    reference_id:
+  - id: 930407
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1847428
+    reference_id: 1847428
+  - id: 568146
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:keycloak:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:keycloak:*:*:*:*:*:*:*:*
+  - id: 1267
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-10776
+    reference_id: CVE-2020-10776
+  - id: 1269
+    url: https://github.com/advisories/GHSA-484q-784p-8m5h
+    reference_id: GHSA-484q-784p-8m5h
+  - id: 930409
+    url: https://access.redhat.com/errata/RHSA-2020:4929
+    reference_id: RHSA-2020:4929
+  - id: 930408
+    url: https://access.redhat.com/errata/RHSA-2020:4930
+    reference_id: RHSA-2020:4930
+  - id: 177596
+    url: https://access.redhat.com/errata/RHSA-2020:4931
+    reference_id: RHSA-2020:4931
+  - id: 930410
+    url: https://access.redhat.com/errata/RHSA-2020:4932
+    reference_id: RHSA-2020:4932
+weaknesses: []

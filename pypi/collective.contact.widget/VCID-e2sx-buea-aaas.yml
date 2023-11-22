@@ -1,0 +1,25 @@
+vulnerability_id: VCID-e2sx-buea-aaas
+aliases:
+  - CVE-2022-4638
+  - GHSA-5pqf-rvm7-3wgw
+summary: 'collective.contact.widget is vulnerable to cross-site scripting '
+severities:
+  - id: 704470
+    reference_id: 1466191
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 1466189
+    url: https://github.com/collective/collective.contact.widget/commit/5da36305ca7ed433782be8901c47387406fcda12
+    reference_id:
+  - id: 1466190
+    url: https://vuldb.com/?id.216496
+    reference_id:
+  - id: 1466188
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-4638
+    reference_id: CVE-2022-4638
+  - id: 1466191
+    url: https://github.com/advisories/GHSA-5pqf-rvm7-3wgw
+    reference_id: GHSA-5pqf-rvm7-3wgw
+weaknesses: []

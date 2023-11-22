@@ -1,0 +1,6 @@
+package: pkg:npm/s3asy
+versions:
+  - purl: pkg:npm/s3asy@0.4.8
+    affected_by_vulnerabilities:
+      - VCID-hgh4-nwrp-aaaf
+    fixing_vulnerabilities: []

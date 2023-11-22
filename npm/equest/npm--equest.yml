@@ -1,0 +1,10 @@
+package: pkg:npm/equest
+versions:
+  - purl: pkg:npm/equest@0.0.0
+    affected_by_vulnerabilities:
+      - VCID-ga4k-yrue-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/equest@0.0.1-security
+    affected_by_vulnerabilities:
+      - VCID-ga4k-yrue-aaag
+    fixing_vulnerabilities: []

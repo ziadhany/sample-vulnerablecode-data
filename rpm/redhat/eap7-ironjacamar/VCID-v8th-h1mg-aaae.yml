@@ -1,0 +1,152 @@
+vulnerability_id: VCID-v8th-h1mg-aaae
+aliases:
+  - CVE-2021-3536
+  - GHSA-v2wx-jj66-2hp7
+summary: Cross-site Scripting in Wildfly
+severities:
+  - id: 603923
+    reference_id: 926890
+    scoring_system: cvssv3
+    value: '3.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:L/I:L/A:N
+  - id: 603916
+    reference_id: 926883
+    scoring_system: rhbs
+    value: low
+    scoring_elements:
+  - id: 546776
+    reference_id: 11403
+    scoring_system: cvssv2
+    value: '3.5'
+    scoring_elements: AV:N/AC:M/Au:S/C:N/I:P/A:N
+  - id: 546774
+    reference_id: 11403
+    scoring_system: cvssv3
+    value: '4.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N
+  - id: 1125
+    reference_id: 11405
+    scoring_system: cvssv3.1_qr
+    value: LOW
+    scoring_elements:
+  - id: 603921
+    reference_id: 926888
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 603920
+    reference_id: 926887
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 603919
+    reference_id: 926886
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 603922
+    reference_id: 926889
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 603918
+    reference_id: 926885
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 603917
+    reference_id: 926884
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 603311
+    reference_id: 926429
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 603307
+    reference_id: 926425
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 603309
+    reference_id: 926427
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 50840
+    reference_id: 175434
+    scoring_system: rhas
+    value: Critical
+    scoring_elements:
+references:
+  - id: 926890
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-3536.json
+    reference_id:
+  - id: 926883
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1948001
+    reference_id: '1948001'
+  - id: 861279
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:build_of_quarkus:-:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:build_of_quarkus:-:*:*:*:*:*:*:*
+  - id: 812394
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:data_grid:8.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:data_grid:8.0:*:*:*:*:*:*:*
+  - id: 779339
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:descision_manager:7.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:descision_manager:7.0:*:*:*:*:*:*:*
+  - id: 820684
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:integration_camel_k:-:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:integration_camel_k:-:*:*:*:*:*:*:*
+  - id: 889120
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:integration_camel_quarkus:-:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:integration_camel_quarkus:-:*:*:*:*:*:*:*
+  - id: 889121
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:integration_service_registry:-:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:integration_service_registry:-:*:*:*:*:*:*:*
+  - id: 157764
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_a-mq:7:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_a-mq:7:*:*:*:*:*:*:*
+  - id: 652244
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:7.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:7.0:*:*:*:*:*:*:*
+  - id: 734792
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:wildfly:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:wildfly:*:*:*:*:*:*:*:*
+  - id: 11403
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-3536
+    reference_id: CVE-2021-3536
+  - id: 11405
+    url: https://github.com/advisories/GHSA-v2wx-jj66-2hp7
+    reference_id: GHSA-v2wx-jj66-2hp7
+  - id: 926888
+    url: https://access.redhat.com/errata/RHSA-2021:2692
+    reference_id: RHSA-2021:2692
+  - id: 926887
+    url: https://access.redhat.com/errata/RHSA-2021:2693
+    reference_id: RHSA-2021:2693
+  - id: 926886
+    url: https://access.redhat.com/errata/RHSA-2021:2694
+    reference_id: RHSA-2021:2694
+  - id: 926889
+    url: https://access.redhat.com/errata/RHSA-2021:2696
+    reference_id: RHSA-2021:2696
+  - id: 926885
+    url: https://access.redhat.com/errata/RHSA-2021:2755
+    reference_id: RHSA-2021:2755
+  - id: 926884
+    url: https://access.redhat.com/errata/RHSA-2021:2965
+    reference_id: RHSA-2021:2965
+  - id: 926429
+    url: https://access.redhat.com/errata/RHSA-2021:3656
+    reference_id: RHSA-2021:3656
+  - id: 926425
+    url: https://access.redhat.com/errata/RHSA-2021:3658
+    reference_id: RHSA-2021:3658
+  - id: 926427
+    url: https://access.redhat.com/errata/RHSA-2021:3660
+    reference_id: RHSA-2021:3660
+  - id: 175434
+    url: https://access.redhat.com/errata/RHSA-2021:5134
+    reference_id: RHSA-2021:5134
+weaknesses: []

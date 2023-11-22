@@ -1,0 +1,124 @@
+package: pkg:pypi/aiohttp-session
+versions:
+  - purl: pkg:pypi/aiohttp-session@0.0.1
+    affected_by_vulnerabilities:
+      - VCID-brkw-rfbc-aaaa
+      - VCID-d66a-wfdn-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aiohttp-session@0.1.0
+    affected_by_vulnerabilities:
+      - VCID-brkw-rfbc-aaaa
+      - VCID-d66a-wfdn-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aiohttp-session@0.1.1
+    affected_by_vulnerabilities:
+      - VCID-brkw-rfbc-aaaa
+      - VCID-d66a-wfdn-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aiohttp-session@0.1.2
+    affected_by_vulnerabilities:
+      - VCID-brkw-rfbc-aaaa
+      - VCID-d66a-wfdn-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aiohttp-session@0.2.0
+    affected_by_vulnerabilities:
+      - VCID-brkw-rfbc-aaaa
+      - VCID-d66a-wfdn-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aiohttp-session@0.3.0
+    affected_by_vulnerabilities:
+      - VCID-brkw-rfbc-aaaa
+      - VCID-d66a-wfdn-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aiohttp-session@0.4.0
+    affected_by_vulnerabilities:
+      - VCID-brkw-rfbc-aaaa
+      - VCID-d66a-wfdn-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aiohttp-session@0.5.0
+    affected_by_vulnerabilities:
+      - VCID-brkw-rfbc-aaaa
+      - VCID-d66a-wfdn-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aiohttp-session@0.7.0
+    affected_by_vulnerabilities:
+      - VCID-brkw-rfbc-aaaa
+      - VCID-d66a-wfdn-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aiohttp-session@0.7.1
+    affected_by_vulnerabilities:
+      - VCID-brkw-rfbc-aaaa
+      - VCID-d66a-wfdn-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aiohttp-session@0.8.0
+    affected_by_vulnerabilities:
+      - VCID-brkw-rfbc-aaaa
+      - VCID-d66a-wfdn-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aiohttp-session@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-brkw-rfbc-aaaa
+      - VCID-d66a-wfdn-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aiohttp-session@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-brkw-rfbc-aaaa
+      - VCID-d66a-wfdn-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aiohttp-session@1.1.0
+    affected_by_vulnerabilities:
+      - VCID-brkw-rfbc-aaaa
+      - VCID-d66a-wfdn-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aiohttp-session@1.2.0
+    affected_by_vulnerabilities:
+      - VCID-brkw-rfbc-aaaa
+      - VCID-d66a-wfdn-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aiohttp-session@1.2.1
+    affected_by_vulnerabilities:
+      - VCID-brkw-rfbc-aaaa
+      - VCID-d66a-wfdn-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aiohttp-session@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-brkw-rfbc-aaaa
+      - VCID-d66a-wfdn-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aiohttp-session@2.0.1
+    affected_by_vulnerabilities:
+      - VCID-brkw-rfbc-aaaa
+      - VCID-d66a-wfdn-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aiohttp-session@2.1.0
+    affected_by_vulnerabilities:
+      - VCID-brkw-rfbc-aaaa
+      - VCID-d66a-wfdn-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aiohttp-session@2.2.0
+    affected_by_vulnerabilities:
+      - VCID-brkw-rfbc-aaaa
+      - VCID-d66a-wfdn-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aiohttp-session@2.3.0
+    affected_by_vulnerabilities:
+      - VCID-brkw-rfbc-aaaa
+      - VCID-d66a-wfdn-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aiohttp-session@2.4.0
+    affected_by_vulnerabilities:
+      - VCID-brkw-rfbc-aaaa
+    fixing_vulnerabilities:
+      - VCID-d66a-wfdn-aaak
+  - purl: pkg:pypi/aiohttp-session@2.5.1
+    affected_by_vulnerabilities:
+      - VCID-brkw-rfbc-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aiohttp-session@2.6.0
+    affected_by_vulnerabilities:
+      - VCID-brkw-rfbc-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aiohttp-session@2.7.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-brkw-rfbc-aaaa

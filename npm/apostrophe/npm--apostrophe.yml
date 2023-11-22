@@ -1,0 +1,4714 @@
+package: pkg:npm/apostrophe
+versions:
+  - purl: pkg:npm/apostrophe@0.3.10
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.3.11
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.3.12
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.3.13
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.3.14
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.3.16
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.3.18
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.3.19
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.3.3
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.3.4
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.3.5
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.3.6
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.3.7
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.3.8
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.3.9
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.10
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.100
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.101
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.102
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.103
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.104
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.105
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.106
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.107
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.108
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.109
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.11
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.110
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.111
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.112
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.113
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.114
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.115
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.116
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.117
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.118
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.119
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.12
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.120
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.121
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.122
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.123
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.124
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.125
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.126
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.127
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.128
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.129
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.13
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.130
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.131
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.132
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.133
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.134
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.135
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.136
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.137
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.138
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.139
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.14
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.140
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.142
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.143
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.144
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.145
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.146
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.147
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.148
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.149
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.15
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.152
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.154
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.155
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.156
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.157
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.158
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.159
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.16
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.160
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.161
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.162
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.163
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.164
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.165
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.166
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.167
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.168
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.169
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.17
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.170
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.171
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.172
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.173
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.174
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.175
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.176
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.177
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.179
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.18
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.180
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.181
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.182
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.183
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.184
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.185
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.186
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.187
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.188
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.189
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.19
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.190
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.191
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.192
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.194
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.195
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.196
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.197
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.198
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.199
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.2
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.20
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.200
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.201
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.202
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.203
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.204
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.205
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.206
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.207
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.208
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.209
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.21
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.210
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.211
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.212
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.213
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.214
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.215
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.216
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.217
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.218
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.219
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.22
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.220
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.221
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.222
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.223
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.224
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.225
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.227
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.228
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.229
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.23
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.230
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.231
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.232
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.233
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.234
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.235
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.236
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.237
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.238
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.239
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.24
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.240
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.241
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.25
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.26
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.27
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.28
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.29
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.3
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.30
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.31
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.32
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.33
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.34
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.35
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.36
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.37
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.38
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.39
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.4
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.40
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.41
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.42
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.43
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.44
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.45
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.46
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.47
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.48
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.49
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.5
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.50
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.51
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.52
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.53
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.54
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.55
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.56
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.57
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.58
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.59
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.6
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.60
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.61
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.62
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.63
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.64
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.65
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.66
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.67
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.68
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.69
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.7
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.70
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.71
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.72
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.73
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.74
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.75
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.76
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.77
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.78
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.79
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.8
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.80
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.81
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.82
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.83
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.84
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.85
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.86
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.87
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.88
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.89
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.9
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.90
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.91
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.92
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.93
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.94
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.95
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.96
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.97
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.98
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.4.99
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.10
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.100
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.101
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.102
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.103
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.104
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.105
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.106
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.107
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.108
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.109
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.11
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.110
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.111
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.112
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.113
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.114
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.115
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.116
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.117
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.118
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.119
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.12
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.120
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.121
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.122
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.123
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.124
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.125
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.126
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.127
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.128
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.129
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.13
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.130
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.131
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.133
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.134
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.135
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.136
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.137
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.138
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.139
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.14
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.140
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.141
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.142
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.143
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.144
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.145
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.146
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.147
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.148
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.149
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.15
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.150
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.151
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.152
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.153
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.155
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.156
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.157
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.158
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.159
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.16
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.160
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.161
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.162
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.163
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.164
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.165
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.166
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.167
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.168
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.169
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.17
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.170
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.171
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.172
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.174
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.175
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.176
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.177
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.178
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.179
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.18
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.181
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.182
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.183
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.184
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.185
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.186
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.187
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.188
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.189
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.19
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.190
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.191
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.192
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.193
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.194
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.195
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.196
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.197
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.198
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.199
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.2
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.20
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.200
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.201
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.202
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.203
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.204
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.205
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.206
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.207
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.208
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.209
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.21
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.210
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.211
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.212
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.213
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.214
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.215
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.216
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.217
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.218
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.219
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.22
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.220
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.221
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.222
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.223
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.224
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.225
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.226
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.227
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.228
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.229
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.23
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.230
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.231
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.232
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.233
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.234
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.235
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.236
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.237
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.238
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.239
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.24
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.240
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.241
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.242
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.243
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.244
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.245
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.246
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.247
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.248
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.249
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.25
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.250
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.251
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.252
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.253
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.254
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.255
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.256
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.257
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.258
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.259
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.26
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.260
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.261
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.262
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.263
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.264
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.265
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.266
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.267
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.268
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.269
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.27
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.270
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.271
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.272
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.273
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.274
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.275
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.276
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.277
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.278
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.279
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.28
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.280
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.281
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.282
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.283
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.284
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.285
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.286
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.287
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.288
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.289
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.29
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.290
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.291
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.292
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.293
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.294
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.295
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.296
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.297
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.298
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.299
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.30
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.300
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.301
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.302
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.303
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.304
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.305
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.306
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.307
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.308
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.309
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.31
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.310
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.311
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.312
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.313
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.314
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.315
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.316
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.317
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.318
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.319
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.32
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.320
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.321
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.322
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.323
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.324
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.325
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.326
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.327
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.328
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.329
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.33
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.330
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.331
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.332
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.333
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.334
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.335
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.336
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.337
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.338
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.339
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.34
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.340
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.341
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.342
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.343
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.344
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.345
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.346
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.347
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.348
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.349
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.35
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.350
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.351
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.352
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.353
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.354
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.355
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.356
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.357
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.358
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.359
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.36
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.360
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.361
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.362
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.363
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.364
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.367
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.368
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.369
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.37
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.370
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.371
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.372
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.373
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.374
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.375
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.376
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.377
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.378
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.379
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.38
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.380
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.381
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.382
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.383
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.384
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.385
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.386
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.387
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.388
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.389
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.39
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.390
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.391
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.392
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.393
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.4
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.40
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.41
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.42
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.43
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.44
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.45
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.46
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.47
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.48
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.49
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.5
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.50
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.51
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.52
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.53
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.54
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.55
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.56
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.57
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.58
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.59
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.6
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.60
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.61
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.62
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.63
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.64
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.65
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.66
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.67
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.69
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.7
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.70
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.71
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.72
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.73
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.74
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.75
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.76
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.77
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.78
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.79
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.8
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.80
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.81
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.82
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.83
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.84
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.85
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.86
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.87
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.88
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.89
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.9
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.90
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.91
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.92
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.93
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.94
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.95
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.96
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.97
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.98
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@0.5.99
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.0.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.0.2
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.0.3
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.0.4
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.1.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.10.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.100.0
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.100.1
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.100.2
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.10.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.101.0
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.101.1
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.10.2
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.102.0
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.102.1
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.102.2
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.102.3
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.102.4
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.102.5
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.10.3
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.103.0
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.103.1
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.104.0
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.105.0
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.105.1
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.105.2
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.106.0
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.106.1
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.106.2
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.106.3
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.107.0
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.107.1
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.107.2
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.108.0
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.108.1
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.109.0
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.1.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.11.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.110.0
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.111.0
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.111.1
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.111.2
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.111.3
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.111.4
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.111.5-alpha.1
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.112.0
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.112.1
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.113.0
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.113.1
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.113.2
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.113.3
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.114.0
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.115.0
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.115.1
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.116.0
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.116.1
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.117.0
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.117.1
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.118.0
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.119.0
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.119.1
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.1.2
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.12.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.1.3
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.13.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.13.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.13.2
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.1.4
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.14.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.14.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.14.2
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.1.5
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.15.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.15.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.15.2
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.16.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.16.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.17.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.17.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.17.2
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.18.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.18.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.18.2
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.19.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.19.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.2.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.20.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.20.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.20.2
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.20.3
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.2.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.21.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.2.2
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.22.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.220.0
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.220.1
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.220.2
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.220.3
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.220.4
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.220.5
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.220.6
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.220.7
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.22.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.23.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.23.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.23.2
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.24.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.25.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.25.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.26.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.26.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.27.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.27.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.28.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.29.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.29.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.29.2
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.3.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.30.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.3.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.31.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.3.2
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.32.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.33.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.33.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.34.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.34.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.34.2
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.34.3
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.35.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.35.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.36.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.36.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.36.2
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.36.3
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.37.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.37.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.37.2
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.38.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.39.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.39.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.39.2
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.4.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.40.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.41.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.42.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.42.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.43.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.44.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.45.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.46.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.46.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.47.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.48.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.49.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.5.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.50.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.5.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.51.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.51.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.5.2
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.52.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.53.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.54.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.54.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.54.2
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.54.3
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.55.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.55.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.55.2
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.56.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.57.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.57.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.57.2
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.58.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.59.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.59.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.6.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.60.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.60.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.60.2
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.60.3
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.60.4
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.6.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.61.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.6.2
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.62.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.63.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-k9qk-1m9c-aaan
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.64.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-k9qk-1m9c-aaan
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.64.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-k9qk-1m9c-aaan
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.65.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-k9qk-1m9c-aaan
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.66.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-k9qk-1m9c-aaan
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.67.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-k9qk-1m9c-aaan
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.68.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-k9qk-1m9c-aaan
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.68.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-k9qk-1m9c-aaan
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.69.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-k9qk-1m9c-aaan
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.69.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-k9qk-1m9c-aaan
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.7.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.70.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-k9qk-1m9c-aaan
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.70.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-k9qk-1m9c-aaan
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.71.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-k9qk-1m9c-aaan
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.71.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-k9qk-1m9c-aaan
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.72.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-k9qk-1m9c-aaan
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.72.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-k9qk-1m9c-aaan
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.72.2
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-k9qk-1m9c-aaan
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.72.3
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-k9qk-1m9c-aaan
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.73.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-k9qk-1m9c-aaan
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.74.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-k9qk-1m9c-aaan
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.75.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-k9qk-1m9c-aaan
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.75.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-k9qk-1m9c-aaan
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.76.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-k9qk-1m9c-aaan
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.76.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-k9qk-1m9c-aaan
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.77.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-k9qk-1m9c-aaan
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.77.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-k9qk-1m9c-aaan
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.77.2
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-k9qk-1m9c-aaan
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.78.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-k9qk-1m9c-aaan
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.79.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-k9qk-1m9c-aaan
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.8.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.80.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-k9qk-1m9c-aaan
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.81.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-k9qk-1m9c-aaan
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.81.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-k9qk-1m9c-aaan
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.81.2
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-k9qk-1m9c-aaan
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.82.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-k9qk-1m9c-aaan
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.83.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-k9qk-1m9c-aaan
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.83.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-k9qk-1m9c-aaan
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.84.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-k9qk-1m9c-aaan
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.84.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-k9qk-1m9c-aaan
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.85.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-k9qk-1m9c-aaan
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.86.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-k9qk-1m9c-aaan
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.87.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-k9qk-1m9c-aaan
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.88.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-k9qk-1m9c-aaan
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.88.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-k9qk-1m9c-aaan
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.89.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-k9qk-1m9c-aaan
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.89.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-k9qk-1m9c-aaan
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.9.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.90.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-k9qk-1m9c-aaan
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.9.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.91.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-k9qk-1m9c-aaan
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.91.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-k9qk-1m9c-aaan
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.9.2
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-k9qk-1m9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.92.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities:
+      - VCID-k9qk-1m9c-aaan
+  - purl: pkg:npm/apostrophe@2.92.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.93.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.94.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.94.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.95.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.95.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.96.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.96.1
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.96.2
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.97.0
+    affected_by_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.97.1
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities:
+      - VCID-668e-bqzb-aaaa
+  - purl: pkg:npm/apostrophe@2.97.2
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.98.0
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.98.1
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@2.99.0
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@3.0.0
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@3.0.0-alpha.1
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@3.0.0-alpha.2
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@3.0.0-alpha.3
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@3.0.0-alpha.4
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@3.0.0-alpha.4.1
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@3.0.0-alpha.4.2
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@3.0.0-alpha.5
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@3.0.0-alpha.6
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@3.0.0-alpha.6.1
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@3.0.0-alpha.7
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@3.0.0-beta.1
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@3.0.0-beta.1.1
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@3.0.0-beta.1.2
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@3.0.0-beta.2
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@3.0.0-beta.3
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@3.0.0-beta.3.1
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@3.0.1
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@3.1.0
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@3.1.1
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@3.1.2
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@3.1.3
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@3.16.1
+    affected_by_vulnerabilities:
+      - VCID-axsw-k6u2-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@3.17.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-axsw-k6u2-aaag
+  - purl: pkg:npm/apostrophe@3.2.0
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@3.3.0
+    affected_by_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/apostrophe@3.3.1
+    affected_by_vulnerabilities:
+      - VCID-rfu4-r2h7-aaak
+    fixing_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+  - purl: pkg:npm/apostrophe@3.4.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-btr9-jhwb-aaae
+      - VCID-rfu4-r2h7-aaak

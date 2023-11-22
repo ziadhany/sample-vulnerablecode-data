@@ -1,0 +1,49 @@
+package: pkg:npm/%40hapi/subtext
+versions:
+  - purl: pkg:npm/%40hapi/subtext@4.1.0
+    affected_by_vulnerabilities:
+      - VCID-jqnc-4ez3-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40hapi/subtext@6.1.0
+    affected_by_vulnerabilities:
+      - VCID-jqnc-4ez3-aaam
+      - VCID-qwas-rtxx-aaad
+      - VCID-zfzz-xuya-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40hapi/subtext@6.1.1
+    affected_by_vulnerabilities:
+      - VCID-jqnc-4ez3-aaam
+      - VCID-qwas-rtxx-aaad
+      - VCID-zfzz-xuya-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40hapi/subtext@6.1.2
+    affected_by_vulnerabilities:
+      - VCID-jqnc-4ez3-aaam
+      - VCID-zfzz-xuya-aaak
+    fixing_vulnerabilities:
+      - VCID-qwas-rtxx-aaad
+  - purl: pkg:npm/%40hapi/subtext@6.1.3
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-jqnc-4ez3-aaam
+      - VCID-zfzz-xuya-aaak
+  - purl: pkg:npm/%40hapi/subtext@7.0.0
+    affected_by_vulnerabilities:
+      - VCID-jqnc-4ez3-aaam
+      - VCID-zfzz-xuya-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40hapi/subtext@7.0.1
+    affected_by_vulnerabilities:
+      - VCID-jqnc-4ez3-aaam
+      - VCID-zfzz-xuya-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40hapi/subtext@7.0.2
+    affected_by_vulnerabilities:
+      - VCID-jqnc-4ez3-aaam
+      - VCID-zfzz-xuya-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40hapi/subtext@7.0.3
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-jqnc-4ez3-aaam
+      - VCID-zfzz-xuya-aaak

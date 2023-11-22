@@ -1,0 +1,352 @@
+package: pkg:rpm/redhat/eap7-jackson-annotations
+versions:
+  - purl: pkg:rpm/redhat/eap7-jackson-annotations@2.10.3-1.redhat_00001.1?arch=el6eap
+    affected_by_vulnerabilities:
+      - VCID-1rm6-bsbu-aaam
+      - VCID-21fj-g9yj-aaaa
+      - VCID-3mm3-bcq2-aaaf
+      - VCID-3xyu-mv5x-aaaq
+      - VCID-51sp-1epb-aaar
+      - VCID-8u7y-frmm-aaah
+      - VCID-a99m-5dtx-aaac
+      - VCID-adf6-3pcu-aaaj
+      - VCID-av2g-pr4p-aaar
+      - VCID-behw-vpfd-aaae
+      - VCID-d31a-vjfn-aaae
+      - VCID-d96z-ne4f-aaae
+      - VCID-e72b-phkg-aaad
+      - VCID-een7-auw9-aaak
+      - VCID-efvk-eu3s-aaaf
+      - VCID-f3h3-7htd-aaar
+      - VCID-f72h-mwvx-aaaq
+      - VCID-h93t-prkn-aaar
+      - VCID-n8e9-c25e-aaaj
+      - VCID-u1af-z4an-aaab
+      - VCID-v7tx-bnp9-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/eap7-jackson-annotations@2.10.3-1.redhat_00001.1?arch=el7eap
+    affected_by_vulnerabilities:
+      - VCID-1rm6-bsbu-aaam
+      - VCID-21fj-g9yj-aaaa
+      - VCID-3mm3-bcq2-aaaf
+      - VCID-3xyu-mv5x-aaaq
+      - VCID-51sp-1epb-aaar
+      - VCID-8u7y-frmm-aaah
+      - VCID-a99m-5dtx-aaac
+      - VCID-adf6-3pcu-aaaj
+      - VCID-av2g-pr4p-aaar
+      - VCID-behw-vpfd-aaae
+      - VCID-d31a-vjfn-aaae
+      - VCID-d96z-ne4f-aaae
+      - VCID-e72b-phkg-aaad
+      - VCID-een7-auw9-aaak
+      - VCID-efvk-eu3s-aaaf
+      - VCID-f3h3-7htd-aaar
+      - VCID-f72h-mwvx-aaaq
+      - VCID-h93t-prkn-aaar
+      - VCID-n8e9-c25e-aaaj
+      - VCID-u1af-z4an-aaab
+      - VCID-v7tx-bnp9-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/eap7-jackson-annotations@2.10.3-1.redhat_00001.1?arch=el8eap
+    affected_by_vulnerabilities:
+      - VCID-1rm6-bsbu-aaam
+      - VCID-21fj-g9yj-aaaa
+      - VCID-3mm3-bcq2-aaaf
+      - VCID-3xyu-mv5x-aaaq
+      - VCID-51sp-1epb-aaar
+      - VCID-8u7y-frmm-aaah
+      - VCID-a99m-5dtx-aaac
+      - VCID-adf6-3pcu-aaaj
+      - VCID-av2g-pr4p-aaar
+      - VCID-behw-vpfd-aaae
+      - VCID-d31a-vjfn-aaae
+      - VCID-d96z-ne4f-aaae
+      - VCID-e72b-phkg-aaad
+      - VCID-een7-auw9-aaak
+      - VCID-efvk-eu3s-aaaf
+      - VCID-f3h3-7htd-aaar
+      - VCID-f72h-mwvx-aaaq
+      - VCID-h93t-prkn-aaar
+      - VCID-n8e9-c25e-aaaj
+      - VCID-u1af-z4an-aaab
+      - VCID-v7tx-bnp9-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/eap7-jackson-annotations@2.10.4-1.redhat_00001.1?arch=el6eap
+    affected_by_vulnerabilities:
+      - VCID-2tmr-yvsr-aaam
+      - VCID-4ne2-qmx5-aaaj
+      - VCID-4q2p-kb2w-aaar
+      - VCID-7jj5-aqa5-aaab
+      - VCID-bsgf-8zzj-aaas
+      - VCID-e3ey-k68a-aaah
+      - VCID-fsus-typ4-aaam
+      - VCID-fzk7-6jzq-aaaj
+      - VCID-gemy-dfwe-aaag
+      - VCID-gzg2-rc1r-aaad
+      - VCID-h5zc-pu4y-aaae
+      - VCID-n216-b3ud-aaas
+      - VCID-peh9-bbxc-aaas
+      - VCID-qw4k-evq2-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/eap7-jackson-annotations@2.10.4-1.redhat_00001.1?arch=el7eap
+    affected_by_vulnerabilities:
+      - VCID-2tmr-yvsr-aaam
+      - VCID-4ne2-qmx5-aaaj
+      - VCID-4q2p-kb2w-aaar
+      - VCID-7jj5-aqa5-aaab
+      - VCID-bsgf-8zzj-aaas
+      - VCID-e3ey-k68a-aaah
+      - VCID-fsus-typ4-aaam
+      - VCID-fzk7-6jzq-aaaj
+      - VCID-gemy-dfwe-aaag
+      - VCID-gzg2-rc1r-aaad
+      - VCID-h5zc-pu4y-aaae
+      - VCID-n216-b3ud-aaas
+      - VCID-peh9-bbxc-aaas
+      - VCID-qw4k-evq2-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/eap7-jackson-annotations@2.10.4-1.redhat_00001.1?arch=el8eap
+    affected_by_vulnerabilities:
+      - VCID-2tmr-yvsr-aaam
+      - VCID-4ne2-qmx5-aaaj
+      - VCID-4q2p-kb2w-aaar
+      - VCID-7jj5-aqa5-aaab
+      - VCID-bsgf-8zzj-aaas
+      - VCID-e3ey-k68a-aaah
+      - VCID-fsus-typ4-aaam
+      - VCID-fzk7-6jzq-aaaj
+      - VCID-gemy-dfwe-aaag
+      - VCID-gzg2-rc1r-aaad
+      - VCID-h5zc-pu4y-aaae
+      - VCID-n216-b3ud-aaas
+      - VCID-peh9-bbxc-aaas
+      - VCID-qw4k-evq2-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/eap7-jackson-annotations@2.10.4-1.redhat_00002.1?arch=el6eap
+    affected_by_vulnerabilities:
+      - VCID-k3k5-dhdn-aaah
+      - VCID-vj3y-bpjw-aaae
+      - VCID-yw9z-q47h-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/eap7-jackson-annotations@2.10.4-1.redhat_00002.1?arch=el7eap
+    affected_by_vulnerabilities:
+      - VCID-k3k5-dhdn-aaah
+      - VCID-vj3y-bpjw-aaae
+      - VCID-yw9z-q47h-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/eap7-jackson-annotations@2.10.4-1.redhat_00002.1?arch=el8eap
+    affected_by_vulnerabilities:
+      - VCID-k3k5-dhdn-aaah
+      - VCID-vj3y-bpjw-aaae
+      - VCID-yw9z-q47h-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/eap7-jackson-annotations@2.12.6-1.redhat_00001.1?arch=el7eap
+    affected_by_vulnerabilities:
+      - VCID-2nyb-8rwu-aaag
+      - VCID-45qx-es17-aaan
+      - VCID-7weq-4why-aaaf
+      - VCID-97v9-f7mp-aaan
+      - VCID-d2kh-5hks-aaac
+      - VCID-fz2b-uswc-aaab
+      - VCID-gr6a-81am-aaab
+      - VCID-hufj-xzvb-aaae
+      - VCID-m6y6-tzxd-aaas
+      - VCID-sbwa-a78c-aaak
+      - VCID-tw4d-xnwu-aaah
+      - VCID-uy7u-pwr9-aaaj
+      - VCID-v5cg-4774-aaag
+      - VCID-wd2x-fkbe-aaan
+      - VCID-y7pb-r5vw-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/eap7-jackson-annotations@2.12.6-1.redhat_00001.1?arch=el8eap
+    affected_by_vulnerabilities:
+      - VCID-2nyb-8rwu-aaag
+      - VCID-45qx-es17-aaan
+      - VCID-7weq-4why-aaaf
+      - VCID-97v9-f7mp-aaan
+      - VCID-d2kh-5hks-aaac
+      - VCID-fz2b-uswc-aaab
+      - VCID-gr6a-81am-aaab
+      - VCID-hufj-xzvb-aaae
+      - VCID-m6y6-tzxd-aaas
+      - VCID-sbwa-a78c-aaak
+      - VCID-tw4d-xnwu-aaah
+      - VCID-uy7u-pwr9-aaaj
+      - VCID-v5cg-4774-aaag
+      - VCID-wd2x-fkbe-aaan
+      - VCID-y7pb-r5vw-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/eap7-jackson-annotations@2.12.6-1.redhat_00001.1?arch=el9eap
+    affected_by_vulnerabilities:
+      - VCID-nze3-w2ta-aaas
+      - VCID-qx7e-cw3h-aaaq
+      - VCID-xgqz-x8ua-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/eap7-jackson-annotations@2.8.11-1.redhat_1.1.ep7?arch=el6
+    affected_by_vulnerabilities:
+      - VCID-db55-1gpe-aaah
+      - VCID-eps5-dhv3-aaam
+      - VCID-f5ex-vsrm-aaah
+      - VCID-qhrk-7tpg-aaah
+      - VCID-x21e-b4q2-aaae
+      - VCID-xegf-xmqz-aaaq
+      - VCID-zfvn-bkzw-aaae
+      - VCID-zx9t-54kg-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/eap7-jackson-annotations@2.8.11-1.redhat_1.1.ep7?arch=el7
+    affected_by_vulnerabilities:
+      - VCID-db55-1gpe-aaah
+      - VCID-eps5-dhv3-aaam
+      - VCID-f5ex-vsrm-aaah
+      - VCID-qhrk-7tpg-aaah
+      - VCID-x21e-b4q2-aaae
+      - VCID-xegf-xmqz-aaaq
+      - VCID-zfvn-bkzw-aaae
+      - VCID-zx9t-54kg-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/eap7-jackson-annotations@2.8.9-1.redhat_1.1.ep7?arch=el6
+    affected_by_vulnerabilities:
+      - VCID-3e3k-91cx-aaab
+      - VCID-5yjp-m4pq-aaak
+      - VCID-67vd-ggxw-aaaj
+      - VCID-6gnb-ytj5-aaac
+      - VCID-7tad-htwh-aaae
+      - VCID-bu59-sqtv-aaak
+      - VCID-e6bt-9mwc-aaab
+      - VCID-fvdf-ymmb-aaar
+      - VCID-hzbs-urue-aaar
+      - VCID-jc2p-qabb-aaap
+      - VCID-kq61-ccrm-aaan
+      - VCID-mjez-6y4p-aaaj
+      - VCID-nh9g-x5aj-aaam
+      - VCID-qjmg-q5dz-aaag
+      - VCID-vanc-nzh3-aaab
+      - VCID-ypcb-k3g7-aaas
+      - VCID-zbbw-epkd-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/eap7-jackson-annotations@2.8.9-1.redhat_1.1.ep7?arch=el7
+    affected_by_vulnerabilities:
+      - VCID-3e3k-91cx-aaab
+      - VCID-5yjp-m4pq-aaak
+      - VCID-67vd-ggxw-aaaj
+      - VCID-6gnb-ytj5-aaac
+      - VCID-7tad-htwh-aaae
+      - VCID-bu59-sqtv-aaak
+      - VCID-e6bt-9mwc-aaab
+      - VCID-fvdf-ymmb-aaar
+      - VCID-hzbs-urue-aaar
+      - VCID-jc2p-qabb-aaap
+      - VCID-kq61-ccrm-aaan
+      - VCID-mjez-6y4p-aaaj
+      - VCID-nh9g-x5aj-aaam
+      - VCID-qjmg-q5dz-aaag
+      - VCID-vanc-nzh3-aaab
+      - VCID-ypcb-k3g7-aaas
+      - VCID-zbbw-epkd-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/eap7-jackson-annotations@2.9.10-1.redhat_00003.1?arch=el6eap
+    affected_by_vulnerabilities:
+      - VCID-121u-fy4e-aaah
+      - VCID-1ny7-27k8-aaas
+      - VCID-37nq-ncdy-aaak
+      - VCID-39s8-1fy7-aaaq
+      - VCID-6jz8-wj7d-aaae
+      - VCID-8eu3-gcfv-aaas
+      - VCID-dgpf-mnew-aaar
+      - VCID-e4fz-gcnp-aaap
+      - VCID-t7tb-v2n3-aaan
+      - VCID-t8mm-96zp-aaag
+      - VCID-t9g9-wyua-aaad
+      - VCID-vaq8-9f2s-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/eap7-jackson-annotations@2.9.10-1.redhat_00003.1?arch=el7eap
+    affected_by_vulnerabilities:
+      - VCID-121u-fy4e-aaah
+      - VCID-1ny7-27k8-aaas
+      - VCID-37nq-ncdy-aaak
+      - VCID-39s8-1fy7-aaaq
+      - VCID-6jz8-wj7d-aaae
+      - VCID-8eu3-gcfv-aaas
+      - VCID-dgpf-mnew-aaar
+      - VCID-e4fz-gcnp-aaap
+      - VCID-t7tb-v2n3-aaan
+      - VCID-t8mm-96zp-aaag
+      - VCID-t9g9-wyua-aaad
+      - VCID-vaq8-9f2s-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/eap7-jackson-annotations@2.9.10-1.redhat_00003.1?arch=el8eap
+    affected_by_vulnerabilities:
+      - VCID-121u-fy4e-aaah
+      - VCID-1ny7-27k8-aaas
+      - VCID-37nq-ncdy-aaak
+      - VCID-39s8-1fy7-aaaq
+      - VCID-6jz8-wj7d-aaae
+      - VCID-8eu3-gcfv-aaas
+      - VCID-dgpf-mnew-aaar
+      - VCID-e4fz-gcnp-aaap
+      - VCID-t7tb-v2n3-aaan
+      - VCID-t8mm-96zp-aaag
+      - VCID-t9g9-wyua-aaad
+      - VCID-vaq8-9f2s-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/eap7-jackson-annotations@2.9.5-2.redhat_2.1?arch=el6eap
+    affected_by_vulnerabilities:
+      - VCID-mn1w-6pu4-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/eap7-jackson-annotations@2.9.5-2.redhat_2.1?arch=el7eap
+    affected_by_vulnerabilities:
+      - VCID-mn1w-6pu4-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/eap7-jackson-annotations@2.9.8-2.redhat_00004.1?arch=el6eap
+    affected_by_vulnerabilities:
+      - VCID-17rd-act7-aaac
+      - VCID-27yz-rvzs-aaaf
+      - VCID-4y8y-m7z2-aaad
+      - VCID-amhg-ukhs-aaah
+      - VCID-d8wq-me7v-aaap
+      - VCID-dkg8-h8xm-aaas
+      - VCID-wwax-sg2v-aaag
+      - VCID-x7b8-fraz-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/eap7-jackson-annotations@2.9.8-2.redhat_00004.1?arch=el7eap
+    affected_by_vulnerabilities:
+      - VCID-17rd-act7-aaac
+      - VCID-27yz-rvzs-aaaf
+      - VCID-4y8y-m7z2-aaad
+      - VCID-amhg-ukhs-aaah
+      - VCID-d8wq-me7v-aaap
+      - VCID-dkg8-h8xm-aaas
+      - VCID-wwax-sg2v-aaag
+      - VCID-x7b8-fraz-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/eap7-jackson-annotations@2.9.9-1.redhat_00001.1?arch=el6eap
+    affected_by_vulnerabilities:
+      - VCID-4drb-uu12-aaan
+      - VCID-4dy3-g1ms-aaap
+      - VCID-4w75-wzwz-aaar
+      - VCID-ab8w-4d7w-aaas
+      - VCID-e4hg-3b6p-aaam
+      - VCID-hwxj-2jdt-aaaj
+      - VCID-wvrf-nusf-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/eap7-jackson-annotations@2.9.9-1.redhat_00001.1?arch=el7eap
+    affected_by_vulnerabilities:
+      - VCID-4drb-uu12-aaan
+      - VCID-4dy3-g1ms-aaap
+      - VCID-4w75-wzwz-aaar
+      - VCID-ab8w-4d7w-aaas
+      - VCID-e4hg-3b6p-aaam
+      - VCID-hwxj-2jdt-aaaj
+      - VCID-wvrf-nusf-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/eap7-jackson-annotations@2.9.9-1.redhat_00001.1?arch=el8eap
+    affected_by_vulnerabilities:
+      - VCID-4drb-uu12-aaan
+      - VCID-4dy3-g1ms-aaap
+      - VCID-4w75-wzwz-aaar
+      - VCID-ab8w-4d7w-aaas
+      - VCID-e4hg-3b6p-aaam
+      - VCID-hwxj-2jdt-aaaj
+      - VCID-wvrf-nusf-aaak
+    fixing_vulnerabilities: []

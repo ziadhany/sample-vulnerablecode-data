@@ -1,0 +1,40 @@
+vulnerability_id: VCID-e6qe-5cs5-aaam
+aliases:
+  - CVE-2019-10790
+  - GHSA-mxhp-79qh-mcx6
+summary: |
+  Exposure of Resource to Wrong Sphere
+  taffy allows attackers to forge adding additional properties into user-input processed by taffy which can allow access to any data items in the DB. taffy sets an internal index for each data item in its DB. However, it is found that the internal index can be forged by adding additional properties into user-input. If index is found in the query, taffyDB will ignore other query conditions and directly return the indexed data item. Moreover, the internal index is in an easily-guessable format (e.g., T000002R000001). As such, attackers can use this vulnerability to access any data items in the DB.
+severities:
+  - id: 369739
+    reference_id: 31386
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 369737
+    reference_id: 31386
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+  - id: 706003
+    reference_id: 31389
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 31387
+    url: https://snyk.io/vuln/SNYK-JS-TAFFY-546521
+    reference_id:
+  - id: 31388
+    url: https://www.npmjs.com/package/taffy
+    reference_id:
+  - id: 768350
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:taffydb:taffy:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:taffydb:taffy:*:*:*:*:*:node.js:*:*
+  - id: 31386
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-10790
+    reference_id: CVE-2019-10790
+  - id: 31389
+    url: https://github.com/advisories/GHSA-mxhp-79qh-mcx6
+    reference_id: GHSA-mxhp-79qh-mcx6
+weaknesses: []

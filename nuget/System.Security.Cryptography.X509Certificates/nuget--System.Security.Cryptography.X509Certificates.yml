@@ -1,0 +1,22 @@
+package: pkg:nuget/System.Security.Cryptography.X509Certificates
+versions:
+  - purl: pkg:nuget/System.Security.Cryptography.X509Certificates@4.0.0
+    affected_by_vulnerabilities:
+      - VCID-dhs3-vs6j-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/System.Security.Cryptography.X509Certificates@4.1.0
+    affected_by_vulnerabilities:
+      - VCID-dhs3-vs6j-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/System.Security.Cryptography.X509Certificates@4.1.0-rc2-24027
+    affected_by_vulnerabilities:
+      - VCID-dhs3-vs6j-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/System.Security.Cryptography.X509Certificates@4.1.1
+    affected_by_vulnerabilities:
+      - VCID-dhs3-vs6j-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/System.Security.Cryptography.X509Certificates@4.1.2
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-dhs3-vs6j-aaae

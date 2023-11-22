@@ -1,0 +1,23 @@
+vulnerability_id: VCID-pd43-pgnw-aaaf
+aliases:
+  - GHSA-m9r7-q9fc-qwx5
+  - GMS-2020-374
+summary: |
+  Malicious Package
+  All versions of `maybemaliciouspackage` contain malicious code. The package prints the system's SSH keys to the console as a postinstall script. ## Recommendation
+
+  Remove the package from your environment. There are no further signs of compromise.
+severities:
+  - id: 705041
+    reference_id: 34269
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 34268
+    url: https://www.npmjs.com/advisories/1042
+    reference_id:
+  - id: 34269
+    url: https://github.com/advisories/GHSA-m9r7-q9fc-qwx5
+    reference_id: GHSA-m9r7-q9fc-qwx5
+weaknesses: []

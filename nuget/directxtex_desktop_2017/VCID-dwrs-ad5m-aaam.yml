@@ -1,0 +1,31 @@
+vulnerability_id: VCID-dwrs-ad5m-aaam
+aliases:
+  - GHSA-3w9w-9833-gcpv
+  - GMS-2023-171
+  - GMS-2023-172
+  - GMS-2023-173
+  - GMS-2023-174
+summary: Security bug in ConvertToSinglePlane when used with untrusted content from the DDS
+  loader
+severities:
+  - id: 707390
+    reference_id: 1469578
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 707389
+    reference_id: 1469576
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 1469577
+    url: https://github.com/microsoft/DirectXTex/pull/307
+    reference_id:
+  - id: 1469578
+    url: https://github.com/advisories/GHSA-3w9w-9833-gcpv
+    reference_id: GHSA-3w9w-9833-gcpv
+  - id: 1469576
+    url: https://github.com/microsoft/DirectXTex/security/advisories/GHSA-3w9w-9833-gcpv
+    reference_id: GHSA-3w9w-9833-gcpv
+weaknesses: []

@@ -1,0 +1,48 @@
+vulnerability_id: VCID-52xg-rf8u-aaam
+aliases:
+  - CVE-2022-29227
+summary: 'CVE-2022-29227 envoy: Internal redirect crash for requests with body/trailers'
+severities:
+  - id: 5456
+    reference_id: 39261
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 5455
+    reference_id: 39260
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 628119
+    reference_id: 922889
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 628117
+    reference_id: 922889
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+references:
+  - id: 39261
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-29227.json
+    reference_id:
+  - id: 922887
+    url: https://github.com/envoyproxy/envoy/commit/fe7c69c248f4fe5a9080c7ccb35275b5218bb5ab
+    reference_id:
+  - id: 922888
+    url: https://github.com/envoyproxy/envoy/security/advisories/GHSA-rm2p-qvf6-pvr6
+    reference_id:
+  - id: 39260
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=2088741
+    reference_id: 2088741
+  - id: 780349
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:envoyproxy:envoy:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:envoyproxy:envoy:*:*:*:*:*:*:*:*
+  - id: 922889
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-29227
+    reference_id: CVE-2022-29227
+  - id: 1470887
+    url: https://istio.io/latest/news/security/ISTIO-SECURITY-2022-005/
+    reference_id: ISTIO-SECURITY-2022-005
+weaknesses: []

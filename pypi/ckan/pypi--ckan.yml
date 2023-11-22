@@ -1,0 +1,512 @@
+package: pkg:pypi/ckan
+versions:
+  - purl: pkg:pypi/ckan@0.11
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@0.3
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@0.4
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@0.5
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@0.6
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@0.7
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@0.8
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@1.0
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@1.1
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@1.2
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@1.3
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@1.3.2
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@1.3.3
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@1.4
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@1.4.1
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@1.4.2
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@1.4.3
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@1.4.3.1
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@1.5
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@1.5.1
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@1.6
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@1.7
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@1.7.1
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@1.8
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.0
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.0.1
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.0.7
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.0.8
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.1
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.1.1
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.1.5
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.1.6
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.2
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.2.1
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.2.3
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.2.4
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.3
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.3.1
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.3.2
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.3.3
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.3.4
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.3.5
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.4.0
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.4.1
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.4.2
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.4.3
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.4.4
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.4.5
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.4.8
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.4.9
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.5.1
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.5.2
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.5.3
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.5.4
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.5.6
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.5.7
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.5.8
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.5.9
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.6.0
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.6.1
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.6.3
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.6.4
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.6.5
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.6.6
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.6.7
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.6.8
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.6.9
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.7.0
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.7.1
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.7.10
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.7.11
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.7.12
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.7.2
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.7.3
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.7.4
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.7.5
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.7.6
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.7.7
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.7.8
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.7.9
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.8.0
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.8.1
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.8.10
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.8.11
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.8.12
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+  - purl: pkg:pypi/ckan@2.8.2
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.8.3
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.8.4
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.8.5
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.8.6
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.8.7
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.8.8
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.8.9
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.9.0
+    affected_by_vulnerabilities:
+      - VCID-9snd-euj7-aaar
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.9.1
+    affected_by_vulnerabilities:
+      - VCID-9snd-euj7-aaar
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.9.2
+    affected_by_vulnerabilities:
+      - VCID-9snd-euj7-aaar
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.9.3
+    affected_by_vulnerabilities:
+      - VCID-9snd-euj7-aaar
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.9.4
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities:
+      - VCID-9snd-euj7-aaar
+  - purl: pkg:pypi/ckan@2.9.5
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.9.6
+    affected_by_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ckan@2.9.7
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-fs4u-xgqy-aaap
+      - VCID-z852-w6c2-aaas

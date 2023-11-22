@@ -1,0 +1,36 @@
+vulnerability_id: VCID-gxcx-zwxm-aaad
+aliases:
+  - CVE-2022-41919
+  - GHSA-3fjj-p79j-c9hh
+  - GMS-2022-6953
+summary: |
+  Cross-Site Request Forgery (CSRF)
+  Fastify is a web framework with minimal overhead and plugin architecture. The attacker can use the incorrect `Content-Type` to bypass the `Pre-Flight` checking of `fetch`. `fetch()` requests with Content-Type’s essence as "application/x-www-form-urlencoded", "multipart/form-data", or "text/plain", could potentially be used to invoke routes that only accepts `application/json` content type, thus bypassing any CORS protection, and therefore they could lead to a Cross-Site Request Forgery attack. This issue has been patched in version 4.10.2 and 3.29.4. As a workaround, implement Cross-Site Request Forgery protection using `@fastify/csrf'.
+severities:
+  - id: 707285
+    reference_id: 1466104
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 707284
+    reference_id: 1466101
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 1466099
+    url: https://github.com/fastify/fastify/commit/62dde76f1f7aca76e38625fe8d983761f26e6fc9
+    reference_id:
+  - id: 1466100
+    url: https://www.npmjs.com/package/@fastify/csrf
+    reference_id:
+  - id: 1466098
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-41919
+    reference_id: CVE-2022-41919
+  - id: 1466104
+    url: https://github.com/advisories/GHSA-3fjj-p79j-c9hh
+    reference_id: GHSA-3fjj-p79j-c9hh
+  - id: 1466101
+    url: https://github.com/fastify/fastify/security/advisories/GHSA-3fjj-p79j-c9hh
+    reference_id: GHSA-3fjj-p79j-c9hh
+weaknesses: []

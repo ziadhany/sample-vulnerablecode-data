@@ -1,0 +1,29 @@
+vulnerability_id: VCID-99bg-mg4f-aaam
+aliases:
+  - CVE-2018-20301
+summary: An issue was discovered in Steve Pallen Coherence before 0.5.2 that is similar to a
+  Mass Assignment vulnerability. In particular, "registration" endpoints (e.g., creating, editing,
+  updating) allow users to update any coherence_fields data. For example, users can automatically
+  confirm their accounts by sending the confirmed_at parameter with their registration request.
+severities:
+  - id: 341376
+    reference_id: 748151
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:N/I:P/A:N
+  - id: 341374
+    reference_id: 748151
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
+references:
+  - id: 748150
+    url: https://github.com/smpallen99/coherence/issues/270
+    reference_id:
+  - id: 748152
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:coherence_project:coherence:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:coherence_project:coherence:*:*:*:*:*:*:*:*
+  - id: 748151
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-20301
+    reference_id: CVE-2018-20301
+weaknesses: []

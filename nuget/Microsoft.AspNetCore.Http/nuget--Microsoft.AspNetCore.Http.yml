@@ -1,0 +1,94 @@
+package: pkg:nuget/Microsoft.AspNetCore.Http
+versions:
+  - purl: pkg:nuget/Microsoft.AspNetCore.Http@0.0.1-alpha
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Http@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Http@1.0.0-rc2-final
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Http@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Http@1.0.2
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Http@1.0.3
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Http@1.0.4
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Http@1.1.0
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Http@1.1.0-preview1-final
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Http@1.1.1
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Http@1.1.2
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Http@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Http@2.0.0-preview1-final
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Http@2.0.0-preview2-final
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Http@2.0.1
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Http@2.0.2
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Http@2.0.3
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Http@2.1.0
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Http@2.1.0-preview1-final
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Http@2.1.0-preview2-final
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Http@2.1.0-rc1-final
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Http@2.1.1
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Http@2.1.22
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag

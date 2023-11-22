@@ -1,0 +1,125 @@
+vulnerability_id: VCID-zmyz-tr92-aaan
+aliases:
+  - CVE-2021-34485
+  - GHSA-vgwq-hfqc-58wv
+summary: .NET Core and Visual Studio Information Disclosure Vulnerability
+severities:
+  - id: 603141
+    reference_id: 926305
+    scoring_system: cvssv3
+    value: '5.5'
+    scoring_elements: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+  - id: 603132
+    reference_id: 926297
+    scoring_system: rhbs
+    value: low
+    scoring_elements:
+  - id: 544300
+    reference_id: 887275
+    scoring_system: cvssv2
+    value: '2.1'
+    scoring_elements: AV:L/AC:L/Au:N/C:P/I:N/A:N
+  - id: 544298
+    reference_id: 887275
+    scoring_system: cvssv3
+    value: '5.5'
+    scoring_elements: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+  - id: 647956
+    reference_id: 1418108
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 647955
+    reference_id: 1418105
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 603135
+    reference_id: 926299
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 603138
+    reference_id: 926302
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 603137
+    reference_id: 926301
+    scoring_system: rhas
+    value: Low
+    scoring_elements:
+  - id: 603136
+    reference_id: 926300
+    scoring_system: rhas
+    value: Low
+    scoring_elements:
+  - id: 603140
+    reference_id: 926304
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 603139
+    reference_id: 926303
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 926305
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-34485.json
+    reference_id:
+  - id: 1418106
+    url: https://github.com/dotnet/announcements/issues/196
+    reference_id:
+  - id: 1418107
+    url: https://github.com/github/advisory-database/issues/741
+    reference_id:
+  - id: 887274
+    url: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34485
+    reference_id:
+  - id: 926297
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1990286
+    reference_id: '1990286'
+  - id: 855833
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:.net:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:.net:*:*:*:*:*:*:*:*
+  - id: 813085
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:.net_core:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:.net_core:*:*:*:*:*:*:*:*
+  - id: 874071
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:powershell_core:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:powershell_core:*:*:*:*:*:*:*:*
+  - id: 775516
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:visual_studio_2017:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:visual_studio_2017:*:*:*:*:*:*:*:*
+  - id: 776266
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:visual_studio_2019:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:visual_studio_2019:*:*:*:*:*:*:*:*
+  - id: 887275
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-34485
+    reference_id: CVE-2021-34485
+  - id: 1418108
+    url: https://github.com/advisories/GHSA-vgwq-hfqc-58wv
+    reference_id: GHSA-vgwq-hfqc-58wv
+  - id: 1418105
+    url: https://github.com/dotnet/runtime/security/advisories/GHSA-vgwq-hfqc-58wv
+    reference_id: GHSA-vgwq-hfqc-58wv
+  - id: 926299
+    url: https://access.redhat.com/errata/RHSA-2021:3142
+    reference_id: RHSA-2021:3142
+  - id: 926302
+    url: https://access.redhat.com/errata/RHSA-2021:3143
+    reference_id: RHSA-2021:3143
+  - id: 926301
+    url: https://access.redhat.com/errata/RHSA-2021:3144
+    reference_id: RHSA-2021:3144
+  - id: 926300
+    url: https://access.redhat.com/errata/RHSA-2021:3145
+    reference_id: RHSA-2021:3145
+  - id: 926304
+    url: https://access.redhat.com/errata/RHSA-2021:3147
+    reference_id: RHSA-2021:3147
+  - id: 926303
+    url: https://access.redhat.com/errata/RHSA-2021:3148
+    reference_id: RHSA-2021:3148
+weaknesses: []

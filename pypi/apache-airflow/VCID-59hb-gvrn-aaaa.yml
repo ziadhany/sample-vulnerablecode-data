@@ -1,0 +1,37 @@
+vulnerability_id: VCID-59hb-gvrn-aaaa
+aliases:
+  - CVE-2022-24288
+  - GHSA-3v7g-4pg3-7r6j
+  - PYSEC-2022-30
+summary: In Apache Airflow, prior to version 2.2.4, some example DAGs did not properly sanitize
+  user-provided params, making them susceptible to OS Command Injection from the web UI.
+severities:
+  - id: 588567
+    reference_id: 21151
+    scoring_system: cvssv2
+    value: '6.5'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:P/A:P
+  - id: 588565
+    reference_id: 21151
+    scoring_system: cvssv3
+    value: '8.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+  - id: 3458
+    reference_id: 21152
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 8984
+    url: https://lists.apache.org/thread/dbw5ozcmr0h0lhs0yjph7xdc64oht23t
+    reference_id:
+  - id: 677676
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:airflow:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:airflow:*:*:*:*:*:*:*:*
+  - id: 21151
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-24288
+    reference_id: CVE-2022-24288
+  - id: 21152
+    url: https://github.com/advisories/GHSA-3v7g-4pg3-7r6j
+    reference_id: GHSA-3v7g-4pg3-7r6j
+weaknesses: []

@@ -1,0 +1,122 @@
+package: pkg:npm/min-dash
+versions:
+  - purl: pkg:npm/min-dash@0.1.0
+    affected_by_vulnerabilities:
+      - VCID-mre4-af9r-aaaa
+      - VCID-yxhw-zj69-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/min-dash@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-mre4-af9r-aaaa
+      - VCID-yxhw-zj69-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/min-dash@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-mre4-af9r-aaaa
+      - VCID-yxhw-zj69-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/min-dash@1.0.2
+    affected_by_vulnerabilities:
+      - VCID-mre4-af9r-aaaa
+      - VCID-yxhw-zj69-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/min-dash@1.1.0
+    affected_by_vulnerabilities:
+      - VCID-mre4-af9r-aaaa
+      - VCID-yxhw-zj69-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/min-dash@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-mre4-af9r-aaaa
+      - VCID-yxhw-zj69-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/min-dash@2.0.1
+    affected_by_vulnerabilities:
+      - VCID-mre4-af9r-aaaa
+      - VCID-yxhw-zj69-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/min-dash@2.1.0
+    affected_by_vulnerabilities:
+      - VCID-mre4-af9r-aaaa
+      - VCID-yxhw-zj69-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/min-dash@2.2.0
+    affected_by_vulnerabilities:
+      - VCID-mre4-af9r-aaaa
+      - VCID-yxhw-zj69-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/min-dash@2.3.0
+    affected_by_vulnerabilities:
+      - VCID-mre4-af9r-aaaa
+      - VCID-yxhw-zj69-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/min-dash@2.4.0
+    affected_by_vulnerabilities:
+      - VCID-mre4-af9r-aaaa
+      - VCID-yxhw-zj69-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/min-dash@3.0.0
+    affected_by_vulnerabilities:
+      - VCID-mre4-af9r-aaaa
+      - VCID-yxhw-zj69-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/min-dash@3.1.0
+    affected_by_vulnerabilities:
+      - VCID-mre4-af9r-aaaa
+      - VCID-yxhw-zj69-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/min-dash@3.2.0
+    affected_by_vulnerabilities:
+      - VCID-mre4-af9r-aaaa
+      - VCID-yxhw-zj69-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/min-dash@3.3.0
+    affected_by_vulnerabilities:
+      - VCID-mre4-af9r-aaaa
+      - VCID-yxhw-zj69-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/min-dash@3.4.0
+    affected_by_vulnerabilities:
+      - VCID-mre4-af9r-aaaa
+      - VCID-yxhw-zj69-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/min-dash@3.5.0
+    affected_by_vulnerabilities:
+      - VCID-mre4-af9r-aaaa
+      - VCID-yxhw-zj69-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/min-dash@3.5.1
+    affected_by_vulnerabilities:
+      - VCID-mre4-af9r-aaaa
+      - VCID-yxhw-zj69-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/min-dash@3.5.2
+    affected_by_vulnerabilities:
+      - VCID-mre4-af9r-aaaa
+      - VCID-yxhw-zj69-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/min-dash@3.6.0
+    affected_by_vulnerabilities:
+      - VCID-mre4-af9r-aaaa
+      - VCID-yxhw-zj69-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/min-dash@3.6.1
+    affected_by_vulnerabilities:
+      - VCID-mre4-af9r-aaaa
+      - VCID-yxhw-zj69-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/min-dash@3.7.0
+    affected_by_vulnerabilities:
+      - VCID-mre4-af9r-aaaa
+      - VCID-yxhw-zj69-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/min-dash@3.8.0
+    affected_by_vulnerabilities:
+      - VCID-mre4-af9r-aaaa
+      - VCID-yxhw-zj69-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/min-dash@3.8.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-mre4-af9r-aaaa
+      - VCID-yxhw-zj69-aaac

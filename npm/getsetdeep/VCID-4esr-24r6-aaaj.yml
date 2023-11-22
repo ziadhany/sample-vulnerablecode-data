@@ -1,0 +1,23 @@
+vulnerability_id: VCID-4esr-24r6-aaaj
+aliases:
+  - GHSA-8j49-49jq-vwcq
+  - GMS-2020-273
+summary: "Prototype Pollution in getsetdeep\nAll versions of `getsetdeep` are vulnerable to\
+  \ prototype pollution. The `setDeep()` function does not restrict the modification of an Object's\
+  \ prototype, which may allow an attacker to add or modify an existing property that will exist\
+  \ on all objects. \n\nNo fix is currently available. Consider using an alternative package\
+  \ until a fix is made available."
+severities:
+  - id: 704768
+    reference_id: 31359
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 31358
+    url: https://www.npmjs.com/advisories/1334
+    reference_id:
+  - id: 31359
+    url: https://github.com/advisories/GHSA-8j49-49jq-vwcq
+    reference_id: GHSA-8j49-49jq-vwcq
+weaknesses: []

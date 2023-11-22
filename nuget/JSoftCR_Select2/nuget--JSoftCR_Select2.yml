@@ -1,0 +1,14 @@
+package: pkg:nuget/JSoftCR_Select2
+versions:
+  - purl: pkg:nuget/JSoftCR_Select2@4.0.3
+    affected_by_vulnerabilities:
+      - VCID-6z3t-9tbc-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/JSoftCR_Select2@4.0.3.1
+    affected_by_vulnerabilities:
+      - VCID-6z3t-9tbc-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/JSoftCR_Select2@4.0.5
+    affected_by_vulnerabilities:
+      - VCID-6z3t-9tbc-aaae
+    fixing_vulnerabilities: []

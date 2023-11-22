@@ -1,0 +1,40 @@
+vulnerability_id: VCID-swry-yh91-aaac
+aliases:
+  - CVE-2020-15131
+  - GHSA-6jmr-jfh7-xg3h
+summary: |
+  Incorrect Comparison
+  In SLP Validate (npm package slp-validate), there is a vulnerability to false-positive validation outcomes for the NFT1 Child Genesis transaction type. A poorly implemented SLP wallet or opportunistic attacker could create a seemingly valid NFT1 child token without burning any of the NFT1 Group token type as is required by the NFT1 specification.
+severities:
+  - id: 444965
+    reference_id: 32055
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:P/A:N
+  - id: 444963
+    reference_id: 32055
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
+  - id: 706141
+    reference_id: 1467667
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 822581
+    url: https://github.com/simpleledger/slp-validate.js/commit/3963cf914afae69084059b82483da916d97af65c
+    reference_id:
+  - id: 822582
+    url: https://github.com/simpleledger/slp-validate.js/security/advisories/GHSA-6jmr-jfh7-xg3h
+    reference_id:
+  - id: 813229
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:simpleledger:slp-validate:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:simpleledger:slp-validate:*:*:*:*:*:*:*:*
+  - id: 32055
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-15131
+    reference_id: CVE-2020-15131
+  - id: 1467667
+    url: https://github.com/advisories/GHSA-6jmr-jfh7-xg3h
+    reference_id: GHSA-6jmr-jfh7-xg3h
+weaknesses: []

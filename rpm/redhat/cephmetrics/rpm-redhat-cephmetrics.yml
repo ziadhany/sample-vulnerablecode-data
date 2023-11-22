@@ -1,0 +1,25 @@
+package: pkg:rpm/redhat/cephmetrics
+versions:
+  - purl: pkg:rpm/redhat/cephmetrics@1.0.1-1?arch=el7cp
+    affected_by_vulnerabilities:
+      - VCID-18pg-k5qf-aaaa
+      - VCID-2cq2-xtvg-aaah
+      - VCID-346q-mu9u-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/cephmetrics@2.0.10-1?arch=el7cp
+    affected_by_vulnerabilities:
+      - VCID-3ump-wuym-aaag
+      - VCID-7sn5-sxp2-aaar
+      - VCID-gbsq-myef-aaaa
+      - VCID-td78-zefu-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/cephmetrics@2.0.6-1?arch=el7cp
+    affected_by_vulnerabilities:
+      - VCID-g2sy-3wsz-aaan
+      - VCID-s58g-4bf1-aaae
+      - VCID-vduw-75g3-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/cephmetrics@2.0.9-1?arch=el7cp
+    affected_by_vulnerabilities:
+      - VCID-8ggd-znrr-aaaa
+    fixing_vulnerabilities: []

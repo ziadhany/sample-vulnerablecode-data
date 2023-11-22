@@ -1,0 +1,41 @@
+vulnerability_id: VCID-wtxu-g87x-aaak
+aliases:
+  - CVE-2021-42656
+  - GHSA-2xwp-7j3p-c78x
+summary: Cross site scripting in SiteServer CMS
+severities:
+  - id: 565399
+    reference_id: 765
+    scoring_system: cvssv2
+    value: '3.5'
+    scoring_elements: AV:N/AC:M/Au:S/C:N/I:P/A:N
+  - id: 565397
+    reference_id: 765
+    scoring_system: cvssv3
+    value: '5.4'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N
+  - id: 52
+    reference_id: 766
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 901521
+    url: https://github.com/siteserver/cms
+    reference_id:
+  - id: 763
+    url: https://github.com/siteserver/cms/issues/3238
+    reference_id:
+  - id: 901526
+    url: https://github.com/siteserver/cms/releases/download/siteserver-v6.15.51/siteserver_install.zip
+    reference_id:
+  - id: 901527
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:sscms:siteserver_cms:6.15.51:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:sscms:siteserver_cms:6.15.51:*:*:*:*:*:*:*
+  - id: 765
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-42656
+    reference_id: CVE-2021-42656
+  - id: 766
+    url: https://github.com/advisories/GHSA-2xwp-7j3p-c78x
+    reference_id: GHSA-2xwp-7j3p-c78x
+weaknesses: []

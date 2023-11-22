@@ -1,0 +1,61 @@
+vulnerability_id: VCID-rqck-zj9p-aaac
+aliases:
+  - CVE-2018-3726
+  - GHSA-h24f-9mm4-w336
+summary: |
+  Cross-site Scripting
+  crud-file-server node module suffers from a Cross-Site Scripting vulnerability to a lack of validation of file names.
+severities:
+  - id: 708654
+    reference_id: 36930
+    scoring_system: cvssv3
+    value: '9.6'
+    scoring_elements:
+  - id: 708653
+    reference_id: 36931
+    scoring_system: cvssv3
+    value: '9.6'
+    scoring_elements:
+  - id: 708655
+    reference_id: 1473491
+    scoring_system: cvssv3
+    value: '9.6'
+    scoring_elements:
+  - id: 345557
+    reference_id: 36934
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+  - id: 345555
+    reference_id: 36934
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+  - id: 705908
+    reference_id: 1467334
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 36930
+    url: https://github.com/omphalos/crud-file-server/commit/4155bfe068bf211b49a0b3ffd06e78cbaf1b40fa
+    reference_id:
+  - id: 36931
+    url: https://hackerone.com/reports/311101
+    reference_id:
+  - id: 1467335
+    url: https://www.npmjs.com/advisories/570
+    reference_id:
+  - id: 1473491
+    url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/374.json
+    reference_id: 374
+  - id: 751190
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:crud-file-server_project:crud-file-server:0.7.0:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:crud-file-server_project:crud-file-server:0.7.0:*:*:*:*:node.js:*:*
+  - id: 36934
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-3726
+    reference_id: CVE-2018-3726
+  - id: 1467334
+    url: https://github.com/advisories/GHSA-h24f-9mm4-w336
+    reference_id: GHSA-h24f-9mm4-w336
+weaknesses: []

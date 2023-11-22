@@ -1,0 +1,62 @@
+vulnerability_id: VCID-cgb4-5jxd-aaah
+aliases:
+  - CVE-2018-16887
+  - GHSA-mhhc-r88h-2qrm
+summary: |
+  Cross-site Scripting
+  A cross-site scripting (XSS) flaw was found in the katello component of Satellite. An attacker with privilege to create/edit organizations and locations is able to execute a XSS attacks against other users through the Subscriptions or the Red Hat Repositories wizards. This can possibly lead to malicious code execution and extraction of the anti-CSRF token of higher privileged users. Versions before `3.9.0` are vulnerable.
+severities:
+  - id: 614127
+    reference_id: 934381
+    scoring_system: cvssv3
+    value: '5.4'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N
+  - id: 614126
+    reference_id: 934380
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 331148
+    reference_id: 38734
+    scoring_system: cvssv2
+    value: '3.5'
+    scoring_elements: AV:N/AC:M/Au:S/C:N/I:P/A:N
+  - id: 331146
+    reference_id: 38734
+    scoring_system: cvssv3
+    value: '5.4'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N
+  - id: 707480
+    reference_id: 1469858
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 652478
+    url: https://access.redhat.com/errata/RHSA-2019:1222
+    reference_id:
+  - id: 934381
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2018-16887.json
+    reference_id:
+  - id: 38735
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2018-16887
+    reference_id:
+  - id: 934380
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1645190
+    reference_id: 1645190
+  - id: 511591
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:satellite:6.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:satellite:6.0:*:*:*:*:*:*:*
+  - id: 523526
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:katello:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:katello:*:*:*:*:*:*:*:*
+  - id: 38734
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-16887
+    reference_id: CVE-2018-16887
+  - id: 1472498
+    url: https://github.com/rubysec/ruby-advisory-db/blob/master/gems/katello/CVE-2018-16887.yml
+    reference_id: CVE-2018-16887.YML
+  - id: 1469858
+    url: https://github.com/advisories/GHSA-mhhc-r88h-2qrm
+    reference_id: GHSA-mhhc-r88h-2qrm
+weaknesses: []

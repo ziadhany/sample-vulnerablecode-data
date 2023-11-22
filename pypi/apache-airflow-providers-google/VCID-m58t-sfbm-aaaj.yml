@@ -1,0 +1,25 @@
+vulnerability_id: VCID-m58t-sfbm-aaaj
+aliases:
+  - CVE-2023-25691
+  - GHSA-8g23-2q5p-8866
+summary: Apache Airflow Google Provider Improper Input Validation vulnerability
+severities:
+  - id: 708035
+    reference_id: 1471802
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 1471800
+    url: https://github.com/apache/airflow/pull/29497
+    reference_id:
+  - id: 1471801
+    url: https://lists.apache.org/thread/zdr8ovfttbh7kj0lydgcw88tbt2nmkcy
+    reference_id:
+  - id: 1471799
+    url: https://nvd.nist.gov/vuln/detail/CVE-2023-25691
+    reference_id: CVE-2023-25691
+  - id: 1471802
+    url: https://github.com/advisories/GHSA-8g23-2q5p-8866
+    reference_id: GHSA-8g23-2q5p-8866
+weaknesses: []

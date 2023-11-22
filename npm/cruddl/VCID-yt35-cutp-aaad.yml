@@ -1,0 +1,35 @@
+vulnerability_id: VCID-yt35-cutp-aaad
+aliases:
+  - CVE-2022-36084
+  - GHSA-qm4w-4995-vg7f
+summary: |
+  Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection')
+  cruddl is software for creating a GraphQL API for a database, using the GraphQL SDL to model a schema. If cruddl starting with version 1.1.0 and prior to versions 2.7.0 and 3.0.2 is used to generate a schema that uses `@flexSearchFulltext`, users of that schema may be able to inject arbitrary AQL queries that will be forwarded to and executed by ArangoDB. Schemas that do not use `@flexSearchFulltext` are not affected. The attacker needs to have `READ` permission to at least one root entity type that has `@flexSearchFulltext` enabled. The issue has been fixed in version 3.0.2 and in version 2.7.0 of cruddl. As a workaround, users can temporarily remove `@flexSearchFulltext` from their schemas.
+severities:
+  - id: 707193
+    reference_id: 1468781
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+  - id: 707192
+    reference_id: 1462759
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 1462758
+    url: https://github.com/AEB-labs/cruddl/commit/13b9233733ed6fc822718a07bc90a80cd3492698
+    reference_id:
+  - id: 1462757
+    url: https://github.com/AEB-labs/cruddl/pull/253
+    reference_id:
+  - id: 1462756
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-36084
+    reference_id: CVE-2022-36084
+  - id: 1468781
+    url: https://github.com/advisories/GHSA-qm4w-4995-vg7f
+    reference_id: GHSA-qm4w-4995-vg7f
+  - id: 1462759
+    url: https://github.com/AEB-labs/cruddl/security/advisories/GHSA-qm4w-4995-vg7f
+    reference_id: GHSA-qm4w-4995-vg7f
+weaknesses: []

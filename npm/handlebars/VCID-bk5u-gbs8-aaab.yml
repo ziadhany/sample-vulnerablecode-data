@@ -1,0 +1,20 @@
+vulnerability_id: VCID-bk5u-gbs8-aaab
+aliases:
+  - GHSA-g9r4-xpmj-mj65
+  - GMS-2020-729
+summary: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+  in handlebars.
+severities:
+  - id: 704925
+    reference_id: 35091
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 35090
+    url: https://www.npmjs.com/advisories/1325
+    reference_id:
+  - id: 35091
+    url: https://github.com/advisories/GHSA-g9r4-xpmj-mj65
+    reference_id: GHSA-g9r4-xpmj-mj65
+weaknesses: []

@@ -1,0 +1,377 @@
+package: pkg:nuget/Newtonsoft.Json
+versions:
+  - purl: pkg:nuget/Newtonsoft.Json@10.0.1
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@10.0.1-beta1
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@10.0.2
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@10.0.3
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@11.0.1
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@11.0.1-beta1
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@11.0.1-beta2
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@11.0.1-beta3
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@11.0.2
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@12.0.1
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@12.0.1-beta1
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@12.0.1-beta2
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@12.0.2
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@12.0.2-beta1
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@12.0.2-beta2
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@12.0.2-beta3
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@12.0.3
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@12.0.3-beta1
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@12.0.3-beta2
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@13.0.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+  - purl: pkg:nuget/Newtonsoft.Json@13.0.1-beta1
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@13.0.1-beta2
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@3.5.8
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@4.0.1
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@4.0.2
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@4.0.3
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@4.0.4
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@4.0.5
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@4.0.6
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@4.0.7
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@4.0.8
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@4.5.1
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@4.5.10
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@4.5.11
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@4.5.2
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@4.5.3
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@4.5.4
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@4.5.5
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@4.5.6
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@4.5.7
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@4.5.8
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@4.5.9
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@5.0.1
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@5.0.2
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@5.0.3
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@5.0.4
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@5.0.5
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@5.0.6
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@5.0.7
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@5.0.8
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@6.0.1
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@6.0.1-beta1
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@6.0.2
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@6.0.3
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@6.0.4
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@6.0.5
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@6.0.6
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@6.0.7
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@6.0.8
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@7.0.1
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@7.0.1-beta1
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@7.0.1-beta2
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@7.0.1-beta3
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@8.0.1
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@8.0.1-beta1
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@8.0.1-beta2
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@8.0.1-beta3
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@8.0.1-beta4
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@8.0.2
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@8.0.3
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@8.0.4-beta1
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@9.0.1
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@9.0.1-beta1
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@9.0.2-beta1
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Newtonsoft.Json@9.0.2-beta2
+    affected_by_vulnerabilities:
+      - VCID-6m2y-j3b2-aaad
+      - VCID-qfgr-dq77-aaag
+    fixing_vulnerabilities: []

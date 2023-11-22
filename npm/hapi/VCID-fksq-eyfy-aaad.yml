@@ -1,0 +1,12 @@
+vulnerability_id: VCID-fksq-eyfy-aaad
+aliases:
+  - GMS-2017-123
+summary: |
+  Denial of Service via malformed accept-encoding header
+  When hapi encounters a malformed `accept-encoding` header an uncaught exception is thrown. This may cause hapi to crash or to hang the client connection until the timeout period is reached.
+severities: []
+references:
+  - id: 37223
+    url: https://github.com/hapijs/hapi/issues/3466
+    reference_id:
+weaknesses: []

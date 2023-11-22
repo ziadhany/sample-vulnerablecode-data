@@ -1,0 +1,109 @@
+package: pkg:npm/jpv
+versions:
+  - purl: pkg:npm/jpv@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-jayy-78nk-aaad
+      - VCID-uzvy-bb19-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/jpv@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-jayy-78nk-aaad
+      - VCID-uzvy-bb19-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/jpv@1.1.0
+    affected_by_vulnerabilities:
+      - VCID-jayy-78nk-aaad
+      - VCID-uzvy-bb19-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/jpv@1.1.2
+    affected_by_vulnerabilities:
+      - VCID-jayy-78nk-aaad
+      - VCID-uzvy-bb19-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/jpv@1.1.3
+    affected_by_vulnerabilities:
+      - VCID-jayy-78nk-aaad
+      - VCID-uzvy-bb19-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/jpv@1.1.4
+    affected_by_vulnerabilities:
+      - VCID-jayy-78nk-aaad
+      - VCID-uzvy-bb19-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/jpv@1.2.8
+    affected_by_vulnerabilities:
+      - VCID-jayy-78nk-aaad
+      - VCID-uzvy-bb19-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/jpv@1.3.2
+    affected_by_vulnerabilities:
+      - VCID-jayy-78nk-aaad
+      - VCID-uzvy-bb19-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/jpv@1.3.3
+    affected_by_vulnerabilities:
+      - VCID-jayy-78nk-aaad
+      - VCID-uzvy-bb19-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/jpv@1.3.4
+    affected_by_vulnerabilities:
+      - VCID-jayy-78nk-aaad
+      - VCID-uzvy-bb19-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/jpv@1.3.5
+    affected_by_vulnerabilities:
+      - VCID-jayy-78nk-aaad
+      - VCID-uzvy-bb19-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/jpv@1.3.6
+    affected_by_vulnerabilities:
+      - VCID-jayy-78nk-aaad
+      - VCID-uzvy-bb19-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/jpv@1.3.7
+    affected_by_vulnerabilities:
+      - VCID-jayy-78nk-aaad
+      - VCID-uzvy-bb19-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/jpv@1.4.0
+    affected_by_vulnerabilities:
+      - VCID-jayy-78nk-aaad
+      - VCID-uzvy-bb19-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/jpv@1.5.1
+    affected_by_vulnerabilities:
+      - VCID-jayy-78nk-aaad
+      - VCID-uzvy-bb19-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/jpv@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-jayy-78nk-aaad
+      - VCID-uzvy-bb19-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/jpv@2.0.1
+    affected_by_vulnerabilities:
+      - VCID-jayy-78nk-aaad
+      - VCID-uzvy-bb19-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/jpv@2.1.0
+    affected_by_vulnerabilities:
+      - VCID-jayy-78nk-aaad
+      - VCID-uzvy-bb19-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/jpv@2.1.1
+    affected_by_vulnerabilities:
+      - VCID-uzvy-bb19-aaah
+    fixing_vulnerabilities:
+      - VCID-jayy-78nk-aaad
+  - purl: pkg:npm/jpv@2.1.2
+    affected_by_vulnerabilities:
+      - VCID-uzvy-bb19-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/jpv@2.2.1
+    affected_by_vulnerabilities:
+      - VCID-uzvy-bb19-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/jpv@2.2.2
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-uzvy-bb19-aaah

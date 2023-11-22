@@ -1,0 +1,157 @@
+vulnerability_id: VCID-51sn-78qt-aaab
+aliases:
+  - CVE-2011-2692
+summary: |
+  Improper Restriction of Operations within the Bounds of a Memory Buffer
+  The png_handle_sCAL function in pngrutil.c in libpng  does not properly handle invalid sCAL chunks, which allows remote attackers to cause a denial of service (memory corruption and application crash) or possibly have unspecified other impact via a crafted PNG image that triggers the reading of uninitialized memory.
+severities:
+  - id: 144756
+    reference_id: 37861
+    scoring_system: cvssv2
+    value: '6.8'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:P/A:P
+  - id: 144754
+    reference_id: 37861
+    scoring_system: cvssv3
+    value: '8.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+  - id: 67162
+    reference_id: '196403'
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 67158
+    reference_id: '196397'
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 67159
+    reference_id: '196398'
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 461259
+    url: http://libpng.git.sourceforge.net/git/gitweb.cgi?p=libpng/libpng;a=commit;h=61a2d8a2a7b03023e63eae9a3e64607aaaa6d339
+    reference_id:
+  - id: 308680
+    url: http://lists.apple.com/archives/Security-announce/2011//Oct/msg00003.html
+    reference_id:
+  - id: 445082
+    url: http://lists.apple.com/archives/security-announce/2012/May/msg00001.html
+    reference_id:
+  - id: 460118
+    url: http://lists.fedoraproject.org/pipermail/package-announce/2011-July/063118.html
+    reference_id:
+  - id: '196404'
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2011-2692.json
+    reference_id:
+  - id: 461265
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=720612
+    reference_id:
+  - id: 460119
+    url: http://secunia.com/advisories/45046
+    reference_id:
+  - id: 460121
+    url: http://secunia.com/advisories/45405
+    reference_id:
+  - id: 460122
+    url: http://secunia.com/advisories/45415
+    reference_id:
+  - id: 461260
+    url: http://secunia.com/advisories/45445
+    reference_id:
+  - id: 460123
+    url: http://secunia.com/advisories/45460
+    reference_id:
+  - id: 461250
+    url: http://secunia.com/advisories/45461
+    reference_id:
+  - id: 460125
+    url: http://secunia.com/advisories/45492
+    reference_id:
+  - id: 341404
+    url: http://secunia.com/advisories/49660
+    reference_id:
+  - id: 341405
+    url: http://security.gentoo.org/glsa/glsa-201206-15.xml
+    reference_id:
+  - id: 461266
+    url: https://exchange.xforce.ibmcloud.com/vulnerabilities/68536
+    reference_id:
+  - id: 461261
+    url: http://sourceforge.net/mailarchive/forum.php?thread_name=003101cc2790%24fb5d6e80%24f2184b80%24%40acm.org&forum_name=png-mng-implement
+    reference_id:
+  - id: 308688
+    url: http://support.apple.com/kb/HT5002
+    reference_id:
+  - id: 445083
+    url: http://support.apple.com/kb/HT5281
+    reference_id:
+  - id: 460128
+    url: http://www.debian.org/security/2011/dsa-2287
+    reference_id:
+  - id: 461262
+    url: http://www.kb.cert.org/vuls/id/819894
+    reference_id:
+  - id: 149554
+    url: http://www.libpng.org/pub/png/libpng.html
+    reference_id:
+  - id: 460129
+    url: http://www.mandriva.com/security/advisories?name=MDVSA-2011:151
+    reference_id:
+  - id: 461251
+    url: http://www.openwall.com/lists/oss-security/2011/07/13/2
+    reference_id:
+  - id: 461263
+    url: http://www.redhat.com/support/errata/RHSA-2011-1103.html
+    reference_id:
+  - id: 461252
+    url: http://www.redhat.com/support/errata/RHSA-2011-1104.html
+    reference_id:
+  - id: 460132
+    url: http://www.redhat.com/support/errata/RHSA-2011-1105.html
+    reference_id:
+  - id: 461264
+    url: http://www.securityfocus.com/bid/48618
+    reference_id:
+  - id: 460134
+    url: http://www.ubuntu.com/usn/USN-1175-1
+    reference_id:
+  - id: 149566
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:libpng:libpng:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:libpng:libpng:*:*:*:*:*:*:*:*
+  - id: 417481
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:canonical:ubuntu_linux:10.04:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:canonical:ubuntu_linux:10.04:*:*:*:*:*:*:*
+  - id: 157463
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:canonical:ubuntu_linux:10.10:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:canonical:ubuntu_linux:10.10:*:*:*:*:*:*:*
+  - id: 404628
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:canonical:ubuntu_linux:11.04:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:canonical:ubuntu_linux:11.04:*:*:*:*:*:*:*
+  - id: 152409
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:canonical:ubuntu_linux:8.04:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:canonical:ubuntu_linux:8.04:*:*:*:*:*:*:*
+  - id: 152410
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:debian:debian_linux:5.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:debian:debian_linux:5.0:*:*:*:*:*:*:*
+  - id: 79273
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:debian:debian_linux:6.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:debian:debian_linux:6.0:*:*:*:*:*:*:*
+  - id: 398114
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:fedoraproject:fedora:14:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:fedoraproject:fedora:14:*:*:*:*:*:*:*
+  - id: 37861
+    url: https://nvd.nist.gov/vuln/detail/CVE-2011-2692
+    reference_id: CVE-2011-2692
+  - id: '196403'
+    url: https://access.redhat.com/errata/RHSA-2011:1103
+    reference_id: RHSA-2011:1103
+  - id: '196397'
+    url: https://access.redhat.com/errata/RHSA-2011:1104
+    reference_id: RHSA-2011:1104
+  - id: '196398'
+    url: https://access.redhat.com/errata/RHSA-2011:1105
+    reference_id: RHSA-2011:1105
+weaknesses: []

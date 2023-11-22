@@ -1,0 +1,43 @@
+vulnerability_id: VCID-c9pf-xvcc-aaaf
+aliases:
+  - CVE-2017-16199
+  - GHSA-w7jg-972m-rphv
+summary: |
+  Path Traversal
+  susu-sum is vulnerable to a directory traversal issue, giving an attacker access to the filesystem by placing `../` in the url.
+severities:
+  - id: 270408
+    reference_id: 33862
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 270406
+    reference_id: 33862
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+  - id: 705785
+    reference_id: 1467126
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 33861
+    url: https://github.com/JacksonGL/NPM-Vuln-PoC/blob/master/directory-traversal/susu-sum
+    reference_id:
+  - id: 688018
+    url: https://nodesecurity.io/advisories/429
+    reference_id:
+  - id: 1467125
+    url: https://www.npmjs.com/advisories/429
+    reference_id:
+  - id: 688019
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:susu-sum_project:susu-sum:1.0.0:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:susu-sum_project:susu-sum:1.0.0:*:*:*:*:node.js:*:*
+  - id: 33862
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-16199
+    reference_id: CVE-2017-16199
+  - id: 1467126
+    url: https://github.com/advisories/GHSA-w7jg-972m-rphv
+    reference_id: GHSA-w7jg-972m-rphv
+weaknesses: []

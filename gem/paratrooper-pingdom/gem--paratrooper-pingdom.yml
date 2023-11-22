@@ -1,0 +1,10 @@
+package: pkg:gem/paratrooper-pingdom
+versions:
+  - purl: pkg:gem/paratrooper-pingdom@0.0.0
+    affected_by_vulnerabilities:
+      - VCID-78up-p3w1-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/paratrooper-pingdom@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-78up-p3w1-aaad
+    fixing_vulnerabilities: []

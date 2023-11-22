@@ -1,0 +1,30 @@
+vulnerability_id: VCID-y4df-rb3z-aaap
+aliases:
+  - GHSA-227w-wv4j-67h4
+  - GMS-2022-35
+summary: Class Loading Vulnerability in Artemis
+severities:
+  - id: 61
+    reference_id: 796
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 60
+    reference_id: 793
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 794
+    url: https://github.com/ls1intum/Ares/issues/15
+    reference_id:
+  - id: 795
+    url: https://github.com/ls1intum/Ares/releases/tag/1.8.0
+    reference_id:
+  - id: 796
+    url: https://github.com/advisories/GHSA-227w-wv4j-67h4
+    reference_id: GHSA-227w-wv4j-67h4
+  - id: 793
+    url: https://github.com/ls1intum/Ares/security/advisories/GHSA-227w-wv4j-67h4
+    reference_id: GHSA-227w-wv4j-67h4
+weaknesses: []

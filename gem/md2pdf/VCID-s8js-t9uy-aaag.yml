@@ -1,0 +1,39 @@
+vulnerability_id: VCID-s8js-t9uy-aaag
+aliases:
+  - CVE-2013-1948
+  - GHSA-99ch-8mvp-g7m5
+summary: Critical severity vulnerability that affects md2pdf
+severities:
+  - id: 164467
+    reference_id: 30447
+    scoring_system: cvssv2
+    value: '10.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:C/I:C/A:C
+  - id: 5327
+    reference_id: 30449
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 30450
+    url: http://osvdb.org/92290
+    reference_id:
+  - id: 30448
+    url: https://exchange.xforce.ibmcloud.com/vulnerabilities/83416
+    reference_id:
+  - id: 1469680
+    url: https://web.archive.org/web/20200229101715/http://www.securityfocus.com/bid/59061
+    reference_id:
+  - id: 30451
+    url: http://vapid.dhs.org/advisories/md2pdf-remote-exec.html
+    reference_id:
+  - id: 30452
+    url: http://www.securityfocus.com/bid/59061
+    reference_id:
+  - id: 30447
+    url: https://nvd.nist.gov/vuln/detail/CVE-2013-1948
+    reference_id: CVE-2013-1948
+  - id: 30449
+    url: https://github.com/advisories/GHSA-99ch-8mvp-g7m5
+    reference_id: GHSA-99ch-8mvp-g7m5
+weaknesses: []

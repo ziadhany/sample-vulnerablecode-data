@@ -1,0 +1,56 @@
+vulnerability_id: VCID-v9y1-b9pu-aaaq
+aliases:
+  - CVE-2021-40829
+  - GHSA-743r-5g92-5vgf
+  - PYSEC-2021-862
+summary: 'Connections initialized by the AWS IoT Device SDK v2 for Java (versions prior to 1.4.2),
+  Python (versions prior to 1.6.1), C++ (versions prior to 1.12.7) and Node.js (versions prior
+  to 1.5.3) did not verify server certificate hostname during TLS handshake when overriding
+  Certificate Authorities (CA) in their trust stores on MacOS. This issue has been addressed
+  in aws-c-io submodule versions 0.10.5 onward. This issue affects: Amazon Web Services AWS
+  IoT Device SDK v2 for Java versions prior to 1.4.2 on macOS. Amazon Web Services AWS IoT Device
+  SDK v2 for Python versions prior to 1.6.1 on macOS. Amazon Web Services AWS IoT Device SDK
+  v2 for C++ versions prior to 1.12.7 on macOS. Amazon Web Services AWS IoT Device SDK v2 for
+  Node.js versions prior to 1.5.3 on macOS. Amazon Web Services AWS-C-IO 0.10.4 on macOS.'
+severities:
+  - id: 561056
+    reference_id: 10067
+    scoring_system: cvssv2
+    value: '5.8'
+    scoring_elements: AV:A/AC:L/Au:N/C:P/I:P/A:P
+  - id: 561054
+    reference_id: 10067
+    scoring_system: cvssv3
+    value: '8.8'
+    scoring_elements: CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 901
+    reference_id: 10069
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 8508
+    url: https://github.com/aws/aws-iot-device-sdk-cpp-v2
+    reference_id:
+  - id: 8509
+    url: https://github.com/aws/aws-iot-device-sdk-java-v2
+    reference_id:
+  - id: 10068
+    url: https://github.com/aws/aws-iot-device-sdk-java-v2/commits/v1.4.2
+    reference_id:
+  - id: 8505
+    url: https://github.com/aws/aws-iot-device-sdk-js-v2
+    reference_id:
+  - id: 8507
+    url: https://github.com/aws/aws-iot-device-sdk-python-v2
+    reference_id:
+  - id: 8506
+    url: https://github.com/awslabs/aws-c-io/
+    reference_id:
+  - id: 10067
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-40829
+    reference_id: CVE-2021-40829
+  - id: 10069
+    url: https://github.com/advisories/GHSA-743r-5g92-5vgf
+    reference_id: GHSA-743r-5g92-5vgf
+weaknesses: []

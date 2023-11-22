@@ -1,0 +1,119 @@
+vulnerability_id: VCID-dekn-5tsp-aaae
+aliases:
+  - CVE-2012-1154
+summary: |
+  Improper Access Control
+  When `ROOT` is set to `excludedContexts`, JBoss exposes the root context of the server, which allows remote attackers to bypass access restrictions and gain access to applications deployed on the root context via unspecified vectors.
+severities:
+  - id: 151820
+    reference_id: 484355
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:N/A:N
+  - id: 66882
+    reference_id: '196046'
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 66886
+    reference_id: '196050'
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 66885
+    reference_id: '196049'
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 66881
+    reference_id: '196045'
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 66883
+    reference_id: '196047'
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 66884
+    reference_id: '196048'
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 484345
+    url: http://rhn.redhat.com/errata/RHSA-2012-1010.html
+    reference_id:
+  - id: 484346
+    url: http://rhn.redhat.com/errata/RHSA-2012-1011.html
+    reference_id:
+  - id: 484347
+    url: http://rhn.redhat.com/errata/RHSA-2012-1012.html
+    reference_id:
+  - id: 484348
+    url: http://rhn.redhat.com/errata/RHSA-2012-1052.html
+    reference_id:
+  - id: 484349
+    url: http://rhn.redhat.com/errata/RHSA-2012-1053.html
+    reference_id:
+  - id: 484350
+    url: http://rhn.redhat.com/errata/RHSA-2012-1166.html
+    reference_id:
+  - id: '196051'
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2012-1154.json
+    reference_id:
+  - id: 484352
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=802200
+    reference_id:
+  - id: 484353
+    url: https://community.jboss.org/message/624018
+    reference_id:
+  - id: 484351
+    url: http://secunia.com/advisories/49636
+    reference_id:
+  - id: 484354
+    url: https://issues.jboss.org/browse/MODCLUSTER-253
+    reference_id:
+  - id: 470862
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:5.1.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:5.1.2:*:*:*:*:*:*:*
+  - id: 484356
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:mod_cluster:1.0.10:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:mod_cluster:1.0.10:*:*:*:*:*:*:*
+  - id: 484357
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:mod_cluster:1.1.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:mod_cluster:1.1.0:*:*:*:*:*:*:*
+  - id: 484358
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:mod_cluster:1.1.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:mod_cluster:1.1.1:*:*:*:*:*:*:*
+  - id: 484359
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:mod_cluster:1.1.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:mod_cluster:1.1.2:*:*:*:*:*:*:*
+  - id: 484360
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:mod_cluster:1.1.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:mod_cluster:1.1.3:*:*:*:*:*:*:*
+  - id: 484361
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:mod_cluster:1.1.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:mod_cluster:1.1.4:*:*:*:*:*:*:*
+  - id: 484355
+    url: https://nvd.nist.gov/vuln/detail/CVE-2012-1154
+    reference_id: CVE-2012-1154
+  - id: '196046'
+    url: https://access.redhat.com/errata/RHSA-2012:1010
+    reference_id: RHSA-2012:1010
+  - id: '196050'
+    url: https://access.redhat.com/errata/RHSA-2012:1011
+    reference_id: RHSA-2012:1011
+  - id: '196049'
+    url: https://access.redhat.com/errata/RHSA-2012:1012
+    reference_id: RHSA-2012:1012
+  - id: '196045'
+    url: https://access.redhat.com/errata/RHSA-2012:1052
+    reference_id: RHSA-2012:1052
+  - id: '196047'
+    url: https://access.redhat.com/errata/RHSA-2012:1053
+    reference_id: RHSA-2012:1053
+  - id: '196048'
+    url: https://access.redhat.com/errata/RHSA-2012:1166
+    reference_id: RHSA-2012:1166
+weaknesses: []

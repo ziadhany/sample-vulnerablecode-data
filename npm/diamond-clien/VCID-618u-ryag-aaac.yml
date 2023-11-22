@@ -1,0 +1,20 @@
+vulnerability_id: VCID-618u-ryag-aaac
+aliases:
+  - GHSA-86gv-xpwv-jprc
+  - GMS-2020-228
+summary: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+  in diamond-clien.
+severities:
+  - id: 704744
+    reference_id: 32265
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 32264
+    url: https://www.npmjs.com/advisories/1052
+    reference_id:
+  - id: 32265
+    url: https://github.com/advisories/GHSA-86gv-xpwv-jprc
+    reference_id: GHSA-86gv-xpwv-jprc
+weaknesses: []

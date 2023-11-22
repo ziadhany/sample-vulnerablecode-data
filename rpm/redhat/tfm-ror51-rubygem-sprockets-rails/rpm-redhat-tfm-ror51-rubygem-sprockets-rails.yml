@@ -1,0 +1,33 @@
+package: pkg:rpm/redhat/tfm-ror51-rubygem-sprockets-rails
+versions:
+  - purl: pkg:rpm/redhat/tfm-ror51-rubygem-sprockets-rails@3.2.1-1?arch=el7sat
+    affected_by_vulnerabilities:
+      - VCID-37rn-gt5b-aaab
+      - VCID-4fxt-kkh8-aaan
+      - VCID-5nqk-znrf-aaab
+      - VCID-86cc-pw8u-aaaa
+      - VCID-88my-hd9q-aaam
+      - VCID-9c29-3454-aaab
+      - VCID-9jcc-2gjw-aaae
+      - VCID-a8mw-s4pr-aaab
+      - VCID-c8j9-tbvg-aaaq
+      - VCID-ean7-wkmd-aaac
+      - VCID-eps5-dhv3-aaam
+      - VCID-esta-bsrw-aaah
+      - VCID-gm2v-j1q8-aaab
+      - VCID-h3jt-mtpc-aaab
+      - VCID-hxm6-fgzs-aaam
+      - VCID-ja9x-8z86-aaag
+      - VCID-jbw5-5xat-aaaa
+      - VCID-mc9t-adza-aaak
+      - VCID-mjez-6y4p-aaaj
+      - VCID-nd3n-xrcv-aaan
+      - VCID-nupt-j8jb-aaar
+      - VCID-pydt-nu2k-aaar
+      - VCID-q8ax-dhju-aaab
+      - VCID-qjx3-vgza-aaak
+      - VCID-qp18-7kq8-aaab
+      - VCID-r5ac-x57y-aaap
+      - VCID-xham-1avc-aaaj
+      - VCID-zwyg-ab9c-aaab
+    fixing_vulnerabilities: []

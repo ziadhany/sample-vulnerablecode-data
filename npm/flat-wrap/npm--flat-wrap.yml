@@ -1,0 +1,18 @@
+package: pkg:npm/flat-wrap
+versions:
+  - purl: pkg:npm/flat-wrap@0.0.0
+    affected_by_vulnerabilities:
+      - VCID-kq1m-5q2q-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/flat-wrap@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-kq1m-5q2q-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/flat-wrap@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-kq1m-5q2q-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/flat-wrap@1.0.2
+    affected_by_vulnerabilities:
+      - VCID-kq1m-5q2q-aaaj
+    fixing_vulnerabilities: []

@@ -1,0 +1,48 @@
+vulnerability_id: VCID-ctkx-7jpp-aaac
+aliases:
+  - CVE-2018-17247
+  - GHSA-ccmr-qj26-845g
+summary: Elasticsearch Security versions 6.5.0 and 6.5.1 contain an XXE flaw in Machine Learning's
+  find_file_structure API. If a policy allowing external network access has been added to Elasticsearch's
+  Java Security Manager then an attacker could send a specially crafted request capable of leaking
+  content of local files on the Elasticsearch node. This could allow a user to access information
+  that they should not have access to.
+severities:
+  - id: 332168
+    reference_id: 740943
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:N/A:N
+  - id: 332166
+    reference_id: 740943
+    scoring_system: cvssv3
+    value: '5.9'
+    scoring_elements: CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
+  - id: 630428
+    reference_id: 946568
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 740942
+    url: https://discuss.elastic.co/t/elastic-stack-6-5-2-security-update/159594
+    reference_id:
+  - id: 26207
+    url: https://www.elastic.co/community/security
+    reference_id:
+  - id: 740941
+    url: http://www.securityfocus.com/bid/106294
+    reference_id:
+  - id: 740944
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:elastic:elasticsearch:6.5.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:elastic:elasticsearch:6.5.0:*:*:*:*:*:*:*
+  - id: 740945
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:elastic:elasticsearch:6.5.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:elastic:elasticsearch:6.5.1:*:*:*:*:*:*:*
+  - id: 740943
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-17247
+    reference_id: CVE-2018-17247
+  - id: 946568
+    url: https://github.com/advisories/GHSA-ccmr-qj26-845g
+    reference_id: GHSA-ccmr-qj26-845g
+weaknesses: []

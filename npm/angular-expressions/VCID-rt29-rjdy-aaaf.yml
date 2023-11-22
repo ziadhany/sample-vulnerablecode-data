@@ -1,0 +1,46 @@
+vulnerability_id: VCID-rt29-rjdy-aaaf
+aliases:
+  - CVE-2021-21277
+  - GHSA-j6px-jwvv-vpwq
+summary: |
+  Injection Vulnerability
+  In angular-expressions there is a vulnerability which allows Remote Code Execution if you call `expressions.compile(userControlledInput)` where "userControlledInput" is text that comes from user input. The security of the package could be bypassed by using a more complex payload, using a `constructor.constructor` technique. In terms of impact: If running angular-expressions in the browser, an attacker could run any browser script when the application code calls `expressions.compile(userControlledInput)`. If running angular-expressions on the server, an attacker could run any Javascript expression, thus gaining Remote Code Execution. This is fixed of angular-expressions A temporary workaround might be either to disable user-controlled input that will be fed into angular-expressions in your application or allow only following characters in the `userControlledInput`.
+severities:
+  - id: 507838
+    reference_id: 35509
+    scoring_system: cvssv2
+    value: '6.5'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:P/A:P
+  - id: 507836
+    reference_id: 35509
+    scoring_system: cvssv3
+    value: '8.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+  - id: 706503
+    reference_id: 1468110
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 35510
+    url: http://blog.angularjs.org/2016/09/angular-16-expression-sandbox-removal.html
+    reference_id:
+  - id: 863666
+    url: https://github.com/peerigon/angular-expressions/commit/07edb62902b1f6127b3dcc013da61c6316dd0bf1
+    reference_id:
+  - id: 863667
+    url: https://github.com/peerigon/angular-expressions/security/advisories/GHSA-j6px-jwvv-vpwq
+    reference_id:
+  - id: 863668
+    url: https://www.npmjs.com/package/angular-expressions
+    reference_id:
+  - id: 847611
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:peerigon:angular-expressions:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:peerigon:angular-expressions:*:*:*:*:*:node.js:*:*
+  - id: 35509
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-21277
+    reference_id: CVE-2021-21277
+  - id: 1468110
+    url: https://github.com/advisories/GHSA-j6px-jwvv-vpwq
+    reference_id: GHSA-j6px-jwvv-vpwq
+weaknesses: []

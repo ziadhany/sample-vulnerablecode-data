@@ -1,0 +1,35 @@
+vulnerability_id: VCID-s3cb-q5u3-aaaf
+aliases:
+  - CVE-2022-37022
+  - GHSA-qf8g-vpwp-6579
+summary: Apache Geode versions up to 1.12.2 and 1.13.2 are vulnerable to a deserialization of
+  untrusted data flaw when using JMX over RMI on Java 11. Any user wishing to protect against
+  deserialization attacks involving JMX or RMI should upgrade to Apache Geode 1.15. Use of 1.15
+  on Java 11 will automatically protect JMX over RMI against deserialization attacks. This should
+  have no impact on performance since it only affects JMX/RMI which Gfsh uses to communicate
+  with the JMX Manager which is hosted on a Locator.
+severities:
+  - id: 647167
+    reference_id: 1415457
+    scoring_system: cvssv3
+    value: '8.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+  - id: 647781
+    reference_id: 1417515
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 1415456
+    url: https://lists.apache.org/thread/kr1y4l9752g1ww1shnmh8dbfjq785k4m
+    reference_id:
+  - id: 677805
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:geode:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:geode:*:*:*:*:*:*:*:*
+  - id: 1415457
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-37022
+    reference_id: CVE-2022-37022
+  - id: 1417515
+    url: https://github.com/advisories/GHSA-qf8g-vpwp-6579
+    reference_id: GHSA-qf8g-vpwp-6579
+weaknesses: []

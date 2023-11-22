@@ -1,0 +1,250 @@
+package: pkg:npm/openzeppelin-solidity
+versions:
+  - purl: pkg:npm/openzeppelin-solidity@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@2.0.1
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@2.1.0
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@2.1.0-rc.1
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@2.1.0-rc.2
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@2.1.1
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@2.1.2
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@2.1.3
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@2.2.0
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@2.2.0-rc.1
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@2.3.0
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@2.3.0-rc.0
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@2.3.0-rc.1
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@2.3.0-rc.2
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@2.3.0-rc.3
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@2.4.0
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@2.4.0-beta.0
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@2.4.0-beta.1
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@2.4.0-beta.2
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@2.5.0
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@2.5.0-rc.0
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@2.5.1
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@3.0.0
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@3.0.0-beta.0
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@3.0.0-rc.0
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@3.0.0-rc.1
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@3.0.1
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@3.0.2
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@3.1.0
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@3.1.0-rc.0
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@3.2.0
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@3.2.0-rc.0
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@3.3.0
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@3.3.0-rc.0
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@3.3.0-rc.1
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@3.3.0-rc.2
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@3.4.0
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@3.4.0-rc.0
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@3.4.1
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@3.4.1-solc-0.7
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@3.4.2
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@3.4.2-solc-0.7
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@4.0.0
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@4.0.0-beta.0
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@4.0.0-beta.1
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@4.0.0-rc.0
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@4.1.0
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@4.1.0-rc.0
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@4.2.0
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@4.2.0-rc.0
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@4.3.0
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@4.3.0-rc.0
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@4.3.1
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@4.3.2
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@4.3.3
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@4.4.0
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@4.4.0-rc.0
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@4.4.1
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@4.4.2
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@4.5.0
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@4.6.0
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/openzeppelin-solidity@4.6.0-rc.0
+    affected_by_vulnerabilities:
+      - VCID-96hp-kzea-aaaq
+    fixing_vulnerabilities: []

@@ -1,0 +1,146 @@
+package: pkg:gem/jquery-ui-rails
+versions:
+  - purl: pkg:gem/jquery-ui-rails@0.0.1
+    affected_by_vulnerabilities:
+      - VCID-pp3w-2c7a-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-ui-rails@0.0.2
+    affected_by_vulnerabilities:
+      - VCID-pp3w-2c7a-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-ui-rails@0.1.0
+    affected_by_vulnerabilities:
+      - VCID-pp3w-2c7a-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-ui-rails@0.2.0
+    affected_by_vulnerabilities:
+      - VCID-pp3w-2c7a-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-ui-rails@0.2.1
+    affected_by_vulnerabilities:
+      - VCID-pp3w-2c7a-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-ui-rails@0.2.2
+    affected_by_vulnerabilities:
+      - VCID-pp3w-2c7a-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-ui-rails@0.3.0
+    affected_by_vulnerabilities:
+      - VCID-pp3w-2c7a-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-ui-rails@0.4.0
+    affected_by_vulnerabilities:
+      - VCID-pp3w-2c7a-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-ui-rails@0.4.1
+    affected_by_vulnerabilities:
+      - VCID-pp3w-2c7a-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-ui-rails@0.5.0
+    affected_by_vulnerabilities:
+      - VCID-pp3w-2c7a-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-ui-rails@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-pp3w-2c7a-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-ui-rails@1.1.0
+    affected_by_vulnerabilities:
+      - VCID-pp3w-2c7a-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-ui-rails@1.1.1
+    affected_by_vulnerabilities:
+      - VCID-pp3w-2c7a-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-ui-rails@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-pp3w-2c7a-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-ui-rails@2.0.1
+    affected_by_vulnerabilities:
+      - VCID-pp3w-2c7a-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-ui-rails@2.0.2
+    affected_by_vulnerabilities:
+      - VCID-pp3w-2c7a-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-ui-rails@3.0.0
+    affected_by_vulnerabilities:
+      - VCID-pp3w-2c7a-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-ui-rails@3.0.1
+    affected_by_vulnerabilities:
+      - VCID-pp3w-2c7a-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-ui-rails@4.0.0
+    affected_by_vulnerabilities:
+      - VCID-pp3w-2c7a-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-ui-rails@4.0.1
+    affected_by_vulnerabilities:
+      - VCID-pp3w-2c7a-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-ui-rails@4.0.2
+    affected_by_vulnerabilities:
+      - VCID-pp3w-2c7a-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-ui-rails@4.0.3
+    affected_by_vulnerabilities:
+      - VCID-pp3w-2c7a-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-ui-rails@4.0.4
+    affected_by_vulnerabilities:
+      - VCID-pp3w-2c7a-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-ui-rails@4.0.5
+    affected_by_vulnerabilities:
+      - VCID-pp3w-2c7a-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-ui-rails@4.1.0
+    affected_by_vulnerabilities:
+      - VCID-pp3w-2c7a-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-ui-rails@4.1.1
+    affected_by_vulnerabilities:
+      - VCID-pp3w-2c7a-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-ui-rails@4.1.2
+    affected_by_vulnerabilities:
+      - VCID-pp3w-2c7a-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-ui-rails@4.2.0
+    affected_by_vulnerabilities:
+      - VCID-pp3w-2c7a-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-ui-rails@4.2.1
+    affected_by_vulnerabilities:
+      - VCID-pp3w-2c7a-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-ui-rails@5.0.0
+    affected_by_vulnerabilities:
+      - VCID-pp3w-2c7a-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-ui-rails@5.0.1
+    affected_by_vulnerabilities:
+      - VCID-pp3w-2c7a-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-ui-rails@5.0.2
+    affected_by_vulnerabilities:
+      - VCID-pp3w-2c7a-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-ui-rails@5.0.3
+    affected_by_vulnerabilities:
+      - VCID-pp3w-2c7a-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-ui-rails@5.0.4
+    affected_by_vulnerabilities:
+      - VCID-pp3w-2c7a-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-ui-rails@5.0.5
+    affected_by_vulnerabilities:
+      - VCID-pp3w-2c7a-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-ui-rails@6.0.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-pp3w-2c7a-aaah

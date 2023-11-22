@@ -1,0 +1,64 @@
+vulnerability_id: VCID-ma3u-16r3-aaak
+aliases:
+  - CVE-2014-6439
+  - GHSA-8699-m855-cwqf
+summary: |
+  CSRF via insecure CORS default configuration
+  Cross-site scripting (XSS) vulnerability in the CORS functionality in this package allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.
+severities:
+  - id: 58454
+    reference_id: 184771
+    scoring_system: rhbs
+    value: low
+    scoring_elements:
+  - id: 185945
+    reference_id: 580017
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+  - id: 648076
+    reference_id: 1418472
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 580013
+    url: http://packetstormsecurity.com/files/128556/Elasticsearch-1.3.x-CORS-Issue.html
+    reference_id:
+  - id: 184772
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2014-6439.json
+    reference_id:
+  - id: 26388
+    url: https://github.com/elasticsearch/elasticsearch/issues/7151
+    reference_id:
+  - id: 1681
+    url: https://www.elastic.co/community/security/
+    reference_id:
+  - id: 580014
+    url: http://www.elasticsearch.org/blog/elasticsearch-1-4-0-beta-released/
+    reference_id:
+  - id: 26386
+    url: http://www.elasticsearch.org/community/security/
+    reference_id:
+  - id: 580015
+    url: http://www.securityfocus.com/archive/1/533602/100/0/threaded
+    reference_id:
+  - id: 580016
+    url: http://www.securityfocus.com/bid/70233
+    reference_id:
+  - id: 184771
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1149945
+    reference_id: 1149945
+  - id: 160900
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:elasticsearch:elasticsearch:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:elasticsearch:elasticsearch:*:*:*:*:*:*:*:*
+  - id: 26387
+    url: https://bugzilla.redhat.com/CVE-2014-6439
+    reference_id: CVE-2014-6439
+  - id: 580017
+    url: https://nvd.nist.gov/vuln/detail/CVE-2014-6439
+    reference_id: CVE-2014-6439
+  - id: 1418472
+    url: https://github.com/advisories/GHSA-8699-m855-cwqf
+    reference_id: GHSA-8699-m855-cwqf
+weaknesses: []

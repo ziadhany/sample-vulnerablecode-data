@@ -1,0 +1,6 @@
+package: pkg:rpm/redhat/xorg-x11-drv-fpit
+versions:
+  - purl: pkg:rpm/redhat/xorg-x11-drv-fpit@1.4.0-6?arch=el6
+    affected_by_vulnerabilities:
+      - VCID-b88m-9bjp-aaak
+    fixing_vulnerabilities: []

@@ -1,0 +1,148 @@
+vulnerability_id: VCID-x21e-b4q2-aaae
+aliases:
+  - CVE-2017-12174
+  - GHSA-gc96-h5pr-839j
+summary: It was found that when Artemis and HornetQ before 2.4.0 are configured with UDP discovery
+  and JGroups discovery a huge byte array is created when receiving an unexpected multicast
+  message. This may result in a heap memory exhaustion, full GC, or OutOfMemoryError.
+severities:
+  - id: 618432
+    reference_id: 937498
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 618426
+    reference_id: 937492
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 257489
+    reference_id: 675990
+    scoring_system: cvssv2
+    value: '7.8'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:C
+  - id: 257487
+    reference_id: 675990
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 630296
+    reference_id: 946395
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 618430
+    reference_id: 937496
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 618429
+    reference_id: 937495
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 618427
+    reference_id: 937493
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 618428
+    reference_id: 937494
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 618431
+    reference_id: 937497
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 617263
+    reference_id: 936660
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 617264
+    reference_id: 936661
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 617261
+    reference_id: 936658
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 617265
+    reference_id: 936662
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 617262
+    reference_id: 936659
+    scoring_system: rhas
+    value: Critical
+    scoring_elements:
+references:
+  - id: 937498
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2017-12174.json
+    reference_id:
+  - id: 675989
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2017-12174
+    reference_id:
+  - id: 12300
+    url: https://lists.apache.org/thread.html/rb2fd3bf2dce042e0ab3f3c94c4767c96bb2e7e6737624d63162df36d@%3Ccommits.activemq.apache.org%3E
+    reference_id:
+  - id: 1471184
+    url: https://lists.apache.org/thread.html/rb2fd3bf2dce042e0ab3f3c94c4767c96bb2e7e6737624d63162df36d%40%3Ccommits.activemq.apache.org%3E
+    reference_id:
+  - id: 12310
+    url: https://lists.apache.org/thread.html/rc96ad63f148f784c84ea7f0a178c84a8985c6afccabbcd9847a82088@%3Ccommits.activemq.apache.org%3E
+    reference_id:
+  - id: 1471185
+    url: https://lists.apache.org/thread.html/rc96ad63f148f784c84ea7f0a178c84a8985c6afccabbcd9847a82088%40%3Ccommits.activemq.apache.org%3E
+    reference_id:
+  - id: 937492
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1498378
+    reference_id: 1498378
+  - id: 647042
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:activemq_artemis:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:activemq_artemis:*:*:*:*:*:*:*:*
+  - id: 567756
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:hornetq:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:hornetq:*:*:*:*:*:*:*:*
+  - id: 675990
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-12174
+    reference_id: CVE-2017-12174
+  - id: 946395
+    url: https://github.com/advisories/GHSA-gc96-h5pr-839j
+    reference_id: GHSA-gc96-h5pr-839j
+  - id: 937496
+    url: https://access.redhat.com/errata/RHSA-2018:0268
+    reference_id: RHSA-2018:0268
+  - id: 937495
+    url: https://access.redhat.com/errata/RHSA-2018:0269
+    reference_id: RHSA-2018:0269
+  - id: 937493
+    url: https://access.redhat.com/errata/RHSA-2018:0270
+    reference_id: RHSA-2018:0270
+  - id: 937494
+    url: https://access.redhat.com/errata/RHSA-2018:0271
+    reference_id: RHSA-2018:0271
+  - id: 937497
+    url: https://access.redhat.com/errata/RHSA-2018:0275
+    reference_id: RHSA-2018:0275
+  - id: 936660
+    url: https://access.redhat.com/errata/RHSA-2018:0478
+    reference_id: RHSA-2018:0478
+  - id: 936661
+    url: https://access.redhat.com/errata/RHSA-2018:0479
+    reference_id: RHSA-2018:0479
+  - id: 936658
+    url: https://access.redhat.com/errata/RHSA-2018:0480
+    reference_id: RHSA-2018:0480
+  - id: 936662
+    url: https://access.redhat.com/errata/RHSA-2018:0481
+    reference_id: RHSA-2018:0481
+  - id: 936659
+    url: https://access.redhat.com/errata/RHSA-2020:2561
+    reference_id: RHSA-2020:2561
+weaknesses: []

@@ -1,0 +1,65 @@
+vulnerability_id: VCID-95py-1ncs-aaaj
+aliases:
+  - CVE-2018-16982
+  - GHSA-9qh2-6fxg-9m4g
+summary: Open Chinese Convert (OpenCC) 1.0.5 allows attackers to cause a denial of service (segmentation
+  fault) because BinaryDict::NewFromFile in BinaryDict.cpp may have out-of-bounds keyOffset
+  and valueOffset values via a crafted .ocd file.
+severities:
+  - id: 614439
+    reference_id: 934614
+    scoring_system: cvssv3
+    value: '4.7'
+    scoring_elements: CVSS:3.0/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
+  - id: 614438
+    reference_id: 934613
+    scoring_system: rhbs
+    value: low
+    scoring_elements:
+  - id: 331316
+    reference_id: 740291
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:N/A:P
+  - id: 331314
+    reference_id: 740291
+    scoring_system: cvssv3
+    value: '5.5'
+    scoring_elements: CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+  - id: 705873
+    reference_id: 1462887
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 934614
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2018-16982.json
+    reference_id:
+  - id: 1471533
+    url: https://github.com/BYVoid/OpenCC/commit/4a4f9e58e505fca93605f22363c133df66a91a5e
+    reference_id:
+  - id: 740290
+    url: https://github.com/BYVoid/OpenCC/issues/303
+    reference_id:
+  - id: 1462884
+    url: https://github.com/BYVoid/OpenCC/pull/309
+    reference_id:
+  - id: 1462885
+    url: https://github.com/BYVoid/OpenCC/pull/560
+    reference_id:
+  - id: 1462886
+    url: https://github.com/BYVoid/OpenCC/pull/560/commits/e1b8c7949738100e4747dd4109ef1f16e1bd99c4
+    reference_id:
+  - id: 934613
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1629955
+    reference_id: 1629955
+  - id: 740292
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:byvoid:open_chinese_convert:1.0.5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:byvoid:open_chinese_convert:1.0.5:*:*:*:*:*:*:*
+  - id: 740291
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-16982
+    reference_id: CVE-2018-16982
+  - id: 1462887
+    url: https://github.com/advisories/GHSA-9qh2-6fxg-9m4g
+    reference_id: GHSA-9qh2-6fxg-9m4g
+weaknesses: []

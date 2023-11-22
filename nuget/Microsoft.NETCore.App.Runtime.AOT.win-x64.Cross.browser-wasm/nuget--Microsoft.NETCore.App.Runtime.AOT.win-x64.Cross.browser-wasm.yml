@@ -1,0 +1,22 @@
+package: pkg:nuget/Microsoft.NETCore.App.Runtime.AOT.win-x64.Cross.browser-wasm
+versions:
+  - purl: pkg:nuget/Microsoft.NETCore.App.Runtime.AOT.win-x64.Cross.browser-wasm@6.0.0
+    affected_by_vulnerabilities:
+      - VCID-75cy-7mx4-aaae
+      - VCID-zv7x-wujr-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.NETCore.App.Runtime.AOT.win-x64.Cross.browser-wasm@6.0.1
+    affected_by_vulnerabilities:
+      - VCID-75cy-7mx4-aaae
+      - VCID-zv7x-wujr-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.NETCore.App.Runtime.AOT.win-x64.Cross.browser-wasm@6.0.2
+    affected_by_vulnerabilities:
+      - VCID-75cy-7mx4-aaae
+      - VCID-zv7x-wujr-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.NETCore.App.Runtime.AOT.win-x64.Cross.browser-wasm@6.0.3
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-75cy-7mx4-aaae
+      - VCID-zv7x-wujr-aaaa

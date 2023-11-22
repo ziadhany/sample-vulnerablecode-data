@@ -1,0 +1,15 @@
+vulnerability_id: VCID-wxcb-4m51-aaak
+aliases:
+  - GMS-2015-54
+summary: |
+  Denial of service - Potential socket exhaustion
+  Certain input passed into the If-Modified-Since or Last-Modified headers will cause an 'illegal access' exception to be raised. Instead of sending a HTTP error back to the sender, hapi will continue to hold the socket open until timed out (default node timeout is 2 minutes).
+severities: []
+references:
+  - id: 37221
+    url: https://github.com/hapijs/hapi/commit/aab2496e930dce5ee1ab28eecec94e0e45f03580
+    reference_id:
+  - id: 37222
+    url: https://github.com/jfhbrook/node-ecstatic/pull/179
+    reference_id:
+weaknesses: []

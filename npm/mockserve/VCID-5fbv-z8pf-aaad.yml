@@ -1,0 +1,43 @@
+vulnerability_id: VCID-5fbv-z8pf-aaad
+aliases:
+  - CVE-2017-16146
+  - GHSA-vgjp-vh3c-32v3
+summary: |
+  Path Traversal
+  mockserve is vulnerable to a directory traversal issue, giving an attacker access to the filesystem by placing `../` in the url.
+severities:
+  - id: 270196
+    reference_id: 34315
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 270194
+    reference_id: 34315
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+  - id: 705733
+    reference_id: 1467020
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 34314
+    url: https://github.com/JacksonGL/NPM-Vuln-PoC/blob/master/directory-traversal/mockserve
+    reference_id:
+  - id: 687880
+    url: https://nodesecurity.io/advisories/445
+    reference_id:
+  - id: 1467021
+    url: https://www.npmjs.com/advisories/445
+    reference_id:
+  - id: 687881
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:mockserve_project:mockserve:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:mockserve_project:mockserve:*:*:*:*:*:node.js:*:*
+  - id: 34315
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-16146
+    reference_id: CVE-2017-16146
+  - id: 1467020
+    url: https://github.com/advisories/GHSA-vgjp-vh3c-32v3
+    reference_id: GHSA-vgjp-vh3c-32v3
+weaknesses: []

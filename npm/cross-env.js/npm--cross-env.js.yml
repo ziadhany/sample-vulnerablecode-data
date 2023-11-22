@@ -1,0 +1,30 @@
+package: pkg:npm/cross-env.js
+versions:
+  - purl: pkg:npm/cross-env.js@0.0.0
+    affected_by_vulnerabilities:
+      - VCID-ryrd-3wkt-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/cross-env.js@0.0.0-alpha
+    affected_by_vulnerabilities:
+      - VCID-cxzb-m1zr-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/cross-env.js@0.0.1-security
+    affected_by_vulnerabilities:
+      - VCID-cxzb-m1zr-aaaj
+      - VCID-ryrd-3wkt-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/cross-env.js@0.0.2-security
+    affected_by_vulnerabilities:
+      - VCID-cxzb-m1zr-aaaj
+      - VCID-ryrd-3wkt-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/cross-env.js@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-cxzb-m1zr-aaaj
+      - VCID-ryrd-3wkt-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/cross-env.js@1.0.2
+    affected_by_vulnerabilities:
+      - VCID-cxzb-m1zr-aaaj
+      - VCID-ryrd-3wkt-aaaa
+    fixing_vulnerabilities: []

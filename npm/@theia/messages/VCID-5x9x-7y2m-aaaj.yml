@@ -1,0 +1,43 @@
+vulnerability_id: VCID-5x9x-7y2m-aaaj
+aliases:
+  - CVE-2021-28162
+  - GHSA-c94v-8fff-73ph
+summary: |
+  Inclusion of Functionality from Untrusted Control Sphere
+  In Eclipse Theia versions up to and including, in the notification messages there is no HTML escaping, so Javascript code can run.
+severities:
+  - id: 528481
+    reference_id: 31833
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+  - id: 528479
+    reference_id: 31833
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+  - id: 706704
+    reference_id: 31839
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 31838
+    url: https://github.com/eclipse-theia/theia/blob/master/CHANGELOG.md#v100---26032020
+    reference_id:
+  - id: 31834
+    url: https://github.com/eclipse-theia/theia/issues/7283
+    reference_id:
+  - id: 31837
+    url: https://github.com/eclipse-theia/theia/pull/7289
+    reference_id:
+  - id: 786905
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:eclipse:theia:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:eclipse:theia:*:*:*:*:*:*:*:*
+  - id: 31833
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-28162
+    reference_id: CVE-2021-28162
+  - id: 31839
+    url: https://github.com/advisories/GHSA-c94v-8fff-73ph
+    reference_id: GHSA-c94v-8fff-73ph
+weaknesses: []

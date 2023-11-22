@@ -1,0 +1,32 @@
+vulnerability_id: VCID-rcz5-3ds5-aaaj
+aliases:
+  - GHSA-4wv4-mgfq-598v
+  - GMS-2021-38
+summary: |
+  Code injection in nobelprizeparser
+  Code injection through use of eval.
+severities:
+  - id: 704594
+    reference_id: 33123
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+  - id: 704593
+    reference_id: 33120
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 33121
+    url: https://github.com/AnneTheDev/nobelprize/commit/00639d375b0efd097bc1eca18d9dc021691b9286
+    reference_id:
+  - id: 33122
+    url: https://www.npmjs.com/package/nobelprizeparser
+    reference_id:
+  - id: 33123
+    url: https://github.com/advisories/GHSA-4wv4-mgfq-598v
+    reference_id: GHSA-4wv4-mgfq-598v
+  - id: 33120
+    url: https://github.com/AnneTheDev/nobelprize/security/advisories/GHSA-4wv4-mgfq-598v
+    reference_id: GHSA-4wv4-mgfq-598v
+weaknesses: []

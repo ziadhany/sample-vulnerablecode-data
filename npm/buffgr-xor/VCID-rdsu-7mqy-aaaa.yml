@@ -1,0 +1,21 @@
+vulnerability_id: VCID-rdsu-7mqy-aaaa
+aliases:
+  - GHSA-r9cj-xj33-4q42
+  - GMS-2020-173
+summary: |
+  Malicious Package
+  contained malicious code. The package targeted the Ethereum cryptocurrency and performed transactions to wallets not controlled by the user. Remove the package from your environment. Ensure no Ethereum funds were compromised.
+severities:
+  - id: 705137
+    reference_id: 32078
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 32077
+    url: https://www.npmjs.com/advisories/1260
+    reference_id:
+  - id: 32078
+    url: https://github.com/advisories/GHSA-r9cj-xj33-4q42
+    reference_id: GHSA-r9cj-xj33-4q42
+weaknesses: []

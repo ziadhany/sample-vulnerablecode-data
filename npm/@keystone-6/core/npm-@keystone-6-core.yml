@@ -1,0 +1,26 @@
+package: pkg:npm/%40keystone-6/core
+versions:
+  - purl: pkg:npm/%40keystone-6/core@2.2.0
+    affected_by_vulnerabilities:
+      - VCID-7k7y-5gzs-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40keystone-6/core@2.3.0
+    affected_by_vulnerabilities:
+      - VCID-7k7y-5gzs-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40keystone-6/core@2.3.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-7k7y-5gzs-aaab
+  - purl: pkg:npm/%40keystone-6/core@3.0.0
+    affected_by_vulnerabilities:
+      - VCID-5e3p-zxms-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40keystone-6/core@3.0.1
+    affected_by_vulnerabilities:
+      - VCID-5e3p-zxms-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40keystone-6/core@3.0.2
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-5e3p-zxms-aaah

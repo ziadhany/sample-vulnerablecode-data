@@ -1,0 +1,68 @@
+vulnerability_id: VCID-smme-5z7a-aaan
+aliases:
+  - CVE-2022-24726
+summary: 'CVE-2022-24726 istio: Unauthenticated control plane denial of service attack due to
+  stack exhaustion'
+severities:
+  - id: 159099
+    reference_id: 506888
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 159096
+    reference_id: 506885
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 589811
+    reference_id: 917428
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 589809
+    reference_id: 917428
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 159098
+    reference_id: 506887
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 159097
+    reference_id: 506886
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 506888
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-24726.json
+    reference_id:
+  - id: 917425
+    url: https://github.com/golang/go/issues/51112
+    reference_id:
+  - id: 917426
+    url: https://github.com/istio/istio/commit/6ca5055a4db6695ef5504eabdfde3799f2ea91fd
+    reference_id:
+  - id: 917427
+    url: https://github.com/istio/istio/security/advisories/GHSA-8w5h-qr4r-2h6g
+    reference_id:
+  - id: 506885
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=2061638
+    reference_id: 2061638
+  - id: 767896
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:istio:istio:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:istio:istio:*:*:*:*:*:*:*:*
+  - id: 917428
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-24726
+    reference_id: CVE-2022-24726
+  - id: 1470886
+    url: https://istio.io/latest/news/security/ISTIO-SECURITY-2022-004/
+    reference_id: ISTIO-SECURITY-2022-004
+  - id: 506887
+    url: https://access.redhat.com/errata/RHSA-2022:1275
+    reference_id: RHSA-2022:1275
+  - id: 506886
+    url: https://access.redhat.com/errata/RHSA-2022:1276
+    reference_id: RHSA-2022:1276
+weaknesses: []

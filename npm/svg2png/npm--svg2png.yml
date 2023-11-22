@@ -1,0 +1,54 @@
+package: pkg:npm/svg2png
+versions:
+  - purl: pkg:npm/svg2png@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-rngv-zjsx-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svg2png@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-rngv-zjsx-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svg2png@1.1.0
+    affected_by_vulnerabilities:
+      - VCID-rngv-zjsx-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svg2png@1.1.1
+    affected_by_vulnerabilities:
+      - VCID-rngv-zjsx-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svg2png@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-rngv-zjsx-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svg2png@2.1.0
+    affected_by_vulnerabilities:
+      - VCID-rngv-zjsx-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svg2png@3.0.0
+    affected_by_vulnerabilities:
+      - VCID-rngv-zjsx-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svg2png@3.0.1
+    affected_by_vulnerabilities:
+      - VCID-rngv-zjsx-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svg2png@3.1.0
+    affected_by_vulnerabilities:
+      - VCID-rngv-zjsx-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svg2png@3.1.1
+    affected_by_vulnerabilities:
+      - VCID-rngv-zjsx-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svg2png@4.0.0
+    affected_by_vulnerabilities:
+      - VCID-rngv-zjsx-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svg2png@4.1.0
+    affected_by_vulnerabilities:
+      - VCID-rngv-zjsx-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svg2png@4.1.1
+    affected_by_vulnerabilities:
+      - VCID-rngv-zjsx-aaak
+    fixing_vulnerabilities: []

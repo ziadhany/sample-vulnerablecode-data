@@ -1,0 +1,16 @@
+package: pkg:npm/uekw1511server
+versions:
+  - purl: pkg:npm/uekw1511server@0.0.0-alpha
+    affected_by_vulnerabilities:
+      - VCID-ww55-ecjw-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uekw1511server@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-11j2-tcn2-aaad
+      - VCID-ww55-ecjw-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uekw1511server@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-11j2-tcn2-aaad
+      - VCID-ww55-ecjw-aaam
+    fixing_vulnerabilities: []

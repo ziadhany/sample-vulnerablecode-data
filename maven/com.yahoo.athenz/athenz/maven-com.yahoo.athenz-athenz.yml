@@ -1,0 +1,10 @@
+package: pkg:maven/com.yahoo.athenz/athenz
+versions:
+  - purl: pkg:maven/com.yahoo.athenz/athenz@1.8.24
+    affected_by_vulnerabilities:
+      - VCID-2rdh-8h54-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.yahoo.athenz/athenz@1.8.25
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-2rdh-8h54-aaan

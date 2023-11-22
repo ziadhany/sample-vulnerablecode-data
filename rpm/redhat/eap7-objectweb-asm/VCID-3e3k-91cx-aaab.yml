@@ -1,0 +1,152 @@
+vulnerability_id: VCID-3e3k-91cx-aaab
+aliases:
+  - CVE-2016-9589
+summary: Undertow in Red Hat wildfly before version 11.0.0.Beta1 is vulnerable to a resource
+  exhaustion resulting in a denial of service. Undertow keeps a cache of seen HTTP headers in
+  persistent connections. It was found that this cache can easily exploited to fill memory with
+  garbage, up to "max-headers" (default 200) * "max-header-size" (default 1MB) per active TCP
+  connection.
+severities:
+  - id: 623774
+    reference_id: 941240
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 623769
+    reference_id: 941235
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 244204
+    reference_id: 663113
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 244202
+    reference_id: 663113
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 623770
+    reference_id: 941236
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 623772
+    reference_id: 941238
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 623771
+    reference_id: 941237
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 623773
+    reference_id: 941239
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 623599
+    reference_id: 941115
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 623597
+    reference_id: 941113
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 623598
+    reference_id: 941114
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 47918
+    reference_id: 172494
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 47919
+    reference_id: 172495
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 47915
+    reference_id: 172491
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 47912
+    reference_id: 172488
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 663110
+    url: http://rhn.redhat.com/errata/RHSA-2017-0830.html
+    reference_id:
+  - id: 659905
+    url: http://rhn.redhat.com/errata/RHSA-2017-0831.html
+    reference_id:
+  - id: 659906
+    url: http://rhn.redhat.com/errata/RHSA-2017-0832.html
+    reference_id:
+  - id: 659907
+    url: http://rhn.redhat.com/errata/RHSA-2017-0834.html
+    reference_id:
+  - id: 15205
+    url: http://rhn.redhat.com/errata/RHSA-2017-0876.html
+    reference_id:
+  - id: 941240
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2016-9589.json
+    reference_id:
+  - id: 663111
+    url: http://www.securityfocus.com/bid/97060
+    reference_id:
+  - id: 941235
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1404782
+    reference_id: 1404782
+  - id: 663114
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_wildfly_application_server:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_wildfly_application_server:*:*:*:*:*:*:*:*
+  - id: 663115
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_wildfly_application_server:11.0.0:alpha1:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_wildfly_application_server:11.0.0:alpha1:*:*:*:*:*:*
+  - id: 663113
+    url: https://nvd.nist.gov/vuln/detail/CVE-2016-9589
+    reference_id: CVE-2016-9589
+  - id: 941236
+    url: https://access.redhat.com/errata/RHSA-2017:0830
+    reference_id: RHSA-2017:0830
+  - id: 941238
+    url: https://access.redhat.com/errata/RHSA-2017:0831
+    reference_id: RHSA-2017:0831
+  - id: 941237
+    url: https://access.redhat.com/errata/RHSA-2017:0832
+    reference_id: RHSA-2017:0832
+  - id: 941239
+    url: https://access.redhat.com/errata/RHSA-2017:0834
+    reference_id: RHSA-2017:0834
+  - id: 941115
+    url: https://access.redhat.com/errata/RHSA-2017:0872
+    reference_id: RHSA-2017:0872
+  - id: 941113
+    url: https://access.redhat.com/errata/RHSA-2017:0873
+    reference_id: RHSA-2017:0873
+  - id: 941114
+    url: https://access.redhat.com/errata/RHSA-2017:0876
+    reference_id: RHSA-2017:0876
+  - id: 172494
+    url: https://access.redhat.com/errata/RHSA-2017:3454
+    reference_id: RHSA-2017:3454
+  - id: 172495
+    url: https://access.redhat.com/errata/RHSA-2017:3455
+    reference_id: RHSA-2017:3455
+  - id: 172491
+    url: https://access.redhat.com/errata/RHSA-2017:3456
+    reference_id: RHSA-2017:3456
+  - id: 172488
+    url: https://access.redhat.com/errata/RHSA-2017:3458
+    reference_id: RHSA-2017:3458
+weaknesses: []

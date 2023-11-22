@@ -1,0 +1,43 @@
+vulnerability_id: VCID-pat1-4qy4-aaaq
+aliases:
+  - CVE-2020-8149
+  - GHSA-v8v8-6859-qxm4
+summary: |
+  Code Injection
+  Lack of output sanitization can lead to the execution arbitrary shell commands via the logkitty npm package.
+severities:
+  - id: 490753
+    reference_id: 33989
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 490751
+    reference_id: 33989
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 706473
+    reference_id: 1468080
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 1468079
+    url: https://github.com/zamotany/logkitty/commit/ef2f673e25c629544dd3de6429999318447dd6bf
+    reference_id:
+  - id: 1468078
+    url: https://github.com/zamotany/logkitty/pull/18
+    reference_id:
+  - id: 853947
+    url: https://hackerone.com/reports/825729
+    reference_id:
+  - id: 853948
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:logkitty_project:logkitty:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:logkitty_project:logkitty:*:*:*:*:*:*:*:*
+  - id: 33989
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-8149
+    reference_id: CVE-2020-8149
+  - id: 1468080
+    url: https://github.com/advisories/GHSA-v8v8-6859-qxm4
+    reference_id: GHSA-v8v8-6859-qxm4
+weaknesses: []

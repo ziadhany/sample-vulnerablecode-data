@@ -1,0 +1,10 @@
+package: pkg:npm/jsmsha3
+versions:
+  - purl: pkg:npm/jsmsha3@0.0.0
+    affected_by_vulnerabilities:
+      - VCID-bjd7-ep73-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/jsmsha3@0.0.1-security
+    affected_by_vulnerabilities:
+      - VCID-bjd7-ep73-aaac
+    fixing_vulnerabilities: []

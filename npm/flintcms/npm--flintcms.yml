@@ -1,0 +1,14 @@
+package: pkg:npm/flintcms
+versions:
+  - purl: pkg:npm/flintcms@1.1.10
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-w4u6-dckq-aaap
+  - purl: pkg:npm/flintcms@1.1.8
+    affected_by_vulnerabilities:
+      - VCID-w4u6-dckq-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/flintcms@1.1.9
+    affected_by_vulnerabilities:
+      - VCID-w4u6-dckq-aaap
+    fixing_vulnerabilities: []

@@ -1,0 +1,20 @@
+vulnerability_id: VCID-y1rx-y8kj-aaak
+aliases:
+  - GHSA-2h3x-95c6-885r
+  - GMS-2020-483
+summary: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+  in river-mock.
+severities:
+  - id: 704505
+    reference_id: 32178
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 32177
+    url: https://www.npmjs.com/advisories/1062
+    reference_id:
+  - id: 32178
+    url: https://github.com/advisories/GHSA-2h3x-95c6-885r
+    reference_id: GHSA-2h3x-95c6-885r
+weaknesses: []

@@ -1,0 +1,34 @@
+package: pkg:maven/io.apiman/apiman-gateway-platforms-vertx
+versions:
+  - purl: pkg:maven/io.apiman/apiman-gateway-platforms-vertx@1.0.0.Final
+    affected_by_vulnerabilities:
+      - VCID-9j8e-4vat-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/io.apiman/apiman-gateway-platforms-vertx@1.0.1.Final
+    affected_by_vulnerabilities:
+      - VCID-9j8e-4vat-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/io.apiman/apiman-gateway-platforms-vertx@1.1.2.Final
+    affected_by_vulnerabilities:
+      - VCID-9j8e-4vat-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/io.apiman/apiman-gateway-platforms-vertx@1.1.2.Preview2
+    affected_by_vulnerabilities:
+      - VCID-9j8e-4vat-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/io.apiman/apiman-gateway-platforms-vertx@1.1.3.CR1
+    affected_by_vulnerabilities:
+      - VCID-9j8e-4vat-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/io.apiman/apiman-gateway-platforms-vertx@1.1.3.Final
+    affected_by_vulnerabilities:
+      - VCID-9j8e-4vat-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/io.apiman/apiman-gateway-platforms-vertx@1.1.4.Final
+    affected_by_vulnerabilities:
+      - VCID-9j8e-4vat-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/io.apiman/apiman-gateway-platforms-vertx@1.1.5.Final
+    affected_by_vulnerabilities:
+      - VCID-9j8e-4vat-aaae
+    fixing_vulnerabilities: []

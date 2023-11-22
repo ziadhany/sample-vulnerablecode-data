@@ -1,0 +1,42 @@
+package: pkg:npm/fastify-bearer-auth
+versions:
+  - purl: pkg:npm/fastify-bearer-auth@5.0.1
+    affected_by_vulnerabilities:
+      - VCID-cf3c-717f-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fastify-bearer-auth@5.0.2
+    affected_by_vulnerabilities:
+      - VCID-cf3c-717f-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fastify-bearer-auth@5.1.0
+    affected_by_vulnerabilities:
+      - VCID-cf3c-717f-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fastify-bearer-auth@6.0.0
+    affected_by_vulnerabilities:
+      - VCID-cf3c-717f-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fastify-bearer-auth@6.1.0
+    affected_by_vulnerabilities:
+      - VCID-cf3c-717f-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fastify-bearer-auth@6.2.0
+    affected_by_vulnerabilities:
+      - VCID-cf3c-717f-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fastify-bearer-auth@6.3.0
+    affected_by_vulnerabilities:
+      - VCID-cf3c-717f-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fastify-bearer-auth@6.3.0-rc.1
+    affected_by_vulnerabilities:
+      - VCID-cf3c-717f-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fastify-bearer-auth@6.3.0-rc.2
+    affected_by_vulnerabilities:
+      - VCID-cf3c-717f-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fastify-bearer-auth@7.0.2
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-cf3c-717f-aaaj

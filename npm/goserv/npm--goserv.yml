@@ -1,0 +1,11 @@
+package: pkg:npm/goserv
+versions:
+  - purl: pkg:npm/goserv@0.0.0-alpha
+    affected_by_vulnerabilities:
+      - VCID-z8kq-ug5b-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/goserv@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-4tez-e2gx-aaar
+      - VCID-z8kq-ug5b-aaah
+    fixing_vulnerabilities: []

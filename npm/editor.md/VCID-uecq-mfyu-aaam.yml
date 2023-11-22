@@ -1,0 +1,37 @@
+vulnerability_id: VCID-uecq-mfyu-aaam
+aliases:
+  - CVE-2019-14517
+  - GHSA-5q54-8p9j-x74j
+summary: |
+  Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')
+  pandao Editor.md 1.5.0 allows XSS via the Javas&#99;ript: string.
+severities:
+  - id: 382092
+    reference_id: 31949
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+  - id: 382090
+    reference_id: 31949
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+  - id: 706028
+    reference_id: 31951
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 31950
+    url: https://github.com/pandao/editor.md/issues/709
+    reference_id:
+  - id: 778553
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:editor.md_project:editor.md:1.5.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:editor.md_project:editor.md:1.5.0:*:*:*:*:*:*:*
+  - id: 31949
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-14517
+    reference_id: CVE-2019-14517
+  - id: 31951
+    url: https://github.com/advisories/GHSA-5q54-8p9j-x74j
+    reference_id: GHSA-5q54-8p9j-x74j
+weaknesses: []

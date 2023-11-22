@@ -1,0 +1,25 @@
+vulnerability_id: VCID-2q9u-g7sj-aaah
+aliases:
+  - GMS-2015-9
+summary: |
+  Regular Expression Denial of Service
+  semver is vulnerable to regular expression denial of service when extremely long version strings are parsed.
+severities:
+  - id: 708481
+    reference_id: 34065
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements:
+  - id: 665231
+    reference_id: 34065
+    scoring_system: generic_textual
+    value: Medium
+    scoring_elements:
+references:
+  - id: 34064
+    url: https://github.com/npm/node-semver/commit/c80180d8341a8ada0236815c29a2be59864afd70
+    reference_id:
+  - id: 34065
+    url: https://github.com/npm/npm/releases/tag/v2.7.5
+    reference_id:
+weaknesses: []

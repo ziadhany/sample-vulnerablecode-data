@@ -1,0 +1,57 @@
+vulnerability_id: VCID-kac9-8rqu-aaaa
+aliases:
+  - CVE-2018-1000169
+  - GHSA-cpw3-x7gf-p872
+summary: |
+  Information Exposure
+  Jenkins allows unauthorized attackers to confirm the existence of agents or views with an attacker-specified name by sending a CLI command to Jenkins.
+severities:
+  - id: 617395
+    reference_id: 936753
+    scoring_system: cvssv3
+    value: '3.7'
+    scoring_elements: CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N
+  - id: 307574
+    reference_id: 27038
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 307572
+    reference_id: 27038
+    scoring_system: cvssv3
+    value: '5.3'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+  - id: 630361
+    reference_id: 946482
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 721651
+    url: https://access.redhat.com/errata/RHBA-2018:1816
+    reference_id:
+  - id: 936753
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2018-1000169.json
+    reference_id:
+  - id: 946481
+    url: https://github.com/jenkinsci/jenkins/commit/69a784bb8d2c5a021d225eda2d392fb081c1169e
+    reference_id:
+  - id: 27039
+    url: https://jenkins.io/security/advisory/2018-04-11/#SECURITY-754
+    reference_id:
+  - id: 501877
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:jenkins:jenkins:*:*:*:*:-:*:*:*
+    reference_id: cpe:2.3:a:jenkins:jenkins:*:*:*:*:-:*:*:*
+  - id: 159206
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:jenkins:jenkins:*:*:*:*:lts:*:*:*
+    reference_id: cpe:2.3:a:jenkins:jenkins:*:*:*:*:lts:*:*:*
+  - id: 27038
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-1000169
+    reference_id: CVE-2018-1000169
+  - id: 946482
+    url: https://github.com/advisories/GHSA-cpw3-x7gf-p872
+    reference_id: GHSA-cpw3-x7gf-p872
+  - id: 936752
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1566947
+    reference_id: RHBA-2018:1816
+weaknesses: []

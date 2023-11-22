@@ -1,0 +1,33 @@
+vulnerability_id: VCID-yype-x2y2-aaae
+aliases:
+  - CVE-2022-23491
+  - GHSA-43fp-rhv2-5gv8
+summary: Certifi removing TrustCor root certificate
+severities:
+  - id: 703035
+    reference_id: 1463136
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 703034
+    reference_id: 1463132
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 1463133
+    url: https://github.com/certifi/python-certifi/commit/9e9e840925d7b8e76c76fdac1fab7e6e88c1c3b8
+    reference_id:
+  - id: 1463134
+    url: https://groups.google.com/a/mozilla.org/g/dev-security-policy/c/oxX69KFvsm4/m/yLohoVqtCgAJ
+    reference_id:
+  - id: 1463135
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-23491
+    reference_id: CVE-2022-23491
+  - id: 1463136
+    url: https://github.com/advisories/GHSA-43fp-rhv2-5gv8
+    reference_id: GHSA-43fp-rhv2-5gv8
+  - id: 1463132
+    url: https://github.com/certifi/python-certifi/security/advisories/GHSA-43fp-rhv2-5gv8
+    reference_id: GHSA-43fp-rhv2-5gv8
+weaknesses: []

@@ -1,0 +1,10 @@
+package: pkg:pypi/apkleaks
+versions:
+  - purl: pkg:pypi/apkleaks@2.0.4
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-mrph-jxhs-aaaq
+  - purl: pkg:pypi/apkleaks@2.2.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-mrph-jxhs-aaaq

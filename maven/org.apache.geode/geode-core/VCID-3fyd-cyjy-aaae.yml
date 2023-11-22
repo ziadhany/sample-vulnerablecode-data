@@ -1,0 +1,43 @@
+vulnerability_id: VCID-3fyd-cyjy-aaae
+aliases:
+  - CVE-2017-12622
+  - GHSA-h22r-h77w-2g5f
+summary: |
+  gfsh authorization vulnerability
+  When an authenticated user connects to a Geode cluster using the gfsh tool with HTTP, the user is able to obtain status information and control cluster members even without `CLUSTER:MANAGE` privileges.
+severities:
+  - id: 259189
+    reference_id: 677804
+    scoring_system: cvssv2
+    value: '5.5'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:P/A:N
+  - id: 259187
+    reference_id: 677804
+    scoring_system: cvssv3
+    value: '7.1'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:N
+  - id: 648155
+    reference_id: 1418646
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 30415
+    url: https://github.com/apache/geode/commit/db4a493efc09600bf0a9778d5274c09b23b16644
+    reference_id:
+  - id: 30416
+    url: https://issues.apache.org/jira/browse/GEODE-3685
+    reference_id:
+  - id: 30417
+    url: https://lists.apache.org/thread.html/560578479dabbdc93d0ee8746b7c857549202ef82f43aa22496aa589@%3Cuser.geode.apache.org%3E
+    reference_id:
+  - id: 677805
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:geode:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:geode:*:*:*:*:*:*:*:*
+  - id: 677804
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-12622
+    reference_id: CVE-2017-12622
+  - id: 1418646
+    url: https://github.com/advisories/GHSA-h22r-h77w-2g5f
+    reference_id: GHSA-h22r-h77w-2g5f
+weaknesses: []

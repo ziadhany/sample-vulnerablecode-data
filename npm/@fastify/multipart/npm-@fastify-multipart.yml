@@ -1,0 +1,42 @@
+package: pkg:npm/%40fastify/multipart
+versions:
+  - purl: pkg:npm/%40fastify/multipart@6.0.0
+    affected_by_vulnerabilities:
+      - VCID-9tkm-2c4e-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40fastify/multipart@6.0.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-9tkm-2c4e-aaap
+  - purl: pkg:npm/%40fastify/multipart@7.0.0
+    affected_by_vulnerabilities:
+      - VCID-9tkm-2c4e-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40fastify/multipart@7.1.0
+    affected_by_vulnerabilities:
+      - VCID-9tkm-2c4e-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40fastify/multipart@7.1.1
+    affected_by_vulnerabilities:
+      - VCID-9tkm-2c4e-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40fastify/multipart@7.1.2
+    affected_by_vulnerabilities:
+      - VCID-9tkm-2c4e-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40fastify/multipart@7.2.0
+    affected_by_vulnerabilities:
+      - VCID-9tkm-2c4e-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40fastify/multipart@7.3.0
+    affected_by_vulnerabilities:
+      - VCID-9tkm-2c4e-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40fastify/multipart@7.4.0
+    affected_by_vulnerabilities:
+      - VCID-9tkm-2c4e-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40fastify/multipart@7.4.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-9tkm-2c4e-aaap

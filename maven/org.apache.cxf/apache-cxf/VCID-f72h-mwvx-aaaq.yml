@@ -1,0 +1,249 @@
+vulnerability_id: VCID-f72h-mwvx-aaaq
+aliases:
+  - CVE-2019-17573
+  - GHSA-f93p-f762-vr53
+summary: Reflected Cross-Site Scripting in Apache CXF
+severities:
+  - id: 58613
+    reference_id: 184993
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+  - id: 696536
+    reference_id: 406
+    scoring_system: generic_textual
+    value: Medium
+    scoring_elements:
+  - id: 58612
+    reference_id: 184992
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 392144
+    reference_id: 10879
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+  - id: 392142
+    reference_id: 10879
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+  - id: 1067
+    reference_id: 10888
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 49707
+    reference_id: 174114
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49705
+    reference_id: 174112
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49708
+    reference_id: 174115
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49709
+    reference_id: 174116
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49236
+    reference_id: 173530
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 51125
+    reference_id: 175779
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49706
+    reference_id: 174113
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49711
+    reference_id: 174118
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49712
+    reference_id: 174119
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49710
+    reference_id: 174117
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49250
+    reference_id: 173543
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 48019
+    reference_id: 172570
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 48018
+    reference_id: 172568
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 48017
+    reference_id: 172567
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 786555
+    url: http://cxf.apache.org/security-advisories.data/CVE-2019-17573.txt.asc?version=1&modificationDate=1579178542000&api=v2
+    reference_id:
+  - id: 184993
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2019-17573.json
+    reference_id:
+  - id: 10880
+    url: https://github.com/apache/cxf/commit/a02e96ba1095596bef481919f16a90c5e80a92c8
+    reference_id:
+  - id: 10867
+    url: https://lists.apache.org/thread.html/r36e44ffc1a9b365327df62cdfaabe85b9a5637de102cea07d79b2dbf@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10883
+    url: https://lists.apache.org/thread.html/r51fdd73548290b2dfd0b48f7ab69bf9ae064dd100364cd8a15f0b3ec@%3Cannounce.apache.org%3E
+    reference_id:
+  - id: 10884
+    url: https://lists.apache.org/thread.html/r51fdd73548290b2dfd0b48f7ab69bf9ae064dd100364cd8a15f0b3ec@%3Cdev.cxf.apache.org%3E
+    reference_id:
+  - id: 10885
+    url: https://lists.apache.org/thread.html/r51fdd73548290b2dfd0b48f7ab69bf9ae064dd100364cd8a15f0b3ec@%3Cusers.cxf.apache.org%3E
+    reference_id:
+  - id: 10886
+    url: https://lists.apache.org/thread.html/r81a41a2915985d49bc3ea57dde2018b03584a863878a8532a89f993f@%3Cusers.cxf.apache.org%3E
+    reference_id:
+  - id: 10872
+    url: https://lists.apache.org/thread.html/rd49aabd984ed540c8ff7916d4d79405f3fa311d2fdbcf9ed307839a6@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10860
+    url: https://lists.apache.org/thread.html/rec7160382badd3ef4ad017a22f64a266c7188b9ba71394f0d321e2d4@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10881
+    url: https://lists.apache.org/thread.html/rf3b50583fefce2810cbd37c3d358cbcd9a03e750005950bf54546194@%3Cannounce.apache.org%3E
+    reference_id:
+  - id: 10862
+    url: https://lists.apache.org/thread.html/rfb87e0bf3995e7d560afeed750fac9329ff5f1ad49da365129b7f89e@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10873
+    url: https://lists.apache.org/thread.html/rff42cfa5e7d75b7c1af0e37589140a8f1999e578a75738740b244bd4@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 420
+    url: https://www.oracle.com/security-alerts/cpuApr2021.html
+    reference_id:
+  - id: 406
+    url: https://www.oracle.com/security-alerts/cpujul2020.html
+    reference_id:
+  - id: 10887
+    url: http://www.openwall.com/lists/oss-security/2020/11/12/2
+    reference_id:
+  - id: 184992
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1797011
+    reference_id: 1797011
+  - id: 158434
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:*:*:*:*:*:*:*:*
+  - id: 766934
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:commerce_guided_search:11.3.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:commerce_guided_search:11.3.2:*:*:*:*:*:*:*
+  - id: 737386
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:communications_element_manager:8.1.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:communications_element_manager:8.1.1:*:*:*:*:*:*:*
+  - id: 737387
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:communications_element_manager:8.2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:communications_element_manager:8.2.0:*:*:*:*:*:*:*
+  - id: 737388
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:communications_element_manager:8.2.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:communications_element_manager:8.2.1:*:*:*:*:*:*:*
+  - id: 737391
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:communications_session_report_manager:8.1.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:communications_session_report_manager:8.1.1:*:*:*:*:*:*:*
+  - id: 737392
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:communications_session_report_manager:8.2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:communications_session_report_manager:8.2.0:*:*:*:*:*:*:*
+  - id: 737393
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:communications_session_report_manager:8.2.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:communications_session_report_manager:8.2.1:*:*:*:*:*:*:*
+  - id: 737396
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:communications_session_route_manager:8.1.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:communications_session_route_manager:8.1.1:*:*:*:*:*:*:*
+  - id: 737397
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:communications_session_route_manager:8.2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:communications_session_route_manager:8.2.0:*:*:*:*:*:*:*
+  - id: 737398
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:communications_session_route_manager:8.2.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:communications_session_route_manager:8.2.1:*:*:*:*:*:*:*
+  - id: 698774
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:flexcube_private_banking:12.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:flexcube_private_banking:12.0.0:*:*:*:*:*:*:*
+  - id: 698775
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:flexcube_private_banking:12.1.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:flexcube_private_banking:12.1.0:*:*:*:*:*:*:*
+  - id: 725290
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:retail_order_broker:15.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:retail_order_broker:15.0:*:*:*:*:*:*:*
+  - id: 10879
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-17573
+    reference_id: CVE-2019-17573
+  - id: 10888
+    url: https://github.com/advisories/GHSA-f93p-f762-vr53
+    reference_id: GHSA-f93p-f762-vr53
+  - id: 174114
+    url: https://access.redhat.com/errata/RHSA-2020:2058
+    reference_id: RHSA-2020:2058
+  - id: 174112
+    url: https://access.redhat.com/errata/RHSA-2020:2059
+    reference_id: RHSA-2020:2059
+  - id: 174115
+    url: https://access.redhat.com/errata/RHSA-2020:2060
+    reference_id: RHSA-2020:2060
+  - id: 174116
+    url: https://access.redhat.com/errata/RHSA-2020:2061
+    reference_id: RHSA-2020:2061
+  - id: 173530
+    url: https://access.redhat.com/errata/RHSA-2020:2112
+    reference_id: RHSA-2020:2112
+  - id: 175779
+    url: https://access.redhat.com/errata/RHSA-2020:2333
+    reference_id: RHSA-2020:2333
+  - id: 174113
+    url: https://access.redhat.com/errata/RHSA-2020:2511
+    reference_id: RHSA-2020:2511
+  - id: 174118
+    url: https://access.redhat.com/errata/RHSA-2020:2512
+    reference_id: RHSA-2020:2512
+  - id: 174119
+    url: https://access.redhat.com/errata/RHSA-2020:2513
+    reference_id: RHSA-2020:2513
+  - id: 174117
+    url: https://access.redhat.com/errata/RHSA-2020:2515
+    reference_id: RHSA-2020:2515
+  - id: 173543
+    url: https://access.redhat.com/errata/RHSA-2020:2905
+    reference_id: RHSA-2020:2905
+  - id: 172570
+    url: https://access.redhat.com/errata/RHSA-2020:3192
+    reference_id: RHSA-2020:3192
+  - id: 172568
+    url: https://access.redhat.com/errata/RHSA-2020:3196
+    reference_id: RHSA-2020:3196
+  - id: 172567
+    url: https://access.redhat.com/errata/RHSA-2020:3197
+    reference_id: RHSA-2020:3197
+weaknesses: []

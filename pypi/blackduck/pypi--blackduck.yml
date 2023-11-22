@@ -1,0 +1,118 @@
+package: pkg:pypi/blackduck
+versions:
+  - purl: pkg:pypi/blackduck@0.0.25
+    affected_by_vulnerabilities:
+      - VCID-h6kp-evfx-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/blackduck@0.0.26
+    affected_by_vulnerabilities:
+      - VCID-h6kp-evfx-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/blackduck@0.0.27
+    affected_by_vulnerabilities:
+      - VCID-h6kp-evfx-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/blackduck@0.0.28
+    affected_by_vulnerabilities:
+      - VCID-h6kp-evfx-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/blackduck@0.0.29
+    affected_by_vulnerabilities:
+      - VCID-h6kp-evfx-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/blackduck@0.0.30
+    affected_by_vulnerabilities:
+      - VCID-h6kp-evfx-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/blackduck@0.0.31
+    affected_by_vulnerabilities:
+      - VCID-h6kp-evfx-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/blackduck@0.0.32
+    affected_by_vulnerabilities:
+      - VCID-h6kp-evfx-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/blackduck@0.0.33
+    affected_by_vulnerabilities:
+      - VCID-h6kp-evfx-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/blackduck@0.0.34
+    affected_by_vulnerabilities:
+      - VCID-h6kp-evfx-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/blackduck@0.0.35
+    affected_by_vulnerabilities:
+      - VCID-h6kp-evfx-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/blackduck@0.0.36
+    affected_by_vulnerabilities:
+      - VCID-h6kp-evfx-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/blackduck@0.0.37
+    affected_by_vulnerabilities:
+      - VCID-h6kp-evfx-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/blackduck@0.0.38
+    affected_by_vulnerabilities:
+      - VCID-h6kp-evfx-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/blackduck@0.0.39
+    affected_by_vulnerabilities:
+      - VCID-h6kp-evfx-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/blackduck@0.0.40
+    affected_by_vulnerabilities:
+      - VCID-h6kp-evfx-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/blackduck@0.0.41
+    affected_by_vulnerabilities:
+      - VCID-h6kp-evfx-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/blackduck@0.0.42
+    affected_by_vulnerabilities:
+      - VCID-h6kp-evfx-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/blackduck@0.0.43
+    affected_by_vulnerabilities:
+      - VCID-h6kp-evfx-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/blackduck@0.0.44
+    affected_by_vulnerabilities:
+      - VCID-h6kp-evfx-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/blackduck@0.0.45
+    affected_by_vulnerabilities:
+      - VCID-h6kp-evfx-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/blackduck@0.0.46
+    affected_by_vulnerabilities:
+      - VCID-h6kp-evfx-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/blackduck@0.0.47
+    affected_by_vulnerabilities:
+      - VCID-h6kp-evfx-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/blackduck@0.0.48
+    affected_by_vulnerabilities:
+      - VCID-h6kp-evfx-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/blackduck@0.0.49
+    affected_by_vulnerabilities:
+      - VCID-h6kp-evfx-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/blackduck@0.0.50
+    affected_by_vulnerabilities:
+      - VCID-h6kp-evfx-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/blackduck@0.0.51
+    affected_by_vulnerabilities:
+      - VCID-h6kp-evfx-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/blackduck@0.0.52
+    affected_by_vulnerabilities:
+      - VCID-h6kp-evfx-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/blackduck@0.0.53
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-h6kp-evfx-aaan

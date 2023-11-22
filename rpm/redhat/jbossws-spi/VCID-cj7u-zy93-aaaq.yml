@@ -1,0 +1,240 @@
+vulnerability_id: VCID-cj7u-zy93-aaaq
+aliases:
+  - CVE-2012-2377
+summary: CVE-2012-2377 JGroups diagnostics service enabled by default with no authentication
+  when a JGroups channel is started
+severities:
+  - id: 153918
+    reference_id: 491345
+    scoring_system: cvssv2
+    value: '3.3'
+    scoring_elements: AV:A/AC:L/Au:N/C:P/I:N/A:N
+  - id: 64883
+    reference_id: '193618'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 64882
+    reference_id: '193617'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 64875
+    reference_id: '193610'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63229
+    reference_id: '191402'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63231
+    reference_id: '191404'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63230
+    reference_id: '191403'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63227
+    reference_id: '191400'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63226
+    reference_id: '191399'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63228
+    reference_id: '191401'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63233
+    reference_id: '191406'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 469822
+    url: http://rhn.redhat.com/errata/RHSA-2012-1028.html
+    reference_id:
+  - id: 472322
+    url: http://rhn.redhat.com/errata/RHSA-2012-1125.html
+    reference_id:
+  - id: 1361
+    url: http://rhn.redhat.com/errata/RHSA-2012-1232.html
+    reference_id:
+  - id: 408373
+    url: http://rhn.redhat.com/errata/RHSA-2013-0191.html
+    reference_id:
+  - id: 408374
+    url: http://rhn.redhat.com/errata/RHSA-2013-0192.html
+    reference_id:
+  - id: 408375
+    url: http://rhn.redhat.com/errata/RHSA-2013-0193.html
+    reference_id:
+  - id: 408376
+    url: http://rhn.redhat.com/errata/RHSA-2013-0194.html
+    reference_id:
+  - id: 408377
+    url: http://rhn.redhat.com/errata/RHSA-2013-0195.html
+    reference_id:
+  - id: 408378
+    url: http://rhn.redhat.com/errata/RHSA-2013-0196.html
+    reference_id:
+  - id: 408379
+    url: http://rhn.redhat.com/errata/RHSA-2013-0197.html
+    reference_id:
+  - id: 408380
+    url: http://rhn.redhat.com/errata/RHSA-2013-0198.html
+    reference_id:
+  - id: '193673'
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2012-2377.json
+    reference_id:
+  - id: 491343
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=823392
+    reference_id:
+  - id: 491340
+    url: http://secunia.com/advisories/49669
+    reference_id:
+  - id: 466597
+    url: http://secunia.com/advisories/50084
+    reference_id:
+  - id: 1374
+    url: http://secunia.com/advisories/50549
+    reference_id:
+  - id: 408383
+    url: http://secunia.com/advisories/51984
+    reference_id:
+  - id: 491344
+    url: https://exchange.xforce.ibmcloud.com/vulnerabilities/76540
+    reference_id:
+  - id: 491341
+    url: http://www.osvdb.org/83085
+    reference_id:
+  - id: 491342
+    url: http://www.securityfocus.com/bid/54183
+    reference_id:
+  - id: 469829
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_brms_platform:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_brms_platform:*:*:*:*:*:*:*:*
+  - id: 450926
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_portal_platform:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_portal_platform:*:*:*:*:*:*:*:*
+  - id: 463367
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_portal_platform:4.3.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_portal_platform:4.3.0:*:*:*:*:*:*:*
+  - id: 463371
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_portal_platform:4.3.0:cp07:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_portal_platform:4.3.0:cp07:*:*:*:*:*:*
+  - id: 450927
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_portal_platform:5.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_portal_platform:5.0.0:*:*:*:*:*:*:*
+  - id: 450928
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_portal_platform:5.0.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_portal_platform:5.0.1:*:*:*:*:*:*:*
+  - id: 450929
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_portal_platform:5.1.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_portal_platform:5.1.0:*:*:*:*:*:*:*
+  - id: 450930
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_portal_platform:5.1.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_portal_platform:5.1.1:*:*:*:*:*:*:*
+  - id: 450931
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_portal_platform:5.2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_portal_platform:5.2.0:*:*:*:*:*:*:*
+  - id: 425189
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_soa_platform:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_soa_platform:*:*:*:*:*:*:*:*
+  - id: 425190
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_soa_platform:4.2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_soa_platform:4.2.0:*:*:*:*:*:*:*
+  - id: 425191
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_soa_platform:4.2.0:cp01:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_soa_platform:4.2.0:cp01:*:*:*:*:*:*
+  - id: 425192
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_soa_platform:4.2.0:cp02:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_soa_platform:4.2.0:cp02:*:*:*:*:*:*
+  - id: 425193
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_soa_platform:4.2.0:cp03:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_soa_platform:4.2.0:cp03:*:*:*:*:*:*
+  - id: 425194
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_soa_platform:4.2.0:cp04:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_soa_platform:4.2.0:cp04:*:*:*:*:*:*
+  - id: 425195
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_soa_platform:4.2.0:cp05:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_soa_platform:4.2.0:cp05:*:*:*:*:*:*
+  - id: 425196
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_soa_platform:4.2.0:tp02:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_soa_platform:4.2.0:tp02:*:*:*:*:*:*
+  - id: 425197
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_soa_platform:4.3.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_soa_platform:4.3.0:*:*:*:*:*:*:*
+  - id: 425198
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_soa_platform:4.3.0:cp01:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_soa_platform:4.3.0:cp01:*:*:*:*:*:*
+  - id: 425199
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_soa_platform:4.3.0:cp02:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_soa_platform:4.3.0:cp02:*:*:*:*:*:*
+  - id: 425200
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_soa_platform:4.3.0:cp03:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_soa_platform:4.3.0:cp03:*:*:*:*:*:*
+  - id: 425201
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_soa_platform:4.3.0:cp04:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_soa_platform:4.3.0:cp04:*:*:*:*:*:*
+  - id: 453711
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_soa_platform:4.3.0:cp05:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_soa_platform:4.3.0:cp05:*:*:*:*:*:*
+  - id: 425202
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_soa_platform:5.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_soa_platform:5.0.0:*:*:*:*:*:*:*
+  - id: 469830
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_soa_platform:5.0.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_soa_platform:5.0.1:*:*:*:*:*:*:*
+  - id: 469831
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_soa_platform:5.0.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_soa_platform:5.0.2:*:*:*:*:*:*:*
+  - id: 453712
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_soa_platform:5.1.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_soa_platform:5.1.0:*:*:*:*:*:*:*
+  - id: 484418
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_soa_platform:5.1.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_soa_platform:5.1.1:*:*:*:*:*:*:*
+  - id: 491345
+    url: https://nvd.nist.gov/vuln/detail/CVE-2012-2377
+    reference_id: CVE-2012-2377
+  - id: '193618'
+    url: https://access.redhat.com/errata/RHSA-2012:1028
+    reference_id: RHSA-2012:1028
+  - id: '193617'
+    url: https://access.redhat.com/errata/RHSA-2012:1125
+    reference_id: RHSA-2012:1125
+  - id: '193610'
+    url: https://access.redhat.com/errata/RHSA-2012:1232
+    reference_id: RHSA-2012:1232
+  - id: '191402'
+    url: https://access.redhat.com/errata/RHSA-2013:0191
+    reference_id: RHSA-2013:0191
+  - id: '191404'
+    url: https://access.redhat.com/errata/RHSA-2013:0192
+    reference_id: RHSA-2013:0192
+  - id: '191403'
+    url: https://access.redhat.com/errata/RHSA-2013:0193
+    reference_id: RHSA-2013:0193
+  - id: '191400'
+    url: https://access.redhat.com/errata/RHSA-2013:0194
+    reference_id: RHSA-2013:0194
+  - id: '191399'
+    url: https://access.redhat.com/errata/RHSA-2013:0195
+    reference_id: RHSA-2013:0195
+  - id: '191401'
+    url: https://access.redhat.com/errata/RHSA-2013:0196
+    reference_id: RHSA-2013:0196
+  - id: '191406'
+    url: https://access.redhat.com/errata/RHSA-2013:0198
+    reference_id: RHSA-2013:0198
+weaknesses: []

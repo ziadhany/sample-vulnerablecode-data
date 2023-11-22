@@ -1,0 +1,14 @@
+vulnerability_id: VCID-dwgk-92nm-aaaq
+aliases:
+  - GMS-2015-32
+summary: It's possible to cause a DoS by uploading files with a spoofed media type, because
+  it causes megabytes of logging to be written.
+severities: []
+references:
+  - id: 39143
+    url: https://github.com/thoughtbot/paperclip/pull/2017
+    reference_id:
+  - id: 39144
+    url: https://github.com/thoughtbot/paperclip/pull/2126
+    reference_id:
+weaknesses: []

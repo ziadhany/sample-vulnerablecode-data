@@ -1,0 +1,69 @@
+package: pkg:npm/semver-regex
+versions:
+  - purl: pkg:npm/semver-regex@0.1.0
+    affected_by_vulnerabilities:
+      - VCID-dah4-9bg5-aaap
+      - VCID-gc4h-evjx-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver-regex@0.1.1
+    affected_by_vulnerabilities:
+      - VCID-dah4-9bg5-aaap
+      - VCID-gc4h-evjx-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver-regex@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-dah4-9bg5-aaap
+      - VCID-gc4h-evjx-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver-regex@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-dah4-9bg5-aaap
+      - VCID-gc4h-evjx-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver-regex@3.0.0
+    affected_by_vulnerabilities:
+      - VCID-dah4-9bg5-aaap
+      - VCID-gc4h-evjx-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver-regex@3.1.0
+    affected_by_vulnerabilities:
+      - VCID-dah4-9bg5-aaap
+      - VCID-gc4h-evjx-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver-regex@3.1.1
+    affected_by_vulnerabilities:
+      - VCID-dah4-9bg5-aaap
+      - VCID-gc4h-evjx-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver-regex@3.1.2
+    affected_by_vulnerabilities:
+      - VCID-dah4-9bg5-aaap
+      - VCID-gc4h-evjx-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver-regex@3.1.3
+    affected_by_vulnerabilities:
+      - VCID-dah4-9bg5-aaap
+    fixing_vulnerabilities:
+      - VCID-gc4h-evjx-aaap
+  - purl: pkg:npm/semver-regex@3.1.4
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-dah4-9bg5-aaap
+  - purl: pkg:npm/semver-regex@4.0.0
+    affected_by_vulnerabilities:
+      - VCID-dah4-9bg5-aaap
+      - VCID-gc4h-evjx-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver-regex@4.0.1
+    affected_by_vulnerabilities:
+      - VCID-dah4-9bg5-aaap
+    fixing_vulnerabilities:
+      - VCID-gc4h-evjx-aaap
+  - purl: pkg:npm/semver-regex@4.0.2
+    affected_by_vulnerabilities:
+      - VCID-dah4-9bg5-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver-regex@4.0.3
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-dah4-9bg5-aaap

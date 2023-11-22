@@ -1,0 +1,57 @@
+vulnerability_id: VCID-vfb3-x7xr-aaar
+aliases:
+  - CVE-2022-23710
+  - GHSA-m6gg-86c6-gfr9
+summary: Cross-site Scripting in elasticsearch
+severities:
+  - id: 90489
+    reference_id: 254868
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+  - id: 90488
+    reference_id: 254867
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 587197
+    reference_id: 684
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+  - id: 587195
+    reference_id: 684
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+  - id: 31
+    reference_id: 687
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 254868
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-23710.json
+    reference_id:
+  - id: 685
+    url: https://discuss.elastic.co/t/elastic-stack-7-17-1-security-update/298447
+    reference_id:
+  - id: 686
+    url: https://security.netapp.com/advisory/ntap-20220325-0009/
+    reference_id:
+  - id: 254867
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=2066387
+    reference_id: 2066387
+  - id: 617442
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:elastic:kibana:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:elastic:kibana:*:*:*:*:*:*:*:*
+  - id: 915834
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:elastic:kibana:8.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:elastic:kibana:8.0.0:*:*:*:*:*:*:*
+  - id: 684
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-23710
+    reference_id: CVE-2022-23710
+  - id: 687
+    url: https://github.com/advisories/GHSA-m6gg-86c6-gfr9
+    reference_id: GHSA-m6gg-86c6-gfr9
+weaknesses: []

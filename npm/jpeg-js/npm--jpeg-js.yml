@@ -1,0 +1,103 @@
+package: pkg:npm/jpeg-js
+versions:
+  - purl: pkg:npm/jpeg-js@0.0.1
+    affected_by_vulnerabilities:
+      - VCID-k27p-rct4-aaaj
+      - VCID-x43w-zr1d-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/jpeg-js@0.0.2
+    affected_by_vulnerabilities:
+      - VCID-k27p-rct4-aaaj
+      - VCID-x43w-zr1d-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/jpeg-js@0.0.3
+    affected_by_vulnerabilities:
+      - VCID-k27p-rct4-aaaj
+      - VCID-x43w-zr1d-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/jpeg-js@0.0.4
+    affected_by_vulnerabilities:
+      - VCID-k27p-rct4-aaaj
+      - VCID-x43w-zr1d-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/jpeg-js@0.1.0
+    affected_by_vulnerabilities:
+      - VCID-k27p-rct4-aaaj
+      - VCID-x43w-zr1d-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/jpeg-js@0.1.1
+    affected_by_vulnerabilities:
+      - VCID-k27p-rct4-aaaj
+      - VCID-x43w-zr1d-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/jpeg-js@0.1.2
+    affected_by_vulnerabilities:
+      - VCID-k27p-rct4-aaaj
+      - VCID-x43w-zr1d-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/jpeg-js@0.2.0
+    affected_by_vulnerabilities:
+      - VCID-k27p-rct4-aaaj
+      - VCID-x43w-zr1d-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/jpeg-js@0.3.0
+    affected_by_vulnerabilities:
+      - VCID-k27p-rct4-aaaj
+      - VCID-x43w-zr1d-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/jpeg-js@0.3.1
+    affected_by_vulnerabilities:
+      - VCID-k27p-rct4-aaaj
+      - VCID-x43w-zr1d-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/jpeg-js@0.3.2
+    affected_by_vulnerabilities:
+      - VCID-k27p-rct4-aaaj
+      - VCID-x43w-zr1d-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/jpeg-js@0.3.3
+    affected_by_vulnerabilities:
+      - VCID-k27p-rct4-aaaj
+      - VCID-x43w-zr1d-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/jpeg-js@0.3.4
+    affected_by_vulnerabilities:
+      - VCID-k27p-rct4-aaaj
+      - VCID-x43w-zr1d-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/jpeg-js@0.3.5
+    affected_by_vulnerabilities:
+      - VCID-k27p-rct4-aaaj
+      - VCID-x43w-zr1d-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/jpeg-js@0.3.6
+    affected_by_vulnerabilities:
+      - VCID-k27p-rct4-aaaj
+      - VCID-x43w-zr1d-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/jpeg-js@0.3.7
+    affected_by_vulnerabilities:
+      - VCID-k27p-rct4-aaaj
+      - VCID-x43w-zr1d-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/jpeg-js@0.4.0
+    affected_by_vulnerabilities:
+      - VCID-k27p-rct4-aaaj
+    fixing_vulnerabilities:
+      - VCID-x43w-zr1d-aaae
+  - purl: pkg:npm/jpeg-js@0.4.1
+    affected_by_vulnerabilities:
+      - VCID-k27p-rct4-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/jpeg-js@0.4.2
+    affected_by_vulnerabilities:
+      - VCID-k27p-rct4-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/jpeg-js@0.4.3
+    affected_by_vulnerabilities:
+      - VCID-k27p-rct4-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/jpeg-js@0.4.4
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-k27p-rct4-aaaj

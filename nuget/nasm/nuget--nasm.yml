@@ -1,0 +1,84 @@
+package: pkg:nuget/nasm
+versions:
+  - purl: pkg:nuget/nasm@12.14
+    affected_by_vulnerabilities:
+      - VCID-ewc1-44fk-aaaa
+      - VCID-gmbh-hyat-aaaj
+      - VCID-nhbg-28yq-aaas
+      - VCID-pbhg-d6tf-aaar
+      - VCID-skz8-sv8k-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/nasm@2.10.7
+    affected_by_vulnerabilities:
+      - VCID-myes-n9e2-aaae
+      - VCID-pr31-qxe7-aaah
+      - VCID-z5eg-dzzc-aaaj
+    fixing_vulnerabilities:
+      - VCID-bth8-jz2m-aaac
+  - purl: pkg:nuget/nasm@2.13
+    affected_by_vulnerabilities:
+      - VCID-kwuv-7tyr-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/nasm@2.13.02
+    affected_by_vulnerabilities:
+      - VCID-dckj-fjsy-aaab
+      - VCID-djr8-vp59-aaas
+      - VCID-x1f5-kkt5-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/nasm@2.13.03
+    affected_by_vulnerabilities:
+      - VCID-ssd3-2z5v-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/nasm@2.14
+    affected_by_vulnerabilities:
+      - VCID-1jce-5amj-aaak
+      - VCID-24d5-e6ts-aaac
+      - VCID-586a-m4x3-aaah
+      - VCID-6whu-n73h-aaaq
+      - VCID-ac1q-x6xd-aaaa
+      - VCID-bcmc-dca1-aaae
+      - VCID-d951-62k8-aaam
+      - VCID-djm3-r7hr-aaaa
+      - VCID-ejuy-6fcv-aaac
+      - VCID-mdeb-xecs-aaab
+      - VCID-nf4u-k9h2-aaar
+      - VCID-u2tx-r8xh-aaaa
+      - VCID-uku5-1yc9-aaag
+      - VCID-vrpg-jkf5-aaan
+      - VCID-wjj9-vdf9-aaaf
+      - VCID-zajw-fvtc-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/nasm@2.14.0
+    affected_by_vulnerabilities:
+      - VCID-3vvg-v1wx-aaaa
+      - VCID-fmvk-bnt9-aaad
+      - VCID-ssd3-2z5v-aaak
+      - VCID-vujx-y9vn-aaaa
+      - VCID-zbkv-pnff-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/nasm@2.14.02
+    affected_by_vulnerabilities:
+      - VCID-7977-zres-aaae
+      - VCID-bcmc-dca1-aaae
+      - VCID-myes-n9e2-aaae
+      - VCID-wxfe-zvxx-aaae
+      - VCID-z5eg-dzzc-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/nasm@2.15
+    affected_by_vulnerabilities:
+      - VCID-2dwe-u4er-aaac
+      - VCID-d8hr-y3y1-aaaa
+      - VCID-nd9q-6nmw-aaaf
+      - VCID-u9g1-pmvs-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/nasm@2.15.05
+    affected_by_vulnerabilities:
+      - VCID-nd9q-6nmw-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/nasm@2.16
+    affected_by_vulnerabilities:
+      - VCID-cbaa-2e3c-aaaq
+      - VCID-edjz-cf8c-aaad
+      - VCID-fzst-cxmr-aaas
+      - VCID-j51x-nx1r-aaaa
+    fixing_vulnerabilities: []

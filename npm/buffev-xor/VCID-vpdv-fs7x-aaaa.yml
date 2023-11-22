@@ -1,0 +1,21 @@
+vulnerability_id: VCID-vpdv-fs7x-aaaa
+aliases:
+  - GHSA-x3w4-mrmv-cw2x
+  - GMS-2020-171
+summary: |
+  Malicious Package
+  contained malicious code. The package targeted the Ethereum cryptocurrency and performed transactions to wallets not controlled by the user. Remove the package from your environment. Ensure no Ethereum funds were compromised.
+severities:
+  - id: 705258
+    reference_id: 32746
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 32745
+    url: https://www.npmjs.com/advisories/1258
+    reference_id:
+  - id: 32746
+    url: https://github.com/advisories/GHSA-x3w4-mrmv-cw2x
+    reference_id: GHSA-x3w4-mrmv-cw2x
+weaknesses: []

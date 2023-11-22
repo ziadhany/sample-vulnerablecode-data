@@ -1,0 +1,81 @@
+vulnerability_id: VCID-nrxj-tdyg-aaah
+aliases:
+  - CVE-2019-10201
+  - GHSA-4fgq-gq9g-3rw7
+summary: Improper Verification of Cryptographic Signature in keycloak
+severities:
+  - id: 76251
+    reference_id: 207196
+    scoring_system: cvssv3
+    value: '8.1'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N
+  - id: 76249
+    reference_id: 207194
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 367304
+    reference_id: 14299
+    scoring_system: cvssv2
+    value: '5.5'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:P/A:N
+  - id: 367302
+    reference_id: 14299
+    scoring_system: cvssv3
+    value: '8.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N
+  - id: 1572
+    reference_id: 14301
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 76250
+    reference_id: 207195
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 52339
+    reference_id: 177155
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 69832
+    reference_id: '199687'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 207196
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2019-10201.json
+    reference_id:
+  - id: 14300
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2019-10201
+    reference_id:
+  - id: 207194
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1728609
+    reference_id: 1728609
+  - id: 568146
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:keycloak:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:keycloak:*:*:*:*:*:*:*:*
+  - id: 766462
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:single_sign-on:7.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:single_sign-on:7.0:*:*:*:*:*:*:*
+  - id: 766615
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:single_sign-on:7.3.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:single_sign-on:7.3.3:*:*:*:*:*:*:*
+  - id: 14299
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-10201
+    reference_id: CVE-2019-10201
+  - id: 14301
+    url: https://github.com/advisories/GHSA-4fgq-gq9g-3rw7
+    reference_id: GHSA-4fgq-gq9g-3rw7
+  - id: 207195
+    url: https://access.redhat.com/errata/RHSA-2019:2483
+    reference_id: RHSA-2019:2483
+  - id: 177155
+    url: https://access.redhat.com/errata/RHSA-2020:2067
+    reference_id: RHSA-2020:2067
+  - id: '199687'
+    url: https://access.redhat.com/errata/RHSA-2020:2366
+    reference_id: RHSA-2020:2366
+weaknesses: []

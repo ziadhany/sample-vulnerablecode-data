@@ -1,0 +1,32 @@
+vulnerability_id: VCID-8crm-zz36-aaan
+aliases:
+  - CVE-2013-0196
+summary: CVE-2013-0196 OpenShift Enterprise and Online vulnerable to CSRF attack with REST API
+severities:
+  - id: 161076
+    reference_id: 512422
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+  - id: 161074
+    reference_id: 512422
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N
+references:
+  - id: 185021
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2013-0196.json
+    reference_id:
+  - id: 512420
+    url: https://access.redhat.com/security/cve/cve-2013-0196
+    reference_id:
+  - id: 512421
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2013-0196
+    reference_id:
+  - id: 512422
+    url: https://nvd.nist.gov/vuln/detail/CVE-2013-0196
+    reference_id: CVE-2013-0196
+  - id: 185020
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=901364
+    reference_id: RHEA-2013:1031
+weaknesses: []

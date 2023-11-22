@@ -1,0 +1,79 @@
+vulnerability_id: VCID-y6xf-pd19-aaaf
+aliases:
+  - CVE-2017-1000199
+summary: tcmu-runner version 0.91 up to 1.20 is vulnerable to information disclosure in handler_qcow.so
+  resulting in non-privileged users being able to check for existence of any file with root
+  privileges.
+severities:
+  - id: 622089
+    reference_id: 940070
+    scoring_system: cvssv3
+    value: '3.3'
+    scoring_elements: CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N
+  - id: 622087
+    reference_id: 940068
+    scoring_system: rhbs
+    value: low
+    scoring_elements:
+  - id: 249660
+    reference_id: 668428
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 249658
+    reference_id: 668428
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+  - id: 622088
+    reference_id: 940069
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 940070
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2017-1000199.json
+    reference_id:
+  - id: 668427
+    url: https://github.com/open-iscsi/tcmu-runner/issues/194
+    reference_id:
+  - id: 940068
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1487252
+    reference_id: 1487252
+  - id: 668417
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:tcmu-runner_project:tcmu-runner:0.9.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:tcmu-runner_project:tcmu-runner:0.9.1:*:*:*:*:*:*:*
+  - id: 668418
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:tcmu-runner_project:tcmu-runner:0.9.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:tcmu-runner_project:tcmu-runner:0.9.2:*:*:*:*:*:*:*
+  - id: 668419
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:tcmu-runner_project:tcmu-runner:0.9.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:tcmu-runner_project:tcmu-runner:0.9.3:*:*:*:*:*:*:*
+  - id: 668420
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:tcmu-runner_project:tcmu-runner:0.9.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:tcmu-runner_project:tcmu-runner:0.9.4:*:*:*:*:*:*:*
+  - id: 668421
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:tcmu-runner_project:tcmu-runner:1.0.5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:tcmu-runner_project:tcmu-runner:1.0.5:*:*:*:*:*:*:*
+  - id: 668422
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:tcmu-runner_project:tcmu-runner:1.1.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:tcmu-runner_project:tcmu-runner:1.1.0:*:*:*:*:*:*:*
+  - id: 668423
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:tcmu-runner_project:tcmu-runner:1.1.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:tcmu-runner_project:tcmu-runner:1.1.1:*:*:*:*:*:*:*
+  - id: 668424
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:tcmu-runner_project:tcmu-runner:1.1.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:tcmu-runner_project:tcmu-runner:1.1.2:*:*:*:*:*:*:*
+  - id: 668425
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:tcmu-runner_project:tcmu-runner:1.1.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:tcmu-runner_project:tcmu-runner:1.1.3:*:*:*:*:*:*:*
+  - id: 668426
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:tcmu-runner_project:tcmu-runner:1.2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:tcmu-runner_project:tcmu-runner:1.2.0:*:*:*:*:*:*:*
+  - id: 668428
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-1000199
+    reference_id: CVE-2017-1000199
+  - id: 940069
+    url: https://access.redhat.com/errata/RHSA-2017:3277
+    reference_id: RHSA-2017:3277
+weaknesses: []

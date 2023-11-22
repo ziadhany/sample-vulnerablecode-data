@@ -1,0 +1,30 @@
+vulnerability_id: VCID-t6eg-4wb4-aaag
+aliases:
+  - GHSA-cg48-9hh2-x6mx
+  - GMS-2020-438
+summary: |
+  HTML Injection in preact
+  Versions of `preact` on prerelease tags alpha and beta are vulnerable to HTML Injection. Due to insufficient input validation the package allows attackers to inject JavaScript objects as virtual-dom nodes, which may lead to Cross-Site Scripting. This requires user input parsed with `JSON.parse()` to be passed directly into JSX without sanitization. Upgrade to .
+severities:
+  - id: 704853
+    reference_id: 34230
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 34226
+    url: https://github.com/developit/preact/pull/1528
+    reference_id:
+  - id: 34227
+    url: https://github.com/developit/preact/releases/tag/10.0.0-beta.1
+    reference_id:
+  - id: 34228
+    url: https://medium.com/dailyjs/exploiting-script-injection-flaws-in-reactjs-883fb1fe36c1
+    reference_id:
+  - id: 34229
+    url: https://www.npmjs.com/advisories/835
+    reference_id:
+  - id: 34230
+    url: https://github.com/advisories/GHSA-cg48-9hh2-x6mx
+    reference_id: GHSA-cg48-9hh2-x6mx
+weaknesses: []

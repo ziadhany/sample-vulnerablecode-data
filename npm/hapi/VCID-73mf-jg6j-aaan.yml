@@ -1,0 +1,12 @@
+vulnerability_id: VCID-73mf-jg6j-aaan
+aliases:
+  - GMS-2016-40
+summary: |
+  Invalid input to route validation rules
+  hapi does not validate empty parameters, which could result in invalid input bypassing the route validation rules. For example, in the routing scheme `/api/{param}/{param2}/details`, a request made to `/api///` would match incorrectly.
+severities: []
+references:
+  - id: 34931
+    url: https://github.com/hapijs/hapi/issues/3228
+    reference_id:
+weaknesses: []

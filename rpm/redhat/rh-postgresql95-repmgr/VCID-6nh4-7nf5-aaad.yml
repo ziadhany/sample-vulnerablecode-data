@@ -1,0 +1,55 @@
+vulnerability_id: VCID-6nh4-7nf5-aaad
+aliases:
+  - CVE-2017-2639
+summary: 'CVE-2017-2639 CloudForms: cloudforms fails to properly check certificates when communicating
+  with RHEV and OpenShift and custom CA'
+severities:
+  - id: 75903
+    reference_id: 206853
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+  - id: 75902
+    reference_id: 206852
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 281155
+    reference_id: 696420
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 281153
+    reference_id: 696420
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+references:
+  - id: 645313
+    url: https://access.redhat.com/errata/RHSA-2017:1367
+    reference_id:
+  - id: 206853
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2017-2639.json
+    reference_id:
+  - id: 696419
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2017-2639
+    reference_id:
+  - id: 696418
+    url: http://www.securityfocus.com/bid/98769
+    reference_id:
+  - id: 645312
+    url: http://www.securitytracker.com/id/1038599
+    reference_id:
+  - id: 206852
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1429632
+    reference_id: 1429632
+  - id: 655092
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:cloudforms:4.5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:cloudforms:4.5:*:*:*:*:*:*:*
+  - id: 696421
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:cloudforms_management_engine:5.8:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:cloudforms_management_engine:5.8:*:*:*:*:*:*:*
+  - id: 696420
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-2639
+    reference_id: CVE-2017-2639
+weaknesses: []

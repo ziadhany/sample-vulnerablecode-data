@@ -1,0 +1,6 @@
+package: pkg:maven/io.jenkins.plugin-management/plugin-management-parent-pom
+versions:
+  - purl: pkg:maven/io.jenkins.plugin-management/plugin-management-parent-pom@2.2.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-5gzv-jsrq-aaab

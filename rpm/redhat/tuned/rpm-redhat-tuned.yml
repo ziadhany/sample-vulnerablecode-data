@@ -1,0 +1,6 @@
+package: pkg:rpm/redhat/tuned
+versions:
+  - purl: pkg:rpm/redhat/tuned@0.2.19-11?arch=el6
+    affected_by_vulnerabilities:
+      - VCID-ys7r-n3yg-aaac
+    fixing_vulnerabilities: []

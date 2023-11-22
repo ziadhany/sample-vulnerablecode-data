@@ -1,0 +1,12 @@
+vulnerability_id: VCID-s5qu-ua3z-aaah
+aliases:
+  - OSVDB-132800
+summary: |
+  Arbitrary search execution
+  The gem contains a flaw that is triggered when handling the `params[:default_class_name]` option. This allows users to search any object of all given ActiveRecord classes.
+severities: []
+references:
+  - id: 39058
+    url: https://github.com/Loriowar/auto_select2/issues/4
+    reference_id:
+weaknesses: []

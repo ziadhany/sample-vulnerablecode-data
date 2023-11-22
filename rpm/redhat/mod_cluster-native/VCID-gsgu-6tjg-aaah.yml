@@ -1,0 +1,110 @@
+vulnerability_id: VCID-gsgu-6tjg-aaah
+aliases:
+  - CVE-2012-4529
+summary: 'CVE-2012-4529 JBoss Web: jsessionid exposed via encoded url when using cookie based
+  session tracking'
+severities:
+  - id: 64169
+    reference_id: '192625'
+    scoring_system: rhbs
+    value: low
+    scoring_elements:
+  - id: 157542
+    reference_id: 502533
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:N/A:N
+  - id: 59671
+    reference_id: 186407
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 59670
+    reference_id: 186406
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 59669
+    reference_id: 186405
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 59179
+    reference_id: 185710
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 502528
+    url: http://ocpsoft.org/support/topic/session-id-is-appended-as-url-path-parameter-in-very-first-request/
+    reference_id:
+  - id: 502529
+    url: http://rhn.redhat.com/errata/RHSA-2013-0833.html
+    reference_id:
+  - id: 502530
+    url: http://rhn.redhat.com/errata/RHSA-2013-0834.html
+    reference_id:
+  - id: 502531
+    url: http://rhn.redhat.com/errata/RHSA-2013-0839.html
+    reference_id:
+  - id: 450919
+    url: http://rhn.redhat.com/errata/RHSA-2013-1437.html
+    reference_id:
+  - id: '192626'
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2012-4529.json
+    reference_id:
+  - id: 502532
+    url: https://issues.jboss.org/browse/JBWEB-249
+    reference_id:
+  - id: '192625'
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=868202
+    reference_id: 868202
+  - id: 502534
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_community_application_server:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_community_application_server:*:*:*:*:*:*:*:*
+  - id: 408389
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_community_application_server:5.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_community_application_server:5.0.0:*:*:*:*:*:*:*
+  - id: 502535
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_community_application_server:5.0.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_community_application_server:5.0.1:*:*:*:*:*:*:*
+  - id: 502536
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_community_application_server:5.1.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_community_application_server:5.1.0:*:*:*:*:*:*:*
+  - id: 502537
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_community_application_server:6.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_community_application_server:6.0.0:*:*:*:*:*:*:*
+  - id: 502538
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_community_application_server:6.1.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_community_application_server:6.1.0:*:*:*:*:*:*:*
+  - id: 502539
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_community_application_server:7.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_community_application_server:7.0.0:*:*:*:*:*:*:*
+  - id: 502540
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_community_application_server:7.0.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_community_application_server:7.0.1:*:*:*:*:*:*:*
+  - id: 502541
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_community_application_server:7.0.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_community_application_server:7.0.2:*:*:*:*:*:*:*
+  - id: 502542
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_community_application_server:7.1.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_community_application_server:7.1.0:*:*:*:*:*:*:*
+  - id: 502543
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:6.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:6.0.0:*:*:*:*:*:*:*
+  - id: 502533
+    url: https://nvd.nist.gov/vuln/detail/CVE-2012-4529
+    reference_id: CVE-2012-4529
+  - id: 186407
+    url: https://access.redhat.com/errata/RHSA-2013:0833
+    reference_id: RHSA-2013:0833
+  - id: 186406
+    url: https://access.redhat.com/errata/RHSA-2013:0834
+    reference_id: RHSA-2013:0834
+  - id: 186405
+    url: https://access.redhat.com/errata/RHSA-2013:0839
+    reference_id: RHSA-2013:0839
+  - id: 185710
+    url: https://access.redhat.com/errata/RHSA-2013:1437
+    reference_id: RHSA-2013:1437
+weaknesses: []

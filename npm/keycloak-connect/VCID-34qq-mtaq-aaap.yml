@@ -1,0 +1,102 @@
+vulnerability_id: VCID-34qq-mtaq-aaap
+aliases:
+  - CVE-2019-3868
+  - GHSA-gc52-xj6p-9pxp
+summary: Exposure of Sensitive Information to an Unauthorized Actor in Keycloak
+severities:
+  - id: 612389
+    reference_id: 933084
+    scoring_system: cvssv3
+    value: '3.8'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:N
+  - id: 612385
+    reference_id: 933080
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 406380
+    reference_id: 14428
+    scoring_system: cvssv2
+    value: '5.5'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:P/A:N
+  - id: 406378
+    reference_id: 14428
+    scoring_system: cvssv3
+    value: '3.8'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:N
+  - id: 1599
+    reference_id: 14431
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 612386
+    reference_id: 933081
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 612388
+    reference_id: 933083
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 612387
+    reference_id: 933082
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 68387
+    reference_id: '197917'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 71893
+    reference_id: 202377
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 69832
+    reference_id: '199687'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 933084
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2019-3868.json
+    reference_id:
+  - id: 14429
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2019-3868
+    reference_id:
+  - id: 14430
+    url: http://www.securityfocus.com/bid/108061
+    reference_id:
+  - id: 933080
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1679144
+    reference_id: 1679144
+  - id: 568146
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:keycloak:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:keycloak:*:*:*:*:*:*:*:*
+  - id: 14428
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-3868
+    reference_id: CVE-2019-3868
+  - id: 14431
+    url: https://github.com/advisories/GHSA-gc52-xj6p-9pxp
+    reference_id: GHSA-gc52-xj6p-9pxp
+  - id: 933081
+    url: https://access.redhat.com/errata/RHSA-2019:0856
+    reference_id: RHSA-2019:0856
+  - id: 933083
+    url: https://access.redhat.com/errata/RHSA-2019:0857
+    reference_id: RHSA-2019:0857
+  - id: 933082
+    url: https://access.redhat.com/errata/RHSA-2019:0868
+    reference_id: RHSA-2019:0868
+  - id: '197917'
+    url: https://access.redhat.com/errata/RHSA-2019:1140
+    reference_id: RHSA-2019:1140
+  - id: 202377
+    url: https://access.redhat.com/errata/RHSA-2019:2998
+    reference_id: RHSA-2019:2998
+  - id: '199687'
+    url: https://access.redhat.com/errata/RHSA-2020:2366
+    reference_id: RHSA-2020:2366
+weaknesses: []

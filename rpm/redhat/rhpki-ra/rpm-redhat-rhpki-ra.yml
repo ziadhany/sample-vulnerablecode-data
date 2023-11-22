@@ -1,0 +1,12 @@
+package: pkg:rpm/redhat/rhpki-ra
+versions:
+  - purl: pkg:rpm/redhat/rhpki-ra@7.3.0-67?arch=el4
+    affected_by_vulnerabilities:
+      - VCID-3hh6-ee6v-aaag
+      - VCID-6qhm-8a8a-aaac
+      - VCID-jwbc-4z3a-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/rhpki-ra@7.3.0-69?arch=el4
+    affected_by_vulnerabilities:
+      - VCID-7twb-za6k-aaar
+    fixing_vulnerabilities: []

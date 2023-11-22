@@ -1,0 +1,8 @@
+vulnerability_id: VCID-6ty6-x3kr-aaah
+aliases:
+  - GMS-2014-30
+summary: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+  in jruby-sandbox.
+severities: []
+references: []
+weaknesses: []

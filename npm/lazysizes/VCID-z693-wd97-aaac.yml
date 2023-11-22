@@ -1,0 +1,29 @@
+vulnerability_id: VCID-z693-wd97-aaac
+aliases:
+  - GHSA-w4vp-3mq7-7v82
+  - GMS-2020-745
+summary: |
+  Cross-Site Scripting in lazysizes
+  Versions of `lazysizes` prior to 5.2.1-rc1 are vulnerable to Cross-Site Scripting.  The `video-embed` plugin fails to sanitize the following attributes: data-vimeo, `data-vimeoparams`, `data-youtube` and `data-ytparams`. This allows attackers to execute arbitrary JavaScript in a victim's browser if the attacker has control over the vulnerable attributes.
+
+
+  ## Recommendation
+
+  Upgrade to version 5.2.1-rc1 or later.
+severities:
+  - id: 705204
+    reference_id: 36454
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 36452
+    url: https://github.com/aFarkas/lazysizes/issues/764
+    reference_id:
+  - id: 36453
+    url: https://www.npmjs.com/advisories/1493
+    reference_id:
+  - id: 36454
+    url: https://github.com/advisories/GHSA-w4vp-3mq7-7v82
+    reference_id: GHSA-w4vp-3mq7-7v82
+weaknesses: []

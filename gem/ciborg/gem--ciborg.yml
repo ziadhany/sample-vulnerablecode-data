@@ -1,0 +1,6 @@
+package: pkg:gem/ciborg
+versions:
+  - purl: pkg:gem/ciborg@3.0.0
+    affected_by_vulnerabilities:
+      - VCID-rxnx-w9zx-aaaf
+    fixing_vulnerabilities: []

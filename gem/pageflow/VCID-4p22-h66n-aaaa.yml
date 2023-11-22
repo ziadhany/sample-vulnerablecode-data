@@ -1,0 +1,27 @@
+vulnerability_id: VCID-4p22-h66n-aaaa
+aliases:
+  - GHSA-qcqv-38jg-2r43
+  - GMS-2022-4207
+summary: Pageflow vulnerable to insecure direct object reference in membership update endpoint
+severities:
+  - id: 647539
+    reference_id: 1416832
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 647538
+    reference_id: 1416830
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 1416831
+    url: https://github.com/codevise/pageflow/pull/1862
+    reference_id:
+  - id: 1416832
+    url: https://github.com/advisories/GHSA-qcqv-38jg-2r43
+    reference_id: GHSA-qcqv-38jg-2r43
+  - id: 1416830
+    url: https://github.com/codevise/pageflow/security/advisories/GHSA-qcqv-38jg-2r43
+    reference_id: GHSA-qcqv-38jg-2r43
+weaknesses: []

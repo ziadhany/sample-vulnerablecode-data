@@ -1,0 +1,98 @@
+vulnerability_id: VCID-apu1-t8te-aaaj
+aliases:
+  - CVE-2020-1724
+summary: |
+  Insufficient Session Expiration
+  A flaw was found in Keycloak which allows a malicious user that is currently logged in, to see the personal information of a previously logged-out user in the account manager section.
+severities:
+  - id: 49758
+    reference_id: 174183
+    scoring_system: cvssv3
+    value: '4.3'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N
+  - id: 49757
+    reference_id: 174182
+    scoring_system: rhbs
+    value: low
+    scoring_elements:
+  - id: 450550
+    reference_id: 30615
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:N/A:N
+  - id: 450548
+    reference_id: 30615
+    scoring_system: cvssv3
+    value: '4.3'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N
+  - id: 49254
+    reference_id: 173547
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49252
+    reference_id: 173545
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49253
+    reference_id: 173546
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49236
+    reference_id: 173530
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49251
+    reference_id: 173544
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49250
+    reference_id: 173543
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 174183
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2020-1724.json
+    reference_id:
+  - id: 30616
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2020-1724
+    reference_id:
+  - id: 174182
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1800527
+    reference_id: 1800527
+  - id: 568146
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:keycloak:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:keycloak:*:*:*:*:*:*:*:*
+  - id: 779474
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift_application_runtimes:-:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift_application_runtimes:-:*:*:*:*:*:*:*
+  - id: 766462
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:single_sign-on:7.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:single_sign-on:7.0:*:*:*:*:*:*:*
+  - id: 30615
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-1724
+    reference_id: CVE-2020-1724
+  - id: 173547
+    url: https://access.redhat.com/errata/RHSA-2020:2106
+    reference_id: RHSA-2020:2106
+  - id: 173545
+    url: https://access.redhat.com/errata/RHSA-2020:2107
+    reference_id: RHSA-2020:2107
+  - id: 173546
+    url: https://access.redhat.com/errata/RHSA-2020:2108
+    reference_id: RHSA-2020:2108
+  - id: 173530
+    url: https://access.redhat.com/errata/RHSA-2020:2112
+    reference_id: RHSA-2020:2112
+  - id: 173544
+    url: https://access.redhat.com/errata/RHSA-2020:2252
+    reference_id: RHSA-2020:2252
+  - id: 173543
+    url: https://access.redhat.com/errata/RHSA-2020:2905
+    reference_id: RHSA-2020:2905
+weaknesses: []

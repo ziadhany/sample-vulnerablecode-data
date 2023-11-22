@@ -1,0 +1,6 @@
+package: pkg:rpm/redhat/python-tap-as-a-service
+versions:
+  - purl: pkg:rpm/redhat/python-tap-as-a-service@5.0.1-0.20191010204151.21aa47c?arch=el8ost
+    affected_by_vulnerabilities:
+      - VCID-2cqt-v8wb-aaac
+    fixing_vulnerabilities: []

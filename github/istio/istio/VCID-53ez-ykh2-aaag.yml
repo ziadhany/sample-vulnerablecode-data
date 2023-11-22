@@ -1,0 +1,96 @@
+vulnerability_id: VCID-53ez-ykh2-aaag
+aliases:
+  - CVE-2019-15226
+summary: 'CVE-2019-15226 envoy: crafted request allows remote attacker to cause denial of service'
+severities:
+  - id: 70302
+    reference_id: 200369
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 70301
+    reference_id: 200368
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 384317
+    reference_id: 780353
+    scoring_system: cvssv2
+    value: '7.8'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:C
+  - id: 384315
+    reference_id: 780353
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+references:
+  - id: 200369
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2019-15226.json
+    reference_id:
+  - id: 780350
+    url: https://github.com/envoyproxy/envoy/commit/afc39bea36fd436e54262f150c009e8d72db5014
+    reference_id:
+  - id: 780351
+    url: https://github.com/envoyproxy/envoy/commits/master
+    reference_id:
+  - id: 780352
+    url: https://github.com/envoyproxy/envoy/issues/8520
+    reference_id:
+  - id: 200368
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1753576
+    reference_id: 1753576
+  - id: 780354
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:envoyproxy:envoy:1.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:envoyproxy:envoy:1.0.0:*:*:*:*:*:*:*
+  - id: 780355
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:envoyproxy:envoy:1.1.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:envoyproxy:envoy:1.1.0:*:*:*:*:*:*:*
+  - id: 780356
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:envoyproxy:envoy:1.10.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:envoyproxy:envoy:1.10.0:*:*:*:*:*:*:*
+  - id: 780357
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:envoyproxy:envoy:1.11.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:envoyproxy:envoy:1.11.0:*:*:*:*:*:*:*
+  - id: 780358
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:envoyproxy:envoy:1.11.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:envoyproxy:envoy:1.11.1:*:*:*:*:*:*:*
+  - id: 780359
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:envoyproxy:envoy:1.11.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:envoyproxy:envoy:1.11.2:*:*:*:*:*:*:*
+  - id: 780360
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:envoyproxy:envoy:1.2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:envoyproxy:envoy:1.2.0:*:*:*:*:*:*:*
+  - id: 780361
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:envoyproxy:envoy:1.3.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:envoyproxy:envoy:1.3.0:*:*:*:*:*:*:*
+  - id: 780362
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:envoyproxy:envoy:1.4.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:envoyproxy:envoy:1.4.0:*:*:*:*:*:*:*
+  - id: 780363
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:envoyproxy:envoy:1.5.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:envoyproxy:envoy:1.5.0:*:*:*:*:*:*:*
+  - id: 780364
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:envoyproxy:envoy:1.6.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:envoyproxy:envoy:1.6.0:*:*:*:*:*:*:*
+  - id: 780365
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:envoyproxy:envoy:1.7.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:envoyproxy:envoy:1.7.0:*:*:*:*:*:*:*
+  - id: 780366
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:envoyproxy:envoy:1.7.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:envoyproxy:envoy:1.7.1:*:*:*:*:*:*:*
+  - id: 780367
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:envoyproxy:envoy:1.8.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:envoyproxy:envoy:1.8.0:*:*:*:*:*:*:*
+  - id: 780368
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:envoyproxy:envoy:1.9.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:envoyproxy:envoy:1.9.0:*:*:*:*:*:*:*
+  - id: 780369
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:envoyproxy:envoy:1.9.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:envoyproxy:envoy:1.9.1:*:*:*:*:*:*:*
+  - id: 780353
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-15226
+    reference_id: CVE-2019-15226
+  - id: 1470878
+    url: https://istio.io/latest/news/security/ISTIO-SECURITY-2019-005/
+    reference_id: ISTIO-SECURITY-2019-005
+weaknesses: []

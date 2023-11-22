@@ -1,0 +1,78 @@
+vulnerability_id: VCID-q5kq-5gps-aaad
+aliases:
+  - CVE-2015-8861
+  - GHSA-9prh-257w-9277
+summary: |
+  Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')
+  The handlebars package before 4.0.0 for Node.js allows remote attackers to conduct cross-site scripting (XSS) attacks by leveraging a template with an attribute that is not quoted.
+severities:
+  - id: 708494
+    reference_id: 35101
+    scoring_system: cvssv3
+    value: '5.3'
+    scoring_elements:
+  - id: 708495
+    reference_id: 35100
+    scoring_system: cvssv3
+    value: '5.3'
+    scoring_elements:
+  - id: 665238
+    reference_id: 32354
+    scoring_system: generic_textual
+    value: Low
+    scoring_elements:
+  - id: 708496
+    reference_id: 1473417
+    scoring_system: cvssv3
+    value: '5.3'
+    scoring_elements:
+  - id: 206693
+    reference_id: 35099
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+  - id: 206691
+    reference_id: 35099
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+  - id: 705349
+    reference_id: 35102
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 35101
+    url: https://blog.srcclr.com/handlebars_vulnerability_research_findings/
+    reference_id:
+  - id: 35100
+    url: https://github.com/wycats/handlebars.js/pull/1083
+    reference_id:
+  - id: 35103
+    url: https://www.npmjs.com/advisories/61
+    reference_id:
+  - id: 35104
+    url: https://www.sourceclear.com/blog/handlebars_vulnerability_research_findings/
+    reference_id:
+  - id: 34641
+    url: https://www.tenable.com/security/tns-2016-18
+    reference_id:
+  - id: 32354
+    url: http://www.openwall.com/lists/oss-security/2016/04/20/11
+    reference_id:
+  - id: 35105
+    url: http://www.securityfocus.com/bid/96434
+    reference_id:
+  - id: 1473417
+    url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/61.json
+    reference_id: 61
+  - id: 620167
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:handlebars.js_project:handlebars.js:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:handlebars.js_project:handlebars.js:*:*:*:*:*:node.js:*:*
+  - id: 35099
+    url: https://nvd.nist.gov/vuln/detail/CVE-2015-8861
+    reference_id: CVE-2015-8861
+  - id: 35102
+    url: https://github.com/advisories/GHSA-9prh-257w-9277
+    reference_id: GHSA-9prh-257w-9277
+weaknesses: []

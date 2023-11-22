@@ -1,0 +1,15 @@
+vulnerability_id: VCID-2ehb-n1e9-aaab
+aliases:
+  - GHSA-v6vv-hhqc-6hh2
+  - GMS-2020-443
+summary: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+  in pyramid-proportion.
+severities: []
+references:
+  - id: 32205
+    url: https://www.npmjs.com/advisories/1106
+    reference_id:
+  - id: 32206
+    url: https://github.com/advisories/GHSA-v6vv-hhqc-6hh2
+    reference_id: GHSA-v6vv-hhqc-6hh2
+weaknesses: []

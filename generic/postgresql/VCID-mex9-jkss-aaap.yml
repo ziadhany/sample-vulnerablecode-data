@@ -1,0 +1,122 @@
+vulnerability_id: VCID-mex9-jkss-aaap
+aliases:
+  - CVE-2004-0977
+summary: The make_oidjoins_check script in PostgreSQL 7.4.5 and earlier allows local users to
+  overwrite files via a symlink attack on temporary files.
+severities:
+  - id: 79257
+    reference_id: 211408
+    scoring_system: rhbs
+    value: low
+    scoring_elements:
+  - id: 23346
+    reference_id: 98002
+    scoring_system: cvssv2
+    value: '2.1'
+    scoring_elements: AV:L/AC:L/Au:N/C:N/I:P/A:N
+  - id: 79258
+    reference_id: 211409
+    scoring_system: rhas
+    value: Low
+    scoring_elements:
+references:
+  - id: 97993
+    url: http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=136300
+    reference_id:
+  - id: 97994
+    url: http://marc.info/?l=bugtraq&m=109910073808903&w=2
+    reference_id:
+  - id: 211410
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2004-0977.json
+    reference_id:
+  - id: 97995
+    url: http://security.gentoo.org/glsa/glsa-200410-16.xml
+    reference_id:
+  - id: 97889
+    url: https://exchange.xforce.ibmcloud.com/vulnerabilities/17583
+    reference_id:
+  - id: 98000
+    url: https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A11360
+    reference_id:
+  - id: 1469171
+    url: https://www.postgresql.org/support/security/CVE-2004-0977/
+    reference_id:
+  - id: 98001
+    url: https://www.ubuntu.com/usn/usn-6-1/
+    reference_id:
+  - id: 97996
+    url: http://www.debian.org/security/2004/dsa-577
+    reference_id:
+  - id: 97997
+    url: http://www.mandriva.com/security/advisories?name=MDKSA-2004:149
+    reference_id:
+  - id: 97998
+    url: http://www.redhat.com/support/errata/RHSA-2004-489.html
+    reference_id:
+  - id: 97999
+    url: http://www.securityfocus.com/bid/11295
+    reference_id:
+  - id: 97887
+    url: http://www.trustix.org/errata/2004/0050
+    reference_id:
+  - id: 211408
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1617340
+    reference_id: 1617340
+  - id: 70372
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.2.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.2.1:*:*:*:*:*:*:*
+  - id: 98003
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.4.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.4.3:*:*:*:*:*:*:*
+  - id: 98004
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.4.5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.4.5:*:*:*:*:*:*:*
+  - id: 48839
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:mandrakesoft:mandrake_linux:10.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:mandrakesoft:mandrake_linux:10.0:*:*:*:*:*:*:*
+  - id: 93303
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:mandrakesoft:mandrake_linux:10.0:*:amd64:*:*:*:*:*
+    reference_id: cpe:2.3:o:mandrakesoft:mandrake_linux:10.0:*:amd64:*:*:*:*:*
+  - id: 48840
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:mandrakesoft:mandrake_linux:10.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:mandrakesoft:mandrake_linux:10.1:*:*:*:*:*:*:*
+  - id: 96892
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:mandrakesoft:mandrake_linux:10.1:*:x86_64:*:*:*:*:*
+    reference_id: cpe:2.3:o:mandrakesoft:mandrake_linux:10.1:*:x86_64:*:*:*:*:*
+  - id: 48841
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:mandrakesoft:mandrake_linux:9.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:mandrakesoft:mandrake_linux:9.2:*:*:*:*:*:*:*
+  - id: 86145
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:mandrakesoft:mandrake_linux:9.2:*:amd64:*:*:*:*:*
+    reference_id: cpe:2.3:o:mandrakesoft:mandrake_linux:9.2:*:amd64:*:*:*:*:*
+  - id: 82485
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:mandrakesoft:mandrake_linux_corporate_server:2.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:mandrakesoft:mandrake_linux_corporate_server:2.1:*:*:*:*:*:*:*
+  - id: 94029
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:mandrakesoft:mandrake_linux_corporate_server:2.1:*:x86_64:*:*:*:*:*
+    reference_id: cpe:2.3:o:mandrakesoft:mandrake_linux_corporate_server:2.1:*:x86_64:*:*:*:*:*
+  - id: 93572
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:redhat:enterprise_linux:3.0:*:advanced_server:*:*:*:*:*
+    reference_id: cpe:2.3:o:redhat:enterprise_linux:3.0:*:advanced_server:*:*:*:*:*
+  - id: 77651
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:redhat:enterprise_linux:3.0:*:enterprise_server:*:*:*:*:*
+    reference_id: cpe:2.3:o:redhat:enterprise_linux:3.0:*:enterprise_server:*:*:*:*:*
+  - id: 93573
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:redhat:enterprise_linux:3.0:*:workstation_server:*:*:*:*:*
+    reference_id: cpe:2.3:o:redhat:enterprise_linux:3.0:*:workstation_server:*:*:*:*:*
+  - id: 77653
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:redhat:enterprise_linux_desktop:3.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:redhat:enterprise_linux_desktop:3.0:*:*:*:*:*:*:*
+  - id: 93479
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:trustix:secure_linux:2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:trustix:secure_linux:2.0:*:*:*:*:*:*:*
+  - id: 93480
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:trustix:secure_linux:2.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:trustix:secure_linux:2.1:*:*:*:*:*:*:*
+  - id: 98002
+    url: https://nvd.nist.gov/vuln/detail/CVE-2004-0977
+    reference_id: CVE-2004-0977
+  - id: 211409
+    url: https://access.redhat.com/errata/RHSA-2004:489
+    reference_id: RHSA-2004:489
+weaknesses: []

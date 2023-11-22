@@ -1,0 +1,21 @@
+vulnerability_id: VCID-bjd7-ep73-aaac
+aliases:
+  - GHSA-657v-jjf8-83gh
+  - GMS-2020-330
+summary: |
+  Malicious Package
+  contained malicious code. The package targeted the Ethereum cryptocurrency and performed transactions to wallets not controlled by the user. Remove the package from your environment. Ensure no Ethereum funds were compromised.
+severities:
+  - id: 704655
+    reference_id: 37429
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 37428
+    url: https://www.npmjs.com/advisories/1295
+    reference_id:
+  - id: 37429
+    url: https://github.com/advisories/GHSA-657v-jjf8-83gh
+    reference_id: GHSA-657v-jjf8-83gh
+weaknesses: []

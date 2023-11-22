@@ -1,0 +1,58 @@
+package: pkg:npm/supermixer
+versions:
+  - purl: pkg:npm/supermixer@0.1.0
+    affected_by_vulnerabilities:
+      - VCID-98uj-ayrc-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/supermixer@0.1.1
+    affected_by_vulnerabilities:
+      - VCID-98uj-ayrc-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/supermixer@0.1.2
+    affected_by_vulnerabilities:
+      - VCID-98uj-ayrc-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/supermixer@0.2.0
+    affected_by_vulnerabilities:
+      - VCID-98uj-ayrc-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/supermixer@0.2.1
+    affected_by_vulnerabilities:
+      - VCID-98uj-ayrc-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/supermixer@0.3.0
+    affected_by_vulnerabilities:
+      - VCID-98uj-ayrc-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/supermixer@0.3.1
+    affected_by_vulnerabilities:
+      - VCID-98uj-ayrc-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/supermixer@0.4.0
+    affected_by_vulnerabilities:
+      - VCID-98uj-ayrc-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/supermixer@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-98uj-ayrc-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/supermixer@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-98uj-ayrc-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/supermixer@1.0.2
+    affected_by_vulnerabilities:
+      - VCID-98uj-ayrc-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/supermixer@1.0.3
+    affected_by_vulnerabilities:
+      - VCID-98uj-ayrc-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/supermixer@1.0.4
+    affected_by_vulnerabilities:
+      - VCID-98uj-ayrc-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/supermixer@1.0.5
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-98uj-ayrc-aaae

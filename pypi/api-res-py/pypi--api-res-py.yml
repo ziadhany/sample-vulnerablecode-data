@@ -1,0 +1,6 @@
+package: pkg:pypi/api-res-py
+versions:
+  - purl: pkg:pypi/api-res-py@0.1
+    affected_by_vulnerabilities:
+      - VCID-umb7-mwev-aaaj
+    fixing_vulnerabilities: []

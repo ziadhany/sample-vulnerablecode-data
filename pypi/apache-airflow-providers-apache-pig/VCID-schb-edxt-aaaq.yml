@@ -1,0 +1,25 @@
+vulnerability_id: VCID-schb-edxt-aaaq
+aliases:
+  - CVE-2022-40189
+  - GHSA-rmf2-pwfq-h75j
+summary: OS Command Injection in Apache Airflow
+severities:
+  - id: 702888
+    reference_id: 1462159
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 1462157
+    url: https://github.com/apache/airflow/pull/27644
+    reference_id:
+  - id: 1462158
+    url: https://lists.apache.org/thread/yxnfzfw2w9pj5s785k3rlyly4y44sd15
+    reference_id:
+  - id: 1462156
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-40189
+    reference_id: CVE-2022-40189
+  - id: 1462159
+    url: https://github.com/advisories/GHSA-rmf2-pwfq-h75j
+    reference_id: GHSA-rmf2-pwfq-h75j
+weaknesses: []

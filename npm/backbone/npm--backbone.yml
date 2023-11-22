@@ -1,0 +1,42 @@
+package: pkg:npm/backbone
+versions:
+  - purl: pkg:npm/backbone@0.1.1
+    affected_by_vulnerabilities:
+      - VCID-bdxs-cten-aaae
+      - VCID-tveg-xtq8-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/backbone@0.1.2
+    affected_by_vulnerabilities:
+      - VCID-bdxs-cten-aaae
+      - VCID-tveg-xtq8-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/backbone@0.2.0
+    affected_by_vulnerabilities:
+      - VCID-bdxs-cten-aaae
+      - VCID-tveg-xtq8-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/backbone@0.3.0
+    affected_by_vulnerabilities:
+      - VCID-bdxs-cten-aaae
+      - VCID-tveg-xtq8-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/backbone@0.3.1
+    affected_by_vulnerabilities:
+      - VCID-bdxs-cten-aaae
+      - VCID-tveg-xtq8-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/backbone@0.3.2
+    affected_by_vulnerabilities:
+      - VCID-bdxs-cten-aaae
+      - VCID-tveg-xtq8-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/backbone@0.3.3
+    affected_by_vulnerabilities:
+      - VCID-bdxs-cten-aaae
+      - VCID-tveg-xtq8-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/backbone@0.5.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-bdxs-cten-aaae
+      - VCID-tveg-xtq8-aaaa

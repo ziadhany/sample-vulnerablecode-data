@@ -1,0 +1,40 @@
+vulnerability_id: VCID-gvfx-7k2h-aaap
+aliases:
+  - CVE-2022-37021
+  - GHSA-q4q3-r45f-7gwg
+summary: Apache Geode versions up to 1.12.5, 1.13.4 and 1.14.0 are vulnerable to a deserialization
+  of untrusted data flaw when using JMX over RMI on Java 8. Any user still on Java 8 who wishes
+  to protect against deserialization attacks involving JMX or RMI should upgrade to Apache Geode
+  1.15 and Java 11. If upgrading to Java 11 is not possible, then upgrade to Apache Geode 1.15
+  and specify "--J=-Dgeode.enableGlobalSerialFilter=true" when starting any Locators or Servers.
+  Follow the documentation for details on specifying any user classes that may be serialized/deserialized
+  with the "serializable-object-filter" configuration option. Using a global serial filter will
+  impact performance.
+severities:
+  - id: 647165
+    reference_id: 1415455
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 708069
+    reference_id: 1471966
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 1415454
+    url: https://lists.apache.org/thread/qrvhmytsshsk5xcb68pwccw3y6m8o8nr
+    reference_id:
+  - id: 677805
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:geode:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:geode:*:*:*:*:*:*:*:*
+  - id: 1416292
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:geode:1.14.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:geode:1.14.0:*:*:*:*:*:*:*
+  - id: 1415455
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-37021
+    reference_id: CVE-2022-37021
+  - id: 1471966
+    url: https://github.com/advisories/GHSA-q4q3-r45f-7gwg
+    reference_id: GHSA-q4q3-r45f-7gwg
+weaknesses: []

@@ -1,0 +1,28 @@
+vulnerability_id: VCID-rgsk-afz3-aaac
+aliases:
+  - GHSA-wm77-q74p-5763
+  - GMS-2018-35
+summary: Relative Path Traversal in superstatic.
+severities:
+  - id: 705235
+    reference_id: 35725
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 35723
+    url: https://github.com/firebase/superstatic/blob/v5.0.1/lib/providers/fs.js#L71
+    reference_id:
+  - id: 35722
+    url: https://github.com/firebase/superstatic/commit/e396ff62f588732989137d6c40d46b310e51ef2b
+    reference_id:
+  - id: 35721
+    url: https://github.com/firebase/superstatic/pull/255
+    reference_id:
+  - id: 35724
+    url: https://www.npmjs.com/advisories/652
+    reference_id:
+  - id: 35725
+    url: https://github.com/advisories/GHSA-wm77-q74p-5763
+    reference_id: GHSA-wm77-q74p-5763
+weaknesses: []

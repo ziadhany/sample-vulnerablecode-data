@@ -1,0 +1,31 @@
+vulnerability_id: VCID-kamf-3j6w-aaah
+aliases:
+  - GHSA-4j6x-w426-6rc6
+  - GMS-2019-9
+summary: "## Default Express middleware security check is ignored in production\r\n\r\n### Impact\r\
+  \nAll Cube.js deployments that use affected versions of `@cubejs-backend/api-gateway` with\
+  \ default express authentication middleware in production environment are affected.\r\n\r\n\
+  ### Patches\r\n@cubejs-backend/api-gateway@0.11.17\r\n\r\n### Workarounds\r\nOverride default\
+  \ authentication express middleware: https://cube.dev/docs/@cubejs-backend-server-core#options-reference-check-auth-middleware\r\
+  \n\r\n### For more information\r\nIf you have any questions or comments about this advisory:\r\
+  \n* Open an issue in https://github.com/cube-js/cube.js/issues\r\n* Reach out us in community\
+  \ Slack: https://slack.cube.dev/"
+severities:
+  - id: 704574
+    reference_id: 37467
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 704573
+    reference_id: 1466336
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 37467
+    url: https://github.com/advisories/GHSA-4j6x-w426-6rc6
+    reference_id: GHSA-4j6x-w426-6rc6
+  - id: 1466336
+    url: https://github.com/cube-js/cube.js/security/advisories/GHSA-4j6x-w426-6rc6
+    reference_id: GHSA-4j6x-w426-6rc6
+weaknesses: []

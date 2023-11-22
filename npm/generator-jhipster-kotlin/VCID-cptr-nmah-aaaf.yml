@@ -1,0 +1,46 @@
+vulnerability_id: VCID-cptr-nmah-aaaf
+aliases:
+  - CVE-2020-4072
+  - GHSA-pfxf-wh96-fvjc
+summary: |
+  Improper Output Neutralization for Logs
+  In generator-jhipster-kotlin, log entries are created for invalid password reset attempts. As the email is provided by a user and the api is public this can be used by an attacker to forge log entries.
+severities:
+  - id: 478828
+    reference_id: 33824
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:P/A:N
+  - id: 478826
+    reference_id: 33824
+    scoring_system: cvssv3
+    value: '5.3'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+  - id: 706286
+    reference_id: 1467833
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 845276
+    url: https://github.com/jhipster/jhipster-kotlin/commit/426ccab85e7e0da562643200637b99b6a2a99449
+    reference_id:
+  - id: 845277
+    url: https://github.com/jhipster/jhipster-kotlin/security/advisories/GHSA-pfxf-wh96-fvjc
+    reference_id:
+  - id: 845278
+    url: https://owasp.org/www-community/attacks/Log_Injection
+    reference_id:
+  - id: 845279
+    url: https://www.baeldung.com/jvm-log-forging
+    reference_id:
+  - id: 845280
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:jhipster:generator-jhipster-kotlin:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:jhipster:generator-jhipster-kotlin:*:*:*:*:*:*:*:*
+  - id: 33824
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-4072
+    reference_id: CVE-2020-4072
+  - id: 1467833
+    url: https://github.com/advisories/GHSA-pfxf-wh96-fvjc
+    reference_id: GHSA-pfxf-wh96-fvjc
+weaknesses: []

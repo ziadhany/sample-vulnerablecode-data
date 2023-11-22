@@ -1,0 +1,6 @@
+package: pkg:rpm/redhat/tracker
+versions:
+  - purl: pkg:rpm/redhat/tracker@1.10.5-8?arch=el7
+    affected_by_vulnerabilities:
+      - VCID-dmp9-4dsk-aaaa
+    fixing_vulnerabilities: []

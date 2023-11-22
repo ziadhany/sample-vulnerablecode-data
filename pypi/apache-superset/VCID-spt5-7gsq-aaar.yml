@@ -1,0 +1,48 @@
+vulnerability_id: VCID-spt5-7gsq-aaar
+aliases:
+  - CVE-2020-1932
+  - GHSA-fxjm-wvj9-9c39
+  - PYSEC-2020-224
+summary: An information disclosure issue was found in Apache Superset 0.34.0, 0.34.1, 0.35.0,
+  and 0.35.1. Authenticated Apache Superset users are able to retrieve other users' information,
+  including hashed passwords, by accessing an unused and undocumented API endpoint on Apache
+  Superset.
+severities:
+  - id: 453012
+    reference_id: 23779
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:N/A:N
+  - id: 453010
+    reference_id: 23779
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+  - id: 4655
+    reference_id: 26119
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 6904
+    url: https://lists.apache.org/thread.html/r4e5323c3bc786005495311a6ff53ac6d990b2c7eb52941a1a13ce227%40%3Cdev.superset.apache.org%3E
+    reference_id:
+  - id: 828465
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:superset:0.34.0:-:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:superset:0.34.0:-:*:*:*:*:*:*
+  - id: 828466
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:superset:0.34.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:superset:0.34.1:*:*:*:*:*:*:*
+  - id: 828467
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:superset:0.35.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:superset:0.35.0:*:*:*:*:*:*:*
+  - id: 828468
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:superset:0.35.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:superset:0.35.1:*:*:*:*:*:*:*
+  - id: 23779
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-1932
+    reference_id: CVE-2020-1932
+  - id: 26119
+    url: https://github.com/advisories/GHSA-fxjm-wvj9-9c39
+    reference_id: GHSA-fxjm-wvj9-9c39
+weaknesses: []

@@ -1,0 +1,281 @@
+vulnerability_id: VCID-v44r-jr1v-aaac
+aliases:
+  - CVE-2017-0905
+  - GHSA-x27v-x225-gq8g
+summary: Server-Side Request Forgery in Recurly
+severities:
+  - id: 248880
+    reference_id: 29140
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 248878
+    reference_id: 29140
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 5170
+    reference_id: 29143
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 39073
+    url: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0905
+    reference_id:
+  - id: 29142
+    url: https://dev.recurly.com/page/ruby-updates
+    reference_id:
+  - id: 29141
+    url: https://github.com/recurly/recurly-client-ruby/commit/1bb0284d6e668b8b3d31167790ed6db1f6ccc4be
+    reference_id:
+  - id: 5330
+    url: https://hackerone.com/reports/288635
+    reference_id:
+  - id: 667032
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.0.0:*:*:*:*:*:*:*
+  - id: 667036
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.0.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.0.1:*:*:*:*:*:*:*
+  - id: 667033
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.0.10:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.0.10:*:*:*:*:*:*:*
+  - id: 667034
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.0.11:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.0.11:*:*:*:*:*:*:*
+  - id: 667035
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.0.12:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.0.12:*:*:*:*:*:*:*
+  - id: 667037
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.0.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.0.2:*:*:*:*:*:*:*
+  - id: 667038
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.0.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.0.3:*:*:*:*:*:*:*
+  - id: 667039
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.0.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.0.4:*:*:*:*:*:*:*
+  - id: 667040
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.0.5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.0.5:*:*:*:*:*:*:*
+  - id: 667041
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.0.6:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.0.6:*:*:*:*:*:*:*
+  - id: 667042
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.0.7:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.0.7:*:*:*:*:*:*:*
+  - id: 667043
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.0.8:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.0.8:*:*:*:*:*:*:*
+  - id: 667044
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.0.9:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.0.9:*:*:*:*:*:*:*
+  - id: 667045
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.1.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.1.0:*:*:*:*:*:*:*
+  - id: 667057
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.10.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.10.0:*:*:*:*:*:*:*
+  - id: 667058
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.10.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.10.1:*:*:*:*:*:*:*
+  - id: 667059
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.10.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.10.2:*:*:*:*:*:*:*
+  - id: 667060
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.10.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.10.3:*:*:*:*:*:*:*
+  - id: 667046
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.1.0:c:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.1.0:c:*:*:*:*:*:*
+  - id: 667048
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.1.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.1.1:*:*:*:*:*:*:*
+  - id: 667047
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.1.10:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.1.10:*:*:*:*:*:*:*
+  - id: 667061
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.11.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.11.0:*:*:*:*:*:*:*
+  - id: 667062
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.11.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.11.1:*:*:*:*:*:*:*
+  - id: 667063
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.11.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.11.2:*:*:*:*:*:*:*
+  - id: 667049
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.1.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.1.2:*:*:*:*:*:*:*
+  - id: 667050
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.1.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.1.3:*:*:*:*:*:*:*
+  - id: 667051
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.1.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.1.4:*:*:*:*:*:*:*
+  - id: 667052
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.1.5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.1.5:*:*:*:*:*:*:*
+  - id: 667053
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.1.6:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.1.6:*:*:*:*:*:*:*
+  - id: 667054
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.1.7:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.1.7:*:*:*:*:*:*:*
+  - id: 667055
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.1.8:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.1.8:*:*:*:*:*:*:*
+  - id: 667056
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.1.9:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.1.9:*:*:*:*:*:*:*
+  - id: 667064
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.2.0:*:*:*:*:*:*:*
+  - id: 667065
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.2.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.2.1:*:*:*:*:*:*:*
+  - id: 667066
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.2.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.2.2:*:*:*:*:*:*:*
+  - id: 667067
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.2.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.2.3:*:*:*:*:*:*:*
+  - id: 667068
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.2.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.2.4:*:*:*:*:*:*:*
+  - id: 667069
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.3.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.3.0:*:*:*:*:*:*:*
+  - id: 667070
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.3.0:beta1:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.3.0:beta1:*:*:*:*:*:*
+  - id: 667071
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.3.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.3.1:*:*:*:*:*:*:*
+  - id: 667072
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.3.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.3.2:*:*:*:*:*:*:*
+  - id: 667073
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.3.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.3.3:*:*:*:*:*:*:*
+  - id: 667074
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.3.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.3.4:*:*:*:*:*:*:*
+  - id: 667075
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.3.5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.3.5:*:*:*:*:*:*:*
+  - id: 667076
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.3.6:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.3.6:*:*:*:*:*:*:*
+  - id: 667077
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.3.7:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.3.7:*:*:*:*:*:*:*
+  - id: 667078
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.3.8:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.3.8:*:*:*:*:*:*:*
+  - id: 667079
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.3.9:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.3.9:*:*:*:*:*:*:*
+  - id: 667080
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.4.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.4.0:*:*:*:*:*:*:*
+  - id: 667082
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.4.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.4.1:*:*:*:*:*:*:*
+  - id: 667081
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.4.10:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.4.10:*:*:*:*:*:*:*
+  - id: 667083
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.4.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.4.2:*:*:*:*:*:*:*
+  - id: 667084
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.4.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.4.3:*:*:*:*:*:*:*
+  - id: 667085
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.4.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.4.4:*:*:*:*:*:*:*
+  - id: 667086
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.4.5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.4.5:*:*:*:*:*:*:*
+  - id: 667087
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.4.6:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.4.6:*:*:*:*:*:*:*
+  - id: 667088
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.4.7:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.4.7:*:*:*:*:*:*:*
+  - id: 667089
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.4.8:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.4.8:*:*:*:*:*:*:*
+  - id: 667090
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.4.9:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.4.9:*:*:*:*:*:*:*
+  - id: 667091
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.5.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.5.0:*:*:*:*:*:*:*
+  - id: 667092
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.5.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.5.1:*:*:*:*:*:*:*
+  - id: 667093
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.5.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.5.2:*:*:*:*:*:*:*
+  - id: 667094
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.5.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.5.3:*:*:*:*:*:*:*
+  - id: 667095
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.6.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.6.0:*:*:*:*:*:*:*
+  - id: 667096
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.6.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.6.1:*:*:*:*:*:*:*
+  - id: 667097
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.6.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.6.2:*:*:*:*:*:*:*
+  - id: 667098
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.7.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.7.0:*:*:*:*:*:*:*
+  - id: 667099
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.7.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.7.1:*:*:*:*:*:*:*
+  - id: 667100
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.7.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.7.2:*:*:*:*:*:*:*
+  - id: 667101
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.7.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.7.3:*:*:*:*:*:*:*
+  - id: 667102
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.7.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.7.4:*:*:*:*:*:*:*
+  - id: 667103
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.7.5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.7.5:*:*:*:*:*:*:*
+  - id: 667104
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.7.6:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.7.6:*:*:*:*:*:*:*
+  - id: 667105
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.7.7:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.7.7:*:*:*:*:*:*:*
+  - id: 667106
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.8.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.8.0:*:*:*:*:*:*:*
+  - id: 667107
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.8.0:rc1:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.8.0:rc1:*:*:*:*:*:*
+  - id: 667108
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.8.0:rc3:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.8.0:rc3:*:*:*:*:*:*
+  - id: 667109
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.8.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.8.1:*:*:*:*:*:*:*
+  - id: 667110
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.9.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.9.0:*:*:*:*:*:*:*
+  - id: 667111
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:recurly:recurly_client_ruby:2.9.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:recurly:recurly_client_ruby:2.9.1:*:*:*:*:*:*:*
+  - id: 29140
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-0905
+    reference_id: CVE-2017-0905
+  - id: 29143
+    url: https://github.com/advisories/GHSA-x27v-x225-gq8g
+    reference_id: GHSA-x27v-x225-gq8g
+weaknesses: []

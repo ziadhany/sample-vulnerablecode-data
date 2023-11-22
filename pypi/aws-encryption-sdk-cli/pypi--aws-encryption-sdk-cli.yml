@@ -1,0 +1,70 @@
+package: pkg:pypi/aws-encryption-sdk-cli
+versions:
+  - purl: pkg:pypi/aws-encryption-sdk-cli@1.1.0
+    affected_by_vulnerabilities:
+      - VCID-fgdb-m7zv-aaaa
+      - VCID-u2rj-g77q-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aws-encryption-sdk-cli@1.1.1
+    affected_by_vulnerabilities:
+      - VCID-fgdb-m7zv-aaaa
+      - VCID-u2rj-g77q-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aws-encryption-sdk-cli@1.1.2
+    affected_by_vulnerabilities:
+      - VCID-fgdb-m7zv-aaaa
+      - VCID-u2rj-g77q-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aws-encryption-sdk-cli@1.1.3
+    affected_by_vulnerabilities:
+      - VCID-fgdb-m7zv-aaaa
+      - VCID-u2rj-g77q-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aws-encryption-sdk-cli@1.1.4
+    affected_by_vulnerabilities:
+      - VCID-fgdb-m7zv-aaaa
+      - VCID-u2rj-g77q-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aws-encryption-sdk-cli@1.1.5
+    affected_by_vulnerabilities:
+      - VCID-fgdb-m7zv-aaaa
+      - VCID-u2rj-g77q-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aws-encryption-sdk-cli@1.1.6
+    affected_by_vulnerabilities:
+      - VCID-fgdb-m7zv-aaaa
+      - VCID-u2rj-g77q-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aws-encryption-sdk-cli@1.1.7
+    affected_by_vulnerabilities:
+      - VCID-fgdb-m7zv-aaaa
+      - VCID-u2rj-g77q-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aws-encryption-sdk-cli@1.7.0
+    affected_by_vulnerabilities:
+      - VCID-fgdb-m7zv-aaaa
+      - VCID-u2rj-g77q-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aws-encryption-sdk-cli@1.8.0
+    affected_by_vulnerabilities:
+      - VCID-fgdb-m7zv-aaaa
+    fixing_vulnerabilities:
+      - VCID-u2rj-g77q-aaaj
+  - purl: pkg:pypi/aws-encryption-sdk-cli@1.9.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-fgdb-m7zv-aaaa
+  - purl: pkg:pypi/aws-encryption-sdk-cli@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-fgdb-m7zv-aaaa
+      - VCID-u2rj-g77q-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aws-encryption-sdk-cli@2.1.0
+    affected_by_vulnerabilities:
+      - VCID-fgdb-m7zv-aaaa
+    fixing_vulnerabilities:
+      - VCID-u2rj-g77q-aaaj
+  - purl: pkg:pypi/aws-encryption-sdk-cli@2.2.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-fgdb-m7zv-aaaa

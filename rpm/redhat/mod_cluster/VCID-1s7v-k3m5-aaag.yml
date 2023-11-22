@@ -1,0 +1,155 @@
+vulnerability_id: VCID-1s7v-k3m5-aaag
+aliases:
+  - CVE-2012-0034
+summary: |
+  Credentials Management
+  The `NonManagedConnectionFactory` in JBoss logs the username and password in cleartext when an exception is thrown, which allows local users to obtain sensitive information by reading the log file.
+severities:
+  - id: 149608
+    reference_id: 476652
+    scoring_system: cvssv2
+    value: '2.1'
+    scoring_elements: AV:L/AC:L/Au:N/C:P/I:N/A:N
+  - id: 66094
+    reference_id: '195107'
+    scoring_system: rhas
+    value: Low
+    scoring_elements:
+  - id: 66095
+    reference_id: '195108'
+    scoring_system: rhas
+    value: Low
+    scoring_elements:
+  - id: 63229
+    reference_id: '191402'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63231
+    reference_id: '191404'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63230
+    reference_id: '191403'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63226
+    reference_id: '191399'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63228
+    reference_id: '191401'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63232
+    reference_id: '191405'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63032
+    reference_id: '191137'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 476646
+    url: http://rhn.redhat.com/errata/RHSA-2012-0108.html
+    reference_id:
+  - id: 476647
+    url: http://rhn.redhat.com/errata/RHSA-2012-1072.html
+    reference_id:
+  - id: 408373
+    url: http://rhn.redhat.com/errata/RHSA-2013-0191.html
+    reference_id:
+  - id: 408374
+    url: http://rhn.redhat.com/errata/RHSA-2013-0192.html
+    reference_id:
+  - id: 408375
+    url: http://rhn.redhat.com/errata/RHSA-2013-0193.html
+    reference_id:
+  - id: 408377
+    url: http://rhn.redhat.com/errata/RHSA-2013-0195.html
+    reference_id:
+  - id: 408378
+    url: http://rhn.redhat.com/errata/RHSA-2013-0196.html
+    reference_id:
+  - id: 408379
+    url: http://rhn.redhat.com/errata/RHSA-2013-0197.html
+    reference_id:
+  - id: 408381
+    url: http://rhn.redhat.com/errata/RHSA-2013-0221.html
+    reference_id:
+  - id: 408382
+    url: http://rhn.redhat.com/errata/RHSA-2013-0533.html
+    reference_id:
+  - id: '195109'
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2012-0034.json
+    reference_id:
+  - id: 476650
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=772835
+    reference_id:
+  - id: 408383
+    url: http://secunia.com/advisories/51984
+    reference_id:
+  - id: 408384
+    url: http://secunia.com/advisories/52054
+    reference_id:
+  - id: 476651
+    url: https://issues.jboss.org/browse/JBCACHE-1612
+    reference_id:
+  - id: 476648
+    url: http://www.osvdb.org/78259
+    reference_id:
+  - id: 476649
+    url: http://www.securityfocus.com/bid/51392
+    reference_id:
+  - id: 470862
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:5.1.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:5.1.2:*:*:*:*:*:*:*
+  - id: 472139
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:5.2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:5.2.0:*:*:*:*:*:*:*
+  - id: 469829
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_brms_platform:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_brms_platform:*:*:*:*:*:*:*:*
+  - id: 472331
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_web_platform:5.1.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_web_platform:5.1.2:*:*:*:*:*:*:*
+  - id: 472140
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_web_platform:5.2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_web_platform:5.2.0:*:*:*:*:*:*:*
+  - id: 476652
+    url: https://nvd.nist.gov/vuln/detail/CVE-2012-0034
+    reference_id: CVE-2012-0034
+  - id: '195107'
+    url: https://access.redhat.com/errata/RHSA-2012:0108
+    reference_id: RHSA-2012:0108
+  - id: '195108'
+    url: https://access.redhat.com/errata/RHSA-2012:1072
+    reference_id: RHSA-2012:1072
+  - id: '191402'
+    url: https://access.redhat.com/errata/RHSA-2013:0191
+    reference_id: RHSA-2013:0191
+  - id: '191404'
+    url: https://access.redhat.com/errata/RHSA-2013:0192
+    reference_id: RHSA-2013:0192
+  - id: '191403'
+    url: https://access.redhat.com/errata/RHSA-2013:0193
+    reference_id: RHSA-2013:0193
+  - id: '191399'
+    url: https://access.redhat.com/errata/RHSA-2013:0195
+    reference_id: RHSA-2013:0195
+  - id: '191401'
+    url: https://access.redhat.com/errata/RHSA-2013:0196
+    reference_id: RHSA-2013:0196
+  - id: '191405'
+    url: https://access.redhat.com/errata/RHSA-2013:0221
+    reference_id: RHSA-2013:0221
+  - id: '191137'
+    url: https://access.redhat.com/errata/RHSA-2013:0533
+    reference_id: RHSA-2013:0533
+weaknesses: []

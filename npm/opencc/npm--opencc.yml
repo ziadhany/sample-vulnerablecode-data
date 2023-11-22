@@ -1,0 +1,82 @@
+package: pkg:npm/opencc
+versions:
+  - purl: pkg:npm/opencc@0.4.0
+    affected_by_vulnerabilities:
+      - VCID-95py-1ncs-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/opencc@0.4.1
+    affected_by_vulnerabilities:
+      - VCID-95py-1ncs-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/opencc@0.4.2
+    affected_by_vulnerabilities:
+      - VCID-95py-1ncs-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/opencc@0.4.3
+    affected_by_vulnerabilities:
+      - VCID-95py-1ncs-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/opencc@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-95py-1ncs-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/opencc@1.0.0-beta1
+    affected_by_vulnerabilities:
+      - VCID-95py-1ncs-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/opencc@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-95py-1ncs-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/opencc@1.0.2
+    affected_by_vulnerabilities:
+      - VCID-95py-1ncs-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/opencc@1.0.3
+    affected_by_vulnerabilities:
+      - VCID-95py-1ncs-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/opencc@1.0.3-1
+    affected_by_vulnerabilities:
+      - VCID-95py-1ncs-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/opencc@1.0.4
+    affected_by_vulnerabilities:
+      - VCID-95py-1ncs-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/opencc@1.0.5
+    affected_by_vulnerabilities:
+      - VCID-95py-1ncs-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/opencc@1.0.6
+    affected_by_vulnerabilities:
+      - VCID-95py-1ncs-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/opencc@1.1.0
+    affected_by_vulnerabilities:
+      - VCID-95py-1ncs-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/opencc@1.1.0-1
+    affected_by_vulnerabilities:
+      - VCID-95py-1ncs-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/opencc@1.1.0-2
+    affected_by_vulnerabilities:
+      - VCID-95py-1ncs-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/opencc@1.1.0-3
+    affected_by_vulnerabilities:
+      - VCID-95py-1ncs-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/opencc@1.1.1
+    affected_by_vulnerabilities:
+      - VCID-95py-1ncs-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/opencc@1.1.2
+    affected_by_vulnerabilities:
+      - VCID-95py-1ncs-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/opencc@1.1.3
+    affected_by_vulnerabilities:
+      - VCID-95py-1ncs-aaaj
+    fixing_vulnerabilities: []

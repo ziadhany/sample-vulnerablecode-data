@@ -1,0 +1,101 @@
+vulnerability_id: VCID-ngfh-qspj-aaam
+aliases:
+  - CVE-2015-0224
+summary: 'CVE-2015-0224 qpid-cpp: AMQP 0-10 protocol sequence-set maximal range DoS (incomplete
+  CVE-2015-0203 fix)'
+severities:
+  - id: '193098'
+    reference_id: 594178
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: '193096'
+    reference_id: 594178
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 56694
+    reference_id: 182447
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 56693
+    reference_id: 182446
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 56692
+    reference_id: 182445
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 56696
+    reference_id: 182449
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 594166
+    url: http://lists.fedoraproject.org/pipermail/package-announce/2016-March/178606.html
+    reference_id:
+  - id: 594167
+    url: http://mail-archives.apache.org/mod_mbox/www-announce/201501.mbox/%3C54C60497.5060504@apache.org%3E
+    reference_id:
+  - id: 594168
+    url: http://packetstormsecurity.com/files/130105/Apache-Qpid-0.30-Crash.html
+    reference_id:
+  - id: 594169
+    url: http://rhn.redhat.com/errata/RHSA-2015-0660.html
+    reference_id:
+  - id: 594170
+    url: http://rhn.redhat.com/errata/RHSA-2015-0661.html
+    reference_id:
+  - id: 594171
+    url: http://rhn.redhat.com/errata/RHSA-2015-0662.html
+    reference_id:
+  - id: 594172
+    url: http://rhn.redhat.com/errata/RHSA-2015-0707.html
+    reference_id:
+  - id: 594077
+    url: https://access.redhat.com/errata/RHBA-2016:1500
+    reference_id:
+  - id: 594176
+    url: https://access.redhat.com/errata/RHSA-2015:0708
+    reference_id:
+  - id: 182450
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2015-0224.json
+    reference_id:
+  - id: 594177
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1186302
+    reference_id:
+  - id: 594078
+    url: https://issues.apache.org/jira/browse/QPID-6310
+    reference_id:
+  - id: 594173
+    url: http://www.securityfocus.com/archive/1/534545/100/0/threaded
+    reference_id:
+  - id: 594174
+    url: http://www.securityfocus.com/bid/72317
+    reference_id:
+  - id: 594175
+    url: http://www.securitytracker.com/id/1031872
+    reference_id:
+  - id: 489921
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:qpid:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:qpid:*:*:*:*:*:*:*:*
+  - id: 594178
+    url: https://nvd.nist.gov/vuln/detail/CVE-2015-0224
+    reference_id: CVE-2015-0224
+  - id: 182447
+    url: https://access.redhat.com/errata/RHSA-2015:0660
+    reference_id: RHSA-2015:0660
+  - id: 182446
+    url: https://access.redhat.com/errata/RHSA-2015:0661
+    reference_id: RHSA-2015:0661
+  - id: 182445
+    url: https://access.redhat.com/errata/RHSA-2015:0662
+    reference_id: RHSA-2015:0662
+  - id: 182449
+    url: https://access.redhat.com/errata/RHSA-2015:0707
+    reference_id: RHSA-2015:0707
+weaknesses: []

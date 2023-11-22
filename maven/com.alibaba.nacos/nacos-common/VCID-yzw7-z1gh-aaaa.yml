@@ -1,0 +1,41 @@
+vulnerability_id: VCID-yzw7-z1gh-aaaa
+aliases:
+  - CVE-2021-29442
+  - GHSA-xv5h-v7jh-p2qh
+summary: Authentication bypass for specific endpoint
+severities:
+  - id: 531457
+    reference_id: 829
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 531455
+    reference_id: 829
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+  - id: 67
+    reference_id: 833
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 878914
+    url: https://github.com/advisories/GHSA-36hp-jr8h-556f
+    reference_id:
+  - id: 830
+    url: https://github.com/alibaba/nacos/issues/4463
+    reference_id:
+  - id: 831
+    url: https://github.com/alibaba/nacos/pull/4517
+    reference_id:
+  - id: 878915
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:alibaba:nacos:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:alibaba:nacos:*:*:*:*:*:*:*:*
+  - id: 829
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-29442
+    reference_id: CVE-2021-29442
+  - id: 833
+    url: https://github.com/advisories/GHSA-xv5h-v7jh-p2qh
+    reference_id: GHSA-xv5h-v7jh-p2qh
+weaknesses: []

@@ -1,0 +1,65 @@
+vulnerability_id: VCID-n2fc-kzrx-aaaf
+aliases:
+  - CVE-2019-10196
+  - GHSA-86wf-436m-h424
+summary: |
+  Improper Initialization
+  A flaw was found in http-proxy-agent, It was discovered http-proxy-agent passes an auth option to the Buffer constructor without proper sanitization. This could result in a Denial of Service through the usage of all available CPU resources and data exposure through an uninitialized memory leak in setups where an attacker could submit typed input to the auth parameter.
+severities:
+  - id: 617466
+    reference_id: 936807
+    scoring_system: cvssv3
+    value: '7.3'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L
+  - id: 617465
+    reference_id: 936806
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 367228
+    reference_id: 35124
+    scoring_system: cvssv2
+    value: '9.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:C
+  - id: 367226
+    reference_id: 35124
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 705966
+    reference_id: 35127
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 936807
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2019-10196.json
+    reference_id:
+  - id: 35125
+    url: https://github.com/TooTallNate/node-http-proxy-agent/commit/b7b7cc793c3226aa83f820ce5c277e81862d32eb
+    reference_id:
+  - id: 35122
+    url: https://www.npmjs.com/advisories/607
+    reference_id:
+  - id: 936806
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1567245
+    reference_id: 1567245
+  - id: 766501
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:http-proxy-agent_project:http-proxy-agent:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:http-proxy-agent_project:http-proxy-agent:*:*:*:*:*:node.js:*:*
+  - id: 538831
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:software_collections:-:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:software_collections:-:*:*:*:*:*:*:*
+  - id: 675934
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:fedoraproject:fedora:27:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:fedoraproject:fedora:27:*:*:*:*:*:*:*
+  - id: 111852
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:redhat:enterprise_linux:7.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:redhat:enterprise_linux:7.0:*:*:*:*:*:*:*
+  - id: 35124
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-10196
+    reference_id: CVE-2019-10196
+  - id: 35127
+    url: https://github.com/advisories/GHSA-86wf-436m-h424
+    reference_id: GHSA-86wf-436m-h424
+weaknesses: []

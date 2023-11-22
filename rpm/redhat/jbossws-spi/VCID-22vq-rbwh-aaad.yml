@@ -1,0 +1,138 @@
+vulnerability_id: VCID-22vq-rbwh-aaad
+aliases:
+  - CVE-2012-2378
+  - GHSA-vjpc-vf4f-82qg
+summary: 'CVE-2012-2378 jbossws-cxf, apache-cxf: Certain child policies of WS-SecurityPolicy
+  1.1 SupportingToken policy not applied on the client side'
+severities:
+  - id: 65005
+    reference_id: '193759'
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 153920
+    reference_id: 491349
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:N/A:N
+  - id: 630001
+    reference_id: 945860
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 63523
+    reference_id: '191800'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63524
+    reference_id: '191801'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63525
+    reference_id: '191802'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 325966
+    url: http://rhn.redhat.com/errata/RHSA-2012-1591.html
+    reference_id:
+  - id: 325967
+    url: http://rhn.redhat.com/errata/RHSA-2012-1592.html
+    reference_id:
+  - id: 325968
+    url: http://rhn.redhat.com/errata/RHSA-2012-1594.html
+    reference_id:
+  - id: '193760'
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2012-2378.json
+    reference_id:
+  - id: 325970
+    url: http://secunia.com/advisories/51607
+    reference_id:
+  - id: 10867
+    url: https://lists.apache.org/thread.html/r36e44ffc1a9b365327df62cdfaabe85b9a5637de102cea07d79b2dbf@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 1471053
+    url: https://lists.apache.org/thread.html/r36e44ffc1a9b365327df62cdfaabe85b9a5637de102cea07d79b2dbf%40%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10866
+    url: https://lists.apache.org/thread.html/rc774278135816e7afc943dc9fc78eb0764f2c84a2b96470a0187315c@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 1471054
+    url: https://lists.apache.org/thread.html/rc774278135816e7afc943dc9fc78eb0764f2c84a2b96470a0187315c%40%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10872
+    url: https://lists.apache.org/thread.html/rd49aabd984ed540c8ff7916d4d79405f3fa311d2fdbcf9ed307839a6@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 1471055
+    url: https://lists.apache.org/thread.html/rd49aabd984ed540c8ff7916d4d79405f3fa311d2fdbcf9ed307839a6%40%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10860
+    url: https://lists.apache.org/thread.html/rec7160382badd3ef4ad017a22f64a266c7188b9ba71394f0d321e2d4@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 1471056
+    url: https://lists.apache.org/thread.html/rec7160382badd3ef4ad017a22f64a266c7188b9ba71394f0d321e2d4%40%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10862
+    url: https://lists.apache.org/thread.html/rfb87e0bf3995e7d560afeed750fac9329ff5f1ad49da365129b7f89e@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 1471057
+    url: https://lists.apache.org/thread.html/rfb87e0bf3995e7d560afeed750fac9329ff5f1ad49da365129b7f89e%40%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10873
+    url: https://lists.apache.org/thread.html/rff42cfa5e7d75b7c1af0e37589140a8f1999e578a75738740b244bd4@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 1471058
+    url: https://lists.apache.org/thread.html/rff42cfa5e7d75b7c1af0e37589140a8f1999e578a75738740b244bd4%40%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 491347
+    url: http://svn.apache.org/viewvc?view=revision&revision=1337150
+    reference_id:
+  - id: 491348
+    url: http://www.securityfocus.com/bid/53880
+    reference_id:
+  - id: '193759'
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=826533
+    reference_id: 826533
+  - id: 481606
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.4.5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.4.5:*:*:*:*:*:*:*
+  - id: 491350
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.4.6:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.4.6:*:*:*:*:*:*:*
+  - id: 491351
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.4.7:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.4.7:*:*:*:*:*:*:*
+  - id: 481607
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.5.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.5.1:*:*:*:*:*:*:*
+  - id: 491352
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.5.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.5.2:*:*:*:*:*:*:*
+  - id: 491353
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.5.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.5.3:*:*:*:*:*:*:*
+  - id: 491354
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.6.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.6.0:*:*:*:*:*:*:*
+  - id: 491349
+    url: https://nvd.nist.gov/vuln/detail/CVE-2012-2378
+    reference_id: CVE-2012-2378
+  - id: 945859
+    url: http://cxf.apache.org/cve-2012-2378.html
+    reference_id: CVE-2012-2378.HTML
+  - id: 945860
+    url: https://github.com/advisories/GHSA-vjpc-vf4f-82qg
+    reference_id: GHSA-vjpc-vf4f-82qg
+  - id: '191800'
+    url: https://access.redhat.com/errata/RHSA-2012:1591
+    reference_id: RHSA-2012:1591
+  - id: '191801'
+    url: https://access.redhat.com/errata/RHSA-2012:1592
+    reference_id: RHSA-2012:1592
+  - id: '191802'
+    url: https://access.redhat.com/errata/RHSA-2012:1594
+    reference_id: RHSA-2012:1594
+weaknesses: []

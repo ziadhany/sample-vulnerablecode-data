@@ -1,0 +1,39 @@
+vulnerability_id: VCID-sczx-mtkq-aaab
+aliases:
+  - CVE-2022-0273
+  - GHSA-vgmw-9cww-qq99
+  - PYSEC-2022-22
+summary: Improper Access Control in Pypi calibreweb prior to 0.6.16.
+severities:
+  - id: 575522
+    reference_id: 21186
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:N/I:P/A:N
+  - id: 575520
+    reference_id: 21186
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
+  - id: 3478
+    reference_id: 21187
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 8964
+    url: https://github.com/janeczku/calibre-web/commit/0c0313f375bed7b035c8c0482bbb09599e16bfcf
+    reference_id:
+  - id: 8965
+    url: https://huntr.dev/bounties/8f27686f-d698-4ab6-8ef0-899125792f13
+    reference_id:
+  - id: 873600
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:calibre-web_project:calibre-web:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:calibre-web_project:calibre-web:*:*:*:*:*:*:*:*
+  - id: 21186
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-0273
+    reference_id: CVE-2022-0273
+  - id: 21187
+    url: https://github.com/advisories/GHSA-vgmw-9cww-qq99
+    reference_id: GHSA-vgmw-9cww-qq99
+weaknesses: []

@@ -1,0 +1,20 @@
+vulnerability_id: VCID-1aks-wabq-aaam
+aliases:
+  - GHSA-vcg5-9xw6-r56c
+  - GMS-2020-357
+summary: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+  in logsymbles.
+severities:
+  - id: 705177
+    reference_id: 36277
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 36276
+    url: https://www.npmjs.com/advisories/908
+    reference_id:
+  - id: 36277
+    url: https://github.com/advisories/GHSA-vcg5-9xw6-r56c
+    reference_id: GHSA-vcg5-9xw6-r56c
+weaknesses: []

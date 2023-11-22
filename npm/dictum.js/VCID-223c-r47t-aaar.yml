@@ -1,0 +1,15 @@
+vulnerability_id: VCID-223c-r47t-aaar
+aliases:
+  - GHSA-j5jc-jf8f-86q7
+  - GMS-2020-229
+summary: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+  in dictum.js.
+severities: []
+references:
+  - id: 32434
+    url: https://www.npmjs.com/advisories/640
+    reference_id:
+  - id: 32435
+    url: https://github.com/advisories/GHSA-j5jc-jf8f-86q7
+    reference_id: GHSA-j5jc-jf8f-86q7
+weaknesses: []

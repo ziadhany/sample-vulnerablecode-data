@@ -1,0 +1,30 @@
+package: pkg:npm/crossenv
+versions:
+  - purl: pkg:npm/crossenv@0.0.0
+    affected_by_vulnerabilities:
+      - VCID-1dqk-hd8c-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/crossenv@0.0.0-alpha
+    affected_by_vulnerabilities:
+      - VCID-cjbs-f4qa-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/crossenv@0.0.1-security
+    affected_by_vulnerabilities:
+      - VCID-1dqk-hd8c-aaab
+      - VCID-cjbs-f4qa-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/crossenv@0.0.2-security
+    affected_by_vulnerabilities:
+      - VCID-1dqk-hd8c-aaab
+      - VCID-cjbs-f4qa-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/crossenv@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-1dqk-hd8c-aaab
+      - VCID-cjbs-f4qa-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/crossenv@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-1dqk-hd8c-aaab
+      - VCID-cjbs-f4qa-aaah
+    fixing_vulnerabilities: []

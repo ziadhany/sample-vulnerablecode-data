@@ -1,0 +1,36 @@
+vulnerability_id: VCID-2d62-srwn-aaan
+aliases:
+  - CVE-2022-23898
+  - GHSA-p94q-9q2m-pfh2
+summary: MCMS v5.2.5 was discovered to contain a SQL injection vulnerability via the categoryId
+  parameter in the file IContentDao.xml.
+severities:
+  - id: 587673
+    reference_id: 916117
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 587671
+    reference_id: 916117
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 647200
+    reference_id: 1416375
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 916116
+    url: https://github.com/ming-soft/MCMS/issues/62
+    reference_id:
+  - id: 907033
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:mingsoft:mcms:5.2.5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:mingsoft:mcms:5.2.5:*:*:*:*:*:*:*
+  - id: 916117
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-23898
+    reference_id: CVE-2022-23898
+  - id: 1416375
+    url: https://github.com/advisories/GHSA-p94q-9q2m-pfh2
+    reference_id: GHSA-p94q-9q2m-pfh2
+weaknesses: []

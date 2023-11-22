@@ -1,0 +1,10 @@
+package: pkg:gem/as
+versions:
+  - purl: pkg:gem/as@0.3.18.11
+    affected_by_vulnerabilities:
+      - VCID-7vmw-ujte-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/as@1.0
+    affected_by_vulnerabilities:
+      - VCID-7vmw-ujte-aaaj
+    fixing_vulnerabilities: []

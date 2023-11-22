@@ -1,0 +1,6 @@
+package: pkg:npm/angular-bmap
+versions:
+  - purl: pkg:npm/angular-bmap@0.0.9
+    affected_by_vulnerabilities:
+      - VCID-1sah-sspb-aaag
+    fixing_vulnerabilities: []

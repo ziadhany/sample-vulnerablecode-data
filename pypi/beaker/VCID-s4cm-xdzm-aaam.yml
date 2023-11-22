@@ -1,0 +1,57 @@
+vulnerability_id: VCID-s4cm-xdzm-aaam
+aliases:
+  - CVE-2013-7489
+  - GHSA-3cwm-7jmm-774w
+  - PYSEC-2020-216
+summary: The Beaker library through 1.11.0 for Python is affected by deserialization of untrusted
+  data, which could lead to arbitrary code execution.
+severities:
+  - id: 49113
+    reference_id: 173396
+    scoring_system: cvssv3
+    value: '5.7'
+    scoring_elements: CVSS:3.1/AV:A/AC:L/PR:H/UI:N/S:U/C:H/I:L/A:L
+  - id: 49112
+    reference_id: 173395
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 173913
+    reference_id: 549084
+    scoring_system: cvssv2
+    value: '5.2'
+    scoring_elements: AV:A/AC:L/Au:S/C:P/I:P/A:P
+  - id: 173911
+    reference_id: 549084
+    scoring_system: cvssv3
+    value: '6.8'
+    scoring_elements: CVSS:3.1/AV:A/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H
+references:
+  - id: 173396
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2013-7489.json
+    reference_id:
+  - id: 1416718
+    url: https://github.com/advisories/GHSA-3cwm-7jmm-774w
+    reference_id:
+  - id: 6875
+    url: https://github.com/bbangert/beaker/issues/191
+    reference_id:
+  - id: 1416771
+    url: https://github.com/pypa/advisory-database/tree/main/vulns/beaker/PYSEC-2020-216.yaml
+    reference_id:
+  - id: 6877
+    url: https://www.openwall.com/lists/oss-security/2020/05/14/11
+    reference_id:
+  - id: 173395
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1850105
+    reference_id: 1850105
+  - id: 39675
+    url: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=966197
+    reference_id: 966197
+  - id: 549085
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:beakerbrowser:beaker:*:*:*:*:*:python:*:*
+    reference_id: cpe:2.3:a:beakerbrowser:beaker:*:*:*:*:*:python:*:*
+  - id: 549084
+    url: https://nvd.nist.gov/vuln/detail/CVE-2013-7489
+    reference_id: CVE-2013-7489
+weaknesses: []

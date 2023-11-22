@@ -1,0 +1,98 @@
+vulnerability_id: VCID-5vtz-swsz-aaad
+aliases:
+  - CVE-2017-2637
+summary: A design flaw issue was found in the Red Hat OpenStack Platform director use of TripleO
+  to enable libvirtd based live-migration. Libvirtd is deployed by default (by director) listening
+  on 0.0.0.0 (all interfaces) with no-authentication or encryption. Anyone able to make a TCP
+  connection to any compute host IP address, including 127.0.0.1, other loopback interface addresses,
+  or in some cases possibly addresses that have been exposed beyond the management interface,
+  could use this to open a virsh session to the libvirtd instance and gain control of virtual
+  machine instances or possibly take over the host.
+severities:
+  - id: 622927
+    reference_id: 940650
+    scoring_system: cvssv3
+    value: '9.9'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:L
+  - id: 622922
+    reference_id: 940645
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 281147
+    reference_id: 696411
+    scoring_system: cvssv2
+    value: '10.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:C/I:C/A:C
+  - id: 281145
+    reference_id: 696411
+    scoring_system: cvssv3
+    value: '10.0'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+  - id: 622926
+    reference_id: 940649
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 622925
+    reference_id: 940648
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 622924
+    reference_id: 940647
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 622923
+    reference_id: 940646
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 940650
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2017-2637.json
+    reference_id:
+  - id: 696408
+    url: https://access.redhat.com/solutions/3022771
+    reference_id:
+  - id: 696409
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2017-2637
+    reference_id:
+  - id: 696410
+    url: https://wiki.openstack.org/wiki/OSSN/OSSN-0007
+    reference_id:
+  - id: 696403
+    url: http://www.securityfocus.com/bid/98576
+    reference_id:
+  - id: 940645
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1428240
+    reference_id: 1428240
+  - id: 637831
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openstack:10:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:openstack:10:*:*:*:*:*:*:*
+  - id: 158177
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openstack:7.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:openstack:7.0:*:*:*:*:*:*:*
+  - id: 162143
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openstack:8:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:openstack:8:*:*:*:*:*:*:*
+  - id: 640062
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openstack:9:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:openstack:9:*:*:*:*:*:*:*
+  - id: 696411
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-2637
+    reference_id: CVE-2017-2637
+  - id: 940649
+    url: https://access.redhat.com/errata/RHSA-2017:1242
+    reference_id: RHSA-2017:1242
+  - id: 940648
+    url: https://access.redhat.com/errata/RHSA-2017:1504
+    reference_id: RHSA-2017:1504
+  - id: 940647
+    url: https://access.redhat.com/errata/RHSA-2017:1537
+    reference_id: RHSA-2017:1537
+  - id: 940646
+    url: https://access.redhat.com/errata/RHSA-2017:1546
+    reference_id: RHSA-2017:1546
+weaknesses: []

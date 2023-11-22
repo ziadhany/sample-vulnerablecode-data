@@ -1,0 +1,46 @@
+vulnerability_id: VCID-uzvy-bb19-aaah
+aliases:
+  - CVE-2020-17479
+  - GHSA-vh6r-g38f-q3w8
+summary: |
+  Improper Input Validation
+  jpv (aka Json Pattern Validator) does not properly validate input, as demonstrated by a corrupted array.
+severities:
+  - id: 451066
+    reference_id: 32465
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 451064
+    reference_id: 32465
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 706158
+    reference_id: 1467687
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 827283
+    url: https://blog.sonatype.com/cve-2020-17479
+    reference_id:
+  - id: 827284
+    url: https://github.com/manvel-khnkoyan/jpv/commit/e3eec1215caa8d5c560f5e88d0943422831927d6
+    reference_id:
+  - id: 827285
+    url: https://github.com/manvel-khnkoyan/jpv/issues/10
+    reference_id:
+  - id: 32463
+    url: https://www.npmjs.com/package/jpv
+    reference_id:
+  - id: 827286
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:json_pattern_validator_project:json_pattern_validator:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:json_pattern_validator_project:json_pattern_validator:*:*:*:*:*:node.js:*:*
+  - id: 32465
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-17479
+    reference_id: CVE-2020-17479
+  - id: 1467687
+    url: https://github.com/advisories/GHSA-vh6r-g38f-q3w8
+    reference_id: GHSA-vh6r-g38f-q3w8
+weaknesses: []

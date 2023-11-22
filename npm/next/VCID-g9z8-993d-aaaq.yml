@@ -1,0 +1,88 @@
+vulnerability_id: VCID-g9z8-993d-aaaq
+aliases:
+  - CVE-2018-6184
+  - GHSA-m34x-wgrh-g897
+summary: |
+  Path Traversal
+  Next.js has Directory Traversal in the `/_next` request namespace.
+severities:
+  - id: 352686
+    reference_id: 35872
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 352684
+    reference_id: 35872
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+  - id: 705947
+    reference_id: 1467412
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 1467413
+    url: https://github.com/vercel/next.js/releases/tag/4.2.3
+    reference_id:
+  - id: 35873
+    url: https://github.com/zeit/next.js/releases/tag/4.2.3
+    reference_id:
+  - id: 755497
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:zeit:next.js:4.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:zeit:next.js:4.0.0:*:*:*:*:*:*:*
+  - id: 755498
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:zeit:next.js:4.0.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:zeit:next.js:4.0.1:*:*:*:*:*:*:*
+  - id: 755499
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:zeit:next.js:4.0.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:zeit:next.js:4.0.2:*:*:*:*:*:*:*
+  - id: 755500
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:zeit:next.js:4.0.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:zeit:next.js:4.0.3:*:*:*:*:*:*:*
+  - id: 755501
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:zeit:next.js:4.0.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:zeit:next.js:4.0.4:*:*:*:*:*:*:*
+  - id: 755502
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:zeit:next.js:4.0.5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:zeit:next.js:4.0.5:*:*:*:*:*:*:*
+  - id: 755503
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:zeit:next.js:4.1.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:zeit:next.js:4.1.0:*:*:*:*:*:*:*
+  - id: 755504
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:zeit:next.js:4.1.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:zeit:next.js:4.1.1:*:*:*:*:*:*:*
+  - id: 755505
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:zeit:next.js:4.1.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:zeit:next.js:4.1.2:*:*:*:*:*:*:*
+  - id: 755506
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:zeit:next.js:4.1.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:zeit:next.js:4.1.3:*:*:*:*:*:*:*
+  - id: 755507
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:zeit:next.js:4.1.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:zeit:next.js:4.1.4:*:*:*:*:*:*:*
+  - id: 755508
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:zeit:next.js:4.1.4:canary_1:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:zeit:next.js:4.1.4:canary_1:*:*:*:*:*:*
+  - id: 755509
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:zeit:next.js:4.1.4:canary_2:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:zeit:next.js:4.1.4:canary_2:*:*:*:*:*:*
+  - id: 755510
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:zeit:next.js:4.2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:zeit:next.js:4.2.0:*:*:*:*:*:*:*
+  - id: 755511
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:zeit:next.js:4.2.0:canary_1:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:zeit:next.js:4.2.0:canary_1:*:*:*:*:*:*
+  - id: 755512
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:zeit:next.js:4.2.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:zeit:next.js:4.2.1:*:*:*:*:*:*:*
+  - id: 755513
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:zeit:next.js:4.2.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:zeit:next.js:4.2.2:*:*:*:*:*:*:*
+  - id: 35872
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-6184
+    reference_id: CVE-2018-6184
+  - id: 1467412
+    url: https://github.com/advisories/GHSA-m34x-wgrh-g897
+    reference_id: GHSA-m34x-wgrh-g897
+weaknesses: []

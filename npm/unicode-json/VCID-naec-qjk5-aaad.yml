@@ -1,0 +1,9 @@
+vulnerability_id: VCID-naec-qjk5-aaad
+aliases:
+  - GMS-2017-89
+summary: |
+  Downloads Resources over HTTP
+  unicode-json downloads data resources over HTTP, which leaves it vulnerable to MITM attacks.
+severities: []
+references: []
+weaknesses: []

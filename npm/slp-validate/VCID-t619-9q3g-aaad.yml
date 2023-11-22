@@ -1,0 +1,48 @@
+vulnerability_id: VCID-t619-9q3g-aaad
+aliases:
+  - CVE-2020-11072
+  - GHSA-4w97-57v2-3w44
+summary: |
+  Incorrect Comparison
+  In SLP Validate, users could experience false-negative validation outcomes for MINT transaction operations. A poorly implemented SLP wallet could allow spending of the affected tokens which would result in the destruction of a user's minting baton.
+severities:
+  - id: 431907
+    reference_id: 32056
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:P/A:N
+  - id: 431905
+    reference_id: 32056
+    scoring_system: cvssv3
+    value: '8.6'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N
+  - id: 706117
+    reference_id: 1467630
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+  - id: 706116
+    reference_id: 1467629
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 813227
+    url: https://github.com/simpleledger/slp-validate/commit/cde95c0c6470dceb4f023cd462f904135ebd73e7
+    reference_id:
+  - id: 813228
+    url: https://github.com/simpleledger/slp-validate/security/advisories/GHSA-4w97-57v2-3w44
+    reference_id:
+  - id: 813229
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:simpleledger:slp-validate:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:simpleledger:slp-validate:*:*:*:*:*:*:*:*
+  - id: 32056
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-11072
+    reference_id: CVE-2020-11072
+  - id: 1467630
+    url: https://github.com/advisories/GHSA-4w97-57v2-3w44
+    reference_id: GHSA-4w97-57v2-3w44
+  - id: 1467629
+    url: https://github.com/simpleledger/slp-validate.js/security/advisories/GHSA-4w97-57v2-3w44
+    reference_id: GHSA-4w97-57v2-3w44
+weaknesses: []

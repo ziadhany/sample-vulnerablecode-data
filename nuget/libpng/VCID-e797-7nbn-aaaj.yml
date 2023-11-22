@@ -1,0 +1,157 @@
+vulnerability_id: VCID-e797-7nbn-aaaj
+aliases:
+  - CVE-2011-3045
+summary: |
+  Integer Overflow or Wraparound
+  Integer signedness error in the png_inflate function in pngrutil.c in libpng beta01, as used in Google Chrome and other products, allows remote attackers to cause a denial of service (application crash) or possibly execute arbitrary code via a crafted PNG file, a different vulnerability than CVE-2011-3026.
+severities:
+  - id: 145454
+    reference_id: 37850
+    scoring_system: cvssv2
+    value: '6.8'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:P/A:P
+  - id: 65566
+    reference_id: '194450'
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 463879
+    url: http://code.google.com/p/chromium/issues/detail?id=116162
+    reference_id:
+  - id: 463880
+    url: http://googlechromereleases.blogspot.com/2012/03/stable-channel-update_21.html
+    reference_id:
+  - id: 463881
+    url: http://libpng.git.sourceforge.net/git/gitweb.cgi?p=libpng/libpng;a=commit;h=a8c319a2b281af68f7ca0e2f9a28ca57b44ceb2b
+    reference_id:
+  - id: 463882
+    url: http://lists.fedoraproject.org/pipermail/package-announce/2012-March/075424.html
+    reference_id:
+  - id: 463883
+    url: http://lists.fedoraproject.org/pipermail/package-announce/2012-March/075619.html
+    reference_id:
+  - id: 463884
+    url: http://lists.fedoraproject.org/pipermail/package-announce/2012-March/075981.html
+    reference_id:
+  - id: 463885
+    url: http://lists.fedoraproject.org/pipermail/package-announce/2012-March/075987.html
+    reference_id:
+  - id: 463886
+    url: http://lists.fedoraproject.org/pipermail/package-announce/2012-March/076461.html
+    reference_id:
+  - id: 463887
+    url: http://lists.fedoraproject.org/pipermail/package-announce/2012-March/076731.html
+    reference_id:
+  - id: 463888
+    url: http://lists.opensuse.org/opensuse-security-announce/2012-04/msg00000.html
+    reference_id:
+  - id: 463889
+    url: http://lists.opensuse.org/opensuse-updates/2012-03/msg00051.html
+    reference_id:
+  - id: 463890
+    url: http://rhn.redhat.com/errata/RHSA-2012-0407.html
+    reference_id:
+  - id: 463891
+    url: http://rhn.redhat.com/errata/RHSA-2012-0488.html
+    reference_id:
+  - id: '194451'
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2011-3045.json
+    reference_id:
+  - id: 463900
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=799000
+    reference_id:
+  - id: 463892
+    url: http://secunia.com/advisories/48320
+    reference_id:
+  - id: 463893
+    url: http://secunia.com/advisories/48485
+    reference_id:
+  - id: 463894
+    url: http://secunia.com/advisories/48512
+    reference_id:
+  - id: 463895
+    url: http://secunia.com/advisories/48554
+    reference_id:
+  - id: 341404
+    url: http://secunia.com/advisories/49660
+    reference_id:
+  - id: 341405
+    url: http://security.gentoo.org/glsa/glsa-201206-15.xml
+    reference_id:
+  - id: 463901
+    url: https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A14763
+    reference_id:
+  - id: 463896
+    url: http://src.chromium.org/viewvc/chrome?view=rev&revision=125311
+    reference_id:
+  - id: 463897
+    url: http://www.debian.org/security/2012/dsa-2439
+    reference_id:
+  - id: 463898
+    url: http://www.mandriva.com/security/advisories?name=MDVSA-2012:033
+    reference_id:
+  - id: 463899
+    url: http://www.securitytracker.com/id?1026823
+    reference_id:
+  - id: 146802
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*
+  - id: 149566
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:libpng:libpng:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:libpng:libpng:*:*:*:*:*:*:*:*
+  - id: 463902
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:gluster_storage:2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:gluster_storage:2.0:*:*:*:*:*:*:*
+  - id: 463903
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:storage:2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:storage:2.0:*:*:*:*:*:*:*
+  - id: 463904
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:storage_for_public_cloud:2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:storage_for_public_cloud:2.0:*:*:*:*:*:*:*
+  - id: 79273
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:debian:debian_linux:6.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:debian:debian_linux:6.0:*:*:*:*:*:*:*
+  - id: 448900
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:fedoraproject:fedora:15:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:fedoraproject:fedora:15:*:*:*:*:*:*:*
+  - id: 442892
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:fedoraproject:fedora:16:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:fedoraproject:fedora:16:*:*:*:*:*:*:*
+  - id: 79276
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:fedoraproject:fedora:17:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:fedoraproject:fedora:17:*:*:*:*:*:*:*
+  - id: 270313
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:opensuse:opensuse:12.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:opensuse:opensuse:12.1:*:*:*:*:*:*:*
+  - id: 166865
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:redhat:enterprise_linux:5.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:redhat:enterprise_linux:5.0:*:*:*:*:*:*:*
+  - id: 111851
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:redhat:enterprise_linux:6.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:redhat:enterprise_linux:6.0:*:*:*:*:*:*:*
+  - id: 79282
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:redhat:enterprise_linux_desktop:5.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:redhat:enterprise_linux_desktop:5.0:*:*:*:*:*:*:*
+  - id: 79283
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:redhat:enterprise_linux_desktop:6.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:redhat:enterprise_linux_desktop:6.0:*:*:*:*:*:*:*
+  - id: 463905
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:redhat:enterprise_linux_server_aus:6.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:redhat:enterprise_linux_server_aus:6.2:*:*:*:*:*:*:*
+  - id: 463906
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:redhat:enterprise_linux_server_eus:6.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:redhat:enterprise_linux_server_eus:6.2:*:*:*:*:*:*:*
+  - id: 79289
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:redhat:enterprise_linux_workstation:5.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:redhat:enterprise_linux_workstation:5.0:*:*:*:*:*:*:*
+  - id: 79290
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:redhat:enterprise_linux_workstation:6.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:redhat:enterprise_linux_workstation:6.0:*:*:*:*:*:*:*
+  - id: 37850
+    url: https://nvd.nist.gov/vuln/detail/CVE-2011-3045
+    reference_id: CVE-2011-3045
+  - id: '194450'
+    url: https://access.redhat.com/errata/RHSA-2012:0407
+    reference_id: RHSA-2012:0407
+weaknesses: []

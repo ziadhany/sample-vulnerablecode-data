@@ -1,0 +1,40 @@
+vulnerability_id: VCID-xvap-3cxf-aaaa
+aliases:
+  - CVE-2016-10639
+  - GHSA-j3cr-j9jx-mf4p
+summary: |
+  Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+  redis-srvr is a npm wrapper for redis-server. redis-srvr downloads binary resources over HTTP, which leaves it vulnerable to MITM attacks. It may be possible to cause remote code execution (RCE) by swapping out the requested binary with an attacker controlled binary if the attacker is on the network or positioned in between the user and the remote server.
+severities:
+  - id: 215139
+    reference_id: 37369
+    scoring_system: cvssv2
+    value: '9.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:C/I:C/A:C
+  - id: 215137
+    reference_id: 37369
+    scoring_system: cvssv3
+    value: '8.1'
+    scoring_elements: CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 705503
+    reference_id: 37370
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 37372
+    url: https://nodesecurity.io/advisories/238
+    reference_id:
+  - id: 37371
+    url: https://www.npmjs.com/advisories/238
+    reference_id:
+  - id: 628778
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redis-srvr_project:redis-srvr:-:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:redis-srvr_project:redis-srvr:-:*:*:*:*:node.js:*:*
+  - id: 37369
+    url: https://nvd.nist.gov/vuln/detail/CVE-2016-10639
+    reference_id: CVE-2016-10639
+  - id: 37370
+    url: https://github.com/advisories/GHSA-j3cr-j9jx-mf4p
+    reference_id: GHSA-j3cr-j9jx-mf4p
+weaknesses: []

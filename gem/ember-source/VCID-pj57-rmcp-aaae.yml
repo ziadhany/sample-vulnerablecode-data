@@ -1,0 +1,70 @@
+vulnerability_id: VCID-pj57-rmcp-aaae
+aliases:
+  - CVE-2013-4170
+  - GHSA-5m48-c37x-f792
+summary: |
+  Potential XSS Exploit When Binding tagName to User-Supplied Data
+  In general, Ember.js escapes or strips any user-supplied content before inserting it in strings that will be sent to innerHTML. However, the `tagName` property of an `Ember.View` was inserted into such a string without being sanitized. This means that if an application assigns a view's `tagName` to user-supplied data, a specially-crafted payload could execute arbitrary JavaScript in the context of the current domain ("XSS"). This vulnerability only affects applications that assign or bind user-provided content to `tagName`.
+severities:
+  - id: 630719
+    reference_id: 947101
+    scoring_system: cvssv2
+    value: '2.6'
+    scoring_elements: AV:N/AC:H/Au:N/C:N/I:P/A:N
+  - id: 630717
+    reference_id: 947101
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+  - id: 630694
+    reference_id: 947106
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 39089
+    url: https://github.com/emberjs/ember.js/commit/f70a8fa0647ef3a13c3c8ea1d7ba7fca22ea5f8e
+    reference_id:
+  - id: 39090
+    url: https://groups.google.com/forum/#!topic/ember-security/dokLVwwxAdM
+    reference_id:
+  - id: 947102
+    url: https://groups.google.com/g/ember-security/c/dokLVwwxAdM
+    reference_id:
+  - id: 947202
+    url: https://rubysec.com/advisories/CVE-2013-4170/
+    reference_id:
+  - id: 947104
+    url: https://security.snyk.io/vuln/SNYK-RUBY-EMBERSOURCE-20102
+    reference_id:
+  - id: 947203
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:emberjs:ember.js:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:emberjs:ember.js:*:*:*:*:*:*:*:*
+  - id: 947204
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:emberjs:ember.js:1.0.0:rc1:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:emberjs:ember.js:1.0.0:rc1:*:*:*:*:*:*
+  - id: 947205
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:emberjs:ember.js:1.0.0:rc2:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:emberjs:ember.js:1.0.0:rc2:*:*:*:*:*:*
+  - id: 947206
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:emberjs:ember.js:1.0.0:rc3:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:emberjs:ember.js:1.0.0:rc3:*:*:*:*:*:*
+  - id: 549195
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:emberjs:ember.js:1.0.0:rc4:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:emberjs:ember.js:1.0.0:rc4:*:*:*:*:*:*
+  - id: 947207
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:emberjs:ember.js:1.0.0:rc5:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:emberjs:ember.js:1.0.0:rc5:*:*:*:*:*:*
+  - id: 947208
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:emberjs:ember.js:1.0.0:rc6:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:emberjs:ember.js:1.0.0:rc6:*:*:*:*:*:*
+  - id: 947101
+    url: https://nvd.nist.gov/vuln/detail/CVE-2013-4170
+    reference_id: CVE-2013-4170
+  - id: 947105
+    url: https://github.com/rubysec/ruby-advisory-db/blob/master/gems/ember-source/CVE-2013-4170.yml
+    reference_id: CVE-2013-4170.YML
+  - id: 947106
+    url: https://github.com/advisories/GHSA-5m48-c37x-f792
+    reference_id: GHSA-5m48-c37x-f792
+weaknesses: []

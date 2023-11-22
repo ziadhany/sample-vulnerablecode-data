@@ -1,0 +1,25 @@
+vulnerability_id: VCID-tyuz-1jmp-aaan
+aliases:
+  - CVE-2022-40954
+  - GHSA-45r6-j3cc-6mxx
+summary: OS Command Injection in Apache Airflow
+severities:
+  - id: 702895
+    reference_id: 1462189
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 1462187
+    url: https://github.com/apache/airflow/pull/27646
+    reference_id:
+  - id: 1462188
+    url: https://lists.apache.org/thread/0tmdlnmjs5t4gsx5fy73tb6zd3jztq45
+    reference_id:
+  - id: 1462186
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-40954
+    reference_id: CVE-2022-40954
+  - id: 1462189
+    url: https://github.com/advisories/GHSA-45r6-j3cc-6mxx
+    reference_id: GHSA-45r6-j3cc-6mxx
+weaknesses: []

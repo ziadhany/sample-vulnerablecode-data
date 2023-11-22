@@ -1,0 +1,57 @@
+vulnerability_id: VCID-9uhf-f95u-aaak
+aliases:
+  - CVE-2017-15692
+  - GHSA-w395-hpq9-7xwr
+summary: |
+  Unsafe deserialization in TcpServer
+  A malicious user can send a network message to the Geode locator and execute code if certain classes are present on the classpath.
+severities:
+  - id: 689413
+    reference_id: 13229
+    scoring_system: generic_textual
+    value: Medium
+    scoring_elements:
+  - id: 268528
+    reference_id: 686482
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 268526
+    reference_id: 686482
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 648159
+    reference_id: 1418652
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 1418650
+    url: https://github.com/apache/geode/pull/1166
+    reference_id:
+  - id: 30131
+    url: https://issues.apache.org/jira/browse/GEODE-3923
+    reference_id:
+  - id: 1418651
+    url: https://lists.apache.org/thread/dctjhhjtomnsk625dj90dg4sgm438k0k
+    reference_id:
+  - id: 30132
+    url: https://lists.apache.org/thread.html/5a453c1543e66704d39c233aef0023a492860e579eb9d6b6ffb0c5c2@%3Cdev.geode.apache.org%3E
+    reference_id:
+  - id: 13229
+    url: https://lists.apache.org/thread.html/d0e00f2e147a9e9b13a6829133092f349b2882bf6860397368a52600@%3Cannounce.tomcat.apache.org%3E
+    reference_id:
+  - id: 686481
+    url: http://www.securityfocus.com/bid/103205
+    reference_id:
+  - id: 677805
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:geode:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:geode:*:*:*:*:*:*:*:*
+  - id: 686482
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-15692
+    reference_id: CVE-2017-15692
+  - id: 1418652
+    url: https://github.com/advisories/GHSA-w395-hpq9-7xwr
+    reference_id: GHSA-w395-hpq9-7xwr
+weaknesses: []

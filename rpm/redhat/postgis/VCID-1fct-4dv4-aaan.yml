@@ -1,0 +1,82 @@
+vulnerability_id: VCID-1fct-4dv4-aaan
+aliases:
+  - CVE-2013-1808
+summary: 'Cross-site scripting (XSS) vulnerability in ZeroClipboard.swf and ZeroClipboard10.swf
+  in ZeroClipboard before 1.0.8, as used in em-shorty, RepRapCalculator, Fulcrum, Django, aCMS,
+  and other products, allows remote attackers to inject arbitrary web script or HTML via the
+  id parameter.  NOTE: this is might be the same vulnerability as CVE-2013-1463. If so, it is
+  likely that CVE-2013-1463 will be REJECTed.'
+severities:
+  - id: 164167
+    reference_id: 520545
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+references:
+  - id: '190879'
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2013-1808.json
+    reference_id:
+  - id: 520530
+    url: http://seclists.org/fulldisclosure/2013/Apr/87
+    reference_id:
+  - id: 520531
+    url: http://seclists.org/fulldisclosure/2013/Apr/88
+    reference_id:
+  - id: 510876
+    url: http://seclists.org/fulldisclosure/2013/Feb/103
+    reference_id:
+  - id: 520532
+    url: http://seclists.org/fulldisclosure/2013/Feb/109
+    reference_id:
+  - id: 520533
+    url: http://seclists.org/fulldisclosure/2013/Mar/5
+    reference_id:
+  - id: 520534
+    url: http://securityvulns.ru/docs29103.html
+    reference_id:
+  - id: 520535
+    url: http://securityvulns.ru/docs29104.html
+    reference_id:
+  - id: 520536
+    url: http://securityvulns.ru/docs29105.html
+    reference_id:
+  - id: 520543
+    url: https://github.com/jonrohan/ZeroClipboard/blob/master/docs/releases.md#zeroclipboard-108
+    reference_id:
+  - id: 520544
+    url: https://github.com/jonrohan/ZeroClipboard/commit/a0e02933f5f7ce5f364fbad36a005f0a349f0696
+    reference_id:
+  - id: 520537
+    url: http://www.cloudbees.com/jenkins-advisory/jenkins-security-advisory-2013-05-02.cb
+    reference_id:
+  - id: 520538
+    url: http://www.openwall.com/lists/oss-security/2013/03/03/3
+    reference_id:
+  - id: 520539
+    url: http://www.openwall.com/lists/oss-security/2013/03/10/2
+    reference_id:
+  - id: 520540
+    url: http://www.openwall.com/lists/oss-security/2013/03/25/1
+    reference_id:
+  - id: 520541
+    url: http://www.openwall.com/lists/oss-security/2013/03/26/8
+    reference_id:
+  - id: 520542
+    url: http://www.securityfocus.com/bid/58257
+    reference_id:
+  - id: 40467
+    url: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=706725
+    reference_id: 706725
+  - id: 510880
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:zeroclipboard_project:zeroclipboard:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:zeroclipboard_project:zeroclipboard:*:*:*:*:*:*:*:*
+  - id: 510881
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:zeroclipboard_project:zeroclipboard:1.0.5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:zeroclipboard_project:zeroclipboard:1.0.5:*:*:*:*:*:*:*
+  - id: 520545
+    url: https://nvd.nist.gov/vuln/detail/CVE-2013-1808
+    reference_id: CVE-2013-1808
+  - id: '190878'
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=918054
+    reference_id: RHEA-2013:1032
+weaknesses: []

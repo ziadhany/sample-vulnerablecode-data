@@ -1,0 +1,17 @@
+vulnerability_id: VCID-ves6-ydzr-aaah
+aliases:
+  - GMS-2017-247
+summary: |
+  Regular Expression Denial of Service
+  The mime module is vulnerable to regular expression denial of service when a mime lookup is performed on untrusted user input.
+severities:
+  - id: 676353
+    reference_id: 35491
+    scoring_system: generic_textual
+    value: Medium
+    scoring_elements:
+references:
+  - id: 35491
+    url: https://github.com/broofa/node-mime/issues/167
+    reference_id:
+weaknesses: []

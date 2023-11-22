@@ -1,0 +1,26 @@
+vulnerability_id: VCID-668e-bqzb-aaaa
+aliases:
+  - GHSA-pv6r-vchh-cxg9
+  - GMS-2020-705
+summary: |
+  Denial of Service in apostrophe
+  Versions of `apostrophe` prior to 2.97.1 are vulnerable to Denial of Service. The `apostrophe-jobs` module sets a callback for incoming jobs and doesn't clear it regardless of its status. This causes the server to accumulate callbacks, allowing an attacker to start a large number of jobs and exhaust system memory.
+
+
+  ## Recommendation
+
+  Upgrade to version 2.97.1 or later.
+severities:
+  - id: 705090
+    reference_id: 33347
+    scoring_system: cvssv3.1_qr
+    value: LOW
+    scoring_elements:
+references:
+  - id: 33346
+    url: https://www.npmjs.com/advisories/1183
+    reference_id:
+  - id: 33347
+    url: https://github.com/advisories/GHSA-pv6r-vchh-cxg9
+    reference_id: GHSA-pv6r-vchh-cxg9
+weaknesses: []

@@ -1,0 +1,40 @@
+vulnerability_id: VCID-2ue1-nk9a-aaad
+aliases:
+  - CVE-2018-18548
+  - PYSEC-2018-107
+summary: ajenticp (aka Ajenti Docker control panel) for Ajenti through v1.2.23.13 has XSS via
+  a filename that is mishandled in File Manager.
+severities:
+  - id: 335663
+    reference_id: 743857
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+  - id: 335661
+    reference_id: 743857
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+references:
+  - id: 5469
+    url: http://packetstormsecurity.com/files/149898/AjentiCP-1.2.23.13-Cross-Site-Scripting.html
+    reference_id:
+  - id: 23029
+    url: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-18548
+    reference_id:
+  - id: 23030
+    url: https://cwe.mitre.org/data/definitions/79.html
+    reference_id:
+  - id: 5471
+    url: https://numanozdemir.com/ajenti-xss.txt
+    reference_id:
+  - id: 5470
+    url: https://www.exploit-db.com/exploits/45691/
+    reference_id:
+  - id: 743858
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:ajenti:ajenticp:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:ajenti:ajenticp:*:*:*:*:*:*:*:*
+  - id: 743857
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-18548
+    reference_id: CVE-2018-18548
+weaknesses: []

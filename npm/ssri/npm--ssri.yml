@@ -1,0 +1,137 @@
+package: pkg:npm/ssri
+versions:
+  - purl: pkg:npm/ssri@0.0.0
+    affected_by_vulnerabilities:
+      - VCID-3pdz-8xdb-aaap
+      - VCID-9erb-9kn6-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ssri@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-3pdz-8xdb-aaap
+      - VCID-9erb-9kn6-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ssri@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-3pdz-8xdb-aaap
+      - VCID-9erb-9kn6-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ssri@3.0.0
+    affected_by_vulnerabilities:
+      - VCID-3pdz-8xdb-aaap
+      - VCID-9erb-9kn6-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ssri@3.0.1
+    affected_by_vulnerabilities:
+      - VCID-3pdz-8xdb-aaap
+      - VCID-9erb-9kn6-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ssri@3.0.2
+    affected_by_vulnerabilities:
+      - VCID-3pdz-8xdb-aaap
+      - VCID-9erb-9kn6-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ssri@4.0.0
+    affected_by_vulnerabilities:
+      - VCID-3pdz-8xdb-aaap
+      - VCID-9erb-9kn6-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ssri@4.1.0
+    affected_by_vulnerabilities:
+      - VCID-3pdz-8xdb-aaap
+      - VCID-9erb-9kn6-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ssri@4.1.1
+    affected_by_vulnerabilities:
+      - VCID-3pdz-8xdb-aaap
+      - VCID-9erb-9kn6-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ssri@4.1.2
+    affected_by_vulnerabilities:
+      - VCID-3pdz-8xdb-aaap
+      - VCID-9erb-9kn6-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ssri@4.1.3
+    affected_by_vulnerabilities:
+      - VCID-3pdz-8xdb-aaap
+      - VCID-9erb-9kn6-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ssri@4.1.4
+    affected_by_vulnerabilities:
+      - VCID-3pdz-8xdb-aaap
+      - VCID-9erb-9kn6-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ssri@4.1.5
+    affected_by_vulnerabilities:
+      - VCID-3pdz-8xdb-aaap
+      - VCID-9erb-9kn6-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ssri@4.1.6
+    affected_by_vulnerabilities:
+      - VCID-3pdz-8xdb-aaap
+      - VCID-9erb-9kn6-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ssri@5.0.0
+    affected_by_vulnerabilities:
+      - VCID-3pdz-8xdb-aaap
+      - VCID-9erb-9kn6-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ssri@5.1.0
+    affected_by_vulnerabilities:
+      - VCID-3pdz-8xdb-aaap
+      - VCID-9erb-9kn6-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ssri@5.2.1
+    affected_by_vulnerabilities:
+      - VCID-3pdz-8xdb-aaap
+      - VCID-9erb-9kn6-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ssri@5.2.2
+    affected_by_vulnerabilities:
+      - VCID-gc43-dnav-aaab
+    fixing_vulnerabilities:
+      - VCID-3pdz-8xdb-aaap
+      - VCID-9erb-9kn6-aaap
+  - purl: pkg:npm/ssri@5.2.3
+    affected_by_vulnerabilities:
+      - VCID-gc43-dnav-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ssri@5.2.4
+    affected_by_vulnerabilities:
+      - VCID-gc43-dnav-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ssri@5.3.0
+    affected_by_vulnerabilities:
+      - VCID-gc43-dnav-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ssri@6.0.0
+    affected_by_vulnerabilities:
+      - VCID-gc43-dnav-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ssri@6.0.1
+    affected_by_vulnerabilities:
+      - VCID-gc43-dnav-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ssri@6.0.2
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-gc43-dnav-aaab
+  - purl: pkg:npm/ssri@7.0.0
+    affected_by_vulnerabilities:
+      - VCID-gc43-dnav-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ssri@7.0.1
+    affected_by_vulnerabilities:
+      - VCID-gc43-dnav-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ssri@7.1.0
+    affected_by_vulnerabilities:
+      - VCID-gc43-dnav-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ssri@8.0.0
+    affected_by_vulnerabilities:
+      - VCID-gc43-dnav-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ssri@8.0.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-gc43-dnav-aaab

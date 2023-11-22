@@ -1,0 +1,106 @@
+vulnerability_id: VCID-wcxb-ejb3-aaaq
+aliases:
+  - CVE-2014-7827
+summary: |
+  Wrong security context loaded when using SAML2 STS Login Module
+  The `org.jboss.security.plugins.mapping.JBossMappingManager` implementation in this package uses the default security domain when a security domain is undefined, which allows remote authenticated users to bypass intended access restrictions by leveraging credentials on the default domain for a role that is also on the application domain.
+severities:
+  - id: 56485
+    reference_id: 182170
+    scoring_system: rhbs
+    value: low
+    scoring_elements:
+  - id: 188528
+    reference_id: 584450
+    scoring_system: cvssv2
+    value: '3.5'
+    scoring_elements: AV:N/AC:M/Au:S/C:N/I:P/A:N
+  - id: 56489
+    reference_id: 182174
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 56488
+    reference_id: 182173
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 56487
+    reference_id: 182172
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 56486
+    reference_id: 182171
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 56491
+    reference_id: 182176
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 56490
+    reference_id: 182175
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 13699
+    url: http://rhn.redhat.com/errata/RHSA-2015-0215.html
+    reference_id:
+  - id: 13700
+    url: http://rhn.redhat.com/errata/RHSA-2015-0216.html
+    reference_id:
+  - id: 13701
+    url: http://rhn.redhat.com/errata/RHSA-2015-0217.html
+    reference_id:
+  - id: 13702
+    url: http://rhn.redhat.com/errata/RHSA-2015-0218.html
+    reference_id:
+  - id: 13705
+    url: http://rhn.redhat.com/errata/RHSA-2015-0850.html
+    reference_id:
+  - id: 13706
+    url: http://rhn.redhat.com/errata/RHSA-2015-0851.html
+    reference_id:
+  - id: 182177
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2014-7827.json
+    reference_id:
+  - id: 584449
+    url: https://exchange.xforce.ibmcloud.com/vulnerabilities/100889
+    reference_id:
+  - id: 13709
+    url: http://www.securitytracker.com/id/1031741
+    reference_id:
+  - id: 182170
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1160574
+    reference_id: 1160574
+  - id: 157730
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:*:*:*:*:*:*:*:*
+  - id: 26005
+    url: https://bugzilla.redhat.com/CVE-2014-7827
+    reference_id: CVE-2014-7827
+  - id: 584450
+    url: https://nvd.nist.gov/vuln/detail/CVE-2014-7827
+    reference_id: CVE-2014-7827
+  - id: 182174
+    url: https://access.redhat.com/errata/RHSA-2015:0215
+    reference_id: RHSA-2015:0215
+  - id: 182173
+    url: https://access.redhat.com/errata/RHSA-2015:0216
+    reference_id: RHSA-2015:0216
+  - id: 182172
+    url: https://access.redhat.com/errata/RHSA-2015:0217
+    reference_id: RHSA-2015:0217
+  - id: 182171
+    url: https://access.redhat.com/errata/RHSA-2015:0218
+    reference_id: RHSA-2015:0218
+  - id: 182176
+    url: https://access.redhat.com/errata/RHSA-2015:0850
+    reference_id: RHSA-2015:0850
+  - id: 182175
+    url: https://access.redhat.com/errata/RHSA-2015:0851
+    reference_id: RHSA-2015:0851
+weaknesses: []

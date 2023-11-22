@@ -1,0 +1,6 @@
+package: pkg:rpm/redhat/python-ansible-runner
+versions:
+  - purl: pkg:rpm/redhat/python-ansible-runner@1.2.0-2?arch=el8ost
+    affected_by_vulnerabilities:
+      - VCID-2cqt-v8wb-aaac
+    fixing_vulnerabilities: []

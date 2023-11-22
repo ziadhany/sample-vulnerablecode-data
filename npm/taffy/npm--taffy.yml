@@ -1,0 +1,6 @@
+package: pkg:npm/taffy
+versions:
+  - purl: pkg:npm/taffy@2.6.2
+    affected_by_vulnerabilities:
+      - VCID-e6qe-5cs5-aaam
+    fixing_vulnerabilities: []

@@ -1,0 +1,21 @@
+vulnerability_id: VCID-1sah-sspb-aaag
+aliases:
+  - GHSA-w8hg-mxvh-9h57
+  - GMS-2020-53
+summary: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+  in angular-bmap.
+severities: []
+references:
+  - id: 31206
+    url: https://github.com/shenfw1987/angular-bmap
+    reference_id:
+  - id: 31205
+    url: https://snyk.io/vuln/SNYK-JS-ANGULARBMAP-451017
+    reference_id:
+  - id: 31204
+    url: https://www.npmjs.com/advisories/614
+    reference_id:
+  - id: 31207
+    url: https://github.com/advisories/GHSA-w8hg-mxvh-9h57
+    reference_id: GHSA-w8hg-mxvh-9h57
+weaknesses: []

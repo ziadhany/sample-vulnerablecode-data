@@ -1,0 +1,50 @@
+package: pkg:pypi/blazar-dashboard
+versions:
+  - purl: pkg:pypi/blazar-dashboard@0
+    affected_by_vulnerabilities:
+      - VCID-mre1-8g7e-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/blazar-dashboard@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-mre1-8g7e-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/blazar-dashboard@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-mre1-8g7e-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/blazar-dashboard@1.1.0
+    affected_by_vulnerabilities:
+      - VCID-mre1-8g7e-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/blazar-dashboard@1.2.0
+    affected_by_vulnerabilities:
+      - VCID-mre1-8g7e-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/blazar-dashboard@1.3.0
+    affected_by_vulnerabilities:
+      - VCID-mre1-8g7e-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/blazar-dashboard@1.3.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-mre1-8g7e-aaah
+  - purl: pkg:pypi/blazar-dashboard@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-mre1-8g7e-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/blazar-dashboard@2.0.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-mre1-8g7e-aaah
+  - purl: pkg:pypi/blazar-dashboard@3.0.0
+    affected_by_vulnerabilities:
+      - VCID-mre1-8g7e-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/blazar-dashboard@3.0.0.0rc1
+    affected_by_vulnerabilities:
+      - VCID-mre1-8g7e-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/blazar-dashboard@3.0.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-mre1-8g7e-aaah

@@ -1,0 +1,37 @@
+vulnerability_id: VCID-p2b5-se9a-aaaa
+aliases:
+  - CVE-2018-19056
+  - GHSA-x3g3-334f-q6h4
+summary: |
+  Cross-site Scripting
+  pandao Editor.md is vulnerable to XSS via input starting with a `<<` substring, which is mishandled during construction of an `A` element.
+severities:
+  - id: 337369
+    reference_id: 31947
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+  - id: 337367
+    reference_id: 31947
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+  - id: 705879
+    reference_id: 1467294
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 31948
+    url: https://github.com/pandao/editor.md/issues/634
+    reference_id:
+  - id: 738722
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:ipandao:editor.md:1.5.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:ipandao:editor.md:1.5.0:*:*:*:*:*:*:*
+  - id: 31947
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-19056
+    reference_id: CVE-2018-19056
+  - id: 1467294
+    url: https://github.com/advisories/GHSA-x3g3-334f-q6h4
+    reference_id: GHSA-x3g3-334f-q6h4
+weaknesses: []

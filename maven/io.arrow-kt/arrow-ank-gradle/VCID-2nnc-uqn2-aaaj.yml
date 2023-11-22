@@ -1,0 +1,47 @@
+vulnerability_id: VCID-2nnc-uqn2-aaaj
+aliases:
+  - CVE-2019-11404
+  - GHSA-rcj2-vvjx-87pm
+summary: Missing Encryption of Sensitive Data in arrow-kt Arrow
+severities:
+  - id: 371851
+    reference_id: 14524
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:N/A:N
+  - id: 371849
+    reference_id: 14524
+    scoring_system: cvssv3
+    value: '5.9'
+    scoring_elements: CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
+  - id: 1610
+    reference_id: 14530
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 14525
+    url: https://github.com/arrow-kt/ank/issues/35
+    reference_id:
+  - id: 14526
+    url: https://github.com/arrow-kt/ank/pull/36
+    reference_id:
+  - id: 14527
+    url: https://github.com/arrow-kt/arrow/commit/74198dab522393487d5344f194dc21208ab71ae8
+    reference_id:
+  - id: 14528
+    url: https://github.com/arrow-kt/arrow/issues/1310
+    reference_id:
+  - id: 14529
+    url: https://github.com/arrow-kt/arrow/releases/tag/0.9.0
+    reference_id:
+  - id: 770354
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:arrow-kt:arrow:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:arrow-kt:arrow:*:*:*:*:*:*:*:*
+  - id: 14524
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-11404
+    reference_id: CVE-2019-11404
+  - id: 14530
+    url: https://github.com/advisories/GHSA-rcj2-vvjx-87pm
+    reference_id: GHSA-rcj2-vvjx-87pm
+weaknesses: []

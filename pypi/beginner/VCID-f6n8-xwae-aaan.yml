@@ -1,0 +1,35 @@
+vulnerability_id: VCID-f6n8-xwae-aaan
+aliases:
+  - CVE-2022-33004
+  - PYSEC-2022-214
+summary: The Beginner package in PyPI v0.0.2 to v0.0.4 was discovered to contain a code execution
+  backdoor via the request package. This vulnerability allows attackers to access sensitive
+  user information and digital currency keys, as well as escalate privileges.
+severities:
+  - id: 636925
+    reference_id: 950641
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 636923
+    reference_id: 950641
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+references:
+  - id: 8909
+    url: http://pypi.doubanio.com/simple/request
+    reference_id:
+  - id: 950639
+    url: https://github.com/Dreambuilder4028/coder/issues/1
+    reference_id:
+  - id: 950640
+    url: https://pypi.org/project/beginner/
+    reference_id:
+  - id: 950642
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:pypi:beginner:*:*:*:*:*:pypi:*:*
+    reference_id: cpe:2.3:a:pypi:beginner:*:*:*:*:*:pypi:*:*
+  - id: 950641
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-33004
+    reference_id: CVE-2022-33004
+weaknesses: []

@@ -1,0 +1,22 @@
+vulnerability_id: VCID-kcd5-2psx-aaam
+aliases:
+  - GHSA-5947-m4fg-xhqg
+  - GMS-2020-354
+summary: "Prototype Pollution in lodash.mergewith\nVersions of `lodash.mergewith` are vulnerable\
+  \ to Prototype Pollution. The function 'mergeWith' may allow a malicious user to modify the\
+  \ prototype of `Object` via `__proto__` causing the addition or modification of an existing\
+  \ property that will exist on all objects. \n\nUpdate to or later."
+severities:
+  - id: 704620
+    reference_id: 34317
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 34316
+    url: https://www.npmjs.com/advisories/1069
+    reference_id:
+  - id: 34317
+    url: https://github.com/advisories/GHSA-5947-m4fg-xhqg
+    reference_id: GHSA-5947-m4fg-xhqg
+weaknesses: []

@@ -1,0 +1,439 @@
+package: pkg:pypi/cinder
+versions:
+  - purl: pkg:pypi/cinder@10.0.8
+    affected_by_vulnerabilities:
+      - VCID-6c4z-33xb-aaam
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@11.2.0
+    affected_by_vulnerabilities:
+      - VCID-6c4z-33xb-aaam
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@11.2.1
+    affected_by_vulnerabilities:
+      - VCID-6c4z-33xb-aaam
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@11.2.2
+    affected_by_vulnerabilities:
+      - VCID-6c4z-33xb-aaam
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@12.0.10
+    affected_by_vulnerabilities:
+      - VCID-6c4z-33xb-aaam
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@12.0.4
+    affected_by_vulnerabilities:
+      - VCID-6c4z-33xb-aaam
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@12.0.5
+    affected_by_vulnerabilities:
+      - VCID-6c4z-33xb-aaam
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@12.0.6
+    affected_by_vulnerabilities:
+      - VCID-6c4z-33xb-aaam
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@12.0.7
+    affected_by_vulnerabilities:
+      - VCID-6c4z-33xb-aaam
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@12.0.8
+    affected_by_vulnerabilities:
+      - VCID-6c4z-33xb-aaam
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@12.0.9
+    affected_by_vulnerabilities:
+      - VCID-6c4z-33xb-aaam
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@13.0.1
+    affected_by_vulnerabilities:
+      - VCID-6c4z-33xb-aaam
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@13.0.2
+    affected_by_vulnerabilities:
+      - VCID-6c4z-33xb-aaam
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@13.0.3
+    affected_by_vulnerabilities:
+      - VCID-6c4z-33xb-aaam
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@13.0.4
+    affected_by_vulnerabilities:
+      - VCID-6c4z-33xb-aaam
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@13.0.5
+    affected_by_vulnerabilities:
+      - VCID-6c4z-33xb-aaam
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@13.0.6
+    affected_by_vulnerabilities:
+      - VCID-6c4z-33xb-aaam
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@13.0.7
+    affected_by_vulnerabilities:
+      - VCID-6c4z-33xb-aaam
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@13.0.8
+    affected_by_vulnerabilities:
+      - VCID-6c4z-33xb-aaam
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@13.0.9
+    affected_by_vulnerabilities:
+      - VCID-6c4z-33xb-aaam
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@14.0.0
+    affected_by_vulnerabilities:
+      - VCID-6c4z-33xb-aaam
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@14.0.0.0rc1
+    affected_by_vulnerabilities:
+      - VCID-6c4z-33xb-aaam
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@14.0.0.0rc2
+    affected_by_vulnerabilities:
+      - VCID-6c4z-33xb-aaam
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@14.0.1
+    affected_by_vulnerabilities:
+      - VCID-6c4z-33xb-aaam
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@14.0.2
+    affected_by_vulnerabilities:
+      - VCID-6c4z-33xb-aaam
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@14.0.3
+    affected_by_vulnerabilities:
+      - VCID-6c4z-33xb-aaam
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@14.0.4
+    affected_by_vulnerabilities:
+      - VCID-6c4z-33xb-aaam
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@14.1.0
+    affected_by_vulnerabilities:
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities:
+      - VCID-6c4z-33xb-aaam
+  - purl: pkg:pypi/cinder@14.2.0
+    affected_by_vulnerabilities:
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@14.2.1
+    affected_by_vulnerabilities:
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@14.3.0
+    affected_by_vulnerabilities:
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@14.3.1
+    affected_by_vulnerabilities:
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@15.0.0
+    affected_by_vulnerabilities:
+      - VCID-6c4z-33xb-aaam
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@15.0.0.0rc1
+    affected_by_vulnerabilities:
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@15.0.0.0rc2
+    affected_by_vulnerabilities:
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@15.0.1
+    affected_by_vulnerabilities:
+      - VCID-6c4z-33xb-aaam
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@15.1.0
+    affected_by_vulnerabilities:
+      - VCID-6c4z-33xb-aaam
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@15.2.0
+    affected_by_vulnerabilities:
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities:
+      - VCID-6c4z-33xb-aaam
+  - purl: pkg:pypi/cinder@15.3.0
+    affected_by_vulnerabilities:
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@15.4.0
+    affected_by_vulnerabilities:
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@15.4.1
+    affected_by_vulnerabilities:
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@15.5.0
+    affected_by_vulnerabilities:
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@15.6.0
+    affected_by_vulnerabilities:
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@16.0.0
+    affected_by_vulnerabilities:
+      - VCID-6c4z-33xb-aaam
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@16.0.0.0b1
+    affected_by_vulnerabilities:
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@16.0.0.0rc1
+    affected_by_vulnerabilities:
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@16.0.0.0rc2
+    affected_by_vulnerabilities:
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@16.0.0.0rc3
+    affected_by_vulnerabilities:
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@16.1.0
+    affected_by_vulnerabilities:
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities:
+      - VCID-6c4z-33xb-aaam
+  - purl: pkg:pypi/cinder@16.2.0
+    affected_by_vulnerabilities:
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@16.2.1
+    affected_by_vulnerabilities:
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@16.3.0
+    affected_by_vulnerabilities:
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@16.4.0
+    affected_by_vulnerabilities:
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@16.4.1
+    affected_by_vulnerabilities:
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@16.4.2
+    affected_by_vulnerabilities:
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@17.0.0
+    affected_by_vulnerabilities:
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@17.0.0.0rc1
+    affected_by_vulnerabilities:
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@17.0.0.0rc2
+    affected_by_vulnerabilities:
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@17.0.1
+    affected_by_vulnerabilities:
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@17.1.0
+    affected_by_vulnerabilities:
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@17.2.0
+    affected_by_vulnerabilities:
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@17.3.0
+    affected_by_vulnerabilities:
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@17.4.0
+    affected_by_vulnerabilities:
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@18.0.0
+    affected_by_vulnerabilities:
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@18.0.0.0b1
+    affected_by_vulnerabilities:
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@18.0.0.0rc1
+    affected_by_vulnerabilities:
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@18.0.0.0rc2
+    affected_by_vulnerabilities:
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@18.1.0
+    affected_by_vulnerabilities:
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@18.2.0
+    affected_by_vulnerabilities:
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@18.2.1
+    affected_by_vulnerabilities:
+      - VCID-79pc-bg56-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@19.0.0
+    affected_by_vulnerabilities:
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@19.0.0.0b1
+    affected_by_vulnerabilities:
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@19.0.0.0rc1
+    affected_by_vulnerabilities:
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@19.0.0.0rc2
+    affected_by_vulnerabilities:
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@19.1.0
+    affected_by_vulnerabilities:
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@19.1.1
+    affected_by_vulnerabilities:
+      - VCID-79pc-bg56-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@19.2.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-79pc-bg56-aaaj
+  - purl: pkg:pypi/cinder@20.0.0
+    affected_by_vulnerabilities:
+      - VCID-79pc-bg56-aaaj
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@20.0.0.0rc1
+    affected_by_vulnerabilities:
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@20.0.0.0rc2
+    affected_by_vulnerabilities:
+      - VCID-hqr8-9tbs-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@20.0.1
+    affected_by_vulnerabilities:
+      - VCID-79pc-bg56-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cinder@20.1.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-79pc-bg56-aaaj

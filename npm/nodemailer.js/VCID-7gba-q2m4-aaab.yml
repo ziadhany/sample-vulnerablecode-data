@@ -1,0 +1,40 @@
+vulnerability_id: VCID-7gba-q2m4-aaab
+aliases:
+  - CVE-2017-16072
+  - GHSA-j866-8vxx-27hx
+summary: |
+  Malicious package (Typosquatting)
+  `nodemailer.js` is a malicious module published with the intent to hijack environment variables. It has been unpublished by npm.
+severities:
+  - id: 269884
+    reference_id: 36424
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 269882
+    reference_id: 36424
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+  - id: 705662
+    reference_id: 1466875
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 687676
+    url: https://nodesecurity.io/advisories/511
+    reference_id:
+  - id: 1466876
+    url: https://www.npmjs.com/advisories/511
+    reference_id:
+  - id: 687677
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:nodemailer.js_project:nodemailer.js:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:nodemailer.js_project:nodemailer.js:*:*:*:*:*:node.js:*:*
+  - id: 36424
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-16072
+    reference_id: CVE-2017-16072
+  - id: 1466875
+    url: https://github.com/advisories/GHSA-j866-8vxx-27hx
+    reference_id: GHSA-j866-8vxx-27hx
+weaknesses: []

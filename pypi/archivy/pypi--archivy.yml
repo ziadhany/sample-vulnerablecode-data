@@ -1,0 +1,290 @@
+package: pkg:pypi/archivy
+versions:
+  - purl: pkg:pypi/archivy@0.0.1
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@0.0.2
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@0.0.3
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@0.0.4
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@0.0.5
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@0.0.6
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@0.0.7
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@0.0.8
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@0.1.0
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@0.10.0
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@0.10.1
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@0.11.0
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@0.11.1
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@0.2.0
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@0.3.0
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@0.4.0
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@0.4.1
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@0.5.0
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@0.6.0
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@0.6.1
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@0.6.2
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@0.7.0
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@0.7.1
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@0.7.2
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@0.7.3
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@0.8.0
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@0.8.1
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@0.8.2
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@0.8.3
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@0.8.4
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@0.8.5
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@0.9.0
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@0.9.1
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@0.9.2
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@0.9.3
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@1.0.0rc2
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@1.0.2
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@1.1.0
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@1.1.1
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@1.1.2
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@1.1.3
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@1.1.3rc1
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@1.1.4
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@1.2.0
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@1.3.0
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@1.3.1
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@1.4.0
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@1.5.0
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@1.6.0
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@1.6.0rc1
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@1.6.0rc3
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@1.6.1
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@1.6.2
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+    fixing_vulnerabilities:
+      - VCID-e8p4-febj-aaae
+  - purl: pkg:pypi/archivy@1.6rc2
+    affected_by_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+      - VCID-e8p4-febj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/archivy@1.7.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad
+  - purl: pkg:pypi/archivy@1.7.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-bmwt-5cr9-aaad

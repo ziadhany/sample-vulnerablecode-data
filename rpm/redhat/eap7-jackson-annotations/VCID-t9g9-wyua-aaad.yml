@@ -1,0 +1,137 @@
+vulnerability_id: VCID-t9g9-wyua-aaad
+aliases:
+  - CVE-2019-14885
+summary: 'CVE-2019-14885 JBoss EAP: Vault system property security attribute value is revealed
+  on CLI ''reload'' command'
+severities:
+  - id: 58303
+    reference_id: 184567
+    scoring_system: cvssv3
+    value: '5.4'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N
+  - id: 58300
+    reference_id: 184564
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 383293
+    reference_id: 779459
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:N/A:N
+  - id: 383291
+    reference_id: 779459
+    scoring_system: cvssv3
+    value: '4.3'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N
+  - id: 58255
+    reference_id: 184485
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 58254
+    reference_id: 184484
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 58252
+    reference_id: 184482
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 58253
+    reference_id: 184483
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 53186
+    reference_id: 178202
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 58302
+    reference_id: 184566
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 58301
+    reference_id: 184565
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 54960
+    reference_id: 180080
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 54955
+    reference_id: 180075
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 54954
+    reference_id: 180074
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 54951
+    reference_id: 180071
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 184567
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2019-14885.json
+    reference_id:
+  - id: 779458
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2019-14885
+    reference_id:
+  - id: 184564
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1770615
+    reference_id: 1770615
+  - id: 157730
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:*:*:*:*:*:*:*:*
+  - id: 779460
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:7.2.6:-:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:7.2.6:-:*:*:*:*:*:*
+  - id: 766462
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:single_sign-on:7.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:single_sign-on:7.0:*:*:*:*:*:*:*
+  - id: 779459
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-14885
+    reference_id: CVE-2019-14885
+  - id: 184485
+    url: https://access.redhat.com/errata/RHSA-2020:0159
+    reference_id: RHSA-2020:0159
+  - id: 184484
+    url: https://access.redhat.com/errata/RHSA-2020:0160
+    reference_id: RHSA-2020:0160
+  - id: 184482
+    url: https://access.redhat.com/errata/RHSA-2020:0161
+    reference_id: RHSA-2020:0161
+  - id: 184483
+    url: https://access.redhat.com/errata/RHSA-2020:0164
+    reference_id: RHSA-2020:0164
+  - id: 178202
+    url: https://access.redhat.com/errata/RHSA-2020:0951
+    reference_id: RHSA-2020:0951
+  - id: 184566
+    url: https://access.redhat.com/errata/RHSA-2020:2168
+    reference_id: RHSA-2020:2168
+  - id: 184565
+    url: https://access.redhat.com/errata/RHSA-2020:2169
+    reference_id: RHSA-2020:2169
+  - id: 180080
+    url: https://access.redhat.com/errata/RHSA-2020:2779
+    reference_id: RHSA-2020:2779
+  - id: 180075
+    url: https://access.redhat.com/errata/RHSA-2020:2780
+    reference_id: RHSA-2020:2780
+  - id: 180074
+    url: https://access.redhat.com/errata/RHSA-2020:2781
+    reference_id: RHSA-2020:2781
+  - id: 180071
+    url: https://access.redhat.com/errata/RHSA-2020:2783
+    reference_id: RHSA-2020:2783
+weaknesses: []

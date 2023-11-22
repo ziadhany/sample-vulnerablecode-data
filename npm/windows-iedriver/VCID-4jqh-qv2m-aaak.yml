@@ -1,0 +1,40 @@
+vulnerability_id: VCID-4jqh-qv2m-aaak
+aliases:
+  - CVE-2016-10689
+  - GHSA-w9mf-24h3-9wxf
+summary: |
+  Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+  The windows-iedriver module downloads fixed version of iedriverserver.exe windows-iedriver downloads binary resources over HTTP, which leaves it vulnerable to MITM attacks. It may be possible to cause remote code execution (RCE) by swapping out the requested resources with an attacker controlled copy if the attacker is on the network or positioned in between the user and the remote server.
+severities:
+  - id: 215371
+    reference_id: 34610
+    scoring_system: cvssv2
+    value: '9.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:C/I:C/A:C
+  - id: 215369
+    reference_id: 34610
+    scoring_system: cvssv3
+    value: '8.1'
+    scoring_elements: CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 705553
+    reference_id: 34611
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 34613
+    url: https://nodesecurity.io/advisories/293
+    reference_id:
+  - id: 34612
+    url: https://www.npmjs.com/advisories/293
+    reference_id:
+  - id: 628864
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:windows-iedriver_project:windows-iedriver:2.48.0:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:windows-iedriver_project:windows-iedriver:2.48.0:*:*:*:*:node.js:*:*
+  - id: 34610
+    url: https://nvd.nist.gov/vuln/detail/CVE-2016-10689
+    reference_id: CVE-2016-10689
+  - id: 34611
+    url: https://github.com/advisories/GHSA-w9mf-24h3-9wxf
+    reference_id: GHSA-w9mf-24h3-9wxf
+weaknesses: []

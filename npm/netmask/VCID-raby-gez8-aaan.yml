@@ -1,0 +1,99 @@
+vulnerability_id: VCID-raby-gez8-aaan
+aliases:
+  - CVE-2021-28918
+  - GHSA-4c7m-wxvm-r7gc
+  - GHSA-pch5-whg9-qr2r
+summary: |
+  Improper Input Validation
+  Improper input validation of octal strings in netmask npm allows unauthenticated remote attackers to perform indeterminate SSRF, RFI, and LFI attacks on many of the dependent packages. A remote unauthenticated attacker can bypass packages relying on netmask to filter IPs and reach critical VPN or LAN hosts.
+severities:
+  - id: 606186
+    reference_id: 928541
+    scoring_system: cvssv3
+    value: '9.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
+  - id: 606184
+    reference_id: 928539
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 530361
+    reference_id: 35945
+    scoring_system: cvssv2
+    value: '6.4'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:N
+  - id: 530359
+    reference_id: 35945
+    scoring_system: cvssv3
+    value: '9.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
+  - id: 706707
+    reference_id: 1468341
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+  - id: 606042
+    reference_id: 928438
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 606185
+    reference_id: 928540
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 604166
+    reference_id: 927064
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 928541
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-28918.json
+    reference_id:
+  - id: 878208
+    url: https://github.com/advisories/GHSA-pch5-whg9-qr2r
+    reference_id:
+  - id: 878209
+    url: https://github.com/rs/node-netmask
+    reference_id:
+  - id: 1468340
+    url: https://github.com/rs/node-netmask/blob/98294cb20695f2c6c36219a4fbcd4744fb8d0682/CHANGELOG.md#v110-mar-18-2021
+    reference_id:
+  - id: 878210
+    url: https://github.com/sickcodes/security/blob/master/advisories/SICK-2021-011.md
+    reference_id:
+  - id: 878211
+    url: https://rootdaemon.com/2021/03/29/vulnerability-in-netmask-npm-package-affects-280000-projects/
+    reference_id:
+  - id: 878212
+    url: https://security.netapp.com/advisory/ntap-20210528-0010/
+    reference_id:
+  - id: 878213
+    url: https://www.bleepingcomputer.com/news/security/critical-netmask-networking-bug-impacts-thousands-of-applications/
+    reference_id:
+  - id: 878214
+    url: https://www.npmjs.com/package/netmask
+    reference_id:
+  - id: 928539
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1944827
+    reference_id: '1944827'
+  - id: 878215
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:netmask_project:netmask:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:netmask_project:netmask:*:*:*:*:*:node.js:*:*
+  - id: 35945
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-28918
+    reference_id: CVE-2021-28918
+  - id: 1468341
+    url: https://github.com/advisories/GHSA-4c7m-wxvm-r7gc
+    reference_id: GHSA-4c7m-wxvm-r7gc
+  - id: 928438
+    url: https://access.redhat.com/errata/RHSA-2021:1499
+    reference_id: RHSA-2021:1499
+  - id: 928540
+    url: https://access.redhat.com/errata/RHSA-2021:2461
+    reference_id: RHSA-2021:2461
+  - id: 927064
+    url: https://access.redhat.com/errata/RHSA-2021:3016
+    reference_id: RHSA-2021:3016
+weaknesses: []

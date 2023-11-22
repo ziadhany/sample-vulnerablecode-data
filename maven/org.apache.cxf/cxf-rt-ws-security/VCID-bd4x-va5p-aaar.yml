@@ -1,0 +1,267 @@
+vulnerability_id: VCID-bd4x-va5p-aaar
+aliases:
+  - CVE-2012-5633
+  - GHSA-xf9f-32gh-h2w4
+summary: |
+  Bypass of security constraints on WS endpoints when using WSS4JInInterceptor
+  The `URIMappingInterceptor` in this package bypasses `WS-Security` processing, which allows remote attackers to obtain access to SOAP services via an HTTP GET request.
+severities:
+  - id: 62940
+    reference_id: '191032'
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 159320
+    reference_id: 507539
+    scoring_system: cvssv2
+    value: '5.8'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:P/A:N
+  - id: 630032
+    reference_id: 945915
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 62950
+    reference_id: '191042'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 62945
+    reference_id: '191037'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 62944
+    reference_id: '191036'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 62947
+    reference_id: '191039'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 62949
+    reference_id: '191041'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 62946
+    reference_id: '191038'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 62942
+    reference_id: '191034'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 62943
+    reference_id: '191035'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 62948
+    reference_id: '191040'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 62941
+    reference_id: '191033'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 507527
+    url: http://osvdb.org/90079
+    reference_id:
+  - id: 507528
+    url: http://packetstormsecurity.com/files/120213/Apache-CXF-WS-Security-URIMappingInterceptor-Bypass.html
+    reference_id:
+  - id: 497232
+    url: http://rhn.redhat.com/errata/RHSA-2013-0256.html
+    reference_id:
+  - id: 497233
+    url: http://rhn.redhat.com/errata/RHSA-2013-0257.html
+    reference_id:
+  - id: 497234
+    url: http://rhn.redhat.com/errata/RHSA-2013-0258.html
+    reference_id:
+  - id: 497235
+    url: http://rhn.redhat.com/errata/RHSA-2013-0259.html
+    reference_id:
+  - id: 497236
+    url: http://rhn.redhat.com/errata/RHSA-2013-0726.html
+    reference_id:
+  - id: 497237
+    url: http://rhn.redhat.com/errata/RHSA-2013-0743.html
+    reference_id:
+  - id: 507529
+    url: http://rhn.redhat.com/errata/RHSA-2013-0749.html
+    reference_id:
+  - id: '191043'
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2012-5633.json
+    reference_id:
+  - id: 26282
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2012-5633
+    reference_id:
+  - id: 507530
+    url: http://seclists.org/fulldisclosure/2013/Feb/39
+    reference_id:
+  - id: 507531
+    url: http://secunia.com/advisories/51988
+    reference_id:
+  - id: 497238
+    url: http://secunia.com/advisories/52183
+    reference_id:
+  - id: 507536
+    url: https://exchange.xforce.ibmcloud.com/vulnerabilities/81980
+    reference_id:
+  - id: 26283
+    url: https://github.com/apache/cxf/commit/db11c9115f31e171de4622149f157d8283f6c720
+    reference_id:
+  - id: 507537
+    url: https://issues.apache.org/jira/browse/CXF-4629
+    reference_id:
+  - id: 507538
+    url: https://issues.jboss.org/browse/JBWS-3575
+    reference_id:
+  - id: 10867
+    url: https://lists.apache.org/thread.html/r36e44ffc1a9b365327df62cdfaabe85b9a5637de102cea07d79b2dbf@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 1471053
+    url: https://lists.apache.org/thread.html/r36e44ffc1a9b365327df62cdfaabe85b9a5637de102cea07d79b2dbf%40%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10866
+    url: https://lists.apache.org/thread.html/rc774278135816e7afc943dc9fc78eb0764f2c84a2b96470a0187315c@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 1471054
+    url: https://lists.apache.org/thread.html/rc774278135816e7afc943dc9fc78eb0764f2c84a2b96470a0187315c%40%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10872
+    url: https://lists.apache.org/thread.html/rd49aabd984ed540c8ff7916d4d79405f3fa311d2fdbcf9ed307839a6@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 1471055
+    url: https://lists.apache.org/thread.html/rd49aabd984ed540c8ff7916d4d79405f3fa311d2fdbcf9ed307839a6%40%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10860
+    url: https://lists.apache.org/thread.html/rec7160382badd3ef4ad017a22f64a266c7188b9ba71394f0d321e2d4@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 1471056
+    url: https://lists.apache.org/thread.html/rec7160382badd3ef4ad017a22f64a266c7188b9ba71394f0d321e2d4%40%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10862
+    url: https://lists.apache.org/thread.html/rfb87e0bf3995e7d560afeed750fac9329ff5f1ad49da365129b7f89e@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 1471057
+    url: https://lists.apache.org/thread.html/rfb87e0bf3995e7d560afeed750fac9329ff5f1ad49da365129b7f89e%40%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10873
+    url: https://lists.apache.org/thread.html/rff42cfa5e7d75b7c1af0e37589140a8f1999e578a75738740b244bd4@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 1471058
+    url: https://lists.apache.org/thread.html/rff42cfa5e7d75b7c1af0e37589140a8f1999e578a75738740b244bd4%40%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 507532
+    url: http://stackoverflow.com/questions/7933293/why-does-apache-cxf-ws-security-implementation-ignore-get-requests
+    reference_id:
+  - id: 507533
+    url: http://svn.apache.org/viewvc?view=revision&revision=1409324
+    reference_id:
+  - id: 507534
+    url: http://svn.apache.org/viewvc?view=revision&revision=1420698
+    reference_id:
+  - id: 1471077
+    url: https://web.archive.org/web/20130216044418/http://www.securityfocus.com:80/bid/57874
+    reference_id:
+  - id: 507535
+    url: http://www.securityfocus.com/bid/57874
+    reference_id:
+  - id: '191032'
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=889008
+    reference_id: 889008
+  - id: 158434
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:*:*:*:*:*:*:*:*
+  - id: 491366
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.5.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.5.0:*:*:*:*:*:*:*
+  - id: 481607
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.5.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.5.1:*:*:*:*:*:*:*
+  - id: 491352
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.5.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.5.2:*:*:*:*:*:*:*
+  - id: 491353
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.5.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.5.3:*:*:*:*:*:*:*
+  - id: 507230
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.5.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.5.4:*:*:*:*:*:*:*
+  - id: 507231
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.5.5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.5.5:*:*:*:*:*:*:*
+  - id: 507232
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.5.6:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.5.6:*:*:*:*:*:*:*
+  - id: 491354
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.6.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.6.0:*:*:*:*:*:*:*
+  - id: 507236
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.6.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.6.1:*:*:*:*:*:*:*
+  - id: 507237
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.6.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.6.2:*:*:*:*:*:*:*
+  - id: 507238
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.6.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.6.3:*:*:*:*:*:*:*
+  - id: 507239
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.6.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.6.4:*:*:*:*:*:*:*
+  - id: 507242
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.7.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.7.0:*:*:*:*:*:*:*
+  - id: 507243
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.7.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.7.1:*:*:*:*:*:*:*
+  - id: 507539
+    url: https://nvd.nist.gov/vuln/detail/CVE-2012-5633
+    reference_id: CVE-2012-5633
+  - id: 945914
+    url: http://cxf.apache.org/cve-2012-5633.html
+    reference_id: CVE-2012-5633.HTML
+  - id: 945915
+    url: https://github.com/advisories/GHSA-xf9f-32gh-h2w4
+    reference_id: GHSA-xf9f-32gh-h2w4
+  - id: '191042'
+    url: https://access.redhat.com/errata/RHSA-2013:0256
+    reference_id: RHSA-2013:0256
+  - id: '191037'
+    url: https://access.redhat.com/errata/RHSA-2013:0257
+    reference_id: RHSA-2013:0257
+  - id: '191036'
+    url: https://access.redhat.com/errata/RHSA-2013:0258
+    reference_id: RHSA-2013:0258
+  - id: '191039'
+    url: https://access.redhat.com/errata/RHSA-2013:0259
+    reference_id: RHSA-2013:0259
+  - id: '191041'
+    url: https://access.redhat.com/errata/RHSA-2013:0644
+    reference_id: RHSA-2013:0644
+  - id: '191038'
+    url: https://access.redhat.com/errata/RHSA-2013:0645
+    reference_id: RHSA-2013:0645
+  - id: '191034'
+    url: https://access.redhat.com/errata/RHSA-2013:0649
+    reference_id: RHSA-2013:0649
+  - id: '191035'
+    url: https://access.redhat.com/errata/RHSA-2013:0726
+    reference_id: RHSA-2013:0726
+  - id: '191040'
+    url: https://access.redhat.com/errata/RHSA-2013:0743
+    reference_id: RHSA-2013:0743
+  - id: '191033'
+    url: https://access.redhat.com/errata/RHSA-2013:0749
+    reference_id: RHSA-2013:0749
+weaknesses: []

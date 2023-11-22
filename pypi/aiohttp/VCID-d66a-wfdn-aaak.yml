@@ -1,0 +1,42 @@
+vulnerability_id: VCID-d66a-wfdn-aaak
+aliases:
+  - CVE-2018-1000519
+  - GHSA-fpwp-69xv-c67f
+  - PYSEC-2018-80
+summary: 'aio-libs aiohttp-session contains a Session Fixation vulnerability in load_session
+  function for RedisStorage (see: https://github.com/aio-libs/aiohttp-session/blob/master/aiohttp_session/redis_storage.py#L42)
+  that can result in Session Hijacking. This attack appear to be exploitable via Any method
+  that allows setting session cookies (?session=<>, or meta tags or script tags with Set-Cookie).'
+severities:
+  - id: 307974
+    reference_id: 23131
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+  - id: 307972
+    reference_id: 23131
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N
+  - id: 4810
+    reference_id: 23526
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 5874
+    url: https://github.com/aio-libs/aiohttp-session/blob/master/aiohttp_session/redis_storage.py#L60
+    reference_id:
+  - id: 5873
+    url: https://github.com/aio-libs/aiohttp-session/issues/272
+    reference_id:
+  - id: 721898
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:aio-libs_project:aiohttp:-:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:aio-libs_project:aiohttp:-:*:*:*:*:*:*:*
+  - id: 23131
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-1000519
+    reference_id: CVE-2018-1000519
+  - id: 23526
+    url: https://github.com/advisories/GHSA-fpwp-69xv-c67f
+    reference_id: GHSA-fpwp-69xv-c67f
+weaknesses: []

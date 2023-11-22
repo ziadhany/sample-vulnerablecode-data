@@ -1,0 +1,15 @@
+vulnerability_id: VCID-zkze-uhbp-aaah
+aliases:
+  - OSVDB-120415
+summary: |
+  XSS via parse_inline()
+  There's a flaw that allows a cross-site scripting (XSS) attack. This flaw exists because the `parse_inline()` function in markdown.c does not validate input before returning it to users. This may allow a remote attacker to create a specially crafted request that would execute arbitrary script code in a user's browser session within the trust relationship between their browser and the server.
+severities: []
+references:
+  - id: 39059
+    url: http://osvdb.org/show/osvdb/120415
+    reference_id:
+  - id: 39060
+    url: https://github.com/vmg/redcarpet/commit/a6c759d7e7cbdd8cb8a1876f97a38b1befe221d5
+    reference_id:
+weaknesses: []

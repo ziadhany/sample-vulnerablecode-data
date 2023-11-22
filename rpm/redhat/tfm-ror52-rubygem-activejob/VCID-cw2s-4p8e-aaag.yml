@@ -1,0 +1,51 @@
+vulnerability_id: VCID-cw2s-4p8e-aaag
+aliases:
+  - CVE-2018-10917
+summary: pulp 2.16.x and possibly older is vulnerable to an improper path parsing. A malicious
+  user or a malicious iso feed repository can write to locations accessible to the 'apache'
+  user. This may lead to overwrite of published content on other iso repositories.
+severities:
+  - id: 614837
+    reference_id: 934899
+    scoring_system: cvssv3
+    value: '6.8'
+    scoring_elements: CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:H/A:H
+  - id: 311757
+    reference_id: 725331
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:N/I:P/A:N
+  - id: 311755
+    reference_id: 725331
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
+references:
+  - id: 652478
+    url: https://access.redhat.com/errata/RHSA-2019:1222
+    reference_id:
+  - id: 934899
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2018-10917.json
+    reference_id:
+  - id: 725330
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2018-10917
+    reference_id:
+  - id: 548985
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:pulpproject:pulp:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:pulpproject:pulp:*:*:*:*:*:*:*:*
+  - id: 725332
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:pulpproject:pulp:2.16.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:pulpproject:pulp:2.16.1:*:*:*:*:*:*:*
+  - id: 725333
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:pulpproject:pulp:2.16.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:pulpproject:pulp:2.16.2:*:*:*:*:*:*:*
+  - id: 725334
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:pulpproject:pulp:2.16.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:pulpproject:pulp:2.16.4:*:*:*:*:*:*:*
+  - id: 725331
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-10917
+    reference_id: CVE-2018-10917
+  - id: 934898
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1598928
+    reference_id: RHEA-2019:1283
+weaknesses: []

@@ -1,0 +1,25 @@
+vulnerability_id: VCID-2q2b-s4q4-aaah
+aliases:
+  - CVE-2023-0493
+  - GHSA-33gv-rvgq-gpxp
+summary: HTML injections in BTCPayServer
+severities:
+  - id: 707713
+    reference_id: 1470815
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 1470813
+    url: https://github.com/btcpayserver/btcpayserver/commit/02070d65836cd24627929b3403efbae8de56039a
+    reference_id:
+  - id: 1470814
+    url: https://huntr.dev/bounties/3a73b45c-6f3e-4536-a327-cdfdbc59896f
+    reference_id:
+  - id: 1470812
+    url: https://nvd.nist.gov/vuln/detail/CVE-2023-0493
+    reference_id: CVE-2023-0493
+  - id: 1470815
+    url: https://github.com/advisories/GHSA-33gv-rvgq-gpxp
+    reference_id: GHSA-33gv-rvgq-gpxp
+weaknesses: []

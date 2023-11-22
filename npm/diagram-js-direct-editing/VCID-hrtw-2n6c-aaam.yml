@@ -1,0 +1,24 @@
+vulnerability_id: VCID-hrtw-2n6c-aaam
+aliases:
+  - GHSA-j8r2-2x94-2q67
+  - GMS-2020-227
+summary: |
+  Cross-Site Scripting in diagram-js-direct-editing
+  Versions of `diagram-js-direct-editing` are vulnerable to Cross-Site Scripting. The package fails to sanitize input from the clipboard, allowing attackers to execute arbitrary JavaScript in the victim's browser. Upgrade to or later.
+severities:
+  - id: 704999
+    reference_id: 34362
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 34361
+    url: https://github.com/bpmn-io/diagram-js-direct-editing
+    reference_id:
+  - id: 34360
+    url: https://www.npmjs.com/advisories/983
+    reference_id:
+  - id: 34362
+    url: https://github.com/advisories/GHSA-j8r2-2x94-2q67
+    reference_id: GHSA-j8r2-2x94-2q67
+weaknesses: []

@@ -1,0 +1,38 @@
+vulnerability_id: VCID-cj25-1jqq-aaak
+aliases:
+  - CVE-2022-38170
+  - GHSA-q8h9-pqcx-59hw
+  - PYSEC-2022-261
+summary: In Apache Airflow prior to 2.3.4, an insecure umask was configured for numerous Airflow
+  components when running with the `--daemon` flag which could result in a race condition giving
+  world-writable files in the Airflow home directory and allowing local users to expose arbitrary
+  file contents via the webserver.
+severities:
+  - id: 647794
+    reference_id: 1417562
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 1417560
+    url: https://github.com/pypa/advisory-database/tree/main/vulns/apache-airflow/PYSEC-2022-261.yaml
+    reference_id:
+  - id: 1415707
+    url: https://lists.apache.org/thread/zn8mbbb1j2od5nc9zhrvb7rpsrg1vvzv
+    reference_id:
+  - id: 1415705
+    url: http://www.openwall.com/lists/oss-security/2022/09/02/12
+    reference_id:
+  - id: 1415706
+    url: http://www.openwall.com/lists/oss-security/2022/09/02/3
+    reference_id:
+  - id: 1417561
+    url: http://www.openwall.com/lists/oss-security/2022/09/21/2
+    reference_id:
+  - id: 1415708
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-38170
+    reference_id: CVE-2022-38170
+  - id: 1417562
+    url: https://github.com/advisories/GHSA-q8h9-pqcx-59hw
+    reference_id: GHSA-q8h9-pqcx-59hw
+weaknesses: []

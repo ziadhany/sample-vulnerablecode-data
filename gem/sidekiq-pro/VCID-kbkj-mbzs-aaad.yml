@@ -1,0 +1,9 @@
+vulnerability_id: VCID-kbkj-mbzs-aaad
+aliases:
+  - GMS-2015-59
+summary: |
+  Typosquatting
+  This is a malicious package. You may want to install sidekiq.
+severities: []
+references: []
+weaknesses: []

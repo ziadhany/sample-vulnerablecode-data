@@ -1,0 +1,40 @@
+vulnerability_id: VCID-yduq-8ks6-aaas
+aliases:
+  - CVE-2016-10570
+  - GHSA-g93h-75m9-3qq4
+summary: |
+  Cryptographic Issues
+  pngcrush-installer download binary resources over HTTP, which leaves it vulnerable to MITM attacks. It may be possible to cause remote code execution (RCE) by swapping out the requested binary with an attacker controlled binary if the attacker is on the network or positioned in between the user and the remote server.
+severities:
+  - id: 214831
+    reference_id: 37151
+    scoring_system: cvssv2
+    value: '9.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:C/I:C/A:C
+  - id: 214829
+    reference_id: 37151
+    scoring_system: cvssv3
+    value: '8.1'
+    scoring_elements: CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 705434
+    reference_id: 1466576
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 628665
+    url: https://nodesecurity.io/advisories/189
+    reference_id:
+  - id: 1466577
+    url: https://www.npmjs.com/advisories/189
+    reference_id:
+  - id: 628666
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:pngcrush-installer_project:pngcrush-installer:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:pngcrush-installer_project:pngcrush-installer:*:*:*:*:*:node.js:*:*
+  - id: 37151
+    url: https://nvd.nist.gov/vuln/detail/CVE-2016-10570
+    reference_id: CVE-2016-10570
+  - id: 1466576
+    url: https://github.com/advisories/GHSA-g93h-75m9-3qq4
+    reference_id: GHSA-g93h-75m9-3qq4
+weaknesses: []

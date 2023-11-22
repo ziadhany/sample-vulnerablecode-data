@@ -1,0 +1,72 @@
+vulnerability_id: VCID-9xtp-zpx8-aaaf
+aliases:
+  - CVE-2018-3711
+  - GHSA-mq6c-fh97-4gwv
+summary: |
+  Denial of Service via large JSON payload
+  Fastify is vulnerable to a denial-of-service attack by sending a request with Content-Type set to application/json and a very large payload.
+severities:
+  - id: 708617
+    reference_id: 34415
+    scoring_system: cvssv3
+    value: '9.3'
+    scoring_elements:
+  - id: 708618
+    reference_id: 34416
+    scoring_system: cvssv3
+    value: '9.3'
+    scoring_elements:
+  - id: 708619
+    reference_id: 34417
+    scoring_system: cvssv3
+    value: '9.3'
+    scoring_elements:
+  - id: 708620
+    reference_id: 1473475
+    scoring_system: cvssv3
+    value: '9.3'
+    scoring_elements:
+  - id: 345497
+    reference_id: 751166
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 345495
+    reference_id: 751166
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 705893
+    reference_id: 1467308
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 34415
+    url: https://github.com/fastify/fastify/commit/fabd2a011f2ffbb877394abe699f549513ffbd76
+    reference_id:
+  - id: 751165
+    url: https://github.com/fastify/fastify/pull/627
+    reference_id:
+  - id: 34416
+    url: https://github.com/fastify/fastify/releases/tag/v0.38.0
+    reference_id:
+  - id: 34417
+    url: https://hackerone.com/reports/303632
+    reference_id:
+  - id: 1467309
+    url: https://www.npmjs.com/advisories/564
+    reference_id:
+  - id: 1473475
+    url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/364.json
+    reference_id: 364
+  - id: 751167
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:fastify:fastify:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:fastify:fastify:*:*:*:*:*:node.js:*:*
+  - id: 751166
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-3711
+    reference_id: CVE-2018-3711
+  - id: 1467308
+    url: https://github.com/advisories/GHSA-mq6c-fh97-4gwv
+    reference_id: GHSA-mq6c-fh97-4gwv
+weaknesses: []

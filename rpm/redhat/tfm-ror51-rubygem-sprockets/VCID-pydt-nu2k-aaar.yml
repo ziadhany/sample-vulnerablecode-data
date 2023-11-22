@@ -1,0 +1,57 @@
+vulnerability_id: VCID-pydt-nu2k-aaar
+aliases:
+  - CVE-2017-12175
+summary: Red Hat Satellite before 6.5 is vulnerable to a XSS in discovery rule when you are
+  entering filter and you use autocomplete functionality.
+severities:
+  - id: 620313
+    reference_id: 938802
+    scoring_system: cvssv3
+    value: '3.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:L/A:N
+  - id: 620312
+    reference_id: 938801
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 257493
+    reference_id: 675994
+    scoring_system: cvssv2
+    value: '3.5'
+    scoring_elements: AV:N/AC:M/Au:S/C:N/I:P/A:N
+  - id: 257491
+    reference_id: 675994
+    scoring_system: cvssv3
+    value: '5.4'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N
+  - id: 49936
+    reference_id: 174399
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 938802
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2017-12175.json
+    reference_id:
+  - id: 675992
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2017-12175
+    reference_id:
+  - id: 675993
+    url: https://projects.theforeman.org/issues/22042
+    reference_id:
+  - id: 675991
+    url: http://www.securityfocus.com/bid/101245
+    reference_id:
+  - id: 938801
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1498976
+    reference_id: 1498976
+  - id: 341775
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:satellite:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:satellite:*:*:*:*:*:*:*:*
+  - id: 675994
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-12175
+    reference_id: CVE-2017-12175
+  - id: 174399
+    url: https://access.redhat.com/errata/RHSA-2018:2927
+    reference_id: RHSA-2018:2927
+weaknesses: []

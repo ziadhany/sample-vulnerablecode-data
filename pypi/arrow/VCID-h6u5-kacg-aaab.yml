@@ -1,0 +1,45 @@
+vulnerability_id: VCID-h6u5-kacg-aaab
+aliases:
+  - CVE-2019-12410
+  - GHSA-cjw4-2w9r-r8mv
+  - PYSEC-2019-196
+summary: |
+  NULL Pointer Dereference
+  Apache Arrow versions leaves memory Array data uninitialized when reading RLE null data from parquet.
+severities:
+  - id: 375119
+    reference_id: 3545
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 375117
+    reference_id: 3545
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+references:
+  - id: 1416716
+    url: https://github.com/advisories/GHSA-cjw4-2w9r-r8mv
+    reference_id:
+  - id: 1416793
+    url: https://github.com/pypa/advisory-database/tree/main/vulns/pyarrow/PYSEC-2019-196.yaml
+    reference_id:
+  - id: 3546
+    url: https://lists.apache.org/thread.html/49f067b1c5fb7493d952580f0d2d032819ba351f7a78743c21126269@%3Cdev.arrow.apache.org%3E
+    reference_id:
+  - id: 3547
+    url: https://lists.apache.org/thread.html/efd8bbf57427d3c303b5316d208a335f8d0c0dbe0dc4c87cfa995073@%3Cannounce.apache.org%3E
+    reference_id:
+  - id: 6404
+    url: http://www.openwall.com/lists/oss-security/2019/11/08/1
+    reference_id:
+  - id: 773177
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:arrow:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:arrow:*:*:*:*:*:*:*:*
+  - id: 3545
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-12410
+    reference_id: CVE-2019-12410
+  - id: 947059
+    url: https://github.com/rubysec/ruby-advisory-db/blob/master/gems/red-arrow/CVE-2019-12410.yml
+    reference_id: CVE-2019-12410.YML
+weaknesses: []

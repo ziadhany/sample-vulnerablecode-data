@@ -1,0 +1,110 @@
+vulnerability_id: VCID-x7b8-fraz-aaap
+aliases:
+  - CVE-2019-3805
+summary: A flaw was discovered in wildfly versions up to 16.0.0.Final that would allow local
+  users who are able to execute init.d script to terminate arbitrary processes on the system.
+  An attacker could exploit this by modifying the PID file in /var/run/jboss-eap/ allowing the
+  init.d script to terminate any process as root.
+severities:
+  - id: 612344
+    reference_id: 933048
+    scoring_system: cvssv3
+    value: '5.5'
+    scoring_elements: CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+  - id: 612343
+    reference_id: 933047
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 406106
+    reference_id: 795970
+    scoring_system: cvssv2
+    value: '4.7'
+    scoring_elements: AV:L/AC:M/Au:N/C:N/I:N/A:C
+  - id: 406104
+    reference_id: 795970
+    scoring_system: cvssv3
+    value: '4.7'
+    scoring_elements: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+  - id: 68390
+    reference_id: '197920'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 68389
+    reference_id: '197919'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 68388
+    reference_id: '197918'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 68387
+    reference_id: '197917'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 50012
+    reference_id: 174490
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 66171
+    reference_id: '195201'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 52338
+    reference_id: 177154
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 933048
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2019-3805.json
+    reference_id:
+  - id: 795968
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2019-3805
+    reference_id:
+  - id: 795969
+    url: https://security.netapp.com/advisory/ntap-20190517-0004/
+    reference_id:
+  - id: 933047
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1660263
+    reference_id: 1660263
+  - id: 502543
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:6.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:6.0.0:*:*:*:*:*:*:*
+  - id: 659699
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:7.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:7.0.0:*:*:*:*:*:*:*
+  - id: 734792
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:wildfly:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:wildfly:*:*:*:*:*:*:*:*
+  - id: 795970
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-3805
+    reference_id: CVE-2019-3805
+  - id: '197920'
+    url: https://access.redhat.com/errata/RHSA-2019:1106
+    reference_id: RHSA-2019:1106
+  - id: '197919'
+    url: https://access.redhat.com/errata/RHSA-2019:1107
+    reference_id: RHSA-2019:1107
+  - id: '197918'
+    url: https://access.redhat.com/errata/RHSA-2019:1108
+    reference_id: RHSA-2019:1108
+  - id: '197917'
+    url: https://access.redhat.com/errata/RHSA-2019:1140
+    reference_id: RHSA-2019:1140
+  - id: 174490
+    url: https://access.redhat.com/errata/RHSA-2019:2413
+    reference_id: RHSA-2019:2413
+  - id: '195201'
+    url: https://access.redhat.com/errata/RHSA-2020:0727
+    reference_id: RHSA-2020:0727
+  - id: 177154
+    url: https://access.redhat.com/errata/RHSA-2020:2565
+    reference_id: RHSA-2020:2565
+weaknesses: []

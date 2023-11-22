@@ -1,0 +1,53 @@
+vulnerability_id: VCID-77ba-fqnz-aaas
+aliases:
+  - CVE-2021-44217
+  - GHSA-fxmx-pfm2-85m2
+summary: Cross-site Scripting in Ericsson CodeChecker
+severities:
+  - id: 569029
+    reference_id: 21427
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+  - id: 569027
+    reference_id: 21427
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+  - id: 3614
+    reference_id: 21434
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 21429
+    url: https://codechecker-demo.eastus.cloudapp.azure.com/
+    reference_id:
+  - id: 21432
+    url: https://github.com/Ericsson/codechecker/commit/72ee51158e6d81150320223b85410c179b9ee2b1
+    reference_id:
+  - id: 21428
+    url: https://github.com/Ericsson/codechecker/pull/3549
+    reference_id:
+  - id: 903967
+    url: https://github.com/Ericsson/codechecker/releases
+    reference_id:
+  - id: 21433
+    url: https://github.com/Ericsson/codechecker/releases/tag/v6.18.2
+    reference_id:
+  - id: 21430
+    url: https://github.com/Hyperkopite/CVE-2021-44217/blob/main/README.md
+    reference_id:
+  - id: 21431
+    url: https://user-images.githubusercontent.com/9525971/142965091-e118b012-a7fc-4c2f-ad0c-80aeed6f7ec9.png
+    reference_id:
+  - id: 903968
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:ericsson:codechecker:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:ericsson:codechecker:*:*:*:*:*:*:*:*
+  - id: 21427
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-44217
+    reference_id: CVE-2021-44217
+  - id: 21434
+    url: https://github.com/advisories/GHSA-fxmx-pfm2-85m2
+    reference_id: GHSA-fxmx-pfm2-85m2
+weaknesses: []

@@ -1,0 +1,38 @@
+package: pkg:nuget/microsoft.identitymodel.clients.activedirectory
+versions:
+  - purl: pkg:nuget/microsoft.identitymodel.clients.activedirectory@1.0.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-p167-fbqk-aaaq
+  - purl: pkg:nuget/microsoft.identitymodel.clients.activedirectory@5.0.0
+    affected_by_vulnerabilities:
+      - VCID-p167-fbqk-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/microsoft.identitymodel.clients.activedirectory@5.0.1-preview
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-p167-fbqk-aaaq
+  - purl: pkg:nuget/microsoft.identitymodel.clients.activedirectory@5.0.2-preview
+    affected_by_vulnerabilities:
+      - VCID-p167-fbqk-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/microsoft.identitymodel.clients.activedirectory@5.0.3-preview
+    affected_by_vulnerabilities:
+      - VCID-p167-fbqk-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/microsoft.identitymodel.clients.activedirectory@5.0.5
+    affected_by_vulnerabilities:
+      - VCID-p167-fbqk-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/microsoft.identitymodel.clients.activedirectory@5.1.0
+    affected_by_vulnerabilities:
+      - VCID-p167-fbqk-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/microsoft.identitymodel.clients.activedirectory@5.1.1
+    affected_by_vulnerabilities:
+      - VCID-p167-fbqk-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/microsoft.identitymodel.clients.activedirectory@5.2.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-p167-fbqk-aaaq

@@ -1,0 +1,62 @@
+vulnerability_id: VCID-w15x-4t64-aaaa
+aliases:
+  - CVE-2020-7942
+  - GHSA-gqvf-892r-vjm5
+summary: Improper Certificate Validation in Puppet
+severities:
+  - id: 55047
+    reference_id: 180193
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+  - id: 55046
+    reference_id: 180192
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 490221
+    reference_id: 28099
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:N/A:N
+  - id: 490219
+    reference_id: 28099
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+  - id: 5016
+    reference_id: 28101
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 48023
+    reference_id: 172574
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 180193
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2020-7942.json
+    reference_id:
+  - id: 853495
+    url: https://puppet.com/security/cve/CVE-2020-7942/
+    reference_id:
+  - id: 180192
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1816720
+    reference_id: 1816720
+  - id: 519409
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:puppet:puppet:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:puppet:puppet:*:*:*:*:*:*:*:*
+  - id: 650037
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:puppet:puppet_agent:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:puppet:puppet_agent:*:*:*:*:*:*:*:*
+  - id: 28099
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-7942
+    reference_id: CVE-2020-7942
+  - id: 28101
+    url: https://github.com/advisories/GHSA-gqvf-892r-vjm5
+    reference_id: GHSA-gqvf-892r-vjm5
+  - id: 172574
+    url: https://access.redhat.com/errata/RHSA-2020:4366
+    reference_id: RHSA-2020:4366
+weaknesses: []

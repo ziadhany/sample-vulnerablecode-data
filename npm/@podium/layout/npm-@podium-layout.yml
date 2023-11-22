@@ -1,0 +1,662 @@
+package: pkg:npm/%40podium/layout
+versions:
+  - purl: pkg:npm/%40podium/layout@2.5.1
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@3.0.0
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@3.0.0-beta.1
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@3.0.0-beta.10
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@3.0.0-beta.2
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@3.0.0-beta.3
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@3.0.0-beta.4
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@3.0.0-beta.5
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@3.0.0-beta.6
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@3.0.0-beta.7
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@3.0.0-beta.8
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@3.0.0-beta.9
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@3.0.1
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@3.0.2
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@3.0.3
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@3.0.4
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.0.0
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.0.0-next
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.0.0-next.1
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.0.0-next.2
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.0.0-next.3
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.0.0-next.4
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.0.0-next.5
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.0.0-next.6
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.0.0-next.7
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.1.0
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.1.1
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.1.2
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.1.3
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.1.4
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.2.0
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.2.0-next
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.2.0-next.1
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.2.0-next.3
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.2.0-next.4
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.2.0-next.5
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.2.1
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.2.2
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.2.3
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.2.4
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.2.5
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.2.6
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.2.7
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.2.8
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.2.9
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.3.0
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.3.1
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.4.0
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.4.1
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.4.2
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.4.3
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.4.4
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.5.0
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.5.1
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.0
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.1
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.10
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.100
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.101
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.102
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.103
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.104
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.105
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.106
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.107
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.108
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.109
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.11
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.110
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+  - purl: pkg:npm/%40podium/layout@4.6.12
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.13
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.14
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.15
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.16
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.17
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.18
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.19
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.2
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.20
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.21
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.22
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.23
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.24
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.25
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.26
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.27
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.28
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.29
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.3
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.30
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.31
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.32
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.33
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.34
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.35
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.36
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.37
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.38
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.39
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.4
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.40
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.41
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.42
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.43
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.44
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.45
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.46
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.47
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.48
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.49
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.5
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.50
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.51
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.52
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.53
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.54
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.55
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.56
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.57
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.58
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.59
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.6
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.60
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.61
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.62
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.63
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.64
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.65
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.66
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.67
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.68
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.69
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.7
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.70
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.71
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.72
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.73
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.74
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.75
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.76
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.77
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.78
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.79
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.8
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.80
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.81
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.82
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.83
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.84
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.85
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.86
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.87
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.88
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.89
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.9
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.90
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.91
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.92
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.93
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.94
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.95
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.96
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.97
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.98
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40podium/layout@4.6.99
+    affected_by_vulnerabilities:
+      - VCID-wfj1-m2gw-aaaa
+    fixing_vulnerabilities: []

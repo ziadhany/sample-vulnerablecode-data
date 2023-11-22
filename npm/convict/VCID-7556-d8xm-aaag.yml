@@ -1,0 +1,28 @@
+vulnerability_id: VCID-7556-d8xm-aaag
+aliases:
+  - CVE-2023-0163
+  - GHSA-4jrm-c32x-w4jf
+  - GMS-2023-17
+summary: convict vulnerable to Prototype Pollution
+severities:
+  - id: 707392
+    reference_id: 1469581
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 707391
+    reference_id: 1469579
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 1469580
+    url: https://github.com/mozilla/node-convict/commit/fb602fbe1e9f14f2e88ecb8179d0f76466d21ecb
+    reference_id:
+  - id: 1469581
+    url: https://github.com/advisories/GHSA-4jrm-c32x-w4jf
+    reference_id: GHSA-4jrm-c32x-w4jf
+  - id: 1469579
+    url: https://github.com/mozilla/node-convict/security/advisories/GHSA-4jrm-c32x-w4jf
+    reference_id: GHSA-4jrm-c32x-w4jf
+weaknesses: []

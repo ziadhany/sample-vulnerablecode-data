@@ -1,0 +1,25 @@
+vulnerability_id: VCID-e54s-7uhg-aaag
+aliases:
+  - CVE-2022-4375
+  - GHSA-hc5g-xf64-j49j
+summary: Mingsoft MCMS vulnerable to SQL Injection
+severities:
+  - id: 703094
+    reference_id: 1463322
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 1463320
+    url: https://gitee.com/mingSoft/MCMS/issues/I61TG5
+    reference_id:
+  - id: 1463321
+    url: https://vuldb.com/?id.215196
+    reference_id:
+  - id: 1463319
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-4375
+    reference_id: CVE-2022-4375
+  - id: 1463322
+    url: https://github.com/advisories/GHSA-hc5g-xf64-j49j
+    reference_id: GHSA-hc5g-xf64-j49j
+weaknesses: []

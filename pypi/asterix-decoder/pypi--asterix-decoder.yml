@@ -1,0 +1,110 @@
+package: pkg:pypi/asterix-decoder
+versions:
+  - purl: pkg:pypi/asterix-decoder@0.1.0
+    affected_by_vulnerabilities:
+      - VCID-m1ub-qetv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/asterix-decoder@0.2.0
+    affected_by_vulnerabilities:
+      - VCID-m1ub-qetv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/asterix-decoder@0.3.0
+    affected_by_vulnerabilities:
+      - VCID-m1ub-qetv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/asterix-decoder@0.4.0
+    affected_by_vulnerabilities:
+      - VCID-m1ub-qetv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/asterix-decoder@0.4.1
+    affected_by_vulnerabilities:
+      - VCID-m1ub-qetv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/asterix-decoder@0.4.2
+    affected_by_vulnerabilities:
+      - VCID-m1ub-qetv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/asterix-decoder@0.5.0
+    affected_by_vulnerabilities:
+      - VCID-m1ub-qetv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/asterix-decoder@0.5.1
+    affected_by_vulnerabilities:
+      - VCID-m1ub-qetv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/asterix-decoder@0.5.10
+    affected_by_vulnerabilities:
+      - VCID-m1ub-qetv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/asterix-decoder@0.5.11
+    affected_by_vulnerabilities:
+      - VCID-m1ub-qetv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/asterix-decoder@0.5.12
+    affected_by_vulnerabilities:
+      - VCID-m1ub-qetv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/asterix-decoder@0.5.13
+    affected_by_vulnerabilities:
+      - VCID-m1ub-qetv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/asterix-decoder@0.5.14
+    affected_by_vulnerabilities:
+      - VCID-m1ub-qetv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/asterix-decoder@0.5.15
+    affected_by_vulnerabilities:
+      - VCID-m1ub-qetv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/asterix-decoder@0.5.16
+    affected_by_vulnerabilities:
+      - VCID-m1ub-qetv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/asterix-decoder@0.5.2
+    affected_by_vulnerabilities:
+      - VCID-m1ub-qetv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/asterix-decoder@0.5.5
+    affected_by_vulnerabilities:
+      - VCID-m1ub-qetv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/asterix-decoder@0.5.6
+    affected_by_vulnerabilities:
+      - VCID-m1ub-qetv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/asterix-decoder@0.5.7
+    affected_by_vulnerabilities:
+      - VCID-m1ub-qetv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/asterix-decoder@0.5.8
+    affected_by_vulnerabilities:
+      - VCID-m1ub-qetv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/asterix-decoder@0.5.9
+    affected_by_vulnerabilities:
+      - VCID-m1ub-qetv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/asterix-decoder@0.6.0
+    affected_by_vulnerabilities:
+      - VCID-m1ub-qetv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/asterix-decoder@0.6.1
+    affected_by_vulnerabilities:
+      - VCID-m1ub-qetv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/asterix-decoder@0.7.0
+    affected_by_vulnerabilities:
+      - VCID-m1ub-qetv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/asterix-decoder@0.7.1
+    affected_by_vulnerabilities:
+      - VCID-m1ub-qetv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/asterix-decoder@0.7.2
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-m1ub-qetv-aaag
+  - purl: pkg:pypi/asterix-decoder@2.8.1
+    affected_by_vulnerabilities:
+      - VCID-m1ub-qetv-aaag
+    fixing_vulnerabilities: []

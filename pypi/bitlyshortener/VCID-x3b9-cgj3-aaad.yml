@@ -1,0 +1,42 @@
+vulnerability_id: VCID-x3b9-cgj3-aaad
+aliases:
+  - GHSA-r82c-j4mq-5xfw
+  - GMS-2020-7
+summary: |
+  Update bitlyshortener to >=0.5.0 to prevent generating some invalid short URLs
+  ### Impact
+  Due to a sudden upstream breaking change by Bitly, versions of `bitlyshortener` can generate an invalid short URL when a vanity domain exists.
+
+  ### Patches
+  Upgrading `bitlyshortener` to or newer will prevent the generation of any such invalid short URLs.
+
+  ### References
+  * [Release notes](https://github.com/impredicative/bitlyshortener/releases)
+severities:
+  - id: 4521
+    reference_id: 22547
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 4520
+    reference_id: 22543
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 22544
+    url: https://github.com/impredicative/bitlyshortener/commit/3d412feb77f3daf6f71536463734c2119a55968d
+    reference_id:
+  - id: 22545
+    url: https://github.com/impredicative/bitlyshortener/releases/tag/0.5.0
+    reference_id:
+  - id: 22546
+    url: https://pypi.org/project/bitlyshortener/
+    reference_id:
+  - id: 22547
+    url: https://github.com/advisories/GHSA-r82c-j4mq-5xfw
+    reference_id: GHSA-r82c-j4mq-5xfw
+  - id: 22543
+    url: https://github.com/impredicative/bitlyshortener/security/advisories/GHSA-r82c-j4mq-5xfw
+    reference_id: GHSA-r82c-j4mq-5xfw
+weaknesses: []

@@ -1,0 +1,87 @@
+vulnerability_id: VCID-2pnz-pceq-aaan
+aliases:
+  - CVE-2019-14825
+  - GHSA-m4wh-848j-9w2r
+summary: 'CVE-2019-14825 katello: registry credentials are captured in plain text during repository
+  discovery'
+severities:
+  - id: 76522
+    reference_id: 207461
+    scoring_system: cvssv3
+    value: '4.1'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:C/C:L/I:N/A:N
+  - id: 76521
+    reference_id: 207460
+    scoring_system: rhbs
+    value: low
+    scoring_elements:
+  - id: 383041
+    reference_id: 779235
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:N/A:N
+  - id: 383039
+    reference_id: 779235
+    scoring_system: cvssv3
+    value: '2.7'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:N
+  - id: 647870
+    reference_id: 1417865
+    scoring_system: cvssv3.1_qr
+    value: LOW
+    scoring_elements:
+  - id: 62030
+    reference_id: 189830
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 207461
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2019-14825.json
+    reference_id:
+  - id: 1417862
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1730668
+    reference_id:
+  - id: 779234
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2019-14825
+    reference_id:
+  - id: 1417860
+    url: https://github.com/Katello/katello/commit/332484232b66b7907a8104a19ea97eb697b75c79
+    reference_id:
+  - id: 1417861
+    url: https://github.com/Katello/katello/commit/4eefa678a905140620ca8b390d48fe318d36e4ea
+    reference_id:
+  - id: 1417863
+    url: https://github.com/Katello/katello/commits/3.12.2
+    reference_id:
+  - id: 1417858
+    url: https://github.com/Katello/katello/pull/8244
+    reference_id:
+  - id: 1417859
+    url: https://github.com/Katello/katello/pull/8253
+    reference_id:
+  - id: 1417864
+    url: https://projects.theforeman.org/issues/27485
+    reference_id:
+  - id: 207460
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1739485
+    reference_id: 1739485
+  - id: 523526
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:katello:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:katello:*:*:*:*:*:*:*:*
+  - id: 1469897
+    url: https://access.redhat.com/security/cve/CVE-2019-14825
+    reference_id: CVE-2019-14825
+  - id: 779235
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-14825
+    reference_id: CVE-2019-14825
+  - id: 1417985
+    url: https://github.com/rubysec/ruby-advisory-db/blob/master/gems/katello/CVE-2019-14825.yml
+    reference_id: CVE-2019-14825.YML
+  - id: 1417865
+    url: https://github.com/advisories/GHSA-m4wh-848j-9w2r
+    reference_id: GHSA-m4wh-848j-9w2r
+  - id: 189830
+    url: https://access.redhat.com/errata/RHSA-2019:3172
+    reference_id: RHSA-2019:3172
+weaknesses: []

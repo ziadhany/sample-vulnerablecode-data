@@ -1,0 +1,49 @@
+vulnerability_id: VCID-zwcz-r1fe-aaak
+aliases:
+  - CVE-2019-18817
+summary: 'CVE-2019-18817 istio/envoy: infinite loop in Envoy, and subsequently Istio leads to
+  a DoS'
+severities:
+  - id: 66466
+    reference_id: '195545'
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 66465
+    reference_id: '195544'
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 394330
+    reference_id: 788504
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 394328
+    reference_id: 788504
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+references:
+  - id: '195545'
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2019-18817.json
+    reference_id:
+  - id: 788502
+    url: https://github.com/istio/istio/issues/18229
+    reference_id:
+  - id: 788503
+    url: https://istio.io/news/2019/announcing-1.3.5/
+    reference_id:
+  - id: '195544'
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1770956
+    reference_id: 1770956
+  - id: 767896
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:istio:istio:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:istio:istio:*:*:*:*:*:*:*:*
+  - id: 788504
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-18817
+    reference_id: CVE-2019-18817
+  - id: 1474010
+    url: https://istio.io/latest/news/security/ISTIO-SECURITY-2019-006/
+    reference_id: ISTIO-SECURITY-2019-006
+weaknesses: []

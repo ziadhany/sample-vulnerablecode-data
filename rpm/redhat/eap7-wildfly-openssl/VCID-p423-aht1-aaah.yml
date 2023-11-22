@@ -1,0 +1,64 @@
+vulnerability_id: VCID-p423-aht1-aaah
+aliases:
+  - CVE-2019-14843
+summary: 'CVE-2019-14843 wildfly-security-manager: security manager authorization bypass'
+severities:
+  - id: 73947
+    reference_id: 204784
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+  - id: 73944
+    reference_id: 204781
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 383121
+    reference_id: 779348
+    scoring_system: cvssv2
+    value: '6.5'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:P/A:P
+  - id: 383119
+    reference_id: 779348
+    scoring_system: cvssv3
+    value: '8.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+  - id: 73946
+    reference_id: 204783
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 73945
+    reference_id: 204782
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 204784
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2019-14843.json
+    reference_id:
+  - id: 779347
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2019-14843
+    reference_id:
+  - id: 204781
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1752980
+    reference_id: 1752980
+  - id: 728429
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:7.2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:7.2.0:*:*:*:*:*:*:*
+  - id: 728430
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:single_sign-on:7.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:single_sign-on:7.3:*:*:*:*:*:*:*
+  - id: 734921
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:single_sign-on:-:*:*:*:text-only:*:*:*
+    reference_id: cpe:2.3:a:redhat:single_sign-on:-:*:*:*:text-only:*:*:*
+  - id: 779348
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-14843
+    reference_id: CVE-2019-14843
+  - id: 204783
+    url: https://access.redhat.com/errata/RHSA-2019:2973
+    reference_id: RHSA-2019:2973
+  - id: 204782
+    url: https://access.redhat.com/errata/RHSA-2019:2974
+    reference_id: RHSA-2019:2974
+weaknesses: []

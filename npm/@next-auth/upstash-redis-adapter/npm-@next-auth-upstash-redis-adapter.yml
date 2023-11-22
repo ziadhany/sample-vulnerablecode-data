@@ -1,0 +1,30 @@
+package: pkg:npm/%40next-auth/upstash-redis-adapter
+versions:
+  - purl: pkg:npm/%40next-auth/upstash-redis-adapter@1.0.1-pr.373-361b02aa.341
+    affected_by_vulnerabilities:
+      - VCID-dmys-q7w6-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40next-auth/upstash-redis-adapter@1.1.0
+    affected_by_vulnerabilities:
+      - VCID-dmys-q7w6-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40next-auth/upstash-redis-adapter@1.1.1
+    affected_by_vulnerabilities:
+      - VCID-dmys-q7w6-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40next-auth/upstash-redis-adapter@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-dmys-q7w6-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40next-auth/upstash-redis-adapter@3.0.0
+    affected_by_vulnerabilities:
+      - VCID-dmys-q7w6-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40next-auth/upstash-redis-adapter@3.0.1
+    affected_by_vulnerabilities:
+      - VCID-dmys-q7w6-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40next-auth/upstash-redis-adapter@3.0.2
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-dmys-q7w6-aaac

@@ -1,0 +1,14 @@
+package: pkg:pypi/amundsen-frontend
+versions:
+  - purl: pkg:pypi/amundsen-frontend@2.3.0
+    affected_by_vulnerabilities:
+      - VCID-1v6s-n7ss-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/amundsen-frontend@3.0.0
+    affected_by_vulnerabilities:
+      - VCID-1v6s-n7ss-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/amundsen-frontend@3.1.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-1v6s-n7ss-aaak

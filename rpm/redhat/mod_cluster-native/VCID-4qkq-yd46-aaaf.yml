@@ -1,0 +1,135 @@
+vulnerability_id: VCID-4qkq-yd46-aaaf
+aliases:
+  - CVE-2013-2133
+summary: 'CVE-2013-2133 JBoss WS: EJB3 role restrictions are not applied to jaxws handlers'
+severities:
+  - id: 60813
+    reference_id: 188154
+    scoring_system: rhbs
+    value: low
+    scoring_elements:
+  - id: 164905
+    reference_id: 523409
+    scoring_system: cvssv2
+    value: '5.5'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:P/A:N
+  - id: 60554
+    reference_id: 187752
+    scoring_system: rhas
+    value: Low
+    scoring_elements:
+  - id: 60555
+    reference_id: 187753
+    scoring_system: rhas
+    value: Low
+    scoring_elements:
+  - id: 60553
+    reference_id: 187751
+    scoring_system: rhas
+    value: Low
+    scoring_elements:
+  - id: 56491
+    reference_id: 182176
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 56490
+    reference_id: 182175
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 522647
+    url: http://rhn.redhat.com/errata/RHSA-2013-1784.html
+    reference_id:
+  - id: 522648
+    url: http://rhn.redhat.com/errata/RHSA-2013-1785.html
+    reference_id:
+  - id: 522649
+    url: http://rhn.redhat.com/errata/RHSA-2013-1786.html
+    reference_id:
+  - id: 13705
+    url: http://rhn.redhat.com/errata/RHSA-2015-0850.html
+    reference_id:
+  - id: 13706
+    url: http://rhn.redhat.com/errata/RHSA-2015-0851.html
+    reference_id:
+  - id: 188155
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2013-2133.json
+    reference_id:
+  - id: 522654
+    url: http://www.securitytracker.com/id/1029431
+    reference_id:
+  - id: 188154
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=969924
+    reference_id: 969924
+  - id: 157730
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:*:*:*:*:*:*:*:*
+  - id: 469827
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:4.2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:4.2.0:*:*:*:*:*:*:*
+  - id: 453707
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:4.2.0:cp09:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:4.2.0:cp09:*:*:*:*:*:*
+  - id: 433292
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:4.3.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:4.3.0:*:*:*:*:*:*:*
+  - id: 472329
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:4.3.0:cp10:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:4.3.0:cp10:*:*:*:*:*:*
+  - id: 408390
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:5.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:5.0.0:*:*:*:*:*:*:*
+  - id: 469828
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:5.0.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:5.0.1:*:*:*:*:*:*:*
+  - id: 453724
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:5.1.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:5.1.0:*:*:*:*:*:*:*
+  - id: 453708
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:5.1.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:5.1.1:*:*:*:*:*:*:*
+  - id: 470862
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:5.1.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:5.1.2:*:*:*:*:*:*:*
+  - id: 472139
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:5.2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:5.2.0:*:*:*:*:*:*:*
+  - id: 484417
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:5.2.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:5.2.1:*:*:*:*:*:*:*
+  - id: 502763
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:5.2.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:5.2.2:*:*:*:*:*:*:*
+  - id: 502543
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:6.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:6.0.0:*:*:*:*:*:*:*
+  - id: 507507
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:6.0.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:6.0.1:*:*:*:*:*:*:*
+  - id: 146776
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:redhat:enterprise_linux:5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:redhat:enterprise_linux:5:*:*:*:*:*:*:*
+  - id: 111851
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:redhat:enterprise_linux:6.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:redhat:enterprise_linux:6.0:*:*:*:*:*:*:*
+  - id: 523409
+    url: https://nvd.nist.gov/vuln/detail/CVE-2013-2133
+    reference_id: CVE-2013-2133
+  - id: 187752
+    url: https://access.redhat.com/errata/RHSA-2013:1784
+    reference_id: RHSA-2013:1784
+  - id: 187753
+    url: https://access.redhat.com/errata/RHSA-2013:1785
+    reference_id: RHSA-2013:1785
+  - id: 187751
+    url: https://access.redhat.com/errata/RHSA-2013:1786
+    reference_id: RHSA-2013:1786
+  - id: 182176
+    url: https://access.redhat.com/errata/RHSA-2015:0850
+    reference_id: RHSA-2015:0850
+  - id: 182175
+    url: https://access.redhat.com/errata/RHSA-2015:0851
+    reference_id: RHSA-2015:0851
+weaknesses: []

@@ -1,0 +1,6 @@
+package: pkg:gem/redcloth
+versions:
+  - purl: pkg:gem/redcloth@4.3.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-8b1n-1r8m-aaaf

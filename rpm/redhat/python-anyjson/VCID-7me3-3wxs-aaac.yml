@@ -1,0 +1,44 @@
+vulnerability_id: VCID-7me3-3wxs-aaac
+aliases:
+  - CVE-2020-14380
+summary: An account takeover flaw was found in Red Hat Satellite 6.7.2 onward. A potential attacker
+  with proper authentication to the relevant external authentication source (SSO or Open ID)
+  can claim the privileges of already existing local users of Satellite.
+severities:
+  - id: 605179
+    reference_id: 927807
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+  - id: 442059
+    reference_id: 820915
+    scoring_system: cvssv2
+    value: '6.0'
+    scoring_elements: AV:N/AC:M/Au:S/C:P/I:P/A:P
+  - id: 442057
+    reference_id: 820915
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+  - id: 48023
+    reference_id: 172574
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 927807
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2020-14380.json
+    reference_id:
+  - id: 820916
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:satellite:6.7.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:satellite:6.7.2:*:*:*:*:*:*:*
+  - id: 820915
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-14380
+    reference_id: CVE-2020-14380
+  - id: 927806
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1873926
+    reference_id: RHBA-2020:4346
+  - id: 172574
+    url: https://access.redhat.com/errata/RHSA-2020:4366
+    reference_id: RHSA-2020:4366
+weaknesses: []

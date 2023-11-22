@@ -1,0 +1,28 @@
+vulnerability_id: VCID-muyg-zraf-aaaf
+aliases:
+  - CVE-2021-32853
+  - GHSA-g9ph-r9hc-34r8
+summary: Erxes vulnerable to Cross-site Scripting
+severities:
+  - id: 708205
+    reference_id: 1472579
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 1472576
+    url: https://github.com/erxes/erxes/blob/f131b49add72032650d483f044d00658908aaf4a/widgets/server/index.ts#L54
+    reference_id:
+  - id: 1472577
+    url: https://github.com/erxes/erxes/blob/f131b49add72032650d483f044d00658908aaf4a/widgets/server/views/widget.ejs#L14
+    reference_id:
+  - id: 1472578
+    url: https://securitylab.github.com/advisories/GHSL-2021-103-erxes/
+    reference_id:
+  - id: 1472575
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-32853
+    reference_id: CVE-2021-32853
+  - id: 1472579
+    url: https://github.com/advisories/GHSA-g9ph-r9hc-34r8
+    reference_id: GHSA-g9ph-r9hc-34r8
+weaknesses: []

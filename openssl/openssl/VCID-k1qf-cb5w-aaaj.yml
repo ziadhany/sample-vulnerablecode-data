@@ -1,0 +1,79 @@
+vulnerability_id: VCID-k1qf-cb5w-aaaj
+aliases:
+  - CVE-2003-0851
+  - VC-OPENSSL-20031104-CVE-2003-0851
+summary: A flaw in OpenSSL 0.9.6k (only) would cause certain ASN.1 sequences to trigger a large
+  recursion. On platforms such as Windows this large recursion cannot be handled correctly and
+  so the bug causes OpenSSL to crash. A remote attacker could exploit this flaw if they can
+  send arbitrary ASN.1 sequences which would cause OpenSSL to crash. This could be performed
+  for example by sending a client certificate to a SSL/TLS enabled server which is configured
+  to accept them.
+severities:
+  - id: 79665
+    reference_id: 212077
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 20235
+    reference_id: 85083
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 79526
+    reference_id: 211857
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 85071
+    url: ftp://ftp.netbsd.org/pub/NetBSD/security/advisories/NetBSD-SA2004-003.txt.asc
+    reference_id:
+  - id: 85072
+    url: ftp://patches.sgi.com/support/free/security/advisories/20040304-01-U.asc
+    reference_id:
+  - id: 85073
+    url: http://marc.info/?l=bugtraq&m=106796246511667&w=2
+    reference_id:
+  - id: 85074
+    url: http://marc.info/?l=bugtraq&m=108403850228012&w=2
+    reference_id:
+  - id: 85075
+    url: http://rhn.redhat.com/errata/RHSA-2004-119.html
+    reference_id:
+  - id: 212078
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2003-0851.json
+    reference_id:
+  - id: 85076
+    url: http://secunia.com/advisories/17381
+    reference_id:
+  - id: 85082
+    url: https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A5528
+    reference_id:
+  - id: 528
+    url: https://www.openssl.org/news/secadv/20031104.txt
+    reference_id:
+  - id: 85077
+    url: http://www.cisco.com/warp/public/707/cisco-sa-20030930-ssl.shtml
+    reference_id:
+  - id: 85078
+    url: http://www.kb.cert.org/vuls/id/412478
+    reference_id:
+  - id: 85079
+    url: http://www.openssl.org/news/secadv_20031104.txt
+    reference_id:
+  - id: 85080
+    url: http://www.redhat.com/archives/fedora-announce-list/2005-October/msg00087.html
+    reference_id:
+  - id: 85081
+    url: http://www.securityfocus.com/bid/8970
+    reference_id:
+  - id: 212077
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1617090
+    reference_id: 1617090
+  - id: 85083
+    url: https://nvd.nist.gov/vuln/detail/CVE-2003-0851
+    reference_id: CVE-2003-0851
+  - id: 211857
+    url: https://access.redhat.com/errata/RHSA-2004:119
+    reference_id: RHSA-2004:119
+weaknesses: []

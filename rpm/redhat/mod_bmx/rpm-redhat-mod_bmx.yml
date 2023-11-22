@@ -1,0 +1,38 @@
+package: pkg:rpm/redhat/mod_bmx
+versions:
+  - purl: pkg:rpm/redhat/mod_bmx@0.9.5-4.GA.ep7?arch=el6
+    affected_by_vulnerabilities:
+      - VCID-am3r-bcde-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/mod_bmx@0.9.5-4.GA.ep7?arch=el7
+    affected_by_vulnerabilities:
+      - VCID-am3r-bcde-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/mod_bmx@0.9.5-5.GA.ep7?arch=el6
+    affected_by_vulnerabilities:
+      - VCID-5wj3-qn6v-aaab
+      - VCID-y49b-wcn4-aaaa
+      - VCID-zh14-sreg-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/mod_bmx@0.9.5-5.GA.ep7?arch=el7
+    affected_by_vulnerabilities:
+      - VCID-5wj3-qn6v-aaab
+      - VCID-y49b-wcn4-aaaa
+      - VCID-zh14-sreg-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/mod_bmx@0.9.5-7.GA.ep7?arch=el6
+    affected_by_vulnerabilities:
+      - VCID-1pf4-rzru-aaak
+      - VCID-5wj3-qn6v-aaab
+      - VCID-c5ge-w5qj-aaam
+      - VCID-tnc6-bvst-aaan
+      - VCID-v8ck-9fsk-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/mod_bmx@0.9.5-7.GA.ep7?arch=el7
+    affected_by_vulnerabilities:
+      - VCID-1pf4-rzru-aaak
+      - VCID-5wj3-qn6v-aaab
+      - VCID-c5ge-w5qj-aaam
+      - VCID-tnc6-bvst-aaan
+      - VCID-v8ck-9fsk-aaae
+    fixing_vulnerabilities: []

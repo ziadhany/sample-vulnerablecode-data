@@ -1,0 +1,46 @@
+vulnerability_id: VCID-4eqh-jkra-aaac
+aliases:
+  - CVE-2017-16003
+  - GHSA-9p47-w5xp-f4xr
+summary: |
+  Missing Encryption of Sensitive Data
+  It may be possible to cause remote code execution (RCE) by swapping out the requested resources with an attacker controlled copy if the attacker is on the network or positioned in between the user and the remote server.
+severities:
+  - id: 269620
+    reference_id: 36434
+    scoring_system: cvssv2
+    value: '9.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:C/I:C/A:C
+  - id: 269618
+    reference_id: 36434
+    scoring_system: cvssv3
+    value: '8.1'
+    scoring_elements: CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 705600
+    reference_id: 1466748
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 36433
+    url: https://github.com/felixrieseberg/windows-build-tools/commit/9835d33e68f2cb5e4d148e954bb3ed0221d98e90
+    reference_id:
+  - id: 1466747
+    url: https://github.com/felixrieseberg/windows-build-tools/commit/9835d33e68f2cb5e4d148e954bb3ed0221d98e90)
+    reference_id:
+  - id: 687512
+    url: https://nodesecurity.io/advisories/304
+    reference_id:
+  - id: 1466749
+    url: https://www.npmjs.com/advisories/304
+    reference_id:
+  - id: 687513
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:windows-build-tools_project:windows-build-tools:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:windows-build-tools_project:windows-build-tools:*:*:*:*:*:node.js:*:*
+  - id: 36434
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-16003
+    reference_id: CVE-2017-16003
+  - id: 1466748
+    url: https://github.com/advisories/GHSA-9p47-w5xp-f4xr
+    reference_id: GHSA-9p47-w5xp-f4xr
+weaknesses: []

@@ -1,0 +1,76 @@
+package: pkg:nuget/System.Security.Cryptography.Xml
+versions:
+  - purl: pkg:nuget/System.Security.Cryptography.Xml@4.4.0
+    affected_by_vulnerabilities:
+      - VCID-1gzq-upmj-aaaa
+      - VCID-4n8s-bgg7-aaae
+      - VCID-jck7-qbt4-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/System.Security.Cryptography.Xml@4.4.0-preview1-25305-02
+    affected_by_vulnerabilities:
+      - VCID-1gzq-upmj-aaaa
+      - VCID-4n8s-bgg7-aaae
+      - VCID-jck7-qbt4-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/System.Security.Cryptography.Xml@4.4.0-preview2-25405-01
+    affected_by_vulnerabilities:
+      - VCID-1gzq-upmj-aaaa
+      - VCID-4n8s-bgg7-aaae
+      - VCID-jck7-qbt4-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/System.Security.Cryptography.Xml@4.4.1
+    affected_by_vulnerabilities:
+      - VCID-1gzq-upmj-aaaa
+      - VCID-4n8s-bgg7-aaae
+      - VCID-jck7-qbt4-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/System.Security.Cryptography.Xml@4.4.2
+    affected_by_vulnerabilities:
+      - VCID-1gzq-upmj-aaaa
+    fixing_vulnerabilities:
+      - VCID-4n8s-bgg7-aaae
+      - VCID-jck7-qbt4-aaaa
+  - purl: pkg:nuget/System.Security.Cryptography.Xml@4.5.0
+    affected_by_vulnerabilities:
+      - VCID-1gzq-upmj-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/System.Security.Cryptography.Xml@4.5.0-preview1-25914-04
+    affected_by_vulnerabilities:
+      - VCID-1gzq-upmj-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/System.Security.Cryptography.Xml@4.5.0-preview1-26216-02
+    affected_by_vulnerabilities:
+      - VCID-1gzq-upmj-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/System.Security.Cryptography.Xml@4.5.0-preview2-26406-04
+    affected_by_vulnerabilities:
+      - VCID-1gzq-upmj-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/System.Security.Cryptography.Xml@4.5.0-rc1
+    affected_by_vulnerabilities:
+      - VCID-1gzq-upmj-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/System.Security.Cryptography.Xml@4.6.0
+    affected_by_vulnerabilities:
+      - VCID-1gzq-upmj-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/System.Security.Cryptography.Xml@4.7.0
+    affected_by_vulnerabilities:
+      - VCID-1gzq-upmj-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/System.Security.Cryptography.Xml@4.7.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-1gzq-upmj-aaaa
+  - purl: pkg:nuget/System.Security.Cryptography.Xml@5.0.0
+    affected_by_vulnerabilities:
+      - VCID-1gzq-upmj-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/System.Security.Cryptography.Xml@6.0.0
+    affected_by_vulnerabilities:
+      - VCID-1gzq-upmj-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/System.Security.Cryptography.Xml@6.0.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-1gzq-upmj-aaaa

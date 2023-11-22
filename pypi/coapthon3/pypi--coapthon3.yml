@@ -1,0 +1,10 @@
+package: pkg:pypi/coapthon3
+versions:
+  - purl: pkg:pypi/coapthon3@1.0
+    affected_by_vulnerabilities:
+      - VCID-3kq5-dv2c-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/coapthon3@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-3kq5-dv2c-aaac
+    fixing_vulnerabilities: []

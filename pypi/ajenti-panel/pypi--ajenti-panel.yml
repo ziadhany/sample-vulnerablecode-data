@@ -1,0 +1,18 @@
+package: pkg:pypi/ajenti-panel
+versions:
+  - purl: pkg:pypi/ajenti-panel@2
+    affected_by_vulnerabilities:
+      - VCID-72eq-1gy3-aaac
+      - VCID-b5ax-11h7-aaas
+      - VCID-dfu4-dd9f-aaad
+      - VCID-skuw-ejmc-aaag
+      - VCID-yn29-7cn7-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/ajenti-panel@2.0.34
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-72eq-1gy3-aaac
+      - VCID-b5ax-11h7-aaas
+      - VCID-dfu4-dd9f-aaad
+      - VCID-skuw-ejmc-aaag
+      - VCID-yn29-7cn7-aaan

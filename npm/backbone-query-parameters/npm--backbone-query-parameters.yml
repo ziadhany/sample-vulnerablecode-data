@@ -1,0 +1,6 @@
+package: pkg:npm/backbone-query-parameters
+versions:
+  - purl: pkg:npm/backbone-query-parameters@0.4.0
+    affected_by_vulnerabilities:
+      - VCID-kaz5-1tg1-aaaj
+    fixing_vulnerabilities: []

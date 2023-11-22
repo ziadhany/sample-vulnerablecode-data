@@ -1,0 +1,9 @@
+vulnerability_id: VCID-jc62-adv5-aaak
+aliases:
+  - GMS-2017-159
+summary: |
+  Hijacked Environment Variables
+  `node-tkinter` was a malicious module published with the intent to hijack environment variables. It has been unpublished by npm.
+severities: []
+references: []
+weaknesses: []

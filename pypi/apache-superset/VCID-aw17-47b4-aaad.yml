@@ -1,0 +1,22 @@
+vulnerability_id: VCID-aw17-47b4-aaad
+aliases:
+  - CVE-2022-41703
+  - GHSA-cxvp-3frm-3876
+summary: Apache Superset's SQL Alchemy connector vulnerable to SQL Injection
+severities:
+  - id: 707561
+    reference_id: 1470241
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 1470240
+    url: https://lists.apache.org/thread/g7jjw0okxjk5y57pbbxy19ydw42kqcos
+    reference_id:
+  - id: 1470239
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-41703
+    reference_id: CVE-2022-41703
+  - id: 1470241
+    url: https://github.com/advisories/GHSA-cxvp-3frm-3876
+    reference_id: GHSA-cxvp-3frm-3876
+weaknesses: []

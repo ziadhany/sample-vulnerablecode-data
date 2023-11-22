@@ -1,0 +1,63 @@
+package: pkg:rpm/redhat/pyliblzma
+versions:
+  - purl: pkg:rpm/redhat/pyliblzma@0.5.3-14?arch=el6sat
+    affected_by_vulnerabilities:
+      - VCID-wb45-3j9u-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/pyliblzma@0.5.3-3?arch=el6sat
+    affected_by_vulnerabilities:
+      - VCID-1yrw-e49x-aaas
+      - VCID-2ne6-wkuq-aaan
+      - VCID-2r63-z5t2-aaap
+      - VCID-2vne-6txv-aaaa
+      - VCID-3pj4-1xv5-aaae
+      - VCID-6f2h-b6xh-aaam
+      - VCID-7fvv-tax9-aaag
+      - VCID-7s9f-rfa3-aaaf
+      - VCID-8k6k-s8p1-aaaf
+      - VCID-8ugw-7akm-aaah
+      - VCID-asgj-9qjg-aaaf
+      - VCID-bptg-k9td-aaaf
+      - VCID-brrg-w1wu-aaad
+      - VCID-c196-2ujb-aaar
+      - VCID-eppu-krjj-aaac
+      - VCID-f1fn-3z4v-aaar
+      - VCID-fse4-6yqv-aaaq
+      - VCID-gcz7-s9d8-aaan
+      - VCID-gk4s-6xep-aaap
+      - VCID-gz85-2k1e-aaab
+      - VCID-j9hu-3awy-aaar
+      - VCID-k6hs-tp56-aaan
+      - VCID-mf3u-4t39-aaab
+      - VCID-mjx8-ycsn-aaag
+      - VCID-n9k5-awr3-aaas
+      - VCID-ngfh-qspj-aaam
+      - VCID-rbr1-1m1x-aaaf
+      - VCID-sxf1-hnwu-aaaq
+      - VCID-u486-npjf-aaar
+      - VCID-uawc-cwm4-aaab
+      - VCID-us5b-bv9a-aaaa
+      - VCID-w5pa-u7x8-aaad
+      - VCID-wbve-vkbf-aaam
+      - VCID-wpep-e823-aaas
+      - VCID-xntu-77nf-aaam
+      - VCID-ypjz-as1z-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/pyliblzma@0.5.3-7?arch=el6cf
+    affected_by_vulnerabilities:
+      - VCID-1dw1-j2yq-aaar
+      - VCID-3ejb-g4hr-aaaj
+      - VCID-3smj-tswr-aaab
+      - VCID-66pw-s4p5-aaaq
+      - VCID-8j6y-z3b5-aaaq
+      - VCID-bcb5-bmr6-aaan
+      - VCID-bp5a-qr4t-aaad
+      - VCID-cdt8-hgft-aaaj
+      - VCID-f6nq-5mym-aaad
+      - VCID-jbx1-58rp-aaaa
+      - VCID-k14g-4rbt-aaae
+      - VCID-ntkx-nmxf-aaam
+      - VCID-wc8h-7ucw-aaac
+      - VCID-xmx5-a45m-aaap
+      - VCID-ynpx-2ryt-aaad
+    fixing_vulnerabilities: []

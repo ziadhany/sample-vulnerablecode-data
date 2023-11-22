@@ -1,0 +1,30 @@
+package: pkg:npm/nodemailer-js
+versions:
+  - purl: pkg:npm/nodemailer-js@0.0.0
+    affected_by_vulnerabilities:
+      - VCID-247u-kbze-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodemailer-js@0.0.0-alpha
+    affected_by_vulnerabilities:
+      - VCID-m447-de1h-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodemailer-js@0.0.1-security
+    affected_by_vulnerabilities:
+      - VCID-247u-kbze-aaaf
+      - VCID-m447-de1h-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodemailer-js@0.0.2-security
+    affected_by_vulnerabilities:
+      - VCID-247u-kbze-aaaf
+      - VCID-m447-de1h-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodemailer-js@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-247u-kbze-aaaf
+      - VCID-m447-de1h-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodemailer-js@1.0.2
+    affected_by_vulnerabilities:
+      - VCID-247u-kbze-aaaf
+      - VCID-m447-de1h-aaam
+    fixing_vulnerabilities: []

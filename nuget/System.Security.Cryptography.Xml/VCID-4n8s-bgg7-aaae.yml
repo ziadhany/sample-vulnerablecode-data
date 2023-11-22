@@ -1,0 +1,75 @@
+vulnerability_id: VCID-4n8s-bgg7-aaae
+aliases:
+  - CVE-2018-0764
+  - GHSA-rr3c-f55v-qhv5
+summary: Denial of service vulnerability exists when .NET and .NET Core improperly process XML
+  documents
+severities:
+  - id: 619722
+    reference_id: 938393
+    scoring_system: cvssv3
+    value: '5.3'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+  - id: 619720
+    reference_id: 938391
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 306046
+    reference_id: 16494
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 306044
+    reference_id: 16494
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: '1993'
+    reference_id: 16496
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 619721
+    reference_id: 938392
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 938393
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2018-0764.json
+    reference_id:
+  - id: 720392
+    url: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-0764
+    reference_id:
+  - id: 16498
+    url: http://www.securityfocus.com/bid/102387
+    reference_id:
+  - id: 16499
+    url: http://www.securitytracker.com/id/1040152
+    reference_id:
+  - id: 938391
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1533730
+    reference_id: 1533730
+  - id: 720393
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:.net_core:1.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:.net_core:1.0:*:*:*:*:*:*:*
+  - id: 720394
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:.net_core:1.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:.net_core:1.1:*:*:*:*:*:*:*
+  - id: 720395
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:.net_core:2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:.net_core:2.0:*:*:*:*:*:*:*
+  - id: 720396
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:powershell_core:6.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:powershell_core:6.0:*:*:*:*:*:*:*
+  - id: 16494
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-0764
+    reference_id: CVE-2018-0764
+  - id: 16496
+    url: https://github.com/advisories/GHSA-rr3c-f55v-qhv5
+    reference_id: GHSA-rr3c-f55v-qhv5
+  - id: 938392
+    url: https://access.redhat.com/errata/RHSA-2018:0379
+    reference_id: RHSA-2018:0379
+weaknesses: []

@@ -1,0 +1,71 @@
+vulnerability_id: VCID-jv4p-2pwp-aaaf
+aliases:
+  - CVE-2014-3742
+  - GHSA-cqr7-78pj-3g7j
+summary: |
+  File descriptor leak can cause DoS vulnerability
+  A file descriptor leak that when triggered repeatedly will cause the server to run out of file descriptors and the node process to die. The effort required to take down a server depends on the process file descriptor limit. No other side effects or exploits have been identified.
+severities:
+  - id: 708410
+    reference_id: 568617
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements:
+  - id: 656698
+    reference_id: 32779
+    scoring_system: generic_textual
+    value: Medium
+    scoring_elements:
+  - id: 708411
+    reference_id: 1473373
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements:
+  - id: 180981
+    reference_id: 568619
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 705314
+    reference_id: 1466473
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 568617
+    url: https://github.com/spumko/hapi/issues/1427
+    reference_id:
+  - id: 568618
+    url: https://nodesecurity.io/advisories/hapi_File_descriptor_leak_DoS_vulnerability
+    reference_id:
+  - id: 1466474
+    url: https://www.npmjs.com/advisories/11
+    reference_id:
+  - id: 32778
+    url: http://www.openwall.com/lists/oss-security/2014/05/13/1
+    reference_id:
+  - id: 32779
+    url: http://www.openwall.com/lists/oss-security/2014/05/15/2
+    reference_id:
+  - id: 1473373
+    url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/11.json
+    reference_id: 11
+  - id: 568620
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:spumko_project:hapi_server_framework:2.0.0:-:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:spumko_project:hapi_server_framework:2.0.0:-:*:*:*:node.js:*:*
+  - id: 568621
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:spumko_project:hapi_server_framework:2.0.0:preview:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:spumko_project:hapi_server_framework:2.0.0:preview:*:*:*:node.js:*:*
+  - id: 568622
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:spumko_project:hapi_server_framework:2.1.1:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:spumko_project:hapi_server_framework:2.1.1:*:*:*:*:node.js:*:*
+  - id: 568623
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:spumko_project:hapi_server_framework:2.1.2:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:spumko_project:hapi_server_framework:2.1.2:*:*:*:*:node.js:*:*
+  - id: 568619
+    url: https://nvd.nist.gov/vuln/detail/CVE-2014-3742
+    reference_id: CVE-2014-3742
+  - id: 1466473
+    url: https://github.com/advisories/GHSA-cqr7-78pj-3g7j
+    reference_id: GHSA-cqr7-78pj-3g7j
+weaknesses: []

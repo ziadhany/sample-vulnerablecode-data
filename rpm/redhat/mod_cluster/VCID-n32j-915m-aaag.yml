@@ -1,0 +1,206 @@
+vulnerability_id: VCID-n32j-915m-aaag
+aliases:
+  - CVE-2011-2487
+  - GHSA-4qqf-hmv6-r6wh
+summary: |
+  Use of a Broken or Risky Cryptographic Algorithm
+  The implementations of PKCS#1 key transport mechanism for `XMLEncryption` Apache WSS4J is susceptible to a Bleichenbacher attack.
+severities:
+  - id: 64386
+    reference_id: '192953'
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 144374
+    reference_id: 26361
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:N/A:N
+  - id: 144372
+    reference_id: 26361
+    scoring_system: cvssv3
+    value: '5.9'
+    scoring_elements: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
+  - id: 630017
+    reference_id: 945886
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 63229
+    reference_id: '191402'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63231
+    reference_id: '191404'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63230
+    reference_id: '191403'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63227
+    reference_id: '191400'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63226
+    reference_id: '191399'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63228
+    reference_id: '191401'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63233
+    reference_id: '191406'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63232
+    reference_id: '191405'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63032
+    reference_id: '191137'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 62473
+    reference_id: '190489'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 460034
+    url: http://cxf.apache.org/note-on-cve-2011-2487.html
+    reference_id:
+  - id: 408373
+    url: http://rhn.redhat.com/errata/RHSA-2013-0191.html
+    reference_id:
+  - id: 408374
+    url: http://rhn.redhat.com/errata/RHSA-2013-0192.html
+    reference_id:
+  - id: 408375
+    url: http://rhn.redhat.com/errata/RHSA-2013-0193.html
+    reference_id:
+  - id: 408376
+    url: http://rhn.redhat.com/errata/RHSA-2013-0194.html
+    reference_id:
+  - id: 408377
+    url: http://rhn.redhat.com/errata/RHSA-2013-0195.html
+    reference_id:
+  - id: 408378
+    url: http://rhn.redhat.com/errata/RHSA-2013-0196.html
+    reference_id:
+  - id: 408380
+    url: http://rhn.redhat.com/errata/RHSA-2013-0198.html
+    reference_id:
+  - id: 408381
+    url: http://rhn.redhat.com/errata/RHSA-2013-0221.html
+    reference_id:
+  - id: '192954'
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2011-2487.json
+    reference_id:
+  - id: 26364
+    url: https://exchange.xforce.ibmcloud.com/vulnerabilities/81737
+    reference_id:
+  - id: 10867
+    url: https://lists.apache.org/thread.html/r36e44ffc1a9b365327df62cdfaabe85b9a5637de102cea07d79b2dbf@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10872
+    url: https://lists.apache.org/thread.html/rd49aabd984ed540c8ff7916d4d79405f3fa311d2fdbcf9ed307839a6@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10860
+    url: https://lists.apache.org/thread.html/rec7160382badd3ef4ad017a22f64a266c7188b9ba71394f0d321e2d4@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10862
+    url: https://lists.apache.org/thread.html/rfb87e0bf3995e7d560afeed750fac9329ff5f1ad49da365129b7f89e@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10873
+    url: https://lists.apache.org/thread.html/rff42cfa5e7d75b7c1af0e37589140a8f1999e578a75738740b244bd4@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 460035
+    url: https://www.nds.ruhr-uni-bochum.de/research/publications/breaking-xml-encryption-pkcs15/
+    reference_id:
+  - id: 26362
+    url: http://www.securityfocus.com/bid/57549
+    reference_id:
+  - id: '192953'
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=713539
+    reference_id: 713539
+  - id: 158434
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:*:*:*:*:*:*:*:*
+  - id: 460036
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:wss4j:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:wss4j:*:*:*:*:*:*:*:*
+  - id: 460037
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_business_rules_management_system:5.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_business_rules_management_system:5.3:*:*:*:*:*:*:*
+  - id: 408390
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:5.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:5.0.0:*:*:*:*:*:*:*
+  - id: 460038
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform_text-only_advisories:-:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform_text-only_advisories:-:*:*:*:*:*:*:*
+  - id: 425190
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_soa_platform:4.2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_soa_platform:4.2.0:*:*:*:*:*:*:*
+  - id: 425197
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_soa_platform:4.3.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_soa_platform:4.3.0:*:*:*:*:*:*:*
+  - id: 460039
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_web_platform:5.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_web_platform:5.0.0:*:*:*:*:*:*:*
+  - id: 460040
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_middleware_text-only_advisories:-:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_middleware_text-only_advisories:-:*:*:*:*:*:*:*
+  - id: 460041
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_portal:4.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_portal:4.0.0:*:*:*:*:*:*:*
+  - id: 460042
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_web_services:-:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_web_services:-:*:*:*:*:*:*:*
+  - id: 26361
+    url: https://nvd.nist.gov/vuln/detail/CVE-2011-2487
+    reference_id: CVE-2011-2487
+  - id: 945886
+    url: https://github.com/advisories/GHSA-4qqf-hmv6-r6wh
+    reference_id: GHSA-4qqf-hmv6-r6wh
+  - id: '191402'
+    url: https://access.redhat.com/errata/RHSA-2013:0191
+    reference_id: RHSA-2013:0191
+  - id: '191404'
+    url: https://access.redhat.com/errata/RHSA-2013:0192
+    reference_id: RHSA-2013:0192
+  - id: '191403'
+    url: https://access.redhat.com/errata/RHSA-2013:0193
+    reference_id: RHSA-2013:0193
+  - id: '191400'
+    url: https://access.redhat.com/errata/RHSA-2013:0194
+    reference_id: RHSA-2013:0194
+  - id: '191399'
+    url: https://access.redhat.com/errata/RHSA-2013:0195
+    reference_id: RHSA-2013:0195
+  - id: '191401'
+    url: https://access.redhat.com/errata/RHSA-2013:0196
+    reference_id: RHSA-2013:0196
+  - id: '191406'
+    url: https://access.redhat.com/errata/RHSA-2013:0198
+    reference_id: RHSA-2013:0198
+  - id: '191405'
+    url: https://access.redhat.com/errata/RHSA-2013:0221
+    reference_id: RHSA-2013:0221
+  - id: '191137'
+    url: https://access.redhat.com/errata/RHSA-2013:0533
+    reference_id: RHSA-2013:0533
+  - id: '190489'
+    url: https://access.redhat.com/errata/RHSA-2013:0953
+    reference_id: RHSA-2013:0953
+weaknesses: []

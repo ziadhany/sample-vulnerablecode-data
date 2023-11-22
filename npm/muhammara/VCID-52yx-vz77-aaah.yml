@@ -1,0 +1,35 @@
+vulnerability_id: VCID-52yx-vz77-aaah
+aliases:
+  - CVE-2022-41957
+  - GHSA-2r7v-cmch-5x26
+summary: |
+  Unchecked Return Value to NULL Pointer Dereference
+  Muhammara is a node module with c/cpp bindings to modify PDF with JavaScript for node or electron. The package muhammara before 2.6.2 and from 3.0.0 and before 3.3.0, as well as all versions of muhammara's predecessor package hummus, is vulnerable to Denial of Service (DoS) when supplied with a maliciously crafted PDF file to be parsed. The issue has been patched in muhammara version 3.4.0 and the fix has been backported to version 2.6.2. As a workaround, do not process files from untrusted sources. If using hummus, replace the package with muhammara.
+severities:
+  - id: 707289
+    reference_id: 1468846
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 707288
+    reference_id: 1466287
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 1466286
+    url: https://github.com/julianhille/MuhammaraJS/pull/235
+    reference_id:
+  - id: 1466288
+    url: https://github.com/julianhille/MuhammaraJS/pull/238
+    reference_id:
+  - id: 1466285
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-41957
+    reference_id: CVE-2022-41957
+  - id: 1468846
+    url: https://github.com/advisories/GHSA-2r7v-cmch-5x26
+    reference_id: GHSA-2r7v-cmch-5x26
+  - id: 1466287
+    url: https://github.com/julianhille/MuhammaraJS/security/advisories/GHSA-2r7v-cmch-5x26
+    reference_id: GHSA-2r7v-cmch-5x26
+weaknesses: []

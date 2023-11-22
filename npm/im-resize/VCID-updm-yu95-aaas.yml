@@ -1,0 +1,40 @@
+vulnerability_id: VCID-updm-yu95-aaas
+aliases:
+  - CVE-2019-10787
+  - GHSA-r9vm-rhmf-7hxx
+summary: |
+  Injection Vulnerability
+  im-resize allows remote attackers to execute arbitrary commands via the `exec` argument. The cmd argument used within `index.js` can be controlled by user without any sanitization.
+severities:
+  - id: 369719
+    reference_id: 32566
+    scoring_system: cvssv2
+    value: '10.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:C/I:C/A:C
+  - id: 369717
+    reference_id: 32566
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 706000
+    reference_id: 1467477
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 768338
+    url: https://github.com/Turistforeningen/node-im-resize/commit/de624dacf6a50e39fe3472af1414d44937ce1f03
+    reference_id:
+  - id: 768339
+    url: https://snyk.io/vuln/SNYK-JS-IMRESIZE-544183
+    reference_id:
+  - id: 768340
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:dnt:im-resize:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:dnt:im-resize:*:*:*:*:*:node.js:*:*
+  - id: 32566
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-10787
+    reference_id: CVE-2019-10787
+  - id: 1467477
+    url: https://github.com/advisories/GHSA-r9vm-rhmf-7hxx
+    reference_id: GHSA-r9vm-rhmf-7hxx
+weaknesses: []

@@ -1,0 +1,54 @@
+package: pkg:maven/com.alibaba/hessian-lite
+versions:
+  - purl: pkg:maven/com.alibaba/hessian-lite@2.6.2
+    affected_by_vulnerabilities:
+      - VCID-n4c9-wvmj-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba/hessian-lite@3.2.10
+    affected_by_vulnerabilities:
+      - VCID-n4c9-wvmj-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba/hessian-lite@3.2.11
+    affected_by_vulnerabilities:
+      - VCID-n4c9-wvmj-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba/hessian-lite@3.2.12
+    affected_by_vulnerabilities:
+      - VCID-n4c9-wvmj-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba/hessian-lite@3.2.13
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-n4c9-wvmj-aaap
+  - purl: pkg:maven/com.alibaba/hessian-lite@3.2.2
+    affected_by_vulnerabilities:
+      - VCID-n4c9-wvmj-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba/hessian-lite@3.2.3
+    affected_by_vulnerabilities:
+      - VCID-n4c9-wvmj-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba/hessian-lite@3.2.4
+    affected_by_vulnerabilities:
+      - VCID-n4c9-wvmj-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba/hessian-lite@3.2.5
+    affected_by_vulnerabilities:
+      - VCID-n4c9-wvmj-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba/hessian-lite@3.2.6
+    affected_by_vulnerabilities:
+      - VCID-n4c9-wvmj-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba/hessian-lite@3.2.7
+    affected_by_vulnerabilities:
+      - VCID-n4c9-wvmj-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba/hessian-lite@3.2.8
+    affected_by_vulnerabilities:
+      - VCID-n4c9-wvmj-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba/hessian-lite@3.2.9
+    affected_by_vulnerabilities:
+      - VCID-n4c9-wvmj-aaap
+    fixing_vulnerabilities: []

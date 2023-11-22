@@ -1,0 +1,28 @@
+vulnerability_id: VCID-4fzb-msp6-aaam
+aliases:
+  - GHSA-vmhw-fhj6-m3g5
+  - GMS-2019-115
+summary: Relative Path Traversal in angular-http-server.
+severities:
+  - id: 705187
+    reference_id: 31221
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 31217
+    url: https://github.com/simonh1000/angular-http-server/commit/8bafc9577161469f5dea01e0b98ea9c525d063e9
+    reference_id:
+  - id: 31218
+    url: https://hackerone.com/reports/330349
+    reference_id:
+  - id: 31219
+    url: https://nodesecurity.io/advisories/656
+    reference_id:
+  - id: 31220
+    url: https://www.npmjs.com/advisories/656
+    reference_id:
+  - id: 31221
+    url: https://github.com/advisories/GHSA-vmhw-fhj6-m3g5
+    reference_id: GHSA-vmhw-fhj6-m3g5
+weaknesses: []

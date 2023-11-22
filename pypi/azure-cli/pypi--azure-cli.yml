@@ -1,0 +1,610 @@
+package: pkg:pypi/azure-cli
+versions:
+  - purl: pkg:pypi/azure-cli@0.1.0b10
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@0.1.0b11
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@0.1.0b4
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@0.1.0b7
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@0.1.0b8
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@0.1.0b9
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@0.1.1b1
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@0.1.1b2
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@0.1.1b3
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@0.1.2rc1
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@0.1.2rc2
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.1
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.10
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.12
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.13
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.14
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.15
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.16
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.17
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.18
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.19
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.2
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.20
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.21
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.22
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.23
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.24
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.25
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.26
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.27
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.28
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.29
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.3
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.30
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.31
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.32
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.33
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.34
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.35
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.37
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.38
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.4
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.40
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.41
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.42
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.43
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.44
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.45
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.46
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.47
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.48
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.49
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.5
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.50
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.51
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.52
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.53
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.54
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.55
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.56
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.57
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.58
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.59
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.6
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.60
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.61
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.62
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.63
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.64
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.65
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.66
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.67
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.68
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.69
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.7
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.70
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.71
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.72
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.73
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.74
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.75
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.76
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.77
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.78
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.79
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.8
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.80
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.81
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.0.9
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.1.0
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.10.0
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.10.1
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.11.0
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.11.1
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.12.0
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.12.1
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.13.0
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.14.0
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.14.1
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.14.2
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.15.0
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.15.1
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.16.0
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.17.0
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.17.1
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.18.0
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.19.0
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.19.1
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.2.0
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.20.0
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.21.0
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.22.0
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.22.1
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.23.0
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.24.0
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.24.1
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.24.2
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.25.0
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.26.0
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.26.1
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.27.0
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.27.1
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.27.2
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.28.0
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.28.1
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.29.0
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.29.1
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.29.2
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.3.0
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.30.0
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.3.1
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.31.0
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.32.0
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.33.0
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.33.1
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.34.0
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.34.1
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.35.0
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.36.0
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.37.0
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.38.0
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.39.0
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.4.0
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.40.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+  - purl: pkg:pypi/azure-cli@2.5.0
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.5.1
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.6.0
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.7.0
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.8.0
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.9.0
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/azure-cli@2.9.1
+    affected_by_vulnerabilities:
+      - VCID-yhwr-b6ht-aaam
+    fixing_vulnerabilities: []

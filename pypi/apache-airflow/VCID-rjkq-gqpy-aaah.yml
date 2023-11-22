@@ -1,0 +1,48 @@
+vulnerability_id: VCID-rjkq-gqpy-aaah
+aliases:
+  - CVE-2021-26559
+  - GHSA-ffw3-6mp6-jmvj
+  - PYSEC-2021-2
+summary: Improper Access Control on Configurations Endpoint for the Stable API of Apache Airflow
+  allows users with Viewer or User role to get Airflow Configurations including sensitive information
+  even when `[webserver] expose_config` is set to `False` in `airflow.cfg`. This allowed a privilege
+  escalation attack. This issue affects Apache Airflow 2.0.0.
+severities:
+  - id: 524274
+    reference_id: 23462
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:N/A:N
+  - id: 524272
+    reference_id: 23462
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+  - id: 4406
+    reference_id: 25019
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 25018
+    url: https://github.com/apache/airflow/blob/486b76438c0679682cf98cb88ed39c4b161cbcc8/CHANGELOG.txt
+    reference_id:
+  - id: 7670
+    url: https://lists.apache.org/thread.html/r3b3787700279ec361308cbefb7c2cce2acb26891a12ce864e4a13c8d%40%3Cusers.airflow.apache.org%3E
+    reference_id:
+  - id: 7672
+    url: https://lists.apache.org/thread.html/rd142565996d7ee847b9c14b8a9921dcf80bc6bc160e3d9dca6dfc2f8@%3Cannounce.apache.org%3E
+    reference_id:
+  - id: 7671
+    url: http://www.openwall.com/lists/oss-security/2021/02/17/1
+    reference_id:
+  - id: 874179
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:airflow:2.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:airflow:2.0.0:*:*:*:*:*:*:*
+  - id: 23462
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-26559
+    reference_id: CVE-2021-26559
+  - id: 25019
+    url: https://github.com/advisories/GHSA-ffw3-6mp6-jmvj
+    reference_id: GHSA-ffw3-6mp6-jmvj
+weaknesses: []

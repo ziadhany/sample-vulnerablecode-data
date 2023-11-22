@@ -1,0 +1,38 @@
+vulnerability_id: VCID-hp2e-egpg-aaac
+aliases:
+  - CVE-2020-11005
+  - GHSA-wvpv-ffcv-r6cw
+summary: Internal NCryptDecrypt method could be used externally from WindowsHello library.
+severities:
+  - id: 431599
+    reference_id: 16374
+    scoring_system: cvssv2
+    value: '2.1'
+    scoring_elements: AV:L/AC:L/Au:N/C:P/I:N/A:N
+  - id: 431597
+    reference_id: 16374
+    scoring_system: cvssv3
+    value: '5.5'
+    scoring_elements: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+  - id: '1955'
+    reference_id: 16375
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 16373
+    url: https://github.com/SeppPenner/WindowsHello/issues/3
+    reference_id:
+  - id: 812938
+    url: https://github.com/SeppPenner/WindowsHello/security/advisories/GHSA-wvpv-ffcv-r6cw
+    reference_id:
+  - id: 812939
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:windowshello_project:windowshello:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:windowshello_project:windowshello:*:*:*:*:*:*:*:*
+  - id: 16374
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-11005
+    reference_id: CVE-2020-11005
+  - id: 16375
+    url: https://github.com/advisories/GHSA-wvpv-ffcv-r6cw
+    reference_id: GHSA-wvpv-ffcv-r6cw
+weaknesses: []

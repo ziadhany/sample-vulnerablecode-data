@@ -1,0 +1,47 @@
+vulnerability_id: VCID-bth8-jz2m-aaac
+aliases:
+  - CVE-2018-1000886
+summary: |
+  Improper Restriction of Operations within the Bounds of a Memory Buffer
+  nasm rc5 contains a Buffer Overflow vulnerability in asm/stdscan.c:130 that can result in Stack-overflow caused by triggering endless macro generation, crash the program. This attack appear to be exploitable via a crafted nasm input file.
+severities:
+  - id: 614522
+    reference_id: 934674
+    scoring_system: cvssv3
+    value: '3.3'
+    scoring_elements: CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L
+  - id: 614521
+    reference_id: 934673
+    scoring_system: rhbs
+    value: low
+    scoring_elements:
+  - id: 308738
+    reference_id: 37669
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:N/A:P
+  - id: 308736
+    reference_id: 37669
+    scoring_system: cvssv3
+    value: '5.5'
+    scoring_elements: CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+references:
+  - id: 934674
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2018-1000886.json
+    reference_id:
+  - id: 37670
+    url: https://bugzilla.nasm.us/show_bug.cgi?id=3392514
+    reference_id:
+  - id: 934673
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1663906
+    reference_id: 1663906
+  - id: 722665
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:nasm:netwide_assembler:2.14.01rc5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:nasm:netwide_assembler:2.14.01rc5:*:*:*:*:*:*:*
+  - id: 722666
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:nasm:netwide_assembler:2.15:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:nasm:netwide_assembler:2.15:*:*:*:*:*:*:*
+  - id: 37669
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-1000886
+    reference_id: CVE-2018-1000886
+weaknesses: []

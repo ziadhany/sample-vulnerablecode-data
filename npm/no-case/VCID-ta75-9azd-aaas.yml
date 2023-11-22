@@ -1,0 +1,12 @@
+vulnerability_id: VCID-ta75-9azd-aaas
+aliases:
+  - GMS-2017-198
+summary: |
+  Regular Expression Denial of Service
+  When malicious untrusted user input is passed into no-case it can block the event loop causing a denial of service condition.
+severities: []
+references:
+  - id: 30534
+    url: https://github.com/blakeembrey/no-case/issues/17
+    reference_id:
+weaknesses: []

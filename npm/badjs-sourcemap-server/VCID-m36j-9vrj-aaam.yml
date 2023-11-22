@@ -1,0 +1,12 @@
+vulnerability_id: VCID-m36j-9vrj-aaam
+aliases:
+  - GMS-2017-127
+summary: |
+  Directory Traversal
+  badjs-sourcemap-server is vulnerable to a directory traversal issue, giving an attacker access to the filesystem by placing "../" in the URL.
+severities: []
+references:
+  - id: 32972
+    url: https://github.com/JacksonGL/NPM-Vuln-PoC/tree/master/directory-traversal/badjs-sourcemap-server
+    reference_id:
+weaknesses: []

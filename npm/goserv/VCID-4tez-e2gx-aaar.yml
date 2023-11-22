@@ -1,0 +1,43 @@
+vulnerability_id: VCID-4tez-e2gx-aaar
+aliases:
+  - CVE-2017-16133
+  - GHSA-pwqj-h62h-q35c
+summary: |
+  Path Traversal
+  goserv is vulnerable to a directory traversal issue, giving an attacker access to the filesystem by placing `../` in the url.
+severities:
+  - id: 270136
+    reference_id: 33394
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 270134
+    reference_id: 33394
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+  - id: 705720
+    reference_id: 1466993
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 687844
+    url: https://github.com/JacksonGL/NPM-Vuln-PoC/blob/master/directory-traversal/goserv
+    reference_id:
+  - id: 687845
+    url: https://nodesecurity.io/advisories/473
+    reference_id:
+  - id: 1466994
+    url: https://www.npmjs.com/advisories/473
+    reference_id:
+  - id: 687846
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:goserv_project:goserv:1.0.0:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:goserv_project:goserv:1.0.0:*:*:*:*:node.js:*:*
+  - id: 33394
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-16133
+    reference_id: CVE-2017-16133
+  - id: 1466993
+    url: https://github.com/advisories/GHSA-pwqj-h62h-q35c
+    reference_id: GHSA-pwqj-h62h-q35c
+weaknesses: []

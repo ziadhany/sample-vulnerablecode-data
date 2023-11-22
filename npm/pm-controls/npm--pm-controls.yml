@@ -1,0 +1,6 @@
+package: pkg:npm/pm-controls
+versions:
+  - purl: pkg:npm/pm-controls@1.1.8
+    affected_by_vulnerabilities:
+      - VCID-u26t-17g6-aaae
+    fixing_vulnerabilities: []

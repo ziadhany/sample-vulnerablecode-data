@@ -1,0 +1,34 @@
+package: pkg:pypi/admesh
+versions:
+  - purl: pkg:pypi/admesh@0.96
+    affected_by_vulnerabilities:
+      - VCID-62rq-73ck-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/admesh@0.98
+    affected_by_vulnerabilities:
+      - VCID-62rq-73ck-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/admesh@0.98.1
+    affected_by_vulnerabilities:
+      - VCID-62rq-73ck-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/admesh@0.98.2
+    affected_by_vulnerabilities:
+      - VCID-62rq-73ck-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/admesh@0.98.3
+    affected_by_vulnerabilities:
+      - VCID-62rq-73ck-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/admesh@0.98.4
+    affected_by_vulnerabilities:
+      - VCID-62rq-73ck-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/admesh@0.98.5
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-62rq-73ck-aaam
+  - purl: pkg:pypi/admesh@0.98a1
+    affected_by_vulnerabilities:
+      - VCID-62rq-73ck-aaam
+    fixing_vulnerabilities: []

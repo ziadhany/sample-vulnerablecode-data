@@ -1,0 +1,44 @@
+vulnerability_id: VCID-rxxw-9jd3-aaae
+aliases:
+  - CVE-2015-8969
+  - GHSA-mf6w-45cf-qhmp
+summary: Git-fastclone passes user modifiable strings directly to a shell command
+severities:
+  - id: 207081
+    reference_id: 29377
+    scoring_system: cvssv2
+    value: '10.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:C/I:C/A:C
+  - id: 207079
+    reference_id: 29377
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 5204
+    reference_id: 29380
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 29378
+    url: https://github.com/square/git-fastclone/pull/5
+    reference_id:
+  - id: 29379
+    url: https://hackerone.com/reports/105190
+    reference_id:
+  - id: 1469771
+    url: https://web.archive.org/web/20161108132238/http://www.securityfocus.com/bid/81433
+    reference_id:
+  - id: 29376
+    url: http://www.securityfocus.com/bid/81433
+    reference_id:
+  - id: 620712
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:squareup:git-fastclone:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:squareup:git-fastclone:*:*:*:*:*:*:*:*
+  - id: 29377
+    url: https://nvd.nist.gov/vuln/detail/CVE-2015-8969
+    reference_id: CVE-2015-8969
+  - id: 29380
+    url: https://github.com/advisories/GHSA-mf6w-45cf-qhmp
+    reference_id: GHSA-mf6w-45cf-qhmp
+weaknesses: []

@@ -1,0 +1,179 @@
+vulnerability_id: VCID-ugfm-9gaz-aaab
+aliases:
+  - CVE-2006-3835
+summary: CVE-2006-3835 tomcat directory listing issue
+severities:
+  - id: 78076
+    reference_id: 209465
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 88315
+    reference_id: 245976
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 77628
+    reference_id: 208688
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 77704
+    reference_id: 208817
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 77487
+    reference_id: 208448
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 68202
+    reference_id: '197689'
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 68204
+    reference_id: '197691'
+    scoring_system: rhas
+    value: Low
+    scoring_elements:
+  - id: 68958
+    reference_id: '198602'
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 245964
+    url: http://archives.neohapsis.com/archives/fulldisclosure/2006-07/0467.html
+    reference_id:
+  - id: 125568
+    url: http://community.ca.com/blogs/casecurityresponseblog/archive/2009/01/23.aspx
+    reference_id:
+  - id: 8448
+    url: http://lists.opensuse.org/opensuse-security-announce/2009-02/msg00002.html
+    reference_id:
+  - id: 209466
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2006-3835.json
+    reference_id:
+  - id: 245965
+    url: http://secunia.com/advisories/25212
+    reference_id:
+  - id: 76683
+    url: http://secunia.com/advisories/30899
+    reference_id:
+  - id: 76684
+    url: http://secunia.com/advisories/30908
+    reference_id:
+  - id: 125576
+    url: http://secunia.com/advisories/33668
+    reference_id:
+  - id: 245966
+    url: http://secunia.com/advisories/37297
+    reference_id:
+  - id: 245967
+    url: http://securitytracker.com/id?1016576
+    reference_id:
+  - id: 245974
+    url: https://exchange.xforce.ibmcloud.com/vulnerabilities/27902
+    reference_id:
+  - id: 245975
+    url: https://exchange.xforce.ibmcloud.com/vulnerabilities/34183
+    reference_id:
+  - id: 9049
+    url: https://lists.apache.org/thread.html/29dc6c2b625789e70a9c4756b5a327e6547273ff8bde7e0327af48c5@%3Cdev.tomcat.apache.org%3E
+    reference_id:
+  - id: 9051
+    url: https://lists.apache.org/thread.html/c62b0e3a7bf23342352a5810c640a94b6db69957c5c19db507004d74@%3Cdev.tomcat.apache.org%3E
+    reference_id:
+  - id: 9054
+    url: https://lists.apache.org/thread.html/rb71997f506c6cc8b530dd845c084995a9878098846c7b4eacfae8db3@%3Cdev.tomcat.apache.org%3E
+    reference_id:
+  - id: 76685
+    url: http://sunsolve.sun.com/search/document.do?assetkey=1-26-239312-1
+    reference_id:
+  - id: 125578
+    url: http://support.avaya.com/elmodocs2/security/ASA-2007-206.htm
+    reference_id:
+  - id: 125579
+    url: http://support.ca.com/irj/portal/anonymous/phpsupcontent?contentID=197540
+    reference_id:
+  - id: 9066
+    url: http://tomcat.apache.org/security-4.html
+    reference_id:
+  - id: 9067
+    url: http://tomcat.apache.org/security-5.html
+    reference_id:
+  - id: 97202
+    url: http://www.redhat.com/support/errata/RHSA-2008-0261.html
+    reference_id:
+  - id: 245968
+    url: http://www.sec-consult.com/289.html
+    reference_id:
+  - id: 245969
+    url: http://www.securenetwork.it/ricerca/advisory/download/SN-2009-02.txt
+    reference_id:
+  - id: 245970
+    url: http://www.securityfocus.com/archive/1/468048/100/0/threaded
+    reference_id:
+  - id: 125584
+    url: http://www.securityfocus.com/archive/1/500396/100/0/threaded
+    reference_id:
+  - id: 125585
+    url: http://www.securityfocus.com/archive/1/500412/100/0/threaded
+    reference_id:
+  - id: 245971
+    url: http://www.securityfocus.com/archive/1/507729/100/0/threaded
+    reference_id:
+  - id: 245972
+    url: http://www.securityfocus.com/bid/19106
+    reference_id:
+  - id: 245973
+    url: http://www.vupen.com/english/advisories/2007/1727
+    reference_id:
+  - id: 76688
+    url: http://www.vupen.com/english/advisories/2008/1979/references
+    reference_id:
+  - id: 125590
+    url: http://www.vupen.com/english/advisories/2009/0233
+    reference_id:
+  - id: 209465
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=237084
+    reference_id: 237084
+  - id: 245977
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:tomcat:5.0.28:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:tomcat:5.0.28:*:*:*:*:*:*:*
+  - id: 156619
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:tomcat:5.5.12:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:tomcat:5.5.12:*:*:*:*:*:*:*
+  - id: 156623
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:tomcat:5.5.16:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:tomcat:5.5.16:*:*:*:*:*:*:*
+  - id: 136280
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:tomcat:5.5.7:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:tomcat:5.5.7:*:*:*:*:*:*:*
+  - id: 136282
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:tomcat:5.5.9:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:tomcat:5.5.9:*:*:*:*:*:*:*
+  - id: 245976
+    url: https://nvd.nist.gov/vuln/detail/CVE-2006-3835
+    reference_id: CVE-2006-3835
+  - id: 208688
+    url: https://access.redhat.com/errata/RHSA-2007:0326
+    reference_id: RHSA-2007:0326
+  - id: 208817
+    url: https://access.redhat.com/errata/RHSA-2007:0340
+    reference_id: RHSA-2007:0340
+  - id: 208448
+    url: https://access.redhat.com/errata/RHSA-2007:1069
+    reference_id: RHSA-2007:1069
+  - id: '197689'
+    url: https://access.redhat.com/errata/RHSA-2008:0261
+    reference_id: RHSA-2008:0261
+  - id: '197691'
+    url: https://access.redhat.com/errata/RHSA-2008:0524
+    reference_id: RHSA-2008:0524
+  - id: '198602'
+    url: https://access.redhat.com/errata/RHSA-2010:0602
+    reference_id: RHSA-2010:0602
+weaknesses: []

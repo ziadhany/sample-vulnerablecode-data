@@ -1,0 +1,101 @@
+package: pkg:npm/multi-ini
+versions:
+  - purl: pkg:npm/multi-ini@0.0.1
+    affected_by_vulnerabilities:
+      - VCID-h4km-cj2t-aaaq
+      - VCID-rk5t-nr3z-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/multi-ini@0.1.0
+    affected_by_vulnerabilities:
+      - VCID-h4km-cj2t-aaaq
+      - VCID-rk5t-nr3z-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/multi-ini@0.1.1
+    affected_by_vulnerabilities:
+      - VCID-h4km-cj2t-aaaq
+      - VCID-rk5t-nr3z-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/multi-ini@0.1.2
+    affected_by_vulnerabilities:
+      - VCID-h4km-cj2t-aaaq
+      - VCID-rk5t-nr3z-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/multi-ini@0.2.1
+    affected_by_vulnerabilities:
+      - VCID-h4km-cj2t-aaaq
+      - VCID-rk5t-nr3z-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/multi-ini@0.2.2
+    affected_by_vulnerabilities:
+      - VCID-h4km-cj2t-aaaq
+      - VCID-rk5t-nr3z-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/multi-ini@0.2.3
+    affected_by_vulnerabilities:
+      - VCID-h4km-cj2t-aaaq
+      - VCID-rk5t-nr3z-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/multi-ini@0.2.4
+    affected_by_vulnerabilities:
+      - VCID-h4km-cj2t-aaaq
+      - VCID-rk5t-nr3z-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/multi-ini@0.2.5
+    affected_by_vulnerabilities:
+      - VCID-h4km-cj2t-aaaq
+      - VCID-rk5t-nr3z-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/multi-ini@0.4.0
+    affected_by_vulnerabilities:
+      - VCID-h4km-cj2t-aaaq
+      - VCID-rk5t-nr3z-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/multi-ini@0.4.1
+    affected_by_vulnerabilities:
+      - VCID-h4km-cj2t-aaaq
+      - VCID-rk5t-nr3z-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/multi-ini@0.5.0
+    affected_by_vulnerabilities:
+      - VCID-h4km-cj2t-aaaq
+      - VCID-rk5t-nr3z-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/multi-ini@0.5.1
+    affected_by_vulnerabilities:
+      - VCID-h4km-cj2t-aaaq
+      - VCID-rk5t-nr3z-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/multi-ini@0.5.2
+    affected_by_vulnerabilities:
+      - VCID-h4km-cj2t-aaaq
+      - VCID-rk5t-nr3z-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/multi-ini@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-h4km-cj2t-aaaq
+      - VCID-rk5t-nr3z-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/multi-ini@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-h4km-cj2t-aaaq
+      - VCID-rk5t-nr3z-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/multi-ini@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-h4km-cj2t-aaaq
+      - VCID-rk5t-nr3z-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/multi-ini@2.1.0
+    affected_by_vulnerabilities:
+      - VCID-h4km-cj2t-aaaq
+      - VCID-rk5t-nr3z-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/multi-ini@2.1.1
+    affected_by_vulnerabilities:
+      - VCID-h4km-cj2t-aaaq
+    fixing_vulnerabilities:
+      - VCID-rk5t-nr3z-aaas
+  - purl: pkg:npm/multi-ini@2.1.2
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-h4km-cj2t-aaaq

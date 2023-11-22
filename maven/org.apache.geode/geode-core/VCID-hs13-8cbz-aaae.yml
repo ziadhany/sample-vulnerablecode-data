@@ -1,0 +1,41 @@
+vulnerability_id: VCID-hs13-8cbz-aaae
+aliases:
+  - CVE-2017-15694
+  - GHSA-p426-qw2p-v95v
+summary: Argument Injection in Apache Geode server
+severities:
+  - id: 268536
+    reference_id: 1538
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:N/I:P/A:N
+  - id: 268534
+    reference_id: 1538
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
+  - id: 211
+    reference_id: 1540
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 30413
+    url: https://issues.apache.org/jira/browse/GEODE-3981
+    reference_id:
+  - id: 1539
+    url: https://lists.apache.org/thread.html/311505e7b7a045aaa246f0a1935703acacf41b954621b1363c40bf6f@%3Cuser.geode.apache.org%3E
+    reference_id:
+  - id: 30414
+    url: http://www.securityfocus.com/bid/108870
+    reference_id:
+  - id: 677805
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:geode:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:geode:*:*:*:*:*:*:*:*
+  - id: 1538
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-15694
+    reference_id: CVE-2017-15694
+  - id: 1540
+    url: https://github.com/advisories/GHSA-p426-qw2p-v95v
+    reference_id: GHSA-p426-qw2p-v95v
+weaknesses: []

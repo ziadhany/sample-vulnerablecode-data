@@ -1,0 +1,37 @@
+vulnerability_id: VCID-6ykq-7tw1-aaae
+aliases:
+  - CVE-2020-7727
+  - GHSA-jh2m-j8pp-55rc
+summary: |
+  Improper Input Validation
+  The gedi package is vulnerable to Prototype Pollution via the `set` function.
+severities:
+  - id: 486538
+    reference_id: 31418
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 486536
+    reference_id: 31418
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 706402
+    reference_id: 1467980
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 850983
+    url: https://snyk.io/vuln/SNYK-JS-GEDI-598803
+    reference_id:
+  - id: 850984
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:gedi_project:gedi:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:gedi_project:gedi:*:*:*:*:*:node.js:*:*
+  - id: 31418
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-7727
+    reference_id: CVE-2020-7727
+  - id: 1467980
+    url: https://github.com/advisories/GHSA-jh2m-j8pp-55rc
+    reference_id: GHSA-jh2m-j8pp-55rc
+weaknesses: []

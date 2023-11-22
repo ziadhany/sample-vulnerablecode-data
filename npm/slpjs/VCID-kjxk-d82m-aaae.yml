@@ -1,0 +1,40 @@
+vulnerability_id: VCID-kjxk-d82m-aaae
+aliases:
+  - CVE-2019-16762
+  - GHSA-425c-ccf3-3jrr
+summary: |
+  Improper Input Validation
+  A specially crafted Bitcoin script can cause a discrepancy between the specified SLP consensus rules and the validation result of the slpjs npm package. An attacker could create a specially crafted Bitcoin script in order to cause a hard-fork from the SLP consensus.
+severities:
+  - id: 389550
+    reference_id: 32317
+    scoring_system: cvssv2
+    value: '4.9'
+    scoring_elements: AV:N/AC:M/Au:S/C:N/I:P/A:P
+  - id: 389548
+    reference_id: 32317
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:N/I:H/A:H
+  - id: 706053
+    reference_id: 1467535
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 784183
+    url: https://github.com/simpleledger/slpjs/commit/ac8809b42e47790a6f0205991b36f2699ed10c84#diff-fe58606994c412ba56a65141a7aa4a62L701
+    reference_id:
+  - id: 784184
+    url: https://github.com/simpleledger/slpjs/security/advisories/GHSA-425c-ccf3-3jrr
+    reference_id:
+  - id: 784185
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:simpleledger:slpjs:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:simpleledger:slpjs:*:*:*:*:*:node.js:*:*
+  - id: 32317
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-16762
+    reference_id: CVE-2019-16762
+  - id: 1467535
+    url: https://github.com/advisories/GHSA-425c-ccf3-3jrr
+    reference_id: GHSA-425c-ccf3-3jrr
+weaknesses: []

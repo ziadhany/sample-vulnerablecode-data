@@ -1,0 +1,64 @@
+vulnerability_id: VCID-n735-w925-aaaf
+aliases:
+  - CVE-2021-31920
+summary: Istio before 1.8.6 and 1.9.x before 1.9.5 has a remotely exploitable vulnerability
+  where an HTTP request path with multiple slashes or escaped slash characters (%2F or %5C)
+  could potentially bypass an Istio authorization policy when path based authorization rules
+  are used.
+severities:
+  - id: 605366
+    reference_id: 927944
+    scoring_system: cvssv3
+    value: '8.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N
+  - id: 605365
+    reference_id: 927943
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 538779
+    reference_id: 883485
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:N/A:N
+  - id: 538777
+    reference_id: 883485
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+  - id: 605335
+    reference_id: 927922
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 605336
+    reference_id: 927923
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 927944
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-31920.json
+    reference_id:
+  - id: 883484
+    url: https://istio.io/latest/news/security/istio-security-2021-005/
+    reference_id:
+  - id: 927943
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1959481
+    reference_id: '1959481'
+  - id: 767896
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:istio:istio:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:istio:istio:*:*:*:*:*:*:*:*
+  - id: 883485
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-31920
+    reference_id: CVE-2021-31920
+  - id: 1470882
+    url: https://istio.io/latest/news/security/ISTIO-SECURITY-2021-005/
+    reference_id: ISTIO-SECURITY-2021-005
+  - id: 927922
+    url: https://access.redhat.com/errata/RHSA-2021:1538
+    reference_id: RHSA-2021:1538
+  - id: 927923
+    url: https://access.redhat.com/errata/RHSA-2021:1540
+    reference_id: RHSA-2021:1540
+weaknesses: []

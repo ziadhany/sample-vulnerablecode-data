@@ -1,0 +1,44 @@
+vulnerability_id: VCID-mykr-dnjx-aaak
+aliases:
+  - CVE-2021-29435
+  - GHSA-h8hx-2c5r-32cf
+summary: Cross-Site Request Forgery (CSRF) in trestle-auth
+severities:
+  - id: 531449
+    reference_id: 28097
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+  - id: 531447
+    reference_id: 28097
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N
+  - id: 5015
+    reference_id: 28098
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 28095
+    url: https://github.com/TrestleAdmin/trestle-auth/commit/cb95b05cdb2609052207af07b4b8dfe3a23c11dc
+    reference_id:
+  - id: 878907
+    url: https://github.com/TrestleAdmin/trestle-auth/security/advisories/GHSA-h8hx-2c5r-32cf
+    reference_id:
+  - id: 28096
+    url: https://rubygems.org/gems/trestle-auth
+    reference_id:
+  - id: 878908
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:trestle-auth_project:trestle-auth:0.4.0:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:trestle-auth_project:trestle-auth:0.4.0:*:*:*:*:ruby:*:*
+  - id: 878909
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:trestle-auth_project:trestle-auth:0.4.1:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:trestle-auth_project:trestle-auth:0.4.1:*:*:*:*:ruby:*:*
+  - id: 28097
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-29435
+    reference_id: CVE-2021-29435
+  - id: 28098
+    url: https://github.com/advisories/GHSA-h8hx-2c5r-32cf
+    reference_id: GHSA-h8hx-2c5r-32cf
+weaknesses: []

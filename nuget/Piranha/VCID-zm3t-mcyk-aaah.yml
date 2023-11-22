@@ -1,0 +1,71 @@
+vulnerability_id: VCID-zm3t-mcyk-aaah
+aliases:
+  - CVE-2021-25976
+  - GHSA-ppq7-88c7-q879
+summary: Cross-Site Request Forgery in PiranhaCMS
+severities:
+  - id: 523326
+    reference_id: 15902
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:H/Au:N/C:N/I:P/A:P
+  - id: 523324
+    reference_id: 15902
+    scoring_system: cvssv3
+    value: '8.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:H
+  - id: 1841
+    reference_id: 15905
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 15903
+    url: https://github.com/PiranhaCMS/piranha.core/commit/e42abacdd0dd880ce9cf6607efcc24646ac82eda
+    reference_id:
+  - id: 873624
+    url: https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25976
+    reference_id:
+  - id: 873625
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:dotnetfoundation:piranha_cms:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:dotnetfoundation:piranha_cms:*:*:*:*:*:*:*:*
+  - id: 873626
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:dotnetfoundation:piranha_cms:4.0.0:-:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:dotnetfoundation:piranha_cms:4.0.0:-:*:*:*:*:*:*
+  - id: 873627
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:dotnetfoundation:piranha_cms:4.0.0:alpha1:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:dotnetfoundation:piranha_cms:4.0.0:alpha1:*:*:*:*:*:*
+  - id: 873628
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:dotnetfoundation:piranha_cms:4.0.0:alpha3:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:dotnetfoundation:piranha_cms:4.0.0:alpha3:*:*:*:*:*:*
+  - id: 873629
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:dotnetfoundation:piranha_cms:4.0.0:alpha4:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:dotnetfoundation:piranha_cms:4.0.0:alpha4:*:*:*:*:*:*
+  - id: 873630
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:dotnetfoundation:piranha_cms:4.0.0:alpha5:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:dotnetfoundation:piranha_cms:4.0.0:alpha5:*:*:*:*:*:*
+  - id: 873631
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:dotnetfoundation:piranha_cms:4.0.0:alpha6:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:dotnetfoundation:piranha_cms:4.0.0:alpha6:*:*:*:*:*:*
+  - id: 873632
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:dotnetfoundation:piranha_cms:4.0.0:alpha7:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:dotnetfoundation:piranha_cms:4.0.0:alpha7:*:*:*:*:*:*
+  - id: 873633
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:dotnetfoundation:piranha_cms:4.0.0:alpha8:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:dotnetfoundation:piranha_cms:4.0.0:alpha8:*:*:*:*:*:*
+  - id: 873634
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:dotnetfoundation:piranha_cms:4.0.0:alpha9:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:dotnetfoundation:piranha_cms:4.0.0:alpha9:*:*:*:*:*:*
+  - id: 873635
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:dotnetfoundation:piranha_cms:4.0.0:beta1:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:dotnetfoundation:piranha_cms:4.0.0:beta1:*:*:*:*:*:*
+  - id: 873636
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:dotnetfoundation:piranha_cms:4.0.0:rc1:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:dotnetfoundation:piranha_cms:4.0.0:rc1:*:*:*:*:*:*
+  - id: 15902
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-25976
+    reference_id: CVE-2021-25976
+  - id: 15905
+    url: https://github.com/advisories/GHSA-ppq7-88c7-q879
+    reference_id: GHSA-ppq7-88c7-q879
+weaknesses: []

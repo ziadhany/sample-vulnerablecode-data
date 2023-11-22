@@ -1,0 +1,66 @@
+package: pkg:hex/sweet_xml
+versions:
+  - purl: pkg:hex/sweet_xml@0.1.0
+    affected_by_vulnerabilities:
+      - VCID-s6uj-gyz9-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:hex/sweet_xml@0.1.1
+    affected_by_vulnerabilities:
+      - VCID-s6uj-gyz9-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:hex/sweet_xml@0.2.0
+    affected_by_vulnerabilities:
+      - VCID-s6uj-gyz9-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:hex/sweet_xml@0.2.1
+    affected_by_vulnerabilities:
+      - VCID-s6uj-gyz9-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:hex/sweet_xml@0.3.0
+    affected_by_vulnerabilities:
+      - VCID-s6uj-gyz9-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:hex/sweet_xml@0.4.0
+    affected_by_vulnerabilities:
+      - VCID-s6uj-gyz9-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:hex/sweet_xml@0.5.0
+    affected_by_vulnerabilities:
+      - VCID-s6uj-gyz9-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:hex/sweet_xml@0.5.1
+    affected_by_vulnerabilities:
+      - VCID-s6uj-gyz9-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:hex/sweet_xml@0.6.0
+    affected_by_vulnerabilities:
+      - VCID-s6uj-gyz9-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:hex/sweet_xml@0.6.1
+    affected_by_vulnerabilities:
+      - VCID-s6uj-gyz9-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:hex/sweet_xml@0.6.2
+    affected_by_vulnerabilities:
+      - VCID-s6uj-gyz9-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:hex/sweet_xml@0.6.3
+    affected_by_vulnerabilities:
+      - VCID-s6uj-gyz9-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:hex/sweet_xml@0.6.4
+    affected_by_vulnerabilities:
+      - VCID-s6uj-gyz9-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:hex/sweet_xml@0.6.5
+    affected_by_vulnerabilities:
+      - VCID-s6uj-gyz9-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:hex/sweet_xml@0.6.6
+    affected_by_vulnerabilities:
+      - VCID-s6uj-gyz9-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:hex/sweet_xml@0.7.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-s6uj-gyz9-aaas

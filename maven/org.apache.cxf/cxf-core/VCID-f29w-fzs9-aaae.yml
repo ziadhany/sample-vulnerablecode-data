@@ -1,0 +1,81 @@
+vulnerability_id: VCID-f29w-fzs9-aaae
+aliases:
+  - CVE-2015-5253
+  - GHSA-3336-h95j-hvvf
+summary: The SAML Web SSO module in Apache CXF before 2.7.18, 3.0.x before 3.0.7, and 3.1.x
+  before 3.1.3 allows remote authenticated users to bypass authentication via a crafted SAML
+  response with a valid signed assertion, related to a "wrapping attack."
+severities:
+  - id: 52599
+    reference_id: 177477
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 37937
+    reference_id: 158433
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:N/I:P/A:N
+  - id: 630187
+    reference_id: 946191
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 52600
+    reference_id: 177478
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 158429
+    url: http://rhn.redhat.com/errata/RHSA-2016-0321.html
+    reference_id:
+  - id: 177479
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2015-5253.json
+    reference_id:
+  - id: 158432
+    url: https://git-wip-us.apache.org/repos/asf?p=cxf.git;a=commitdiff;h=845eccb6484b43ba02875c71e824db23ae4f20c0
+    reference_id:
+  - id: 10867
+    url: https://lists.apache.org/thread.html/r36e44ffc1a9b365327df62cdfaabe85b9a5637de102cea07d79b2dbf@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10866
+    url: https://lists.apache.org/thread.html/rc774278135816e7afc943dc9fc78eb0764f2c84a2b96470a0187315c@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10872
+    url: https://lists.apache.org/thread.html/rd49aabd984ed540c8ff7916d4d79405f3fa311d2fdbcf9ed307839a6@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10860
+    url: https://lists.apache.org/thread.html/rec7160382badd3ef4ad017a22f64a266c7188b9ba71394f0d321e2d4@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10862
+    url: https://lists.apache.org/thread.html/rfb87e0bf3995e7d560afeed750fac9329ff5f1ad49da365129b7f89e@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10873
+    url: https://lists.apache.org/thread.html/rff42cfa5e7d75b7c1af0e37589140a8f1999e578a75738740b244bd4@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 158430
+    url: http://www.openwall.com/lists/oss-security/2015/11/14/1
+    reference_id:
+  - id: 158431
+    url: http://www.securitytracker.com/id/1034162
+    reference_id:
+  - id: 177477
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1282411
+    reference_id: 1282411
+  - id: 158434
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:*:*:*:*:*:*:*:*
+  - id: 158433
+    url: https://nvd.nist.gov/vuln/detail/CVE-2015-5253
+    reference_id: CVE-2015-5253
+  - id: 946190
+    url: http://cxf.apache.org/security-advisories.data/CVE-2015-5253.txt.asc
+    reference_id: CVE-2015-5253.TXT.ASC
+  - id: 946191
+    url: https://github.com/advisories/GHSA-3336-h95j-hvvf
+    reference_id: GHSA-3336-h95j-hvvf
+  - id: 177478
+    url: https://access.redhat.com/errata/RHSA-2016:0321
+    reference_id: RHSA-2016:0321
+weaknesses: []

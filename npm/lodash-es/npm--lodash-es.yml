@@ -1,0 +1,528 @@
+package: pkg:npm/lodash-es
+versions:
+  - purl: pkg:npm/lodash-es@3.0.0
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@3.0.1
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@3.1.0
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@3.10.0
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@3.10.1
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@3.2.0
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@3.3.0
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@3.3.1
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@3.4.0
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@3.5.0
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@3.6.0
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@3.7.0
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@3.8.0
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@3.9.0
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@3.9.2
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@3.9.3
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@4.0.0
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@4.0.1
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@4.1.0
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@4.10.0
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@4.11.0
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@4.11.1
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@4.11.2
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@4.12.0
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@4.13.0
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@4.13.1
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@4.14.0
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@4.14.1
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@4.14.2
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@4.15.0
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@4.16.0
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@4.16.1
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@4.16.2
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@4.16.3
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@4.16.4
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@4.16.5
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@4.16.6
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@4.17.0
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@4.17.1
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@4.17.10
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@4.17.11
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities:
+      - VCID-w9bm-fzsd-aaac
+  - purl: pkg:npm/lodash-es@4.17.12
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@4.17.13
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@4.17.14
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-p48k-1se7-aaaq
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+  - purl: pkg:npm/lodash-es@4.17.15
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-p48k-1se7-aaaq
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@4.17.2
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@4.17.20
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-p48k-1se7-aaaq
+    fixing_vulnerabilities:
+      - VCID-ypnv-um1t-aaaj
+  - purl: pkg:npm/lodash-es@4.17.21
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-p48k-1se7-aaaq
+  - purl: pkg:npm/lodash-es@4.17.3
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@4.17.4
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@4.17.5
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@4.17.6
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@4.17.7
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@4.17.8
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@4.17.9
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@4.2.0
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@4.2.1
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@4.3.0
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@4.4.0
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@4.5.0
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@4.5.1
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@4.6.0
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@4.6.1
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@4.7.0
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@4.8.0
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@4.8.2
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash-es@4.9.0
+    affected_by_vulnerabilities:
+      - VCID-f7dz-tz3u-aaae
+      - VCID-jert-s2dt-aaac
+      - VCID-p48k-1se7-aaaq
+      - VCID-w9bm-fzsd-aaac
+      - VCID-ypnv-um1t-aaaj
+    fixing_vulnerabilities: []

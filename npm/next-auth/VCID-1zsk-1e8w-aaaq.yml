@@ -1,0 +1,45 @@
+vulnerability_id: VCID-1zsk-1e8w-aaaq
+aliases:
+  - CVE-2023-27490
+  - GHSA-7r7x-4c4q-c4qf
+summary: Missing proper state, nonce and PKCE checks for OAuth authentication
+severities:
+  - id: 708353
+    reference_id: 1473026
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 708352
+    reference_id: 1473019
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 1473021
+    url: https://authjs.dev/reference/core/providers#checks
+    reference_id:
+  - id: 1473022
+    url: https://danielfett.de/2020/05/16/pkce-vs-nonce-equivalent-or-not/
+    reference_id:
+  - id: 1473023
+    url: https://github.com/nextauthjs/next-auth/compare/next-auth@4.20.0...next-auth@4.20.1#diff-cf9257195d0cb6a835ae4ff1fc73fe2cac0bab847efb0832c1f551209a972b47R55
+    reference_id:
+  - id: 949689
+    url: https://next-auth.js.org/configuration/initialization#advanced-initialization
+    reference_id:
+  - id: 1473024
+    url: https://next-auth.js.org/configuration/providers/oauth
+    reference_id:
+  - id: 1473025
+    url: https://www.rfc-editor.org/rfc/rfc6749#section-10.12
+    reference_id:
+  - id: 1473020
+    url: https://nvd.nist.gov/vuln/detail/CVE-2023-27490
+    reference_id: CVE-2023-27490
+  - id: 1473026
+    url: https://github.com/advisories/GHSA-7r7x-4c4q-c4qf
+    reference_id: GHSA-7r7x-4c4q-c4qf
+  - id: 1473019
+    url: https://github.com/nextauthjs/next-auth/security/advisories/GHSA-7r7x-4c4q-c4qf
+    reference_id: GHSA-7r7x-4c4q-c4qf
+weaknesses: []

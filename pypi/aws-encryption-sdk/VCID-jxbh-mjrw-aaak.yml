@@ -1,0 +1,24 @@
+vulnerability_id: VCID-jxbh-mjrw-aaak
+aliases:
+  - GHSA-x5h4-9gqw-942j
+  - GMS-2021-5
+summary: Improper Verification of Cryptographic Signature in aws-encryption-sdk
+severities:
+  - id: 4075
+    reference_id: 23449
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 4074
+    reference_id: 23448
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 23449
+    url: https://github.com/advisories/GHSA-x5h4-9gqw-942j
+    reference_id: GHSA-x5h4-9gqw-942j
+  - id: 23448
+    url: https://github.com/aws/aws-encryption-sdk-python/security/advisories/GHSA-x5h4-9gqw-942j
+    reference_id: GHSA-x5h4-9gqw-942j
+weaknesses: []

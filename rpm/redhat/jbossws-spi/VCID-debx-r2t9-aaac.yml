@@ -1,0 +1,153 @@
+vulnerability_id: VCID-debx-r2t9-aaac
+aliases:
+  - CVE-2009-5066
+summary: 'CVE-2009-5066 JBoss: twiddle.sh accepts credentials as command line arguments, exposing
+  them to other local users via a process listing'
+severities:
+  - id: 71538
+    reference_id: 201944
+    scoring_system: rhbs
+    value: low
+    scoring_elements:
+  - id: 129321
+    reference_id: 408388
+    scoring_system: cvssv2
+    value: '2.1'
+    scoring_elements: AV:L/AC:L/Au:N/C:P/I:N/A:N
+  - id: 63229
+    reference_id: '191402'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63231
+    reference_id: '191404'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63230
+    reference_id: '191403'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63227
+    reference_id: '191400'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63226
+    reference_id: '191399'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63228
+    reference_id: '191401'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63233
+    reference_id: '191406'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63232
+    reference_id: '191405'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63032
+    reference_id: '191137'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 408372
+    url: http://objectopia.com/2009/10/01/securing-jmx-invoker-layer-in-jboss/
+    reference_id:
+  - id: 408373
+    url: http://rhn.redhat.com/errata/RHSA-2013-0191.html
+    reference_id:
+  - id: 408374
+    url: http://rhn.redhat.com/errata/RHSA-2013-0192.html
+    reference_id:
+  - id: 408375
+    url: http://rhn.redhat.com/errata/RHSA-2013-0193.html
+    reference_id:
+  - id: 408376
+    url: http://rhn.redhat.com/errata/RHSA-2013-0194.html
+    reference_id:
+  - id: 408377
+    url: http://rhn.redhat.com/errata/RHSA-2013-0195.html
+    reference_id:
+  - id: 408378
+    url: http://rhn.redhat.com/errata/RHSA-2013-0196.html
+    reference_id:
+  - id: 408379
+    url: http://rhn.redhat.com/errata/RHSA-2013-0197.html
+    reference_id:
+  - id: 408380
+    url: http://rhn.redhat.com/errata/RHSA-2013-0198.html
+    reference_id:
+  - id: 408381
+    url: http://rhn.redhat.com/errata/RHSA-2013-0221.html
+    reference_id:
+  - id: 408382
+    url: http://rhn.redhat.com/errata/RHSA-2013-0533.html
+    reference_id:
+  - id: 201945
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2009-5066.json
+    reference_id:
+  - id: 408383
+    url: http://secunia.com/advisories/51984
+    reference_id:
+  - id: 408384
+    url: http://secunia.com/advisories/52054
+    reference_id:
+  - id: 408387
+    url: https://issues.jboss.org/browse/JBPAPP-3391?_sscc=t
+    reference_id:
+  - id: 408385
+    url: http://www.openwall.com/lists/oss-security/2012/07/20/1
+    reference_id:
+  - id: 408386
+    url: http://www.openwall.com/lists/oss-security/2012/07/23/2
+    reference_id:
+  - id: 201944
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=842477
+    reference_id: 842477
+  - id: 408389
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_community_application_server:5.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_community_application_server:5.0.0:*:*:*:*:*:*:*
+  - id: 408390
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:5.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:5.0.0:*:*:*:*:*:*:*
+  - id: 408388
+    url: https://nvd.nist.gov/vuln/detail/CVE-2009-5066
+    reference_id: CVE-2009-5066
+  - id: '191402'
+    url: https://access.redhat.com/errata/RHSA-2013:0191
+    reference_id: RHSA-2013:0191
+  - id: '191404'
+    url: https://access.redhat.com/errata/RHSA-2013:0192
+    reference_id: RHSA-2013:0192
+  - id: '191403'
+    url: https://access.redhat.com/errata/RHSA-2013:0193
+    reference_id: RHSA-2013:0193
+  - id: '191400'
+    url: https://access.redhat.com/errata/RHSA-2013:0194
+    reference_id: RHSA-2013:0194
+  - id: '191399'
+    url: https://access.redhat.com/errata/RHSA-2013:0195
+    reference_id: RHSA-2013:0195
+  - id: '191401'
+    url: https://access.redhat.com/errata/RHSA-2013:0196
+    reference_id: RHSA-2013:0196
+  - id: '191406'
+    url: https://access.redhat.com/errata/RHSA-2013:0198
+    reference_id: RHSA-2013:0198
+  - id: '191405'
+    url: https://access.redhat.com/errata/RHSA-2013:0221
+    reference_id: RHSA-2013:0221
+  - id: '191137'
+    url: https://access.redhat.com/errata/RHSA-2013:0533
+    reference_id: RHSA-2013:0533
+weaknesses: []

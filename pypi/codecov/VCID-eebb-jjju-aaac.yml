@@ -1,0 +1,43 @@
+vulnerability_id: VCID-eebb-jjju-aaac
+aliases:
+  - CVE-2019-10800
+  - GHSA-h3qr-fjhm-jphw
+  - PYSEC-2022-238
+  - SNYK-PYTHON-CODECOV-552149
+summary: Codecov prior to 2.0.16 does not sanitize gcov arguments
+severities:
+  - id: 639852
+    reference_id: 946932
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:N/A:N
+  - id: 639850
+    reference_id: 946932
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+  - id: 630629
+    reference_id: 946935
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 946933
+    url: https://github.com/codecov/codecov-python/commit/2a80aa434f74feb31242b6f213b75ce63ae97902
+    reference_id:
+  - id: 1180758
+    url: https://github.com/pypa/advisory-database/tree/main/vulns/codecov/PYSEC-2022-238.yaml
+    reference_id:
+  - id: 946934
+    url: https://snyk.io/vuln/SNYK-PYTHON-CODECOV-552149
+    reference_id:
+  - id: 822552
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:codecov:codecov:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:codecov:codecov:*:*:*:*:*:node.js:*:*
+  - id: 946932
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-10800
+    reference_id: CVE-2019-10800
+  - id: 946935
+    url: https://github.com/advisories/GHSA-h3qr-fjhm-jphw
+    reference_id: GHSA-h3qr-fjhm-jphw
+weaknesses: []

@@ -1,0 +1,12 @@
+vulnerability_id: VCID-5qxg-qmt1-aaaf
+aliases:
+  - GMS-2017-215
+summary: |
+  Regular Expression Denial of Service
+  slug is vulnerable to regular expression denial of service is specially crafted untrusted input is passed as input. About k characters can block the event loop for 2 seconds.
+severities: []
+references:
+  - id: 8435
+    url: https://github.com/dodo/node-slug/issues/82
+    reference_id:
+weaknesses: []

@@ -1,0 +1,70 @@
+package: pkg:pypi/collective.dms.basecontent
+versions:
+  - purl: pkg:pypi/collective.dms.basecontent@0.1
+    affected_by_vulnerabilities:
+      - VCID-fh1j-t7wh-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.dms.basecontent@0.1.1
+    affected_by_vulnerabilities:
+      - VCID-fh1j-t7wh-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.dms.basecontent@0.2
+    affected_by_vulnerabilities:
+      - VCID-fh1j-t7wh-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.dms.basecontent@0.3
+    affected_by_vulnerabilities:
+      - VCID-fh1j-t7wh-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.dms.basecontent@0.4
+    affected_by_vulnerabilities:
+      - VCID-fh1j-t7wh-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.dms.basecontent@0.5
+    affected_by_vulnerabilities:
+      - VCID-fh1j-t7wh-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.dms.basecontent@0.6
+    affected_by_vulnerabilities:
+      - VCID-fh1j-t7wh-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.dms.basecontent@0.7
+    affected_by_vulnerabilities:
+      - VCID-fh1j-t7wh-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.dms.basecontent@1.0
+    affected_by_vulnerabilities:
+      - VCID-fh1j-t7wh-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.dms.basecontent@1.1
+    affected_by_vulnerabilities:
+      - VCID-fh1j-t7wh-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.dms.basecontent@1.2
+    affected_by_vulnerabilities:
+      - VCID-fh1j-t7wh-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.dms.basecontent@1.3
+    affected_by_vulnerabilities:
+      - VCID-fh1j-t7wh-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.dms.basecontent@1.4
+    affected_by_vulnerabilities:
+      - VCID-fh1j-t7wh-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.dms.basecontent@1.5
+    affected_by_vulnerabilities:
+      - VCID-fh1j-t7wh-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.dms.basecontent@1.6
+    affected_by_vulnerabilities:
+      - VCID-fh1j-t7wh-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.dms.basecontent@1.7
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-fh1j-t7wh-aaad
+  - purl: pkg:pypi/collective.dms.basecontent@1.8
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-fh1j-t7wh-aaad

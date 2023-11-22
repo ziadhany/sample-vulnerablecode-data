@@ -1,0 +1,153 @@
+vulnerability_id: VCID-9nw8-71z9-aaab
+aliases:
+  - CVE-2020-1108
+  - GHSA-3w5p-jhp5-c29q
+summary: |
+  Uncontrolled Resource Consumption
+  A denial of service vulnerability exists when dotnet Core or dotnet Framework improperly handles web requests.
+severities:
+  - id: 49489
+    reference_id: 173836
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 49480
+    reference_id: 173827
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 431695
+    reference_id: 37658
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 431693
+    reference_id: 37658
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 647963
+    reference_id: 1418133
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 49484
+    reference_id: 173831
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49482
+    reference_id: 173829
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49488
+    reference_id: 173835
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49487
+    reference_id: 173834
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49486
+    reference_id: 173833
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49485
+    reference_id: 173832
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49481
+    reference_id: 173828
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49483
+    reference_id: 173830
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 173836
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2020-1108.json
+    reference_id:
+  - id: 1418132
+    url: https://github.com/dotnet/announcements/issues/157
+    reference_id:
+  - id: 813084
+    url: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-1108
+    reference_id:
+  - id: 173827
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1827643
+    reference_id: 1827643
+  - id: 813085
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:.net_core:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:.net_core:*:*:*:*:*:*:*:*
+  - id: 760240
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:.net_core:2.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:.net_core:2.1:*:*:*:*:*:*:*
+  - id: 809616
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:.net_core:3.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:.net_core:3.1:*:*:*:*:*:*:*
+  - id: 813086
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:.net_core:5.0:preview1:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:.net_core:5.0:preview1:*:*:*:*:*:*
+  - id: 813087
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:.net_core:5.0:preview2:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:.net_core:5.0:preview2:*:*:*:*:*:*
+  - id: 813088
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:.net_core:5.0:preview3:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:.net_core:5.0:preview3:*:*:*:*:*:*
+  - id: 813089
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:powershell:7.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:powershell:7.0:*:*:*:*:*:*:*
+  - id: 764024
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:powershell_core:6.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:powershell_core:6.2:*:*:*:*:*:*:*
+  - id: 760781
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:visual_studio_2017:15.9:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:visual_studio_2017:15.9:*:*:*:*:*:*:*
+  - id: 764507
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:visual_studio_2019:16.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:visual_studio_2019:16.0:*:*:*:*:*:*:*
+  - id: 810243
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:visual_studio_2019:16.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:visual_studio_2019:16.4:*:*:*:*:*:*:*
+  - id: 813090
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:visual_studio_2019:16.5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:visual_studio_2019:16.5:*:*:*:*:*:*:*
+  - id: 37658
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-1108
+    reference_id: CVE-2020-1108
+  - id: 1418133
+    url: https://github.com/advisories/GHSA-3w5p-jhp5-c29q
+    reference_id: GHSA-3w5p-jhp5-c29q
+  - id: 173831
+    url: https://access.redhat.com/errata/RHSA-2020:2143
+    reference_id: RHSA-2020:2143
+  - id: 173829
+    url: https://access.redhat.com/errata/RHSA-2020:2146
+    reference_id: RHSA-2020:2146
+  - id: 173835
+    url: https://access.redhat.com/errata/RHSA-2020:2249
+    reference_id: RHSA-2020:2249
+  - id: 173834
+    url: https://access.redhat.com/errata/RHSA-2020:2250
+    reference_id: RHSA-2020:2250
+  - id: 173833
+    url: https://access.redhat.com/errata/RHSA-2020:2450
+    reference_id: RHSA-2020:2450
+  - id: 173832
+    url: https://access.redhat.com/errata/RHSA-2020:2471
+    reference_id: RHSA-2020:2471
+  - id: 173828
+    url: https://access.redhat.com/errata/RHSA-2020:2475
+    reference_id: RHSA-2020:2475
+  - id: 173830
+    url: https://access.redhat.com/errata/RHSA-2020:2476
+    reference_id: RHSA-2020:2476
+weaknesses: []

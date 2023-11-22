@@ -1,0 +1,60 @@
+vulnerability_id: VCID-s95s-6udd-aaaa
+aliases:
+  - CVE-2016-8634
+summary: A vulnerability was found in foreman 1.14.0. When creating an organization or location
+  in Foreman, if the name contains HTML then the second step of the wizard (/organizations/id/step2)
+  will render the HTML. This occurs in the alertbox on the page. The result is a stored XSS
+  attack if an organization/location with HTML in the name is created, then a user is linked
+  directly to this URL.
+severities:
+  - id: 626091
+    reference_id: 942816
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+  - id: 626090
+    reference_id: 942815
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 241348
+    reference_id: 659755
+    scoring_system: cvssv2
+    value: '3.5'
+    scoring_elements: AV:N/AC:M/Au:S/C:N/I:P/A:N
+  - id: 241346
+    reference_id: 659755
+    scoring_system: cvssv3
+    value: '5.4'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N
+  - id: 48853
+    reference_id: 173183
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 942816
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2016-8634.json
+    reference_id:
+  - id: 659753
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2016-8634
+    reference_id:
+  - id: 659754
+    url: https://projects.theforeman.org/issues/17195
+    reference_id:
+  - id: 659752
+    url: http://www.securityfocus.com/bid/94206
+    reference_id:
+  - id: 942815
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1391520
+    reference_id: 1391520
+  - id: 158692
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:foreman:1.14.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:foreman:1.14.0:*:*:*:*:*:*:*
+  - id: 659755
+    url: https://nvd.nist.gov/vuln/detail/CVE-2016-8634
+    reference_id: CVE-2016-8634
+  - id: 173183
+    url: https://access.redhat.com/errata/RHSA-2018:0336
+    reference_id: RHSA-2018:0336
+weaknesses: []

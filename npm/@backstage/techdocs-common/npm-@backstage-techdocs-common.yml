@@ -1,0 +1,1769 @@
+package: pkg:npm/%40backstage/techdocs-common
+versions:
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202011132190
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202011142218
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202011152214
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-2020111622153
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202011172224
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-2020112223434
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-2020112923923
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-2020113023951
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-2020113124333
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202101225949
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20210124517
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20210133124
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20210143754
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-2021016359
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-2021017367
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20210183538
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20210193842
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20210203828
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202102131012
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-2021022423
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20210262290
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20210272305
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202102822956
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202103023316
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202103123135
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-2021032473
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-2021042480
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20210524859
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20210625032
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20210725232
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-2021101022158
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-2021101122259
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-2021101222132
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202110122318
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-2021101322257
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-2021101422237
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202110152240
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202110162216
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-2021101722431
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20211022229
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-2021102322318
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-2021102422528
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-2021102522541
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202110322147
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202110422117
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202110522059
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202110622114
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20211072262
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202110822217
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202110922220
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202111121833
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202111222339
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-2021112322755
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-2021112332
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-2021112422718
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-2021112522918
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-2021112622820
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-2021112723138
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202111282332
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-2021112922954
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-2021113022546
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202111321628
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202111421743
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202111521822
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202111621648
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202111721417
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202111722620
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202111821617
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202111822629
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202111922557
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202112021940
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202112121915
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202112222022
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20211223141
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202112321938
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202112721938
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20211282237
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20211322526
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202121022744
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202121122711
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202121222849
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20212122546
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202121322742
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202121422829
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20212152292
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202121622848
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202121722854
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202121823014
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20212221248
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20212322253
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-2021242250
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-2021252249
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20212622340
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20212722653
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20212822648
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20212922838
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202132722814
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202132822813
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202132922620
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202141122958
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202141223240
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20214122931
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202141823433
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202141923045
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202142023115
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20214223124
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202142725110
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20214322935
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-2021442275
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20214522419
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20214622436
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202151023138
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-2021523614
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202152921754
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202153022114
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-2021533445
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20215923438
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-2021612205
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202161321735
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202161421532
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202161521855
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202162022152
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202162122152
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202162222215
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202162921842
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20216321437
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20216421633
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20216521717
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20216621753
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20216721750
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20216821837
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202171121715
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20217122173
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202172621715
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202172721953
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20217282182
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202172921910
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202173021720
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202173121752
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20217421937
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20217521743
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202181122031
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-2021812202
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202181221950
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20218132205
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20218142218
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202181521952
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202181622118
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20218221816
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202183022336
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202191622432
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202191722049
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202191822546
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202191922036
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202192022219
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202192122645
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202192621851
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202192722215
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202192822050
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202193022211
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202193122459
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20219622210
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-2021972229
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202201122931
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202201323044
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202201921950
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-202202022734
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220203021748
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220209022121
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220210021913
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220212022325
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220213022110
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220214021635
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220215022550
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220216022224
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220217022146
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220218022735
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220219022334
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220220022427
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220221022454
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220222022224
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220223022848
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220224022833
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220227022529
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220228022605
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220301023335
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220302023312
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220303023541
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220305022735
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220306022754
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220307022304
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220308022132
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220309022441
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220310022859
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220315022536
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220316022902
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220317022557
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220323023253
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220324023116
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220325022909
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220326022848
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220327022954
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220328023349
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220329023345
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220330023352
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220331023254
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220401024216
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220402023243
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220403023234
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220404023441
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220405023238
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220406023303
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220407023218
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220408023622
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220409023050
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220410023309
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220411023616
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220412023410
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220413023505
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220414023749
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220415024634
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220416023406
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220417023605
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220418024512
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220419024359
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220426024700
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220427024951
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220428025925
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220429024638
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220430024336
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220501025208
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220502025029
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220503024657
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220504024625
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220505023756
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220506023454
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220507023751
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220508024231
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220509024521
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220510022953
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220511024315
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220512024113
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220513024945
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220514025553
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220515024439
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220516023848
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220517024505
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220525024352
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220526024803
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220527024541
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220528023512
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220529024825
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220530025009
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220531024457
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220601025619
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220602024936
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220603023939
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220604023645
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220605024123
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220606024253
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220607024221
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220608024714
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220609024358
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220610024824
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220611024121
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220612024701
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220613024651
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220623347
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220723117
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220823130
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.0.0-nightly-20220923026
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.10.0
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.10.1
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.10.2
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.10.3
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.10.4
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.10.5
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.10.6
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.10.7
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.10.8
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.1.1
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.11.0
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.11.1
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.11.10
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.11.11
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.11.12
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.11.12-next.0
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.11.13
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.11.14
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.11.14-next.0
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.11.14-next.1
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.11.14-next.2
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.11.15
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.11.15-next.0
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.11.15-next.1
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.11.16
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+  - purl: pkg:npm/%40backstage/techdocs-common@0.11.16-next.0
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.11.16-next.1
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.11.16-next.2
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.11.2
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.11.3
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.11.4
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.11.4-next.0
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.11.5
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.11.6
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.11.6-next.0
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.11.7
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.11.7-next.0
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.11.8
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.11.9
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.15.14
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+  - purl: pkg:npm/%40backstage/techdocs-common@0.2.0
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.3.0
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.3.1
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.3.2
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.3.3
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.3.4
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.3.5
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.3.6
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.3.7
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.4.0
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.4.1
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.4.2
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.4.3
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.4.4
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.4.5
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.5.0
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.5.1
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.6.0
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.6.1
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.6.2
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+      - VCID-xn97-8m9j-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.6.3
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-a26s-4esf-aaah
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities:
+      - VCID-xn97-8m9j-aaag
+  - purl: pkg:npm/%40backstage/techdocs-common@0.6.4
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities:
+      - VCID-a26s-4esf-aaah
+  - purl: pkg:npm/%40backstage/techdocs-common@0.6.5
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.6.6
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.6.7
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.6.8
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.7.0
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.7.1
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.8.0
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.8.1
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/techdocs-common@0.9.0
+    affected_by_vulnerabilities:
+      - VCID-6z4z-p697-aaak
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []

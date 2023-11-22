@@ -1,0 +1,11 @@
+package: pkg:npm/windows-iedriver
+versions:
+  - purl: pkg:npm/windows-iedriver@0.0.0-alpha
+    affected_by_vulnerabilities:
+      - VCID-64nh-b7tf-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/windows-iedriver@2.48.0
+    affected_by_vulnerabilities:
+      - VCID-4jqh-qv2m-aaak
+      - VCID-64nh-b7tf-aaak
+    fixing_vulnerabilities: []

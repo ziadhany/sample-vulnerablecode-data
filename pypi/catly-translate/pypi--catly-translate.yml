@@ -1,0 +1,18 @@
+package: pkg:pypi/catly-translate
+versions:
+  - purl: pkg:pypi/catly-translate@0.0.3
+    affected_by_vulnerabilities:
+      - VCID-tcbx-bm2u-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/catly-translate@0.0.4
+    affected_by_vulnerabilities:
+      - VCID-tcbx-bm2u-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/catly-translate@0.0.5
+    affected_by_vulnerabilities:
+      - VCID-tcbx-bm2u-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/catly-translate@0.0.6
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-tcbx-bm2u-aaaq

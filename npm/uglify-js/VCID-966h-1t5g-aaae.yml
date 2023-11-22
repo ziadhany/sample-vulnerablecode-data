@@ -1,0 +1,21 @@
+vulnerability_id: VCID-966h-1t5g-aaae
+aliases:
+  - CVE-2022-37598
+summary: |
+  Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution')
+  Prototype pollution vulnerability in function DEFNODE in ast.js in mishoo UglifyJS 3.13.2 via the name variable in ast.js.
+severities: []
+references:
+  - id: 1462653
+    url: https://github.com/mishoo/UglifyJS/blob/352a944868b09c9ce3121a49d4a0bf0afe370a35/lib/ast.js#L46
+    reference_id:
+  - id: 1462654
+    url: https://github.com/mishoo/UglifyJS/blob/352a944868b09c9ce3121a49d4a0bf0afe370a35/lib/ast.js#L79
+    reference_id:
+  - id: 1462652
+    url: https://github.com/mishoo/UglifyJS/issues/5699
+    reference_id:
+  - id: 1462651
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-37598
+    reference_id: CVE-2022-37598
+weaknesses: []

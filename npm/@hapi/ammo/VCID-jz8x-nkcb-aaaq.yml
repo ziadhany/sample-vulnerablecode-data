@@ -1,0 +1,21 @@
+vulnerability_id: VCID-jz8x-nkcb-aaaq
+aliases:
+  - GHSA-gjph-xf5q-6mfq
+  - GMS-2020-25
+summary: |
+  Denial of Service in @hapi/ammo
+  Versions of `@hapi/ammo` are vulnerable to Denial of Service. The Range HTTP header parser has a vulnerability which will cause the function to throw a system error if the header is set to an invalid value. Because hapi is not expecting the function to ever throw, the error is thrown all the way up the stack. If no unhandled exception handler is available, the application will exist, allowing an attacker to shut down services.
+severities:
+  - id: 704935
+    reference_id: 31477
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 31476
+    url: https://www.npmjs.com/advisories/1474
+    reference_id:
+  - id: 31477
+    url: https://github.com/advisories/GHSA-gjph-xf5q-6mfq
+    reference_id: GHSA-gjph-xf5q-6mfq
+weaknesses: []

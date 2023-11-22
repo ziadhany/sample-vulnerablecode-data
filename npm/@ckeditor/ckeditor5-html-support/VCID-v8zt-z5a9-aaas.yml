@@ -1,0 +1,63 @@
+vulnerability_id: VCID-v8zt-z5a9-aaas
+aliases:
+  - CVE-2022-31175
+  - GHSA-42wq-rch8-6f6j
+summary: CKEditor 5 is a JavaScript rich text editor. A cross-site scripting vulnerability has
+  been discovered affecting three optional CKEditor 5's packages in versions prior to 35.0.1.
+  The vulnerability allowed to trigger a JavaScript code after fulfilling special conditions.
+  The affected packages are `@ckeditor/ckeditor5-markdown-gfm`, `@ckeditor/ckeditor5-html-support`,
+  and `@ckeditor/ckeditor5-html-embed`. The specific conditions are 1) Using one of the affected
+  packages. In case of `ckeditor5-html-support` and `ckeditor5-html-embed`, additionally, it
+  was required to use a configuration that allows unsafe markup inside the editor. 2) Destroying
+  the editor instance and 3) Initializing the editor on an element and using an element other
+  than `<textarea>` as a base. The root cause of the issue was a mechanism responsible for updating
+  the source element with the markup coming from the CKEditor 5 data pipeline after destroying
+  the editor. This vulnerability might affect a small percent of integrators that depend on
+  dynamic editor initialization/destroy and use Markdown, General HTML Support or HTML embed
+  features. The problem has been recognized and patched. The fix is available in version 35.0.1.
+  There are no known workarounds for this issue.
+severities:
+  - id: 642194
+    reference_id: 1181858
+    scoring_system: cvssv3
+    value: '4.7'
+    scoring_elements: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:L/A:N
+  - id: 707146
+    reference_id: 1415749
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 707145
+    reference_id: 1415748
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 1181854
+    url: https://ckeditor.com/docs/ckeditor5/latest/features/general-html-support.html
+    reference_id:
+  - id: 1181855
+    url: https://ckeditor.com/docs/ckeditor5/latest/features/html-embed.html
+    reference_id:
+  - id: 1181856
+    url: https://ckeditor.com/docs/ckeditor5/latest/features/markdown.html
+    reference_id:
+  - id: 1182897
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:ckeditor:ckeditor5-html-embed:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:ckeditor:ckeditor5-html-embed:*:*:*:*:*:node.js:*:*
+  - id: 1182898
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:ckeditor:ckeditor5-html-support:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:ckeditor:ckeditor5-html-support:*:*:*:*:*:node.js:*:*
+  - id: 864107
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:ckeditor:ckeditor5-markdown-gfm:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:ckeditor:ckeditor5-markdown-gfm:*:*:*:*:*:node.js:*:*
+  - id: 1181858
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-31175
+    reference_id: CVE-2022-31175
+  - id: 1415749
+    url: https://github.com/advisories/GHSA-42wq-rch8-6f6j
+    reference_id: GHSA-42wq-rch8-6f6j
+  - id: 1415748
+    url: https://github.com/ckeditor/ckeditor5/security/advisories/GHSA-42wq-rch8-6f6j
+    reference_id: GHSA-42wq-rch8-6f6j
+weaknesses: []

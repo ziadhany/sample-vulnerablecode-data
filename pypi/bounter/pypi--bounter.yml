@@ -1,0 +1,18 @@
+package: pkg:pypi/bounter
+versions:
+  - purl: pkg:pypi/bounter@1.1
+    affected_by_vulnerabilities:
+      - VCID-3hva-n9h6-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bounter@1.1.0
+    affected_by_vulnerabilities:
+      - VCID-3hva-n9h6-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bounter@1.10
+    affected_by_vulnerabilities:
+      - VCID-3hva-n9h6-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/bounter@1.1.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-3hva-n9h6-aaap

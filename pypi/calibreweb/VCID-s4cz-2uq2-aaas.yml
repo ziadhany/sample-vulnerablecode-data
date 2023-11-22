@@ -1,0 +1,45 @@
+vulnerability_id: VCID-s4cz-2uq2-aaas
+aliases:
+  - CVE-2022-0339
+  - GHSA-4w8p-x6g8-fv64
+  - PYSEC-2022-23
+summary: Server-Side Request Forgery (SSRF) in Pypi calibreweb prior to 0.6.16.
+severities:
+  - id: 575746
+    reference_id: 21395
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 575744
+    reference_id: 21395
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 3600
+    reference_id: 21398
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 21397
+    url: https://github.com/janeczku/calibre-web/commit/35f6f4c727c887f8f3607fe3233dbc1980d15020
+    reference_id:
+  - id: 8967
+    url: https://github.com/janeczku/calibre-web/commit/3b216bfa07ec7992eff03e55d61732af6df9bb92
+    reference_id:
+  - id: 21396
+    url: https://github.com/janeczku/calibre-web/releases/tag/0.6.16
+    reference_id:
+  - id: 8968
+    url: https://huntr.dev/bounties/499688c4-6ac4-4047-a868-7922c3eab369
+    reference_id:
+  - id: 873600
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:calibre-web_project:calibre-web:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:calibre-web_project:calibre-web:*:*:*:*:*:*:*:*
+  - id: 21395
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-0339
+    reference_id: CVE-2022-0339
+  - id: 21398
+    url: https://github.com/advisories/GHSA-4w8p-x6g8-fv64
+    reference_id: GHSA-4w8p-x6g8-fv64
+weaknesses: []

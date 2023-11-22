@@ -1,0 +1,110 @@
+package: pkg:maven/org.apache.cxf/cxf-parent
+versions:
+  - purl: pkg:maven/org.apache.cxf/cxf-parent@2.5.0
+    affected_by_vulnerabilities:
+      - VCID-su1r-fv61-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-parent@2.5.1
+    affected_by_vulnerabilities:
+      - VCID-su1r-fv61-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-parent@2.5.10
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-su1r-fv61-aaap
+  - purl: pkg:maven/org.apache.cxf/cxf-parent@2.5.2
+    affected_by_vulnerabilities:
+      - VCID-su1r-fv61-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-parent@2.5.3
+    affected_by_vulnerabilities:
+      - VCID-su1r-fv61-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-parent@2.5.4
+    affected_by_vulnerabilities:
+      - VCID-su1r-fv61-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-parent@2.5.5
+    affected_by_vulnerabilities:
+      - VCID-su1r-fv61-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-parent@2.5.6
+    affected_by_vulnerabilities:
+      - VCID-su1r-fv61-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-parent@2.5.7
+    affected_by_vulnerabilities:
+      - VCID-su1r-fv61-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-parent@2.5.8
+    affected_by_vulnerabilities:
+      - VCID-su1r-fv61-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-parent@2.5.9
+    affected_by_vulnerabilities:
+      - VCID-su1r-fv61-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-parent@2.5-alpha0
+    affected_by_vulnerabilities:
+      - VCID-su1r-fv61-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-parent@2.6.0
+    affected_by_vulnerabilities:
+      - VCID-su1r-fv61-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-parent@2.6.1
+    affected_by_vulnerabilities:
+      - VCID-su1r-fv61-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-parent@2.6.2
+    affected_by_vulnerabilities:
+      - VCID-su1r-fv61-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-parent@2.6.3
+    affected_by_vulnerabilities:
+      - VCID-su1r-fv61-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-parent@2.6.4
+    affected_by_vulnerabilities:
+      - VCID-su1r-fv61-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-parent@2.6.5
+    affected_by_vulnerabilities:
+      - VCID-su1r-fv61-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-parent@2.6.6
+    affected_by_vulnerabilities:
+      - VCID-su1r-fv61-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-parent@2.6.7
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-su1r-fv61-aaap
+  - purl: pkg:maven/org.apache.cxf/cxf-parent@2.6-alpha0
+    affected_by_vulnerabilities:
+      - VCID-su1r-fv61-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-parent@2.7.0
+    affected_by_vulnerabilities:
+      - VCID-su1r-fv61-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-parent@2.7.1
+    affected_by_vulnerabilities:
+      - VCID-su1r-fv61-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-parent@2.7.2
+    affected_by_vulnerabilities:
+      - VCID-su1r-fv61-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-parent@2.7.3
+    affected_by_vulnerabilities:
+      - VCID-su1r-fv61-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-parent@2.7.4
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-su1r-fv61-aaap
+  - purl: pkg:maven/org.apache.cxf/cxf-parent@2.7-alpha0
+    affected_by_vulnerabilities:
+      - VCID-su1r-fv61-aaap
+    fixing_vulnerabilities: []

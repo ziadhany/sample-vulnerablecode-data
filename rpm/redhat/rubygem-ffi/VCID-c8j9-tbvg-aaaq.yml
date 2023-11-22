@@ -1,0 +1,387 @@
+vulnerability_id: VCID-c8j9-tbvg-aaaq
+aliases:
+  - CVE-2018-10237
+  - GHSA-mvr2-9pj6-7w5j
+summary: Denial of Service in Google Guava
+severities:
+  - id: 616459
+    reference_id: 936084
+    scoring_system: cvssv3
+    value: '5.9'
+    scoring_elements: CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 697874
+    reference_id: 495
+    scoring_system: generic_textual
+    value: Medium
+    scoring_elements:
+  - id: 700199
+    reference_id: 277
+    scoring_system: generic_textual
+    value: Medium
+    scoring_elements:
+  - id: 696536
+    reference_id: 406
+    scoring_system: generic_textual
+    value: Medium
+    scoring_elements:
+  - id: 701265
+    reference_id: 387
+    scoring_system: generic_textual
+    value: Medium
+    scoring_elements:
+  - id: 616457
+    reference_id: 936082
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 309577
+    reference_id: 11136
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:N/A:P
+  - id: 309575
+    reference_id: 11136
+    scoring_system: cvssv3
+    value: '5.9'
+    scoring_elements: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 1102
+    reference_id: 11168
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 615475
+    reference_id: 935367
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 615476
+    reference_id: 935368
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 615474
+    reference_id: 935366
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 615473
+    reference_id: 935365
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 616458
+    reference_id: 936083
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 614938
+    reference_id: 934979
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 615082
+    reference_id: 935087
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 615081
+    reference_id: 935086
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 615080
+    reference_id: 935085
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 615078
+    reference_id: 935083
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49936
+    reference_id: 174399
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 64825
+    reference_id: '193550'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 64817
+    reference_id: '193542'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 615608
+    reference_id: 935459
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 936084
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2018-10237.json
+    reference_id:
+  - id: 11138
+    url: https://groups.google.com/d/topic/guava-announce/xqWALw4W1vs/discussion
+    reference_id:
+  - id: 26389
+    url: https://groups.google.com/forum/#!topic/guava-announce/xqWALw4W1vs/discussion
+    reference_id:
+  - id: 10988
+    url: https://lists.apache.org/thread.html/053d9ce4d579b02203db18545fee5e33f35f2932885459b74d1e4272@%3Cissues.activemq.apache.org%3E
+    reference_id:
+  - id: 11146
+    url: https://lists.apache.org/thread.html/19fa48533bc7ea1accf6b12746a74ed888ae6e49a5cf81ae4f807495@%3Ccommon-dev.hadoop.apache.org%3E
+    reference_id:
+  - id: 11147
+    url: https://lists.apache.org/thread.html/33c6bccfeb7adf644d4d79894ca8f09370be6ed4b20632c2e228d085@%3Ccommits.cassandra.apache.org%3E
+    reference_id:
+  - id: 11148
+    url: https://lists.apache.org/thread.html/3d5dbdd92ac9ceaef90e40f78599f9109f2f345252e0ac9d98e7e084@%3Cgitbox.activemq.apache.org%3E
+    reference_id:
+  - id: 11149
+    url: https://lists.apache.org/thread.html/3ddd79c801edd99c0978e83dbe2168ebd36fd42acfa5dac38fb03dd6@%3Cissues.activemq.apache.org%3E
+    reference_id:
+  - id: 3096
+    url: https://lists.apache.org/thread.html/519eb0fd45642dcecd9ff74cb3e71c20a4753f7d82e2f07864b5108f@%3Cdev.drill.apache.org%3E
+    reference_id:
+  - id: 3098
+    url: https://lists.apache.org/thread.html/b0656d359c7d40ec9f39c8cc61bca66802ef9a2a12ee199f5b0c1442@%3Cdev.drill.apache.org%3E
+    reference_id:
+  - id: 11150
+    url: https://lists.apache.org/thread.html/cc48fe770c45a74dc3b37ed0817393e0c96701fc49bc431ed922f3cc@%3Chdfs-dev.hadoop.apache.org%3E
+    reference_id:
+  - id: 3099
+    url: https://lists.apache.org/thread.html/f9bc3e55f4e28d1dcd1a69aae6d53e609a758e34d2869b4d798e13cc@%3Cissues.drill.apache.org%3E
+    reference_id:
+  - id: 10979
+    url: https://lists.apache.org/thread.html/ff8dcfe29377088ab655fda9d585dccd5b1f07fabd94ae84fd60a7f8@%3Ccommits.pulsar.apache.org%3E
+    reference_id:
+  - id: 5325
+    url: https://lists.apache.org/thread.html/r02e39d7beb32eebcdbb4b516e95f67d71c90d5d462b26f4078d21eeb@%3Cdev.flink.apache.org%3E
+    reference_id:
+  - id: 5324
+    url: https://lists.apache.org/thread.html/r02e39d7beb32eebcdbb4b516e95f67d71c90d5d462b26f4078d21eeb@%3Cuser.flink.apache.org%3E
+    reference_id:
+  - id: 11160
+    url: https://lists.apache.org/thread.html/r223bc776a077d0795786c38cbc6e7dd808fce1a9161b00ba9c0a5d55@%3Cissues.lucene.apache.org%3E
+    reference_id:
+  - id: 11166
+    url: https://lists.apache.org/thread.html/r22c8173b804cd4a420c43064ba4e363d0022aa421008b1989f7354d4@%3Cissues.flink.apache.org%3E
+    reference_id:
+  - id: 11151
+    url: https://lists.apache.org/thread.html/r27eb79a87a760335226dbfa6a7b7bffea539a535f8e80c41e482106d@%3Cdev.cxf.apache.org%3E
+    reference_id:
+  - id: 11152
+    url: https://lists.apache.org/thread.html/r2ea4e5e5aa8ad73b001a466c582899620961f47d77a40af712c1fdf9@%3Cdev.cxf.apache.org%3E
+    reference_id:
+  - id: 11167
+    url: https://lists.apache.org/thread.html/r30e7d7b6bfa630dacc41649a0e96dad75165d50474c1241068aa0f94@%3Cissues.storm.apache.org%3E
+    reference_id:
+  - id: '1945'
+    url: https://lists.apache.org/thread.html/r352e40ca9874d1beb4ad95403792adca7eb295e6bc3bd7b65fabcc21@%3Ccommits.samza.apache.org%3E
+    reference_id:
+  - id: 11153
+    url: https://lists.apache.org/thread.html/r38e2ab87528d3c904e7fac496e8fd766b9277656ff95b97d6b6b6dcd@%3Cdev.cxf.apache.org%3E
+    reference_id:
+  - id: 9915
+    url: https://lists.apache.org/thread.html/r3c3b33ee5bef0c67391d27a97cbfd89d44f328cf072b601b58d4e748@%3Ccommits.pulsar.apache.org%3E
+    reference_id:
+  - id: 11154
+    url: https://lists.apache.org/thread.html/r43491b25b2e5c368c34b106a82eff910a5cea3e90de82ad75cc16540@%3Cdev.syncope.apache.org%3E
+    reference_id:
+  - id: 11161
+    url: https://lists.apache.org/thread.html/r50fc0bcc734dd82e691d36d209258683141bfc0083739a77e56ad92d@%3Cdev.flink.apache.org%3E
+    reference_id:
+  - id: 9909
+    url: https://lists.apache.org/thread.html/r841c5e14e1b55281523ebcde661ece00b38a0569e00ef5e12bd5f6ba@%3Cissues.maven.apache.org%3E
+    reference_id:
+  - id: 11155
+    url: https://lists.apache.org/thread.html/r95799427b335807a4c54776908125c3e66597b65845ae50096d9278a@%3Cdev.cxf.apache.org%3E
+    reference_id:
+  - id: 11156
+    url: https://lists.apache.org/thread.html/ra0adb9653c7de9539b93cc8434143b655f753b9f60580ff260becb2b@%3Cusers.kafka.apache.org%3E
+    reference_id:
+  - id: 11162
+    url: https://lists.apache.org/thread.html/ra4f44016926dcb034b3b230280a18102062f94ae55b8a31bb92fed84@%3Cissues.lucene.apache.org%3E
+    reference_id:
+  - id: 11163
+    url: https://lists.apache.org/thread.html/ra8906723927aef2a599398c238eacfc845b74d812e0093ec2fc70a7d@%3Cissues.flink.apache.org%3E
+    reference_id:
+  - id: 11164
+    url: https://lists.apache.org/thread.html/rb3da574c34bc6bd37972d2266af3093b90d7e437460423c24f477919@%3Cissues.lucene.apache.org%3E
+    reference_id:
+  - id: 11157
+    url: https://lists.apache.org/thread.html/rc78f6e84f82cc662860e96526d8ab969f34dbe12dc560e22d9d147a3@%3Cdev.cxf.apache.org%3E
+    reference_id:
+  - id: 11158
+    url: https://lists.apache.org/thread.html/rc8467f357b943ceaa86f289f8bc1a5d1c7955b75d3bac1426f2d4ac1@%3Ccommon-dev.hadoop.apache.org%3E
+    reference_id:
+  - id: 9917
+    url: https://lists.apache.org/thread.html/rd01f5ff0164c468ec7abc96ff7646cea3cce6378da2e4aa29c6bcb95@%3Cgithub.arrow.apache.org%3E
+    reference_id:
+  - id: 11159
+    url: https://lists.apache.org/thread.html/rd0c8ec6e044aa2958dd0549ebf8ecead7f5968c9474ba73a504161b2@%3Cdev.cxf.apache.org%3E
+    reference_id:
+  - id: 11165
+    url: https://lists.apache.org/thread.html/rdc56c15693c236e31e1e95f847b8e5e74fc0a05741d47488e7fc8c45@%3Cissues.flink.apache.org%3E
+    reference_id:
+  - id: 946720
+    url: https://security.netapp.com/advisory/ntap-20220629-0008/
+    reference_id:
+  - id: 495
+    url: https://www.oracle.com/security-alerts/cpuapr2020.html
+    reference_id:
+  - id: 277
+    url: https://www.oracle.com/security-alerts/cpujan2021.html
+    reference_id:
+  - id: 406
+    url: https://www.oracle.com/security-alerts/cpujul2020.html
+    reference_id:
+  - id: 387
+    url: https://www.oracle.com/security-alerts/cpuoct2021.html
+    reference_id:
+  - id: 11139
+    url: http://www.securitytracker.com/id/1041707
+    reference_id:
+  - id: 936082
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1573391
+    reference_id: 1573391
+  - id: 723332
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:google:guava:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:google:guava:*:*:*:*:*:*:*:*
+  - id: 723333
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:banking_payments:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:banking_payments:*:*:*:*:*:*:*:*
+  - id: 723334
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:communications_ip_service_activator:7.3.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:communications_ip_service_activator:7.3.0:*:*:*:*:*:*:*
+  - id: 723335
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:communications_ip_service_activator:7.4.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:communications_ip_service_activator:7.4.0:*:*:*:*:*:*:*
+  - id: 723336
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:customer_management_and_segmentation_foundation:18.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:customer_management_and_segmentation_foundation:18.0:*:*:*:*:*:*:*
+  - id: 169374
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:database_server:12.2.0.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:database_server:12.2.0.1:*:*:*:*:*:*:*
+  - id: 170459
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:database_server:18c:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:database_server:18c:*:*:*:*:*:*:*
+  - id: 170460
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:database_server:19c:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:database_server:19c:*:*:*:*:*:*:*
+  - id: 170025
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:flexcube_investor_servicing:12.1.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:flexcube_investor_servicing:12.1.0:*:*:*:*:*:*:*
+  - id: 170026
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:flexcube_investor_servicing:12.3.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:flexcube_investor_servicing:12.3.0:*:*:*:*:*:*:*
+  - id: 170027
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:flexcube_investor_servicing:12.4.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:flexcube_investor_servicing:12.4.0:*:*:*:*:*:*:*
+  - id: 702758
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:flexcube_investor_servicing:14.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:flexcube_investor_servicing:14.0.0:*:*:*:*:*:*:*
+  - id: 723337
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:flexcube_investor_servicing:14.1.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:flexcube_investor_servicing:14.1.0:*:*:*:*:*:*:*
+  - id: 698774
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:flexcube_private_banking:12.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:flexcube_private_banking:12.0.0:*:*:*:*:*:*:*
+  - id: 698775
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:flexcube_private_banking:12.1.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:flexcube_private_banking:12.1.0:*:*:*:*:*:*:*
+  - id: 624562
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:retail_integration_bus:15.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:retail_integration_bus:15.0:*:*:*:*:*:*:*
+  - id: 702823
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:retail_integration_bus:16.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:retail_integration_bus:16.0:*:*:*:*:*:*:*
+  - id: 670061
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:retail_xstore_point_of_service:15.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:retail_xstore_point_of_service:15.0:*:*:*:*:*:*:*
+  - id: 710081
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:retail_xstore_point_of_service:16.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:retail_xstore_point_of_service:16.0:*:*:*:*:*:*:*
+  - id: 710082
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:retail_xstore_point_of_service:17.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:retail_xstore_point_of_service:17.0:*:*:*:*:*:*:*
+  - id: 642214
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:retail_xstore_point_of_service:7.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:retail_xstore_point_of_service:7.1:*:*:*:*:*:*:*
+  - id: 169607
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:weblogic_server:12.2.1.3.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:weblogic_server:12.2.1.3.0:*:*:*:*:*:*:*
+  - id: 625785
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift_container_platform:3.11:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift_container_platform:3.11:*:*:*:*:*:*:*
+  - id: 637842
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openstack:13:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:openstack:13:*:*:*:*:*:*:*
+  - id: 670917
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:satellite:6.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:satellite:6.4:*:*:*:*:*:*:*
+  - id: 684851
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:satellite_capsule:6.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:satellite_capsule:6.4:*:*:*:*:*:*:*
+  - id: 723338
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:virtualization:4.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:virtualization:4.2:*:*:*:*:*:*:*
+  - id: 637845
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:virtualization_host:4.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:virtualization_host:4.0:*:*:*:*:*:*:*
+  - id: 11137
+    url: https://github.com/google/guava/wiki/CVE-2018-10237
+    reference_id: CVE-2018-10237
+  - id: 11136
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-10237
+    reference_id: CVE-2018-10237
+  - id: 11168
+    url: https://github.com/advisories/GHSA-mvr2-9pj6-7w5j
+    reference_id: GHSA-mvr2-9pj6-7w5j
+  - id: 935367
+    url: https://access.redhat.com/errata/RHSA-2018:2423
+    reference_id: RHSA-2018:2423
+  - id: 935368
+    url: https://access.redhat.com/errata/RHSA-2018:2424
+    reference_id: RHSA-2018:2424
+  - id: 935366
+    url: https://access.redhat.com/errata/RHSA-2018:2425
+    reference_id: RHSA-2018:2425
+  - id: 935365
+    url: https://access.redhat.com/errata/RHSA-2018:2428
+    reference_id: RHSA-2018:2428
+  - id: 936083
+    url: https://access.redhat.com/errata/RHSA-2018:2598
+    reference_id: RHSA-2018:2598
+  - id: 934979
+    url: https://access.redhat.com/errata/RHSA-2018:2643
+    reference_id: RHSA-2018:2643
+  - id: 935087
+    url: https://access.redhat.com/errata/RHSA-2018:2740
+    reference_id: RHSA-2018:2740
+  - id: 935086
+    url: https://access.redhat.com/errata/RHSA-2018:2741
+    reference_id: RHSA-2018:2741
+  - id: 935085
+    url: https://access.redhat.com/errata/RHSA-2018:2742
+    reference_id: RHSA-2018:2742
+  - id: 935083
+    url: https://access.redhat.com/errata/RHSA-2018:2743
+    reference_id: RHSA-2018:2743
+  - id: 174399
+    url: https://access.redhat.com/errata/RHSA-2018:2927
+    reference_id: RHSA-2018:2927
+  - id: '193550'
+    url: https://access.redhat.com/errata/RHSA-2019:2858
+    reference_id: RHSA-2019:2858
+  - id: '193542'
+    url: https://access.redhat.com/errata/RHSA-2019:3149
+    reference_id: RHSA-2019:3149
+  - id: 935459
+    url: https://access.redhat.com/errata/RHSA-2020:2562
+    reference_id: RHSA-2020:2562
+weaknesses: []

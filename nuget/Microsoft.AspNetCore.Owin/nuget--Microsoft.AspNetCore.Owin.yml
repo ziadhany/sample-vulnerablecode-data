@@ -1,0 +1,182 @@
+package: pkg:nuget/Microsoft.AspNetCore.Owin
+versions:
+  - purl: pkg:nuget/Microsoft.AspNetCore.Owin@0.0.1-alpha
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Owin@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Owin@1.0.0-rc2-final
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Owin@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Owin@1.0.2
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Owin@1.0.3
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Owin@1.0.4
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Owin@1.1.0
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Owin@1.1.0-preview1-final
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Owin@1.1.1
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Owin@1.1.2
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Owin@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Owin@2.0.0-preview1-final
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Owin@2.0.0-preview2-final
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Owin@2.0.1
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Owin@2.0.2
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Owin@2.0.3
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Owin@2.1.0
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Owin@2.1.0-preview1-final
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Owin@2.1.0-preview2-final
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Owin@2.1.0-rc1-final
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Owin@2.1.1
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Owin@2.1.21
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Owin@2.1.22
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+  - purl: pkg:nuget/Microsoft.AspNetCore.Owin@2.2.0
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Owin@2.2.0-preview1-35029
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Owin@2.2.0-preview2-35157
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Owin@2.2.0-preview3-35497
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Owin@3.0.0
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Owin@3.0.0-preview-18579-0056
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Owin@3.0.0-preview-19075-0444
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Owin@3.0.0-preview3-19153-02
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Owin@3.0.0-preview4-19216-03
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Owin@3.0.0-preview5-19227-01
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Owin@3.0.2
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Owin@3.0.3
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Owin@3.1.0
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Owin@3.1.1
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Owin@3.1.2
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Owin@3.1.3
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Owin@3.1.4
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Owin@3.1.5
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Owin@3.1.6
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Owin@3.1.7
+    affected_by_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Owin@3.1.8
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-rcjn-7ufv-aaag

@@ -1,0 +1,146 @@
+package: pkg:npm/shave
+versions:
+  - purl: pkg:npm/shave@0.0.7
+    affected_by_vulnerabilities:
+      - VCID-gvzf-365z-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/shave@0.0.8
+    affected_by_vulnerabilities:
+      - VCID-gvzf-365z-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/shave@0.1.0
+    affected_by_vulnerabilities:
+      - VCID-gvzf-365z-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/shave@0.1.1
+    affected_by_vulnerabilities:
+      - VCID-gvzf-365z-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/shave@0.1.2
+    affected_by_vulnerabilities:
+      - VCID-gvzf-365z-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/shave@0.1.3
+    affected_by_vulnerabilities:
+      - VCID-gvzf-365z-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/shave@0.1.4
+    affected_by_vulnerabilities:
+      - VCID-gvzf-365z-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/shave@0.1.5
+    affected_by_vulnerabilities:
+      - VCID-gvzf-365z-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/shave@0.1.6
+    affected_by_vulnerabilities:
+      - VCID-gvzf-365z-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/shave@0.1.7
+    affected_by_vulnerabilities:
+      - VCID-gvzf-365z-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/shave@0.1.8
+    affected_by_vulnerabilities:
+      - VCID-gvzf-365z-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/shave@0.2.0
+    affected_by_vulnerabilities:
+      - VCID-gvzf-365z-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/shave@0.2.1
+    affected_by_vulnerabilities:
+      - VCID-gvzf-365z-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/shave@0.2.2
+    affected_by_vulnerabilities:
+      - VCID-gvzf-365z-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/shave@0.2.3
+    affected_by_vulnerabilities:
+      - VCID-gvzf-365z-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/shave@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-gvzf-365z-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/shave@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-gvzf-365z-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/shave@1.0.2
+    affected_by_vulnerabilities:
+      - VCID-gvzf-365z-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/shave@1.0.3
+    affected_by_vulnerabilities:
+      - VCID-gvzf-365z-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/shave@1.0.4
+    affected_by_vulnerabilities:
+      - VCID-gvzf-365z-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/shave@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-gvzf-365z-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/shave@2.0.2
+    affected_by_vulnerabilities:
+      - VCID-gvzf-365z-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/shave@2.0.3
+    affected_by_vulnerabilities:
+      - VCID-gvzf-365z-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/shave@2.0.4
+    affected_by_vulnerabilities:
+      - VCID-gvzf-365z-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/shave@2.1.2
+    affected_by_vulnerabilities:
+      - VCID-gvzf-365z-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/shave@2.1.3
+    affected_by_vulnerabilities:
+      - VCID-gvzf-365z-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/shave@2.1.7
+    affected_by_vulnerabilities:
+      - VCID-gvzf-365z-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/shave@2.2.0
+    affected_by_vulnerabilities:
+      - VCID-gvzf-365z-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/shave@2.2.1
+    affected_by_vulnerabilities:
+      - VCID-gvzf-365z-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/shave@2.2.2
+    affected_by_vulnerabilities:
+      - VCID-gvzf-365z-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/shave@2.3.0
+    affected_by_vulnerabilities:
+      - VCID-gvzf-365z-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/shave@2.4.0
+    affected_by_vulnerabilities:
+      - VCID-gvzf-365z-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/shave@2.5.0
+    affected_by_vulnerabilities:
+      - VCID-gvzf-365z-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/shave@2.5.1
+    affected_by_vulnerabilities:
+      - VCID-gvzf-365z-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/shave@2.5.2
+    affected_by_vulnerabilities:
+      - VCID-gvzf-365z-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/shave@2.5.3
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-gvzf-365z-aaaa

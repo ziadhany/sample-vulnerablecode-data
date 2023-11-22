@@ -1,0 +1,14 @@
+package: pkg:maven/io.jenkins.docker/docker-plugin
+versions:
+  - purl: pkg:maven/io.jenkins.docker/docker-plugin@1.1.6
+    affected_by_vulnerabilities:
+      - VCID-crhb-2bsf-aaap
+      - VCID-nakf-ck1s-aaas
+      - VCID-thu1-3yhg-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/io.jenkins.docker/docker-plugin@1.1.7
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-crhb-2bsf-aaap
+      - VCID-nakf-ck1s-aaas
+      - VCID-thu1-3yhg-aaab

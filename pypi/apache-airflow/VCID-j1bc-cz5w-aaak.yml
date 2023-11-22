@@ -1,0 +1,29 @@
+vulnerability_id: VCID-j1bc-cz5w-aaak
+aliases:
+  - CVE-2022-38054
+  - GHSA-5ff8-7639-6v6g
+summary: In Apache Airflow versions 2.2.4 through 2.3.3, the `database` webserver session backend
+  was susceptible to session fixation.
+severities:
+  - id: 647560
+    reference_id: 1416886
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 1416885
+    url: https://github.com/pypa/advisory-database/tree/main/vulns/apache-airflow/PYSEC-2022-263.yaml
+    reference_id:
+  - id: 1415703
+    url: https://lists.apache.org/thread/rsd3h89xdp16rg0ltovx3m7q3ypkxsbb
+    reference_id:
+  - id: 1415702
+    url: http://www.openwall.com/lists/oss-security/2022/09/02/1
+    reference_id:
+  - id: 1415704
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-38054
+    reference_id: CVE-2022-38054
+  - id: 1416886
+    url: https://github.com/advisories/GHSA-5ff8-7639-6v6g
+    reference_id: GHSA-5ff8-7639-6v6g
+weaknesses: []

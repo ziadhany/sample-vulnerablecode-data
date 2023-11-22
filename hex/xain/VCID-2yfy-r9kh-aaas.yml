@@ -1,0 +1,29 @@
+vulnerability_id: VCID-2yfy-r9kh-aaas
+aliases:
+  - CVE-2018-20302
+summary: An XSS issue was discovered in Steve Pallen Xain before 0.6.2 via the order parameter.
+severities:
+  - id: 341380
+    reference_id: 748155
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+  - id: 341378
+    reference_id: 748155
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+references:
+  - id: 748153
+    url: https://github.com/dependabot/elixir-security-advisories/blob/master/packages/xain/2018-09-03.yml
+    reference_id:
+  - id: 748154
+    url: https://github.com/smpallen99/xain/issues/18
+    reference_id:
+  - id: 748156
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:emetrotel:xain:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:emetrotel:xain:*:*:*:*:*:*:*:*
+  - id: 748155
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-20302
+    reference_id: CVE-2018-20302
+weaknesses: []

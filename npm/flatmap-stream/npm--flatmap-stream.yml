@@ -1,0 +1,11 @@
+package: pkg:npm/flatmap-stream
+versions:
+  - purl: pkg:npm/flatmap-stream@0.0.0
+    affected_by_vulnerabilities:
+      - VCID-g1yu-ztjg-aaaa
+      - VCID-pr13-trdz-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/flatmap-stream@0.1.1
+    affected_by_vulnerabilities:
+      - VCID-ges6-5a6x-aaae
+    fixing_vulnerabilities: []

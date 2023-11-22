@@ -1,0 +1,38 @@
+vulnerability_id: VCID-xn2m-c7wp-aaas
+aliases:
+  - CVE-2018-1000855
+  - GHSA-c289-47qf-rvrr
+summary: Low severity vulnerability that affects easymon
+severities:
+  - id: 308618
+    reference_id: 29116
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+  - id: 308616
+    reference_id: 29116
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+  - id: 5167
+    reference_id: 29119
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 29117
+    url: https://github.com/basecamp/easymon/issues/26
+    reference_id:
+  - id: 29118
+    url: https://github.com/basecamp/easymon/pull/25
+    reference_id:
+  - id: 722575
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:basecamp:easymon:*:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:basecamp:easymon:*:*:*:*:*:ruby:*:*
+  - id: 29116
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-1000855
+    reference_id: CVE-2018-1000855
+  - id: 29119
+    url: https://github.com/advisories/GHSA-c289-47qf-rvrr
+    reference_id: GHSA-c289-47qf-rvrr
+weaknesses: []

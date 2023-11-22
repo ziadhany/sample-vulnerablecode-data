@@ -1,0 +1,52 @@
+vulnerability_id: VCID-rx6m-rpja-aaah
+aliases:
+  - CVE-2019-7614
+  - GHSA-jqm6-m3j3-8gg9
+summary: 'CVE-2019-7614 elasticsearch: Race condition in response headers on systems with multiple
+  submitting requests'
+severities:
+  - id: 76997
+    reference_id: 207909
+    scoring_system: cvssv3
+    value: '2.0'
+    scoring_elements: CVSS:3.0/AV:A/AC:H/PR:H/UI:N/S:U/C:L/I:N/A:N
+  - id: 76996
+    reference_id: 207908
+    scoring_system: rhbs
+    value: low
+    scoring_elements:
+  - id: 416302
+    reference_id: 804048
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:N/A:N
+  - id: 416300
+    reference_id: 804048
+    scoring_system: cvssv3
+    value: '5.9'
+    scoring_elements: CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
+  - id: 630457
+    reference_id: 946605
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 207909
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2019-7614.json
+    reference_id:
+  - id: 1681
+    url: https://www.elastic.co/community/security/
+    reference_id:
+  - id: 207908
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1747240
+    reference_id: 1747240
+  - id: 159755
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:elastic:elasticsearch:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:elastic:elasticsearch:*:*:*:*:*:*:*:*
+  - id: 804048
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-7614
+    reference_id: CVE-2019-7614
+  - id: 946605
+    url: https://github.com/advisories/GHSA-jqm6-m3j3-8gg9
+    reference_id: GHSA-jqm6-m3j3-8gg9
+weaknesses: []

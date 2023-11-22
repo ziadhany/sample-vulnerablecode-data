@@ -1,0 +1,35 @@
+package: pkg:rpm/redhat/tcmu-runner
+versions:
+  - purl: pkg:rpm/redhat/tcmu-runner@1.2.0-16?arch=el7rhgs
+    affected_by_vulnerabilities:
+      - VCID-8yb2-aphh-aaaa
+      - VCID-bd3c-58k9-aaae
+      - VCID-j2d3-1a93-aaas
+      - VCID-y6xf-pd19-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/tcmu-runner@1.2.0-32.2?arch=el7rhgs
+    affected_by_vulnerabilities:
+      - VCID-x6j6-8yde-aaah
+      - VCID-y6z6-x6f8-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/tcmu-runner@1.2.1-0.2.20170104.git3d33566?arch=el7cp
+    affected_by_vulnerabilities:
+      - VCID-hna4-rfjb-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/tcmu-runner@1.4.0-3?arch=el7cp
+    affected_by_vulnerabilities:
+      - VCID-3ump-wuym-aaag
+      - VCID-7sn5-sxp2-aaar
+      - VCID-gbsq-myef-aaaa
+      - VCID-td78-zefu-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/tcmu-runner@1.5.2-2?arch=el7cp
+    affected_by_vulnerabilities:
+      - VCID-3ump-wuym-aaag
+      - VCID-cjnx-9jwd-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/tcmu-runner@1.5.2-3?arch=el8cp
+    affected_by_vulnerabilities:
+      - VCID-3ump-wuym-aaag
+      - VCID-cjnx-9jwd-aaac
+    fixing_vulnerabilities: []

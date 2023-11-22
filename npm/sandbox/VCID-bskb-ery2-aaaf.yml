@@ -1,0 +1,20 @@
+vulnerability_id: VCID-bskb-ery2-aaaf
+aliases:
+  - GHSA-gc25-3vc5-2jf9
+  - GMS-2020-495
+summary: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+  in sandbox.
+severities:
+  - id: 704928
+    reference_id: 36099
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 36098
+    url: https://www.npmjs.com/advisories/1318
+    reference_id:
+  - id: 36099
+    url: https://github.com/advisories/GHSA-gc25-3vc5-2jf9
+    reference_id: GHSA-gc25-3vc5-2jf9
+weaknesses: []

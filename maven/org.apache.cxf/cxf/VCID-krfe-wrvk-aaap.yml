@@ -1,0 +1,189 @@
+vulnerability_id: VCID-krfe-wrvk-aaap
+aliases:
+  - CVE-2018-8039
+  - GHSA-jc7r-v6fg-2gpf
+summary: High severity vulnerability that affects org.apache.cxf:apache-cxf, org.apache.cxf:apache-cxf
+  , and org.apache.cxf:cxf
+severities:
+  - id: 615480
+    reference_id: 935372
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
+  - id: 697874
+    reference_id: 495
+    scoring_system: generic_textual
+    value: Medium
+    scoring_elements:
+  - id: 697817
+    reference_id: 2757
+    scoring_system: generic_textual
+    value: Low
+    scoring_elements:
+  - id: 693466
+    reference_id: 2746
+    scoring_system: generic_textual
+    value: Medium
+    scoring_elements:
+  - id: 615471
+    reference_id: 935363
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 357697
+    reference_id: 26261
+    scoring_system: cvssv2
+    value: '6.8'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:P/A:P
+  - id: 357695
+    reference_id: 26261
+    scoring_system: cvssv3
+    value: '8.1'
+    scoring_elements: CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 237
+    reference_id: 1646
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 615478
+    reference_id: 935370
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 615479
+    reference_id: 935371
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 615477
+    reference_id: 935369
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 615475
+    reference_id: 935367
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 615476
+    reference_id: 935368
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 615474
+    reference_id: 935366
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 615473
+    reference_id: 935365
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 614938
+    reference_id: 934979
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49534
+    reference_id: 173896
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 615472
+    reference_id: 935364
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 935372
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2018-8039.json
+    reference_id:
+  - id: 759332
+    url: https://github.com/apache/cxf/commit/fae6fabf9bd7647f5e9cb68897a7d72b545b741b
+    reference_id:
+  - id: 759333
+    url: https://lists.apache.org/thread.html/1f8ff31df204ad0374ab26ad333169e0387a5e7ec92422f337431866@%3Cdev.cxf.apache.org%3E
+    reference_id:
+  - id: 10867
+    url: https://lists.apache.org/thread.html/r36e44ffc1a9b365327df62cdfaabe85b9a5637de102cea07d79b2dbf@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10866
+    url: https://lists.apache.org/thread.html/rc774278135816e7afc943dc9fc78eb0764f2c84a2b96470a0187315c@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10872
+    url: https://lists.apache.org/thread.html/rd49aabd984ed540c8ff7916d4d79405f3fa311d2fdbcf9ed307839a6@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10860
+    url: https://lists.apache.org/thread.html/rec7160382badd3ef4ad017a22f64a266c7188b9ba71394f0d321e2d4@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10862
+    url: https://lists.apache.org/thread.html/rfb87e0bf3995e7d560afeed750fac9329ff5f1ad49da365129b7f89e@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10873
+    url: https://lists.apache.org/thread.html/rff42cfa5e7d75b7c1af0e37589140a8f1999e578a75738740b244bd4@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 495
+    url: https://www.oracle.com/security-alerts/cpuapr2020.html
+    reference_id:
+  - id: 2757
+    url: https://www.oracle.com/security-alerts/cpujan2020.html
+    reference_id:
+  - id: 2746
+    url: https://www.oracle.com/technetwork/security-advisory/cpujul2019-5072835.html
+    reference_id:
+  - id: 759331
+    url: http://www.securityfocus.com/bid/106357
+    reference_id:
+  - id: 26262
+    url: http://www.securitytracker.com/id/1041199
+    reference_id:
+  - id: 935363
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1595332
+    reference_id: 1595332
+  - id: 158434
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:*:*:*:*:*:*:*:*
+  - id: 659700
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:7.1.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:7.1.0:*:*:*:*:*:*:*
+  - id: 26261
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-8039
+    reference_id: CVE-2018-8039
+  - id: 1183859
+    url: http://cxf.apache.org/security-advisories.data/CVE-2018-8039.txt.asc?version=1&modificationDate=1530184663000&api=v2
+    reference_id: CVE-2018-8039.TXT.ASC?VERSION=1&MODIFICATIONDATE=1530184663000&API=V2
+  - id: 1646
+    url: https://github.com/advisories/GHSA-jc7r-v6fg-2gpf
+    reference_id: GHSA-jc7r-v6fg-2gpf
+  - id: 935370
+    url: https://access.redhat.com/errata/RHSA-2018:2276
+    reference_id: RHSA-2018:2276
+  - id: 935371
+    url: https://access.redhat.com/errata/RHSA-2018:2277
+    reference_id: RHSA-2018:2277
+  - id: 935369
+    url: https://access.redhat.com/errata/RHSA-2018:2279
+    reference_id: RHSA-2018:2279
+  - id: 935367
+    url: https://access.redhat.com/errata/RHSA-2018:2423
+    reference_id: RHSA-2018:2423
+  - id: 935368
+    url: https://access.redhat.com/errata/RHSA-2018:2424
+    reference_id: RHSA-2018:2424
+  - id: 935366
+    url: https://access.redhat.com/errata/RHSA-2018:2425
+    reference_id: RHSA-2018:2425
+  - id: 935365
+    url: https://access.redhat.com/errata/RHSA-2018:2428
+    reference_id: RHSA-2018:2428
+  - id: 934979
+    url: https://access.redhat.com/errata/RHSA-2018:2643
+    reference_id: RHSA-2018:2643
+  - id: 173896
+    url: https://access.redhat.com/errata/RHSA-2018:3768
+    reference_id: RHSA-2018:3768
+  - id: 935364
+    url: https://access.redhat.com/errata/RHSA-2018:3817
+    reference_id: RHSA-2018:3817
+weaknesses: []

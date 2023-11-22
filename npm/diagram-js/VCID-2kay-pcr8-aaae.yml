@@ -1,0 +1,25 @@
+vulnerability_id: VCID-2kay-pcr8-aaae
+aliases:
+  - GHSA-8fw4-xh83-3j6q
+  - GMS-2020-226
+summary: "Cross-Site Scripting in diagram-js\nVersions of `diagram-js` (f ) (f ) are vulnerable\
+  \ to Cross-Site Scripting. The package fails to escape output of user-controlled input in\
+  \ `search-pad`, allowing attackers to execute arbitrary JavaScript. If you are using diagram-js,\
+  \ upgrade to \nIf you are using diagram-js, upgrade to"
+severities:
+  - id: 704759
+    reference_id: 34536
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 34535
+    url: https://github.com/bpmn-io/diagram-js
+    reference_id:
+  - id: 34534
+    url: https://www.npmjs.com/advisories/982
+    reference_id:
+  - id: 34536
+    url: https://github.com/advisories/GHSA-8fw4-xh83-3j6q
+    reference_id: GHSA-8fw4-xh83-3j6q
+weaknesses: []

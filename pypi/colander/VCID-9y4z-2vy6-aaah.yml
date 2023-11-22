@@ -1,0 +1,49 @@
+vulnerability_id: VCID-9y4z-2vy6-aaah
+aliases:
+  - CVE-2017-18361
+  - GHSA-rv95-4wxj-6fqq
+  - PYSEC-2019-167
+summary: In Pylons Colander through 1.6, the URL validator allows an attacker to potentially
+  cause an infinite loop thereby causing a denial of service via an unclosed parenthesis.
+severities:
+  - id: 277052
+    reference_id: 23554
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 277050
+    reference_id: 23554
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 4747
+    reference_id: 26318
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 23555
+    url: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-18361
+    reference_id:
+  - id: 22609
+    url: https://cwe.mitre.org/data/definitions/400.html
+    reference_id:
+  - id: 23556
+    url: https://github.com/Pylons/colander/blob/master/CHANGES.rst#170-2019-02-01
+    reference_id:
+  - id: 6275
+    url: https://github.com/Pylons/colander/issues/290
+    reference_id:
+  - id: 6274
+    url: https://github.com/Pylons/colander/pull/323
+    reference_id:
+  - id: 693610
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:pylonsproject:colander:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:pylonsproject:colander:*:*:*:*:*:*:*:*
+  - id: 23554
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-18361
+    reference_id: CVE-2017-18361
+  - id: 26318
+    url: https://github.com/advisories/GHSA-rv95-4wxj-6fqq
+    reference_id: GHSA-rv95-4wxj-6fqq
+weaknesses: []

@@ -1,0 +1,12 @@
+vulnerability_id: VCID-kgkh-xkp7-aaah
+aliases:
+  - GMS-2016-70
+summary: |
+  Arbitrary Code Injection
+  An arbitrary code injection vector was found via the map/reduce functions used in PouchDB temporary views and design documents. The code execution engine is not properly sandboxed and may be used to run arbitrary JavaScript as well as system commands.
+severities: []
+references:
+  - id: 13489
+    url: https://github.com/pouchdb/pouchdb/issues/5612
+    reference_id:
+weaknesses: []

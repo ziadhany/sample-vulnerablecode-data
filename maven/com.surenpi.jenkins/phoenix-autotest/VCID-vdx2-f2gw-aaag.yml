@@ -1,0 +1,38 @@
+vulnerability_id: VCID-vdx2-f2gw-aaag
+aliases:
+  - CVE-2022-28157
+  - GHSA-62hc-f8qj-5xc3
+summary: Path traversal in Phoenix AutoTest Plugin
+severities:
+  - id: 596424
+    reference_id: 669
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:N/I:P/A:N
+  - id: 596422
+    reference_id: 669
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
+  - id: 25
+    reference_id: 671
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 670
+    url: https://www.jenkins.io/security/advisory/2022-03-29/#SECURITY-2684
+    reference_id:
+  - id: 662
+    url: http://www.openwall.com/lists/oss-security/2022/03/29/1
+    reference_id:
+  - id: 921605
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:jenkins:pipeline\:_phoenix_autotest:*:*:*:*:*:jenkins:*:*
+    reference_id: cpe:2.3:a:jenkins:pipeline\:_phoenix_autotest:*:*:*:*:*:jenkins:*:*
+  - id: 669
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-28157
+    reference_id: CVE-2022-28157
+  - id: 671
+    url: https://github.com/advisories/GHSA-62hc-f8qj-5xc3
+    reference_id: GHSA-62hc-f8qj-5xc3
+weaknesses: []

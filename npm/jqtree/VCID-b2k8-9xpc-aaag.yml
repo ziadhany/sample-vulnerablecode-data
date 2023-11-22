@@ -1,0 +1,40 @@
+vulnerability_id: VCID-b2k8-9xpc-aaag
+aliases:
+  - CVE-2016-1000234
+  - GHSA-gjhx-gxwx-jx9j
+summary: |
+  XSS in drag and drop node
+  Cross site scripting vulnerability in the drag and drop functionality for modifying tree data. A node that contains a standard XSS vector will have its payload execute when a user attempts to drag a node to a different position in the hierarchy.
+severities:
+  - id: 708526
+    reference_id: 8321
+    scoring_system: cvssv3
+    value: '7.3'
+    scoring_elements:
+  - id: 708527
+    reference_id: 1473432
+    scoring_system: cvssv3
+    value: '7.3'
+    scoring_elements:
+  - id: 705375
+    reference_id: 1466531
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 8321
+    url: https://github.com/mbraak/jqTree/issues/437
+    reference_id:
+  - id: 1466529
+    url: https://www.npmjs.com/advisories/132
+    reference_id:
+  - id: 1473432
+    url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/132.json
+    reference_id: 132
+  - id: 1466530
+    url: https://nvd.nist.gov/vuln/detail/CVE-2016-1000234
+    reference_id: CVE-2016-1000234
+  - id: 1466531
+    url: https://github.com/advisories/GHSA-gjhx-gxwx-jx9j
+    reference_id: GHSA-gjhx-gxwx-jx9j
+weaknesses: []

@@ -1,0 +1,318 @@
+package: pkg:rpm/redhat/mod_cluster-native
+versions:
+  - purl: pkg:rpm/redhat/mod_cluster-native@1.0.10-10.GA_CP04_patch01.ep5?arch=el4
+    affected_by_vulnerabilities:
+      - VCID-117h-jsy3-aaam
+      - VCID-1s7v-k3m5-aaag
+      - VCID-6m6m-4erd-aaan
+      - VCID-cj7u-zy93-aaaq
+      - VCID-debx-r2t9-aaac
+      - VCID-fza6-tt1t-aaag
+      - VCID-m9sr-cbqh-aaak
+      - VCID-n32j-915m-aaag
+      - VCID-padr-jy19-aaag
+      - VCID-rd75-u224-aaaj
+      - VCID-tm2n-m5h9-aaam
+      - VCID-uhsx-5me8-aaah
+      - VCID-vbjt-eysk-aaam
+      - VCID-wqfg-1zwe-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/mod_cluster-native@1.0.10-10.GA_CP04_patch01.ep5?arch=el5
+    affected_by_vulnerabilities:
+      - VCID-117h-jsy3-aaam
+      - VCID-1s7v-k3m5-aaag
+      - VCID-6m6m-4erd-aaan
+      - VCID-cj7u-zy93-aaaq
+      - VCID-debx-r2t9-aaac
+      - VCID-fza6-tt1t-aaag
+      - VCID-m9sr-cbqh-aaak
+      - VCID-n32j-915m-aaag
+      - VCID-padr-jy19-aaag
+      - VCID-rd75-u224-aaaj
+      - VCID-tm2n-m5h9-aaam
+      - VCID-uhsx-5me8-aaah
+      - VCID-vbjt-eysk-aaam
+      - VCID-wqfg-1zwe-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/mod_cluster-native@1.0.10-10.GA_CP04_patch01.ep5?arch=el6
+    affected_by_vulnerabilities:
+      - VCID-117h-jsy3-aaam
+      - VCID-1s7v-k3m5-aaag
+      - VCID-6m6m-4erd-aaan
+      - VCID-cj7u-zy93-aaaq
+      - VCID-debx-r2t9-aaac
+      - VCID-fza6-tt1t-aaag
+      - VCID-m9sr-cbqh-aaak
+      - VCID-n32j-915m-aaag
+      - VCID-padr-jy19-aaag
+      - VCID-rd75-u224-aaaj
+      - VCID-tm2n-m5h9-aaam
+      - VCID-uhsx-5me8-aaah
+      - VCID-vbjt-eysk-aaam
+      - VCID-wqfg-1zwe-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/mod_cluster-native@1.0.10-2.1.1.GA_CP01.ep5?arch=el6
+    affected_by_vulnerabilities:
+      - VCID-aafu-m6st-aaaq
+      - VCID-dbpv-cue2-aaan
+      - VCID-gcak-7hnb-aaad
+      - VCID-gyt6-3ggt-aaaj
+      - VCID-hkqr-snht-aaan
+      - VCID-rxf1-1k5a-aaam
+      - VCID-t9hu-6b2h-aaae
+      - VCID-w4v5-xn5g-aaag
+      - VCID-w5ba-fmfs-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/mod_cluster-native@1.0.10-2.1.GA_CP01.ep5?arch=el5
+    affected_by_vulnerabilities:
+      - VCID-aafu-m6st-aaaq
+      - VCID-dbpv-cue2-aaan
+      - VCID-gcak-7hnb-aaad
+      - VCID-gyt6-3ggt-aaaj
+      - VCID-hkqr-snht-aaan
+      - VCID-rxf1-1k5a-aaam
+      - VCID-t9hu-6b2h-aaae
+      - VCID-w4v5-xn5g-aaag
+      - VCID-w5ba-fmfs-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/mod_cluster-native@1.0.10-2.GA_CP01.ep5?arch=el4
+    affected_by_vulnerabilities:
+      - VCID-aafu-m6st-aaaq
+      - VCID-dbpv-cue2-aaan
+      - VCID-gcak-7hnb-aaad
+      - VCID-gyt6-3ggt-aaaj
+      - VCID-hkqr-snht-aaan
+      - VCID-rxf1-1k5a-aaam
+      - VCID-t9hu-6b2h-aaae
+      - VCID-w4v5-xn5g-aaag
+      - VCID-w5ba-fmfs-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/mod_cluster-native@1.0.10-3.1.1.GA_CP02.ep5?arch=el6
+    affected_by_vulnerabilities:
+      - VCID-6a88-9z9d-aaag
+      - VCID-fyhx-cmnz-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/mod_cluster-native@1.0.10-3.1.GA_CP02.ep5?arch=el5
+    affected_by_vulnerabilities:
+      - VCID-6a88-9z9d-aaag
+      - VCID-fyhx-cmnz-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/mod_cluster-native@1.0.10-3.GA_CP02.ep5?arch=el4
+    affected_by_vulnerabilities:
+      - VCID-6a88-9z9d-aaag
+      - VCID-fyhx-cmnz-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/mod_cluster-native@1.0.10-4.1.1.GA_CP02.ep5?arch=el6
+    affected_by_vulnerabilities:
+      - VCID-dpge-aver-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/mod_cluster-native@1.0.10-4.1.GA_CP02.ep5?arch=el5
+    affected_by_vulnerabilities:
+      - VCID-dpge-aver-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/mod_cluster-native@1.0.10-4.GA_CP02.ep5?arch=el4
+    affected_by_vulnerabilities:
+      - VCID-dpge-aver-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/mod_cluster-native@1.0.4-1.jdk6.ep5.el5?arch=1
+    affected_by_vulnerabilities:
+      - VCID-knue-dqnh-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/mod_cluster-native@1.2.11-2.Final_redhat_2.ep6?arch=el5
+    affected_by_vulnerabilities:
+      - VCID-5nj4-hb8z-aaaj
+      - VCID-75bj-3nhn-aaas
+      - VCID-7e3h-uwr2-aaak
+      - VCID-am3r-bcde-aaar
+      - VCID-uzaz-1quw-aaae
+      - VCID-zh14-sreg-aaaq
+      - VCID-zy22-kpy3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/mod_cluster-native@1.2.11-2.Final_redhat_2.ep6?arch=el6
+    affected_by_vulnerabilities:
+      - VCID-5nj4-hb8z-aaaj
+      - VCID-75bj-3nhn-aaas
+      - VCID-7e3h-uwr2-aaak
+      - VCID-am3r-bcde-aaar
+      - VCID-uzaz-1quw-aaae
+      - VCID-zh14-sreg-aaaq
+      - VCID-zy22-kpy3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/mod_cluster-native@1.2.11-2.Final_redhat_2.ep6?arch=el7
+    affected_by_vulnerabilities:
+      - VCID-5nj4-hb8z-aaaj
+      - VCID-75bj-3nhn-aaas
+      - VCID-7e3h-uwr2-aaak
+      - VCID-am3r-bcde-aaar
+      - VCID-uzaz-1quw-aaae
+      - VCID-zh14-sreg-aaaq
+      - VCID-zy22-kpy3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/mod_cluster-native@1.2.13-3.Final_redhat_2.ep6?arch=el6
+    affected_by_vulnerabilities:
+      - VCID-1pf4-rzru-aaak
+      - VCID-42tc-p92q-aaap
+      - VCID-f6xz-v53x-aaah
+      - VCID-ryex-1mb4-aaap
+      - VCID-xsy7-be4x-aaas
+      - VCID-zv3w-yjaz-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/mod_cluster-native@1.2.13-3.Final_redhat_2.ep6?arch=el7
+    affected_by_vulnerabilities:
+      - VCID-1pf4-rzru-aaak
+      - VCID-42tc-p92q-aaap
+      - VCID-f6xz-v53x-aaah
+      - VCID-ryex-1mb4-aaap
+      - VCID-xsy7-be4x-aaas
+      - VCID-zv3w-yjaz-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/mod_cluster-native@1.2.13-9.Final_redhat_2.ep6?arch=el6
+    affected_by_vulnerabilities:
+      - VCID-2cgf-57ed-aaap
+      - VCID-4qt5-mdpt-aaas
+      - VCID-ah95-hj74-aaaq
+      - VCID-kraa-vyt2-aaaa
+      - VCID-qbz3-r843-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/mod_cluster-native@1.2.13-9.Final_redhat_2.ep6?arch=el7
+    affected_by_vulnerabilities:
+      - VCID-2cgf-57ed-aaap
+      - VCID-4qt5-mdpt-aaas
+      - VCID-ah95-hj74-aaaq
+      - VCID-kraa-vyt2-aaaa
+      - VCID-qbz3-r843-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/mod_cluster-native@1.2.3-3.Final.ep6?arch=el5
+    affected_by_vulnerabilities:
+      - VCID-22vq-rbwh-aaad
+      - VCID-6f55-kdyu-aaac
+      - VCID-8s1c-3ksz-aaaj
+      - VCID-966v-yr5g-aaam
+      - VCID-m3zg-hmha-aaap
+      - VCID-n958-rf3k-aaan
+      - VCID-tm2n-m5h9-aaam
+      - VCID-ye2w-tznn-aaad
+      - VCID-zp1d-6vwh-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/mod_cluster-native@1.2.3-3.Final.ep6?arch=el6
+    affected_by_vulnerabilities:
+      - VCID-22vq-rbwh-aaad
+      - VCID-6f55-kdyu-aaac
+      - VCID-8s1c-3ksz-aaaj
+      - VCID-966v-yr5g-aaam
+      - VCID-m3zg-hmha-aaap
+      - VCID-n958-rf3k-aaan
+      - VCID-tm2n-m5h9-aaam
+      - VCID-ye2w-tznn-aaad
+      - VCID-zp1d-6vwh-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/mod_cluster-native@1.2.4-1.Final.redhat_1.ep6?arch=el5
+    affected_by_vulnerabilities:
+      - VCID-4a93-z1uq-aaam
+      - VCID-5j2e-wm7n-aaah
+      - VCID-9w5c-q5bk-aaae
+      - VCID-gsgu-6tjg-aaah
+      - VCID-h293-dh24-aaar
+      - VCID-rmw1-p3ek-aaan
+      - VCID-vpst-xrsb-aaab
+      - VCID-wmsx-921j-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/mod_cluster-native@1.2.4-1.Final.redhat_1.ep6?arch=el6
+    affected_by_vulnerabilities:
+      - VCID-4a93-z1uq-aaam
+      - VCID-5j2e-wm7n-aaah
+      - VCID-9w5c-q5bk-aaae
+      - VCID-gsgu-6tjg-aaah
+      - VCID-h293-dh24-aaar
+      - VCID-rmw1-p3ek-aaan
+      - VCID-vpst-xrsb-aaab
+      - VCID-wmsx-921j-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/mod_cluster-native@1.2.6-1.Final.redhat_1.ep6?arch=el5
+    affected_by_vulnerabilities:
+      - VCID-4qkq-yd46-aaaf
+      - VCID-j4t8-wpz7-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/mod_cluster-native@1.2.6-1.Final.redhat_1.ep6?arch=el6
+    affected_by_vulnerabilities:
+      - VCID-4qkq-yd46-aaaf
+      - VCID-j4t8-wpz7-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/mod_cluster-native@1.2.9-3.Final_redhat_2.ep6?arch=el5
+    affected_by_vulnerabilities:
+      - VCID-159m-e5aa-aaaj
+      - VCID-3k3s-uk1p-aaag
+      - VCID-b5eh-amfy-aaab
+      - VCID-cnyr-2n1f-aaar
+      - VCID-evyq-x542-aaaj
+      - VCID-r911-b1hy-aaah
+      - VCID-xjt7-2ew4-aaaj
+      - VCID-xqb8-4zzf-aaae
+      - VCID-y7g9-rfw9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/mod_cluster-native@1.2.9-3.Final_redhat_2.ep6?arch=el6
+    affected_by_vulnerabilities:
+      - VCID-159m-e5aa-aaaj
+      - VCID-3k3s-uk1p-aaag
+      - VCID-b5eh-amfy-aaab
+      - VCID-cnyr-2n1f-aaar
+      - VCID-evyq-x542-aaaj
+      - VCID-r911-b1hy-aaah
+      - VCID-xjt7-2ew4-aaaj
+      - VCID-xqb8-4zzf-aaae
+      - VCID-y7g9-rfw9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/mod_cluster-native@1.2.9-4.Final_redhat_2.ep6?arch=el5
+    affected_by_vulnerabilities:
+      - VCID-am3r-bcde-aaar
+      - VCID-zh14-sreg-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/mod_cluster-native@1.2.9-4.Final_redhat_2.ep6?arch=el6
+    affected_by_vulnerabilities:
+      - VCID-am3r-bcde-aaar
+      - VCID-zh14-sreg-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/mod_cluster-native@1.2.9-4.Final_redhat_2.ep6?arch=el7
+    affected_by_vulnerabilities:
+      - VCID-am3r-bcde-aaar
+      - VCID-zh14-sreg-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/mod_cluster-native@1.2.9-6.Final_redhat_2.ep6?arch=el5
+    affected_by_vulnerabilities:
+      - VCID-1pf4-rzru-aaak
+      - VCID-tnc6-bvst-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/mod_cluster-native@1.2.9-6.Final_redhat_2.ep6?arch=el6
+    affected_by_vulnerabilities:
+      - VCID-1pf4-rzru-aaak
+      - VCID-tnc6-bvst-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/mod_cluster-native@1.2.9-6.Final_redhat_2.ep6?arch=el7
+    affected_by_vulnerabilities:
+      - VCID-1pf4-rzru-aaak
+      - VCID-tnc6-bvst-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/mod_cluster-native@1.3.1-5.Final_redhat_2.ep7?arch=el6
+    affected_by_vulnerabilities:
+      - VCID-am3r-bcde-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/mod_cluster-native@1.3.1-5.Final_redhat_2.ep7?arch=el7
+    affected_by_vulnerabilities:
+      - VCID-am3r-bcde-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/mod_cluster-native@1.3.1-6.Final_redhat_2.ep7?arch=el6
+    affected_by_vulnerabilities:
+      - VCID-1pf4-rzru-aaak
+      - VCID-5wj3-qn6v-aaab
+      - VCID-c5ge-w5qj-aaam
+      - VCID-tnc6-bvst-aaan
+      - VCID-v8ck-9fsk-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/mod_cluster-native@1.3.1-6.Final_redhat_2.ep7?arch=el7
+    affected_by_vulnerabilities:
+      - VCID-1pf4-rzru-aaak
+      - VCID-5wj3-qn6v-aaab
+      - VCID-c5ge-w5qj-aaam
+      - VCID-tnc6-bvst-aaan
+      - VCID-v8ck-9fsk-aaae
+    fixing_vulnerabilities: []

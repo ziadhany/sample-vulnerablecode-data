@@ -1,0 +1,119 @@
+vulnerability_id: VCID-j888-b4zp-aaad
+aliases:
+  - CVE-2019-14820
+  - GHSA-xfqh-7356-vqjj
+summary: Exposure of Sensitive Information to an Unauthorized Actor in Keycloak
+severities:
+  - id: 69829
+    reference_id: '199685'
+    scoring_system: cvssv3
+    value: '4.3'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N
+  - id: 69823
+    reference_id: '199679'
+    scoring_system: rhbs
+    value: low
+    scoring_elements:
+  - id: 383025
+    reference_id: 13848
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:N/A:N
+  - id: 383023
+    reference_id: 13848
+    scoring_system: cvssv3
+    value: '4.3'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N
+  - id: 1496
+    reference_id: 13850
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 69828
+    reference_id: '199684'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 69825
+    reference_id: '199681'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 69826
+    reference_id: '199682'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 69827
+    reference_id: '199683'
+    scoring_system: rhas
+    value: Low
+    scoring_elements:
+  - id: 69824
+    reference_id: '199680'
+    scoring_system: rhas
+    value: Low
+    scoring_elements:
+  - id: 50506
+    reference_id: 175069
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 52339
+    reference_id: 177155
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: '199685'
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2019-14820.json
+    reference_id:
+  - id: 13849
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2019-14820
+    reference_id:
+  - id: '199679'
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1649870
+    reference_id: 1649870
+  - id: 659698
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:6.4.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:6.4.0:*:*:*:*:*:*:*
+  - id: 728429
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:7.2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:7.2.0:*:*:*:*:*:*:*
+  - id: 766405
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_fuse:7.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_fuse:7.0.0:*:*:*:*:*:*:*
+  - id: 568146
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:keycloak:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:keycloak:*:*:*:*:*:*:*:*
+  - id: 728430
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:single_sign-on:7.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:single_sign-on:7.3:*:*:*:*:*:*:*
+  - id: 13848
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-14820
+    reference_id: CVE-2019-14820
+  - id: 13850
+    url: https://github.com/advisories/GHSA-xfqh-7356-vqjj
+    reference_id: GHSA-xfqh-7356-vqjj
+  - id: '199684'
+    url: https://access.redhat.com/errata/RHSA-2019:3044
+    reference_id: RHSA-2019:3044
+  - id: '199681'
+    url: https://access.redhat.com/errata/RHSA-2019:3045
+    reference_id: RHSA-2019:3045
+  - id: '199682'
+    url: https://access.redhat.com/errata/RHSA-2019:3046
+    reference_id: RHSA-2019:3046
+  - id: '199683'
+    url: https://access.redhat.com/errata/RHSA-2019:3048
+    reference_id: RHSA-2019:3048
+  - id: '199680'
+    url: https://access.redhat.com/errata/RHSA-2019:3049
+    reference_id: RHSA-2019:3049
+  - id: 175069
+    url: https://access.redhat.com/errata/RHSA-2019:3050
+    reference_id: RHSA-2019:3050
+  - id: 177155
+    url: https://access.redhat.com/errata/RHSA-2020:2067
+    reference_id: RHSA-2020:2067
+weaknesses: []

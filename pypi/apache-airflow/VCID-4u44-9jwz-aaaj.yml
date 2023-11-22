@@ -1,0 +1,38 @@
+vulnerability_id: VCID-4u44-9jwz-aaaj
+aliases:
+  - CVE-2021-45229
+  - GHSA-65xw-pcqw-hjrh
+  - PYSEC-2022-29
+summary: It was discovered that the "Trigger DAG with config" screen was susceptible to XSS
+  attacks via the `origin` query argument. This issue affects Apache Airflow versions 2.2.3
+  and below.
+severities:
+  - id: 570985
+    reference_id: 21153
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+  - id: 570983
+    reference_id: 21153
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+  - id: 3459
+    reference_id: 21154
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 8981
+    url: https://lists.apache.org/thread/phx76cgtmhwwdy780rvwhobx8qoy4bnk
+    reference_id:
+  - id: 677676
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:airflow:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:airflow:*:*:*:*:*:*:*:*
+  - id: 21153
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-45229
+    reference_id: CVE-2021-45229
+  - id: 21154
+    url: https://github.com/advisories/GHSA-65xw-pcqw-hjrh
+    reference_id: GHSA-65xw-pcqw-hjrh
+weaknesses: []

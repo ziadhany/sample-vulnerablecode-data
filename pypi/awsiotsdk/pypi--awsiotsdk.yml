@@ -1,0 +1,246 @@
+package: pkg:pypi/awsiotsdk
+versions:
+  - purl: pkg:pypi/awsiotsdk@0.2.4
+    affected_by_vulnerabilities:
+      - VCID-127f-y1wv-aaas
+      - VCID-eg7k-5a4g-aaan
+      - VCID-kqdu-bamz-aaar
+      - VCID-v9y1-b9pu-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/awsiotsdk@0.2.9
+    affected_by_vulnerabilities:
+      - VCID-127f-y1wv-aaas
+      - VCID-eg7k-5a4g-aaan
+      - VCID-kqdu-bamz-aaar
+      - VCID-v9y1-b9pu-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/awsiotsdk@0.3.0
+    affected_by_vulnerabilities:
+      - VCID-127f-y1wv-aaas
+      - VCID-eg7k-5a4g-aaan
+      - VCID-kqdu-bamz-aaar
+      - VCID-v9y1-b9pu-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/awsiotsdk@1.0.2
+    affected_by_vulnerabilities:
+      - VCID-127f-y1wv-aaas
+      - VCID-eg7k-5a4g-aaan
+      - VCID-kqdu-bamz-aaar
+      - VCID-v9y1-b9pu-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/awsiotsdk@1.0.3
+    affected_by_vulnerabilities:
+      - VCID-127f-y1wv-aaas
+      - VCID-eg7k-5a4g-aaan
+      - VCID-kqdu-bamz-aaar
+      - VCID-v9y1-b9pu-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/awsiotsdk@1.0.5
+    affected_by_vulnerabilities:
+      - VCID-127f-y1wv-aaas
+      - VCID-eg7k-5a4g-aaan
+      - VCID-kqdu-bamz-aaar
+      - VCID-v9y1-b9pu-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/awsiotsdk@1.0.6
+    affected_by_vulnerabilities:
+      - VCID-127f-y1wv-aaas
+      - VCID-eg7k-5a4g-aaan
+      - VCID-kqdu-bamz-aaar
+      - VCID-v9y1-b9pu-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/awsiotsdk@1.1.0
+    affected_by_vulnerabilities:
+      - VCID-127f-y1wv-aaas
+      - VCID-eg7k-5a4g-aaan
+      - VCID-kqdu-bamz-aaar
+      - VCID-v9y1-b9pu-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/awsiotsdk@1.2.0
+    affected_by_vulnerabilities:
+      - VCID-127f-y1wv-aaas
+      - VCID-eg7k-5a4g-aaan
+      - VCID-kqdu-bamz-aaar
+      - VCID-v9y1-b9pu-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/awsiotsdk@1.2.1
+    affected_by_vulnerabilities:
+      - VCID-127f-y1wv-aaas
+      - VCID-eg7k-5a4g-aaan
+      - VCID-kqdu-bamz-aaar
+      - VCID-v9y1-b9pu-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/awsiotsdk@1.3.0
+    affected_by_vulnerabilities:
+      - VCID-127f-y1wv-aaas
+      - VCID-eg7k-5a4g-aaan
+      - VCID-kqdu-bamz-aaar
+      - VCID-v9y1-b9pu-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/awsiotsdk@1.3.1
+    affected_by_vulnerabilities:
+      - VCID-127f-y1wv-aaas
+      - VCID-eg7k-5a4g-aaan
+      - VCID-kqdu-bamz-aaar
+      - VCID-v9y1-b9pu-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/awsiotsdk@1.3.2
+    affected_by_vulnerabilities:
+      - VCID-127f-y1wv-aaas
+      - VCID-eg7k-5a4g-aaan
+      - VCID-kqdu-bamz-aaar
+      - VCID-v9y1-b9pu-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/awsiotsdk@1.4.0
+    affected_by_vulnerabilities:
+      - VCID-127f-y1wv-aaas
+      - VCID-eg7k-5a4g-aaan
+      - VCID-kqdu-bamz-aaar
+      - VCID-v9y1-b9pu-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/awsiotsdk@1.5.0
+    affected_by_vulnerabilities:
+      - VCID-127f-y1wv-aaas
+      - VCID-eg7k-5a4g-aaan
+      - VCID-kqdu-bamz-aaar
+      - VCID-v9y1-b9pu-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/awsiotsdk@1.5.1
+    affected_by_vulnerabilities:
+      - VCID-127f-y1wv-aaas
+      - VCID-eg7k-5a4g-aaan
+      - VCID-kqdu-bamz-aaar
+      - VCID-v9y1-b9pu-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/awsiotsdk@1.5.10
+    affected_by_vulnerabilities:
+      - VCID-127f-y1wv-aaas
+      - VCID-eg7k-5a4g-aaan
+      - VCID-kqdu-bamz-aaar
+      - VCID-v9y1-b9pu-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/awsiotsdk@1.5.11
+    affected_by_vulnerabilities:
+      - VCID-127f-y1wv-aaas
+      - VCID-eg7k-5a4g-aaan
+      - VCID-kqdu-bamz-aaar
+      - VCID-v9y1-b9pu-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/awsiotsdk@1.5.12
+    affected_by_vulnerabilities:
+      - VCID-127f-y1wv-aaas
+      - VCID-eg7k-5a4g-aaan
+      - VCID-kqdu-bamz-aaar
+      - VCID-v9y1-b9pu-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/awsiotsdk@1.5.13
+    affected_by_vulnerabilities:
+      - VCID-127f-y1wv-aaas
+      - VCID-eg7k-5a4g-aaan
+      - VCID-kqdu-bamz-aaar
+      - VCID-v9y1-b9pu-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/awsiotsdk@1.5.14
+    affected_by_vulnerabilities:
+      - VCID-127f-y1wv-aaas
+      - VCID-eg7k-5a4g-aaan
+      - VCID-kqdu-bamz-aaar
+      - VCID-v9y1-b9pu-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/awsiotsdk@1.5.15
+    affected_by_vulnerabilities:
+      - VCID-127f-y1wv-aaas
+      - VCID-eg7k-5a4g-aaan
+      - VCID-kqdu-bamz-aaar
+      - VCID-v9y1-b9pu-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/awsiotsdk@1.5.16
+    affected_by_vulnerabilities:
+      - VCID-127f-y1wv-aaas
+      - VCID-eg7k-5a4g-aaan
+      - VCID-kqdu-bamz-aaar
+      - VCID-v9y1-b9pu-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/awsiotsdk@1.5.17
+    affected_by_vulnerabilities:
+      - VCID-127f-y1wv-aaas
+      - VCID-eg7k-5a4g-aaan
+      - VCID-kqdu-bamz-aaar
+      - VCID-v9y1-b9pu-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/awsiotsdk@1.5.18
+    affected_by_vulnerabilities:
+      - VCID-127f-y1wv-aaas
+      - VCID-eg7k-5a4g-aaan
+      - VCID-v9y1-b9pu-aaaq
+    fixing_vulnerabilities:
+      - VCID-kqdu-bamz-aaar
+  - purl: pkg:pypi/awsiotsdk@1.5.2
+    affected_by_vulnerabilities:
+      - VCID-127f-y1wv-aaas
+      - VCID-eg7k-5a4g-aaan
+      - VCID-kqdu-bamz-aaar
+      - VCID-v9y1-b9pu-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/awsiotsdk@1.5.3
+    affected_by_vulnerabilities:
+      - VCID-127f-y1wv-aaas
+      - VCID-eg7k-5a4g-aaan
+      - VCID-kqdu-bamz-aaar
+      - VCID-v9y1-b9pu-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/awsiotsdk@1.5.4
+    affected_by_vulnerabilities:
+      - VCID-127f-y1wv-aaas
+      - VCID-eg7k-5a4g-aaan
+      - VCID-kqdu-bamz-aaar
+      - VCID-v9y1-b9pu-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/awsiotsdk@1.5.5
+    affected_by_vulnerabilities:
+      - VCID-127f-y1wv-aaas
+      - VCID-eg7k-5a4g-aaan
+      - VCID-kqdu-bamz-aaar
+      - VCID-v9y1-b9pu-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/awsiotsdk@1.5.6
+    affected_by_vulnerabilities:
+      - VCID-127f-y1wv-aaas
+      - VCID-eg7k-5a4g-aaan
+      - VCID-kqdu-bamz-aaar
+      - VCID-v9y1-b9pu-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/awsiotsdk@1.5.7
+    affected_by_vulnerabilities:
+      - VCID-127f-y1wv-aaas
+      - VCID-eg7k-5a4g-aaan
+      - VCID-kqdu-bamz-aaar
+      - VCID-v9y1-b9pu-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/awsiotsdk@1.5.8
+    affected_by_vulnerabilities:
+      - VCID-127f-y1wv-aaas
+      - VCID-eg7k-5a4g-aaan
+      - VCID-kqdu-bamz-aaar
+      - VCID-v9y1-b9pu-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/awsiotsdk@1.6.0
+    affected_by_vulnerabilities:
+      - VCID-127f-y1wv-aaas
+      - VCID-eg7k-5a4g-aaan
+      - VCID-v9y1-b9pu-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/awsiotsdk@1.6.1
+    affected_by_vulnerabilities:
+      - VCID-eg7k-5a4g-aaan
+    fixing_vulnerabilities:
+      - VCID-127f-y1wv-aaas
+      - VCID-v9y1-b9pu-aaaq
+  - purl: pkg:pypi/awsiotsdk@1.6.2
+    affected_by_vulnerabilities:
+      - VCID-eg7k-5a4g-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/awsiotsdk@1.7.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-eg7k-5a4g-aaan

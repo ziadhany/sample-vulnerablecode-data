@@ -1,0 +1,10 @@
+package: pkg:rpm/redhat/tripleo-ansible
+versions:
+  - purl: pkg:rpm/redhat/tripleo-ansible@0.4.2-0.20200110023759.ee731ba?arch=el8ost
+    affected_by_vulnerabilities:
+      - VCID-2cqt-v8wb-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/tripleo-ansible@0.5.1-1.20210323173506?arch=el8ost
+    affected_by_vulnerabilities:
+      - VCID-pjdg-p8nw-aaab
+    fixing_vulnerabilities: []

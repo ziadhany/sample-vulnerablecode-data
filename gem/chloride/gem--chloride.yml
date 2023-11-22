@@ -1,0 +1,22 @@
+package: pkg:gem/chloride
+versions:
+  - purl: pkg:gem/chloride@0.1.0
+    affected_by_vulnerabilities:
+      - VCID-s6fg-n7bw-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/chloride@0.2.0
+    affected_by_vulnerabilities:
+      - VCID-s6fg-n7bw-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/chloride@0.2.2
+    affected_by_vulnerabilities:
+      - VCID-s6fg-n7bw-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/chloride@0.2.3
+    affected_by_vulnerabilities:
+      - VCID-s6fg-n7bw-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/chloride@0.3.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-s6fg-n7bw-aaae

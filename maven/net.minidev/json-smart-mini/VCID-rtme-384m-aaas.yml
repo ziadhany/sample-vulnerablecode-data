@@ -1,0 +1,146 @@
+vulnerability_id: VCID-rtme-384m-aaas
+aliases:
+  - CVE-2021-27568
+  - GHSA-v528-7hrm-frqp
+summary: Improper Check for Unusual or Exceptional Conditions in json-smart
+severities:
+  - id: 606832
+    reference_id: 929018
+    scoring_system: cvssv3
+    value: '5.9'
+    scoring_elements: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 606831
+    reference_id: 929017
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 527121
+    reference_id: 9511
+    scoring_system: cvssv2
+    value: '6.4'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:P
+  - id: 527119
+    reference_id: 9511
+    scoring_system: cvssv3
+    value: '9.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H
+  - id: 785
+    reference_id: 9520
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 48860
+    reference_id: 173188
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 61736
+    reference_id: 189426
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 602930
+    reference_id: 926148
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 50840
+    reference_id: 175434
+    scoring_system: rhas
+    value: Critical
+    scoring_elements:
+references:
+  - id: 929018
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-27568.json
+    reference_id:
+  - id: 9514
+    url: https://github.com/netplex/json-smart-v1/commit/768db58ee0e3e344fcdb574b7629765308a1d0af
+    reference_id:
+  - id: 9512
+    url: https://github.com/netplex/json-smart-v1/issues/7
+    reference_id:
+  - id: 9513
+    url: https://github.com/netplex/json-smart-v2/issues/60
+    reference_id:
+  - id: 9518
+    url: https://github.com/netplex/json-smart-v2/issues/62
+    reference_id:
+  - id: 9519
+    url: https://github.com/netplex/json-smart-v2/pull/72
+    reference_id:
+  - id: 9516
+    url: https://lists.apache.org/thread.html/rb6287f5aa628c8d9af52b5401ec6cc51b6fc28ab20d318943453e396@%3Ccommits.druid.apache.org%3E
+    reference_id:
+  - id: 9517
+    url: https://lists.apache.org/thread.html/re237267da268c690df5e1c6ea6a38a7fc11617725e8049490f58a6fa@%3Ccommits.druid.apache.org%3E
+    reference_id:
+  - id: 9515
+    url: https://lists.apache.org/thread.html/rf70210b4d63191c0bfb2a0d5745e104484e71703bf5ad9cb01c980c6@%3Ccommits.druid.apache.org%3E
+    reference_id:
+  - id: 389
+    url: https://www.oracle.com/security-alerts/cpuapr2022.html
+    reference_id:
+  - id: 388
+    url: https://www.oracle.com/security-alerts/cpujan2022.html
+    reference_id:
+  - id: 386
+    url: https://www.oracle.com//security-alerts/cpujul2021.html
+    reference_id:
+  - id: 929017
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1939839
+    reference_id: '1939839'
+  - id: 876212
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:json-smart_project:json-smart-v1:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:json-smart_project:json-smart-v1:*:*:*:*:*:*:*:*
+  - id: 876213
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:json-smart_project:json-smart-v2:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:json-smart_project:json-smart-v2:*:*:*:*:*:*:*:*
+  - id: 171275
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:communications_cloud_native_core_policy:1.14.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:communications_cloud_native_core_policy:1.14.0:*:*:*:*:*:*:*
+  - id: 169564
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:oss_support_tools:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:oss_support_tools:*:*:*:*:*:*:*:*
+  - id: 759307
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:peoplesoft_enterprise_peopletools:8.58:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:peoplesoft_enterprise_peopletools:8.58:*:*:*:*:*:*:*
+  - id: 763420
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:peoplesoft_enterprise_peopletools:8.59:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:peoplesoft_enterprise_peopletools:8.59:*:*:*:*:*:*:*
+  - id: 722101
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:utilities_framework:4.4.0.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:utilities_framework:4.4.0.0.0:*:*:*:*:*:*:*
+  - id: 765622
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:utilities_framework:4.4.0.2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:utilities_framework:4.4.0.2.0:*:*:*:*:*:*:*
+  - id: 765623
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:utilities_framework:4.4.0.3.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:utilities_framework:4.4.0.3.0:*:*:*:*:*:*:*
+  - id: 169607
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:weblogic_server:12.2.1.3.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:weblogic_server:12.2.1.3.0:*:*:*:*:*:*:*
+  - id: 702835
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:weblogic_server:12.2.1.4.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:weblogic_server:12.2.1.4.0:*:*:*:*:*:*:*
+  - id: 702836
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:weblogic_server:14.1.1.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:weblogic_server:14.1.1.0.0:*:*:*:*:*:*:*
+  - id: 9511
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-27568
+    reference_id: CVE-2021-27568
+  - id: 9520
+    url: https://github.com/advisories/GHSA-v528-7hrm-frqp
+    reference_id: GHSA-v528-7hrm-frqp
+  - id: 173188
+    url: https://access.redhat.com/errata/RHSA-2021:3140
+    reference_id: RHSA-2021:3140
+  - id: 189426
+    url: https://access.redhat.com/errata/RHSA-2021:3225
+    reference_id: RHSA-2021:3225
+  - id: 926148
+    url: https://access.redhat.com/errata/RHSA-2021:4767
+    reference_id: RHSA-2021:4767
+  - id: 175434
+    url: https://access.redhat.com/errata/RHSA-2021:5134
+    reference_id: RHSA-2021:5134
+weaknesses: []

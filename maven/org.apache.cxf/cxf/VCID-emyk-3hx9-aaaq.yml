@@ -1,0 +1,144 @@
+vulnerability_id: VCID-emyk-3hx9-aaaq
+aliases:
+  - CVE-2019-12419
+  - GHSA-cw6w-q88j-6mqf
+summary: 'Potential session hijack in Apache CXF '
+severities:
+  - id: 67104
+    reference_id: '196331'
+    scoring_system: cvssv3
+    value: '8.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 697874
+    reference_id: 495
+    scoring_system: generic_textual
+    value: Medium
+    scoring_elements:
+  - id: 697817
+    reference_id: 2757
+    scoring_system: generic_textual
+    value: Low
+    scoring_elements:
+  - id: 696630
+    reference_id: 278
+    scoring_system: generic_textual
+    value: Medium
+    scoring_elements:
+  - id: 67103
+    reference_id: '196330'
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 375151
+    reference_id: 14252
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 375149
+    reference_id: 14252
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 1563
+    reference_id: 14257
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+  - id: 52339
+    reference_id: 177155
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 51125
+    reference_id: 175779
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 48019
+    reference_id: 172570
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 773201
+    url: http://cxf.apache.org/security-advisories.data/CVE-2019-12419.txt.asc
+    reference_id:
+  - id: '196331'
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2019-12419.json
+    reference_id:
+  - id: 10867
+    url: https://lists.apache.org/thread.html/r36e44ffc1a9b365327df62cdfaabe85b9a5637de102cea07d79b2dbf@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 14254
+    url: https://lists.apache.org/thread.html/r861eb1a9e0250e9150215b17f0263edf62becd5e20fc96251cff59f6@%3Cdev.cxf.apache.org%3E
+    reference_id:
+  - id: 10866
+    url: https://lists.apache.org/thread.html/rc774278135816e7afc943dc9fc78eb0764f2c84a2b96470a0187315c@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10872
+    url: https://lists.apache.org/thread.html/rd49aabd984ed540c8ff7916d4d79405f3fa311d2fdbcf9ed307839a6@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 14255
+    url: https://lists.apache.org/thread.html/re7593a274ee0a85d304d5d42c66fc0081c94d7f22bc96a1084d43b80@%3Cdev.cxf.apache.org%3E
+    reference_id:
+  - id: 10860
+    url: https://lists.apache.org/thread.html/rec7160382badd3ef4ad017a22f64a266c7188b9ba71394f0d321e2d4@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 14256
+    url: https://lists.apache.org/thread.html/ree5fc719e330f82ae38a2b0050c91f18ed5b878312dc0b9e0b9815be@%3Cdev.cxf.apache.org%3E
+    reference_id:
+  - id: 10862
+    url: https://lists.apache.org/thread.html/rfb87e0bf3995e7d560afeed750fac9329ff5f1ad49da365129b7f89e@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10873
+    url: https://lists.apache.org/thread.html/rff42cfa5e7d75b7c1af0e37589140a8f1999e578a75738740b244bd4@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 495
+    url: https://www.oracle.com/security-alerts/cpuapr2020.html
+    reference_id:
+  - id: 420
+    url: https://www.oracle.com/security-alerts/cpuApr2021.html
+    reference_id:
+  - id: 2757
+    url: https://www.oracle.com/security-alerts/cpujan2020.html
+    reference_id:
+  - id: 278
+    url: https://www.oracle.com/security-alerts/cpuoct2020.html
+    reference_id:
+  - id: '196330'
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1816175
+    reference_id: 1816175
+  - id: 158434
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:*:*:*:*:*:*:*:*
+  - id: 766934
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:commerce_guided_search:11.3.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:commerce_guided_search:11.3.2:*:*:*:*:*:*:*
+  - id: 773202
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:enterprise_manager_base_platform:13.2.1.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:enterprise_manager_base_platform:13.2.1.0:*:*:*:*:*:*:*
+  - id: 698774
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:flexcube_private_banking:12.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:flexcube_private_banking:12.0.0:*:*:*:*:*:*:*
+  - id: 698775
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:flexcube_private_banking:12.1.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:flexcube_private_banking:12.1.0:*:*:*:*:*:*:*
+  - id: 725290
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:retail_order_broker:15.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:retail_order_broker:15.0:*:*:*:*:*:*:*
+  - id: 14252
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-12419
+    reference_id: CVE-2019-12419
+  - id: 14257
+    url: https://github.com/advisories/GHSA-cw6w-q88j-6mqf
+    reference_id: GHSA-cw6w-q88j-6mqf
+  - id: 177155
+    url: https://access.redhat.com/errata/RHSA-2020:2067
+    reference_id: RHSA-2020:2067
+  - id: 175779
+    url: https://access.redhat.com/errata/RHSA-2020:2333
+    reference_id: RHSA-2020:2333
+  - id: 172570
+    url: https://access.redhat.com/errata/RHSA-2020:3192
+    reference_id: RHSA-2020:3192
+weaknesses: []

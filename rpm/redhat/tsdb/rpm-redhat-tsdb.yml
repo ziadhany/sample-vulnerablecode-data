@@ -1,0 +1,12 @@
+package: pkg:rpm/redhat/tsdb
+versions:
+  - purl: pkg:rpm/redhat/tsdb@1.27.29-1?arch=el5sat
+    affected_by_vulnerabilities:
+      - VCID-uh6h-6wx5-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/tsdb@1.27.29-1?arch=el6sat
+    affected_by_vulnerabilities:
+      - VCID-uh6h-6wx5-aaan
+      - VCID-ux3q-3s3u-aaaj
+      - VCID-w4m8-cct6-aaan
+    fixing_vulnerabilities: []

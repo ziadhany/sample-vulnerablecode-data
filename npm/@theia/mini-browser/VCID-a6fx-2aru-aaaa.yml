@@ -1,0 +1,43 @@
+vulnerability_id: VCID-a6fx-2aru-aaaa
+aliases:
+  - CVE-2019-17636
+  - GHSA-f7vx-j8mp-3h2x
+summary: |
+  Insufficient Verification of Data Authenticity
+  In Eclipse Theia versions 0.3.9 through 0.15.0, one of the default pre-packaged Theia extensions is "Mini-Browser", published as "@theia/mini-browser" on npmjs.com. This extension, for its own needs, exposes a HTTP endpoint that allows to read the content of files on the host's filesystem, given their path, without restrictions on the requester's origin. This design is vulnerable to being exploited remotely through a DNS rebinding attack or a drive-by download of a carefully crafted exploit.
+severities:
+  - id: 392352
+    reference_id: 31842
+    scoring_system: cvssv2
+    value: '5.8'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:P/A:N
+  - id: 392350
+    reference_id: 31842
+    scoring_system: cvssv3
+    value: '8.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+  - id: 706063
+    reference_id: 31846
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 31845
+    url: https://bugs.eclipse.org/bugs/show_bug.cgi?id=551747
+    reference_id:
+  - id: 31844
+    url: https://github.com/eclipse-theia/theia/commit/b212d07f915df1509180944ee3132714bc2636bf
+    reference_id:
+  - id: 31843
+    url: https://github.com/eclipse-theia/theia/pull/7205
+    reference_id:
+  - id: 786905
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:eclipse:theia:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:eclipse:theia:*:*:*:*:*:*:*:*
+  - id: 31842
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-17636
+    reference_id: CVE-2019-17636
+  - id: 31846
+    url: https://github.com/advisories/GHSA-f7vx-j8mp-3h2x
+    reference_id: GHSA-f7vx-j8mp-3h2x
+weaknesses: []

@@ -1,0 +1,38 @@
+package: pkg:hex/paginator
+versions:
+  - purl: pkg:hex/paginator@0.1.0
+    affected_by_vulnerabilities:
+      - VCID-8svn-1rj2-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:hex/paginator@0.2.0
+    affected_by_vulnerabilities:
+      - VCID-8svn-1rj2-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:hex/paginator@0.3.0
+    affected_by_vulnerabilities:
+      - VCID-8svn-1rj2-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:hex/paginator@0.3.1
+    affected_by_vulnerabilities:
+      - VCID-8svn-1rj2-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:hex/paginator@0.4.0
+    affected_by_vulnerabilities:
+      - VCID-8svn-1rj2-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:hex/paginator@0.4.1
+    affected_by_vulnerabilities:
+      - VCID-8svn-1rj2-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:hex/paginator@0.5.0
+    affected_by_vulnerabilities:
+      - VCID-8svn-1rj2-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:hex/paginator@0.6.0
+    affected_by_vulnerabilities:
+      - VCID-8svn-1rj2-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:hex/paginator@1.0.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-8svn-1rj2-aaaf

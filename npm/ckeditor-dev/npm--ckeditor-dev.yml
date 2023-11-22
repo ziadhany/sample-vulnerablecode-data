@@ -1,0 +1,54 @@
+package: pkg:npm/ckeditor-dev
+versions:
+  - purl: pkg:npm/ckeditor-dev@4.5.10
+    affected_by_vulnerabilities:
+      - VCID-edhm-1e5u-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ckeditor-dev@4.5.11
+    affected_by_vulnerabilities:
+      - VCID-edhm-1e5u-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ckeditor-dev@4.6.0
+    affected_by_vulnerabilities:
+      - VCID-edhm-1e5u-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ckeditor-dev@4.6.1
+    affected_by_vulnerabilities:
+      - VCID-edhm-1e5u-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ckeditor-dev@4.6.2
+    affected_by_vulnerabilities:
+      - VCID-edhm-1e5u-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ckeditor-dev@4.7.0
+    affected_by_vulnerabilities:
+      - VCID-edhm-1e5u-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ckeditor-dev@4.7.1
+    affected_by_vulnerabilities:
+      - VCID-edhm-1e5u-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ckeditor-dev@4.7.2
+    affected_by_vulnerabilities:
+      - VCID-edhm-1e5u-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ckeditor-dev@4.7.3
+    affected_by_vulnerabilities:
+      - VCID-edhm-1e5u-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ckeditor-dev@4.8.0
+    affected_by_vulnerabilities:
+      - VCID-edhm-1e5u-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ckeditor-dev@4.9.0
+    affected_by_vulnerabilities:
+      - VCID-edhm-1e5u-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ckeditor-dev@4.9.1
+    affected_by_vulnerabilities:
+      - VCID-edhm-1e5u-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ckeditor-dev@4.9.2
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-edhm-1e5u-aaag

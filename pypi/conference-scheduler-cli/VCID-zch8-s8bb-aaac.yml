@@ -1,0 +1,41 @@
+vulnerability_id: VCID-zch8-s8bb-aaac
+aliases:
+  - CVE-2018-14572
+  - GHSA-cf3c-fffp-34qh
+  - PYSEC-2018-64
+summary: In conference-scheduler-cli, a pickle.load call on imported data allows remote attackers
+  to execute arbitrary code via a crafted .pickle file, as demonstrated by Python code that
+  contains an os.system call.
+severities:
+  - id: 323963
+    reference_id: 21871
+    scoring_system: cvssv2
+    value: '6.8'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:P/A:P
+  - id: 323961
+    reference_id: 21871
+    scoring_system: cvssv3
+    value: '7.8'
+    scoring_elements: CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+  - id: 3864
+    reference_id: 22395
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 1515
+    url: https://github.com/PyconUK/ConferenceScheduler-cli/issues/19
+    reference_id:
+  - id: 734602
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:pyconuk:conference-scheduler-cli:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:pyconuk:conference-scheduler-cli:*:*:*:*:*:*:*:*
+  - id: 21871
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-14572
+    reference_id: CVE-2018-14572
+  - id: 22396
+    url: https://joel-malwarebenchmark.github.io/blog/2020/04/25/cve-2018-14572-conference-scheduler-cli/
+    reference_id: CVE-2018-14572-CONFERENCE-SCHEDULER-CLI
+  - id: 22395
+    url: https://github.com/advisories/GHSA-cf3c-fffp-34qh
+    reference_id: GHSA-cf3c-fffp-34qh
+weaknesses: []

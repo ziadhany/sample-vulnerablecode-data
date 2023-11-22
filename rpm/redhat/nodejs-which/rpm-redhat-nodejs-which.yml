@@ -1,0 +1,9 @@
+package: pkg:rpm/redhat/nodejs-which
+versions:
+  - purl: pkg:rpm/redhat/nodejs-which@1.2.0-2?arch=el7aos
+    affected_by_vulnerabilities:
+      - VCID-3qb1-f6fw-aaad
+      - VCID-8g31-3v68-aaan
+      - VCID-kac9-8rqu-aaaa
+      - VCID-sb3k-9d77-aaab
+    fixing_vulnerabilities: []

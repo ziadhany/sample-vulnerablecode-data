@@ -1,0 +1,11 @@
+package: pkg:npm/infraserver
+versions:
+  - purl: pkg:npm/infraserver@0.0.0-alpha
+    affected_by_vulnerabilities:
+      - VCID-sjrc-rbsw-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/infraserver@0.0.1
+    affected_by_vulnerabilities:
+      - VCID-1emy-kfyn-aaan
+      - VCID-sjrc-rbsw-aaac
+    fixing_vulnerabilities: []

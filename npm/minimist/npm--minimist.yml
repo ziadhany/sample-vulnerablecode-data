@@ -1,0 +1,151 @@
+package: pkg:npm/minimist
+versions:
+  - purl: pkg:npm/minimist@0.0.0
+    affected_by_vulnerabilities:
+      - VCID-jwd6-vwuz-aaad
+      - VCID-qx7e-cw3h-aaaq
+      - VCID-utt4-1yh8-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/minimist@0.0.1
+    affected_by_vulnerabilities:
+      - VCID-jwd6-vwuz-aaad
+      - VCID-qx7e-cw3h-aaaq
+      - VCID-utt4-1yh8-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/minimist@0.0.10
+    affected_by_vulnerabilities:
+      - VCID-jwd6-vwuz-aaad
+      - VCID-qx7e-cw3h-aaaq
+      - VCID-utt4-1yh8-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/minimist@0.0.2
+    affected_by_vulnerabilities:
+      - VCID-jwd6-vwuz-aaad
+      - VCID-qx7e-cw3h-aaaq
+      - VCID-utt4-1yh8-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/minimist@0.0.3
+    affected_by_vulnerabilities:
+      - VCID-jwd6-vwuz-aaad
+      - VCID-qx7e-cw3h-aaaq
+      - VCID-utt4-1yh8-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/minimist@0.0.4
+    affected_by_vulnerabilities:
+      - VCID-jwd6-vwuz-aaad
+      - VCID-qx7e-cw3h-aaaq
+      - VCID-utt4-1yh8-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/minimist@0.0.5
+    affected_by_vulnerabilities:
+      - VCID-jwd6-vwuz-aaad
+      - VCID-qx7e-cw3h-aaaq
+      - VCID-utt4-1yh8-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/minimist@0.0.6
+    affected_by_vulnerabilities:
+      - VCID-jwd6-vwuz-aaad
+      - VCID-qx7e-cw3h-aaaq
+      - VCID-utt4-1yh8-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/minimist@0.0.7
+    affected_by_vulnerabilities:
+      - VCID-jwd6-vwuz-aaad
+      - VCID-qx7e-cw3h-aaaq
+      - VCID-utt4-1yh8-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/minimist@0.0.8
+    affected_by_vulnerabilities:
+      - VCID-jwd6-vwuz-aaad
+      - VCID-qx7e-cw3h-aaaq
+      - VCID-utt4-1yh8-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/minimist@0.0.9
+    affected_by_vulnerabilities:
+      - VCID-jwd6-vwuz-aaad
+      - VCID-qx7e-cw3h-aaaq
+      - VCID-utt4-1yh8-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/minimist@0.1.0
+    affected_by_vulnerabilities:
+      - VCID-jwd6-vwuz-aaad
+      - VCID-qx7e-cw3h-aaaq
+      - VCID-utt4-1yh8-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/minimist@0.2.0
+    affected_by_vulnerabilities:
+      - VCID-jwd6-vwuz-aaad
+      - VCID-qx7e-cw3h-aaaq
+      - VCID-utt4-1yh8-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/minimist@0.2.1
+    affected_by_vulnerabilities:
+      - VCID-jwd6-vwuz-aaad
+      - VCID-qx7e-cw3h-aaaq
+    fixing_vulnerabilities:
+      - VCID-utt4-1yh8-aaad
+  - purl: pkg:npm/minimist@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-jwd6-vwuz-aaad
+      - VCID-qx7e-cw3h-aaaq
+      - VCID-utt4-1yh8-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/minimist@1.1.0
+    affected_by_vulnerabilities:
+      - VCID-jwd6-vwuz-aaad
+      - VCID-qx7e-cw3h-aaaq
+      - VCID-utt4-1yh8-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/minimist@1.1.1
+    affected_by_vulnerabilities:
+      - VCID-jwd6-vwuz-aaad
+      - VCID-qx7e-cw3h-aaaq
+      - VCID-utt4-1yh8-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/minimist@1.1.2
+    affected_by_vulnerabilities:
+      - VCID-jwd6-vwuz-aaad
+      - VCID-qx7e-cw3h-aaaq
+      - VCID-utt4-1yh8-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/minimist@1.1.3
+    affected_by_vulnerabilities:
+      - VCID-jwd6-vwuz-aaad
+      - VCID-qx7e-cw3h-aaaq
+      - VCID-utt4-1yh8-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/minimist@1.2.0
+    affected_by_vulnerabilities:
+      - VCID-jwd6-vwuz-aaad
+      - VCID-qx7e-cw3h-aaaq
+      - VCID-utt4-1yh8-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/minimist@1.2.1
+    affected_by_vulnerabilities:
+      - VCID-jwd6-vwuz-aaad
+      - VCID-qx7e-cw3h-aaaq
+      - VCID-utt4-1yh8-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/minimist@1.2.2
+    affected_by_vulnerabilities:
+      - VCID-qx7e-cw3h-aaaq
+    fixing_vulnerabilities:
+      - VCID-jwd6-vwuz-aaad
+      - VCID-utt4-1yh8-aaad
+  - purl: pkg:npm/minimist@1.2.3
+    affected_by_vulnerabilities:
+      - VCID-qx7e-cw3h-aaaq
+    fixing_vulnerabilities:
+      - VCID-utt4-1yh8-aaad
+  - purl: pkg:npm/minimist@1.2.4
+    affected_by_vulnerabilities:
+      - VCID-qx7e-cw3h-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/minimist@1.2.5
+    affected_by_vulnerabilities:
+      - VCID-qx7e-cw3h-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/minimist@1.2.6
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-qx7e-cw3h-aaaq

@@ -1,0 +1,15 @@
+vulnerability_id: VCID-xzqu-9puv-aaac
+aliases:
+  - OSVDB-125676
+summary: |
+  Cross-Site Scripting (XSS) in queues page
+  The package sidekiq is vulnerable to XSS via queue name in `Sidekiq::Web`.
+severities: []
+references:
+  - id: 38716
+    url: https://github.com/mperham/sidekiq/commit/2178d66b6686fbf4430223c34c184a64c9906828
+    reference_id:
+  - id: 38717
+    url: https://github.com/mperham/sidekiq/issues/2330
+    reference_id:
+weaknesses: []

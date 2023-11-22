@@ -1,0 +1,59 @@
+vulnerability_id: VCID-1rb1-qpsy-aaaf
+aliases:
+  - CVE-2017-16099
+  - GHSA-ff6r-5jwm-8292
+summary: |
+  Uncontrolled Resource Consumption
+  The no-case module is vulnerable to regular expression denial of service. When malicious untrusted user input is passed into no-case, it can block the event loop causing a denial of service condition.
+severities:
+  - id: 61674
+    reference_id: 189339
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 61673
+    reference_id: 189338
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 270000
+    reference_id: 31828
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 269998
+    reference_id: 31828
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 705688
+    reference_id: 1466927
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 189339
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2017-16099.json
+    reference_id:
+  - id: 30534
+    url: https://github.com/blakeembrey/no-case/issues/17
+    reference_id:
+  - id: 687745
+    url: https://nodesecurity.io/advisories/529
+    reference_id:
+  - id: 1466928
+    url: https://www.npmjs.com/advisories/529
+    reference_id:
+  - id: 189338
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1943976
+    reference_id: '1943976'
+  - id: 687746
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:no-case_project:no-case:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:no-case_project:no-case:*:*:*:*:*:node.js:*:*
+  - id: 31828
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-16099
+    reference_id: CVE-2017-16099
+  - id: 1466927
+    url: https://github.com/advisories/GHSA-ff6r-5jwm-8292
+    reference_id: GHSA-ff6r-5jwm-8292
+weaknesses: []

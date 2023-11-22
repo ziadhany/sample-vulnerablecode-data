@@ -1,0 +1,31 @@
+vulnerability_id: VCID-u2rj-g77q-aaaj
+aliases:
+  - GHSA-2xwp-m7mq-7q3r
+  - GMS-2020-6
+summary: |
+  CLI does not correctly implement strict mode
+  In the affected versions, the AWS Encryption CLI operated in "discovery mode" even when "strict mode" was specified. Although decryption only succeeded if the user had permission to decrypt with at least one of the CMKs, decryption could be successful using a CMK that was not included in the user-defined set when the CLI was operating in "strict mode."
+
+  Affected users should upgrade to Encryption CLI v1.8.x or v2.1.x as soon as possible.
+severities:
+  - id: 4515
+    reference_id: 21757
+    scoring_system: cvssv3.1_qr
+    value: LOW
+    scoring_elements:
+  - id: 4514
+    reference_id: 21755
+    scoring_system: cvssv3.1_qr
+    value: LOW
+    scoring_elements:
+references:
+  - id: 21756
+    url: https://github.com/aws/aws-encryption-sdk-cli/commit/7d21b8051cab9e52e056fe427d2bff19cf146460
+    reference_id:
+  - id: 21757
+    url: https://github.com/advisories/GHSA-2xwp-m7mq-7q3r
+    reference_id: GHSA-2xwp-m7mq-7q3r
+  - id: 21755
+    url: https://github.com/aws/aws-encryption-sdk-cli/security/advisories/GHSA-2xwp-m7mq-7q3r
+    reference_id: GHSA-2xwp-m7mq-7q3r
+weaknesses: []

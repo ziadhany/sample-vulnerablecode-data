@@ -1,0 +1,38 @@
+vulnerability_id: VCID-h3s2-nu21-aaah
+aliases:
+  - CVE-2020-26300
+  - GHSA-fj59-f6c3-3vw4
+summary: |
+  Command Injection
+  systeminformation is an npm package that provides system and OS information library for node.js. In systeminformation there is a command injection vulnerability. Problem was fixed with a shell string sanitation fix.
+severities:
+  - id: 464063
+    reference_id: 33900
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 464061
+    reference_id: 33900
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+references:
+  - id: 835544
+    url: https://github.com/advisories/GHSA-fj59-f6c3-3vw4
+    reference_id:
+  - id: 835545
+    url: https://github.com/sebhildebrandt/systeminformation/commit/bad372e654cdd549e7d786acbba0035ded54c607
+    reference_id:
+  - id: 835546
+    url: https://github.com/sebhildebrandt/systeminformation/security/advisories/GHSA-fj59-f6c3-3vw4
+    reference_id:
+  - id: 835429
+    url: https://www.npmjs.com/package/systeminformation
+    reference_id:
+  - id: 835285
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:systeminformation:systeminformation:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:systeminformation:systeminformation:*:*:*:*:*:node.js:*:*
+  - id: 33900
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-26300
+    reference_id: CVE-2020-26300
+weaknesses: []

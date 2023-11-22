@@ -1,0 +1,31 @@
+vulnerability_id: VCID-mnfy-5bag-aaan
+aliases:
+  - CVE-2021-31649
+summary: |
+  Deserialization of Untrusted Data
+  In applications using jfinal, there is a deserialization vulnerability when using redis,may be vulnerable to remote code execute
+severities:
+  - id: 538018
+    reference_id: 26980
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 538016
+    reference_id: 26980
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+references:
+  - id: 882964
+    url: http://note.youdao.com/noteshare?id=787ccbb8345dbd4a905aebe35f1d8aa8&sub=6C5C072C901949429EFD978405212FA4
+    reference_id:
+  - id: 882965
+    url: https://note.youdao.com/ynoteshare1/index.html?id=787ccbb8345dbd4a905aebe35f1d8aa8&type=note
+    reference_id:
+  - id: 785831
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:jfinal:jfinal:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:jfinal:jfinal:*:*:*:*:*:*:*:*
+  - id: 26980
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-31649
+    reference_id: CVE-2021-31649
+weaknesses: []

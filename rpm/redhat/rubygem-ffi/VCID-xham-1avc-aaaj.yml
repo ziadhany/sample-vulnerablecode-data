@@ -1,0 +1,61 @@
+vulnerability_id: VCID-xham-1avc-aaaj
+aliases:
+  - CVE-2018-1090
+summary: In Pulp before version 2.16.2, secrets are passed into override_config when triggering
+  a task and then become readable to all users with read access on the distributor/importer.
+  An attacker with API access can then view these secrets.
+severities:
+  - id: 617611
+    reference_id: 936909
+    scoring_system: cvssv3
+    value: '5.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:L
+  - id: 617610
+    reference_id: 936908
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 311677
+    reference_id: 725186
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 311675
+    reference_id: 725186
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+  - id: 49936
+    reference_id: 174399
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 936909
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2018-1090.json
+    reference_id:
+  - id: 725184
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2018-1090
+    reference_id:
+  - id: 725185
+    url: https://pulp.plan.io/issues/3521
+    reference_id:
+  - id: 936908
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1560035
+    reference_id: 1560035
+  - id: 548985
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:pulpproject:pulp:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:pulpproject:pulp:*:*:*:*:*:*:*:*
+  - id: 670917
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:satellite:6.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:satellite:6.4:*:*:*:*:*:*:*
+  - id: 725187
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:fedoraproject:fedora:-:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:fedoraproject:fedora:-:*:*:*:*:*:*:*
+  - id: 725186
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-1090
+    reference_id: CVE-2018-1090
+  - id: 174399
+    url: https://access.redhat.com/errata/RHSA-2018:2927
+    reference_id: RHSA-2018:2927
+weaknesses: []

@@ -1,0 +1,53 @@
+vulnerability_id: VCID-9e7u-tmcv-aaad
+aliases:
+  - CVE-2022-29245
+  - GHSA-72p8-v4hg-v45p
+summary: Weak private key generation in SSH.NET
+severities:
+  - id: 598567
+    reference_id: 15793
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:N/A:N
+  - id: 598565
+    reference_id: 15793
+    scoring_system: cvssv3
+    value: '5.9'
+    scoring_elements: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
+  - id: 1810
+    reference_id: 15798
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 15796
+    url: https://github.com/sshnet/SSH.NET/blob/bc99ada7da3f05f50d9379f2644941d91d5bf05a/src/Renci.SshNet/Security/KeyExchangeECCurve25519.cs#L51
+    reference_id:
+  - id: 15794
+    url: https://github.com/sshnet/SSH.NET/commit/03c6d60736b8f7b42e44d6989a53f9b644a091fb
+    reference_id:
+  - id: 15795
+    url: https://github.com/sshnet/SSH.NET/commit/f1f273cf349532b9d41c1de51d3b83a9accedc88
+    reference_id:
+  - id: 15797
+    url: https://github.com/sshnet/SSH.NET/releases/tag/2020.0.2
+    reference_id:
+  - id: 922965
+    url: https://github.com/sshnet/SSH.NET/security/advisories/GHSA-72p8-v4hg-v45p
+    reference_id:
+  - id: 922967
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:ssh.net_project:ssh.net:2020.0.0:beta1:*:*:*:.net:*:*
+    reference_id: cpe:2.3:a:ssh.net_project:ssh.net:2020.0.0:beta1:*:*:*:.net:*:*
+  - id: 922966
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:ssh.net_project:ssh.net:2020.0.0:-:*:*:*:.net:*:*
+    reference_id: cpe:2.3:a:ssh.net_project:ssh.net:2020.0.0:-:*:*:*:.net:*:*
+  - id: 922968
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:ssh.net_project:ssh.net:2020.0.1:*:*:*:*:.net:*:*
+    reference_id: cpe:2.3:a:ssh.net_project:ssh.net:2020.0.1:*:*:*:*:.net:*:*
+  - id: 15793
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-29245
+    reference_id: CVE-2022-29245
+  - id: 15798
+    url: https://github.com/advisories/GHSA-72p8-v4hg-v45p
+    reference_id: GHSA-72p8-v4hg-v45p
+weaknesses: []

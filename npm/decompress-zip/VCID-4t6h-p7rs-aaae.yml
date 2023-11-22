@@ -1,0 +1,34 @@
+vulnerability_id: VCID-4t6h-p7rs-aaae
+aliases:
+  - GHSA-73v8-v6g4-vrpm
+  - GMS-2020-220
+summary: "Arbitrary File Overwrite in decompress-zip\nVulnerable versions of `decompress-zip`\
+  \ are affected by the Zip-Slip vulnerability, an arbitrary file write vulnerability. The vulnerability\
+  \ occurs because `decompress-zip` does not verify that extracted files do not resolve to targets\
+  \ outside of the extraction root directory. \nFor `decompress-zip` upgrade to or later.\n\
+  For `decompress-zip` upgrade to or later."
+severities:
+  - id: 682939
+    reference_id: 14744
+    scoring_system: generic_textual
+    value: Medium
+    scoring_elements:
+  - id: 704696
+    reference_id: 36550
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 36548
+    url: https://github.com/nodejs/security-wg/blob/master/vuln/npm/488.json
+    reference_id:
+  - id: 14744
+    url: https://snyk.io/research/zip-slip-vulnerability
+    reference_id:
+  - id: 36549
+    url: https://www.npmjs.com/advisories/777
+    reference_id:
+  - id: 36550
+    url: https://github.com/advisories/GHSA-73v8-v6g4-vrpm
+    reference_id: GHSA-73v8-v6g4-vrpm
+weaknesses: []

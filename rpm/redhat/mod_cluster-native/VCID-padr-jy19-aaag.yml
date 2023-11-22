@@ -1,0 +1,230 @@
+vulnerability_id: VCID-padr-jy19-aaag
+aliases:
+  - CVE-2011-2730
+  - GHSA-wv88-pf73-x22p
+summary: |
+  EL expressions double evaluation
+  When a container supports Expression Language (EL), this package evaluates EL expressions in tags twice, which allows remote attackers to obtain sensitive information via a name attribute in a `spring:hasBindErrors` tag; path attribute in a `spring:bind` or `spring:nestedpath` tag; `arguments`, `code`, `text`, `var`, `scope`, or `message` attribute in a `spring:message` or `spring:theme` tag; or `var`, `scope`, or `value` attribute in a `spring:transform` tag, aka Expression Language Injection.
+severities:
+  - id: 678340
+    reference_id: 11089
+    scoring_system: generic_textual
+    value: Medium
+    scoring_elements:
+  - id: 66852
+    reference_id: '196003'
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 144840
+    reference_id: 461924
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 630015
+    reference_id: 945884
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 63229
+    reference_id: '191402'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63231
+    reference_id: '191404'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63230
+    reference_id: '191403'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63227
+    reference_id: '191400'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63226
+    reference_id: '191399'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63228
+    reference_id: '191401'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63233
+    reference_id: '191406'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63232
+    reference_id: '191405'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63032
+    reference_id: '191137'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 62473
+    reference_id: '190489'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 460949
+    url: http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=677814
+    reference_id:
+  - id: 408373
+    url: http://rhn.redhat.com/errata/RHSA-2013-0191.html
+    reference_id:
+  - id: 408374
+    url: http://rhn.redhat.com/errata/RHSA-2013-0192.html
+    reference_id:
+  - id: 408375
+    url: http://rhn.redhat.com/errata/RHSA-2013-0193.html
+    reference_id:
+  - id: 408376
+    url: http://rhn.redhat.com/errata/RHSA-2013-0194.html
+    reference_id:
+  - id: 408377
+    url: http://rhn.redhat.com/errata/RHSA-2013-0195.html
+    reference_id:
+  - id: 408378
+    url: http://rhn.redhat.com/errata/RHSA-2013-0196.html
+    reference_id:
+  - id: 408379
+    url: http://rhn.redhat.com/errata/RHSA-2013-0197.html
+    reference_id:
+  - id: 408380
+    url: http://rhn.redhat.com/errata/RHSA-2013-0198.html
+    reference_id:
+  - id: 408381
+    url: http://rhn.redhat.com/errata/RHSA-2013-0221.html
+    reference_id:
+  - id: 408382
+    url: http://rhn.redhat.com/errata/RHSA-2013-0533.html
+    reference_id:
+  - id: '196004'
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2011-2730.json
+    reference_id:
+  - id: 461923
+    url: https://docs.google.com/document/d/1dc1xxO8UMFaGLOwgkykYdghGWm_2Gn0iCrxFsympqcE/edit
+    reference_id:
+  - id: 408383
+    url: http://secunia.com/advisories/51984
+    reference_id:
+  - id: 408384
+    url: http://secunia.com/advisories/52054
+    reference_id:
+  - id: 460950
+    url: http://secunia.com/advisories/55155
+    reference_id:
+  - id: 461921
+    url: http://support.springsource.com/security/cve-2011-2730
+    reference_id:
+  - id: 26473
+    url: https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2011-2730
+    reference_id:
+  - id: 461922
+    url: http://www.debian.org/security/2012/dsa-2504
+    reference_id:
+  - id: 11089
+    url: http://www.oracle.com/technetwork/security-advisory/cpujul2017-3236622.html
+    reference_id:
+  - id: 460952
+    url: http://www.securitytracker.com/id/1029151
+    reference_id:
+  - id: '196003'
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=737608
+    reference_id: 737608
+  - id: 461925
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:springsource:spring_framework:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:springsource:spring_framework:*:*:*:*:*:*:*:*
+  - id: 419582
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:springsource:spring_framework:2.5.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:springsource:spring_framework:2.5.0:*:*:*:*:*:*:*
+  - id: 461926
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:springsource:spring_framework:2.5.0:rc1:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:springsource:spring_framework:2.5.0:rc1:*:*:*:*:*:*
+  - id: 461927
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:springsource:spring_framework:2.5.0:rc2:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:springsource:spring_framework:2.5.0:rc2:*:*:*:*:*:*
+  - id: 419583
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:springsource:spring_framework:2.5.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:springsource:spring_framework:2.5.1:*:*:*:*:*:*:*
+  - id: 419584
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:springsource:spring_framework:2.5.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:springsource:spring_framework:2.5.2:*:*:*:*:*:*:*
+  - id: 419585
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:springsource:spring_framework:2.5.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:springsource:spring_framework:2.5.3:*:*:*:*:*:*:*
+  - id: 419586
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:springsource:spring_framework:2.5.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:springsource:spring_framework:2.5.4:*:*:*:*:*:*:*
+  - id: 419587
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:springsource:spring_framework:2.5.5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:springsource:spring_framework:2.5.5:*:*:*:*:*:*:*
+  - id: 419588
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:springsource:spring_framework:2.5.6:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:springsource:spring_framework:2.5.6:*:*:*:*:*:*:*
+  - id: 419589
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:springsource:spring_framework:2.5.7:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:springsource:spring_framework:2.5.7:*:*:*:*:*:*:*
+  - id: 419590
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:springsource:spring_framework:3.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:springsource:spring_framework:3.0.0:*:*:*:*:*:*:*
+  - id: 419591
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:springsource:spring_framework:3.0.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:springsource:spring_framework:3.0.1:*:*:*:*:*:*:*
+  - id: 419592
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:springsource:spring_framework:3.0.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:springsource:spring_framework:3.0.2:*:*:*:*:*:*:*
+  - id: 461928
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:springsource:spring_framework:3.0.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:springsource:spring_framework:3.0.3:*:*:*:*:*:*:*
+  - id: 461929
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:springsource:spring_framework:3.0.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:springsource:spring_framework:3.0.4:*:*:*:*:*:*:*
+  - id: 461924
+    url: https://nvd.nist.gov/vuln/detail/CVE-2011-2730
+    reference_id: CVE-2011-2730
+  - id: 945884
+    url: https://github.com/advisories/GHSA-wv88-pf73-x22p
+    reference_id: GHSA-wv88-pf73-x22p
+  - id: '191402'
+    url: https://access.redhat.com/errata/RHSA-2013:0191
+    reference_id: RHSA-2013:0191
+  - id: '191404'
+    url: https://access.redhat.com/errata/RHSA-2013:0192
+    reference_id: RHSA-2013:0192
+  - id: '191403'
+    url: https://access.redhat.com/errata/RHSA-2013:0193
+    reference_id: RHSA-2013:0193
+  - id: '191400'
+    url: https://access.redhat.com/errata/RHSA-2013:0194
+    reference_id: RHSA-2013:0194
+  - id: '191399'
+    url: https://access.redhat.com/errata/RHSA-2013:0195
+    reference_id: RHSA-2013:0195
+  - id: '191401'
+    url: https://access.redhat.com/errata/RHSA-2013:0196
+    reference_id: RHSA-2013:0196
+  - id: '191406'
+    url: https://access.redhat.com/errata/RHSA-2013:0198
+    reference_id: RHSA-2013:0198
+  - id: '191405'
+    url: https://access.redhat.com/errata/RHSA-2013:0221
+    reference_id: RHSA-2013:0221
+  - id: '191137'
+    url: https://access.redhat.com/errata/RHSA-2013:0533
+    reference_id: RHSA-2013:0533
+  - id: '190489'
+    url: https://access.redhat.com/errata/RHSA-2013:0953
+    reference_id: RHSA-2013:0953
+weaknesses: []

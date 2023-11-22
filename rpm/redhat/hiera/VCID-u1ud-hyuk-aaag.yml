@@ -1,0 +1,68 @@
+vulnerability_id: VCID-u1ud-hyuk-aaag
+aliases:
+  - CVE-2016-7078
+summary: foreman before version 1.15.0 is vulnerable to an information leak through organizations
+  and locations feature. When a user is assigned _no_ organizations/locations, they are able
+  to view all resources instead of none (mirroring an administrator's view). The user's actions
+  are still limited by their assigned permissions, e.g. to control viewing, editing and deletion.
+severities:
+  - id: 626498
+    reference_id: 943103
+    scoring_system: cvssv3
+    value: '4.3'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N
+  - id: 626497
+    reference_id: 943102
+    scoring_system: rhbs
+    value: low
+    scoring_elements:
+  - id: 237270
+    reference_id: 655230
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:N/A:N
+  - id: 237268
+    reference_id: 655230
+    scoring_system: cvssv3
+    value: '4.3'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N
+  - id: 48853
+    reference_id: 173183
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 943103
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2016-7078.json
+    reference_id:
+  - id: 655225
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2016-7078
+    reference_id:
+  - id: 655226
+    url: https://github.com/theforeman/foreman/commit/5f606e11cf39719bf62f8b1f3396861b32387905
+    reference_id:
+  - id: 655227
+    url: https://projects.theforeman.org/issues/16982
+    reference_id:
+  - id: 655228
+    url: https://seclists.org/oss-sec/2017/q1/470
+    reference_id:
+  - id: 655229
+    url: https://theforeman.org/security.html#2016-7078
+    reference_id:
+  - id: 655224
+    url: http://www.securityfocus.com/bid/96385
+    reference_id:
+  - id: 943102
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1386244
+    reference_id: 1386244
+  - id: 158696
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:foreman:1.15.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:foreman:1.15.0:*:*:*:*:*:*:*
+  - id: 655230
+    url: https://nvd.nist.gov/vuln/detail/CVE-2016-7078
+    reference_id: CVE-2016-7078
+  - id: 173183
+    url: https://access.redhat.com/errata/RHSA-2018:0336
+    reference_id: RHSA-2018:0336
+weaknesses: []

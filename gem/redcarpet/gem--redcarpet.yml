@@ -1,0 +1,423 @@
+package: pkg:gem/redcarpet
+versions:
+  - purl: pkg:gem/redcarpet@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@1.1.0
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@1.10.0
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@1.10.1
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@1.1.1
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@1.11.0
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@1.11.1
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@1.11.2
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@1.11.3
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@1.11.4
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@1.12.0
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@1.12.1
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@1.12.2
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@1.13.0
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@1.13.1
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@1.13.2
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@1.14.0
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@1.14.1
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@1.14.2
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@1.15.0
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@1.15.1
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@1.15.2
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@1.16.0
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@1.17.0
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@1.17.1
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@1.17.2
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@1.2.0
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@1.2.1
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@1.2.2
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@1.3.0
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@1.3.1
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@1.3.2
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@1.3.3
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@1.5.0
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@1.5.1
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@1.5.2
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@1.5.3
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@1.6.0
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@1.7.0
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@1.7.1
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@1.8.0
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@1.8.1
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@1.8.2
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@1.9.0
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@2.0.0b
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@2.0.0b3
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@2.0.0b4
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@2.0.0b5
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@2.0.1
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@2.1.0
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@2.1.1
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@2.2.0
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@2.2.1
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@2.2.2
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@2.3.0
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@3.0.0
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@3.1.0
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@3.1.1
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+      - VCID-zkze-uhbp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@3.1.2
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@3.2.0
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@3.2.1
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@3.2.2
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@3.2.3
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+    fixing_vulnerabilities:
+      - VCID-zkze-uhbp-aaah
+  - purl: pkg:gem/redcarpet@3.3.0
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@3.3.1
+    affected_by_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+      - VCID-zg93-mg6t-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@3.3.2
+    affected_by_vulnerabilities:
+      - VCID-zg93-mg6t-aaaa
+    fixing_vulnerabilities:
+      - VCID-7k52-m3q7-aaar
+  - purl: pkg:gem/redcarpet@3.3.3
+    affected_by_vulnerabilities:
+      - VCID-zg93-mg6t-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@3.3.4
+    affected_by_vulnerabilities:
+      - VCID-zg93-mg6t-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@3.4.0
+    affected_by_vulnerabilities:
+      - VCID-zg93-mg6t-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@3.5.0
+    affected_by_vulnerabilities:
+      - VCID-zg93-mg6t-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/redcarpet@3.5.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-zg93-mg6t-aaaa

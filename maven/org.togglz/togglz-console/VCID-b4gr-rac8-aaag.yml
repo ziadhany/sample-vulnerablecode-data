@@ -1,0 +1,29 @@
+vulnerability_id: VCID-b4gr-rac8-aaag
+aliases:
+  - CVE-2020-28191
+  - GHSA-697v-pxg3-j262
+  - GMS-2022-3103
+summary: Togglz console missing cross-site request forgery (CSRF) protection
+severities:
+  - id: 629985
+    reference_id: 945820
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 945818
+    url: https://github.com/togglz/togglz/commit/ed66e3f584de954297ebaf98ea4a235286784707
+    reference_id:
+  - id: 945817
+    url: https://github.com/togglz/togglz/pull/495
+    reference_id:
+  - id: 945816
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-28191
+    reference_id: CVE-2020-28191
+  - id: 945819
+    url: https://www.mend.io/vulnerability-database/CVE-2020-28191
+    reference_id: CVE-2020-28191
+  - id: 945820
+    url: https://github.com/advisories/GHSA-697v-pxg3-j262
+    reference_id: GHSA-697v-pxg3-j262
+weaknesses: []

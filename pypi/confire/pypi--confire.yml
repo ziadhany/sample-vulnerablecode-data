@@ -1,0 +1,14 @@
+package: pkg:pypi/confire
+versions:
+  - purl: pkg:pypi/confire@0.1.0
+    affected_by_vulnerabilities:
+      - VCID-h1zy-st35-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/confire@0.1.1
+    affected_by_vulnerabilities:
+      - VCID-h1zy-st35-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/confire@0.2.0
+    affected_by_vulnerabilities:
+      - VCID-h1zy-st35-aaaa
+    fixing_vulnerabilities: []

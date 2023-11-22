@@ -1,0 +1,34 @@
+vulnerability_id: VCID-37j4-1khx-aaae
+aliases:
+  - CVE-2022-25927
+  - GHSA-fhg7-m89q-25r3
+  - GMS-2023-120
+summary: 'ReDoS Vulnerability in ua-parser-js version '
+severities:
+  - id: 707404
+    reference_id: 1469604
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 707403
+    reference_id: 1469602
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 1469603
+    url: https://github.com/faisalman/ua-parser-js/commit/a6140a17dd0300a35cfc9cff999545f267889411
+    reference_id:
+  - id: 1470183
+    url: https://security.snyk.io/vuln/SNYK-JS-UAPARSERJS-3244450
+    reference_id:
+  - id: 1470182
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-25927
+    reference_id: CVE-2022-25927
+  - id: 1469604
+    url: https://github.com/advisories/GHSA-fhg7-m89q-25r3
+    reference_id: GHSA-fhg7-m89q-25r3
+  - id: 1469602
+    url: https://github.com/faisalman/ua-parser-js/security/advisories/GHSA-fhg7-m89q-25r3
+    reference_id: GHSA-fhg7-m89q-25r3
+weaknesses: []

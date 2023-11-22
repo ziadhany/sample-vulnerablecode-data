@@ -1,0 +1,48 @@
+vulnerability_id: VCID-brkw-rfbc-aaaa
+aliases:
+  - CVE-2018-1000814
+  - GHSA-mr4x-c4v9-x729
+  - PYSEC-2018-35
+summary: aio-libs aiohttp-session version 2.6.0 and earlier contains a Other/Unknown vulnerability
+  in EncryptedCookieStorage and NaClCookieStorage that can result in Non-expiring sessions /
+  Infinite lifespan. This attack appear to be exploitable via Recreation of a cookie post-expiry
+  with the same value.
+severities:
+  - id: 308462
+    reference_id: 26351
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:N/I:P/A:N
+  - id: 308460
+    reference_id: 26351
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
+  - id: 4766
+    reference_id: 26352
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 23527
+    url: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-1000814
+    reference_id:
+  - id: 23528
+    url: https://cwe.mitre.org/data/definitions/613.html
+    reference_id:
+  - id: 5506
+    url: https://github.com/aio-libs/aiohttp-session/issues/325
+    reference_id:
+  - id: 5505
+    url: https://github.com/aio-libs/aiohttp-session/pull/331
+    reference_id:
+  - id: 722339
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:aiohttp-session_project:aiohttp-session:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:aiohttp-session_project:aiohttp-session:*:*:*:*:*:*:*:*
+  - id: 26351
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-1000814
+    reference_id: CVE-2018-1000814
+  - id: 26352
+    url: https://github.com/advisories/GHSA-mr4x-c4v9-x729
+    reference_id: GHSA-mr4x-c4v9-x729
+weaknesses: []

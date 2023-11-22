@@ -1,0 +1,40 @@
+vulnerability_id: VCID-x43w-zr1d-aaae
+aliases:
+  - CVE-2020-8175
+  - GHSA-w7q9-p3jq-fmhm
+summary: |
+  Uncontrolled Resource Consumption
+  Uncontrolled resource consumption in `jpeg-js` allows attacker to launch denial of service attacks using specially a crafted JPEG image.
+severities:
+  - id: 490881
+    reference_id: 6306
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:N/A:P
+  - id: 490879
+    reference_id: 6306
+    scoring_system: cvssv3
+    value: '5.5'
+    scoring_elements: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+  - id: 706475
+    reference_id: 1468083
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 1468082
+    url: https://github.com/eugeneware/jpeg-js/commit/135705b1510afb6cb4275a4655d92c58f6843e79
+    reference_id:
+  - id: 854025
+    url: https://hackerone.com/reports/842462
+    reference_id:
+  - id: 854026
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:jpeg-js_project:jpeg-js:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:jpeg-js_project:jpeg-js:*:*:*:*:*:node.js:*:*
+  - id: 6306
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-8175
+    reference_id: CVE-2020-8175
+  - id: 1468083
+    url: https://github.com/advisories/GHSA-w7q9-p3jq-fmhm
+    reference_id: GHSA-w7q9-p3jq-fmhm
+weaknesses: []

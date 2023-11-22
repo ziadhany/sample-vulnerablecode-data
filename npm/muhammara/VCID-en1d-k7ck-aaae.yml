@@ -1,0 +1,56 @@
+vulnerability_id: VCID-en1d-k7ck-aaae
+aliases:
+  - CVE-2022-25885
+  - GHSA-frp9-2v6r-gj97
+summary: |
+  Uncontrolled Resource Consumption
+  The package muhammara before 2.6.0; all versions of package hummus is vulnerable to Denial of Service (DoS) when PDFStreamForResponse() is used with invalid data.
+severities:
+  - id: 707056
+    reference_id: 1463613
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 707255
+    reference_id: 1463556
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 1463560
+    url: https://github.com/galkahana/HummusJS/commit/a9bf2520ab5abb69f9328906e406fbebfb36159a
+    reference_id:
+  - id: 1463557
+    url: https://github.com/galkahana/HummusJS/issues/293
+    reference_id:
+  - id: 1463473
+    url: https://github.com/galkahana/HummusJS/issues/439
+    reference_id:
+  - id: 1463476
+    url: https://github.com/julianhille/MuhammaraJS/commit/0a6427eec82ef2978995e453de2dc0d6224dd46c
+    reference_id:
+  - id: 1463477
+    url: https://github.com/julianhille/MuhammaraJS/issues/188
+    reference_id:
+  - id: 1463558
+    url: https://github.com/julianhille/MuhammaraJS/issues/191
+    reference_id:
+  - id: 1463559
+    url: https://github.com/julianhille/MuhammaraJS/pull/194
+    reference_id:
+  - id: 1463475
+    url: https://security.snyk.io/vuln/SNYK-JS-HUMMUS-3091139
+    reference_id:
+  - id: 1463474
+    url: https://security.snyk.io/vuln/SNYK-JS-MUHAMMARA-3091137
+    reference_id:
+  - id: 1463472
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-25885
+    reference_id: CVE-2022-25885
+  - id: 1463613
+    url: https://github.com/advisories/GHSA-frp9-2v6r-gj97
+    reference_id: GHSA-frp9-2v6r-gj97
+  - id: 1463556
+    url: https://github.com/julianhille/MuhammaraJS/security/advisories/GHSA-rcrx-fpjp-mfrw
+    reference_id: GHSA-rcrx-fpjp-mfrw
+weaknesses: []

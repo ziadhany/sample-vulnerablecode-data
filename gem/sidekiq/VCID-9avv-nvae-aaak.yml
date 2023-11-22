@@ -1,0 +1,12 @@
+vulnerability_id: VCID-9avv-nvae-aaak
+aliases:
+  - OSVDB-125675
+summary: |
+  Multiple Unspecified CSRF
+  Sidekiq::Web lacks CSRF protection
+severities: []
+references:
+  - id: 38694
+    url: https://github.com/mperham/sidekiq/pull/2422
+    reference_id:
+weaknesses: []

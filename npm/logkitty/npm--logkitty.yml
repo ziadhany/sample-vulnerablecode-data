@@ -1,0 +1,66 @@
+package: pkg:npm/logkitty
+versions:
+  - purl: pkg:npm/logkitty@0.1.0
+    affected_by_vulnerabilities:
+      - VCID-pat1-4qy4-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/logkitty@0.2.0
+    affected_by_vulnerabilities:
+      - VCID-pat1-4qy4-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/logkitty@0.2.1
+    affected_by_vulnerabilities:
+      - VCID-pat1-4qy4-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/logkitty@0.2.2
+    affected_by_vulnerabilities:
+      - VCID-pat1-4qy4-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/logkitty@0.2.3
+    affected_by_vulnerabilities:
+      - VCID-pat1-4qy4-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/logkitty@0.3.0
+    affected_by_vulnerabilities:
+      - VCID-pat1-4qy4-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/logkitty@0.3.1
+    affected_by_vulnerabilities:
+      - VCID-pat1-4qy4-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/logkitty@0.3.2
+    affected_by_vulnerabilities:
+      - VCID-pat1-4qy4-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/logkitty@0.4.0
+    affected_by_vulnerabilities:
+      - VCID-pat1-4qy4-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/logkitty@0.4.1
+    affected_by_vulnerabilities:
+      - VCID-pat1-4qy4-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/logkitty@0.4.2
+    affected_by_vulnerabilities:
+      - VCID-pat1-4qy4-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/logkitty@0.5.0
+    affected_by_vulnerabilities:
+      - VCID-pat1-4qy4-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/logkitty@0.6.0
+    affected_by_vulnerabilities:
+      - VCID-pat1-4qy4-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/logkitty@0.6.1
+    affected_by_vulnerabilities:
+      - VCID-pat1-4qy4-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/logkitty@0.7.0
+    affected_by_vulnerabilities:
+      - VCID-pat1-4qy4-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/logkitty@0.7.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-pat1-4qy4-aaaq

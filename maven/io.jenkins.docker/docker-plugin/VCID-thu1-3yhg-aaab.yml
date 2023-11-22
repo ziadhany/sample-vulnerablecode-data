@@ -1,0 +1,34 @@
+vulnerability_id: VCID-thu1-3yhg-aaab
+aliases:
+  - CVE-2019-10341
+summary: |
+  Information Exposure
+  A missing permission check in Jenkins Docker Plugin in `DockerAPI.DescriptorImpl#doTestConnection` allowed users with Overall/Read access to connect to an attacker-specified URL using attacker-specified credentials IDs obtained through another method, capturing credentials stored in Jenkins.
+severities:
+  - id: 367888
+    reference_id: 29129
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:N/A:N
+  - id: 367886
+    reference_id: 29129
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+references:
+  - id: 29128
+    url: https://jenkins.io/security/advisory/2019-07-11/#SECURITY-1010
+    reference_id:
+  - id: 767471
+    url: http://www.openwall.com/lists/oss-security/2019/07/11/4
+    reference_id:
+  - id: 29127
+    url: http://www.securityfocus.com/bid/109156
+    reference_id:
+  - id: 767472
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:jenkins:docker:*:*:*:*:*:jenkins:*:*
+    reference_id: cpe:2.3:a:jenkins:docker:*:*:*:*:*:jenkins:*:*
+  - id: 29129
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-10341
+    reference_id: CVE-2019-10341
+weaknesses: []

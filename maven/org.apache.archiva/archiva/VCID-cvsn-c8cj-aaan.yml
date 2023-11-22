@@ -1,0 +1,35 @@
+vulnerability_id: VCID-cvsn-c8cj-aaan
+aliases:
+  - CVE-2022-29405
+  - GHSA-5hqc-x78w-3cmw
+summary: Missing Authorization in Apache Archiva
+severities:
+  - id: 598839
+    reference_id: 2342
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:N/I:P/A:N
+  - id: 598837
+    reference_id: 2342
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
+  - id: 383
+    reference_id: 2344
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 2343
+    url: https://archiva.apache.org/docs/2.2.8/release-notes.html
+    reference_id:
+  - id: 645405
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:archiva:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:archiva:*:*:*:*:*:*:*:*
+  - id: 2342
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-29405
+    reference_id: CVE-2022-29405
+  - id: 2344
+    url: https://github.com/advisories/GHSA-5hqc-x78w-3cmw
+    reference_id: GHSA-5hqc-x78w-3cmw
+weaknesses: []

@@ -1,0 +1,57 @@
+vulnerability_id: VCID-2f8j-nbcd-aaaq
+aliases:
+  - CVE-2021-22147
+  - GHSA-45h5-r968-5xr7
+summary: Exposure of sensitive information in Elasticsearch
+severities:
+  - id: 80737
+    reference_id: 214507
+    scoring_system: cvssv3
+    value: '5.7'
+    scoring_elements: CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+  - id: 80736
+    reference_id: 214506
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 511142
+    reference_id: 10322
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:N/A:N
+  - id: 511140
+    reference_id: 10322
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+  - id: 961
+    reference_id: 10325
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 214507
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-22147.json
+    reference_id:
+  - id: 10323
+    url: https://discuss.elastic.co/t/elastic-stack-7-14-0-security-update/280344
+    reference_id:
+  - id: 10324
+    url: https://security.netapp.com/advisory/ntap-20211008-0002/
+    reference_id:
+  - id: 1681
+    url: https://www.elastic.co/community/security/
+    reference_id:
+  - id: 214506
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1990094
+    reference_id: '1990094'
+  - id: 159755
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:elastic:elasticsearch:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:elastic:elasticsearch:*:*:*:*:*:*:*:*
+  - id: 10322
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-22147
+    reference_id: CVE-2021-22147
+  - id: 10325
+    url: https://github.com/advisories/GHSA-45h5-r968-5xr7
+    reference_id: GHSA-45h5-r968-5xr7
+weaknesses: []

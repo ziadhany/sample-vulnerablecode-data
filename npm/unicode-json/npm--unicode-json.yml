@@ -1,0 +1,29 @@
+package: pkg:npm/unicode-json
+versions:
+  - purl: pkg:npm/unicode-json@0.0.0-alpha
+    affected_by_vulnerabilities:
+      - VCID-naec-qjk5-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/unicode-json@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-2heb-k573-aaam
+      - VCID-naec-qjk5-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/unicode-json@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-2heb-k573-aaam
+      - VCID-naec-qjk5-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/unicode-json@1.0.2
+    affected_by_vulnerabilities:
+      - VCID-2heb-k573-aaam
+      - VCID-naec-qjk5-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/unicode-json@1.0.3
+    affected_by_vulnerabilities:
+      - VCID-2heb-k573-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/unicode-json@2.0.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-2heb-k573-aaam

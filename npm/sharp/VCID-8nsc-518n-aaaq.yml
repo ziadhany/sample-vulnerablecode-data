@@ -1,0 +1,53 @@
+vulnerability_id: VCID-8nsc-518n-aaaq
+aliases:
+  - CVE-2022-29256
+  - GHSA-gp95-ppv5-3jc5
+summary: sharp is an application for Node.js image processing. Prior to version 0.30.5, there
+  is a possible vulnerability in logic that is run only at `npm install` time when installing
+  versions of `sharp` prior to the latest v0.30.5. If an attacker has the ability to set the
+  value of the `PKG_CONFIG_PATH` environment variable in a build environment then they might
+  be able to use this to inject an arbitrary command at `npm install` time. This is not part
+  of any runtime code, does not affect Windows users at all, and is unlikely to affect anyone
+  that already cares about the security of their build environment. This problem is fixed in
+  version 0.30.5.
+severities:
+  - id: 598603
+    reference_id: 922993
+    scoring_system: cvssv2
+    value: '4.6'
+    scoring_elements: AV:L/AC:L/Au:N/C:P/I:P/A:P
+  - id: 598601
+    reference_id: 922993
+    scoring_system: cvssv3
+    value: '6.7'
+    scoring_elements: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H
+  - id: 707102
+    reference_id: 952194
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 707101
+    reference_id: 952193
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 1468743
+    url: https://advisory.dw1.io/54
+    reference_id:
+  - id: 922991
+    url: https://github.com/lovell/sharp/commit/a6aeef612be50f5868a77481848b1de674216f0c
+    reference_id:
+  - id: 922994
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:sharp_project:sharp:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:sharp_project:sharp:*:*:*:*:*:node.js:*:*
+  - id: 922993
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-29256
+    reference_id: CVE-2022-29256
+  - id: 952194
+    url: https://github.com/advisories/GHSA-gp95-ppv5-3jc5
+    reference_id: GHSA-gp95-ppv5-3jc5
+  - id: 952193
+    url: https://github.com/lovell/sharp/security/advisories/GHSA-gp95-ppv5-3jc5
+    reference_id: GHSA-gp95-ppv5-3jc5
+weaknesses: []

@@ -1,0 +1,30 @@
+vulnerability_id: VCID-bnzz-vfm8-aaaj
+aliases:
+  - CVE-2023-28640
+  - GHSA-m6f8-hjrv-mw5f
+summary: Apiman vulnerable to permissions bypass due to missing check on API key URL
+severities:
+  - id: 708383
+    reference_id: 1473130
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 708382
+    reference_id: 1473127
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 1473129
+    url: https://www.apiman.io/blog/potential-permissions-bypass-disclosure/
+    reference_id:
+  - id: 1473128
+    url: https://nvd.nist.gov/vuln/detail/CVE-2023-28640
+    reference_id: CVE-2023-28640
+  - id: 1473130
+    url: https://github.com/advisories/GHSA-m6f8-hjrv-mw5f
+    reference_id: GHSA-m6f8-hjrv-mw5f
+  - id: 1473127
+    url: https://github.com/apiman/apiman/security/advisories/GHSA-m6f8-hjrv-mw5f
+    reference_id: GHSA-m6f8-hjrv-mw5f
+weaknesses: []

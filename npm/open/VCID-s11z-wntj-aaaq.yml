@@ -1,0 +1,32 @@
+vulnerability_id: VCID-s11z-wntj-aaaq
+aliases:
+  - GHSA-28xh-wpgr-7fm8
+  - GMS-2019-44
+summary: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+  in open.
+severities:
+  - id: 704496
+    reference_id: 32496
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 32491
+    url: https://github.com/pwnall/node-open/issues/68
+    reference_id:
+  - id: 32492
+    url: https://github.com/pwnall/node-open/issues/69
+    reference_id:
+  - id: 32493
+    url: https://hackerone.com/reports/319473
+    reference_id:
+  - id: 32494
+    url: https://nodesecurity.io/advisories/663
+    reference_id:
+  - id: 32495
+    url: https://www.npmjs.com/advisories/663
+    reference_id:
+  - id: 32496
+    url: https://github.com/advisories/GHSA-28xh-wpgr-7fm8
+    reference_id: GHSA-28xh-wpgr-7fm8
+weaknesses: []

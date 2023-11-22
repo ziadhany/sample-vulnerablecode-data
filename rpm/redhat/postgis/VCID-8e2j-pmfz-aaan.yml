@@ -1,0 +1,47 @@
+vulnerability_id: VCID-8e2j-pmfz-aaan
+aliases:
+  - CVE-2014-0084
+  - GHSA-756m-3qf2-hp58
+summary: 'CVE-2014-0084 rubygem-openshift-origin-node: cron.daily/cron.weekly denial of service'
+severities:
+  - id: 174109
+    reference_id: 549762
+    scoring_system: cvssv2
+    value: '2.1'
+    scoring_elements: AV:L/AC:L/Au:N/C:N/I:N/A:P
+  - id: 174107
+    reference_id: 549762
+    scoring_system: cvssv3
+    value: '5.5'
+    scoring_elements: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+  - id: 708171
+    reference_id: 1471445
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 1471443
+    url: https://access.redhat.com/errata/RHBA-2014:0487
+    reference_id:
+  - id: 187344
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2014-0084.json
+    reference_id:
+  - id: 549761
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2014-0084
+    reference_id:
+  - id: 507692
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift_origin:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift_origin:*:*:*:*:*:*:*:*
+  - id: 1471444
+    url: https://access.redhat.com/security/cve/CVE-2014-0084
+    reference_id: CVE-2014-0084
+  - id: 549762
+    url: https://nvd.nist.gov/vuln/detail/CVE-2014-0084
+    reference_id: CVE-2014-0084
+  - id: 1471445
+    url: https://github.com/advisories/GHSA-756m-3qf2-hp58
+    reference_id: GHSA-756m-3qf2-hp58
+  - id: 187343
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1065198
+    reference_id: RHBA-2014:0487
+weaknesses: []

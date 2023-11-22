@@ -1,0 +1,40 @@
+vulnerability_id: VCID-fkqt-vq68-aaap
+aliases:
+  - CVE-2016-10521
+  - GHSA-xj62-87pg-vcv3
+summary: |
+  Improper Input Validation
+  jshamcrest is vulnerable to regular expression denial of service (ReDoS) when certain types of user input is passed in to the `emailAddress` validator.
+severities:
+  - id: 214611
+    reference_id: 35908
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 214609
+    reference_id: 35908
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 705388
+    reference_id: 1466546
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 628589
+    url: https://nodesecurity.io/advisories/53
+    reference_id:
+  - id: 1466547
+    url: https://www.npmjs.com/advisories/53
+    reference_id:
+  - id: 628590
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:jshamcrest_project:jshamcrest:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:jshamcrest_project:jshamcrest:*:*:*:*:*:node.js:*:*
+  - id: 35908
+    url: https://nvd.nist.gov/vuln/detail/CVE-2016-10521
+    reference_id: CVE-2016-10521
+  - id: 1466546
+    url: https://github.com/advisories/GHSA-xj62-87pg-vcv3
+    reference_id: GHSA-xj62-87pg-vcv3
+weaknesses: []

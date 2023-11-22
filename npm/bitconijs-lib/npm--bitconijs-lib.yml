@@ -1,0 +1,10 @@
+package: pkg:npm/bitconijs-lib
+versions:
+  - purl: pkg:npm/bitconijs-lib@0.0.0
+    affected_by_vulnerabilities:
+      - VCID-ayhf-6rux-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/bitconijs-lib@0.0.1-security
+    affected_by_vulnerabilities:
+      - VCID-ayhf-6rux-aaag
+    fixing_vulnerabilities: []

@@ -1,0 +1,122 @@
+package: pkg:npm/%40ckeditor/ckeditor5-font
+versions:
+  - purl: pkg:npm/%40ckeditor/ckeditor5-font@0.0.1
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-font@10.0.0
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-font@10.0.1
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-font@10.0.2
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-font@10.0.3
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-font@10.0.4
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-font@1.0.0-beta.1
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-font@1.0.0-beta.2
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-font@1.0.0-beta.4
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-font@11.0.0
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-font@11.1.0
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-font@11.1.1
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-font@11.2.0
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-font@11.2.1
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-font@11.2.2
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-font@15.0.0
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-font@16.0.0
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-font@17.0.0
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-font@18.0.0
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-font@19.0.0
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-font@19.0.1
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-font@20.0.0
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-font@21.0.0
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-font@22.0.0
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-font@23.0.0
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-font@23.1.0
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-font@24.0.0
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-font@25.0.0
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-font@26.0.0
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-font@27.0.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-6qc1-b496-aaae

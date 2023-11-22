@@ -1,0 +1,148 @@
+vulnerability_id: VCID-zjky-9ejb-aaaj
+aliases:
+  - CVE-2018-1102
+summary: A flaw was found in source-to-image function as shipped with Openshift Enterprise 3.x.
+  An improper path validation of tar files in ExtractTarStreamFromTarReader in tar/tar.go leads
+  to privilege escalation.
+severities:
+  - id: 616876
+    reference_id: 936379
+    scoring_system: cvssv3
+    value: '9.9'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H
+  - id: 616865
+    reference_id: 936368
+    scoring_system: rhbs
+    value: urgent
+    scoring_elements:
+  - id: 312129
+    reference_id: 725779
+    scoring_system: cvssv2
+    value: '6.5'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:P/A:P
+  - id: 312127
+    reference_id: 725779
+    scoring_system: cvssv3
+    value: '8.8'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+  - id: 616869
+    reference_id: 936372
+    scoring_system: rhas
+    value: Critical
+    scoring_elements:
+  - id: 616867
+    reference_id: 936370
+    scoring_system: rhas
+    value: Critical
+    scoring_elements:
+  - id: 616873
+    reference_id: 936376
+    scoring_system: rhas
+    value: Critical
+    scoring_elements:
+  - id: 616872
+    reference_id: 936375
+    scoring_system: rhas
+    value: Critical
+    scoring_elements:
+  - id: 616871
+    reference_id: 936374
+    scoring_system: rhas
+    value: Critical
+    scoring_elements:
+  - id: 616868
+    reference_id: 936371
+    scoring_system: rhas
+    value: Critical
+    scoring_elements:
+  - id: 616866
+    reference_id: 936369
+    scoring_system: rhas
+    value: Critical
+    scoring_elements:
+  - id: 616875
+    reference_id: 936378
+    scoring_system: rhas
+    value: Critical
+    scoring_elements:
+  - id: 616874
+    reference_id: 936377
+    scoring_system: rhas
+    value: Critical
+    scoring_elements:
+  - id: 616870
+    reference_id: 936373
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 936379
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2018-1102.json
+    reference_id:
+  - id: 936368
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1562246
+    reference_id: 1562246
+  - id: 159078
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift:3.0:*:*:*:enterprise:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift:3.0:*:*:*:enterprise:*:*:*
+  - id: 614312
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift:3.1:*:*:*:enterprise:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift:3.1:*:*:*:enterprise:*:*:*
+  - id: 637942
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift:3.2:*:*:*:enterprise:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift:3.2:*:*:*:enterprise:*:*:*
+  - id: 655212
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift:3.3:*:*:*:enterprise:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift:3.3:*:*:*:enterprise:*:*:*
+  - id: 663132
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift:3.4:*:*:*:enterprise:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift:3.4:*:*:*:enterprise:*:*:*
+  - id: 709669
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift:3.5:*:*:*:enterprise:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift:3.5:*:*:*:enterprise:*:*:*
+  - id: 709670
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift:3.6:*:*:*:enterprise:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift:3.6:*:*:*:enterprise:*:*:*
+  - id: 709671
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift:3.7:*:*:*:enterprise:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift:3.7:*:*:*:enterprise:*:*:*
+  - id: 725780
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift:3.8:*:*:*:enterprise:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift:3.8:*:*:*:enterprise:*:*:*
+  - id: 709672
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift:3.9:*:*:*:enterprise:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift:3.9:*:*:*:enterprise:*:*:*
+  - id: 725779
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-1102
+    reference_id: CVE-2018-1102
+  - id: 936372
+    url: https://access.redhat.com/errata/RHSA-2018:1227
+    reference_id: RHSA-2018:1227
+  - id: 936370
+    url: https://access.redhat.com/errata/RHSA-2018:1229
+    reference_id: RHSA-2018:1229
+  - id: 936376
+    url: https://access.redhat.com/errata/RHSA-2018:1231
+    reference_id: RHSA-2018:1231
+  - id: 936375
+    url: https://access.redhat.com/errata/RHSA-2018:1233
+    reference_id: RHSA-2018:1233
+  - id: 936374
+    url: https://access.redhat.com/errata/RHSA-2018:1235
+    reference_id: RHSA-2018:1235
+  - id: 936371
+    url: https://access.redhat.com/errata/RHSA-2018:1237
+    reference_id: RHSA-2018:1237
+  - id: 936369
+    url: https://access.redhat.com/errata/RHSA-2018:1239
+    reference_id: RHSA-2018:1239
+  - id: 936378
+    url: https://access.redhat.com/errata/RHSA-2018:1241
+    reference_id: RHSA-2018:1241
+  - id: 936377
+    url: https://access.redhat.com/errata/RHSA-2018:1243
+    reference_id: RHSA-2018:1243
+  - id: 936373
+    url: https://access.redhat.com/errata/RHSA-2019:0036
+    reference_id: RHSA-2019:0036
+weaknesses: []

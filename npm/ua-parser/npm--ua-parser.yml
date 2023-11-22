@@ -1,0 +1,66 @@
+package: pkg:npm/ua-parser
+versions:
+  - purl: pkg:npm/ua-parser@0.0.0-alpha
+    affected_by_vulnerabilities:
+      - VCID-4tmn-nee1-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ua-parser@0.1.0
+    affected_by_vulnerabilities:
+      - VCID-4tmn-nee1-aaap
+      - VCID-prgs-9nh4-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ua-parser@0.1.1
+    affected_by_vulnerabilities:
+      - VCID-4tmn-nee1-aaap
+      - VCID-prgs-9nh4-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ua-parser@0.2.0
+    affected_by_vulnerabilities:
+      - VCID-4tmn-nee1-aaap
+      - VCID-prgs-9nh4-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ua-parser@0.2.1
+    affected_by_vulnerabilities:
+      - VCID-4tmn-nee1-aaap
+      - VCID-prgs-9nh4-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ua-parser@0.2.3
+    affected_by_vulnerabilities:
+      - VCID-4tmn-nee1-aaap
+      - VCID-prgs-9nh4-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ua-parser@0.2.4
+    affected_by_vulnerabilities:
+      - VCID-4tmn-nee1-aaap
+      - VCID-prgs-9nh4-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ua-parser@0.3.0
+    affected_by_vulnerabilities:
+      - VCID-4tmn-nee1-aaap
+      - VCID-prgs-9nh4-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ua-parser@0.3.1
+    affected_by_vulnerabilities:
+      - VCID-4tmn-nee1-aaap
+      - VCID-prgs-9nh4-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ua-parser@0.3.2
+    affected_by_vulnerabilities:
+      - VCID-4tmn-nee1-aaap
+      - VCID-prgs-9nh4-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ua-parser@0.3.3
+    affected_by_vulnerabilities:
+      - VCID-4tmn-nee1-aaap
+      - VCID-prgs-9nh4-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ua-parser@0.3.4
+    affected_by_vulnerabilities:
+      - VCID-4tmn-nee1-aaap
+      - VCID-prgs-9nh4-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ua-parser@0.3.5
+    affected_by_vulnerabilities:
+      - VCID-4tmn-nee1-aaap
+      - VCID-prgs-9nh4-aaag
+    fixing_vulnerabilities: []

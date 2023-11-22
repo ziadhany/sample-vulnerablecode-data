@@ -1,0 +1,44 @@
+vulnerability_id: VCID-wewq-1eh2-aaan
+aliases:
+  - CVE-2015-8968
+  - GHSA-8gg6-3r63-25m8
+summary: High severity vulnerability that affects git-fastclone
+severities:
+  - id: 207077
+    reference_id: 29372
+    scoring_system: cvssv2
+    value: '9.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:C/I:C/A:C
+  - id: 207075
+    reference_id: 29372
+    scoring_system: cvssv3
+    value: '8.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+  - id: 5203
+    reference_id: 29375
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 29373
+    url: https://github.com/square/git-fastclone/pull/2
+    reference_id:
+  - id: 29374
+    url: https://hackerone.com/reports/104465
+    reference_id:
+  - id: 1469770
+    url: https://web.archive.org/web/20200227213019/http://www.securityfocus.com/bid/81433
+    reference_id:
+  - id: 29376
+    url: http://www.securityfocus.com/bid/81433
+    reference_id:
+  - id: 620712
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:squareup:git-fastclone:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:squareup:git-fastclone:*:*:*:*:*:*:*:*
+  - id: 29372
+    url: https://nvd.nist.gov/vuln/detail/CVE-2015-8968
+    reference_id: CVE-2015-8968
+  - id: 29375
+    url: https://github.com/advisories/GHSA-8gg6-3r63-25m8
+    reference_id: GHSA-8gg6-3r63-25m8
+weaknesses: []

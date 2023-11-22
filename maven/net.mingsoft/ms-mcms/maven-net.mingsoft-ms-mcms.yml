@@ -1,0 +1,383 @@
+package: pkg:maven/net.mingsoft/ms-mcms
+versions:
+  - purl: pkg:maven/net.mingsoft/ms-mcms@4.6.3-SNAPSHOTS
+    affected_by_vulnerabilities:
+      - VCID-18yn-7x35-aaac
+      - VCID-2d62-srwn-aaan
+      - VCID-3fm3-nz82-aaap
+      - VCID-62pw-22vm-aaan
+      - VCID-7hap-axhd-aaab
+      - VCID-7qx9-j9a4-aaah
+      - VCID-8e53-p3xt-aaap
+      - VCID-93yt-5vkz-aaam
+      - VCID-by3w-xaad-aaah
+      - VCID-cj1g-pvf8-aaaa
+      - VCID-dtdv-xdmk-aaam
+      - VCID-e54s-7uhg-aaag
+      - VCID-ech4-q1z3-aaas
+      - VCID-fudu-72k9-aaaa
+      - VCID-h162-qtzu-aaak
+      - VCID-hpq1-nrss-aaab
+      - VCID-t8tr-tzz2-aaak
+      - VCID-tkcv-z7nw-aaac
+      - VCID-tw5r-csgx-aaad
+      - VCID-xjrg-vh85-aaae
+      - VCID-xu3t-qbm1-aaac
+      - VCID-yxb9-zexc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/net.mingsoft/ms-mcms@4.6.5
+    affected_by_vulnerabilities:
+      - VCID-18yn-7x35-aaac
+      - VCID-2d62-srwn-aaan
+      - VCID-3fm3-nz82-aaap
+      - VCID-62pw-22vm-aaan
+      - VCID-7hap-axhd-aaab
+      - VCID-7qx9-j9a4-aaah
+      - VCID-8e53-p3xt-aaap
+      - VCID-93yt-5vkz-aaam
+      - VCID-by3w-xaad-aaah
+      - VCID-cj1g-pvf8-aaaa
+      - VCID-dtdv-xdmk-aaam
+      - VCID-e54s-7uhg-aaag
+      - VCID-ech4-q1z3-aaas
+      - VCID-fudu-72k9-aaaa
+      - VCID-h162-qtzu-aaak
+      - VCID-hpq1-nrss-aaab
+      - VCID-t8tr-tzz2-aaak
+      - VCID-tkcv-z7nw-aaac
+      - VCID-tw5r-csgx-aaad
+      - VCID-xjrg-vh85-aaae
+      - VCID-xu3t-qbm1-aaac
+      - VCID-yxb9-zexc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/net.mingsoft/ms-mcms@4.7.1
+    affected_by_vulnerabilities:
+      - VCID-18yn-7x35-aaac
+      - VCID-2d62-srwn-aaan
+      - VCID-3fm3-nz82-aaap
+      - VCID-62pw-22vm-aaan
+      - VCID-7hap-axhd-aaab
+      - VCID-8e53-p3xt-aaap
+      - VCID-93yt-5vkz-aaam
+      - VCID-by3w-xaad-aaah
+      - VCID-cj1g-pvf8-aaaa
+      - VCID-dtdv-xdmk-aaam
+      - VCID-e54s-7uhg-aaag
+      - VCID-ech4-q1z3-aaas
+      - VCID-fudu-72k9-aaaa
+      - VCID-hpq1-nrss-aaab
+      - VCID-t8tr-tzz2-aaak
+      - VCID-tkcv-z7nw-aaac
+      - VCID-tw5r-csgx-aaad
+      - VCID-xjrg-vh85-aaae
+      - VCID-xu3t-qbm1-aaac
+      - VCID-yxb9-zexc-aaaq
+    fixing_vulnerabilities:
+      - VCID-7qx9-j9a4-aaah
+      - VCID-h162-qtzu-aaak
+  - purl: pkg:maven/net.mingsoft/ms-mcms@4.7.2
+    affected_by_vulnerabilities:
+      - VCID-18yn-7x35-aaac
+      - VCID-2d62-srwn-aaan
+      - VCID-3fm3-nz82-aaap
+      - VCID-62pw-22vm-aaan
+      - VCID-7hap-axhd-aaab
+      - VCID-8e53-p3xt-aaap
+      - VCID-93yt-5vkz-aaam
+      - VCID-by3w-xaad-aaah
+      - VCID-cj1g-pvf8-aaaa
+      - VCID-dtdv-xdmk-aaam
+      - VCID-e54s-7uhg-aaag
+      - VCID-ech4-q1z3-aaas
+      - VCID-fudu-72k9-aaaa
+      - VCID-hpq1-nrss-aaab
+      - VCID-t8tr-tzz2-aaak
+      - VCID-tkcv-z7nw-aaac
+      - VCID-tw5r-csgx-aaad
+      - VCID-xjrg-vh85-aaae
+      - VCID-xu3t-qbm1-aaac
+      - VCID-yxb9-zexc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/net.mingsoft/ms-mcms@5.0.0
+    affected_by_vulnerabilities:
+      - VCID-18yn-7x35-aaac
+      - VCID-2d62-srwn-aaan
+      - VCID-3fm3-nz82-aaap
+      - VCID-62pw-22vm-aaan
+      - VCID-7hap-axhd-aaab
+      - VCID-8e53-p3xt-aaap
+      - VCID-93yt-5vkz-aaam
+      - VCID-by3w-xaad-aaah
+      - VCID-cj1g-pvf8-aaaa
+      - VCID-dtdv-xdmk-aaam
+      - VCID-e54s-7uhg-aaag
+      - VCID-ech4-q1z3-aaas
+      - VCID-fudu-72k9-aaaa
+      - VCID-hpq1-nrss-aaab
+      - VCID-t8tr-tzz2-aaak
+      - VCID-tkcv-z7nw-aaac
+      - VCID-tw5r-csgx-aaad
+      - VCID-xjrg-vh85-aaae
+      - VCID-xu3t-qbm1-aaac
+      - VCID-yxb9-zexc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/net.mingsoft/ms-mcms@5.0.1
+    affected_by_vulnerabilities:
+      - VCID-18yn-7x35-aaac
+      - VCID-2d62-srwn-aaan
+      - VCID-3fm3-nz82-aaap
+      - VCID-62pw-22vm-aaan
+      - VCID-7hap-axhd-aaab
+      - VCID-8e53-p3xt-aaap
+      - VCID-93yt-5vkz-aaam
+      - VCID-by3w-xaad-aaah
+      - VCID-cj1g-pvf8-aaaa
+      - VCID-dtdv-xdmk-aaam
+      - VCID-e54s-7uhg-aaag
+      - VCID-ech4-q1z3-aaas
+      - VCID-fudu-72k9-aaaa
+      - VCID-hpq1-nrss-aaab
+      - VCID-t8tr-tzz2-aaak
+      - VCID-tkcv-z7nw-aaac
+      - VCID-tw5r-csgx-aaad
+      - VCID-xjrg-vh85-aaae
+      - VCID-xu3t-qbm1-aaac
+      - VCID-yxb9-zexc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/net.mingsoft/ms-mcms@5.1
+    affected_by_vulnerabilities:
+      - VCID-18yn-7x35-aaac
+      - VCID-2d62-srwn-aaan
+      - VCID-3fm3-nz82-aaap
+      - VCID-62pw-22vm-aaan
+      - VCID-7hap-axhd-aaab
+      - VCID-8e53-p3xt-aaap
+      - VCID-93yt-5vkz-aaam
+      - VCID-cj1g-pvf8-aaaa
+      - VCID-dtdv-xdmk-aaam
+      - VCID-e54s-7uhg-aaag
+      - VCID-ech4-q1z3-aaas
+      - VCID-fudu-72k9-aaaa
+      - VCID-hpq1-nrss-aaab
+      - VCID-t8tr-tzz2-aaak
+      - VCID-tkcv-z7nw-aaac
+      - VCID-tw5r-csgx-aaad
+      - VCID-xjrg-vh85-aaae
+      - VCID-xu3t-qbm1-aaac
+      - VCID-yxb9-zexc-aaaq
+    fixing_vulnerabilities:
+      - VCID-by3w-xaad-aaah
+  - purl: pkg:maven/net.mingsoft/ms-mcms@5.2
+    affected_by_vulnerabilities:
+      - VCID-18yn-7x35-aaac
+      - VCID-2d62-srwn-aaan
+      - VCID-3fm3-nz82-aaap
+      - VCID-62pw-22vm-aaan
+      - VCID-7hap-axhd-aaab
+      - VCID-93yt-5vkz-aaam
+      - VCID-cj1g-pvf8-aaaa
+      - VCID-dtdv-xdmk-aaam
+      - VCID-e54s-7uhg-aaag
+      - VCID-ech4-q1z3-aaas
+      - VCID-fudu-72k9-aaaa
+      - VCID-hpq1-nrss-aaab
+      - VCID-t8tr-tzz2-aaak
+      - VCID-tkcv-z7nw-aaac
+      - VCID-tw5r-csgx-aaad
+      - VCID-xjrg-vh85-aaae
+      - VCID-xu3t-qbm1-aaac
+      - VCID-yxb9-zexc-aaaq
+    fixing_vulnerabilities:
+      - VCID-8e53-p3xt-aaap
+  - purl: pkg:maven/net.mingsoft/ms-mcms@5.2.0.RELEASE
+    affected_by_vulnerabilities:
+      - VCID-18yn-7x35-aaac
+      - VCID-2d62-srwn-aaan
+      - VCID-3fm3-nz82-aaap
+      - VCID-62pw-22vm-aaan
+      - VCID-7hap-axhd-aaab
+      - VCID-93yt-5vkz-aaam
+      - VCID-cj1g-pvf8-aaaa
+      - VCID-dtdv-xdmk-aaam
+      - VCID-e54s-7uhg-aaag
+      - VCID-ech4-q1z3-aaas
+      - VCID-fudu-72k9-aaaa
+      - VCID-hpq1-nrss-aaab
+      - VCID-t8tr-tzz2-aaak
+      - VCID-tkcv-z7nw-aaac
+      - VCID-tw5r-csgx-aaad
+      - VCID-xjrg-vh85-aaae
+      - VCID-xu3t-qbm1-aaac
+      - VCID-yxb9-zexc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/net.mingsoft/ms-mcms@5.2.1
+    affected_by_vulnerabilities:
+      - VCID-18yn-7x35-aaac
+      - VCID-2d62-srwn-aaan
+      - VCID-3fm3-nz82-aaap
+      - VCID-62pw-22vm-aaan
+      - VCID-7hap-axhd-aaab
+      - VCID-93yt-5vkz-aaam
+      - VCID-cj1g-pvf8-aaaa
+      - VCID-dtdv-xdmk-aaam
+      - VCID-e54s-7uhg-aaag
+      - VCID-ech4-q1z3-aaas
+      - VCID-fudu-72k9-aaaa
+      - VCID-hpq1-nrss-aaab
+      - VCID-t8tr-tzz2-aaak
+      - VCID-tkcv-z7nw-aaac
+      - VCID-tw5r-csgx-aaad
+      - VCID-xjrg-vh85-aaae
+      - VCID-xu3t-qbm1-aaac
+      - VCID-yxb9-zexc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/net.mingsoft/ms-mcms@5.2.10
+    affected_by_vulnerabilities:
+      - VCID-fudu-72k9-aaaa
+    fixing_vulnerabilities:
+      - VCID-93yt-5vkz-aaam
+      - VCID-e54s-7uhg-aaag
+  - purl: pkg:maven/net.mingsoft/ms-mcms@5.2.11
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-fudu-72k9-aaaa
+  - purl: pkg:maven/net.mingsoft/ms-mcms@5.2.2
+    affected_by_vulnerabilities:
+      - VCID-18yn-7x35-aaac
+      - VCID-2d62-srwn-aaan
+      - VCID-3fm3-nz82-aaap
+      - VCID-62pw-22vm-aaan
+      - VCID-7hap-axhd-aaab
+      - VCID-93yt-5vkz-aaam
+      - VCID-cj1g-pvf8-aaaa
+      - VCID-dtdv-xdmk-aaam
+      - VCID-e54s-7uhg-aaag
+      - VCID-ech4-q1z3-aaas
+      - VCID-fudu-72k9-aaaa
+      - VCID-hpq1-nrss-aaab
+      - VCID-t8tr-tzz2-aaak
+      - VCID-tkcv-z7nw-aaac
+      - VCID-tw5r-csgx-aaad
+      - VCID-xjrg-vh85-aaae
+      - VCID-xu3t-qbm1-aaac
+      - VCID-yxb9-zexc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/net.mingsoft/ms-mcms@5.2.3
+    affected_by_vulnerabilities:
+      - VCID-18yn-7x35-aaac
+      - VCID-2d62-srwn-aaan
+      - VCID-3fm3-nz82-aaap
+      - VCID-62pw-22vm-aaan
+      - VCID-7hap-axhd-aaab
+      - VCID-93yt-5vkz-aaam
+      - VCID-cj1g-pvf8-aaaa
+      - VCID-dtdv-xdmk-aaam
+      - VCID-e54s-7uhg-aaag
+      - VCID-ech4-q1z3-aaas
+      - VCID-fudu-72k9-aaaa
+      - VCID-hpq1-nrss-aaab
+      - VCID-t8tr-tzz2-aaak
+      - VCID-tkcv-z7nw-aaac
+      - VCID-tw5r-csgx-aaad
+      - VCID-xjrg-vh85-aaae
+      - VCID-xu3t-qbm1-aaac
+      - VCID-yxb9-zexc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/net.mingsoft/ms-mcms@5.2.4
+    affected_by_vulnerabilities:
+      - VCID-18yn-7x35-aaac
+      - VCID-2d62-srwn-aaan
+      - VCID-3fm3-nz82-aaap
+      - VCID-62pw-22vm-aaan
+      - VCID-7hap-axhd-aaab
+      - VCID-93yt-5vkz-aaam
+      - VCID-cj1g-pvf8-aaaa
+      - VCID-dtdv-xdmk-aaam
+      - VCID-e54s-7uhg-aaag
+      - VCID-ech4-q1z3-aaas
+      - VCID-fudu-72k9-aaaa
+      - VCID-hpq1-nrss-aaab
+      - VCID-t8tr-tzz2-aaak
+      - VCID-tkcv-z7nw-aaac
+      - VCID-tw5r-csgx-aaad
+      - VCID-xjrg-vh85-aaae
+      - VCID-xu3t-qbm1-aaac
+      - VCID-yxb9-zexc-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/net.mingsoft/ms-mcms@5.2.5
+    affected_by_vulnerabilities:
+      - VCID-18yn-7x35-aaac
+      - VCID-2d62-srwn-aaan
+      - VCID-62pw-22vm-aaan
+      - VCID-7hap-axhd-aaab
+      - VCID-93yt-5vkz-aaam
+      - VCID-cj1g-pvf8-aaaa
+      - VCID-dtdv-xdmk-aaam
+      - VCID-e54s-7uhg-aaag
+      - VCID-ech4-q1z3-aaas
+      - VCID-fudu-72k9-aaaa
+      - VCID-hpq1-nrss-aaab
+      - VCID-t8tr-tzz2-aaak
+      - VCID-tkcv-z7nw-aaac
+      - VCID-tw5r-csgx-aaad
+      - VCID-xu3t-qbm1-aaac
+      - VCID-yxb9-zexc-aaaq
+    fixing_vulnerabilities:
+      - VCID-3fm3-nz82-aaap
+      - VCID-xjrg-vh85-aaae
+  - purl: pkg:maven/net.mingsoft/ms-mcms@5.2.6
+    affected_by_vulnerabilities:
+      - VCID-18yn-7x35-aaac
+      - VCID-62pw-22vm-aaan
+      - VCID-93yt-5vkz-aaam
+      - VCID-cj1g-pvf8-aaaa
+      - VCID-dtdv-xdmk-aaam
+      - VCID-e54s-7uhg-aaag
+      - VCID-fudu-72k9-aaaa
+      - VCID-hpq1-nrss-aaab
+      - VCID-t8tr-tzz2-aaak
+      - VCID-xu3t-qbm1-aaac
+    fixing_vulnerabilities:
+      - VCID-2d62-srwn-aaan
+      - VCID-7hap-axhd-aaab
+      - VCID-ech4-q1z3-aaas
+      - VCID-tkcv-z7nw-aaac
+      - VCID-tw5r-csgx-aaad
+      - VCID-yxb9-zexc-aaaq
+  - purl: pkg:maven/net.mingsoft/ms-mcms@5.2.7
+    affected_by_vulnerabilities:
+      - VCID-18yn-7x35-aaac
+      - VCID-62pw-22vm-aaan
+      - VCID-93yt-5vkz-aaam
+      - VCID-cj1g-pvf8-aaaa
+      - VCID-dtdv-xdmk-aaam
+      - VCID-e54s-7uhg-aaag
+      - VCID-fudu-72k9-aaaa
+      - VCID-hpq1-nrss-aaab
+      - VCID-t8tr-tzz2-aaak
+      - VCID-xu3t-qbm1-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/net.mingsoft/ms-mcms@5.2.8
+    affected_by_vulnerabilities:
+      - VCID-93yt-5vkz-aaam
+      - VCID-dtdv-xdmk-aaam
+      - VCID-dzty-mthg-aaam
+      - VCID-e54s-7uhg-aaag
+      - VCID-fudu-72k9-aaaa
+      - VCID-t8tr-tzz2-aaak
+      - VCID-xu3t-qbm1-aaac
+    fixing_vulnerabilities:
+      - VCID-18yn-7x35-aaac
+      - VCID-62pw-22vm-aaan
+      - VCID-cj1g-pvf8-aaaa
+      - VCID-hpq1-nrss-aaab
+  - purl: pkg:maven/net.mingsoft/ms-mcms@5.2.9
+    affected_by_vulnerabilities:
+      - VCID-93yt-5vkz-aaam
+      - VCID-e54s-7uhg-aaag
+      - VCID-fudu-72k9-aaaa
+    fixing_vulnerabilities:
+      - VCID-dtdv-xdmk-aaam
+      - VCID-dzty-mthg-aaam
+      - VCID-t8tr-tzz2-aaak
+      - VCID-xu3t-qbm1-aaac

@@ -1,0 +1,21 @@
+package: pkg:rpm/redhat/rsyslog7
+versions:
+  - purl: pkg:rpm/redhat/rsyslog7@7.4.10-3?arch=el6_6
+    affected_by_vulnerabilities:
+      - VCID-b1ej-usms-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/rsyslog7@7.4.10-3?arch=el6op
+    affected_by_vulnerabilities:
+      - VCID-5mjm-5fzs-aaad
+      - VCID-7kdp-nnf4-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/rsyslog7@7.4.10-7.el6_10?arch=1
+    affected_by_vulnerabilities:
+      - VCID-bme2-efqx-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/rsyslog7@7.4.7-5.4?arch=el6op
+    affected_by_vulnerabilities:
+      - VCID-8e2j-pmfz-aaan
+      - VCID-nce6-8j7b-aaak
+      - VCID-yg3d-xatj-aaar
+    fixing_vulnerabilities: []

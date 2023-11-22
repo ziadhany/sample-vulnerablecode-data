@@ -1,0 +1,10 @@
+package: pkg:npm/baes-x
+versions:
+  - purl: pkg:npm/baes-x@0.0.0
+    affected_by_vulnerabilities:
+      - VCID-g7ub-maas-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/baes-x@0.0.1-security
+    affected_by_vulnerabilities:
+      - VCID-g7ub-maas-aaac
+    fixing_vulnerabilities: []

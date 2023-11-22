@@ -1,0 +1,158 @@
+vulnerability_id: VCID-bptg-k9td-aaaf
+aliases:
+  - CVE-2014-0135
+  - GHSA-hxvp-655x-xxqv
+summary: |
+  Permissions, Privileges, and Access Controls
+  Kafo, as used by Foreman, uses world-readable permissions for default_values.yaml, which allows local users to obtain passwords and other sensitive information by reading the file.
+severities:
+  - id: 174225
+    reference_id: 39175
+    scoring_system: cvssv2
+    value: '1.9'
+    scoring_elements: AV:L/AC:M/Au:N/C:P/I:N/A:N
+  - id: 707446
+    reference_id: 1469718
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 182250
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2014-0135.json
+    reference_id:
+  - id: 39176
+    url: http://theforeman.org/security.html
+    reference_id:
+  - id: 550140
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:kafo:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:kafo:*:*:*:*:*:*:*:*
+  - id: 550149
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:kafo:0.0.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:kafo:0.0.1:*:*:*:*:*:*:*
+  - id: 550141
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:kafo:0.0.10:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:kafo:0.0.10:*:*:*:*:*:*:*
+  - id: 550142
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:kafo:0.0.11:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:kafo:0.0.11:*:*:*:*:*:*:*
+  - id: 550143
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:kafo:0.0.12:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:kafo:0.0.12:*:*:*:*:*:*:*
+  - id: 550144
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:kafo:0.0.13:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:kafo:0.0.13:*:*:*:*:*:*:*
+  - id: 550145
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:kafo:0.0.14:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:kafo:0.0.14:*:*:*:*:*:*:*
+  - id: 550146
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:kafo:0.0.15:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:kafo:0.0.15:*:*:*:*:*:*:*
+  - id: 550147
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:kafo:0.0.16:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:kafo:0.0.16:*:*:*:*:*:*:*
+  - id: 550148
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:kafo:0.0.17:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:kafo:0.0.17:*:*:*:*:*:*:*
+  - id: 550150
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:kafo:0.0.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:kafo:0.0.2:*:*:*:*:*:*:*
+  - id: 550151
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:kafo:0.0.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:kafo:0.0.3:*:*:*:*:*:*:*
+  - id: 550152
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:kafo:0.0.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:kafo:0.0.4:*:*:*:*:*:*:*
+  - id: 550153
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:kafo:0.0.5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:kafo:0.0.5:*:*:*:*:*:*:*
+  - id: 550154
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:kafo:0.0.6:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:kafo:0.0.6:*:*:*:*:*:*:*
+  - id: 550155
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:kafo:0.0.7:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:kafo:0.0.7:*:*:*:*:*:*:*
+  - id: 550156
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:kafo:0.0.8:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:kafo:0.0.8:*:*:*:*:*:*:*
+  - id: 550157
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:kafo:0.0.9:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:kafo:0.0.9:*:*:*:*:*:*:*
+  - id: 550158
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:kafo:0.1.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:kafo:0.1.0:*:*:*:*:*:*:*
+  - id: 550159
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:kafo:0.2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:kafo:0.2.0:*:*:*:*:*:*:*
+  - id: 550160
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:kafo:0.2.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:kafo:0.2.1:*:*:*:*:*:*:*
+  - id: 550161
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:kafo:0.2.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:kafo:0.2.2:*:*:*:*:*:*:*
+  - id: 550162
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:kafo:0.3.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:kafo:0.3.0:*:*:*:*:*:*:*
+  - id: 550169
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:kafo:0.3.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:kafo:0.3.1:*:*:*:*:*:*:*
+  - id: 550163
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:kafo:0.3.10:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:kafo:0.3.10:*:*:*:*:*:*:*
+  - id: 550164
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:kafo:0.3.11:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:kafo:0.3.11:*:*:*:*:*:*:*
+  - id: 550165
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:kafo:0.3.12:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:kafo:0.3.12:*:*:*:*:*:*:*
+  - id: 550166
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:kafo:0.3.13:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:kafo:0.3.13:*:*:*:*:*:*:*
+  - id: 550167
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:kafo:0.3.14:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:kafo:0.3.14:*:*:*:*:*:*:*
+  - id: 550168
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:kafo:0.3.15:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:kafo:0.3.15:*:*:*:*:*:*:*
+  - id: 550170
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:kafo:0.3.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:kafo:0.3.2:*:*:*:*:*:*:*
+  - id: 550171
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:kafo:0.3.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:kafo:0.3.3:*:*:*:*:*:*:*
+  - id: 550172
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:kafo:0.3.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:kafo:0.3.4:*:*:*:*:*:*:*
+  - id: 550173
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:kafo:0.3.5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:kafo:0.3.5:*:*:*:*:*:*:*
+  - id: 550174
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:kafo:0.3.6:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:kafo:0.3.6:*:*:*:*:*:*:*
+  - id: 550175
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:kafo:0.3.7:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:kafo:0.3.7:*:*:*:*:*:*:*
+  - id: 550176
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:kafo:0.3.8:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:kafo:0.3.8:*:*:*:*:*:*:*
+  - id: 550177
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:kafo:0.3.9:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:kafo:0.3.9:*:*:*:*:*:*:*
+  - id: 550178
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:kafo:0.4.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:kafo:0.4.0:*:*:*:*:*:*:*
+  - id: 550179
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:kafo:0.5.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:kafo:0.5.0:*:*:*:*:*:*:*
+  - id: 550180
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:kafo:0.5.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:kafo:0.5.1:*:*:*:*:*:*:*
+  - id: 39175
+    url: https://nvd.nist.gov/vuln/detail/CVE-2014-0135
+    reference_id: CVE-2014-0135
+  - id: 1469718
+    url: https://github.com/advisories/GHSA-hxvp-655x-xxqv
+    reference_id: GHSA-hxvp-655x-xxqv
+  - id: 182249
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1076335
+    reference_id: RHEA-2014:1175
+weaknesses: []

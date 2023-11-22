@@ -1,0 +1,76 @@
+vulnerability_id: VCID-j366-9fen-aaam
+aliases:
+  - GHSA-w42g-7vfc-xf37
+  - GMS-2020-59
+  - GMS-2020-60
+  - GMS-2020-61
+  - GMS-2020-62
+  - GMS-2020-63
+  - GMS-2020-64
+  - GMS-2020-65
+  - GMS-2020-66
+  - GMS-2020-67
+  - GMS-2020-68
+  - GMS-2020-69
+  - GMS-2020-70
+summary: |
+  Introspection in schema validation in Apollo Server
+  If `subscriptions: false` is passed to the `ApolloServer` constructor options, there is no impact. If implementors were not expecting validation rules to be enforced on the WebSocket subscriptions transport **and** are unconcerned about introspection being enabled on the WebSocket subscriptions transport (or were not expecting that), then this advisory is not applicable. If `introspection: true` is passed to the `ApolloServer` constructor options, the impact is limited to user-provided validation rules (i.e., using `validationRules`) since there would be no expectation that introspection was disabled.
+severities:
+  - id: 705203
+    reference_id: 31250
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 705202
+    reference_id: 31248
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 31249
+    url: https://github.com/apollographql/apollo-server/commit/e2e816316f5c28a03de2ee1589edb2b10c358114
+    reference_id:
+  - id: 1466430
+    url: https://www.npmjs.com/advisories/1525
+    reference_id:
+  - id: 1466431
+    url: https://www.npmjs.com/advisories/1526
+    reference_id:
+  - id: 1466432
+    url: https://www.npmjs.com/advisories/1527
+    reference_id:
+  - id: 1466433
+    url: https://www.npmjs.com/advisories/1528
+    reference_id:
+  - id: 1466434
+    url: https://www.npmjs.com/advisories/1529
+    reference_id:
+  - id: 1466435
+    url: https://www.npmjs.com/advisories/1530
+    reference_id:
+  - id: 1466436
+    url: https://www.npmjs.com/advisories/1531
+    reference_id:
+  - id: 1466437
+    url: https://www.npmjs.com/advisories/1532
+    reference_id:
+  - id: 1466438
+    url: https://www.npmjs.com/advisories/1533
+    reference_id:
+  - id: 1466439
+    url: https://www.npmjs.com/advisories/1534
+    reference_id:
+  - id: 1466440
+    url: https://www.npmjs.com/advisories/1535
+    reference_id:
+  - id: 1466441
+    url: https://www.npmjs.com/advisories/1536
+    reference_id:
+  - id: 31250
+    url: https://github.com/advisories/GHSA-w42g-7vfc-xf37
+    reference_id: GHSA-w42g-7vfc-xf37
+  - id: 31248
+    url: https://github.com/apollographql/apollo-server/security/advisories/GHSA-w42g-7vfc-xf37
+    reference_id: GHSA-w42g-7vfc-xf37
+weaknesses: []

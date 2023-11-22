@@ -1,0 +1,30 @@
+vulnerability_id: VCID-8u9t-q4g2-aaae
+aliases:
+  - GHSA-6r92-cgxc-r5fg
+  - GMS-2022-45
+summary: Denial of service in CBOR library
+severities:
+  - id: 1834
+    reference_id: 15882
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 1833
+    reference_id: 15879
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 15880
+    url: https://github.com/peteroupc/CBOR/commit/b4117dbbb4cd5a4a963f9d0c9aa132f033e15b95
+    reference_id:
+  - id: 15881
+    url: https://github.com/peteroupc/CBOR/compare/v4.5...v4.5.1
+    reference_id:
+  - id: 15882
+    url: https://github.com/advisories/GHSA-6r92-cgxc-r5fg
+    reference_id: GHSA-6r92-cgxc-r5fg
+  - id: 15879
+    url: https://github.com/peteroupc/CBOR/security/advisories/GHSA-6r92-cgxc-r5fg
+    reference_id: GHSA-6r92-cgxc-r5fg
+weaknesses: []

@@ -1,0 +1,12 @@
+vulnerability_id: VCID-cp1c-erv7-aaab
+aliases:
+  - GMS-2017-319
+summary: |
+  Directory Traversal
+  `yttivy` is vulnerable to a directory traversal issue, giving an attacker access to the filesystem by placing "../" in the url./n
+severities: []
+references:
+  - id: 34728
+    url: https://github.com/JacksonGL/NPM-Vuln-PoC/blob/master/directory-traversal/yttivy
+    reference_id:
+weaknesses: []

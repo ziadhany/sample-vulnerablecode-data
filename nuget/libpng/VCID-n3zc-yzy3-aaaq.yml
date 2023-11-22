@@ -1,0 +1,100 @@
+vulnerability_id: VCID-n3zc-yzy3-aaaq
+aliases:
+  - CVE-2016-3751
+summary: |
+  Privilege Escalation
+  Unspecified vulnerability in libpng, as used in Android , allows attackers to gain privileges via a crafted application, as demonstrated by obtaining Signature or SignatureOrSystem access, aka internal bug
+severities:
+  - id: 225693
+    reference_id: 37837
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 225691
+    reference_id: 37837
+    scoring_system: cvssv3
+    value: '7.8'
+    scoring_elements: CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+references:
+  - id: 643145
+    url: https://android.googlesource.com/platform/external/libpng/+/9d4853418ab2f754c2b63e091c29c5529b8b86ca
+    reference_id:
+  - id: 37838
+    url: http://source.android.com/security/bulletin/2016-07-01.html
+    reference_id:
+  - id: 37839
+    url: http://www.openwall.com/lists/oss-security/2016/07/09/4
+    reference_id:
+  - id: 149566
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:libpng:libpng:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:libpng:libpng:*:*:*:*:*:*:*:*
+  - id: 468770
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:google:android:4.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:google:android:4.0:*:*:*:*:*:*:*
+  - id: 468768
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:google:android:4.0.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:google:android:4.0.1:*:*:*:*:*:*:*
+  - id: 468769
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:google:android:4.0.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:google:android:4.0.2:*:*:*:*:*:*:*
+  - id: 500393
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:google:android:4.0.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:google:android:4.0.3:*:*:*:*:*:*:*
+  - id: 500394
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:google:android:4.0.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:google:android:4.0.4:*:*:*:*:*:*:*
+  - id: 500395
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:google:android:4.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:google:android:4.1:*:*:*:*:*:*:*
+  - id: 537019
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:google:android:4.1.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:google:android:4.1.2:*:*:*:*:*:*:*
+  - id: 500396
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:google:android:4.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:google:android:4.2:*:*:*:*:*:*:*
+  - id: 543340
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:google:android:4.2.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:google:android:4.2.1:*:*:*:*:*:*:*
+  - id: 543341
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:google:android:4.2.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:google:android:4.2.2:*:*:*:*:*:*:*
+  - id: 543342
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:google:android:4.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:google:android:4.3:*:*:*:*:*:*:*
+  - id: 584799
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:google:android:4.3.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:google:android:4.3.1:*:*:*:*:*:*:*
+  - id: 160850
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:google:android:4.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:google:android:4.4:*:*:*:*:*:*:*
+  - id: 584800
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:google:android:4.4.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:google:android:4.4.1:*:*:*:*:*:*:*
+  - id: 584801
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:google:android:4.4.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:google:android:4.4.2:*:*:*:*:*:*:*
+  - id: 584802
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:google:android:4.4.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:google:android:4.4.3:*:*:*:*:*:*:*
+  - id: 159160
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:google:android:5.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:google:android:5.0:*:*:*:*:*:*:*
+  - id: 166107
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:google:android:5.0.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:google:android:5.0.1:*:*:*:*:*:*:*
+  - id: 166062
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:google:android:5.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:google:android:5.1:*:*:*:*:*:*:*
+  - id: 166099
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:google:android:5.1.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:google:android:5.1.0:*:*:*:*:*:*:*
+  - id: 159163
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:google:android:6.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:google:android:6.0:*:*:*:*:*:*:*
+  - id: 159162
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:google:android:6.0.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:google:android:6.0.1:*:*:*:*:*:*:*
+  - id: 37837
+    url: https://nvd.nist.gov/vuln/detail/CVE-2016-3751
+    reference_id: CVE-2016-3751
+weaknesses: []

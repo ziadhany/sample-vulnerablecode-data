@@ -1,0 +1,98 @@
+package: pkg:nuget/FastReport.OpenSource
+versions:
+  - purl: pkg:nuget/FastReport.OpenSource@2018.4.16
+    affected_by_vulnerabilities:
+      - VCID-z5xs-n72e-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/FastReport.OpenSource@2018.4.7
+    affected_by_vulnerabilities:
+      - VCID-z5xs-n72e-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/FastReport.OpenSource@2018.4.9
+    affected_by_vulnerabilities:
+      - VCID-z5xs-n72e-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/FastReport.OpenSource@2019.1.0
+    affected_by_vulnerabilities:
+      - VCID-z5xs-n72e-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/FastReport.OpenSource@2019.1.20
+    affected_by_vulnerabilities:
+      - VCID-z5xs-n72e-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/FastReport.OpenSource@2019.2.0
+    affected_by_vulnerabilities:
+      - VCID-z5xs-n72e-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/FastReport.OpenSource@2019.3.0
+    affected_by_vulnerabilities:
+      - VCID-z5xs-n72e-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/FastReport.OpenSource@2019.3.13
+    affected_by_vulnerabilities:
+      - VCID-z5xs-n72e-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/FastReport.OpenSource@2019.3.19
+    affected_by_vulnerabilities:
+      - VCID-z5xs-n72e-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/FastReport.OpenSource@2020.1.20
+    affected_by_vulnerabilities:
+      - VCID-z5xs-n72e-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/FastReport.OpenSource@2020.1.25
+    affected_by_vulnerabilities:
+      - VCID-z5xs-n72e-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/FastReport.OpenSource@2020.1.28
+    affected_by_vulnerabilities:
+      - VCID-z5xs-n72e-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/FastReport.OpenSource@2020.2.0
+    affected_by_vulnerabilities:
+      - VCID-z5xs-n72e-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/FastReport.OpenSource@2020.2.9
+    affected_by_vulnerabilities:
+      - VCID-z5xs-n72e-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/FastReport.OpenSource@2020.3.0
+    affected_by_vulnerabilities:
+      - VCID-z5xs-n72e-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/FastReport.OpenSource@2020.3.1
+    affected_by_vulnerabilities:
+      - VCID-z5xs-n72e-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/FastReport.OpenSource@2020.3.10
+    affected_by_vulnerabilities:
+      - VCID-z5xs-n72e-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/FastReport.OpenSource@2020.3.14
+    affected_by_vulnerabilities:
+      - VCID-z5xs-n72e-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/FastReport.OpenSource@2020.3.17
+    affected_by_vulnerabilities:
+      - VCID-z5xs-n72e-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/FastReport.OpenSource@2020.3.21
+    affected_by_vulnerabilities:
+      - VCID-z5xs-n72e-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/FastReport.OpenSource@2020.3.22
+    affected_by_vulnerabilities:
+      - VCID-z5xs-n72e-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/FastReport.OpenSource@2020.3.4
+    affected_by_vulnerabilities:
+      - VCID-z5xs-n72e-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/FastReport.OpenSource@2020.4.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-z5xs-n72e-aaae
+  - purl: pkg:nuget/FastReport.OpenSource@2021.1.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-z5xs-n72e-aaae

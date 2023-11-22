@@ -1,0 +1,86 @@
+vulnerability_id: VCID-uxvu-2dn3-aaap
+aliases:
+  - CVE-2015-8862
+  - GHSA-w3w8-37jv-2c58
+summary: |
+  Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')
+  mustache package before 2.2.1 for Node.js allows remote attackers to conduct cross-site scripting (XSS) attacks by leveraging a template with an attribute that is not quoted.
+severities:
+  - id: 665248
+    reference_id: 1431891
+    scoring_system: generic_textual
+    value: Medium
+    scoring_elements:
+  - id: 665249
+    reference_id: 1431892
+    scoring_system: generic_textual
+    value: Medium
+    scoring_elements:
+  - id: 708497
+    reference_id: 34637
+    scoring_system: cvssv3
+    value: '5.3'
+    scoring_elements:
+  - id: 665238
+    reference_id: 32354
+    scoring_system: generic_textual
+    value: Low
+    scoring_elements:
+  - id: 708498
+    reference_id: 1473418
+    scoring_system: cvssv3
+    value: '5.3'
+    scoring_elements:
+  - id: 206697
+    reference_id: 34636
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+  - id: 206695
+    reference_id: 34636
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+  - id: 705350
+    reference_id: 34638
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 1431891
+    url: http://people.canonical.com/~ubuntu-security/cve/2015/CVE-2015-8862.html
+    reference_id:
+  - id: 1431892
+    url: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-8862
+    reference_id:
+  - id: 34637
+    url: https://github.com/janl/mustache.js/commit/378bcca8a5cfe4058f294a3dbb78e8755e8e0da5
+    reference_id:
+  - id: 34640
+    url: https://nodesecurity.io/advisories/62
+    reference_id:
+  - id: 34639
+    url: https://www.npmjs.com/advisories/62
+    reference_id:
+  - id: 34641
+    url: https://www.tenable.com/security/tns-2016-18
+    reference_id:
+  - id: 32354
+    url: http://www.openwall.com/lists/oss-security/2016/04/20/11
+    reference_id:
+  - id: 34642
+    url: http://www.securityfocus.com/bid/96436
+    reference_id:
+  - id: 1473418
+    url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/62.json
+    reference_id: 62
+  - id: 620168
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:mustache.js_project:mustache.js:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:mustache.js_project:mustache.js:*:*:*:*:*:node.js:*:*
+  - id: 34636
+    url: https://nvd.nist.gov/vuln/detail/CVE-2015-8862
+    reference_id: CVE-2015-8862
+  - id: 34638
+    url: https://github.com/advisories/GHSA-w3w8-37jv-2c58
+    reference_id: GHSA-w3w8-37jv-2c58
+weaknesses: []

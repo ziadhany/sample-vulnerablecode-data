@@ -1,0 +1,14 @@
+package: pkg:npm/onion-oled-js
+versions:
+  - purl: pkg:npm/onion-oled-js@0.0.0
+    affected_by_vulnerabilities:
+      - VCID-9n2v-mj42-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/onion-oled-js@0.0.1
+    affected_by_vulnerabilities:
+      - VCID-9n2v-mj42-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/onion-oled-js@0.0.2
+    affected_by_vulnerabilities:
+      - VCID-9n2v-mj42-aaad
+    fixing_vulnerabilities: []

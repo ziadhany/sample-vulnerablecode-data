@@ -1,0 +1,24 @@
+vulnerability_id: VCID-6hkw-nwna-aaad
+aliases:
+  - GHSA-98hq-4wmw-98w9
+  - GMS-2023-282
+summary: Arbitrary code execution in de.tum.in.ase:artemis-java-test-sandbox
+severities:
+  - id: 707887
+    reference_id: 1471041
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 707886
+    reference_id: 1471040
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 1471041
+    url: https://github.com/advisories/GHSA-98hq-4wmw-98w9
+    reference_id: GHSA-98hq-4wmw-98w9
+  - id: 1471040
+    url: https://github.com/ls1intum/Ares/security/advisories/GHSA-98hq-4wmw-98w9
+    reference_id: GHSA-98hq-4wmw-98w9
+weaknesses: []

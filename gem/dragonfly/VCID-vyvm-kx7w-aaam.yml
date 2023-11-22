@@ -1,0 +1,44 @@
+vulnerability_id: VCID-vyvm-kx7w-aaam
+aliases:
+  - CVE-2021-33473
+  - GHSA-fj34-jhjx-xmvv
+summary: Arbitrary file write in dragonfly
+severities:
+  - id: 541853
+    reference_id: 26611
+    scoring_system: cvssv2
+    value: '4.9'
+    scoring_elements: AV:N/AC:M/Au:S/C:P/I:P/A:N
+  - id: 541851
+    reference_id: 26611
+    scoring_system: cvssv3
+    value: '9.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
+  - id: 4849
+    reference_id: 26614
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 26613
+    url: https://github.com/markevans/dragonfly/commit/25399297bb457f7fcf8e3f91e85945b255b111b5
+    reference_id:
+  - id: 26612
+    url: https://github.com/markevans/dragonfly/issues/513
+    reference_id:
+  - id: 947141
+    url: https://security.netapp.com/advisory/ntap-20220715-0004/
+    reference_id:
+  - id: 885626
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:dragonfly_project:dragonfly:1.3.0:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:dragonfly_project:dragonfly:1.3.0:*:*:*:*:ruby:*:*
+  - id: 26611
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-33473
+    reference_id: CVE-2021-33473
+  - id: 947140
+    url: https://github.com/rubysec/ruby-advisory-db/blob/master/gems/dragonfly/CVE-2021-33473.yml
+    reference_id: CVE-2021-33473.YML
+  - id: 26614
+    url: https://github.com/advisories/GHSA-fj34-jhjx-xmvv
+    reference_id: GHSA-fj34-jhjx-xmvv
+weaknesses: []

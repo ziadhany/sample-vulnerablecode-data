@@ -1,0 +1,40 @@
+vulnerability_id: VCID-ryrd-3wkt-aaaa
+aliases:
+  - CVE-2017-16081
+  - GHSA-hwhq-3hrj-v6v5
+summary: |
+  Malicious package (Typosquatting)
+  cross-env.js is a malicious module published with the intent to hijack environment variables. It has been unpublished by npm.
+severities:
+  - id: 269928
+    reference_id: 34704
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 269926
+    reference_id: 34704
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+  - id: 705671
+    reference_id: 1466894
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 687699
+    url: https://nodesecurity.io/advisories/520
+    reference_id:
+  - id: 1466893
+    url: https://www.npmjs.com/advisories/520
+    reference_id:
+  - id: 687700
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:cross-env.js_project:cross-env.js:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:cross-env.js_project:cross-env.js:*:*:*:*:*:node.js:*:*
+  - id: 34704
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-16081
+    reference_id: CVE-2017-16081
+  - id: 1466894
+    url: https://github.com/advisories/GHSA-hwhq-3hrj-v6v5
+    reference_id: GHSA-hwhq-3hrj-v6v5
+weaknesses: []

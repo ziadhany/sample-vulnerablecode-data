@@ -1,0 +1,54 @@
+vulnerability_id: VCID-rfye-2s3j-aaaf
+aliases:
+  - CVE-2021-20222
+  - GHSA-2mq8-99q7-55wx
+summary: Code injection in keycloak
+severities:
+  - id: 607008
+    reference_id: 929148
+    scoring_system: cvssv3
+    value: '8.3'
+    scoring_elements: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H
+  - id: 607007
+    reference_id: 929147
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 503956
+    reference_id: 1417
+    scoring_system: cvssv2
+    value: '5.1'
+    scoring_elements: AV:N/AC:H/Au:N/C:P/I:P/A:P
+  - id: 503954
+    reference_id: 1417
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+  - id: 188
+    reference_id: 1421
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 929148
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-20222.json
+    reference_id:
+  - id: 1418
+    url: https://github.com/keycloak/keycloak/commit/3b80eee5bfdf2b80c47465c0f2eaf70074808741
+    reference_id:
+  - id: 929147
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1924606
+    reference_id: '1924606'
+  - id: 568146
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:keycloak:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:keycloak:*:*:*:*:*:*:*:*
+  - id: 1419
+    url: https://access.redhat.com/security/cve/cve-2021-20222
+    reference_id: CVE-2021-20222
+  - id: 1417
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-20222
+    reference_id: CVE-2021-20222
+  - id: 1421
+    url: https://github.com/advisories/GHSA-2mq8-99q7-55wx
+    reference_id: GHSA-2mq8-99q7-55wx
+weaknesses: []

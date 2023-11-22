@@ -1,0 +1,65 @@
+vulnerability_id: VCID-yuxd-4zd7-aaab
+aliases:
+  - CVE-2021-3533
+  - PYSEC-2021-126
+summary: A flaw was found in Ansible if an ansible user sets ANSIBLE_ASYNC_DIR to a subdirectory
+  of a world writable directory. When this occurs, there is a race condition on the managed
+  machine. A malicious, non-privileged account on the remote machine can exploit the race condition
+  to access the async result data. This flaw affects Ansible Tower 3.7 and Ansible Automation
+  Platform 1.2.
+severities:
+  - id: 605498
+    reference_id: 928036
+    scoring_system: cvssv3
+    value: '5.0'
+    scoring_elements: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:N/A:N
+  - id: 605497
+    reference_id: 928035
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 546744
+    reference_id: 22303
+    scoring_system: cvssv2
+    value: '1.2'
+    scoring_elements: AV:L/AC:H/Au:N/C:P/I:N/A:N
+  - id: 546742
+    reference_id: 22303
+    scoring_system: cvssv3
+    value: '2.5'
+    scoring_elements: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N
+references:
+  - id: 928036
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-3533.json
+    reference_id:
+  - id: 948948
+    url: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1014857
+    reference_id: 1014857
+  - id: 928035
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1956477
+    reference_id: '1956477'
+  - id: 861303
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:ansible_automation_platform:1.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:ansible_automation_platform:1.2:*:*:*:*:*:*:*
+  - id: 724842
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:ansible_engine:2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:ansible_engine:2.0:*:*:*:*:*:*:*
+  - id: 779411
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:ansible_tower:3.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:ansible_tower:3.0:*:*:*:*:*:*:*
+  - id: 812372
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:ansible_tower:3.7.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:ansible_tower:3.7.0:*:*:*:*:*:*:*
+  - id: 889085
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openstack-rdo:-:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:openstack-rdo:-:*:*:*:*:*:*:*
+  - id: 169238
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:fedoraproject:fedora:34:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:fedoraproject:fedora:34:*:*:*:*:*:*:*
+  - id: 111852
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:redhat:enterprise_linux:7.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:redhat:enterprise_linux:7.0:*:*:*:*:*:*:*
+  - id: 22303
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-3533
+    reference_id: CVE-2021-3533
+weaknesses: []

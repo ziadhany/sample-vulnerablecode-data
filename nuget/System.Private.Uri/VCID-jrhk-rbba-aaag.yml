@@ -1,0 +1,83 @@
+vulnerability_id: VCID-jrhk-rbba-aaag
+aliases:
+  - CVE-2019-0980
+  - GHSA-xhfc-gr8f-ffwc
+summary: 'CVE-2019-0980 dotnet: infinite loop in Uri.TryCreate leading to ASP.Net Core Denial
+  of Service'
+severities:
+  - id: 71797
+    reference_id: 202265
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 71794
+    reference_id: 202262
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 365332
+    reference_id: 765027
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 365330
+    reference_id: 765027
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 630556
+    reference_id: 946744
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 71796
+    reference_id: 202264
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 71795
+    reference_id: 202263
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 202265
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2019-0980.json
+    reference_id:
+  - id: 946743
+    url: https://github.com/dotnet/announcements/issues/112
+    reference_id:
+  - id: 946724
+    url: https://github.com/github/advisory-database/issues/302
+    reference_id:
+  - id: 202262
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1705502
+    reference_id: 1705502
+  - id: 720393
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:.net_core:1.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:.net_core:1.0:*:*:*:*:*:*:*
+  - id: 720394
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:.net_core:1.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:.net_core:1.1:*:*:*:*:*:*:*
+  - id: 760240
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:.net_core:2.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:.net_core:2.1:*:*:*:*:*:*:*
+  - id: 764044
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:.net_core:2.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:.net_core:2.2:*:*:*:*:*:*:*
+  - id: 765027
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-0980
+    reference_id: CVE-2019-0980
+  - id: 946742
+    url: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-0980
+    reference_id: CVE-2019-0980
+  - id: 946744
+    url: https://github.com/advisories/GHSA-xhfc-gr8f-ffwc
+    reference_id: GHSA-xhfc-gr8f-ffwc
+  - id: 202264
+    url: https://access.redhat.com/errata/RHSA-2019:1236
+    reference_id: RHSA-2019:1236
+  - id: 202263
+    url: https://access.redhat.com/errata/RHSA-2019:1259
+    reference_id: RHSA-2019:1259
+weaknesses: []

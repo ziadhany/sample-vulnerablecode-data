@@ -1,0 +1,18 @@
+package: pkg:npm/min-http-server
+versions:
+  - purl: pkg:npm/min-http-server@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-xerc-tr3n-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/min-http-server@1.0.2
+    affected_by_vulnerabilities:
+      - VCID-xerc-tr3n-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/min-http-server@1.0.4
+    affected_by_vulnerabilities:
+      - VCID-xerc-tr3n-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/min-http-server@1.0.6
+    affected_by_vulnerabilities:
+      - VCID-xerc-tr3n-aaaa
+    fixing_vulnerabilities: []

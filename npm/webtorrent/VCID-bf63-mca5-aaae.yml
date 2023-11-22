@@ -1,0 +1,49 @@
+vulnerability_id: VCID-bf63-mca5-aaae
+aliases:
+  - CVE-2019-15782
+  - GHSA-gjh4-fcv3-whpq
+summary: |
+  Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')
+  WebTorrent allows XSS in the HTTP server via a title or file name.
+severities:
+  - id: 386431
+    reference_id: 31649
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+  - id: 386429
+    reference_id: 31649
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+  - id: 706048
+    reference_id: 31655
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 31650
+    url: https://github.com/webtorrent/webtorrent/compare/v0.107.5...v0.107.6
+    reference_id:
+  - id: 31651
+    url: https://github.com/webtorrent/webtorrent/pull/1714
+    reference_id:
+  - id: 31654
+    url: https://hackerone.com/reports/681617
+    reference_id:
+  - id: 31652
+    url: https://snyk.io/vuln/SNYK-JS-WEBTORRENT-460351
+    reference_id:
+  - id: 31653
+    url: https://www.npmjs.com/advisories/1158
+    reference_id:
+  - id: 781753
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:webtorrent:webtorrent:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:webtorrent:webtorrent:*:*:*:*:*:*:*:*
+  - id: 31649
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-15782
+    reference_id: CVE-2019-15782
+  - id: 31655
+    url: https://github.com/advisories/GHSA-gjh4-fcv3-whpq
+    reference_id: GHSA-gjh4-fcv3-whpq
+weaknesses: []

@@ -1,0 +1,44 @@
+vulnerability_id: VCID-up48-g5f6-aaap
+aliases:
+  - CVE-2022-24803
+  - GHSA-v222-6mr4-qj29
+summary: Command Injection vulnerability in asciidoctor-include-ext
+severities:
+  - id: 590139
+    reference_id: 26787
+    scoring_system: cvssv2
+    value: '10.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:C/I:C/A:C
+  - id: 590137
+    reference_id: 26787
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 4888
+    reference_id: 26788
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 26785
+    url: https://github.com/jirutka/asciidoctor-include-ext/commit/c7ea001a597c7033575342c51483dab7b87ae155
+    reference_id:
+  - id: 26786
+    url: https://github.com/jirutka/asciidoctor-include-ext/commit/cbaccf3de533cbca224bf61d0b74e4b84d41d8ee
+    reference_id:
+  - id: 917718
+    url: https://github.com/jirutka/asciidoctor-include-ext/security/advisories/GHSA-v222-6mr4-qj29
+    reference_id:
+  - id: 118097
+    url: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1009035
+    reference_id: 1009035
+  - id: 917719
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:asciidoctor-include-ext_project:asciidoctor-include-ext:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:asciidoctor-include-ext_project:asciidoctor-include-ext:*:*:*:*:*:*:*:*
+  - id: 26787
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-24803
+    reference_id: CVE-2022-24803
+  - id: 26788
+    url: https://github.com/advisories/GHSA-v222-6mr4-qj29
+    reference_id: GHSA-v222-6mr4-qj29
+weaknesses: []

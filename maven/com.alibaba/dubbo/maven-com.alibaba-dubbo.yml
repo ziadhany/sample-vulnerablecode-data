@@ -1,0 +1,186 @@
+package: pkg:maven/com.alibaba/dubbo
+versions:
+  - purl: pkg:maven/com.alibaba/dubbo@2.5.0
+    affected_by_vulnerabilities:
+      - VCID-2zmp-s3ev-aaaa
+      - VCID-f2se-qhwy-aaap
+      - VCID-rzyn-rst6-aaaa
+      - VCID-wzhf-7ztj-aaag
+      - VCID-zbpt-f7cw-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba/dubbo@2.5.1
+    affected_by_vulnerabilities:
+      - VCID-2zmp-s3ev-aaaa
+      - VCID-f2se-qhwy-aaap
+      - VCID-rzyn-rst6-aaaa
+      - VCID-wzhf-7ztj-aaag
+      - VCID-zbpt-f7cw-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba/dubbo@2.5.10
+    affected_by_vulnerabilities:
+      - VCID-2zmp-s3ev-aaaa
+      - VCID-f2se-qhwy-aaap
+      - VCID-rzyn-rst6-aaaa
+      - VCID-wzhf-7ztj-aaag
+      - VCID-zbpt-f7cw-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba/dubbo@2.5.2
+    affected_by_vulnerabilities:
+      - VCID-2zmp-s3ev-aaaa
+      - VCID-f2se-qhwy-aaap
+      - VCID-rzyn-rst6-aaaa
+      - VCID-wzhf-7ztj-aaag
+      - VCID-zbpt-f7cw-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba/dubbo@2.5.3
+    affected_by_vulnerabilities:
+      - VCID-2zmp-s3ev-aaaa
+      - VCID-f2se-qhwy-aaap
+      - VCID-rzyn-rst6-aaaa
+      - VCID-wzhf-7ztj-aaag
+      - VCID-zbpt-f7cw-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba/dubbo@2.5.4
+    affected_by_vulnerabilities:
+      - VCID-2zmp-s3ev-aaaa
+      - VCID-f2se-qhwy-aaap
+      - VCID-rzyn-rst6-aaaa
+      - VCID-wzhf-7ztj-aaag
+      - VCID-zbpt-f7cw-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba/dubbo@2.5.5
+    affected_by_vulnerabilities:
+      - VCID-2zmp-s3ev-aaaa
+      - VCID-f2se-qhwy-aaap
+      - VCID-rzyn-rst6-aaaa
+      - VCID-wzhf-7ztj-aaag
+      - VCID-zbpt-f7cw-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba/dubbo@2.5.6
+    affected_by_vulnerabilities:
+      - VCID-2zmp-s3ev-aaaa
+      - VCID-f2se-qhwy-aaap
+      - VCID-rzyn-rst6-aaaa
+      - VCID-wzhf-7ztj-aaag
+      - VCID-zbpt-f7cw-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba/dubbo@2.5.7
+    affected_by_vulnerabilities:
+      - VCID-2zmp-s3ev-aaaa
+      - VCID-f2se-qhwy-aaap
+      - VCID-rzyn-rst6-aaaa
+      - VCID-wzhf-7ztj-aaag
+      - VCID-zbpt-f7cw-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba/dubbo@2.5.8
+    affected_by_vulnerabilities:
+      - VCID-2zmp-s3ev-aaaa
+      - VCID-f2se-qhwy-aaap
+      - VCID-rzyn-rst6-aaaa
+      - VCID-wzhf-7ztj-aaag
+      - VCID-zbpt-f7cw-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba/dubbo@2.5.9
+    affected_by_vulnerabilities:
+      - VCID-2zmp-s3ev-aaaa
+      - VCID-f2se-qhwy-aaap
+      - VCID-rzyn-rst6-aaaa
+      - VCID-wzhf-7ztj-aaag
+      - VCID-zbpt-f7cw-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba/dubbo@2.6.0
+    affected_by_vulnerabilities:
+      - VCID-2zmp-s3ev-aaaa
+      - VCID-f2se-qhwy-aaap
+      - VCID-rzyn-rst6-aaaa
+      - VCID-wzhf-7ztj-aaag
+      - VCID-zbpt-f7cw-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba/dubbo@2.6.1
+    affected_by_vulnerabilities:
+      - VCID-2zmp-s3ev-aaaa
+      - VCID-f2se-qhwy-aaap
+      - VCID-rzyn-rst6-aaaa
+      - VCID-wzhf-7ztj-aaag
+      - VCID-zbpt-f7cw-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba/dubbo@2.6.10
+    affected_by_vulnerabilities:
+      - VCID-2zmp-s3ev-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba/dubbo@2.6.10.1
+    affected_by_vulnerabilities:
+      - VCID-2zmp-s3ev-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba/dubbo@2.6.11
+    affected_by_vulnerabilities:
+      - VCID-2zmp-s3ev-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba/dubbo@2.6.12
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-2zmp-s3ev-aaaa
+  - purl: pkg:maven/com.alibaba/dubbo@2.6.2
+    affected_by_vulnerabilities:
+      - VCID-2zmp-s3ev-aaaa
+      - VCID-f2se-qhwy-aaap
+      - VCID-rzyn-rst6-aaaa
+      - VCID-wzhf-7ztj-aaag
+      - VCID-zbpt-f7cw-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba/dubbo@2.6.3
+    affected_by_vulnerabilities:
+      - VCID-2zmp-s3ev-aaaa
+      - VCID-f2se-qhwy-aaap
+      - VCID-rzyn-rst6-aaaa
+      - VCID-wzhf-7ztj-aaag
+      - VCID-zbpt-f7cw-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba/dubbo@2.6.4
+    affected_by_vulnerabilities:
+      - VCID-2zmp-s3ev-aaaa
+      - VCID-f2se-qhwy-aaap
+      - VCID-rzyn-rst6-aaaa
+      - VCID-wzhf-7ztj-aaag
+      - VCID-zbpt-f7cw-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba/dubbo@2.6.5
+    affected_by_vulnerabilities:
+      - VCID-2zmp-s3ev-aaaa
+      - VCID-f2se-qhwy-aaap
+      - VCID-rzyn-rst6-aaaa
+      - VCID-wzhf-7ztj-aaag
+      - VCID-zbpt-f7cw-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba/dubbo@2.6.6
+    affected_by_vulnerabilities:
+      - VCID-2zmp-s3ev-aaaa
+      - VCID-f2se-qhwy-aaap
+      - VCID-rzyn-rst6-aaaa
+      - VCID-wzhf-7ztj-aaag
+      - VCID-zbpt-f7cw-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba/dubbo@2.6.7
+    affected_by_vulnerabilities:
+      - VCID-2zmp-s3ev-aaaa
+      - VCID-f2se-qhwy-aaap
+      - VCID-rzyn-rst6-aaaa
+      - VCID-wzhf-7ztj-aaag
+      - VCID-zbpt-f7cw-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba/dubbo@2.6.8
+    affected_by_vulnerabilities:
+      - VCID-2zmp-s3ev-aaaa
+      - VCID-f2se-qhwy-aaap
+      - VCID-rzyn-rst6-aaaa
+      - VCID-wzhf-7ztj-aaag
+      - VCID-zbpt-f7cw-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba/dubbo@2.6.9
+    affected_by_vulnerabilities:
+      - VCID-2zmp-s3ev-aaaa
+    fixing_vulnerabilities:
+      - VCID-f2se-qhwy-aaap
+      - VCID-rzyn-rst6-aaaa
+      - VCID-wzhf-7ztj-aaag
+      - VCID-zbpt-f7cw-aaaj

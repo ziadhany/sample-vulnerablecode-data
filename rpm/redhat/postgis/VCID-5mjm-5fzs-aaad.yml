@@ -1,0 +1,96 @@
+vulnerability_id: VCID-5mjm-5fzs-aaad
+aliases:
+  - CVE-2014-3602
+summary: 'CVE-2014-3602 OpenShift: /proc/net/tcp information disclosure'
+severities:
+  - id: 58739
+    reference_id: 185155
+    scoring_system: rhbs
+    value: low
+    scoring_elements:
+  - id: 180703
+    reference_id: 567781
+    scoring_system: cvssv2
+    value: '2.1'
+    scoring_elements: AV:L/AC:L/Au:N/C:P/I:N/A:N
+  - id: 57898
+    reference_id: 184052
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 57899
+    reference_id: 184053
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 567779
+    url: http://rhn.redhat.com/errata/RHSA-2014-1796.html
+    reference_id:
+  - id: 567780
+    url: http://rhn.redhat.com/errata/RHSA-2014-1906.html
+    reference_id:
+  - id: 185156
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2014-3602.json
+    reference_id:
+  - id: 185155
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1131680
+    reference_id: 1131680
+  - id: 158468
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift:2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift:2.0:*:*:*:*:*:*:*
+  - id: 566801
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift:2.0.1:*:enterprise:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift:2.0.1:*:enterprise:*:*:*:*:*
+  - id: 566802
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift:2.0.2:*:enterprise:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift:2.0.2:*:enterprise:*:*:*:*:*
+  - id: 566803
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift:2.0.3:*:enterprise:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift:2.0.3:*:enterprise:*:*:*:*:*
+  - id: 566804
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift:2.0.4:*:enterprise:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift:2.0.4:*:enterprise:*:*:*:*:*
+  - id: 550253
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift:2.0.5:*:enterprise:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift:2.0.5:*:enterprise:*:*:*:*:*
+  - id: 566805
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift:2.0.6:*:*:*:enterprise:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift:2.0.6:*:*:*:enterprise:*:*:*
+  - id: 566806
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift:2.1.1:*:*:*:enterprise:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift:2.1.1:*:*:*:enterprise:*:*:*
+  - id: 567782
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift:2.1.2:*:*:*:enterprise:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift:2.1.2:*:*:*:enterprise:*:*:*
+  - id: 567783
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift:2.1.3:*:*:*:enterprise:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift:2.1.3:*:*:*:enterprise:*:*:*
+  - id: 567784
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift:2.1.4:*:*:*:enterprise:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift:2.1.4:*:*:*:enterprise:*:*:*
+  - id: 567785
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift:2.1.5:*:*:*:enterprise:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift:2.1.5:*:*:*:enterprise:*:*:*
+  - id: 567786
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift:2.1.6:*:*:*:enterprise:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift:2.1.6:*:*:*:enterprise:*:*:*
+  - id: 567787
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift:2.1.7:*:*:*:enterprise:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift:2.1.7:*:*:*:enterprise:*:*:*
+  - id: 550551
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift:2.1:*:*:*:enterprise:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift:2.1:*:*:*:enterprise:*:*:*
+  - id: 159207
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift:*:*:*:*:enterprise:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift:*:*:*:*:enterprise:*:*:*
+  - id: 567781
+    url: https://nvd.nist.gov/vuln/detail/CVE-2014-3602
+    reference_id: CVE-2014-3602
+  - id: 184052
+    url: https://access.redhat.com/errata/RHSA-2014:1796
+    reference_id: RHSA-2014:1796
+  - id: 184053
+    url: https://access.redhat.com/errata/RHSA-2014:1906
+    reference_id: RHSA-2014:1906
+weaknesses: []

@@ -1,0 +1,40 @@
+vulnerability_id: VCID-a4tx-hvwf-aaam
+aliases:
+  - CVE-2020-28501
+  - GHSA-jxg6-fhwc-9v9c
+summary: |
+  Uncontrolled Ressource Consumption
+  No limitation of user agent string length supplied to regex operators.
+severities:
+  - id: 469350
+    reference_id: 35749
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 469348
+    reference_id: 35749
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 706263
+    reference_id: 1467804
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 839121
+    url: https://github.com/JefferyHus/es6-crawler-detect/pull/27
+    reference_id:
+  - id: 839122
+    url: https://snyk.io/vuln/SNYK-JS-ES6CRAWLERDETECT-1051529
+    reference_id:
+  - id: 839123
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:crawlerdetect_project:crawlerdetect:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:crawlerdetect_project:crawlerdetect:*:*:*:*:*:node.js:*:*
+  - id: 35749
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-28501
+    reference_id: CVE-2020-28501
+  - id: 1467804
+    url: https://github.com/advisories/GHSA-jxg6-fhwc-9v9c
+    reference_id: GHSA-jxg6-fhwc-9v9c
+weaknesses: []

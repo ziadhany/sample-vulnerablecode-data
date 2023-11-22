@@ -1,0 +1,82 @@
+vulnerability_id: VCID-6q92-s7v5-aaab
+aliases:
+  - CVE-2021-3461
+summary: |
+  Insufficient Session Expiration
+  A flaw was found in keycloak where keycloak may fail to logout user session if the logout request comes from external SAML identity provider and Principal Type is set to Attribute [Name].
+severities:
+  - id: 606277
+    reference_id: 928611
+    scoring_system: cvssv3
+    value: '5.9'
+    scoring_elements: CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+  - id: 606272
+    reference_id: 928606
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 544692
+    reference_id: 30564
+    scoring_system: cvssv2
+    value: '3.3'
+    scoring_elements: AV:L/AC:M/Au:N/C:P/I:P/A:N
+  - id: 544690
+    reference_id: 30564
+    scoring_system: cvssv3
+    value: '7.1'
+    scoring_elements: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+  - id: 606275
+    reference_id: 928609
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 606274
+    reference_id: 928608
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 606276
+    reference_id: 928610
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 606273
+    reference_id: 928607
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 928611
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-3461.json
+    reference_id:
+  - id: 928606
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1941565
+    reference_id: '1941565'
+  - id: 887546
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:keycloak:9.0.13:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:keycloak:9.0.13:*:*:*:*:*:*:*
+  - id: 766462
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:single_sign-on:7.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:single_sign-on:7.0:*:*:*:*:*:*:*
+  - id: 812349
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:single_sign-on:7.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:single_sign-on:7.4:*:*:*:*:*:*:*
+  - id: 887547
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:single_sign-on:7.4.7:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:single_sign-on:7.4.7:*:*:*:*:*:*:*
+  - id: 30564
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-3461
+    reference_id: CVE-2021-3461
+  - id: 928609
+    url: https://access.redhat.com/errata/RHSA-2021:2063
+    reference_id: RHSA-2021:2063
+  - id: 928608
+    url: https://access.redhat.com/errata/RHSA-2021:2064
+    reference_id: RHSA-2021:2064
+  - id: 928610
+    url: https://access.redhat.com/errata/RHSA-2021:2065
+    reference_id: RHSA-2021:2065
+  - id: 928607
+    url: https://access.redhat.com/errata/RHSA-2021:2070
+    reference_id: RHSA-2021:2070
+weaknesses: []

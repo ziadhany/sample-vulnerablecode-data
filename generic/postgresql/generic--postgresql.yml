@@ -1,0 +1,200 @@
+package: pkg:generic/postgresql
+versions:
+  - purl: pkg:generic/postgresql@7.3.0
+    affected_by_vulnerabilities:
+      - VCID-1cdq-g1ar-aaab
+      - VCID-4ks5-5tdd-aaah
+      - VCID-8egf-4d5f-aaar
+      - VCID-a57d-1aph-aaam
+      - VCID-hw3n-46qm-aaad
+      - VCID-knew-ww8s-aaam
+      - VCID-mex9-jkss-aaap
+      - VCID-n7bj-qfrx-aaac
+      - VCID-qd91-d7x3-aaar
+      - VCID-t2g8-v7u9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:generic/postgresql@7.3.10
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-a57d-1aph-aaam
+      - VCID-hw3n-46qm-aaad
+  - purl: pkg:generic/postgresql@7.3.13
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-qd91-d7x3-aaar
+  - purl: pkg:generic/postgresql@7.3.14
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-4ks5-5tdd-aaah
+  - purl: pkg:generic/postgresql@7.3.15
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-knew-ww8s-aaam
+      - VCID-t2g8-v7u9-aaae
+  - purl: pkg:generic/postgresql@7.3.8
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-mex9-jkss-aaap
+  - purl: pkg:generic/postgresql@7.3.9
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-1cdq-g1ar-aaab
+      - VCID-8egf-4d5f-aaar
+      - VCID-n7bj-qfrx-aaac
+  - purl: pkg:generic/postgresql@7.4.0
+    affected_by_vulnerabilities:
+      - VCID-1cdq-g1ar-aaab
+      - VCID-4ks5-5tdd-aaah
+      - VCID-8egf-4d5f-aaar
+      - VCID-a57d-1aph-aaam
+      - VCID-h44v-ttyu-aaaf
+      - VCID-hw3n-46qm-aaad
+      - VCID-knew-ww8s-aaam
+      - VCID-mex9-jkss-aaap
+      - VCID-n7bj-qfrx-aaac
+      - VCID-nysv-6y7a-aaaq
+      - VCID-qd91-d7x3-aaar
+      - VCID-t2g8-v7u9-aaae
+      - VCID-zxng-yspq-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:generic/postgresql@7.4.12
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-4ks5-5tdd-aaah
+  - purl: pkg:generic/postgresql@7.4.13
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-knew-ww8s-aaam
+      - VCID-t2g8-v7u9-aaae
+  - purl: pkg:generic/postgresql@7.4.14
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-nysv-6y7a-aaaq
+  - purl: pkg:generic/postgresql@7.4.16
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-qd91-d7x3-aaar
+  - purl: pkg:generic/postgresql@7.4.6
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-mex9-jkss-aaap
+  - purl: pkg:generic/postgresql@7.4.7
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-1cdq-g1ar-aaab
+      - VCID-8egf-4d5f-aaar
+      - VCID-hw3n-46qm-aaad
+      - VCID-n7bj-qfrx-aaac
+  - purl: pkg:generic/postgresql@7.4.8
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-a57d-1aph-aaam
+      - VCID-h44v-ttyu-aaaf
+      - VCID-zxng-yspq-aaak
+  - purl: pkg:generic/postgresql@8.0.0
+    affected_by_vulnerabilities:
+      - VCID-1cdq-g1ar-aaab
+      - VCID-4ks5-5tdd-aaah
+      - VCID-8egf-4d5f-aaar
+      - VCID-a57d-1aph-aaam
+      - VCID-etsm-dp2j-aaab
+      - VCID-h44v-ttyu-aaaf
+      - VCID-hw3n-46qm-aaad
+      - VCID-knew-ww8s-aaam
+      - VCID-n7bj-qfrx-aaac
+      - VCID-nysv-6y7a-aaaq
+      - VCID-qd91-d7x3-aaar
+      - VCID-t2g8-v7u9-aaae
+      - VCID-zxng-yspq-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:generic/postgresql@8.0.0?os=windows
+    affected_by_vulnerabilities:
+      - VCID-sx48-3fm2-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:generic/postgresql@8.0.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-1cdq-g1ar-aaab
+      - VCID-8egf-4d5f-aaar
+      - VCID-hw3n-46qm-aaad
+      - VCID-n7bj-qfrx-aaac
+  - purl: pkg:generic/postgresql@8.0.11
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-etsm-dp2j-aaab
+      - VCID-qd91-d7x3-aaar
+  - purl: pkg:generic/postgresql@8.0.2
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-zxng-yspq-aaak
+  - purl: pkg:generic/postgresql@8.0.3
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-a57d-1aph-aaam
+      - VCID-h44v-ttyu-aaaf
+  - purl: pkg:generic/postgresql@8.0.6?os=windows
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-sx48-3fm2-aaap
+  - purl: pkg:generic/postgresql@8.0.7
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-4ks5-5tdd-aaah
+  - purl: pkg:generic/postgresql@8.0.8
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-knew-ww8s-aaam
+      - VCID-t2g8-v7u9-aaae
+  - purl: pkg:generic/postgresql@8.0.9
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-nysv-6y7a-aaaq
+  - purl: pkg:generic/postgresql@8.1.0
+    affected_by_vulnerabilities:
+      - VCID-49zh-edmv-aaar
+      - VCID-etsm-dp2j-aaab
+      - VCID-knew-ww8s-aaam
+      - VCID-nysv-6y7a-aaaq
+      - VCID-qd91-d7x3-aaar
+      - VCID-r519-gkxk-aaan
+      - VCID-t2g8-v7u9-aaae
+      - VCID-xp8k-9d9d-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:generic/postgresql@8.1.0?os=windows
+    affected_by_vulnerabilities:
+      - VCID-sx48-3fm2-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:generic/postgresql@8.1.2?os=windows
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-sx48-3fm2-aaap
+  - purl: pkg:generic/postgresql@8.1.3
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-r519-gkxk-aaan
+  - purl: pkg:generic/postgresql@8.1.4
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-knew-ww8s-aaam
+      - VCID-t2g8-v7u9-aaae
+  - purl: pkg:generic/postgresql@8.1.5
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-49zh-edmv-aaar
+      - VCID-nysv-6y7a-aaaq
+      - VCID-xp8k-9d9d-aaac
+  - purl: pkg:generic/postgresql@8.1.7
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-etsm-dp2j-aaab
+      - VCID-qd91-d7x3-aaar
+  - purl: pkg:generic/postgresql@8.2.0
+    affected_by_vulnerabilities:
+      - VCID-etsm-dp2j-aaab
+      - VCID-qd91-d7x3-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:generic/postgresql@8.2.2
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-etsm-dp2j-aaab
+      - VCID-qd91-d7x3-aaar

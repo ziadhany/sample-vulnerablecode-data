@@ -1,0 +1,52 @@
+vulnerability_id: VCID-f3uu-yu8c-aaaq
+aliases:
+  - CVE-2020-10716
+summary: 'CVE-2020-10716 rubygem-foreman_ansible: "User input" entry from Job Invocation may
+  contain sensitive data'
+severities:
+  - id: 50911
+    reference_id: 175529
+    scoring_system: cvssv3
+    value: '4.3'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N
+  - id: 430463
+    reference_id: 812188
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:N/A:N
+  - id: 430461
+    reference_id: 812188
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+  - id: 50910
+    reference_id: 175528
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 175529
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2020-10716.json
+    reference_id:
+  - id: 812186
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1814998
+    reference_id:
+  - id: 812187
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1827300
+    reference_id:
+  - id: 812189
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:satellite:6.7:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:satellite:6.7:*:*:*:*:*:*:*
+  - id: 812190
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:satellite_capsule:6.7:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:satellite_capsule:6.7:*:*:*:*:*:*:*
+  - id: 812191
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:foreman_ansible:*:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:theforeman:foreman_ansible:*:*:*:*:*:ruby:*:*
+  - id: 812188
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-10716
+    reference_id: CVE-2020-10716
+  - id: 175528
+    url: https://access.redhat.com/errata/RHSA-2020:1454
+    reference_id: RHSA-2020:1454
+weaknesses: []

@@ -1,0 +1,83 @@
+vulnerability_id: VCID-27yz-rvzs-aaaf
+aliases:
+  - CVE-2019-3894
+summary: It was discovered that the ElytronManagedThread in Wildfly's Elytron subsystem in versions
+  from 11 to 16 stores a SecurityIdentity to run the thread as. These threads do not necessarily
+  terminate if the keep alive time has not expired. This could allow a shared thread to use
+  the wrong security identity when executing.
+severities:
+  - id: 612347
+    reference_id: 933050
+    scoring_system: cvssv3
+    value: '5.4'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N
+  - id: 612346
+    reference_id: 933049
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 406484
+    reference_id: 796363
+    scoring_system: cvssv2
+    value: '6.5'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:P/A:P
+  - id: 406482
+    reference_id: 796363
+    scoring_system: cvssv3
+    value: '8.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+  - id: 68390
+    reference_id: '197920'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 68389
+    reference_id: '197919'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 68388
+    reference_id: '197918'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 68387
+    reference_id: '197917'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 933050
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2019-3894.json
+    reference_id:
+  - id: 796362
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2019-3894
+    reference_id:
+  - id: 795969
+    url: https://security.netapp.com/advisory/ntap-20190517-0004/
+    reference_id:
+  - id: 933049
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1682108
+    reference_id: 1682108
+  - id: 659699
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:7.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:7.0.0:*:*:*:*:*:*:*
+  - id: 734792
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:wildfly:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:wildfly:*:*:*:*:*:*:*:*
+  - id: 796363
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-3894
+    reference_id: CVE-2019-3894
+  - id: '197920'
+    url: https://access.redhat.com/errata/RHSA-2019:1106
+    reference_id: RHSA-2019:1106
+  - id: '197919'
+    url: https://access.redhat.com/errata/RHSA-2019:1107
+    reference_id: RHSA-2019:1107
+  - id: '197918'
+    url: https://access.redhat.com/errata/RHSA-2019:1108
+    reference_id: RHSA-2019:1108
+  - id: '197917'
+    url: https://access.redhat.com/errata/RHSA-2019:1140
+    reference_id: RHSA-2019:1140
+weaknesses: []

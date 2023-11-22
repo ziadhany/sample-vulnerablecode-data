@@ -1,0 +1,177 @@
+vulnerability_id: VCID-fzk7-6jzq-aaaj
+aliases:
+  - CVE-2020-14307
+summary: A vulnerability was found in Wildfly's Enterprise Java Beans (EJB) versions shipped
+  with Red Hat JBoss EAP 7, where SessionOpenInvocations are never removed from the remote InvocationTracker
+  after a response is received in the EJB Client, as well as the server. This flaw allows an
+  attacker to craft a denial of service attack to make the service unavailable.
+severities:
+  - id: 610741
+    reference_id: 931886
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+  - id: 610740
+    reference_id: 931885
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 441763
+    reference_id: 820629
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:N/I:N/A:P
+  - id: 441761
+    reference_id: 820629
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+  - id: 608959
+    reference_id: 930589
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 608957
+    reference_id: 930587
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 608958
+    reference_id: 930588
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 608956
+    reference_id: 930586
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49241
+    reference_id: 173535
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49242
+    reference_id: 173536
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49238
+    reference_id: 173532
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49239
+    reference_id: 173533
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 50141
+    reference_id: 174647
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 50143
+    reference_id: 174649
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49245
+    reference_id: 173539
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49243
+    reference_id: 173537
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49244
+    reference_id: 173538
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49237
+    reference_id: 173531
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 50837
+    reference_id: 175431
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 931886
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2020-14307.json
+    reference_id:
+  - id: 820628
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2020-14307
+    reference_id:
+  - id: 931885
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1851327
+    reference_id: 1851327
+  - id: 820582
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:amq:2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:amq:2.0:*:*:*:*:*:*:*
+  - id: 820583
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform_continuous_delivery:-:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform_continuous_delivery:-:*:*:*:*:*:*:*
+  - id: 534704
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_fuse:6.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_fuse:6.0.0:*:*:*:*:*:*:*
+  - id: 779474
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift_application_runtimes:-:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift_application_runtimes:-:*:*:*:*:*:*:*
+  - id: 766462
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:single_sign-on:7.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:single_sign-on:7.0:*:*:*:*:*:*:*
+  - id: 820629
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-14307
+    reference_id: CVE-2020-14307
+  - id: 930589
+    url: https://access.redhat.com/errata/RHSA-2020:3141
+    reference_id: RHSA-2020:3141
+  - id: 930587
+    url: https://access.redhat.com/errata/RHSA-2020:3142
+    reference_id: RHSA-2020:3142
+  - id: 930588
+    url: https://access.redhat.com/errata/RHSA-2020:3143
+    reference_id: RHSA-2020:3143
+  - id: 930586
+    url: https://access.redhat.com/errata/RHSA-2020:3144
+    reference_id: RHSA-2020:3144
+  - id: 173535
+    url: https://access.redhat.com/errata/RHSA-2020:3461
+    reference_id: RHSA-2020:3461
+  - id: 173536
+    url: https://access.redhat.com/errata/RHSA-2020:3462
+    reference_id: RHSA-2020:3462
+  - id: 173532
+    url: https://access.redhat.com/errata/RHSA-2020:3463
+    reference_id: RHSA-2020:3463
+  - id: 173533
+    url: https://access.redhat.com/errata/RHSA-2020:3464
+    reference_id: RHSA-2020:3464
+  - id: 174647
+    url: https://access.redhat.com/errata/RHSA-2020:3501
+    reference_id: RHSA-2020:3501
+  - id: 174649
+    url: https://access.redhat.com/errata/RHSA-2020:3539
+    reference_id: RHSA-2020:3539
+  - id: 173539
+    url: https://access.redhat.com/errata/RHSA-2020:3637
+    reference_id: RHSA-2020:3637
+  - id: 173537
+    url: https://access.redhat.com/errata/RHSA-2020:3638
+    reference_id: RHSA-2020:3638
+  - id: 173538
+    url: https://access.redhat.com/errata/RHSA-2020:3639
+    reference_id: RHSA-2020:3639
+  - id: 173531
+    url: https://access.redhat.com/errata/RHSA-2020:3642
+    reference_id: RHSA-2020:3642
+  - id: 175431
+    url: https://access.redhat.com/errata/RHSA-2020:3817
+    reference_id: RHSA-2020:3817
+weaknesses: []

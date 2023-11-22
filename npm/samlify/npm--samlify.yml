@@ -1,0 +1,54 @@
+package: pkg:npm/samlify
+versions:
+  - purl: pkg:npm/samlify@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-mvwg-wgtt-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/samlify@2.0.0-rc.1
+    affected_by_vulnerabilities:
+      - VCID-mvwg-wgtt-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/samlify@2.0.0-rc.2
+    affected_by_vulnerabilities:
+      - VCID-mvwg-wgtt-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/samlify@2.0.0-rc.3
+    affected_by_vulnerabilities:
+      - VCID-mvwg-wgtt-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/samlify@2.0.1
+    affected_by_vulnerabilities:
+      - VCID-mvwg-wgtt-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/samlify@2.0.1-rc.3
+    affected_by_vulnerabilities:
+      - VCID-mvwg-wgtt-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/samlify@2.0.2
+    affected_by_vulnerabilities:
+      - VCID-mvwg-wgtt-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/samlify@2.0.3
+    affected_by_vulnerabilities:
+      - VCID-mvwg-wgtt-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/samlify@2.0.4
+    affected_by_vulnerabilities:
+      - VCID-mvwg-wgtt-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/samlify@2.1.0
+    affected_by_vulnerabilities:
+      - VCID-mvwg-wgtt-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/samlify@2.1.1
+    affected_by_vulnerabilities:
+      - VCID-mvwg-wgtt-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/samlify@2.2.0
+    affected_by_vulnerabilities:
+      - VCID-mvwg-wgtt-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/samlify@2.3.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-mvwg-wgtt-aaag

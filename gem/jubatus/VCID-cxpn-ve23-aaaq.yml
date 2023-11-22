@@ -1,0 +1,34 @@
+vulnerability_id: VCID-cxpn-ve23-aaaq
+aliases:
+  - CVE-2018-0525
+  - PYSEC-2018-115
+summary: Directory traversal vulnerability in Jubatus 1.0.2 and earlier allows remote attackers
+  to read arbitrary files via unspecified vectors.
+severities:
+  - id: 304844
+    reference_id: 23763
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 304842
+    reference_id: 23763
+    scoring_system: cvssv3
+    value: '5.3'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+references:
+  - id: 5485
+    url: https://github.com/jubatus/jubatus/blob/master/ChangeLog.rst
+    reference_id:
+  - id: 5484
+    url: https://jvn.jp/en/jp/JVN56132776/index.html
+    reference_id:
+  - id: 5486
+    url: https://pypi.org/project/jubatus
+    reference_id:
+  - id: 719139
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:jubat:jubatus:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:jubat:jubatus:*:*:*:*:*:*:*:*
+  - id: 23763
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-0525
+    reference_id: CVE-2018-0525
+weaknesses: []

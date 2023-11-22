@@ -1,0 +1,46 @@
+vulnerability_id: VCID-mvwg-wgtt-aaag
+aliases:
+  - CVE-2017-1000452
+  - GHSA-8jjf-w7j6-323c
+summary: |
+  XPath Injection
+  An XML Signature Wrapping vulnerability exists in Samlify which could allow attackers to impersonate arbitrary users.
+severities:
+  - id: 250248
+    reference_id: 33342
+    scoring_system: cvssv2
+    value: '6.0'
+    scoring_elements: AV:N/AC:M/Au:S/C:P/I:P/A:P
+  - id: 250246
+    reference_id: 33342
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+  - id: 705590
+    reference_id: 1466726
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 33343
+    url: https://github.com/tngan/samlify/releases/tag/v2.3.0
+    reference_id:
+  - id: 1466725
+    url: https://hackerone.com/reports/356284
+    reference_id:
+  - id: 1466727
+    url: https://www.npmjs.com/advisories/969
+    reference_id:
+  - id: 669023
+    url: https://www.whitehats.nl/blog/xml-signature-wrapping-samlify
+    reference_id:
+  - id: 669024
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:samlify_project:samlify:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:samlify_project:samlify:*:*:*:*:*:*:*:*
+  - id: 33342
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-1000452
+    reference_id: CVE-2017-1000452
+  - id: 1466726
+    url: https://github.com/advisories/GHSA-8jjf-w7j6-323c
+    reference_id: GHSA-8jjf-w7j6-323c
+weaknesses: []

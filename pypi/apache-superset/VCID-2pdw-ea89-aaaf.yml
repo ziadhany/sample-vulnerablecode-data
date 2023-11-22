@@ -1,0 +1,22 @@
+vulnerability_id: VCID-2pdw-ea89-aaaf
+aliases:
+  - CVE-2022-45438
+  - GHSA-8f5j-mgx9-5hm5
+summary: Apache Superset has Improper Access Control
+severities:
+  - id: 707575
+    reference_id: 1470289
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 1470288
+    url: https://lists.apache.org/thread/snxbkf2x9kww7s0wkmydct9nhqqn9rv9
+    reference_id:
+  - id: 1470287
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-45438
+    reference_id: CVE-2022-45438
+  - id: 1470289
+    url: https://github.com/advisories/GHSA-8f5j-mgx9-5hm5
+    reference_id: GHSA-8f5j-mgx9-5hm5
+weaknesses: []

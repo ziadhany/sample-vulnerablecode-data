@@ -1,0 +1,9 @@
+vulnerability_id: VCID-g2he-gjkm-aaaj
+aliases:
+  - GMS-2017-149
+summary: |
+  Hijacked Environment Variables
+  `nodemailer.js` was a malicious module published with the intent to hijack environment variables. It has been unpublished by npm.
+severities: []
+references: []
+weaknesses: []

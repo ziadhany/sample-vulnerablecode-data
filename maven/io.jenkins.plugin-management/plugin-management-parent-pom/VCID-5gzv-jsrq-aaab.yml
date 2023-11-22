@@ -1,0 +1,38 @@
+vulnerability_id: VCID-5gzv-jsrq-aaab
+aliases:
+  - CVE-2020-2320
+  - GHSA-m8r4-c7jm-w782
+summary: Jenkins Plugin Installation Manager Tool 2.1.3 and earlier does not verify plugin downloads.
+severities:
+  - id: 457268
+    reference_id: 830832
+    scoring_system: cvssv2
+    value: '10.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:C/I:C/A:C
+  - id: 457266
+    reference_id: 830832
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 647202
+    reference_id: 1416371
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 830831
+    url: https://www.jenkins.io/security/advisory/2020-12-03/#SECURITY-1856
+    reference_id:
+  - id: 830830
+    url: http://www.openwall.com/lists/oss-security/2020/12/03/2
+    reference_id:
+  - id: 830833
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:jenkins:installation_manager_tool:*:*:*:*:*:jenkins:*:*
+    reference_id: cpe:2.3:a:jenkins:installation_manager_tool:*:*:*:*:*:jenkins:*:*
+  - id: 830832
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-2320
+    reference_id: CVE-2020-2320
+  - id: 1416371
+    url: https://github.com/advisories/GHSA-m8r4-c7jm-w782
+    reference_id: GHSA-m8r4-c7jm-w782
+weaknesses: []

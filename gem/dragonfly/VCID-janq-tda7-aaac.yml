@@ -1,0 +1,12 @@
+vulnerability_id: VCID-janq-tda7-aaac
+aliases:
+  - OSVDB-110439
+summary: |
+  Remote Code Execution
+  The gem contains a flaw in Uploading & Processing that is due to the gem failing to restrict arbitrary commands to imagemagicks convert. This may allow a remote attacker to gain read/write access to the filesystem and execute arbitrary commands.
+severities: []
+references:
+  - id: 38757
+    url: http://osvdb.org/show/osvdb/110439
+    reference_id:
+weaknesses: []

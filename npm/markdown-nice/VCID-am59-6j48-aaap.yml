@@ -1,0 +1,24 @@
+vulnerability_id: VCID-am59-6j48-aaap
+aliases:
+  - CVE-2022-38639
+  - GHSA-462r-wxvm-jvxh
+summary: |
+  Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')
+  A cross-site scripting (XSS) vulnerability in Markdown-Nice v1.8.22 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Community Posting field.
+severities:
+  - id: 707211
+    reference_id: 1462848
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 1462847
+    url: https://github.com/mdnice/markdown-nice/issues/327
+    reference_id:
+  - id: 1462846
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-38639
+    reference_id: CVE-2022-38639
+  - id: 1462848
+    url: https://github.com/advisories/GHSA-462r-wxvm-jvxh
+    reference_id: GHSA-462r-wxvm-jvxh
+weaknesses: []

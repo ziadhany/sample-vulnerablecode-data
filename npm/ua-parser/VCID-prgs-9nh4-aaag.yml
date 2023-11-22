@@ -1,0 +1,40 @@
+vulnerability_id: VCID-prgs-9nh4-aaag
+aliases:
+  - CVE-2017-16086
+  - GHSA-pmg9-p9r2-6q87
+summary: |
+  Uncontrolled Resource Consumption
+  ua-parser is vulnerable to a ReDoS (Regular Expression Denial of Service) attack when given a specially crafted UserAgent header.
+severities:
+  - id: 269948
+    reference_id: 36492
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 269946
+    reference_id: 36492
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 705676
+    reference_id: 1466904
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 687711
+    url: https://nodesecurity.io/advisories/316
+    reference_id:
+  - id: 1466905
+    url: https://www.npmjs.com/advisories/316
+    reference_id:
+  - id: 687712
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:ua-parser_project:ua-parser:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:ua-parser_project:ua-parser:*:*:*:*:*:node.js:*:*
+  - id: 36492
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-16086
+    reference_id: CVE-2017-16086
+  - id: 1466904
+    url: https://github.com/advisories/GHSA-pmg9-p9r2-6q87
+    reference_id: GHSA-pmg9-p9r2-6q87
+weaknesses: []

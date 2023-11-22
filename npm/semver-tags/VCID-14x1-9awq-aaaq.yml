@@ -1,0 +1,28 @@
+vulnerability_id: VCID-14x1-9awq-aaaq
+aliases:
+  - CVE-2022-25853
+  - GHSA-8h3g-hcwp-6hxq
+summary: semver-tags is vulnerable to Command Injection via the getGitTagsRemote function
+severities:
+  - id: 708217
+    reference_id: 1472668
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 1472667
+    url: https://github.com/jtrussell/semver-tags/blob/db1ba680bafed0d51e1bb36bd38f2c5439fe8b00/lib/get-tags.js%23L21
+    reference_id:
+  - id: 1472666
+    url: https://github.com/jtrussell/semver-tags/blob/db1ba680bafed0d51e1bb36bd38f2c5439fe8b00/lib/get-tags.js#L21
+    reference_id:
+  - id: 1472665
+    url: https://security.snyk.io/vuln/SNYK-JS-SEMVERTAGS-3175612
+    reference_id:
+  - id: 1472664
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-25853
+    reference_id: CVE-2022-25853
+  - id: 1472668
+    url: https://github.com/advisories/GHSA-8h3g-hcwp-6hxq
+    reference_id: GHSA-8h3g-hcwp-6hxq
+weaknesses: []

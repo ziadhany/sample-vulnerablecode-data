@@ -1,0 +1,40 @@
+vulnerability_id: VCID-a3qg-ztxn-aaae
+aliases:
+  - CVE-2021-23426
+  - GHSA-58g2-9fqr-36q2
+summary: |
+  Prototype Pollution
+  This affects all versions of package Proto. It is possible to inject pollute the object property of an application using Proto by leveraging the merge function.
+severities:
+  - id: 515444
+    reference_id: 36706
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:P/A:N
+  - id: 515442
+    reference_id: 36706
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
+  - id: 706600
+    reference_id: 1468230
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 868618
+    url: https://snyk.io/vuln/SNYK-JS-PROTO-1316301
+    reference_id:
+  - id: 868619
+    url: https://www.npmjs.com/package/Proto
+    reference_id:
+  - id: 868620
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:proto_project:proto:-:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:proto_project:proto:-:*:*:*:*:node.js:*:*
+  - id: 36706
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-23426
+    reference_id: CVE-2021-23426
+  - id: 1468230
+    url: https://github.com/advisories/GHSA-58g2-9fqr-36q2
+    reference_id: GHSA-58g2-9fqr-36q2
+weaknesses: []

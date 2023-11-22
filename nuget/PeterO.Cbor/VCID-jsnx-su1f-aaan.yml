@@ -1,0 +1,24 @@
+vulnerability_id: VCID-jsnx-su1f-aaan
+aliases:
+  - GHSA-cxw4-9qv9-vx5h
+  - GMS-2019-73
+summary: High severity vulnerability that affects PeterO.Cbor
+severities:
+  - id: '1965'
+    reference_id: 16401
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: '1964'
+    reference_id: 16400
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 16401
+    url: https://github.com/advisories/GHSA-cxw4-9qv9-vx5h
+    reference_id: GHSA-cxw4-9qv9-vx5h
+  - id: 16400
+    url: https://github.com/peteroupc/CBOR/security/advisories/GHSA-cxw4-9qv9-vx5h
+    reference_id: GHSA-cxw4-9qv9-vx5h
+weaknesses: []

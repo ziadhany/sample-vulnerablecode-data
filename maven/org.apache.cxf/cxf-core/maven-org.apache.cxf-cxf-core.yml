@@ -1,0 +1,990 @@
+package: pkg:maven/org.apache.cxf/cxf-core
+versions:
+  - purl: pkg:maven/org.apache.cxf/cxf-core@2.6.13
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-wcq2-3aad-aaam
+  - purl: pkg:maven/org.apache.cxf/cxf-core@2.6.14
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-55bw-n6aa-aaah
+      - VCID-8shu-ycvu-aaaf
+  - purl: pkg:maven/org.apache.cxf/cxf-core@2.7.0
+    affected_by_vulnerabilities:
+      - VCID-55bw-n6aa-aaah
+      - VCID-8shu-ycvu-aaaf
+      - VCID-wcq2-3aad-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@2.7.10
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-wcq2-3aad-aaam
+  - purl: pkg:maven/org.apache.cxf/cxf-core@2.7.11
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-55bw-n6aa-aaah
+      - VCID-8shu-ycvu-aaaf
+  - purl: pkg:maven/org.apache.cxf/cxf-core@2.7.17
+    affected_by_vulnerabilities:
+      - VCID-f29w-fzs9-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@2.7.18
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-f29w-fzs9-aaae
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.0.0
+    affected_by_vulnerabilities:
+      - VCID-a56m-3xft-aaap
+      - VCID-dkhn-89pe-aaan
+      - VCID-eqe5-wr57-aaar
+      - VCID-f29w-fzs9-aaae
+      - VCID-gjyt-m1m5-aaas
+      - VCID-gtfj-ry3n-aaae
+      - VCID-jv7g-f1zc-aaas
+      - VCID-krfe-wrvk-aaap
+      - VCID-shw4-mwht-aaan
+      - VCID-td3d-v749-aaac
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.0.0-milestone1
+    affected_by_vulnerabilities:
+      - VCID-a56m-3xft-aaap
+      - VCID-dkhn-89pe-aaan
+      - VCID-eqe5-wr57-aaar
+      - VCID-gjyt-m1m5-aaas
+      - VCID-gtfj-ry3n-aaae
+      - VCID-jv7g-f1zc-aaas
+      - VCID-krfe-wrvk-aaap
+      - VCID-shw4-mwht-aaan
+      - VCID-td3d-v749-aaac
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.0.0-milestone2
+    affected_by_vulnerabilities:
+      - VCID-a56m-3xft-aaap
+      - VCID-dkhn-89pe-aaan
+      - VCID-eqe5-wr57-aaar
+      - VCID-gjyt-m1m5-aaas
+      - VCID-gtfj-ry3n-aaae
+      - VCID-jv7g-f1zc-aaas
+      - VCID-krfe-wrvk-aaap
+      - VCID-shw4-mwht-aaan
+      - VCID-td3d-v749-aaac
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.0.1
+    affected_by_vulnerabilities:
+      - VCID-a56m-3xft-aaap
+      - VCID-dkhn-89pe-aaan
+      - VCID-eqe5-wr57-aaar
+      - VCID-f29w-fzs9-aaae
+      - VCID-gjyt-m1m5-aaas
+      - VCID-gtfj-ry3n-aaae
+      - VCID-jv7g-f1zc-aaas
+      - VCID-krfe-wrvk-aaap
+      - VCID-shw4-mwht-aaan
+      - VCID-td3d-v749-aaac
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.0.10
+    affected_by_vulnerabilities:
+      - VCID-a56m-3xft-aaap
+      - VCID-dkhn-89pe-aaan
+      - VCID-eqe5-wr57-aaar
+      - VCID-gjyt-m1m5-aaas
+      - VCID-gtfj-ry3n-aaae
+      - VCID-jv7g-f1zc-aaas
+      - VCID-krfe-wrvk-aaap
+      - VCID-shw4-mwht-aaan
+      - VCID-td3d-v749-aaac
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.0.11
+    affected_by_vulnerabilities:
+      - VCID-a56m-3xft-aaap
+      - VCID-dkhn-89pe-aaan
+      - VCID-eqe5-wr57-aaar
+      - VCID-gjyt-m1m5-aaas
+      - VCID-gtfj-ry3n-aaae
+      - VCID-jv7g-f1zc-aaas
+      - VCID-krfe-wrvk-aaap
+      - VCID-shw4-mwht-aaan
+      - VCID-td3d-v749-aaac
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.0.12
+    affected_by_vulnerabilities:
+      - VCID-a56m-3xft-aaap
+      - VCID-eqe5-wr57-aaar
+      - VCID-gtfj-ry3n-aaae
+      - VCID-jv7g-f1zc-aaas
+      - VCID-krfe-wrvk-aaap
+      - VCID-shw4-mwht-aaan
+      - VCID-td3d-v749-aaac
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities:
+      - VCID-dkhn-89pe-aaan
+      - VCID-gjyt-m1m5-aaas
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.0.13
+    affected_by_vulnerabilities:
+      - VCID-eqe5-wr57-aaar
+      - VCID-gtfj-ry3n-aaae
+      - VCID-jv7g-f1zc-aaas
+      - VCID-krfe-wrvk-aaap
+      - VCID-shw4-mwht-aaan
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities:
+      - VCID-a56m-3xft-aaap
+      - VCID-td3d-v749-aaac
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.0.14
+    affected_by_vulnerabilities:
+      - VCID-eqe5-wr57-aaar
+      - VCID-gtfj-ry3n-aaae
+      - VCID-jv7g-f1zc-aaas
+      - VCID-krfe-wrvk-aaap
+      - VCID-shw4-mwht-aaan
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.0.15
+    affected_by_vulnerabilities:
+      - VCID-eqe5-wr57-aaar
+      - VCID-gtfj-ry3n-aaae
+      - VCID-jv7g-f1zc-aaas
+      - VCID-krfe-wrvk-aaap
+      - VCID-shw4-mwht-aaan
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.0.16
+    affected_by_vulnerabilities:
+      - VCID-eqe5-wr57-aaar
+      - VCID-gtfj-ry3n-aaae
+      - VCID-jv7g-f1zc-aaas
+      - VCID-krfe-wrvk-aaap
+      - VCID-shw4-mwht-aaan
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.0.2
+    affected_by_vulnerabilities:
+      - VCID-a56m-3xft-aaap
+      - VCID-dkhn-89pe-aaan
+      - VCID-eqe5-wr57-aaar
+      - VCID-f29w-fzs9-aaae
+      - VCID-gjyt-m1m5-aaas
+      - VCID-gtfj-ry3n-aaae
+      - VCID-jv7g-f1zc-aaas
+      - VCID-krfe-wrvk-aaap
+      - VCID-shw4-mwht-aaan
+      - VCID-td3d-v749-aaac
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.0.3
+    affected_by_vulnerabilities:
+      - VCID-a56m-3xft-aaap
+      - VCID-dkhn-89pe-aaan
+      - VCID-eqe5-wr57-aaar
+      - VCID-f29w-fzs9-aaae
+      - VCID-gjyt-m1m5-aaas
+      - VCID-gtfj-ry3n-aaae
+      - VCID-jv7g-f1zc-aaas
+      - VCID-krfe-wrvk-aaap
+      - VCID-shw4-mwht-aaan
+      - VCID-td3d-v749-aaac
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.0.4
+    affected_by_vulnerabilities:
+      - VCID-a56m-3xft-aaap
+      - VCID-dkhn-89pe-aaan
+      - VCID-eqe5-wr57-aaar
+      - VCID-f29w-fzs9-aaae
+      - VCID-gjyt-m1m5-aaas
+      - VCID-gtfj-ry3n-aaae
+      - VCID-jv7g-f1zc-aaas
+      - VCID-krfe-wrvk-aaap
+      - VCID-shw4-mwht-aaan
+      - VCID-td3d-v749-aaac
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.0.5
+    affected_by_vulnerabilities:
+      - VCID-a56m-3xft-aaap
+      - VCID-dkhn-89pe-aaan
+      - VCID-eqe5-wr57-aaar
+      - VCID-f29w-fzs9-aaae
+      - VCID-gjyt-m1m5-aaas
+      - VCID-gtfj-ry3n-aaae
+      - VCID-jv7g-f1zc-aaas
+      - VCID-krfe-wrvk-aaap
+      - VCID-shw4-mwht-aaan
+      - VCID-td3d-v749-aaac
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.0.6
+    affected_by_vulnerabilities:
+      - VCID-a56m-3xft-aaap
+      - VCID-dkhn-89pe-aaan
+      - VCID-eqe5-wr57-aaar
+      - VCID-f29w-fzs9-aaae
+      - VCID-gjyt-m1m5-aaas
+      - VCID-gtfj-ry3n-aaae
+      - VCID-jv7g-f1zc-aaas
+      - VCID-krfe-wrvk-aaap
+      - VCID-shw4-mwht-aaan
+      - VCID-td3d-v749-aaac
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.0.7
+    affected_by_vulnerabilities:
+      - VCID-a56m-3xft-aaap
+      - VCID-dkhn-89pe-aaan
+      - VCID-eqe5-wr57-aaar
+      - VCID-gjyt-m1m5-aaas
+      - VCID-gtfj-ry3n-aaae
+      - VCID-jv7g-f1zc-aaas
+      - VCID-krfe-wrvk-aaap
+      - VCID-shw4-mwht-aaan
+      - VCID-td3d-v749-aaac
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities:
+      - VCID-f29w-fzs9-aaae
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.0.8
+    affected_by_vulnerabilities:
+      - VCID-a56m-3xft-aaap
+      - VCID-dkhn-89pe-aaan
+      - VCID-eqe5-wr57-aaar
+      - VCID-gjyt-m1m5-aaas
+      - VCID-gtfj-ry3n-aaae
+      - VCID-jv7g-f1zc-aaas
+      - VCID-krfe-wrvk-aaap
+      - VCID-shw4-mwht-aaan
+      - VCID-td3d-v749-aaac
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.0.9
+    affected_by_vulnerabilities:
+      - VCID-a56m-3xft-aaap
+      - VCID-dkhn-89pe-aaan
+      - VCID-eqe5-wr57-aaar
+      - VCID-gjyt-m1m5-aaas
+      - VCID-gtfj-ry3n-aaae
+      - VCID-jv7g-f1zc-aaas
+      - VCID-krfe-wrvk-aaap
+      - VCID-shw4-mwht-aaan
+      - VCID-td3d-v749-aaac
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.1.0
+    affected_by_vulnerabilities:
+      - VCID-a56m-3xft-aaap
+      - VCID-dkhn-89pe-aaan
+      - VCID-eqe5-wr57-aaar
+      - VCID-f29w-fzs9-aaae
+      - VCID-gjyt-m1m5-aaas
+      - VCID-gtfj-ry3n-aaae
+      - VCID-jv7g-f1zc-aaas
+      - VCID-krfe-wrvk-aaap
+      - VCID-shw4-mwht-aaan
+      - VCID-td3d-v749-aaac
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.1.1
+    affected_by_vulnerabilities:
+      - VCID-a56m-3xft-aaap
+      - VCID-dkhn-89pe-aaan
+      - VCID-eqe5-wr57-aaar
+      - VCID-f29w-fzs9-aaae
+      - VCID-gjyt-m1m5-aaas
+      - VCID-gtfj-ry3n-aaae
+      - VCID-jv7g-f1zc-aaas
+      - VCID-krfe-wrvk-aaap
+      - VCID-shw4-mwht-aaan
+      - VCID-td3d-v749-aaac
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.1.10
+    affected_by_vulnerabilities:
+      - VCID-a56m-3xft-aaap
+      - VCID-eqe5-wr57-aaar
+      - VCID-gtfj-ry3n-aaae
+      - VCID-jv7g-f1zc-aaas
+      - VCID-krfe-wrvk-aaap
+      - VCID-shw4-mwht-aaan
+      - VCID-td3d-v749-aaac
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.1.11
+    affected_by_vulnerabilities:
+      - VCID-eqe5-wr57-aaar
+      - VCID-gtfj-ry3n-aaae
+      - VCID-jv7g-f1zc-aaas
+      - VCID-krfe-wrvk-aaap
+      - VCID-shw4-mwht-aaan
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities:
+      - VCID-a56m-3xft-aaap
+      - VCID-td3d-v749-aaac
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.1.12
+    affected_by_vulnerabilities:
+      - VCID-eqe5-wr57-aaar
+      - VCID-gtfj-ry3n-aaae
+      - VCID-jv7g-f1zc-aaas
+      - VCID-krfe-wrvk-aaap
+      - VCID-shw4-mwht-aaan
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.1.13
+    affected_by_vulnerabilities:
+      - VCID-eqe5-wr57-aaar
+      - VCID-gtfj-ry3n-aaae
+      - VCID-jv7g-f1zc-aaas
+      - VCID-krfe-wrvk-aaap
+      - VCID-shw4-mwht-aaan
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.1.14
+    affected_by_vulnerabilities:
+      - VCID-eqe5-wr57-aaar
+      - VCID-gtfj-ry3n-aaae
+      - VCID-krfe-wrvk-aaap
+      - VCID-shw4-mwht-aaan
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities:
+      - VCID-jv7g-f1zc-aaas
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.1.15
+    affected_by_vulnerabilities:
+      - VCID-eqe5-wr57-aaar
+      - VCID-gtfj-ry3n-aaae
+      - VCID-krfe-wrvk-aaap
+      - VCID-shw4-mwht-aaan
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.1.16
+    affected_by_vulnerabilities:
+      - VCID-eqe5-wr57-aaar
+      - VCID-gtfj-ry3n-aaae
+      - VCID-shw4-mwht-aaan
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities:
+      - VCID-krfe-wrvk-aaap
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.1.17
+    affected_by_vulnerabilities:
+      - VCID-eqe5-wr57-aaar
+      - VCID-gtfj-ry3n-aaae
+      - VCID-shw4-mwht-aaan
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.1.18
+    affected_by_vulnerabilities:
+      - VCID-eqe5-wr57-aaar
+      - VCID-gtfj-ry3n-aaae
+      - VCID-shw4-mwht-aaan
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.1.2
+    affected_by_vulnerabilities:
+      - VCID-a56m-3xft-aaap
+      - VCID-dkhn-89pe-aaan
+      - VCID-eqe5-wr57-aaar
+      - VCID-f29w-fzs9-aaae
+      - VCID-gjyt-m1m5-aaas
+      - VCID-gtfj-ry3n-aaae
+      - VCID-jv7g-f1zc-aaas
+      - VCID-krfe-wrvk-aaap
+      - VCID-shw4-mwht-aaan
+      - VCID-td3d-v749-aaac
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.1.3
+    affected_by_vulnerabilities:
+      - VCID-a56m-3xft-aaap
+      - VCID-dkhn-89pe-aaan
+      - VCID-eqe5-wr57-aaar
+      - VCID-gjyt-m1m5-aaas
+      - VCID-gtfj-ry3n-aaae
+      - VCID-jv7g-f1zc-aaas
+      - VCID-krfe-wrvk-aaap
+      - VCID-shw4-mwht-aaan
+      - VCID-td3d-v749-aaac
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities:
+      - VCID-f29w-fzs9-aaae
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.1.4
+    affected_by_vulnerabilities:
+      - VCID-a56m-3xft-aaap
+      - VCID-dkhn-89pe-aaan
+      - VCID-eqe5-wr57-aaar
+      - VCID-gjyt-m1m5-aaas
+      - VCID-gtfj-ry3n-aaae
+      - VCID-jv7g-f1zc-aaas
+      - VCID-krfe-wrvk-aaap
+      - VCID-shw4-mwht-aaan
+      - VCID-td3d-v749-aaac
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.1.5
+    affected_by_vulnerabilities:
+      - VCID-a56m-3xft-aaap
+      - VCID-dkhn-89pe-aaan
+      - VCID-eqe5-wr57-aaar
+      - VCID-gjyt-m1m5-aaas
+      - VCID-gtfj-ry3n-aaae
+      - VCID-jv7g-f1zc-aaas
+      - VCID-krfe-wrvk-aaap
+      - VCID-shw4-mwht-aaan
+      - VCID-td3d-v749-aaac
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.1.6
+    affected_by_vulnerabilities:
+      - VCID-a56m-3xft-aaap
+      - VCID-dkhn-89pe-aaan
+      - VCID-eqe5-wr57-aaar
+      - VCID-gjyt-m1m5-aaas
+      - VCID-gtfj-ry3n-aaae
+      - VCID-jv7g-f1zc-aaas
+      - VCID-krfe-wrvk-aaap
+      - VCID-shw4-mwht-aaan
+      - VCID-td3d-v749-aaac
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.1.7
+    affected_by_vulnerabilities:
+      - VCID-a56m-3xft-aaap
+      - VCID-dkhn-89pe-aaan
+      - VCID-eqe5-wr57-aaar
+      - VCID-gjyt-m1m5-aaas
+      - VCID-gtfj-ry3n-aaae
+      - VCID-jv7g-f1zc-aaas
+      - VCID-krfe-wrvk-aaap
+      - VCID-shw4-mwht-aaan
+      - VCID-td3d-v749-aaac
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.1.8
+    affected_by_vulnerabilities:
+      - VCID-a56m-3xft-aaap
+      - VCID-dkhn-89pe-aaan
+      - VCID-eqe5-wr57-aaar
+      - VCID-gjyt-m1m5-aaas
+      - VCID-gtfj-ry3n-aaae
+      - VCID-jv7g-f1zc-aaas
+      - VCID-krfe-wrvk-aaap
+      - VCID-shw4-mwht-aaan
+      - VCID-td3d-v749-aaac
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.1.9
+    affected_by_vulnerabilities:
+      - VCID-a56m-3xft-aaap
+      - VCID-eqe5-wr57-aaar
+      - VCID-gtfj-ry3n-aaae
+      - VCID-jv7g-f1zc-aaas
+      - VCID-krfe-wrvk-aaap
+      - VCID-shw4-mwht-aaan
+      - VCID-td3d-v749-aaac
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities:
+      - VCID-dkhn-89pe-aaan
+      - VCID-gjyt-m1m5-aaas
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.2.0
+    affected_by_vulnerabilities:
+      - VCID-emyk-3hx9-aaaq
+      - VCID-eqe5-wr57-aaar
+      - VCID-f72h-mwvx-aaaq
+      - VCID-gtfj-ry3n-aaae
+      - VCID-jv7g-f1zc-aaas
+      - VCID-krfe-wrvk-aaap
+      - VCID-shw4-mwht-aaan
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.2.1
+    affected_by_vulnerabilities:
+      - VCID-emyk-3hx9-aaaq
+      - VCID-eqe5-wr57-aaar
+      - VCID-f72h-mwvx-aaaq
+      - VCID-gtfj-ry3n-aaae
+      - VCID-krfe-wrvk-aaap
+      - VCID-shw4-mwht-aaan
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities:
+      - VCID-jv7g-f1zc-aaas
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.2.10
+    affected_by_vulnerabilities:
+      - VCID-emyk-3hx9-aaaq
+      - VCID-eqe5-wr57-aaar
+      - VCID-f72h-mwvx-aaaq
+      - VCID-gtfj-ry3n-aaae
+      - VCID-shw4-mwht-aaan
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.2.11
+    affected_by_vulnerabilities:
+      - VCID-eqe5-wr57-aaar
+      - VCID-f72h-mwvx-aaaq
+      - VCID-gtfj-ry3n-aaae
+      - VCID-shw4-mwht-aaan
+      - VCID-v7tx-bnp9-aaag
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities:
+      - VCID-emyk-3hx9-aaaq
+      - VCID-za5z-5gde-aaaj
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.2.12
+    affected_by_vulnerabilities:
+      - VCID-eqe5-wr57-aaar
+      - VCID-f72h-mwvx-aaaq
+      - VCID-gtfj-ry3n-aaae
+      - VCID-shw4-mwht-aaan
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities:
+      - VCID-v7tx-bnp9-aaag
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.2.13
+    affected_by_vulnerabilities:
+      - VCID-eqe5-wr57-aaar
+      - VCID-gtfj-ry3n-aaae
+      - VCID-shw4-mwht-aaan
+      - VCID-zggp-qr1y-aaaf
+    fixing_vulnerabilities:
+      - VCID-f72h-mwvx-aaaq
+      - VCID-zncz-6mqe-aaan
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.2.14
+    affected_by_vulnerabilities:
+      - VCID-eqe5-wr57-aaar
+      - VCID-gtfj-ry3n-aaae
+      - VCID-shw4-mwht-aaan
+      - VCID-zggp-qr1y-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.2.2
+    affected_by_vulnerabilities:
+      - VCID-emyk-3hx9-aaaq
+      - VCID-eqe5-wr57-aaar
+      - VCID-f72h-mwvx-aaaq
+      - VCID-gtfj-ry3n-aaae
+      - VCID-krfe-wrvk-aaap
+      - VCID-shw4-mwht-aaan
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.2.3
+    affected_by_vulnerabilities:
+      - VCID-emyk-3hx9-aaaq
+      - VCID-eqe5-wr57-aaar
+      - VCID-f72h-mwvx-aaaq
+      - VCID-gtfj-ry3n-aaae
+      - VCID-krfe-wrvk-aaap
+      - VCID-shw4-mwht-aaan
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.2.4
+    affected_by_vulnerabilities:
+      - VCID-emyk-3hx9-aaaq
+      - VCID-eqe5-wr57-aaar
+      - VCID-f72h-mwvx-aaaq
+      - VCID-gtfj-ry3n-aaae
+      - VCID-krfe-wrvk-aaap
+      - VCID-shw4-mwht-aaan
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.2.5
+    affected_by_vulnerabilities:
+      - VCID-emyk-3hx9-aaaq
+      - VCID-eqe5-wr57-aaar
+      - VCID-f72h-mwvx-aaaq
+      - VCID-gtfj-ry3n-aaae
+      - VCID-shw4-mwht-aaan
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities:
+      - VCID-krfe-wrvk-aaap
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.2.6
+    affected_by_vulnerabilities:
+      - VCID-emyk-3hx9-aaaq
+      - VCID-eqe5-wr57-aaar
+      - VCID-f72h-mwvx-aaaq
+      - VCID-gtfj-ry3n-aaae
+      - VCID-shw4-mwht-aaan
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.2.7
+    affected_by_vulnerabilities:
+      - VCID-emyk-3hx9-aaaq
+      - VCID-eqe5-wr57-aaar
+      - VCID-f72h-mwvx-aaaq
+      - VCID-gtfj-ry3n-aaae
+      - VCID-shw4-mwht-aaan
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.2.8
+    affected_by_vulnerabilities:
+      - VCID-emyk-3hx9-aaaq
+      - VCID-eqe5-wr57-aaar
+      - VCID-f72h-mwvx-aaaq
+      - VCID-gtfj-ry3n-aaae
+      - VCID-shw4-mwht-aaan
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.2.9
+    affected_by_vulnerabilities:
+      - VCID-emyk-3hx9-aaaq
+      - VCID-eqe5-wr57-aaar
+      - VCID-f72h-mwvx-aaaq
+      - VCID-gtfj-ry3n-aaae
+      - VCID-shw4-mwht-aaan
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.3.0
+    affected_by_vulnerabilities:
+      - VCID-emyk-3hx9-aaaq
+      - VCID-eqe5-wr57-aaar
+      - VCID-f72h-mwvx-aaaq
+      - VCID-gtfj-ry3n-aaae
+      - VCID-shw4-mwht-aaan
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.3.1
+    affected_by_vulnerabilities:
+      - VCID-emyk-3hx9-aaaq
+      - VCID-eqe5-wr57-aaar
+      - VCID-f72h-mwvx-aaaq
+      - VCID-gtfj-ry3n-aaae
+      - VCID-shw4-mwht-aaan
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.3.10
+    affected_by_vulnerabilities:
+      - VCID-eqe5-wr57-aaar
+      - VCID-shw4-mwht-aaan
+    fixing_vulnerabilities:
+      - VCID-zggp-qr1y-aaaf
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.3.11
+    affected_by_vulnerabilities:
+      - VCID-eqe5-wr57-aaar
+      - VCID-shw4-mwht-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.3.12
+    affected_by_vulnerabilities:
+      - VCID-eqe5-wr57-aaar
+      - VCID-shw4-mwht-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.3.13
+    affected_by_vulnerabilities:
+      - VCID-eqe5-wr57-aaar
+      - VCID-shw4-mwht-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.3.2
+    affected_by_vulnerabilities:
+      - VCID-emyk-3hx9-aaaq
+      - VCID-eqe5-wr57-aaar
+      - VCID-f72h-mwvx-aaaq
+      - VCID-gtfj-ry3n-aaae
+      - VCID-shw4-mwht-aaan
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.3.3
+    affected_by_vulnerabilities:
+      - VCID-emyk-3hx9-aaaq
+      - VCID-eqe5-wr57-aaar
+      - VCID-f72h-mwvx-aaaq
+      - VCID-gtfj-ry3n-aaae
+      - VCID-shw4-mwht-aaan
+      - VCID-v7tx-bnp9-aaag
+      - VCID-za5z-5gde-aaaj
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.3.4
+    affected_by_vulnerabilities:
+      - VCID-eqe5-wr57-aaar
+      - VCID-f72h-mwvx-aaaq
+      - VCID-gtfj-ry3n-aaae
+      - VCID-shw4-mwht-aaan
+      - VCID-v7tx-bnp9-aaag
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities:
+      - VCID-emyk-3hx9-aaaq
+      - VCID-za5z-5gde-aaaj
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.3.5
+    affected_by_vulnerabilities:
+      - VCID-eqe5-wr57-aaar
+      - VCID-gtfj-ry3n-aaae
+      - VCID-shw4-mwht-aaan
+      - VCID-zggp-qr1y-aaaf
+      - VCID-zncz-6mqe-aaan
+    fixing_vulnerabilities:
+      - VCID-f72h-mwvx-aaaq
+      - VCID-v7tx-bnp9-aaag
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.3.6
+    affected_by_vulnerabilities:
+      - VCID-eqe5-wr57-aaar
+      - VCID-gtfj-ry3n-aaae
+      - VCID-shw4-mwht-aaan
+      - VCID-zggp-qr1y-aaaf
+    fixing_vulnerabilities:
+      - VCID-zncz-6mqe-aaan
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.3.7
+    affected_by_vulnerabilities:
+      - VCID-eqe5-wr57-aaar
+      - VCID-gtfj-ry3n-aaae
+      - VCID-shw4-mwht-aaan
+      - VCID-zggp-qr1y-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.3.8
+    affected_by_vulnerabilities:
+      - VCID-eqe5-wr57-aaar
+      - VCID-shw4-mwht-aaan
+      - VCID-zggp-qr1y-aaaf
+    fixing_vulnerabilities:
+      - VCID-gtfj-ry3n-aaae
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.3.9
+    affected_by_vulnerabilities:
+      - VCID-eqe5-wr57-aaar
+      - VCID-shw4-mwht-aaan
+      - VCID-zggp-qr1y-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.4.0
+    affected_by_vulnerabilities:
+      - VCID-eqe5-wr57-aaar
+      - VCID-gtfj-ry3n-aaae
+      - VCID-shw4-mwht-aaan
+      - VCID-zggp-qr1y-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.4.1
+    affected_by_vulnerabilities:
+      - VCID-eqe5-wr57-aaar
+      - VCID-shw4-mwht-aaan
+      - VCID-zggp-qr1y-aaaf
+    fixing_vulnerabilities:
+      - VCID-gtfj-ry3n-aaae
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.4.10
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-eqe5-wr57-aaar
+      - VCID-shw4-mwht-aaan
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.4.2
+    affected_by_vulnerabilities:
+      - VCID-eqe5-wr57-aaar
+      - VCID-shw4-mwht-aaan
+      - VCID-zggp-qr1y-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.4.3
+    affected_by_vulnerabilities:
+      - VCID-eqe5-wr57-aaar
+      - VCID-shw4-mwht-aaan
+    fixing_vulnerabilities:
+      - VCID-zggp-qr1y-aaaf
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.4.4
+    affected_by_vulnerabilities:
+      - VCID-eqe5-wr57-aaar
+      - VCID-shw4-mwht-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.4.5
+    affected_by_vulnerabilities:
+      - VCID-eqe5-wr57-aaar
+      - VCID-shw4-mwht-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.4.6
+    affected_by_vulnerabilities:
+      - VCID-eqe5-wr57-aaar
+      - VCID-shw4-mwht-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.4.7
+    affected_by_vulnerabilities:
+      - VCID-eqe5-wr57-aaar
+      - VCID-shw4-mwht-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.4.8
+    affected_by_vulnerabilities:
+      - VCID-eqe5-wr57-aaar
+      - VCID-shw4-mwht-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.4.9
+    affected_by_vulnerabilities:
+      - VCID-eqe5-wr57-aaar
+      - VCID-shw4-mwht-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.5.0
+    affected_by_vulnerabilities:
+      - VCID-eqe5-wr57-aaar
+      - VCID-shw4-mwht-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.5.1
+    affected_by_vulnerabilities:
+      - VCID-eqe5-wr57-aaar
+      - VCID-shw4-mwht-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.5.2
+    affected_by_vulnerabilities:
+      - VCID-eqe5-wr57-aaar
+      - VCID-shw4-mwht-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.5.3
+    affected_by_vulnerabilities:
+      - VCID-eqe5-wr57-aaar
+      - VCID-shw4-mwht-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.5.4
+    affected_by_vulnerabilities:
+      - VCID-eqe5-wr57-aaar
+      - VCID-shw4-mwht-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-core@3.5.5
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-eqe5-wr57-aaar
+      - VCID-shw4-mwht-aaan

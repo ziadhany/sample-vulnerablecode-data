@@ -1,0 +1,22 @@
+vulnerability_id: VCID-fs4u-xgqy-aaap
+aliases:
+  - CVE-2023-22746
+  - GHSA-pr8j-v4c8-h62x
+summary: |
+  Use of Insufficiently Random Values
+  CKAN is an open-source DMS (data management system) for powering data hubs and data portals. When creating a new container based on one of the Docker images listed below, the same secret key was being used by default. If the users didn't set a custom value via environment variables in the `.env` file, that key was shared across different CKAN instances, making it easy to forge authentication requests. Users overriding the default secret key in their own `.env` file are not affected by this issue. Note that the legacy images (ckan/ckan) located in the main CKAN repo are not affected by this issue. The affected images are ckan/ckan-docker, (ckan/ckan-base images), okfn/docker-ckan (openknowledge/ckan-base and openknowledge/ckan-dev images) keitaroinc/docker-ckan (keitaro/ckan images).
+severities: []
+references:
+  - id: 1471917
+    url: https://github.com/ckan/ckan/commit/44af0f0a148fcc0e0fbcf02fe69b7db13459a84b
+    reference_id:
+  - id: 1471915
+    url: https://github.com/ckan/ckan/commit/4c22c135fa486afa13855d1cdb9765eaf418d2aa
+    reference_id:
+  - id: 1471914
+    url: https://nvd.nist.gov/vuln/detail/CVE-2023-22746
+    reference_id: CVE-2023-22746
+  - id: 1471916
+    url: https://github.com/ckan/ckan/security/advisories/GHSA-pr8j-v4c8-h62x
+    reference_id: GHSA-pr8j-v4c8-h62x
+weaknesses: []

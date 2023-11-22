@@ -1,0 +1,37 @@
+vulnerability_id: VCID-yvwy-ab83-aaam
+aliases:
+  - CVE-2019-10786
+  - GHSA-ph32-23p8-9rw5
+summary: |
+  Improper Input Validation
+  network-manager allows remote attackers to execute arbitrary commands via the `execSync()` argument.
+severities:
+  - id: 369715
+    reference_id: 37332
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 369713
+    reference_id: 37332
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 705999
+    reference_id: 1467476
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 768336
+    url: https://snyk.io/vuln/SNYK-JS-NETWORKMANAGER-544035
+    reference_id:
+  - id: 768337
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:network-manager_project:network-manager:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:network-manager_project:network-manager:*:*:*:*:*:node.js:*:*
+  - id: 37332
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-10786
+    reference_id: CVE-2019-10786
+  - id: 1467476
+    url: https://github.com/advisories/GHSA-ph32-23p8-9rw5
+    reference_id: GHSA-ph32-23p8-9rw5
+weaknesses: []

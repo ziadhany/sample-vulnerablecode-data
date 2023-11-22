@@ -1,0 +1,49 @@
+vulnerability_id: VCID-nxap-hpd4-aaac
+aliases:
+  - CVE-2017-1000219
+  - GHSA-63m4-fhf2-cmf7
+summary: |
+  OS Command Injection
+  windows-cpu is vulnerable to command injection resulting in code execution as Node.js user
+severities:
+  - id: 249728
+    reference_id: 37249
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 249726
+    reference_id: 37249
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 705586
+    reference_id: 1466720
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 37265
+    url: https://github.com/KyleRoss/windows-cpu/blob/master/index.js#L81
+    reference_id:
+  - id: 1466718
+    url: https://github.com/KyleRoss/windows-cpu/commit/b75e19aa2f7459a9506bceb577ba2341fe273117
+    reference_id:
+  - id: 668501
+    url: https://nodesecurity.io/advisories/336
+    reference_id:
+  - id: 1466719
+    url: https://www.npmjs.com/advisories/336
+    reference_id:
+  - id: 668502
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:windows-cpu_project:windows-cpu:0.1.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:windows-cpu_project:windows-cpu:0.1.1:*:*:*:*:*:*:*
+  - id: 668503
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:windows-cpu_project:windows-cpu:0.1.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:windows-cpu_project:windows-cpu:0.1.2:*:*:*:*:*:*:*
+  - id: 37249
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-1000219
+    reference_id: CVE-2017-1000219
+  - id: 1466720
+    url: https://github.com/advisories/GHSA-63m4-fhf2-cmf7
+    reference_id: GHSA-63m4-fhf2-cmf7
+weaknesses: []

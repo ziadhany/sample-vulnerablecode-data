@@ -1,0 +1,35 @@
+vulnerability_id: VCID-62pw-22vm-aaan
+aliases:
+  - CVE-2022-26585
+  - GHSA-mx3x-rmrh-9wf6
+summary: SQL injection in net.mingsoft:ms-mcms
+severities:
+  - id: 573044
+    reference_id: 632
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 573042
+    reference_id: 632
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 20
+    reference_id: 634
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 633
+    url: https://gitee.com/mingSoft/MCMS/issues/I4W1S9
+    reference_id:
+  - id: 906964
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:mingsoft:mcms:5.2.7:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:mingsoft:mcms:5.2.7:*:*:*:*:*:*:*
+  - id: 632
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-26585
+    reference_id: CVE-2022-26585
+  - id: 634
+    url: https://github.com/advisories/GHSA-mx3x-rmrh-9wf6
+    reference_id: GHSA-mx3x-rmrh-9wf6
+weaknesses: []

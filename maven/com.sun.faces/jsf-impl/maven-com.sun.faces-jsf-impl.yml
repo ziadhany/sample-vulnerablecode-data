@@ -1,0 +1,494 @@
+package: pkg:maven/com.sun.faces/jsf-impl
+versions:
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.0.10
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.0.11
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.0.11-01
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.0.11-02
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.0.11-03
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.0.11-04
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.0.4-12
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.0.4-13
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.0.4-b10
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.0.4-b11
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.0.4-b12
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.0.4-b13
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.0.4-b14
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.0.4-b15
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.0.4-b16
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.0.7
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.0.8
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.0.9
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.0.9-02
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.0.9-03
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.0.9-04
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.0.9-05
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.0.9-06
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.0.9-08
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.10
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.11
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.12
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.13
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.14
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.15
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.16
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.17
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.18
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.19
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities:
+      - VCID-k3zm-wwkh-aaan
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.20
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.20-04
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.20-05
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.20-06
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.20-07
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.20-08
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.20-09
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.20-10
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.20-11
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.20-12
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.20-13
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.20-14
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.20-15
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.20-16
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.21
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.22
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.23
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.24
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.25
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.26
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.27
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.28
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.29
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.29-01
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.29-02
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.29-03
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.29-04
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.29-05
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.29-06
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.29-07
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.29-08
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.29-10
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.29-11
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.3
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.3_01
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.4
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.5
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.5-02
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.5-03
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.5-04
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.6
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.7
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.7-01
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.7-02
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.7-03
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.7-04
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.7-05
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.7-06
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.7-07
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.7-08
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.7-09
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.7-10
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.8
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.1.9
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.2.0
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.2.0-m03
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.2.0-m04
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.2.0-m05
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.2.0-m06
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.2.0-m07
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.2.0-m08
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.2.0-m09
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.2.0-m10
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.2.0-m11
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.2.0-m12
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.2.0-m13
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.2.0-m14
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.2.0-m15
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.2.1
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.2.2
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.2.3
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.2.4
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.2.5
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2.2.6
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-81sg-4868-aaak
+  - purl: pkg:maven/com.sun.faces/jsf-impl@2-alpha0
+    affected_by_vulnerabilities:
+      - VCID-81sg-4868-aaak
+      - VCID-k3zm-wwkh-aaan
+    fixing_vulnerabilities: []

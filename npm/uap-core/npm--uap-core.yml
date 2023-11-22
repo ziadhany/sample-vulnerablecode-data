@@ -1,0 +1,95 @@
+package: pkg:npm/uap-core
+versions:
+  - purl: pkg:npm/uap-core@0.10.0
+    affected_by_vulnerabilities:
+      - VCID-cxwf-2kqx-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uap-core@0.11.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-cxwf-2kqx-aaaj
+  - purl: pkg:npm/uap-core@0.6.0
+    affected_by_vulnerabilities:
+      - VCID-cxwf-2kqx-aaaj
+      - VCID-ngre-jz5t-aaad
+      - VCID-t57h-5uys-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uap-core@0.6.1
+    affected_by_vulnerabilities:
+      - VCID-cxwf-2kqx-aaaj
+      - VCID-ngre-jz5t-aaad
+    fixing_vulnerabilities:
+      - VCID-t57h-5uys-aaaa
+  - purl: pkg:npm/uap-core@0.6.11
+    affected_by_vulnerabilities:
+      - VCID-cxwf-2kqx-aaaj
+      - VCID-ngre-jz5t-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uap-core@0.6.2
+    affected_by_vulnerabilities:
+      - VCID-cxwf-2kqx-aaaj
+      - VCID-ngre-jz5t-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uap-core@0.6.3
+    affected_by_vulnerabilities:
+      - VCID-cxwf-2kqx-aaaj
+      - VCID-ngre-jz5t-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uap-core@0.6.4
+    affected_by_vulnerabilities:
+      - VCID-cxwf-2kqx-aaaj
+      - VCID-ngre-jz5t-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uap-core@0.6.5
+    affected_by_vulnerabilities:
+      - VCID-cxwf-2kqx-aaaj
+      - VCID-ngre-jz5t-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uap-core@0.6.6
+    affected_by_vulnerabilities:
+      - VCID-cxwf-2kqx-aaaj
+      - VCID-ngre-jz5t-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uap-core@0.6.7
+    affected_by_vulnerabilities:
+      - VCID-cxwf-2kqx-aaaj
+      - VCID-ngre-jz5t-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uap-core@0.6.8
+    affected_by_vulnerabilities:
+      - VCID-cxwf-2kqx-aaaj
+      - VCID-ngre-jz5t-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uap-core@0.6.9
+    affected_by_vulnerabilities:
+      - VCID-cxwf-2kqx-aaaj
+      - VCID-ngre-jz5t-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uap-core@0.7.0
+    affected_by_vulnerabilities:
+      - VCID-cxwf-2kqx-aaaj
+      - VCID-ngre-jz5t-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uap-core@0.7.1
+    affected_by_vulnerabilities:
+      - VCID-cxwf-2kqx-aaaj
+      - VCID-ngre-jz5t-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uap-core@0.7.2
+    affected_by_vulnerabilities:
+      - VCID-cxwf-2kqx-aaaj
+      - VCID-ngre-jz5t-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uap-core@0.7.3
+    affected_by_vulnerabilities:
+      - VCID-cxwf-2kqx-aaaj
+    fixing_vulnerabilities:
+      - VCID-ngre-jz5t-aaad
+  - purl: pkg:npm/uap-core@0.8.0
+    affected_by_vulnerabilities:
+      - VCID-cxwf-2kqx-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/uap-core@0.9.0
+    affected_by_vulnerabilities:
+      - VCID-cxwf-2kqx-aaaj
+    fixing_vulnerabilities: []

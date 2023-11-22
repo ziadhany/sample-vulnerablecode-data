@@ -1,0 +1,30 @@
+package: pkg:npm/%40cubejs-backend/api-gateway
+versions:
+  - purl: pkg:npm/%40cubejs-backend/api-gateway@0.11.0
+    affected_by_vulnerabilities:
+      - VCID-kamf-3j6w-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40cubejs-backend/api-gateway@0.11.16
+    affected_by_vulnerabilities:
+      - VCID-kamf-3j6w-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40cubejs-backend/api-gateway@0.11.17
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-kamf-3j6w-aaah
+  - purl: pkg:npm/%40cubejs-backend/api-gateway@0.11.5
+    affected_by_vulnerabilities:
+      - VCID-kamf-3j6w-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40cubejs-backend/api-gateway@0.11.6
+    affected_by_vulnerabilities:
+      - VCID-kamf-3j6w-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40cubejs-backend/api-gateway@0.31.23
+    affected_by_vulnerabilities:
+      - VCID-rp8w-qsnp-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40cubejs-backend/api-gateway@0.31.24
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-rp8w-qsnp-aaaq

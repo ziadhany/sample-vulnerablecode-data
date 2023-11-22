@@ -1,0 +1,30 @@
+vulnerability_id: VCID-yxpj-vcjv-aaac
+aliases:
+  - GHSA-rcrv-228c-gprj
+  - GMS-2022-47
+summary: Invalid URL generation in bitlyshortener
+severities:
+  - id: 3613
+    reference_id: 21426
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 3612
+    reference_id: 21423
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 21424
+    url: https://github.com/impredicative/bitlyshortener/commit/b307d70bedf745305fa0dd3c5c600d8cb88d09b5
+    reference_id:
+  - id: 21425
+    url: https://github.com/impredicative/bitlyshortener/releases/tag/0.6.0
+    reference_id:
+  - id: 21426
+    url: https://github.com/advisories/GHSA-rcrv-228c-gprj
+    reference_id: GHSA-rcrv-228c-gprj
+  - id: 21423
+    url: https://github.com/impredicative/bitlyshortener/security/advisories/GHSA-rcrv-228c-gprj
+    reference_id: GHSA-rcrv-228c-gprj
+weaknesses: []

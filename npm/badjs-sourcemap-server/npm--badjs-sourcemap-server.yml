@@ -1,0 +1,81 @@
+package: pkg:npm/badjs-sourcemap-server
+versions:
+  - purl: pkg:npm/badjs-sourcemap-server@0.0.0-alpha
+    affected_by_vulnerabilities:
+      - VCID-m36j-9vrj-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/badjs-sourcemap-server@0.0.1
+    affected_by_vulnerabilities:
+      - VCID-m36j-9vrj-aaam
+      - VCID-zxg4-ezjb-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/badjs-sourcemap-server@0.0.2
+    affected_by_vulnerabilities:
+      - VCID-m36j-9vrj-aaam
+      - VCID-zxg4-ezjb-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/badjs-sourcemap-server@0.0.4
+    affected_by_vulnerabilities:
+      - VCID-m36j-9vrj-aaam
+      - VCID-zxg4-ezjb-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/badjs-sourcemap-server@0.1.0
+    affected_by_vulnerabilities:
+      - VCID-m36j-9vrj-aaam
+      - VCID-zxg4-ezjb-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/badjs-sourcemap-server@0.1.1
+    affected_by_vulnerabilities:
+      - VCID-m36j-9vrj-aaam
+      - VCID-zxg4-ezjb-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/badjs-sourcemap-server@0.1.10
+    affected_by_vulnerabilities:
+      - VCID-m36j-9vrj-aaam
+      - VCID-zxg4-ezjb-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/badjs-sourcemap-server@0.1.11
+    affected_by_vulnerabilities:
+      - VCID-m36j-9vrj-aaam
+      - VCID-zxg4-ezjb-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/badjs-sourcemap-server@0.1.2
+    affected_by_vulnerabilities:
+      - VCID-m36j-9vrj-aaam
+      - VCID-zxg4-ezjb-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/badjs-sourcemap-server@0.1.3
+    affected_by_vulnerabilities:
+      - VCID-m36j-9vrj-aaam
+      - VCID-zxg4-ezjb-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/badjs-sourcemap-server@0.1.4
+    affected_by_vulnerabilities:
+      - VCID-m36j-9vrj-aaam
+      - VCID-zxg4-ezjb-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/badjs-sourcemap-server@0.1.5
+    affected_by_vulnerabilities:
+      - VCID-m36j-9vrj-aaam
+      - VCID-zxg4-ezjb-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/badjs-sourcemap-server@0.1.6
+    affected_by_vulnerabilities:
+      - VCID-m36j-9vrj-aaam
+      - VCID-zxg4-ezjb-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/badjs-sourcemap-server@0.1.7
+    affected_by_vulnerabilities:
+      - VCID-m36j-9vrj-aaam
+      - VCID-zxg4-ezjb-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/badjs-sourcemap-server@0.1.8
+    affected_by_vulnerabilities:
+      - VCID-m36j-9vrj-aaam
+      - VCID-zxg4-ezjb-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/badjs-sourcemap-server@0.1.9
+    affected_by_vulnerabilities:
+      - VCID-m36j-9vrj-aaam
+      - VCID-zxg4-ezjb-aaaf
+    fixing_vulnerabilities: []

@@ -1,0 +1,30 @@
+package: pkg:npm/npm-git-publish
+versions:
+  - purl: pkg:npm/npm-git-publish@0.0.0
+    affected_by_vulnerabilities:
+      - VCID-nwr4-ejnm-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/npm-git-publish@0.1.0-beta
+    affected_by_vulnerabilities:
+      - VCID-nwr4-ejnm-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/npm-git-publish@0.2.0-beta
+    affected_by_vulnerabilities:
+      - VCID-nwr4-ejnm-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/npm-git-publish@0.2.1-beta
+    affected_by_vulnerabilities:
+      - VCID-nwr4-ejnm-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/npm-git-publish@0.2.2-beta
+    affected_by_vulnerabilities:
+      - VCID-nwr4-ejnm-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/npm-git-publish@0.2.3-beta
+    affected_by_vulnerabilities:
+      - VCID-nwr4-ejnm-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/npm-git-publish@0.2.4-beta
+    affected_by_vulnerabilities:
+      - VCID-nwr4-ejnm-aaam
+    fixing_vulnerabilities: []

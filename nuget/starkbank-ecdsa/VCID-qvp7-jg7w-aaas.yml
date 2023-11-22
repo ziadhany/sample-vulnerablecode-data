@@ -1,0 +1,38 @@
+vulnerability_id: VCID-qvp7-jg7w-aaas
+aliases:
+  - CVE-2021-43569
+  - GHSA-j3jw-j2j8-2wv9
+summary: Improper Verification of Cryptographic Signature in starkbank-ecdsa
+severities:
+  - id: 567375
+    reference_id: 15906
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 567373
+    reference_id: 15906
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 1842
+    reference_id: 15908
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 15907
+    url: https://github.com/starkbank/ecdsa-dotnet/releases/tag/v1.3.2
+    reference_id:
+  - id: 8179
+    url: https://research.nccgroup.com/2021/11/08/technical-advisory-arbitrary-signature-forgery-in-stark-bank-ecdsa-libraries/
+    reference_id:
+  - id: 902849
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:starkbank:ecdsa-dotnet:1.3.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:starkbank:ecdsa-dotnet:1.3.2:*:*:*:*:*:*:*
+  - id: 15906
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-43569
+    reference_id: CVE-2021-43569
+  - id: 15908
+    url: https://github.com/advisories/GHSA-j3jw-j2j8-2wv9
+    reference_id: GHSA-j3jw-j2j8-2wv9
+weaknesses: []

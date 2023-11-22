@@ -1,0 +1,43 @@
+vulnerability_id: VCID-59d9-8rkt-aaas
+aliases:
+  - CVE-2020-5219
+  - GHSA-hxhm-96pp-2m43
+summary: |
+  Injection Vulnerability
+  Angular Expressions has a remote code execution vulnerability if you call `expressions.compile(userControlledInput)` where `userControlledInput` is text that comes from user input. If running angular-expressions in the browser, an attacker could run any browser script when the application code calls `expressions.compile(userControlledInput)`. If running angular-expressions on the server, an attacker could run any Javascript expression, thus gaining Remote Code Execution.
+severities:
+  - id: 481660
+    reference_id: 35512
+    scoring_system: cvssv2
+    value: '6.8'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:P/A:P
+  - id: 481658
+    reference_id: 35512
+    scoring_system: cvssv3
+    value: '8.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+  - id: 706290
+    reference_id: 1467838
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 35510
+    url: http://blog.angularjs.org/2016/09/angular-16-expression-sandbox-removal.html
+    reference_id:
+  - id: 847609
+    url: https://github.com/peerigon/angular-expressions/commit/061addfb9a9e932a970e5fcb913d020038e65667
+    reference_id:
+  - id: 847610
+    url: https://github.com/peerigon/angular-expressions/security/advisories/GHSA-hxhm-96pp-2m43
+    reference_id:
+  - id: 847611
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:peerigon:angular-expressions:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:peerigon:angular-expressions:*:*:*:*:*:node.js:*:*
+  - id: 35512
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-5219
+    reference_id: CVE-2020-5219
+  - id: 1467838
+    url: https://github.com/advisories/GHSA-hxhm-96pp-2m43
+    reference_id: GHSA-hxhm-96pp-2m43
+weaknesses: []

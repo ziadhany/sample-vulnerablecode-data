@@ -1,0 +1,10 @@
+package: pkg:pypi/cloudlabeling
+versions:
+  - purl: pkg:pypi/cloudlabeling@0.0.1
+    affected_by_vulnerabilities:
+      - VCID-nghe-vpj4-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cloudlabeling@0.0.2
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-nghe-vpj4-aaas

@@ -1,0 +1,10 @@
+package: pkg:npm/bitconid-rpc
+versions:
+  - purl: pkg:npm/bitconid-rpc@0.0.0
+    affected_by_vulnerabilities:
+      - VCID-ekrb-av7h-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/bitconid-rpc@0.0.1-security
+    affected_by_vulnerabilities:
+      - VCID-ekrb-av7h-aaak
+    fixing_vulnerabilities: []

@@ -1,0 +1,91 @@
+vulnerability_id: VCID-733r-y5bp-aaae
+aliases:
+  - CVE-2017-7474
+  - GHSA-mw35-24gh-f82w
+summary: |
+  High severity vulnerability that affects keycloak-connect and keycloak-js
+  It was found that the Keycloak Node.js adapter - did not handle invalid tokens correctly. An attacker could use this flaw to bypass authentication and gain access to restricted information, or to possibly conduct further attacks.
+severities:
+  - id: 623056
+    reference_id: 940739
+    scoring_system: cvssv3
+    value: '8.1'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N
+  - id: 623054
+    reference_id: 940737
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 294063
+    reference_id: 33447
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 294061
+    reference_id: 33447
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 705823
+    reference_id: 33449
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 623055
+    reference_id: 940738
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 33450
+    url: http://rhn.redhat.com/errata/RHSA-2017-1203.html
+    reference_id:
+  - id: 940739
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2017-7474.json
+    reference_id:
+  - id: 940737
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1445271
+    reference_id: 1445271
+  - id: 709270
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:keycloak:keycloak-nodejs-auth-utils:2.5.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:keycloak:keycloak-nodejs-auth-utils:2.5.0:*:*:*:*:*:*:*
+  - id: 709271
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:keycloak:keycloak-nodejs-auth-utils:2.5.0:cr1:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:keycloak:keycloak-nodejs-auth-utils:2.5.0:cr1:*:*:*:*:*:*
+  - id: 709272
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:keycloak:keycloak-nodejs-auth-utils:2.5.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:keycloak:keycloak-nodejs-auth-utils:2.5.1:*:*:*:*:*:*:*
+  - id: 709273
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:keycloak:keycloak-nodejs-auth-utils:2.5.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:keycloak:keycloak-nodejs-auth-utils:2.5.2:*:*:*:*:*:*:*
+  - id: 709274
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:keycloak:keycloak-nodejs-auth-utils:2.5.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:keycloak:keycloak-nodejs-auth-utils:2.5.3:*:*:*:*:*:*:*
+  - id: 709275
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:keycloak:keycloak-nodejs-auth-utils:2.5.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:keycloak:keycloak-nodejs-auth-utils:2.5.4:*:*:*:*:*:*:*
+  - id: 709276
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:keycloak:keycloak-nodejs-auth-utils:2.5.5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:keycloak:keycloak-nodejs-auth-utils:2.5.5:*:*:*:*:*:*:*
+  - id: 709277
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:keycloak:keycloak-nodejs-auth-utils:2.5.6:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:keycloak:keycloak-nodejs-auth-utils:2.5.6:*:*:*:*:*:*:*
+  - id: 709278
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:keycloak:keycloak-nodejs-auth-utils:2.5.7:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:keycloak:keycloak-nodejs-auth-utils:2.5.7:*:*:*:*:*:*:*
+  - id: 709279
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:keycloak:keycloak-nodejs-auth-utils:3.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:keycloak:keycloak-nodejs-auth-utils:3.0.0:*:*:*:*:*:*:*
+  - id: 709280
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:keycloak:keycloak-nodejs-auth-utils:3.0.0:cr1:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:keycloak:keycloak-nodejs-auth-utils:3.0.0:cr1:*:*:*:*:*:*
+  - id: 33447
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-7474
+    reference_id: CVE-2017-7474
+  - id: 33449
+    url: https://github.com/advisories/GHSA-mw35-24gh-f82w
+    reference_id: GHSA-mw35-24gh-f82w
+  - id: 940738
+    url: https://access.redhat.com/errata/RHSA-2017:1203
+    reference_id: RHSA-2017:1203
+weaknesses: []

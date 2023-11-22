@@ -1,0 +1,48 @@
+vulnerability_id: VCID-k27p-rct4-aaaj
+aliases:
+  - CVE-2022-25851
+  - GHSA-xvf7-4v9q-58w6
+summary: The package jpeg-js before 0.4.4 are vulnerable to Denial of Service (DoS) where a
+  particular piece of input will cause to enter an infinite loop and never return.
+severities:
+  - id: 628039
+    reference_id: 919061
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 628037
+    reference_id: 919061
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 707044
+    reference_id: 952214
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 919056
+    url: https://github.com/jpeg-js/jpeg-js/commit/9ccd35fb5f55a6c4f1902ac5b0f270f675750c27
+    reference_id:
+  - id: 919057
+    url: https://github.com/jpeg-js/jpeg-js/issues/105
+    reference_id:
+  - id: 919058
+    url: https://github.com/jpeg-js/jpeg-js/pull/106/
+    reference_id:
+  - id: 919059
+    url: https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-2860295
+    reference_id:
+  - id: 919060
+    url: https://snyk.io/vuln/SNYK-JS-JPEGJS-2859218
+    reference_id:
+  - id: 854026
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:jpeg-js_project:jpeg-js:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:jpeg-js_project:jpeg-js:*:*:*:*:*:node.js:*:*
+  - id: 919061
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-25851
+    reference_id: CVE-2022-25851
+  - id: 952214
+    url: https://github.com/advisories/GHSA-xvf7-4v9q-58w6
+    reference_id: GHSA-xvf7-4v9q-58w6
+weaknesses: []

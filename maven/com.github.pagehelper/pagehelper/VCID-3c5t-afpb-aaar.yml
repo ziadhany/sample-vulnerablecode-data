@@ -1,0 +1,54 @@
+vulnerability_id: VCID-3c5t-afpb-aaar
+aliases:
+  - CVE-2022-28111
+  - GHSA-w559-623p-vfg8
+summary: MyBatis PageHelper v1.x.x-v5.x.x was discovered to contain a time-blind SQL injection
+  vulnerability via the orderBy parameter.
+severities:
+  - id: 596292
+    reference_id: 921544
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 596290
+    reference_id: 921544
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 647957
+    reference_id: 1418111
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 921540
+    url: https://github.com/pagehelper/Mybatis-PageHelper
+    reference_id:
+  - id: 1418109
+    url: https://github.com/pagehelper/Mybatis-PageHelper/commit/554a524af2d2b30d09505516adc412468a84d8fa
+    reference_id:
+  - id: 921541
+    url: https://github.com/pagehelper/Mybatis-PageHelper.git
+    reference_id:
+  - id: 949104
+    url: https://github.com/pagehelper/Mybatis-PageHelper/issues/674
+    reference_id:
+  - id: 921542
+    url: https://pagehelper.github.io/
+    reference_id:
+  - id: 921543
+    url: https://www.cnblogs.com/secload/articles/16061420.html
+    reference_id:
+  - id: 921545
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:pagehelper_project:pagehelper:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:pagehelper_project:pagehelper:*:*:*:*:*:*:*:*
+  - id: 921544
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-28111
+    reference_id: CVE-2022-28111
+  - id: 1418110
+    url: https://github.com/yangfar/CVE/blob/main/CVE-2022-42227.md
+    reference_id: CVE-2022-42227.MD
+  - id: 1418111
+    url: https://github.com/advisories/GHSA-w559-623p-vfg8
+    reference_id: GHSA-w559-623p-vfg8
+weaknesses: []

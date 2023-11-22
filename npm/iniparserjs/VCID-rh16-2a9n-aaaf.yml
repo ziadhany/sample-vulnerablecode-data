@@ -1,0 +1,40 @@
+vulnerability_id: VCID-rh16-2a9n-aaaf
+aliases:
+  - CVE-2021-23328
+  - GHSA-2f6g-w5gj-c93h
+summary: |
+  Prototype Pollution
+  This affects all versions of package iniparserjs. This vulnerability relates when `ini_parser.js` is concentrating arrays. Depending on if user input is provided, an attacker can overwrite and pollute the object prototype of a program.
+severities:
+  - id: 515052
+    reference_id: 36425
+    scoring_system: cvssv2
+    value: '6.8'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:P/A:P
+  - id: 515050
+    reference_id: 36425
+    scoring_system: cvssv3
+    value: '5.6'
+    scoring_elements: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
+  - id: 706534
+    reference_id: 1468136
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 868259
+    url: https://snyk.io/vuln/SNYK-JS-INIPARSERJS-1065989
+    reference_id:
+  - id: 868260
+    url: https://www.npmjs.com/package/iniparserjs
+    reference_id:
+  - id: 868261
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:iniparserjs_project:iniparserjs:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:iniparserjs_project:iniparserjs:*:*:*:*:*:node.js:*:*
+  - id: 36425
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-23328
+    reference_id: CVE-2021-23328
+  - id: 1468136
+    url: https://github.com/advisories/GHSA-2f6g-w5gj-c93h
+    reference_id: GHSA-2f6g-w5gj-c93h
+weaknesses: []

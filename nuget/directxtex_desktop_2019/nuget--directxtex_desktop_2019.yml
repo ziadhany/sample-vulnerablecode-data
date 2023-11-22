@@ -1,0 +1,18 @@
+package: pkg:nuget/directxtex_desktop_2019
+versions:
+  - purl: pkg:nuget/directxtex_desktop_2019@2022.10.18.1
+    affected_by_vulnerabilities:
+      - VCID-dwrs-ad5m-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/directxtex_desktop_2019@2022.12.18.1
+    affected_by_vulnerabilities:
+      - VCID-dwrs-ad5m-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/directxtex_desktop_2019@2022.5.10.1
+    affected_by_vulnerabilities:
+      - VCID-dwrs-ad5m-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/directxtex_desktop_2019@2022.7.30.1
+    affected_by_vulnerabilities:
+      - VCID-dwrs-ad5m-aaam
+    fixing_vulnerabilities: []

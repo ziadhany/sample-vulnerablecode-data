@@ -1,0 +1,120 @@
+vulnerability_id: VCID-e6bt-9mwc-aaab
+aliases:
+  - CVE-2017-2595
+summary: 'CVE-2017-2595 wildfly: Arbitrary file read via path traversal'
+severities:
+  - id: 75516
+    reference_id: 206443
+    scoring_system: cvssv3
+    value: '7.7'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N
+  - id: 75511
+    reference_id: 206438
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 280983
+    reference_id: 696230
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:N/A:N
+  - id: 280981
+    reference_id: 696230
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+  - id: 75515
+    reference_id: 206442
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 69265
+    reference_id: '198948'
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 47918
+    reference_id: 172494
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 47919
+    reference_id: 172495
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 47915
+    reference_id: 172491
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 47912
+    reference_id: 172488
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 26031
+    url: http://rhn.redhat.com/errata/RHSA-2017-1409.html
+    reference_id:
+  - id: 647289
+    url: http://rhn.redhat.com/errata/RHSA-2017-1551.html
+    reference_id:
+  - id: 663210
+    url: https://access.redhat.com/errata/RHSA-2017:1410
+    reference_id:
+  - id: 663211
+    url: https://access.redhat.com/errata/RHSA-2017:1411
+    reference_id:
+  - id: 663212
+    url: https://access.redhat.com/errata/RHSA-2017:1412
+    reference_id:
+  - id: 647290
+    url: https://access.redhat.com/errata/RHSA-2017:1548
+    reference_id:
+  - id: 647291
+    url: https://access.redhat.com/errata/RHSA-2017:1549
+    reference_id:
+  - id: 647292
+    url: https://access.redhat.com/errata/RHSA-2017:1550
+    reference_id:
+  - id: 647293
+    url: https://access.redhat.com/errata/RHSA-2017:1552
+    reference_id:
+  - id: 206443
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2017-2595.json
+    reference_id:
+  - id: 696229
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2017-2595
+    reference_id:
+  - id: 696228
+    url: http://www.securityfocus.com/bid/98967
+    reference_id:
+  - id: 26994
+    url: http://www.securitytracker.com/id/1038757
+    reference_id:
+  - id: 206438
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1413028
+    reference_id: 1413028
+  - id: 696230
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-2595
+    reference_id: CVE-2017-2595
+  - id: 206442
+    url: https://access.redhat.com/errata/RHSA-2017:1409
+    reference_id: RHSA-2017:1409
+  - id: '198948'
+    url: https://access.redhat.com/errata/RHSA-2017:1551
+    reference_id: RHSA-2017:1551
+  - id: 172494
+    url: https://access.redhat.com/errata/RHSA-2017:3454
+    reference_id: RHSA-2017:3454
+  - id: 172495
+    url: https://access.redhat.com/errata/RHSA-2017:3455
+    reference_id: RHSA-2017:3455
+  - id: 172491
+    url: https://access.redhat.com/errata/RHSA-2017:3456
+    reference_id: RHSA-2017:3456
+  - id: 172488
+    url: https://access.redhat.com/errata/RHSA-2017:3458
+    reference_id: RHSA-2017:3458
+weaknesses: []

@@ -1,0 +1,118 @@
+vulnerability_id: VCID-49zh-edmv-aaar
+aliases:
+  - CVE-2006-5542
+summary: CVE-2006-5540 New version fixes three different crash vulnerabilities
+severities:
+  - id: 77936
+    reference_id: 209219
+    scoring_system: rhbs
+    value: low
+    scoring_elements:
+  - id: 91630
+    reference_id: 258950
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:N/I:N/A:P
+  - id: 62672
+    reference_id: '190726'
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 258948
+    url: http://projects.commandprompt.com/public/pgsql/changeset/25953
+    reference_id:
+  - id: 209220
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2006-5542.json
+    reference_id:
+  - id: 258917
+    url: http://secunia.com/advisories/22562
+    reference_id:
+  - id: 258918
+    url: http://secunia.com/advisories/22584
+    reference_id:
+  - id: 258919
+    url: http://secunia.com/advisories/22606
+    reference_id:
+  - id: 258920
+    url: http://secunia.com/advisories/22636
+    reference_id:
+  - id: 258921
+    url: http://secunia.com/advisories/23048
+    reference_id:
+  - id: 256307
+    url: http://secunia.com/advisories/23132
+    reference_id:
+  - id: 258923
+    url: http://secunia.com/advisories/24577
+    reference_id:
+  - id: 258924
+    url: http://securitytracker.com/id?1017115
+    reference_id:
+  - id: 258949
+    url: https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A10122
+    reference_id:
+  - id: 258925
+    url: http://support.avaya.com/elmodocs2/security/ASA-2007-117.htm
+    reference_id:
+  - id: 258926
+    url: http://support.novell.com/techcenter/psdb/59650c03a8bc5ae310cd7898bd106ad2.html
+    reference_id:
+  - id: 1469523
+    url: https://www.postgresql.org/support/security/CVE-2006-5542/
+    reference_id:
+  - id: 258927
+    url: http://www.mandriva.com/security/advisories?name=MDKSA-2006:194
+    reference_id:
+  - id: 256313
+    url: http://www.novell.com/linux/security/advisories/2006_27_sr.html
+    reference_id:
+  - id: 258928
+    url: http://www.postgresql.org/about/news.664
+    reference_id:
+  - id: 258930
+    url: http://www.redhat.com/support/errata/RHSA-2007-0067.html
+    reference_id:
+  - id: 258931
+    url: http://www.redhat.com/support/errata/RHSA-2007-0068.html
+    reference_id:
+  - id: 258932
+    url: http://www.securityfocus.com/bid/20717
+    reference_id:
+  - id: 258933
+    url: http://www.trustix.org/errata/2006/0059/
+    reference_id:
+  - id: 258934
+    url: http://www.ubuntu.com/usn/usn-369-1
+    reference_id:
+  - id: 258935
+    url: http://www.ubuntu.com/usn/usn-369-2
+    reference_id:
+  - id: 258936
+    url: http://www.vupen.com/english/advisories/2006/4182
+    reference_id:
+  - id: 209219
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=212360
+    reference_id: 212360
+  - id: 220339
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:8.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:8.1:*:*:*:*:*:*:*
+  - id: 216106
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:8.1.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:8.1.1:*:*:*:*:*:*:*
+  - id: 219824
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:8.1.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:8.1.2:*:*:*:*:*:*:*
+  - id: 233544
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:8.1.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:8.1.3:*:*:*:*:*:*:*
+  - id: 258943
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:8.1.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:8.1.4:*:*:*:*:*:*:*
+  - id: 258950
+    url: https://nvd.nist.gov/vuln/detail/CVE-2006-5542
+    reference_id: CVE-2006-5542
+  - id: '190726'
+    url: https://access.redhat.com/errata/RHSA-2007:0068
+    reference_id: RHSA-2007:0068
+weaknesses: []

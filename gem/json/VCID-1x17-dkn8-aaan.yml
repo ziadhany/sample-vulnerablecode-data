@@ -1,0 +1,12 @@
+vulnerability_id: VCID-1x17-dkn8-aaan
+aliases:
+  - OSVDB-101157
+summary: |
+  Data Handling Stack Buffer Overflow
+  This package contains an overflow condition that is triggered as user-supplied input is not properly validated when handling specially crafted data. This may allow a remote attacker to cause a stack-based buffer overflow, resulting in a denial of service or potentially allowing the execution of arbitrary code.
+severities: []
+references:
+  - id: 38816
+    url: https://github.com/rubysec/ruby-advisory-db/blob/master/gems/json/OSVDB-101157.yml
+    reference_id:
+weaknesses: []

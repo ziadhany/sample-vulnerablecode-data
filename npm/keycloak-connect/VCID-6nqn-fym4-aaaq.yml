@@ -1,0 +1,78 @@
+vulnerability_id: VCID-6nqn-fym4-aaaq
+aliases:
+  - CVE-2020-1697
+  - GHSA-8vf3-4w62-m3pq
+summary: XSS in Keycloak
+severities:
+  - id: 56142
+    reference_id: 181696
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+  - id: 56140
+    reference_id: 181694
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 449778
+    reference_id: 13845
+    scoring_system: cvssv2
+    value: '3.5'
+    scoring_elements: AV:N/AC:M/Au:S/C:N/I:P/A:N
+  - id: 449776
+    reference_id: 13845
+    scoring_system: cvssv3
+    value: '5.4'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N
+  - id: 1495
+    reference_id: 13847
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 56141
+    reference_id: 181695
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49251
+    reference_id: 173544
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49250
+    reference_id: 173543
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 181696
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2020-1697.json
+    reference_id:
+  - id: 13846
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2020-1697
+    reference_id:
+  - id: 181694
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1791538
+    reference_id: 1791538
+  - id: 568146
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:keycloak:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:keycloak:*:*:*:*:*:*:*:*
+  - id: 728430
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:single_sign-on:7.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:single_sign-on:7.3:*:*:*:*:*:*:*
+  - id: 13845
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-1697
+    reference_id: CVE-2020-1697
+  - id: 13847
+    url: https://github.com/advisories/GHSA-8vf3-4w62-m3pq
+    reference_id: GHSA-8vf3-4w62-m3pq
+  - id: 181695
+    url: https://access.redhat.com/errata/RHSA-2020:0445
+    reference_id: RHSA-2020:0445
+  - id: 173544
+    url: https://access.redhat.com/errata/RHSA-2020:2252
+    reference_id: RHSA-2020:2252
+  - id: 173543
+    url: https://access.redhat.com/errata/RHSA-2020:2905
+    reference_id: RHSA-2020:2905
+weaknesses: []

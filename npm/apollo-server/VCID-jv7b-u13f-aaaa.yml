@@ -1,0 +1,25 @@
+vulnerability_id: VCID-jv7b-u13f-aaaa
+aliases:
+  - GHSA-qm7x-rc44-rrqw
+  - GMS-2021-33
+summary: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')
+  in apollo-server.
+severities:
+  - id: 705115
+    reference_id: 33800
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 705114
+    reference_id: 33799
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 33800
+    url: https://github.com/advisories/GHSA-qm7x-rc44-rrqw
+    reference_id: GHSA-qm7x-rc44-rrqw
+  - id: 33799
+    url: https://github.com/apollographql/apollo-server/security/advisories/GHSA-qm7x-rc44-rrqw
+    reference_id: GHSA-qm7x-rc44-rrqw
+weaknesses: []

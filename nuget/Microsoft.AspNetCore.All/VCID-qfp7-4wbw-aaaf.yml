@@ -1,0 +1,46 @@
+vulnerability_id: VCID-qfp7-4wbw-aaaf
+aliases:
+  - CVE-2019-0982
+  - GHSA-4jxx-4qxw-prxm
+summary: |
+  Uncontrolled Resource Consumption
+  A denial of service vulnerability exists when ASP.NET Core improperly handles web requests, aka 'ASP.NET Core Denial of Service Vulnerability'.
+severities:
+  - id: 365340
+    reference_id: 37573
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 365338
+    reference_id: 37573
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 630558
+    reference_id: 946749
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 946748
+    url: https://github.com/aspnet/Announcements/issues/359
+    reference_id:
+  - id: 946724
+    url: https://github.com/github/advisory-database/issues/302
+    reference_id:
+  - id: 765030
+    url: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-0982
+    reference_id:
+  - id: 759926
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:asp.net_core:2.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:asp.net_core:2.1:*:*:*:*:*:*:*
+  - id: 764052
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:asp.net_core:2.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:asp.net_core:2.2:*:*:*:*:*:*:*
+  - id: 37573
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-0982
+    reference_id: CVE-2019-0982
+  - id: 946749
+    url: https://github.com/advisories/GHSA-4jxx-4qxw-prxm
+    reference_id: GHSA-4jxx-4qxw-prxm
+weaknesses: []

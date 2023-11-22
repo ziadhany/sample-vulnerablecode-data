@@ -1,0 +1,158 @@
+vulnerability_id: VCID-su1r-fv61-aaap
+aliases:
+  - CVE-2013-2160
+  - GHSA-254q-rp36-v2m8
+summary: |
+  Denial of Service Attacks on Apache CXF
+  The streaming XML parser in this package remote attackers to cause a denial of service (CPU and memory consumption) via crafted XML with a large number of elements, attributes, nested constructs, and possibly other vectors.
+severities:
+  - id: 164963
+    reference_id: 523629
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 630087
+    reference_id: 946037
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 61923
+    reference_id: 189699
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 56465
+    reference_id: 182143
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 59179
+    reference_id: 185710
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 523625
+    url: http://jira.codehaus.org/browse/WSTX-285
+    reference_id:
+  - id: 523626
+    url: http://jira.codehaus.org/browse/WSTX-287
+    reference_id:
+  - id: 30294
+    url: http://rhn.redhat.com/errata/RHSA-2013-1028.html
+    reference_id:
+  - id: 450919
+    url: http://rhn.redhat.com/errata/RHSA-2013-1437.html
+    reference_id:
+  - id: 189700
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2013-2160.json
+    reference_id:
+  - id: 523627
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=929197
+    reference_id:
+  - id: 26243
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2013-2160
+    reference_id:
+  - id: 10867
+    url: https://lists.apache.org/thread.html/r36e44ffc1a9b365327df62cdfaabe85b9a5637de102cea07d79b2dbf@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10866
+    url: https://lists.apache.org/thread.html/rc774278135816e7afc943dc9fc78eb0764f2c84a2b96470a0187315c@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10872
+    url: https://lists.apache.org/thread.html/rd49aabd984ed540c8ff7916d4d79405f3fa311d2fdbcf9ed307839a6@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10860
+    url: https://lists.apache.org/thread.html/rec7160382badd3ef4ad017a22f64a266c7188b9ba71394f0d321e2d4@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10862
+    url: https://lists.apache.org/thread.html/rfb87e0bf3995e7d560afeed750fac9329ff5f1ad49da365129b7f89e@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10873
+    url: https://lists.apache.org/thread.html/rff42cfa5e7d75b7c1af0e37589140a8f1999e578a75738740b244bd4@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 491366
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.5.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.5.0:*:*:*:*:*:*:*
+  - id: 481607
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.5.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.5.1:*:*:*:*:*:*:*
+  - id: 491352
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.5.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.5.2:*:*:*:*:*:*:*
+  - id: 491353
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.5.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.5.3:*:*:*:*:*:*:*
+  - id: 507230
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.5.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.5.4:*:*:*:*:*:*:*
+  - id: 507231
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.5.5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.5.5:*:*:*:*:*:*:*
+  - id: 507232
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.5.6:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.5.6:*:*:*:*:*:*:*
+  - id: 507233
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.5.7:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.5.7:*:*:*:*:*:*:*
+  - id: 507234
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.5.8:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.5.8:*:*:*:*:*:*:*
+  - id: 507235
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.5.9:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.5.9:*:*:*:*:*:*:*
+  - id: 491354
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.6.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.6.0:*:*:*:*:*:*:*
+  - id: 507236
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.6.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.6.1:*:*:*:*:*:*:*
+  - id: 507237
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.6.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.6.2:*:*:*:*:*:*:*
+  - id: 507238
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.6.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.6.3:*:*:*:*:*:*:*
+  - id: 507239
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.6.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.6.4:*:*:*:*:*:*:*
+  - id: 507240
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.6.5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.6.5:*:*:*:*:*:*:*
+  - id: 507241
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.6.6:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.6.6:*:*:*:*:*:*:*
+  - id: 507242
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.7.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.7.0:*:*:*:*:*:*:*
+  - id: 507243
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.7.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.7.1:*:*:*:*:*:*:*
+  - id: 507244
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.7.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.7.2:*:*:*:*:*:*:*
+  - id: 507245
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.7.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.7.3:*:*:*:*:*:*:*
+  - id: 523629
+    url: https://nvd.nist.gov/vuln/detail/CVE-2013-2160
+    reference_id: CVE-2013-2160
+  - id: 26242
+    url: http://cxf.apache.org/security-advisories.data/CVE-2013-2160.txt.asc
+    reference_id: CVE-2013-2160.TXT.ASC
+  - id: 946036
+    url: https://cxf.apache.org/security-advisories.data/CVE-2013-2160.txt.asc
+    reference_id: CVE-2013-2160.TXT.ASC
+  - id: 946037
+    url: https://github.com/advisories/GHSA-254q-rp36-v2m8
+    reference_id: GHSA-254q-rp36-v2m8
+  - id: 189699
+    url: https://access.redhat.com/errata/RHSA-2013:1028
+    reference_id: RHSA-2013:1028
+  - id: 182143
+    url: https://access.redhat.com/errata/RHSA-2013:1185
+    reference_id: RHSA-2013:1185
+  - id: 185710
+    url: https://access.redhat.com/errata/RHSA-2013:1437
+    reference_id: RHSA-2013:1437
+weaknesses: []

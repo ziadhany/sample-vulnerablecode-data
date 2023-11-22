@@ -1,0 +1,12 @@
+vulnerability_id: VCID-5bqf-1jsc-aaad
+aliases:
+  - GMS-2016-5
+summary: |
+  Arbitrary search execution
+  The gem contains a flaw that is triggered when handling the `params[:default_class_name]` option. This allows users to search any object of all given ActiveRecord classes.
+severities: []
+references:
+  - id: 39177
+    url: https://github.com/Tab10id/auto_awesomplete/issues/2
+    reference_id:
+weaknesses: []

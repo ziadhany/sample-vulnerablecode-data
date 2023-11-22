@@ -1,0 +1,12 @@
+vulnerability_id: VCID-jdsj-v2n1-aaap
+aliases:
+  - GMS-2017-220
+summary: |
+  Directory Traversal
+  `unicorn-list` is vulnerable to a directory traversal issue, giving an attacker access to the filesystem by placing "../" in the URL.
+severities: []
+references:
+  - id: 34667
+    url: https://github.com/JacksonGL/NPM-Vuln-PoC/tree/master/directory-traversal/unicorn-list
+    reference_id:
+weaknesses: []

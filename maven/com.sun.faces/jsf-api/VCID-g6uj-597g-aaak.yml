@@ -1,0 +1,112 @@
+vulnerability_id: VCID-g6uj-597g-aaak
+aliases:
+  - CVE-2008-1285
+  - GHSA-vv6j-5x58-q2c3
+summary: Cross-site scripting (XSS) vulnerability in Sun Java Server Faces (JSF)
+severities:
+  - id: 75738
+    reference_id: 206679
+    scoring_system: rhbs
+    value: low
+    scoring_elements:
+  - id: 110240
+    reference_id: 9075
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+  - id: 692
+    reference_id: 9079
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 74472
+    reference_id: 205352
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 74471
+    reference_id: 205351
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 74470
+    reference_id: 205350
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 74469
+    reference_id: 205349
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 332551
+    url: http://rhn.redhat.com/errata/RHSA-2008-0825.html
+    reference_id:
+  - id: 332552
+    url: http://rhn.redhat.com/errata/RHSA-2008-0826.html
+    reference_id:
+  - id: 332553
+    url: http://rhn.redhat.com/errata/RHSA-2008-0827.html
+    reference_id:
+  - id: 9078
+    url: http://rhn.redhat.com/errata/RHSA-2008-0828.html
+    reference_id:
+  - id: 206680
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2008-1285.json
+    reference_id:
+  - id: 9076
+    url: https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=437082
+    reference_id:
+  - id: 332554
+    url: http://secunia.com/advisories/29327
+    reference_id:
+  - id: 9077
+    url: https://exchange.xforce.ibmcloud.com/vulnerabilities/41081
+    reference_id:
+  - id: 332561
+    url: https://jira.jboss.org/jira/browse/JBPAPP-682
+    reference_id:
+  - id: 332555
+    url: http://sunsolve.sun.com/search/document.do?assetkey=1-26-233561-1
+    reference_id:
+  - id: 332556
+    url: http://www.redhat.com/docs/en-US/JBoss_Enterprise_Application_Platform/4.2.0.cp03/html-single/readme/index.html
+    reference_id:
+  - id: 332557
+    url: http://www.redhat.com/docs/en-US/JBoss_Enterprise_Application_Platform/4.3.0.cp01/html-single/readme/
+    reference_id:
+  - id: 332558
+    url: http://www.securityfocus.com/bid/28192
+    reference_id:
+  - id: 332559
+    url: http://www.securitytracker.com/id?1020628
+    reference_id:
+  - id: 332560
+    url: http://www.vupen.com/english/advisories/2008/0808/references
+    reference_id:
+  - id: 206679
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=437082
+    reference_id: 437082
+  - id: 332562
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:sun:jsf:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:sun:jsf:*:*:*:*:*:*:*:*
+  - id: 9075
+    url: https://nvd.nist.gov/vuln/detail/CVE-2008-1285
+    reference_id: CVE-2008-1285
+  - id: 9079
+    url: https://github.com/advisories/GHSA-vv6j-5x58-q2c3
+    reference_id: GHSA-vv6j-5x58-q2c3
+  - id: 205352
+    url: https://access.redhat.com/errata/RHSA-2008:0825
+    reference_id: RHSA-2008:0825
+  - id: 205351
+    url: https://access.redhat.com/errata/RHSA-2008:0826
+    reference_id: RHSA-2008:0826
+  - id: 205350
+    url: https://access.redhat.com/errata/RHSA-2008:0827
+    reference_id: RHSA-2008:0827
+  - id: 205349
+    url: https://access.redhat.com/errata/RHSA-2008:0828
+    reference_id: RHSA-2008:0828
+weaknesses: []

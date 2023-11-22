@@ -1,0 +1,66 @@
+package: pkg:gem/jruby-openssl
+versions:
+  - purl: pkg:gem/jruby-openssl@0.0.1
+    affected_by_vulnerabilities:
+      - VCID-v7xn-bbpt-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jruby-openssl@0.0.2
+    affected_by_vulnerabilities:
+      - VCID-v7xn-bbpt-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jruby-openssl@0.0.3
+    affected_by_vulnerabilities:
+      - VCID-v7xn-bbpt-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jruby-openssl@0.0.4
+    affected_by_vulnerabilities:
+      - VCID-v7xn-bbpt-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jruby-openssl@0.1
+    affected_by_vulnerabilities:
+      - VCID-v7xn-bbpt-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jruby-openssl@0.1.1
+    affected_by_vulnerabilities:
+      - VCID-v7xn-bbpt-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jruby-openssl@0.2
+    affected_by_vulnerabilities:
+      - VCID-v7xn-bbpt-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jruby-openssl@0.2.1
+    affected_by_vulnerabilities:
+      - VCID-v7xn-bbpt-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jruby-openssl@0.2.2
+    affected_by_vulnerabilities:
+      - VCID-v7xn-bbpt-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jruby-openssl@0.2.3
+    affected_by_vulnerabilities:
+      - VCID-v7xn-bbpt-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jruby-openssl@0.3
+    affected_by_vulnerabilities:
+      - VCID-v7xn-bbpt-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jruby-openssl@0.4
+    affected_by_vulnerabilities:
+      - VCID-v7xn-bbpt-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jruby-openssl@0.5
+    affected_by_vulnerabilities:
+      - VCID-v7xn-bbpt-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jruby-openssl@0.5.1
+    affected_by_vulnerabilities:
+      - VCID-v7xn-bbpt-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jruby-openssl@0.5.2
+    affected_by_vulnerabilities:
+      - VCID-v7xn-bbpt-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jruby-openssl@0.6
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-v7xn-bbpt-aaan

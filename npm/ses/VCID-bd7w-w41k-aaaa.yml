@@ -1,0 +1,44 @@
+vulnerability_id: VCID-bd7w-w41k-aaaa
+aliases:
+  - GHSA-6jg8-7333-554w
+  - GMS-2019-48
+  - GMS-2019-55
+summary: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+  in ses.
+severities:
+  - id: 704679
+    reference_id: 31726
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+  - id: 704678
+    reference_id: 31725
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 31732
+    url: https://snyk.io/vuln/SNYK-JS-REALMSSHIM-471680
+    reference_id:
+  - id: 31727
+    url: https://www.npmjs.com/advisories/1180
+    reference_id:
+  - id: 31728
+    url: https://www.npmjs.com/advisories/1181
+    reference_id:
+  - id: 31729
+    url: https://www.npmjs.com/advisories/1182
+    reference_id:
+  - id: 31730
+    url: https://www.npmjs.com/advisories/1190
+    reference_id:
+  - id: 31731
+    url: https://www.npmjs.com/advisories/1191
+    reference_id:
+  - id: 31726
+    url: https://github.com/advisories/GHSA-6jg8-7333-554w
+    reference_id: GHSA-6jg8-7333-554w
+  - id: 31725
+    url: https://github.com/Agoric/realms-shim/security/advisories/GHSA-6jg8-7333-554w
+    reference_id: GHSA-6jg8-7333-554w
+weaknesses: []

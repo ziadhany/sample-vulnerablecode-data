@@ -1,0 +1,35 @@
+vulnerability_id: VCID-zbpt-f7cw-aaaj
+aliases:
+  - CVE-2021-30181
+  - GHSA-qmfc-6www-fjqw
+summary: Code injection in Apache Dubbo
+severities:
+  - id: 533748
+    reference_id: 9446
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 533746
+    reference_id: 9446
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 769
+    reference_id: 9448
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 9447
+    url: https://lists.apache.org/thread.html/re22410dc704a09bc7032ddf15140cf5e7df3e8ece390fc9032ff5587%40%3Cdev.dubbo.apache.org%3E
+    reference_id:
+  - id: 786525
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:dubbo:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:dubbo:*:*:*:*:*:*:*:*
+  - id: 9446
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-30181
+    reference_id: CVE-2021-30181
+  - id: 9448
+    url: https://github.com/advisories/GHSA-qmfc-6www-fjqw
+    reference_id: GHSA-qmfc-6www-fjqw
+weaknesses: []

@@ -1,0 +1,33 @@
+vulnerability_id: VCID-yghw-kt5c-aaac
+aliases:
+  - CVE-2014-1234
+  - GHSA-959j-5g9v-3fpq
+summary: Low severity vulnerability that affects paratrooper-newrelic
+severities:
+  - id: 176297
+    reference_id: 30716
+    scoring_system: cvssv2
+    value: '2.1'
+    scoring_elements: AV:L/AC:L/Au:N/C:P/I:N/A:N
+  - id: 5359
+    reference_id: 30717
+    scoring_system: cvssv3.1_qr
+    value: LOW
+    scoring_elements:
+references:
+  - id: 30718
+    url: http://openwall.com/lists/oss-security/2014/01/08/2
+    reference_id:
+  - id: 30719
+    url: http://www.vapid.dhs.org/advisories/paratrooper-newrelic-api.html
+    reference_id:
+  - id: 555606
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:paratrooper-newrelic_project:paratrooper-newrelic:1.0.1:-:-:*:-:ruby:*:*
+    reference_id: cpe:2.3:a:paratrooper-newrelic_project:paratrooper-newrelic:1.0.1:-:-:*:-:ruby:*:*
+  - id: 30716
+    url: https://nvd.nist.gov/vuln/detail/CVE-2014-1234
+    reference_id: CVE-2014-1234
+  - id: 30717
+    url: https://github.com/advisories/GHSA-959j-5g9v-3fpq
+    reference_id: GHSA-959j-5g9v-3fpq
+weaknesses: []

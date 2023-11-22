@@ -1,0 +1,31 @@
+vulnerability_id: VCID-mre4-af9r-aaaa
+aliases:
+  - GHSA-2m53-83f3-562j
+  - GMS-2022-65
+summary: "Prototype pollution in min-dash < 3.8.1\n### Impact\n\nThe `set` method is vulnerable\
+  \ to prototype pollution with specially crafted inputs.\n\n```javascript\n// insert the following\
+  \ into poc.js and run node poc,js (after installing the package)\n \nlet parser = require(\"\
+  min-dash\");\nparser.set({}, [[\"__proto__\"], \"polluted\"], \"success\");\nconsole.log(polluted);\n\
+  ```\n\n### Patches\n\n`min-dash>=3.8.1` fix the issue.\n\n### Workarounds\n\nNo workarounds\
+  \ exist for the issue.\n\n### References\n\nClosed via https://github.com/bpmn-io/min-dash/pull/21.\n\
+  \n### Credits\n\nCredits to Cristian-Alexandru STAICU who found the vulnerability and to Idan\
+  \ Digmi from the Snyk Security Team who reported the vulnerability to us, responsibly."
+severities:
+  - id: 704510
+    reference_id: 36401
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 704509
+    reference_id: 36400
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 36401
+    url: https://github.com/advisories/GHSA-2m53-83f3-562j
+    reference_id: GHSA-2m53-83f3-562j
+  - id: 36400
+    url: https://github.com/bpmn-io/min-dash/security/advisories/GHSA-2m53-83f3-562j
+    reference_id: GHSA-2m53-83f3-562j
+weaknesses: []

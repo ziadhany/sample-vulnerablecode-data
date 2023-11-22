@@ -1,0 +1,40 @@
+vulnerability_id: VCID-ngbv-vjqu-aaap
+aliases:
+  - CVE-2017-5649
+  - GHSA-2gw6-73wc-x88f
+summary: |
+  Information Exposure
+  When a cluster has enabled security by setting the security-manager property, allows remote authenticated users with `CLUSTER:READ` but not `DATA:READ` permission to access the data browser page in Pulse and consequently execute an OQL query that exposes data stored in the cluster.
+severities:
+  - id: 288209
+    reference_id: 30340
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:N/A:N
+  - id: 288207
+    reference_id: 30340
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+  - id: 648164
+    reference_id: 1418661
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 702868
+    url: http://mail-archives.apache.org/mod_mbox/geode-user/201704.mbox/%3cCAEwge-E4y=EVfhwpfRwsbnBH_hBS3Q-BJS+1BX5omYGW4dnR1w@mail.gmail.com%3e
+    reference_id:
+  - id: 30341
+    url: http://www.securityfocus.com/bid/97378
+    reference_id:
+  - id: 677805
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:geode:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:geode:*:*:*:*:*:*:*:*
+  - id: 30340
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-5649
+    reference_id: CVE-2017-5649
+  - id: 1418661
+    url: https://github.com/advisories/GHSA-2gw6-73wc-x88f
+    reference_id: GHSA-2gw6-73wc-x88f
+weaknesses: []

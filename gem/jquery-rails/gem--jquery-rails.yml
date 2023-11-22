@@ -1,0 +1,439 @@
+package: pkg:gem/jquery-rails
+versions:
+  - purl: pkg:gem/jquery-rails@0.1.1
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@0.1.2
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@0.1.3
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@0.2
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@0.2.1
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@0.2.2
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@0.2.3
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@0.2.4
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@0.2.5
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@0.2.6
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@0.2.7
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@1.0
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@1.0.10
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@1.0.11
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@1.0.12
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@1.0.13
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@1.0.14
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@1.0.15
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@1.0.16
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@1.0.17
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@1.0.18
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@1.0.19
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@1.0.2
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@1.0.3
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@1.0.4
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@1.0.5
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@1.0.6
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@1.0.7
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@1.0.8
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@1.0.9
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@1.0.rc
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@2.0.1
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@2.0.2
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@2.0.3
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@2.1.0
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@2.1.1
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@2.1.2
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@2.1.3
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@2.1.4
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@2.2.0
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@2.2.1
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@2.2.2
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@2.3.0
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@3.0.0
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@3.0.1
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@3.0.2
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@3.0.3
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@3.0.4
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@3.1.0
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@3.1.1
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@3.1.2
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@3.1.3
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+    fixing_vulnerabilities:
+      - VCID-zvqa-f2mq-aaaq
+  - purl: pkg:gem/jquery-rails@3.1.4
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@3.1.5
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@4.0.0
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@4.0.0a
+    affected_by_vulnerabilities:
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@4.0.0.beta1
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@4.0.0.beta2
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@4.0.1
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@4.0.2
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@4.0.3
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+      - VCID-zvqa-f2mq-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@4.0.4
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+    fixing_vulnerabilities:
+      - VCID-zvqa-f2mq-aaaq
+  - purl: pkg:gem/jquery-rails@4.0.5
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@4.1.0
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@4.1.1
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@4.2.0
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@4.2.1
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@4.2.2
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@4.3.0
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@4.3.1
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@4.3.2
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@4.3.3
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+      - VCID-tv97-anfg-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@4.3.4
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+    fixing_vulnerabilities:
+      - VCID-tv97-anfg-aaam
+  - purl: pkg:gem/jquery-rails@4.3.5
+    affected_by_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jquery-rails@4.4.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-fhgh-jkwa-aaah

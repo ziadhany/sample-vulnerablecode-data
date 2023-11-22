@@ -1,0 +1,6 @@
+package: pkg:npm/wallet-address-validtaor
+versions:
+  - purl: pkg:npm/wallet-address-validtaor@0.0.0
+    affected_by_vulnerabilities:
+      - VCID-dc6n-yy5c-aaan
+    fixing_vulnerabilities: []

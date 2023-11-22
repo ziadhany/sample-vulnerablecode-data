@@ -1,0 +1,102 @@
+package: pkg:pypi/clickhouse-driver
+versions:
+  - purl: pkg:pypi/clickhouse-driver@0.0.10
+    affected_by_vulnerabilities:
+      - VCID-rnxk-h7v3-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/clickhouse-driver@0.0.11
+    affected_by_vulnerabilities:
+      - VCID-rnxk-h7v3-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/clickhouse-driver@0.0.12
+    affected_by_vulnerabilities:
+      - VCID-rnxk-h7v3-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/clickhouse-driver@0.0.13
+    affected_by_vulnerabilities:
+      - VCID-rnxk-h7v3-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/clickhouse-driver@0.0.14
+    affected_by_vulnerabilities:
+      - VCID-rnxk-h7v3-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/clickhouse-driver@0.0.15
+    affected_by_vulnerabilities:
+      - VCID-rnxk-h7v3-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/clickhouse-driver@0.0.16
+    affected_by_vulnerabilities:
+      - VCID-rnxk-h7v3-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/clickhouse-driver@0.0.17
+    affected_by_vulnerabilities:
+      - VCID-rnxk-h7v3-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/clickhouse-driver@0.0.18
+    affected_by_vulnerabilities:
+      - VCID-rnxk-h7v3-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/clickhouse-driver@0.0.19
+    affected_by_vulnerabilities:
+      - VCID-rnxk-h7v3-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/clickhouse-driver@0.0.2
+    affected_by_vulnerabilities:
+      - VCID-rnxk-h7v3-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/clickhouse-driver@0.0.20
+    affected_by_vulnerabilities:
+      - VCID-rnxk-h7v3-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/clickhouse-driver@0.0.3
+    affected_by_vulnerabilities:
+      - VCID-rnxk-h7v3-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/clickhouse-driver@0.0.4
+    affected_by_vulnerabilities:
+      - VCID-rnxk-h7v3-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/clickhouse-driver@0.0.5
+    affected_by_vulnerabilities:
+      - VCID-rnxk-h7v3-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/clickhouse-driver@0.0.6
+    affected_by_vulnerabilities:
+      - VCID-rnxk-h7v3-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/clickhouse-driver@0.0.7
+    affected_by_vulnerabilities:
+      - VCID-rnxk-h7v3-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/clickhouse-driver@0.0.8
+    affected_by_vulnerabilities:
+      - VCID-rnxk-h7v3-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/clickhouse-driver@0.0.9
+    affected_by_vulnerabilities:
+      - VCID-rnxk-h7v3-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/clickhouse-driver@0.1.0
+    affected_by_vulnerabilities:
+      - VCID-rnxk-h7v3-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/clickhouse-driver@0.1.1
+    affected_by_vulnerabilities:
+      - VCID-rnxk-h7v3-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/clickhouse-driver@0.1.2
+    affected_by_vulnerabilities:
+      - VCID-rnxk-h7v3-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/clickhouse-driver@0.1.3
+    affected_by_vulnerabilities:
+      - VCID-rnxk-h7v3-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/clickhouse-driver@0.1.4
+    affected_by_vulnerabilities:
+      - VCID-rnxk-h7v3-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/clickhouse-driver@0.1.5
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-rnxk-h7v3-aaak

@@ -1,0 +1,160 @@
+package: pkg:rpm/redhat/rubygem-ffi
+versions:
+  - purl: pkg:rpm/redhat/rubygem-ffi@1.4.0-3?arch=el6sat
+    affected_by_vulnerabilities:
+      - VCID-1yrw-e49x-aaas
+      - VCID-2ne6-wkuq-aaan
+      - VCID-2r63-z5t2-aaap
+      - VCID-2vne-6txv-aaaa
+      - VCID-3pj4-1xv5-aaae
+      - VCID-6f2h-b6xh-aaam
+      - VCID-7fvv-tax9-aaag
+      - VCID-7s9f-rfa3-aaaf
+      - VCID-8k6k-s8p1-aaaf
+      - VCID-8ugw-7akm-aaah
+      - VCID-asgj-9qjg-aaaf
+      - VCID-bptg-k9td-aaaf
+      - VCID-brrg-w1wu-aaad
+      - VCID-c196-2ujb-aaar
+      - VCID-eppu-krjj-aaac
+      - VCID-f1fn-3z4v-aaar
+      - VCID-fse4-6yqv-aaaq
+      - VCID-gcz7-s9d8-aaan
+      - VCID-gk4s-6xep-aaap
+      - VCID-gz85-2k1e-aaab
+      - VCID-j9hu-3awy-aaar
+      - VCID-k6hs-tp56-aaan
+      - VCID-mf3u-4t39-aaab
+      - VCID-mjx8-ycsn-aaag
+      - VCID-n9k5-awr3-aaas
+      - VCID-ngfh-qspj-aaam
+      - VCID-rbr1-1m1x-aaaf
+      - VCID-sxf1-hnwu-aaaq
+      - VCID-u486-npjf-aaar
+      - VCID-uawc-cwm4-aaab
+      - VCID-us5b-bv9a-aaaa
+      - VCID-w5pa-u7x8-aaad
+      - VCID-wbve-vkbf-aaam
+      - VCID-wpep-e823-aaas
+      - VCID-xntu-77nf-aaam
+      - VCID-ypjz-as1z-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/rubygem-ffi@1.4.0-3?arch=el7sat
+    affected_by_vulnerabilities:
+      - VCID-1yrw-e49x-aaas
+      - VCID-2ne6-wkuq-aaan
+      - VCID-2pnz-pceq-aaan
+      - VCID-2r63-z5t2-aaap
+      - VCID-2vne-6txv-aaaa
+      - VCID-37rn-gt5b-aaab
+      - VCID-3pj4-1xv5-aaae
+      - VCID-4fxt-kkh8-aaan
+      - VCID-4ube-rm8g-aaam
+      - VCID-4w75-wzwz-aaar
+      - VCID-4xzv-kp3h-aaan
+      - VCID-54jv-na1n-aaac
+      - VCID-55ga-282t-aaah
+      - VCID-5nqk-znrf-aaab
+      - VCID-6f2h-b6xh-aaam
+      - VCID-7fvv-tax9-aaag
+      - VCID-7s9f-rfa3-aaaf
+      - VCID-86cc-pw8u-aaaa
+      - VCID-88cw-7m98-aaah
+      - VCID-88my-hd9q-aaam
+      - VCID-8cwn-mamx-aaab
+      - VCID-8gt6-hg94-aaac
+      - VCID-8k6k-s8p1-aaaf
+      - VCID-8ugw-7akm-aaah
+      - VCID-9c29-3454-aaab
+      - VCID-9jcc-2gjw-aaae
+      - VCID-a8mw-s4pr-aaab
+      - VCID-asgj-9qjg-aaaf
+      - VCID-bptg-k9td-aaaf
+      - VCID-brrg-w1wu-aaad
+      - VCID-by8q-f3h8-aaaf
+      - VCID-c196-2ujb-aaar
+      - VCID-c8j9-tbvg-aaaq
+      - VCID-cgb4-5jxd-aaah
+      - VCID-cw2s-4p8e-aaag
+      - VCID-ean7-wkmd-aaac
+      - VCID-enj5-ba38-aaas
+      - VCID-eppu-krjj-aaac
+      - VCID-eps5-dhv3-aaam
+      - VCID-esta-bsrw-aaah
+      - VCID-f1fn-3z4v-aaar
+      - VCID-f3uu-yu8c-aaaq
+      - VCID-fpuu-b2rb-aaak
+      - VCID-fse4-6yqv-aaaq
+      - VCID-gcz7-s9d8-aaan
+      - VCID-gf6a-pqd5-aaag
+      - VCID-gh4n-hy9b-aaaq
+      - VCID-gk4s-6xep-aaap
+      - VCID-gm2v-j1q8-aaab
+      - VCID-gz85-2k1e-aaab
+      - VCID-h3jt-mtpc-aaab
+      - VCID-hexc-rwtm-aaae
+      - VCID-hxm6-fgzs-aaam
+      - VCID-j9hu-3awy-aaar
+      - VCID-ja9x-8z86-aaag
+      - VCID-jbw5-5xat-aaaa
+      - VCID-k6hs-tp56-aaan
+      - VCID-mc9t-adza-aaak
+      - VCID-mf3u-4t39-aaab
+      - VCID-mjez-6y4p-aaaj
+      - VCID-mjx8-ycsn-aaag
+      - VCID-mp6s-39hb-aaam
+      - VCID-n311-z2c8-aaad
+      - VCID-n9k5-awr3-aaas
+      - VCID-nd3n-xrcv-aaan
+      - VCID-ngfh-qspj-aaam
+      - VCID-nupt-j8jb-aaar
+      - VCID-pydt-nu2k-aaar
+      - VCID-q8ax-dhju-aaab
+      - VCID-qjx3-vgza-aaak
+      - VCID-qp18-7kq8-aaab
+      - VCID-r4j9-xzjm-aaag
+      - VCID-r5ac-x57y-aaap
+      - VCID-rbr1-1m1x-aaaf
+      - VCID-sw16-2dmn-aaac
+      - VCID-sxf1-hnwu-aaaq
+      - VCID-thw8-v921-aaac
+      - VCID-u486-npjf-aaar
+      - VCID-uawc-cwm4-aaab
+      - VCID-us5b-bv9a-aaaa
+      - VCID-vdpj-r7pr-aaaf
+      - VCID-vqtk-e5du-aaas
+      - VCID-w5pa-u7x8-aaad
+      - VCID-wbve-vkbf-aaam
+      - VCID-wpep-e823-aaas
+      - VCID-xham-1avc-aaaj
+      - VCID-xntu-77nf-aaam
+      - VCID-ypjz-as1z-aaac
+      - VCID-zwyg-ab9c-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/rubygem-ffi@1.9.18-2?arch=el7
+    affected_by_vulnerabilities:
+      - VCID-8g31-3v68-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/rubygem-ffi@1.9.23-1?arch=el7
+    affected_by_vulnerabilities:
+      - VCID-3qb1-f6fw-aaad
+      - VCID-kac9-8rqu-aaaa
+      - VCID-sb3k-9d77-aaab
+      - VCID-zjky-9ejb-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/rubygem-ffi@1.9.25-1?arch=el7cf
+    affected_by_vulnerabilities:
+      - VCID-22mr-wwfc-aaab
+      - VCID-pjrb-txh7-aaak
+      - VCID-r4sj-m8p3-aaaq
+      - VCID-xzna-6eg3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/rubygem-ffi@1.9.25-1?arch=el8cf
+    affected_by_vulnerabilities:
+      - VCID-22dd-ah5e-aaas
+      - VCID-dyer-9pw2-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/rubygem-ffi@1.9.25-4?arch=el7_5
+    affected_by_vulnerabilities:
+      - VCID-z41h-v94f-aaak
+    fixing_vulnerabilities: []

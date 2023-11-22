@@ -1,0 +1,59 @@
+vulnerability_id: VCID-pmup-zpjx-aaah
+aliases:
+  - CVE-2021-39229
+  - GHSA-qhmp-h54x-38qr
+  - PYSEC-2021-327
+summary: Apprise is an open source library which allows you to send a notification to almost
+  all of the most popular notification services available. In affected versions users who use
+  Apprise granting them access to the IFTTT plugin (which just comes out of the box) are subject
+  to a denial of service attack on an inefficient regular expression. The vulnerable regular
+  expression is [here](https://github.com/caronc/apprise/blob/0007eade20934ddef0aba38b8f1aad980cfff253/apprise/plugins/NotifyIFTTT.py#L356-L359).
+  The problem has been patched in release version 0.9.5.1. Users who are unable to upgrade are
+  advised to remove `apprise/plugins/NotifyIFTTT.py` to eliminate the service.
+severities:
+  - id: 556520
+    reference_id: 22434
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 556518
+    reference_id: 22434
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 3877
+    reference_id: 22435
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 3876
+    reference_id: 22431
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 8009
+    url: https://github.com/caronc/apprise/blob/0007eade20934ddef0aba38b8f1aad980cfff253/apprise/plugins/NotifyIFTTT.py#L356-L359
+    reference_id:
+  - id: 22432
+    url: https://github.com/caronc/apprise/commit/e20fce630d55e4ca9b0a1e325a5fea6997489831
+    reference_id:
+  - id: 8008
+    url: https://github.com/caronc/apprise/pull/436
+    reference_id:
+  - id: 22433
+    url: https://github.com/caronc/apprise/releases/tag/v0.9.5.1
+    reference_id:
+  - id: 895372
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:nuxref:apprise:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:nuxref:apprise:*:*:*:*:*:*:*:*
+  - id: 22434
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-39229
+    reference_id: CVE-2021-39229
+  - id: 22435
+    url: https://github.com/advisories/GHSA-qhmp-h54x-38qr
+    reference_id: GHSA-qhmp-h54x-38qr
+  - id: 22431
+    url: https://github.com/caronc/apprise/security/advisories/GHSA-qhmp-h54x-38qr
+    reference_id: GHSA-qhmp-h54x-38qr
+weaknesses: []

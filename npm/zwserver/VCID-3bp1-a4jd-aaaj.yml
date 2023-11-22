@@ -1,0 +1,12 @@
+vulnerability_id: VCID-3bp1-a4jd-aaaj
+aliases:
+  - GMS-2017-235
+summary: |
+  Directory Traversal
+  `zwserver` is vulnerable to a directory traversal issue, giving an attacker access to the filesystem by placing "../" in the url./n
+severities: []
+references:
+  - id: 29144
+    url: https://github.com/JacksonGL/NPM-Vuln-PoC/tree/master/directory-traversal/zwserver
+    reference_id:
+weaknesses: []

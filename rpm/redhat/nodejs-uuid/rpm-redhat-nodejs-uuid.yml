@@ -1,0 +1,38 @@
+package: pkg:rpm/redhat/nodejs-uuid
+versions:
+  - purl: pkg:rpm/redhat/nodejs-uuid@2.0.1-1?arch=el7aos
+    affected_by_vulnerabilities:
+      - VCID-2kb5-6p12-aaab
+      - VCID-4f3q-g2t9-aaab
+      - VCID-4w9t-zd2t-aaab
+      - VCID-5776-beqd-aaag
+      - VCID-7gnu-sjwe-aaad
+      - VCID-8s2x-mfwc-aaap
+      - VCID-9jad-f5wx-aaak
+      - VCID-9spg-a9mw-aaaq
+      - VCID-bjna-ckcx-aaah
+      - VCID-bjut-nspy-aaak
+      - VCID-bs64-8qpb-aaaj
+      - VCID-ckvt-xv16-aaar
+      - VCID-e1cz-22xe-aaan
+      - VCID-ehdt-22mb-aaad
+      - VCID-j4st-d3w9-aaas
+      - VCID-j7h8-he58-aaah
+      - VCID-j8hn-wwq8-aaae
+      - VCID-jzxy-a9d4-aaak
+      - VCID-kedf-gvb8-aaaq
+      - VCID-kh6f-mr59-aaab
+      - VCID-kkyf-sr7e-aaap
+      - VCID-m2m9-cjjm-aaaq
+      - VCID-qnbf-9c5u-aaac
+      - VCID-r7fq-pzeg-aaab
+      - VCID-ra4c-p24e-aaaa
+      - VCID-rfcz-sxes-aaab
+      - VCID-rz2h-kfpb-aaap
+      - VCID-tu3g-n6mr-aaap
+      - VCID-v7c8-rs4u-aaag
+      - VCID-vgu6-wwr8-aaaa
+      - VCID-yejq-1aa9-aaac
+      - VCID-yqy8-6qrt-aaaa
+      - VCID-zgd1-4p4g-aaak
+    fixing_vulnerabilities: []

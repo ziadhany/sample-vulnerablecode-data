@@ -1,0 +1,397 @@
+package: pkg:nuget/Wasmtime
+versions:
+  - purl: pkg:nuget/Wasmtime@0.0.1-alpha1
+    affected_by_vulnerabilities:
+      - VCID-4ru2-6q1n-aaag
+      - VCID-8bmw-bnjd-aaah
+      - VCID-cvsz-5pqr-aaad
+      - VCID-d7zp-15rz-aaak
+      - VCID-rght-qz4x-aaam
+      - VCID-te4u-hv97-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wasmtime@0.12.0-preview1
+    affected_by_vulnerabilities:
+      - VCID-4ru2-6q1n-aaag
+      - VCID-8bmw-bnjd-aaah
+      - VCID-cvsz-5pqr-aaad
+      - VCID-d7zp-15rz-aaak
+      - VCID-rght-qz4x-aaam
+      - VCID-te4u-hv97-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wasmtime@0.15.0-preview1
+    affected_by_vulnerabilities:
+      - VCID-4ru2-6q1n-aaag
+      - VCID-8bmw-bnjd-aaah
+      - VCID-cvsz-5pqr-aaad
+      - VCID-d7zp-15rz-aaak
+      - VCID-rght-qz4x-aaam
+      - VCID-te4u-hv97-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wasmtime@0.18.0-preview1
+    affected_by_vulnerabilities:
+      - VCID-4ru2-6q1n-aaag
+      - VCID-8bmw-bnjd-aaah
+      - VCID-cvsz-5pqr-aaad
+      - VCID-d7zp-15rz-aaak
+      - VCID-rght-qz4x-aaam
+      - VCID-te4u-hv97-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wasmtime@0.18.1-preview1
+    affected_by_vulnerabilities:
+      - VCID-4ru2-6q1n-aaag
+      - VCID-8bmw-bnjd-aaah
+      - VCID-cvsz-5pqr-aaad
+      - VCID-d7zp-15rz-aaak
+      - VCID-rght-qz4x-aaam
+      - VCID-te4u-hv97-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wasmtime@0.19.0
+    affected_by_vulnerabilities:
+      - VCID-58ju-vgr5-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wasmtime@0.19.0-preview1
+    affected_by_vulnerabilities:
+      - VCID-4ru2-6q1n-aaag
+      - VCID-8bmw-bnjd-aaah
+      - VCID-cvsz-5pqr-aaad
+      - VCID-d7zp-15rz-aaak
+      - VCID-rght-qz4x-aaam
+      - VCID-te4u-hv97-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wasmtime@0.20.0-preview1
+    affected_by_vulnerabilities:
+      - VCID-4ru2-6q1n-aaag
+      - VCID-58ju-vgr5-aaac
+      - VCID-8bmw-bnjd-aaah
+      - VCID-cvsz-5pqr-aaad
+      - VCID-d7zp-15rz-aaak
+      - VCID-rght-qz4x-aaam
+      - VCID-te4u-hv97-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wasmtime@0.21.0-preview1
+    affected_by_vulnerabilities:
+      - VCID-4ru2-6q1n-aaag
+      - VCID-58ju-vgr5-aaac
+      - VCID-8bmw-bnjd-aaah
+      - VCID-cvsz-5pqr-aaad
+      - VCID-d7zp-15rz-aaak
+      - VCID-rght-qz4x-aaam
+      - VCID-te4u-hv97-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wasmtime@0.22.0-preview1
+    affected_by_vulnerabilities:
+      - VCID-4ru2-6q1n-aaag
+      - VCID-58ju-vgr5-aaac
+      - VCID-8bmw-bnjd-aaah
+      - VCID-cvsz-5pqr-aaad
+      - VCID-d7zp-15rz-aaak
+      - VCID-rght-qz4x-aaam
+      - VCID-te4u-hv97-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wasmtime@0.22.1-preview1
+    affected_by_vulnerabilities:
+      - VCID-4ru2-6q1n-aaag
+      - VCID-58ju-vgr5-aaac
+      - VCID-8bmw-bnjd-aaah
+      - VCID-cvsz-5pqr-aaad
+      - VCID-d7zp-15rz-aaak
+      - VCID-rght-qz4x-aaam
+      - VCID-te4u-hv97-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wasmtime@0.23.0-preview1
+    affected_by_vulnerabilities:
+      - VCID-4ru2-6q1n-aaag
+      - VCID-58ju-vgr5-aaac
+      - VCID-8bmw-bnjd-aaah
+      - VCID-cvsz-5pqr-aaad
+      - VCID-d7zp-15rz-aaak
+      - VCID-rght-qz4x-aaam
+      - VCID-te4u-hv97-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wasmtime@0.24.0-preview1
+    affected_by_vulnerabilities:
+      - VCID-4ru2-6q1n-aaag
+      - VCID-58ju-vgr5-aaac
+      - VCID-8bmw-bnjd-aaah
+      - VCID-cvsz-5pqr-aaad
+      - VCID-d7zp-15rz-aaak
+      - VCID-rght-qz4x-aaam
+      - VCID-te4u-hv97-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wasmtime@0.25.0-preview1
+    affected_by_vulnerabilities:
+      - VCID-4ru2-6q1n-aaag
+      - VCID-58ju-vgr5-aaac
+      - VCID-8bmw-bnjd-aaah
+      - VCID-cvsz-5pqr-aaad
+      - VCID-d7zp-15rz-aaak
+      - VCID-rght-qz4x-aaam
+      - VCID-te4u-hv97-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wasmtime@0.26.0
+    affected_by_vulnerabilities:
+      - VCID-tarv-fm24-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wasmtime@0.26.0-preview1
+    affected_by_vulnerabilities:
+      - VCID-4ru2-6q1n-aaag
+      - VCID-58ju-vgr5-aaac
+      - VCID-8bmw-bnjd-aaah
+      - VCID-cvsz-5pqr-aaad
+      - VCID-d7zp-15rz-aaak
+      - VCID-rght-qz4x-aaam
+      - VCID-te4u-hv97-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wasmtime@0.26.1-preview1
+    affected_by_vulnerabilities:
+      - VCID-4ru2-6q1n-aaag
+      - VCID-58ju-vgr5-aaac
+      - VCID-8bmw-bnjd-aaah
+      - VCID-cvsz-5pqr-aaad
+      - VCID-d7zp-15rz-aaak
+      - VCID-rght-qz4x-aaam
+      - VCID-tarv-fm24-aaaj
+      - VCID-te4u-hv97-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wasmtime@0.27.0-preview1
+    affected_by_vulnerabilities:
+      - VCID-4ru2-6q1n-aaag
+      - VCID-58ju-vgr5-aaac
+      - VCID-8bmw-bnjd-aaah
+      - VCID-cvsz-5pqr-aaad
+      - VCID-d7zp-15rz-aaak
+      - VCID-rght-qz4x-aaam
+      - VCID-tarv-fm24-aaaj
+      - VCID-te4u-hv97-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wasmtime@0.28.0-preview1
+    affected_by_vulnerabilities:
+      - VCID-4ru2-6q1n-aaag
+      - VCID-58ju-vgr5-aaac
+      - VCID-8bmw-bnjd-aaah
+      - VCID-cvsz-5pqr-aaad
+      - VCID-d7zp-15rz-aaak
+      - VCID-rght-qz4x-aaam
+      - VCID-tarv-fm24-aaaj
+      - VCID-te4u-hv97-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wasmtime@0.29.0-preview1
+    affected_by_vulnerabilities:
+      - VCID-4ru2-6q1n-aaag
+      - VCID-58ju-vgr5-aaac
+      - VCID-8bmw-bnjd-aaah
+      - VCID-cvsz-5pqr-aaad
+      - VCID-d7zp-15rz-aaak
+      - VCID-rght-qz4x-aaam
+      - VCID-tarv-fm24-aaaj
+      - VCID-te4u-hv97-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wasmtime@0.30.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-58ju-vgr5-aaac
+      - VCID-cvsz-5pqr-aaad
+      - VCID-tarv-fm24-aaaj
+  - purl: pkg:nuget/Wasmtime@0.30.0-preview1
+    affected_by_vulnerabilities:
+      - VCID-4ru2-6q1n-aaag
+      - VCID-8bmw-bnjd-aaah
+      - VCID-d7zp-15rz-aaak
+      - VCID-rght-qz4x-aaam
+      - VCID-te4u-hv97-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wasmtime@0.31.0-preview1
+    affected_by_vulnerabilities:
+      - VCID-4ru2-6q1n-aaag
+      - VCID-8bmw-bnjd-aaah
+      - VCID-d7zp-15rz-aaak
+      - VCID-rght-qz4x-aaam
+      - VCID-te4u-hv97-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wasmtime@0.32.0-preview1
+    affected_by_vulnerabilities:
+      - VCID-4ru2-6q1n-aaag
+      - VCID-8bmw-bnjd-aaah
+      - VCID-d7zp-15rz-aaak
+      - VCID-rght-qz4x-aaam
+      - VCID-te4u-hv97-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wasmtime@0.32.1-preview1
+    affected_by_vulnerabilities:
+      - VCID-4ru2-6q1n-aaag
+      - VCID-8bmw-bnjd-aaah
+      - VCID-d7zp-15rz-aaak
+      - VCID-rght-qz4x-aaam
+      - VCID-te4u-hv97-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wasmtime@0.33.0-preview1
+    affected_by_vulnerabilities:
+      - VCID-4ru2-6q1n-aaag
+      - VCID-8bmw-bnjd-aaah
+      - VCID-d7zp-15rz-aaak
+      - VCID-rght-qz4x-aaam
+      - VCID-te4u-hv97-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wasmtime@0.33.0-preview2
+    affected_by_vulnerabilities:
+      - VCID-4ru2-6q1n-aaag
+      - VCID-8bmw-bnjd-aaah
+      - VCID-d7zp-15rz-aaak
+      - VCID-rght-qz4x-aaam
+      - VCID-te4u-hv97-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wasmtime@0.34.0
+    affected_by_vulnerabilities:
+      - VCID-q6s2-rbcx-aaaa
+      - VCID-rzmv-kqrv-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wasmtime@0.34.0-preview1
+    affected_by_vulnerabilities:
+      - VCID-4ru2-6q1n-aaag
+      - VCID-8bmw-bnjd-aaah
+      - VCID-d7zp-15rz-aaak
+      - VCID-rght-qz4x-aaam
+      - VCID-te4u-hv97-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wasmtime@0.34.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-rzmv-kqrv-aaag
+  - purl: pkg:nuget/Wasmtime@0.35.0
+    affected_by_vulnerabilities:
+      - VCID-q6s2-rbcx-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wasmtime@0.35.0-preview1
+    affected_by_vulnerabilities:
+      - VCID-4ru2-6q1n-aaag
+      - VCID-8bmw-bnjd-aaah
+      - VCID-d7zp-15rz-aaak
+      - VCID-rght-qz4x-aaam
+      - VCID-te4u-hv97-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wasmtime@0.35.1-preview1
+    affected_by_vulnerabilities:
+      - VCID-4ru2-6q1n-aaag
+      - VCID-8bmw-bnjd-aaah
+      - VCID-d7zp-15rz-aaak
+      - VCID-rght-qz4x-aaam
+      - VCID-te4u-hv97-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wasmtime@0.35.2
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-q6s2-rbcx-aaaa
+  - purl: pkg:nuget/Wasmtime@0.35.2-preview1
+    affected_by_vulnerabilities:
+      - VCID-4ru2-6q1n-aaag
+      - VCID-8bmw-bnjd-aaah
+      - VCID-d7zp-15rz-aaak
+      - VCID-rght-qz4x-aaam
+      - VCID-te4u-hv97-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wasmtime@0.36.0-preview1
+    affected_by_vulnerabilities:
+      - VCID-4ru2-6q1n-aaag
+      - VCID-8bmw-bnjd-aaah
+      - VCID-d7zp-15rz-aaak
+      - VCID-rght-qz4x-aaam
+      - VCID-te4u-hv97-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wasmtime@0.37.0
+    affected_by_vulnerabilities:
+      - VCID-64a6-c7kn-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wasmtime@0.37.0-preview1
+    affected_by_vulnerabilities:
+      - VCID-4ru2-6q1n-aaag
+      - VCID-8bmw-bnjd-aaah
+      - VCID-d7zp-15rz-aaak
+      - VCID-rght-qz4x-aaam
+      - VCID-te4u-hv97-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wasmtime@0.38.0-preview1
+    affected_by_vulnerabilities:
+      - VCID-4ru2-6q1n-aaag
+      - VCID-64a6-c7kn-aaan
+      - VCID-8bmw-bnjd-aaah
+      - VCID-rght-qz4x-aaam
+      - VCID-te4u-hv97-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wasmtime@0.38.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-d7zp-15rz-aaak
+  - purl: pkg:nuget/Wasmtime@0.38.1-preview1
+    affected_by_vulnerabilities:
+      - VCID-4ru2-6q1n-aaag
+      - VCID-64a6-c7kn-aaan
+      - VCID-8bmw-bnjd-aaah
+      - VCID-rght-qz4x-aaam
+      - VCID-te4u-hv97-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wasmtime@0.39.0-preview1
+    affected_by_vulnerabilities:
+      - VCID-4ru2-6q1n-aaag
+      - VCID-rght-qz4x-aaam
+      - VCID-te4u-hv97-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wasmtime@0.39.1-preview1
+    affected_by_vulnerabilities:
+      - VCID-4ru2-6q1n-aaag
+      - VCID-rght-qz4x-aaam
+      - VCID-te4u-hv97-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wasmtime@0.39.1-preview2
+    affected_by_vulnerabilities:
+      - VCID-4ru2-6q1n-aaag
+      - VCID-rght-qz4x-aaam
+      - VCID-te4u-hv97-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wasmtime@0.40.0-preview1
+    affected_by_vulnerabilities:
+      - VCID-4ru2-6q1n-aaag
+      - VCID-rght-qz4x-aaam
+      - VCID-te4u-hv97-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wasmtime@0.8.0-preview1
+    affected_by_vulnerabilities:
+      - VCID-4ru2-6q1n-aaag
+      - VCID-8bmw-bnjd-aaah
+      - VCID-cvsz-5pqr-aaad
+      - VCID-d7zp-15rz-aaak
+      - VCID-rght-qz4x-aaam
+      - VCID-te4u-hv97-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wasmtime@0.8.0-preview2
+    affected_by_vulnerabilities:
+      - VCID-4ru2-6q1n-aaag
+      - VCID-8bmw-bnjd-aaah
+      - VCID-cvsz-5pqr-aaad
+      - VCID-d7zp-15rz-aaak
+      - VCID-rght-qz4x-aaam
+      - VCID-te4u-hv97-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wasmtime@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-4ru2-6q1n-aaag
+      - VCID-rght-qz4x-aaam
+      - VCID-te4u-hv97-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wasmtime@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-4ru2-6q1n-aaag
+      - VCID-rght-qz4x-aaam
+      - VCID-te4u-hv97-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wasmtime@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-4ru2-6q1n-aaag
+      - VCID-rght-qz4x-aaam
+      - VCID-te4u-hv97-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Wasmtime@2.0.1
+    affected_by_vulnerabilities:
+      - VCID-4ru2-6q1n-aaag
+      - VCID-rght-qz4x-aaam
+      - VCID-te4u-hv97-aaap
+    fixing_vulnerabilities: []

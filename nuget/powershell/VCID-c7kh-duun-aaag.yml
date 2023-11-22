@@ -1,0 +1,36 @@
+vulnerability_id: VCID-c7kh-duun-aaag
+aliases:
+  - CVE-2023-21538
+  - GHSA-8f7f-vqg5-jrv9
+summary: .NET Denial of Service Vulnerability
+severities:
+  - id: 707625
+    reference_id: 1470490
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 707624
+    reference_id: 1470487
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 1470491
+    url: https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GV5QDWYJ4C26JB7RTI55Z4O76WSH4FMV/
+    reference_id:
+  - id: 1470492
+    url: https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZI27LYW5C4Z4644WYIQWOXBZL7WIP2X6/
+    reference_id:
+  - id: 1470488
+    url: https://nvd.nist.gov/vuln/detail/CVE-2023-21538
+    reference_id: CVE-2023-21538
+  - id: 1470489
+    url: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2023-21538
+    reference_id: CVE-2023-21538
+  - id: 1470490
+    url: https://github.com/advisories/GHSA-8f7f-vqg5-jrv9
+    reference_id: GHSA-8f7f-vqg5-jrv9
+  - id: 1470487
+    url: https://github.com/dotnet/runtime/security/advisories/GHSA-8f7f-vqg5-jrv9
+    reference_id: GHSA-8f7f-vqg5-jrv9
+weaknesses: []

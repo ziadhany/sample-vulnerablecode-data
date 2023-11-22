@@ -1,0 +1,10 @@
+package: pkg:rpm/redhat/openvswitch2.17
+versions:
+  - purl: pkg:rpm/redhat/openvswitch2.17@2.17.0-32.3?arch=el9fdp
+    affected_by_vulnerabilities:
+      - VCID-p6ss-487e-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/openvswitch2.17@2.17.0-37.3?arch=el8fdp
+    affected_by_vulnerabilities:
+      - VCID-p6ss-487e-aaap
+    fixing_vulnerabilities: []

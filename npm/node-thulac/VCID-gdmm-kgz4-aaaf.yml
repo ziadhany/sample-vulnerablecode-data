@@ -1,0 +1,40 @@
+vulnerability_id: VCID-gdmm-kgz4-aaaf
+aliases:
+  - CVE-2016-10640
+  - GHSA-m2w9-rm58-mhm9
+summary: |
+  Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+  node-thulac is a node binding for thulac. node-thulac downloads binary resources over HTTP, which leaves it vulnerable to MITM attacks. It may be possible to cause remote code execution (RCE) by swapping out the requested binary with an attacker controlled binary if the attacker is on the network or positioned in between the user and the remote server.
+severities:
+  - id: 215147
+    reference_id: 36869
+    scoring_system: cvssv2
+    value: '9.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:C/I:C/A:C
+  - id: 215145
+    reference_id: 36869
+    scoring_system: cvssv3
+    value: '8.1'
+    scoring_elements: CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 705504
+    reference_id: 36870
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 36872
+    url: https://nodesecurity.io/advisories/236
+    reference_id:
+  - id: 36871
+    url: https://www.npmjs.com/advisories/236
+    reference_id:
+  - id: 628780
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:geohey:node-thulac:-:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:geohey:node-thulac:-:*:*:*:*:node.js:*:*
+  - id: 36869
+    url: https://nvd.nist.gov/vuln/detail/CVE-2016-10640
+    reference_id: CVE-2016-10640
+  - id: 36870
+    url: https://github.com/advisories/GHSA-m2w9-rm58-mhm9
+    reference_id: GHSA-m2w9-rm58-mhm9
+weaknesses: []

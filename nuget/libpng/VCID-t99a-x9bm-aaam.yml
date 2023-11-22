@@ -1,0 +1,88 @@
+vulnerability_id: VCID-t99a-x9bm-aaam
+aliases:
+  - CVE-2011-2691
+summary: |
+  NULL Pointer Dereference
+  The png_err function in pngerror.c in libpng  makes a function call using a NULL pointer argument instead of an empty-string argument, which allows remote attackers to cause a denial of service (application crash) via a crafted PNG image.
+severities:
+  - id: 144752
+    reference_id: 37854
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:N/A:P
+  - id: 144750
+    reference_id: 37854
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+references:
+  - id: 461256
+    url: http://libpng.git.sourceforge.net/git/gitweb.cgi?p=libpng/libpng;a=commit;h=9dad5e37aef295b4ef8dea39392b652deebc9261
+    reference_id:
+  - id: 308680
+    url: http://lists.apple.com/archives/Security-announce/2011//Oct/msg00003.html
+    reference_id:
+  - id: 460118
+    url: http://lists.fedoraproject.org/pipermail/package-announce/2011-July/063118.html
+    reference_id:
+  - id: 347450
+    url: http://marc.info/?l=bugtraq&m=133951357207000&w=2
+    reference_id:
+  - id: '196401'
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2011-2691.json
+    reference_id:
+  - id: 461257
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=720608
+    reference_id:
+  - id: 460119
+    url: http://secunia.com/advisories/45046
+    reference_id:
+  - id: 460121
+    url: http://secunia.com/advisories/45405
+    reference_id:
+  - id: 460125
+    url: http://secunia.com/advisories/45492
+    reference_id:
+  - id: 341404
+    url: http://secunia.com/advisories/49660
+    reference_id:
+  - id: 341405
+    url: http://security.gentoo.org/glsa/glsa-201206-15.xml
+    reference_id:
+  - id: 461258
+    url: https://exchange.xforce.ibmcloud.com/vulnerabilities/68537
+    reference_id:
+  - id: 308688
+    url: http://support.apple.com/kb/HT5002
+    reference_id:
+  - id: 460128
+    url: http://www.debian.org/security/2011/dsa-2287
+    reference_id:
+  - id: 149554
+    url: http://www.libpng.org/pub/png/libpng.html
+    reference_id:
+  - id: 460129
+    url: http://www.mandriva.com/security/advisories?name=MDVSA-2011:151
+    reference_id:
+  - id: 461251
+    url: http://www.openwall.com/lists/oss-security/2011/07/13/2
+    reference_id:
+  - id: 461253
+    url: http://www.securityfocus.com/bid/48660
+    reference_id:
+  - id: 149566
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:libpng:libpng:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:libpng:libpng:*:*:*:*:*:*:*:*
+  - id: 152410
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:debian:debian_linux:5.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:debian:debian_linux:5.0:*:*:*:*:*:*:*
+  - id: 79273
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:debian:debian_linux:6.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:debian:debian_linux:6.0:*:*:*:*:*:*:*
+  - id: 398114
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:fedoraproject:fedora:14:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:fedoraproject:fedora:14:*:*:*:*:*:*:*
+  - id: 37854
+    url: https://nvd.nist.gov/vuln/detail/CVE-2011-2691
+    reference_id: CVE-2011-2691
+weaknesses: []

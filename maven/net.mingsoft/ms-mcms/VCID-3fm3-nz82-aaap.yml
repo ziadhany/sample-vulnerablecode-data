@@ -1,0 +1,35 @@
+vulnerability_id: VCID-3fm3-nz82-aaap
+aliases:
+  - CVE-2021-46036
+  - GHSA-g8j8-mgh9-q77p
+summary: File upload leading to RCE in MCMS
+severities:
+  - id: 573116
+    reference_id: 9531
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 573114
+    reference_id: 9531
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 790
+    reference_id: 9532
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 1131
+    url: https://lycshub.github.io/2021/12/28/MCMS-vulnerabilities/
+    reference_id:
+  - id: 907011
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:mingsoft:mcms:5.2.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:mingsoft:mcms:5.2.4:*:*:*:*:*:*:*
+  - id: 9531
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-46036
+    reference_id: CVE-2021-46036
+  - id: 9532
+    url: https://github.com/advisories/GHSA-g8j8-mgh9-q77p
+    reference_id: GHSA-g8j8-mgh9-q77p
+weaknesses: []

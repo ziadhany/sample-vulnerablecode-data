@@ -1,0 +1,9 @@
+package: pkg:rpm/redhat/jenkins-plugin-mapdb-api
+versions:
+  - purl: pkg:rpm/redhat/jenkins-plugin-mapdb-api@1.0.9.0-10?arch=el7
+    affected_by_vulnerabilities:
+      - VCID-3qb1-f6fw-aaad
+      - VCID-8g31-3v68-aaan
+      - VCID-kac9-8rqu-aaaa
+      - VCID-sb3k-9d77-aaab
+    fixing_vulnerabilities: []

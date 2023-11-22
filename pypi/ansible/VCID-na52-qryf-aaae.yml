@@ -1,0 +1,89 @@
+vulnerability_id: VCID-na52-qryf-aaae
+aliases:
+  - CVE-2020-1736
+  - GHSA-x7jh-595q-wq82
+  - PYSEC-2020-8
+summary: A flaw was found in Ansible Engine when a file is moved using atomic_move primitive
+  as the file mode cannot be specified. This sets the destination files world-readable if the
+  destination file does not exist and if the file exists, the file could be changed to have
+  less restrictive permissions before the move. This could lead to the disclosure of sensitive
+  data. All versions in 2.7.x, 2.8.x and 2.9.x branches are believed to be vulnerable.
+severities:
+  - id: 54988
+    reference_id: 180124
+    scoring_system: cvssv3
+    value: '2.2'
+    scoring_elements: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:N/A:N
+  - id: 450610
+    reference_id: 22306
+    scoring_system: cvssv2
+    value: '2.1'
+    scoring_elements: AV:L/AC:L/Au:N/C:P/I:N/A:N
+  - id: 450608
+    reference_id: 22306
+    scoring_system: cvssv3
+    value: '3.3'
+    scoring_elements: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N
+  - id: 4397
+    reference_id: 25002
+    scoring_system: cvssv3.1_qr
+    value: LOW
+    scoring_elements:
+  - id: 53250
+    reference_id: 178283
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 180124
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2020-1736.json
+    reference_id:
+  - id: 7305
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2020-1736
+    reference_id:
+  - id: 7306
+    url: https://github.com/ansible/ansible/issues/67794
+    reference_id:
+  - id: 7307
+    url: https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/2NYYQP2XJB2TTRP6AKWVMBSPB2DFJNKD/
+    reference_id:
+  - id: 7308
+    url: https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BPNZWBAUP4ZHUR6PO7U6ZXEKNCX62KZ7/
+    reference_id:
+  - id: 6564
+    url: https://security.gentoo.org/glsa/202006-11
+    reference_id:
+  - id: 39451
+    url: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=966663
+    reference_id: 966663
+  - id: 163666
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:ansible:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:ansible:*:*:*:*:*:*:*:*
+  - id: 655192
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:ansible_tower:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:ansible_tower:*:*:*:*:*:*:*:*
+  - id: 511587
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:cloudforms_management_engine:5.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:cloudforms_management_engine:5.0:*:*:*:*:*:*:*
+  - id: 637842
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openstack:13:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:openstack:13:*:*:*:*:*:*:*
+  - id: 622149
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:fedoraproject:fedora:31:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:fedoraproject:fedora:31:*:*:*:*:*:*:*
+  - id: 171672
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:fedoraproject:fedora:32:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:fedoraproject:fedora:32:*:*:*:*:*:*:*
+  - id: 22306
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-1736
+    reference_id: CVE-2020-1736
+  - id: 25002
+    url: https://github.com/advisories/GHSA-x7jh-595q-wq82
+    reference_id: GHSA-x7jh-595q-wq82
+  - id: 180123
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1802124
+    reference_id: RHBA-2020:1539
+  - id: 178283
+    url: https://access.redhat.com/errata/RHSA-2020:3600
+    reference_id: RHSA-2020:3600
+weaknesses: []

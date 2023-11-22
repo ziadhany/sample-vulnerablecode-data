@@ -1,0 +1,118 @@
+vulnerability_id: VCID-97v9-f7mp-aaan
+aliases:
+  - CVE-2022-23913
+  - GHSA-pr38-qpxm-g88x
+summary: Uncontrolled Resource Consumption in Apache ActiveMQ Artemis
+severities:
+  - id: 39874
+    reference_id: 162908
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 39873
+    reference_id: 162907
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 587725
+    reference_id: 9555
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 587723
+    reference_id: 9555
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 796
+    reference_id: 9564
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 20244
+    reference_id: 85116
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 20243
+    reference_id: 85115
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 20242
+    reference_id: 85114
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 529776
+    reference_id: 877841
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 638825
+    reference_id: 951961
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 162908
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-23913.json
+    reference_id:
+  - id: 9557
+    url: https://github.com/apache/activemq-artemis/pull/3862
+    reference_id:
+  - id: 9558
+    url: https://github.com/apache/activemq-artemis/pull/3862/commits/1f92368240229b8f5db92a92a72c703faf83e9b7
+    reference_id:
+  - id: 9559
+    url: https://github.com/apache/activemq-artemis/pull/3871
+    reference_id:
+  - id: 9560
+    url: https://github.com/apache/activemq-artemis/pull/3871/commits/153d2e9a979aead8dff95fbc91d659ecc7d0fb82
+    reference_id:
+  - id: 9563
+    url: https://github.com/github/codeql-java-CVE-coverage/issues/1061
+    reference_id:
+  - id: 9561
+    url: https://issues.apache.org/jira/browse/ARTEMIS-3593
+    reference_id:
+  - id: 9556
+    url: https://lists.apache.org/thread/fjynj57rd99s814rdn5hzvmx8lz403q2
+    reference_id:
+  - id: 9562
+    url: https://security.netapp.com/advisory/ntap-20220303-0003/
+    reference_id:
+  - id: 162907
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=2063601
+    reference_id: 2063601
+  - id: 647042
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:activemq_artemis:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:activemq_artemis:*:*:*:*:*:*:*:*
+  - id: 766418
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:netapp:active_iq_unified_manager:-:*:*:*:*:windows:*:*
+    reference_id: cpe:2.3:a:netapp:active_iq_unified_manager:-:*:*:*:*:windows:*:*
+  - id: 169590
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:netapp:oncommand_workflow_automation:-:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:netapp:oncommand_workflow_automation:-:*:*:*:*:*:*:*
+  - id: 9555
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-23913
+    reference_id: CVE-2022-23913
+  - id: 9564
+    url: https://github.com/advisories/GHSA-pr38-qpxm-g88x
+    reference_id: GHSA-pr38-qpxm-g88x
+  - id: 85116
+    url: https://access.redhat.com/errata/RHSA-2022:4918
+    reference_id: RHSA-2022:4918
+  - id: 85115
+    url: https://access.redhat.com/errata/RHSA-2022:4919
+    reference_id: RHSA-2022:4919
+  - id: 85114
+    url: https://access.redhat.com/errata/RHSA-2022:4922
+    reference_id: RHSA-2022:4922
+  - id: 877841
+    url: https://access.redhat.com/errata/RHSA-2022:5101
+    reference_id: RHSA-2022:5101
+  - id: 951961
+    url: https://access.redhat.com/errata/RHSA-2022:5532
+    reference_id: RHSA-2022:5532
+weaknesses: []

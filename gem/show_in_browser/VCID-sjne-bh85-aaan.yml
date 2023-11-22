@@ -1,0 +1,39 @@
+vulnerability_id: VCID-sjne-bh85-aaan
+aliases:
+  - CVE-2013-2105
+  - GHSA-9hx9-w2j6-rw76
+summary: Low severity vulnerability that affects show_in_browser
+severities:
+  - id: 164833
+    reference_id: 27362
+    scoring_system: cvssv2
+    value: '3.3'
+    scoring_elements: AV:L/AC:M/Au:N/C:N/I:P/A:P
+  - id: 4961
+    reference_id: 27364
+    scoring_system: cvssv3.1_qr
+    value: LOW
+    scoring_elements:
+references:
+  - id: 27363
+    url: https://exchange.xforce.ibmcloud.com/vulnerabilities/84378
+    reference_id:
+  - id: 27365
+    url: http://vapid.dhs.org/advisories/show_in_browser.html
+    reference_id:
+  - id: 39220
+    url: http://vapid.dhs.org/advisories/show_in_browser_tmp_vuln.html
+    reference_id:
+  - id: 27366
+    url: http://www.openwall.com/lists/oss-security/2013/05/18/4
+    reference_id:
+  - id: 523116
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:jonathan_leung:show_in_browser:0.0.3:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:jonathan_leung:show_in_browser:0.0.3:*:*:*:*:ruby:*:*
+  - id: 27362
+    url: https://nvd.nist.gov/vuln/detail/CVE-2013-2105
+    reference_id: CVE-2013-2105
+  - id: 27364
+    url: https://github.com/advisories/GHSA-9hx9-w2j6-rw76
+    reference_id: GHSA-9hx9-w2j6-rw76
+weaknesses: []

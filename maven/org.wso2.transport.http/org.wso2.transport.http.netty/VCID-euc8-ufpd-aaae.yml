@@ -1,0 +1,35 @@
+vulnerability_id: VCID-euc8-ufpd-aaae
+aliases:
+  - CVE-2019-10797
+  - GHSA-rvpc-w57p-q95f
+summary: HTTP Response Splitting in WSO2 transport-http
+severities:
+  - id: 369525
+    reference_id: 12231
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+  - id: 369523
+    reference_id: 12231
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N
+  - id: 1272
+    reference_id: 12233
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 12232
+    url: https://snyk.io/vuln/SNYK-JAVA-ORGWSO2TRANSPORTHTTP-548944
+    reference_id:
+  - id: 768230
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:wso2:transport-http:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:wso2:transport-http:*:*:*:*:*:*:*:*
+  - id: 12231
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-10797
+    reference_id: CVE-2019-10797
+  - id: 12233
+    url: https://github.com/advisories/GHSA-rvpc-w57p-q95f
+    reference_id: GHSA-rvpc-w57p-q95f
+weaknesses: []

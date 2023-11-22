@@ -1,0 +1,142 @@
+vulnerability_id: VCID-nz9g-epr4-aaar
+aliases:
+  - CVE-2014-3623
+  - GHSA-99v3-9x35-c5vf
+summary: |
+  Improper Authentication
+  When using `TransportBinding`, wss4j does not properly enforce the SAML SubjectConfirmation method security semantics, which allows remote attackers to conduct spoofing attacks via unspecified vectors.
+severities:
+  - id: 57978
+    reference_id: 184154
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 180751
+    reference_id: 567926
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:P/A:N
+  - id: 630152
+    reference_id: 946142
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 57979
+    reference_id: 184155
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 57980
+    reference_id: 184156
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 57819
+    reference_id: 183952
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 56522
+    reference_id: 182220
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 56491
+    reference_id: 182176
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 56490
+    reference_id: 182175
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 567922
+    url: http://rhn.redhat.com/errata/RHSA-2015-0236.html
+    reference_id:
+  - id: 13703
+    url: http://rhn.redhat.com/errata/RHSA-2015-0675.html
+    reference_id:
+  - id: 13705
+    url: http://rhn.redhat.com/errata/RHSA-2015-0850.html
+    reference_id:
+  - id: 13706
+    url: http://rhn.redhat.com/errata/RHSA-2015-0851.html
+    reference_id:
+  - id: 184157
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2014-3623.json
+    reference_id:
+  - id: 567695
+    url: http://seclists.org/oss-sec/2014/q4/437
+    reference_id:
+  - id: 567696
+    url: http://secunia.com/advisories/61909
+    reference_id:
+  - id: 567924
+    url: https://exchange.xforce.ibmcloud.com/vulnerabilities/97754
+    reference_id:
+  - id: 567925
+    url: https://issues.apache.org/jira/browse/WSS-511
+    reference_id:
+  - id: 10867
+    url: https://lists.apache.org/thread.html/r36e44ffc1a9b365327df62cdfaabe85b9a5637de102cea07d79b2dbf@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10866
+    url: https://lists.apache.org/thread.html/rc774278135816e7afc943dc9fc78eb0764f2c84a2b96470a0187315c@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10872
+    url: https://lists.apache.org/thread.html/rd49aabd984ed540c8ff7916d4d79405f3fa311d2fdbcf9ed307839a6@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10860
+    url: https://lists.apache.org/thread.html/rec7160382badd3ef4ad017a22f64a266c7188b9ba71394f0d321e2d4@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10862
+    url: https://lists.apache.org/thread.html/rfb87e0bf3995e7d560afeed750fac9329ff5f1ad49da365129b7f89e@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10873
+    url: https://lists.apache.org/thread.html/rff42cfa5e7d75b7c1af0e37589140a8f1999e578a75738740b244bd4@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 567923
+    url: http://www.securityfocus.com/bid/70736
+    reference_id:
+  - id: 184154
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1157304
+    reference_id: 1157304
+  - id: 158434
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:*:*:*:*:*:*:*:*
+  - id: 460036
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:wss4j:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:wss4j:*:*:*:*:*:*:*:*
+  - id: 26222
+    url: https://bugzilla.redhat.com/CVE-2014-3623
+    reference_id: CVE-2014-3623
+  - id: 567926
+    url: https://nvd.nist.gov/vuln/detail/CVE-2014-3623
+    reference_id: CVE-2014-3623
+  - id: 26221
+    url: http://cxf.apache.org/security-advisories.data/CVE-2014-3623.txt.asc
+    reference_id: CVE-2014-3623.TXT.ASC
+  - id: 946142
+    url: https://github.com/advisories/GHSA-99v3-9x35-c5vf
+    reference_id: GHSA-99v3-9x35-c5vf
+  - id: 184155
+    url: https://access.redhat.com/errata/RHSA-2014:2019
+    reference_id: RHSA-2014:2019
+  - id: 184156
+    url: https://access.redhat.com/errata/RHSA-2014:2020
+    reference_id: RHSA-2014:2020
+  - id: 183952
+    url: https://access.redhat.com/errata/RHSA-2015:0236
+    reference_id: RHSA-2015:0236
+  - id: 182220
+    url: https://access.redhat.com/errata/RHSA-2015:0675
+    reference_id: RHSA-2015:0675
+  - id: 182176
+    url: https://access.redhat.com/errata/RHSA-2015:0850
+    reference_id: RHSA-2015:0850
+  - id: 182175
+    url: https://access.redhat.com/errata/RHSA-2015:0851
+    reference_id: RHSA-2015:0851
+weaknesses: []

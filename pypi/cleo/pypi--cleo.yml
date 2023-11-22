@@ -1,0 +1,118 @@
+package: pkg:pypi/cleo
+versions:
+  - purl: pkg:pypi/cleo@0.2.0
+    affected_by_vulnerabilities:
+      - VCID-2k7e-mxjc-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cleo@0.3.0
+    affected_by_vulnerabilities:
+      - VCID-2k7e-mxjc-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cleo@0.4.0
+    affected_by_vulnerabilities:
+      - VCID-2k7e-mxjc-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cleo@0.4.1
+    affected_by_vulnerabilities:
+      - VCID-2k7e-mxjc-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cleo@0.5.0
+    affected_by_vulnerabilities:
+      - VCID-2k7e-mxjc-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cleo@0.6.0
+    affected_by_vulnerabilities:
+      - VCID-2k7e-mxjc-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cleo@0.6.1
+    affected_by_vulnerabilities:
+      - VCID-2k7e-mxjc-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cleo@0.6.2
+    affected_by_vulnerabilities:
+      - VCID-2k7e-mxjc-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cleo@0.6.3
+    affected_by_vulnerabilities:
+      - VCID-2k7e-mxjc-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cleo@0.6.4
+    affected_by_vulnerabilities:
+      - VCID-2k7e-mxjc-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cleo@0.6.4b1
+    affected_by_vulnerabilities:
+      - VCID-2k7e-mxjc-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cleo@0.6.5
+    affected_by_vulnerabilities:
+      - VCID-2k7e-mxjc-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cleo@0.6.6
+    affected_by_vulnerabilities:
+      - VCID-2k7e-mxjc-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cleo@0.6.7
+    affected_by_vulnerabilities:
+      - VCID-2k7e-mxjc-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cleo@0.6.8
+    affected_by_vulnerabilities:
+      - VCID-2k7e-mxjc-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cleo@0.7.0
+    affected_by_vulnerabilities:
+      - VCID-2k7e-mxjc-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cleo@0.7.1
+    affected_by_vulnerabilities:
+      - VCID-2k7e-mxjc-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cleo@0.7.2
+    affected_by_vulnerabilities:
+      - VCID-2k7e-mxjc-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cleo@0.7.3
+    affected_by_vulnerabilities:
+      - VCID-2k7e-mxjc-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cleo@0.7.4
+    affected_by_vulnerabilities:
+      - VCID-2k7e-mxjc-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cleo@0.7.5
+    affected_by_vulnerabilities:
+      - VCID-2k7e-mxjc-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cleo@0.7.6
+    affected_by_vulnerabilities:
+      - VCID-2k7e-mxjc-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cleo@0.8.0
+    affected_by_vulnerabilities:
+      - VCID-2k7e-mxjc-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cleo@0.8.1
+    affected_by_vulnerabilities:
+      - VCID-2k7e-mxjc-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cleo@1.0.0a1
+    affected_by_vulnerabilities:
+      - VCID-2k7e-mxjc-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cleo@1.0.0a2
+    affected_by_vulnerabilities:
+      - VCID-2k7e-mxjc-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cleo@1.0.0a3
+    affected_by_vulnerabilities:
+      - VCID-2k7e-mxjc-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cleo@1.0.0a4
+    affected_by_vulnerabilities:
+      - VCID-2k7e-mxjc-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/cleo@1.0.0a5
+    affected_by_vulnerabilities:
+      - VCID-2k7e-mxjc-aaaj
+    fixing_vulnerabilities: []

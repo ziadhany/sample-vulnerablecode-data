@@ -1,0 +1,33 @@
+vulnerability_id: VCID-h132-rvch-aaan
+aliases:
+  - CVE-2014-4671A
+summary: |
+  rosetta-flash jsonp vulnerability
+  Someone created a alphanum only swf converter, which means that they can in theory use it as a callback at a JSONP endpoint, and as a result, send data across domains. Prepending callbacks with an empty inline comment breaks the flash parser, and prevents the issue. This is a fairly common solution currently being implemented by Google, Facebook, and Github.
+severities:
+  - id: 708417
+    reference_id: 1473377
+    scoring_system: cvssv3
+    value: '7.4'
+    scoring_elements:
+  - id: 708416
+    reference_id: 1473376
+    scoring_system: cvssv3
+    value: '7.4'
+    scoring_elements:
+  - id: 708418
+    reference_id: 1473378
+    scoring_system: cvssv3
+    value: '7.4'
+    scoring_elements:
+references:
+  - id: 1473377
+    url: https://github.com/patrickkettner)
+    reference_id:
+  - id: 1473376
+    url: https://github.com/spumko/hapi/pull/1766)
+    reference_id:
+  - id: 1473378
+    url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/12.json
+    reference_id: 12
+weaknesses: []

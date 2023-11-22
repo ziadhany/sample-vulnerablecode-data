@@ -1,0 +1,185 @@
+vulnerability_id: VCID-731z-2fss-aaaq
+aliases:
+  - CVE-2013-6954
+summary: |
+  Uncontrolled Resource Consumption
+  The png_do_expand_palette function in libpng allows remote attackers to cause a denial of service (NULL pointer dereference and application crash) via (1) a PLTE chunk of zero bytes or (2) a NULL palette, related to pngrtran.c and pngset.c.
+severities:
+  - id: 654343
+    reference_id: 519235
+    scoring_system: generic_textual
+    value: Low
+    scoring_elements:
+  - id: 172935
+    reference_id: 37851
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 59787
+    reference_id: 186572
+    scoring_system: rhas
+    value: Critical
+    scoring_elements:
+  - id: 59590
+    reference_id: 186298
+    scoring_system: rhas
+    value: Critical
+    scoring_elements:
+  - id: 59592
+    reference_id: 186300
+    scoring_system: rhas
+    value: Critical
+    scoring_elements:
+  - id: 59591
+    reference_id: 186299
+    scoring_system: rhas
+    value: Critical
+    scoring_elements:
+  - id: 59589
+    reference_id: 186297
+    scoring_system: rhas
+    value: Low
+    scoring_elements:
+references:
+  - id: 546436
+    url: http://advisories.mageia.org/MGASA-2014-0075.html
+    reference_id:
+  - id: 546437
+    url: http://lists.fedoraproject.org/pipermail/package-announce/2014-February/127947.html
+    reference_id:
+  - id: 546438
+    url: http://lists.fedoraproject.org/pipermail/package-announce/2014-February/127952.html
+    reference_id:
+  - id: 546439
+    url: http://lists.fedoraproject.org/pipermail/package-announce/2014-February/128098.html
+    reference_id:
+  - id: 546440
+    url: http://lists.fedoraproject.org/pipermail/package-announce/2014-February/128099.html
+    reference_id:
+  - id: 546441
+    url: http://lists.fedoraproject.org/pipermail/package-announce/2014-February/128114.html
+    reference_id:
+  - id: 546442
+    url: http://lists.opensuse.org/opensuse-updates/2014-01/msg00071.html
+    reference_id:
+  - id: 544728
+    url: http://marc.info/?l=bugtraq&m=140852886808946&w=2
+    reference_id:
+  - id: 544729
+    url: http://marc.info/?l=bugtraq&m=140852974709252&w=2
+    reference_id:
+  - id: 544736
+    url: https://access.redhat.com/errata/RHSA-2014:0413
+    reference_id:
+  - id: 502947
+    url: https://access.redhat.com/errata/RHSA-2014:0414
+    reference_id:
+  - id: 187954
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2013-6954.json
+    reference_id:
+  - id: 546448
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1045561
+    reference_id:
+  - id: 544731
+    url: http://secunia.com/advisories/58974
+    reference_id:
+  - id: 544732
+    url: http://secunia.com/advisories/59058
+    reference_id:
+  - id: 397964
+    url: http://security.gentoo.org/glsa/glsa-201406-32.xml
+    reference_id:
+  - id: 546443
+    url: http://sourceforge.net/p/libpng/code/ci/1faa6ff32c648acfe3cf30a58d31d7aebc24968c
+    reference_id:
+  - id: 546444
+    url: http://sourceforge.net/projects/libpng/files/libpng16/1.6.8/
+    reference_id:
+  - id: 544739
+    url: https://www.ibm.com/support/docview.wss?uid=swg21675973
+    reference_id:
+  - id: 544733
+    url: http://www-01.ibm.com/support/docview.wss?uid=swg21672080
+    reference_id:
+  - id: 544734
+    url: http://www-01.ibm.com/support/docview.wss?uid=swg21676746
+    reference_id:
+  - id: 546445
+    url: http://www.kb.cert.org/vuls/id/650142
+    reference_id:
+  - id: 149554
+    url: http://www.libpng.org/pub/png/libpng.html
+    reference_id:
+  - id: 546446
+    url: http://www.mandriva.com/security/advisories?name=MDVSA-2014:035
+    reference_id:
+  - id: 519235
+    url: http://www.oracle.com/technetwork/topics/security/cpuapr2014-1972952.html
+    reference_id:
+  - id: 546447
+    url: http://www.securityfocus.com/bid/64493
+    reference_id:
+  - id: 546450
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:libpng:libpng:1.6.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:libpng:libpng:1.6.0:*:*:*:*:*:*:*
+  - id: 546451
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:libpng:libpng:1.6.0:beta:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:libpng:libpng:1.6.0:beta:*:*:*:*:*:*
+  - id: 546452
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:libpng:libpng:1.6.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:libpng:libpng:1.6.1:*:*:*:*:*:*:*
+  - id: 546453
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:libpng:libpng:1.6.1:beta:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:libpng:libpng:1.6.1:beta:*:*:*:*:*:*
+  - id: 546454
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:libpng:libpng:1.6.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:libpng:libpng:1.6.2:*:*:*:*:*:*:*
+  - id: 546455
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:libpng:libpng:1.6.2:beta:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:libpng:libpng:1.6.2:beta:*:*:*:*:*:*
+  - id: 546456
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:libpng:libpng:1.6.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:libpng:libpng:1.6.3:*:*:*:*:*:*:*
+  - id: 546457
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:libpng:libpng:1.6.3:beta:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:libpng:libpng:1.6.3:beta:*:*:*:*:*:*
+  - id: 546458
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:libpng:libpng:1.6.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:libpng:libpng:1.6.4:*:*:*:*:*:*:*
+  - id: 546459
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:libpng:libpng:1.6.4:beta:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:libpng:libpng:1.6.4:beta:*:*:*:*:*:*
+  - id: 546460
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:libpng:libpng:1.6.5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:libpng:libpng:1.6.5:*:*:*:*:*:*:*
+  - id: 546461
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:libpng:libpng:1.6.6:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:libpng:libpng:1.6.6:*:*:*:*:*:*:*
+  - id: 546462
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:libpng:libpng:1.6.7:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:libpng:libpng:1.6.7:*:*:*:*:*:*:*
+  - id: 546463
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:libpng:libpng:1.6.7:beta:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:libpng:libpng:1.6.7:beta:*:*:*:*:*:*
+  - id: 546449
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:libpng:libpng:*:beta:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:libpng:libpng:*:beta:*:*:*:*:*:*
+  - id: 37851
+    url: https://nvd.nist.gov/vuln/detail/CVE-2013-6954
+    reference_id: CVE-2013-6954
+  - id: 186572
+    url: https://access.redhat.com/errata/RHSA-2014:0412
+    reference_id: RHSA-2014:0412
+  - id: 186298
+    url: https://access.redhat.com/errata/RHSA-2014:0486
+    reference_id: RHSA-2014:0486
+  - id: 186300
+    url: https://access.redhat.com/errata/RHSA-2014:0508
+    reference_id: RHSA-2014:0508
+  - id: 186299
+    url: https://access.redhat.com/errata/RHSA-2014:0705
+    reference_id: RHSA-2014:0705
+  - id: 186297
+    url: https://access.redhat.com/errata/RHSA-2014:0982
+    reference_id: RHSA-2014:0982
+weaknesses: []

@@ -1,0 +1,52 @@
+package: pkg:npm/ldapauth
+versions:
+  - purl: pkg:npm/ldapauth@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-1sy5-pjxk-aaaa
+      - VCID-eece-v8sf-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ldapauth@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-1sy5-pjxk-aaaa
+      - VCID-eece-v8sf-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ldapauth@1.0.2
+    affected_by_vulnerabilities:
+      - VCID-1sy5-pjxk-aaaa
+      - VCID-eece-v8sf-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ldapauth@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-1sy5-pjxk-aaaa
+      - VCID-eece-v8sf-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ldapauth@2.1.0
+    affected_by_vulnerabilities:
+      - VCID-1sy5-pjxk-aaaa
+      - VCID-eece-v8sf-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ldapauth@2.2.0
+    affected_by_vulnerabilities:
+      - VCID-1sy5-pjxk-aaaa
+      - VCID-eece-v8sf-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ldapauth@2.2.1
+    affected_by_vulnerabilities:
+      - VCID-1sy5-pjxk-aaaa
+      - VCID-eece-v8sf-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ldapauth@2.2.2
+    affected_by_vulnerabilities:
+      - VCID-1sy5-pjxk-aaaa
+      - VCID-eece-v8sf-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ldapauth@2.2.3
+    affected_by_vulnerabilities:
+      - VCID-1sy5-pjxk-aaaa
+      - VCID-eece-v8sf-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ldapauth@2.2.4
+    affected_by_vulnerabilities:
+      - VCID-eece-v8sf-aaam
+    fixing_vulnerabilities:
+      - VCID-1sy5-pjxk-aaaa

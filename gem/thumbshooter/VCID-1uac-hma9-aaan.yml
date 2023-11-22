@@ -1,0 +1,45 @@
+vulnerability_id: VCID-1uac-hma9-aaan
+aliases:
+  - CVE-2013-1898
+  - GHSA-7fqj-cg79-f2pv
+summary: High severity vulnerability that affects thumbshooter
+severities:
+  - id: 164353
+    reference_id: 30428
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 5324
+    reference_id: 30429
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 30430
+    url: http://osvdb.org/91839
+    reference_id:
+  - id: 30431
+    url: http://seclists.org/fulldisclosure/2013/Mar/218
+    reference_id:
+  - id: 30432
+    url: http://vapid.dhs.org/advisories/thumbshooter-ruby-gem-remoteexec.html
+    reference_id:
+  - id: 39033
+    url: http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2013-1898
+    reference_id:
+  - id: 30433
+    url: http://www.openwall.com/lists/oss-security/2013/03/26/13
+    reference_id:
+  - id: 30434
+    url: http://www.openwall.com/lists/oss-security/2013/03/26/3
+    reference_id:
+  - id: 521292
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:digineo:thumbshooter:0.1.5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:digineo:thumbshooter:0.1.5:*:*:*:*:*:*:*
+  - id: 30428
+    url: https://nvd.nist.gov/vuln/detail/CVE-2013-1898
+    reference_id: CVE-2013-1898
+  - id: 30429
+    url: https://github.com/advisories/GHSA-7fqj-cg79-f2pv
+    reference_id: GHSA-7fqj-cg79-f2pv
+weaknesses: []

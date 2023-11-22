@@ -1,0 +1,17 @@
+package: pkg:rpm/redhat/jenkins-plugin-kubernetes
+versions:
+  - purl: pkg:rpm/redhat/jenkins-plugin-kubernetes@0.11-10?arch=el7
+    affected_by_vulnerabilities:
+      - VCID-3qb1-f6fw-aaad
+      - VCID-8g31-3v68-aaan
+      - VCID-kac9-8rqu-aaaa
+      - VCID-sb3k-9d77-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/jenkins-plugin-kubernetes@0.5-1?arch=el7
+    affected_by_vulnerabilities:
+      - VCID-643s-7stg-aaab
+      - VCID-7enm-tzmq-aaaa
+      - VCID-atfv-3da1-aaab
+      - VCID-svn1-swuq-aaak
+      - VCID-wawa-2kgz-aaap
+    fixing_vulnerabilities: []

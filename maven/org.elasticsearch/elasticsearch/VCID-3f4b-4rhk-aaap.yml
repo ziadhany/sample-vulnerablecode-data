@@ -1,0 +1,71 @@
+vulnerability_id: VCID-3f4b-4rhk-aaap
+aliases:
+  - CVE-2019-7611
+  - GHSA-fj32-6v7m-57pg
+summary: 'CVE-2019-7611 elasticsearch: Improper permission issue when attaching a new name to
+  an index'
+severities:
+  - id: 53272
+    reference_id: 178306
+    scoring_system: cvssv3
+    value: '6.8'
+    scoring_elements: CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N
+  - id: 53269
+    reference_id: 178303
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 416290
+    reference_id: 804042
+    scoring_system: cvssv2
+    value: '6.8'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:P/A:P
+  - id: 416288
+    reference_id: 804042
+    scoring_system: cvssv3
+    value: '8.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 630459
+    reference_id: 946607
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 53271
+    reference_id: 178305
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 53270
+    reference_id: 178304
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 178306
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2019-7611.json
+    reference_id:
+  - id: 804036
+    url: https://discuss.elastic.co/t/elastic-stack-6-6-1-and-5-6-15-security-update/169077
+    reference_id:
+  - id: 26207
+    url: https://www.elastic.co/community/security
+    reference_id:
+  - id: 178303
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1696034
+    reference_id: 1696034
+  - id: 159755
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:elastic:elasticsearch:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:elastic:elasticsearch:*:*:*:*:*:*:*:*
+  - id: 804042
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-7611
+    reference_id: CVE-2019-7611
+  - id: 946607
+    url: https://github.com/advisories/GHSA-fj32-6v7m-57pg
+    reference_id: GHSA-fj32-6v7m-57pg
+  - id: 178305
+    url: https://access.redhat.com/errata/RHSA-2020:0895
+    reference_id: RHSA-2020:0895
+  - id: 178304
+    url: https://access.redhat.com/errata/RHSA-2020:0899
+    reference_id: RHSA-2020:0899
+weaknesses: []

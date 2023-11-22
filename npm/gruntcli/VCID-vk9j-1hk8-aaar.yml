@@ -1,0 +1,40 @@
+vulnerability_id: VCID-vk9j-1hk8-aaar
+aliases:
+  - CVE-2017-16058
+  - GHSA-9fg5-f5pj-rwcc
+summary: |
+  Malicious package (Typosquatting)
+  gruntcli was a malicious module published with the intent to hijack environment variables. It has been unpublished by npm.
+severities:
+  - id: 269824
+    reference_id: 37150
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 269822
+    reference_id: 37150
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+  - id: 705648
+    reference_id: 1466848
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 687634
+    url: https://nodesecurity.io/advisories/498
+    reference_id:
+  - id: 1466849
+    url: https://www.npmjs.com/advisories/498
+    reference_id:
+  - id: 687635
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:gruntcli_project:gruntcli:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:gruntcli_project:gruntcli:*:*:*:*:*:node.js:*:*
+  - id: 37150
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-16058
+    reference_id: CVE-2017-16058
+  - id: 1466848
+    url: https://github.com/advisories/GHSA-9fg5-f5pj-rwcc
+    reference_id: GHSA-9fg5-f5pj-rwcc
+weaknesses: []

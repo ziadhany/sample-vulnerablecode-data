@@ -1,0 +1,38 @@
+vulnerability_id: VCID-adfr-fbge-aaad
+aliases:
+  - CVE-2021-23435
+  - GHSA-4hpq-rjcx-7vj9
+summary: Open Redirect in clearance
+severities:
+  - id: 515483
+    reference_id: 27350
+    scoring_system: cvssv2
+    value: '5.8'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:P/A:N
+  - id: 515481
+    reference_id: 27350
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+  - id: 4958
+    reference_id: 27353
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 27351
+    url: https://github.com/thoughtbot/clearance/pull/945
+    reference_id:
+  - id: 27352
+    url: https://snyk.io/vuln/SNYK-RUBY-CLEARANCE-1577284
+    reference_id:
+  - id: 868638
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:thoughtbot:clearance:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:thoughtbot:clearance:*:*:*:*:*:*:*:*
+  - id: 27350
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-23435
+    reference_id: CVE-2021-23435
+  - id: 27353
+    url: https://github.com/advisories/GHSA-4hpq-rjcx-7vj9
+    reference_id: GHSA-4hpq-rjcx-7vj9
+weaknesses: []

@@ -1,0 +1,25 @@
+vulnerability_id: VCID-2am3-62fj-aaab
+aliases:
+  - GHSA-2g8g-63j4-9w3r
+  - GMS-2021-21
+summary: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+  in @backstage/plugin-scaffolder-backend.
+severities:
+  - id: 704504
+    reference_id: 37459
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 704503
+    reference_id: 37458
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 37459
+    url: https://github.com/advisories/GHSA-2g8g-63j4-9w3r
+    reference_id: GHSA-2g8g-63j4-9w3r
+  - id: 37458
+    url: https://github.com/backstage/backstage/security/advisories/GHSA-2g8g-63j4-9w3r
+    reference_id: GHSA-2g8g-63j4-9w3r
+weaknesses: []

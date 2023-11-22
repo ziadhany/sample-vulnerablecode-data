@@ -1,0 +1,22 @@
+package: pkg:npm/millisecond
+versions:
+  - purl: pkg:npm/millisecond@0.0.0
+    affected_by_vulnerabilities:
+      - VCID-a2c4-y336-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/millisecond@0.0.1
+    affected_by_vulnerabilities:
+      - VCID-a2c4-y336-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/millisecond@0.1.0
+    affected_by_vulnerabilities:
+      - VCID-a2c4-y336-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/millisecond@0.1.1
+    affected_by_vulnerabilities:
+      - VCID-a2c4-y336-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/millisecond@0.1.2
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-a2c4-y336-aaak

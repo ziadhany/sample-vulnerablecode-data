@@ -1,0 +1,50 @@
+package: pkg:pypi/attic
+versions:
+  - purl: pkg:pypi/attic@0.10
+    affected_by_vulnerabilities:
+      - VCID-ghcm-k96h-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/attic@0.11
+    affected_by_vulnerabilities:
+      - VCID-ghcm-k96h-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/attic@0.12
+    affected_by_vulnerabilities:
+      - VCID-ghcm-k96h-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/attic@0.13
+    affected_by_vulnerabilities:
+      - VCID-ghcm-k96h-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/attic@0.14
+    affected_by_vulnerabilities:
+      - VCID-ghcm-k96h-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/attic@0.15
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-ghcm-k96h-aaaq
+  - purl: pkg:pypi/attic@0.6
+    affected_by_vulnerabilities:
+      - VCID-ghcm-k96h-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/attic@0.6.1
+    affected_by_vulnerabilities:
+      - VCID-ghcm-k96h-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/attic@0.7
+    affected_by_vulnerabilities:
+      - VCID-ghcm-k96h-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/attic@0.8
+    affected_by_vulnerabilities:
+      - VCID-ghcm-k96h-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/attic@0.8.1
+    affected_by_vulnerabilities:
+      - VCID-ghcm-k96h-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/attic@0.9
+    affected_by_vulnerabilities:
+      - VCID-ghcm-k96h-aaaq
+    fixing_vulnerabilities: []

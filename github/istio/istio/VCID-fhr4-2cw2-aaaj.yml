@@ -1,0 +1,63 @@
+vulnerability_id: VCID-fhr4-2cw2-aaaj
+aliases:
+  - CVE-2021-31921
+summary: Istio before 1.8.6 and 1.9.x before 1.9.5 contains a remotely exploitable vulnerability
+  where an external client can access unexpected services in the cluster, bypassing authorization
+  checks, when a gateway is configured with AUTO_PASSTHROUGH routing configuration.
+severities:
+  - id: 605363
+    reference_id: 927942
+    scoring_system: cvssv3
+    value: '10.0'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+  - id: 605360
+    reference_id: 927939
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 538783
+    reference_id: 883487
+    scoring_system: cvssv2
+    value: '6.8'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:P/A:P
+  - id: 538781
+    reference_id: 883487
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 605362
+    reference_id: 927941
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 605361
+    reference_id: 927940
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 927942
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-31921.json
+    reference_id:
+  - id: 883486
+    url: https://istio.io/latest/news/security/istio-security-2021-006/
+    reference_id:
+  - id: 927939
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1955396
+    reference_id: '1955396'
+  - id: 767896
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:istio:istio:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:istio:istio:*:*:*:*:*:*:*:*
+  - id: 883487
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-31921
+    reference_id: CVE-2021-31921
+  - id: 1470883
+    url: https://istio.io/latest/news/security/ISTIO-SECURITY-2021-006/
+    reference_id: ISTIO-SECURITY-2021-006
+  - id: 927941
+    url: https://access.redhat.com/errata/RHSA-2021:2061
+    reference_id: RHSA-2021:2061
+  - id: 927940
+    url: https://access.redhat.com/errata/RHSA-2021:2085
+    reference_id: RHSA-2021:2085
+weaknesses: []

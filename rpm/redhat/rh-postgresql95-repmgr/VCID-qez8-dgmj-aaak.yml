@@ -1,0 +1,52 @@
+vulnerability_id: VCID-qez8-dgmj-aaak
+aliases:
+  - CVE-2017-15125
+summary: A flaw was found in CloudForms before 5.9.0.22 in the self-service UI snapshot feature
+  where the name field is not properly sanitized for HTML and JavaScript input. An attacker
+  could use this flaw to execute a stored XSS attack on an application administrator using CloudForms.
+  Please note that CSP (Content Security Policy) prevents exploitation of this XSS however not
+  all browsers support CSP.
+severities:
+  - id: 619266
+    reference_id: 938074
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:L
+  - id: 619265
+    reference_id: 938073
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 266848
+    reference_id: 684972
+    scoring_system: cvssv2
+    value: '3.5'
+    scoring_elements: AV:N/AC:M/Au:S/C:N/I:P/A:N
+  - id: 266846
+    reference_id: 684972
+    scoring_system: cvssv3
+    value: '5.4'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N
+references:
+  - id: 684970
+    url: https://access.redhat.com/errata/RHSA-2018:0380
+    reference_id:
+  - id: 938074
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2017-15125.json
+    reference_id:
+  - id: 684971
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2017-15125
+    reference_id:
+  - id: 684969
+    url: http://www.securityfocus.com/bid/102287
+    reference_id:
+  - id: 938073
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1517396
+    reference_id: 1517396
+  - id: 549778
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:cloudforms_management_engine:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:cloudforms_management_engine:*:*:*:*:*:*:*:*
+  - id: 684972
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-15125
+    reference_id: CVE-2017-15125
+weaknesses: []

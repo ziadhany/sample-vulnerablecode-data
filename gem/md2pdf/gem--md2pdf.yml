@@ -1,0 +1,6 @@
+package: pkg:gem/md2pdf
+versions:
+  - purl: pkg:gem/md2pdf@0.0.1
+    affected_by_vulnerabilities:
+      - VCID-s8js-t9uy-aaag
+    fixing_vulnerabilities: []

@@ -1,0 +1,76 @@
+vulnerability_id: VCID-xcg8-g3tg-aaae
+aliases:
+  - CVE-2018-10894
+summary: |
+  Improper Certificate Validation
+  It was found that SAML authentication in Keycloak incorrectly authenticated expired certificates. A malicious user could use this to access unauthorized data or possibly conduct further attacks.
+severities:
+  - id: 615365
+    reference_id: 935287
+    scoring_system: cvssv3
+    value: '5.4'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N
+  - id: 615364
+    reference_id: 935286
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 311649
+    reference_id: 34955
+    scoring_system: cvssv2
+    value: '5.5'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:P/A:N
+  - id: 311647
+    reference_id: 34955
+    scoring_system: cvssv3
+    value: '5.4'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N
+  - id: 613651
+    reference_id: 934035
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 613650
+    reference_id: 934034
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 613652
+    reference_id: 934036
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 64824
+    reference_id: '193549'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 935287
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2018-10894.json
+    reference_id:
+  - id: 34956
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2018-10894
+    reference_id:
+  - id: 935286
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1599434
+    reference_id: 1599434
+  - id: 725159
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:keycloak:3.4.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:keycloak:3.4.3:*:*:*:*:*:*:*
+  - id: 34955
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-10894
+    reference_id: CVE-2018-10894
+  - id: 934035
+    url: https://access.redhat.com/errata/RHSA-2018:3592
+    reference_id: RHSA-2018:3592
+  - id: 934034
+    url: https://access.redhat.com/errata/RHSA-2018:3593
+    reference_id: RHSA-2018:3593
+  - id: 934036
+    url: https://access.redhat.com/errata/RHSA-2018:3595
+    reference_id: RHSA-2018:3595
+  - id: '193549'
+    url: https://access.redhat.com/errata/RHSA-2019:0877
+    reference_id: RHSA-2019:0877
+weaknesses: []

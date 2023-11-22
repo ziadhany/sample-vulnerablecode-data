@@ -1,0 +1,49 @@
+package: pkg:nuget/Kentico.Libraries
+versions:
+  - purl: pkg:nuget/Kentico.Libraries@10.0
+    affected_by_vulnerabilities:
+      - VCID-3ypk-pvfg-aaak
+      - VCID-489h-nvz9-aaah
+      - VCID-6azu-3fs9-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Kentico.Libraries@10.0.48
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-6azu-3fs9-aaaj
+  - purl: pkg:nuget/Kentico.Libraries@11.0
+    affected_by_vulnerabilities:
+      - VCID-3ypk-pvfg-aaak
+      - VCID-489h-nvz9-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Kentico.Libraries@11.0.3
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-3ypk-pvfg-aaak
+      - VCID-489h-nvz9-aaah
+  - purl: pkg:nuget/Kentico.Libraries@11.0.45
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-t6pt-yz1c-aaan
+  - purl: pkg:nuget/Kentico.Libraries@13.0.44
+    affected_by_vulnerabilities:
+      - VCID-bwxj-gjq1-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Kentico.Libraries@5.5
+    affected_by_vulnerabilities:
+      - VCID-dfd7-syqa-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Kentico.Libraries@8.2
+    affected_by_vulnerabilities:
+      - VCID-43vs-n5xb-aaae
+      - VCID-bfct-aq1q-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Kentico.Libraries@9.0
+    affected_by_vulnerabilities:
+      - VCID-6azu-3fs9-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Kentico.Libraries@9.0.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-43vs-n5xb-aaae
+      - VCID-bfct-aq1q-aaaa
+      - VCID-dfd7-syqa-aaak

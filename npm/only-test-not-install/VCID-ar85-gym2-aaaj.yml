@@ -1,0 +1,23 @@
+vulnerability_id: VCID-ar85-gym2-aaaj
+aliases:
+  - GHSA-g9wf-393q-4w38
+  - GMS-2020-418
+summary: |
+  Malicious Package
+  All versions of `only-test-not-install` contain malicious code. The package deletes the folder `~/test` from the system as a postinstall script. ## Recommendation
+
+  Remove the package from your environment. There are no further signs of compromise.
+severities:
+  - id: 704926
+    reference_id: 35282
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 35281
+    url: https://www.npmjs.com/advisories/1044
+    reference_id:
+  - id: 35282
+    url: https://github.com/advisories/GHSA-g9wf-393q-4w38
+    reference_id: GHSA-g9wf-393q-4w38
+weaknesses: []

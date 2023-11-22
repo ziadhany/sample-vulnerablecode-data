@@ -1,0 +1,32 @@
+package: pkg:nuget/Microsoft.AspNetCore.Http.Connections
+versions:
+  - purl: pkg:nuget/Microsoft.AspNetCore.Http.Connections@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-63fu-pwhf-aaaf
+      - VCID-c413-2csk-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Http.Connections@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-63fu-pwhf-aaaf
+      - VCID-c413-2csk-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Http.Connections@1.0.15
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-63fu-pwhf-aaaf
+      - VCID-c413-2csk-aaam
+  - purl: pkg:nuget/Microsoft.AspNetCore.Http.Connections@1.0.2
+    affected_by_vulnerabilities:
+      - VCID-63fu-pwhf-aaaf
+      - VCID-c413-2csk-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Http.Connections@1.0.3
+    affected_by_vulnerabilities:
+      - VCID-63fu-pwhf-aaaf
+      - VCID-c413-2csk-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Microsoft.AspNetCore.Http.Connections@1.0.4
+    affected_by_vulnerabilities:
+      - VCID-63fu-pwhf-aaaf
+      - VCID-c413-2csk-aaam
+    fixing_vulnerabilities: []

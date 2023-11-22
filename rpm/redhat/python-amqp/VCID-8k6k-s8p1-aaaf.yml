@@ -1,0 +1,36 @@
+vulnerability_id: VCID-8k6k-s8p1-aaaf
+aliases:
+  - CVE-2014-0089
+summary: 'CVE-2014-0089 Foreman: Stored Cross Site Scripting'
+severities:
+  - id: 174057
+    reference_id: 549652
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+references:
+  - id: 549649
+    url: http://projects.theforeman.org/issues/4456
+    reference_id:
+  - id: 186960
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2014-0089.json
+    reference_id:
+  - id: 549651
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1071741
+    reference_id:
+  - id: 549650
+    url: http://secunia.com/advisories/57575
+    reference_id:
+  - id: 39176
+    url: http://theforeman.org/security.html
+    reference_id:
+  - id: 549148
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:foreman:1.4.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:foreman:1.4.0:*:*:*:*:*:*:*
+  - id: 549149
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:foreman:1.4.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:foreman:1.4.1:*:*:*:*:*:*:*
+  - id: 549652
+    url: https://nvd.nist.gov/vuln/detail/CVE-2014-0089
+    reference_id: CVE-2014-0089
+weaknesses: []

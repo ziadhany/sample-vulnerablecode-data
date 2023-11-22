@@ -1,0 +1,10 @@
+package: pkg:npm/bs58chekc
+versions:
+  - purl: pkg:npm/bs58chekc@0.0.0
+    affected_by_vulnerabilities:
+      - VCID-8zts-1a37-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/bs58chekc@0.0.1-security
+    affected_by_vulnerabilities:
+      - VCID-8zts-1a37-aaac
+    fixing_vulnerabilities: []

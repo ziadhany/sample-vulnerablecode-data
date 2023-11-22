@@ -1,0 +1,110 @@
+package: pkg:pypi/certifi
+versions:
+  - purl: pkg:pypi/certifi@2017.11.5
+    affected_by_vulnerabilities:
+      - VCID-yype-x2y2-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/certifi@2018.10.15
+    affected_by_vulnerabilities:
+      - VCID-yype-x2y2-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/certifi@2018.11.29
+    affected_by_vulnerabilities:
+      - VCID-yype-x2y2-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/certifi@2018.1.18
+    affected_by_vulnerabilities:
+      - VCID-yype-x2y2-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/certifi@2018.4.16
+    affected_by_vulnerabilities:
+      - VCID-yype-x2y2-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/certifi@2018.8.13
+    affected_by_vulnerabilities:
+      - VCID-yype-x2y2-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/certifi@2018.8.24
+    affected_by_vulnerabilities:
+      - VCID-yype-x2y2-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/certifi@2019.11.28
+    affected_by_vulnerabilities:
+      - VCID-yype-x2y2-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/certifi@2019.3.9
+    affected_by_vulnerabilities:
+      - VCID-yype-x2y2-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/certifi@2019.6.16
+    affected_by_vulnerabilities:
+      - VCID-yype-x2y2-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/certifi@2019.9.11
+    affected_by_vulnerabilities:
+      - VCID-yype-x2y2-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/certifi@2020.11.8
+    affected_by_vulnerabilities:
+      - VCID-yype-x2y2-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/certifi@2020.12.5
+    affected_by_vulnerabilities:
+      - VCID-yype-x2y2-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/certifi@2020.4.5
+    affected_by_vulnerabilities:
+      - VCID-yype-x2y2-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/certifi@2020.4.5.1
+    affected_by_vulnerabilities:
+      - VCID-yype-x2y2-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/certifi@2020.4.5.2
+    affected_by_vulnerabilities:
+      - VCID-yype-x2y2-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/certifi@2020.6.20
+    affected_by_vulnerabilities:
+      - VCID-yype-x2y2-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/certifi@2021.10.8
+    affected_by_vulnerabilities:
+      - VCID-yype-x2y2-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/certifi@2021.5.30
+    affected_by_vulnerabilities:
+      - VCID-yype-x2y2-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/certifi@2022.12.7
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-yype-x2y2-aaae
+  - purl: pkg:pypi/certifi@2022.5.18
+    affected_by_vulnerabilities:
+      - VCID-yype-x2y2-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/certifi@2022.5.18.1
+    affected_by_vulnerabilities:
+      - VCID-yype-x2y2-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/certifi@2022.6.15
+    affected_by_vulnerabilities:
+      - VCID-yype-x2y2-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/certifi@2022.6.15.1
+    affected_by_vulnerabilities:
+      - VCID-yype-x2y2-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/certifi@2022.6.15.2
+    affected_by_vulnerabilities:
+      - VCID-yype-x2y2-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/certifi@2022.9.14
+    affected_by_vulnerabilities:
+      - VCID-yype-x2y2-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/certifi@2022.9.24
+    affected_by_vulnerabilities:
+      - VCID-yype-x2y2-aaae
+    fixing_vulnerabilities: []

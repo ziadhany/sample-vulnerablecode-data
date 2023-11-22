@@ -1,0 +1,44 @@
+vulnerability_id: VCID-ewc1-44fk-aaaa
+aliases:
+  - CVE-2018-19213
+summary: |
+  Missing Release of Resource after Effective Lifetime
+  Netwide Assembler (NASM) rc16 has memory leaks that may lead to DoS, related to nasm_malloc in nasmlib/malloc.c.
+severities:
+  - id: 613909
+    reference_id: 934227
+    scoring_system: cvssv3
+    value: '3.3'
+    scoring_elements: CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L
+  - id: 613908
+    reference_id: 934226
+    scoring_system: rhbs
+    value: low
+    scoring_elements:
+  - id: 337925
+    reference_id: 37582
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:N/A:P
+  - id: 337923
+    reference_id: 37582
+    scoring_system: cvssv3
+    value: '5.5'
+    scoring_elements: CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+references:
+  - id: 934227
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2018-19213.json
+    reference_id:
+  - id: 37583
+    url: https://bugzilla.nasm.us/show_bug.cgi?id=3392524
+    reference_id:
+  - id: 934226
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1652029
+    reference_id: 1652029
+  - id: 745563
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:nasm:netwide_assembler:12.14:rc16:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:nasm:netwide_assembler:12.14:rc16:*:*:*:*:*:*
+  - id: 37582
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-19213
+    reference_id: CVE-2018-19213
+weaknesses: []

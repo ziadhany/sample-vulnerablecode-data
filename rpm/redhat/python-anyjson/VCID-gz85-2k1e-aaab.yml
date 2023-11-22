@@ -1,0 +1,39 @@
+vulnerability_id: VCID-gz85-2k1e-aaab
+aliases:
+  - CVE-2015-3155
+summary: 'CVE-2015-3155 foreman: the _session_id cookie is issued without the Secure flag'
+severities:
+  - id: '198960'
+    reference_id: 606095
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+references:
+  - id: 606091
+    url: http://projects.theforeman.org/issues/10275
+    reference_id:
+  - id: 600898
+    url: https://access.redhat.com/errata/RHSA-2015:1591
+    reference_id:
+  - id: 600899
+    url: https://access.redhat.com/errata/RHSA-2015:1592
+    reference_id:
+  - id: 180988
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2015-3155.json
+    reference_id:
+  - id: 606092
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1216035
+    reference_id:
+  - id: 606093
+    url: https://github.com/theforeman/foreman/pull/2328
+    reference_id:
+  - id: 606094
+    url: https://groups.google.com/forum/#!topic/foreman-announce/QPtN0h04jdo
+    reference_id:
+  - id: 158226
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:foreman:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:foreman:*:*:*:*:*:*:*:*
+  - id: 606095
+    url: https://nvd.nist.gov/vuln/detail/CVE-2015-3155
+    reference_id: CVE-2015-3155
+weaknesses: []

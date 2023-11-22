@@ -1,0 +1,68 @@
+vulnerability_id: VCID-127f-y1wv-aaas
+aliases:
+  - CVE-2021-40830
+  - GHSA-c4rh-4376-gff4
+  - PYSEC-2021-863
+summary: 'The AWS IoT Device SDK v2 for Java, Python, C++ and Node.js appends a user supplied
+  Certificate Authority (CA) to the root CAs instead of overriding it on Unix systems. TLS handshakes
+  will thus succeed if the peer can be verified either from the user-supplied CA or the system’s
+  default trust-store. Attackers with access to a host’s trust stores or are able to compromise
+  a certificate authority already in the host''s trust store (note: the attacker must also be
+  able to spoof DNS in this case) may be able to use this issue to bypass CA pinning. An attacker
+  could then spoof the MQTT broker, and either drop traffic and/or respond with the attacker''s
+  data, but they would not be able to forward this data on to the MQTT broker because the attacker
+  would still need the user''s private keys to authenticate against the MQTT broker. The ''aws_tls_ctx_options_override_default_trust_store_*''
+  function within the aws-c-io submodule has been updated to override the default trust store.
+  This corrects this issue. This issue affects: Amazon Web Services AWS IoT Device SDK v2 for
+  Java versions prior to 1.5.0 on Linux/Unix. Amazon Web Services AWS IoT Device SDK v2 for
+  Python versions prior to 1.6.1 on Linux/Unix. Amazon Web Services AWS IoT Device SDK v2 for
+  C++ versions prior to 1.12.7 on Linux/Unix. Amazon Web Services AWS IoT Device SDK v2 for
+  Node.js versions prior to 1.5.3 on Linux/Unix. Amazon Web Services AWS-C-IO 0.10.4 on Linux/Unix.'
+severities:
+  - id: 561068
+    reference_id: 10070
+    scoring_system: cvssv2
+    value: '5.8'
+    scoring_elements: AV:A/AC:L/Au:N/C:P/I:P/A:P
+  - id: 561066
+    reference_id: 10070
+    scoring_system: cvssv3
+    value: '8.8'
+    scoring_elements: CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 902
+    reference_id: 10073
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 8508
+    url: https://github.com/aws/aws-iot-device-sdk-cpp-v2
+    reference_id:
+  - id: 8509
+    url: https://github.com/aws/aws-iot-device-sdk-java-v2
+    reference_id:
+  - id: 10063
+    url: https://github.com/aws/aws-iot-device-sdk-java-v2/commit/67950ad2a02f2f9355c310b69dc9226b017f32f2
+    reference_id:
+  - id: 8505
+    url: https://github.com/aws/aws-iot-device-sdk-js-v2
+    reference_id:
+  - id: 10071
+    url: https://github.com/aws/aws-iot-device-sdk-js-v2/commit/53a36e3ac203291494120604d416b6de59177cac
+    reference_id:
+  - id: 8507
+    url: https://github.com/aws/aws-iot-device-sdk-python-v2
+    reference_id:
+  - id: 10072
+    url: https://github.com/aws/aws-iot-device-sdk-python-v2/commit/0450ce68add7e3d05c6d781ecdac953c299c053a
+    reference_id:
+  - id: 8506
+    url: https://github.com/awslabs/aws-c-io/
+    reference_id:
+  - id: 10070
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-40830
+    reference_id: CVE-2021-40830
+  - id: 10073
+    url: https://github.com/advisories/GHSA-c4rh-4376-gff4
+    reference_id: GHSA-c4rh-4376-gff4
+weaknesses: []

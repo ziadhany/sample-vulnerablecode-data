@@ -1,0 +1,23 @@
+vulnerability_id: VCID-kq1m-5q2q-aaaj
+aliases:
+  - GHSA-g7h8-p22m-2rvx
+  - GMS-2020-262
+summary: "Prototype Pollution in flat-wrap\nAll versions of `flat-wrap` are vulnerable to prototype\
+  \ pollution. The function `unflatten` does not restrict the modification of an Object's prototype,\
+  \ which may allow an attacker to add or modify an existing property that will exist on all\
+  \ objects. \n\nNo fix is currently available. Consider using an alternative package until\
+  \ a fix is made available."
+severities:
+  - id: 704917
+    reference_id: 34873
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 34872
+    url: https://www.npmjs.com/advisories/1327
+    reference_id:
+  - id: 34873
+    url: https://github.com/advisories/GHSA-g7h8-p22m-2rvx
+    reference_id: GHSA-g7h8-p22m-2rvx
+weaknesses: []

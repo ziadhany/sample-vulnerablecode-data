@@ -1,0 +1,113 @@
+vulnerability_id: VCID-7ht9-272k-aaaf
+aliases:
+  - CVE-2020-1728
+  - GHSA-3gg7-9q2x-79fc
+summary: Improper Restriction of Rendered UI Layers or Frames in Keycloak
+severities:
+  - id: 64582
+    reference_id: '193218'
+    scoring_system: cvssv3
+    value: '4.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
+  - id: 64577
+    reference_id: '193213'
+    scoring_system: rhbs
+    value: low
+    scoring_elements:
+  - id: 450566
+    reference_id: 13838
+    scoring_system: cvssv2
+    value: '5.8'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:P/A:N
+  - id: 450564
+    reference_id: 13838
+    scoring_system: cvssv3
+    value: '5.4'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
+  - id: 1493
+    reference_id: 13841
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 64581
+    reference_id: '193217'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 64579
+    reference_id: '193215'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 64580
+    reference_id: '193216'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 50141
+    reference_id: 174647
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 50143
+    reference_id: 174649
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 64578
+    reference_id: '193214'
+    scoring_system: rhas
+    value: Low
+    scoring_elements:
+  - id: 49246
+    reference_id: 173540
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: '193218'
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2020-1728.json
+    reference_id:
+  - id: 13839
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2020-1728
+    reference_id:
+  - id: 13840
+    url: https://issues.redhat.com/browse/KEYCLOAK-12264
+    reference_id:
+  - id: '193213'
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1800585
+    reference_id: 1800585
+  - id: 694123
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:quarkus:quarkus:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:quarkus:quarkus:*:*:*:*:*:*:*:*
+  - id: 568146
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:keycloak:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:keycloak:*:*:*:*:*:*:*:*
+  - id: 13838
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-1728
+    reference_id: CVE-2020-1728
+  - id: 13841
+    url: https://github.com/advisories/GHSA-3gg7-9q2x-79fc
+    reference_id: GHSA-3gg7-9q2x-79fc
+  - id: '193217'
+    url: https://access.redhat.com/errata/RHSA-2020:3495
+    reference_id: RHSA-2020:3495
+  - id: '193215'
+    url: https://access.redhat.com/errata/RHSA-2020:3496
+    reference_id: RHSA-2020:3496
+  - id: '193216'
+    url: https://access.redhat.com/errata/RHSA-2020:3497
+    reference_id: RHSA-2020:3497
+  - id: 174647
+    url: https://access.redhat.com/errata/RHSA-2020:3501
+    reference_id: RHSA-2020:3501
+  - id: 174649
+    url: https://access.redhat.com/errata/RHSA-2020:3539
+    reference_id: RHSA-2020:3539
+  - id: '193214'
+    url: https://access.redhat.com/errata/RHSA-2020:4213
+    reference_id: RHSA-2020:4213
+  - id: 173540
+    url: https://access.redhat.com/errata/RHSA-2020:4252
+    reference_id: RHSA-2020:4252
+weaknesses: []

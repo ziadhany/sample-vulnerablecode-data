@@ -1,0 +1,555 @@
+package: pkg:gem/doorkeeper
+versions:
+  - purl: pkg:gem/doorkeeper@0.1.0
+    affected_by_vulnerabilities:
+      - VCID-1vmc-634t-aaae
+      - VCID-gx9x-n7ty-aaah
+      - VCID-kgy1-yshb-aaaq
+      - VCID-q77q-mnw3-aaag
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@0.1.1
+    affected_by_vulnerabilities:
+      - VCID-1vmc-634t-aaae
+      - VCID-gx9x-n7ty-aaah
+      - VCID-kgy1-yshb-aaaq
+      - VCID-q77q-mnw3-aaag
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@0.2.0
+    affected_by_vulnerabilities:
+      - VCID-1vmc-634t-aaae
+      - VCID-gx9x-n7ty-aaah
+      - VCID-kgy1-yshb-aaaq
+      - VCID-q77q-mnw3-aaag
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@0.3.0
+    affected_by_vulnerabilities:
+      - VCID-1vmc-634t-aaae
+      - VCID-gx9x-n7ty-aaah
+      - VCID-kgy1-yshb-aaaq
+      - VCID-q77q-mnw3-aaag
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@0.3.1
+    affected_by_vulnerabilities:
+      - VCID-1vmc-634t-aaae
+      - VCID-gx9x-n7ty-aaah
+      - VCID-kgy1-yshb-aaaq
+      - VCID-q77q-mnw3-aaag
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@0.3.2
+    affected_by_vulnerabilities:
+      - VCID-1vmc-634t-aaae
+      - VCID-gx9x-n7ty-aaah
+      - VCID-kgy1-yshb-aaaq
+      - VCID-q77q-mnw3-aaag
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@0.3.3
+    affected_by_vulnerabilities:
+      - VCID-1vmc-634t-aaae
+      - VCID-gx9x-n7ty-aaah
+      - VCID-kgy1-yshb-aaaq
+      - VCID-q77q-mnw3-aaag
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@0.3.4
+    affected_by_vulnerabilities:
+      - VCID-1vmc-634t-aaae
+      - VCID-gx9x-n7ty-aaah
+      - VCID-kgy1-yshb-aaaq
+      - VCID-q77q-mnw3-aaag
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@0.4.0
+    affected_by_vulnerabilities:
+      - VCID-1vmc-634t-aaae
+      - VCID-gx9x-n7ty-aaah
+      - VCID-kgy1-yshb-aaaq
+      - VCID-q77q-mnw3-aaag
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@0.4.1
+    affected_by_vulnerabilities:
+      - VCID-1vmc-634t-aaae
+      - VCID-gx9x-n7ty-aaah
+      - VCID-kgy1-yshb-aaaq
+      - VCID-q77q-mnw3-aaag
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@0.4.2
+    affected_by_vulnerabilities:
+      - VCID-1vmc-634t-aaae
+      - VCID-gx9x-n7ty-aaah
+      - VCID-kgy1-yshb-aaaq
+      - VCID-q77q-mnw3-aaag
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@0.5.0
+    affected_by_vulnerabilities:
+      - VCID-1vmc-634t-aaae
+      - VCID-gx9x-n7ty-aaah
+      - VCID-kgy1-yshb-aaaq
+      - VCID-q77q-mnw3-aaag
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@0.5.0.rc1
+    affected_by_vulnerabilities:
+      - VCID-1vmc-634t-aaae
+      - VCID-gx9x-n7ty-aaah
+      - VCID-kgy1-yshb-aaaq
+      - VCID-q77q-mnw3-aaag
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@0.6.0
+    affected_by_vulnerabilities:
+      - VCID-1vmc-634t-aaae
+      - VCID-gx9x-n7ty-aaah
+      - VCID-kgy1-yshb-aaaq
+      - VCID-q77q-mnw3-aaag
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@0.6.0.rc1
+    affected_by_vulnerabilities:
+      - VCID-1vmc-634t-aaae
+      - VCID-gx9x-n7ty-aaah
+      - VCID-kgy1-yshb-aaaq
+      - VCID-q77q-mnw3-aaag
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@0.6.1
+    affected_by_vulnerabilities:
+      - VCID-1vmc-634t-aaae
+      - VCID-gx9x-n7ty-aaah
+      - VCID-kgy1-yshb-aaaq
+      - VCID-q77q-mnw3-aaag
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@0.6.2
+    affected_by_vulnerabilities:
+      - VCID-1vmc-634t-aaae
+      - VCID-gx9x-n7ty-aaah
+      - VCID-kgy1-yshb-aaaq
+      - VCID-q77q-mnw3-aaag
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@0.6.3
+    affected_by_vulnerabilities:
+      - VCID-1vmc-634t-aaae
+      - VCID-gx9x-n7ty-aaah
+      - VCID-kgy1-yshb-aaaq
+      - VCID-q77q-mnw3-aaag
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@0.6.4
+    affected_by_vulnerabilities:
+      - VCID-1vmc-634t-aaae
+      - VCID-gx9x-n7ty-aaah
+      - VCID-kgy1-yshb-aaaq
+      - VCID-q77q-mnw3-aaag
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@0.6.5
+    affected_by_vulnerabilities:
+      - VCID-1vmc-634t-aaae
+      - VCID-gx9x-n7ty-aaah
+      - VCID-kgy1-yshb-aaaq
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@0.6.6
+    affected_by_vulnerabilities:
+      - VCID-1vmc-634t-aaae
+      - VCID-gx9x-n7ty-aaah
+      - VCID-kgy1-yshb-aaaq
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@0.6.7
+    affected_by_vulnerabilities:
+      - VCID-1vmc-634t-aaae
+      - VCID-gx9x-n7ty-aaah
+      - VCID-kgy1-yshb-aaaq
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@0.7.0
+    affected_by_vulnerabilities:
+      - VCID-1vmc-634t-aaae
+      - VCID-gx9x-n7ty-aaah
+      - VCID-kgy1-yshb-aaaq
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@0.7.1
+    affected_by_vulnerabilities:
+      - VCID-1vmc-634t-aaae
+      - VCID-gx9x-n7ty-aaah
+      - VCID-kgy1-yshb-aaaq
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@0.7.2
+    affected_by_vulnerabilities:
+      - VCID-1vmc-634t-aaae
+      - VCID-gx9x-n7ty-aaah
+      - VCID-kgy1-yshb-aaaq
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@0.7.3
+    affected_by_vulnerabilities:
+      - VCID-1vmc-634t-aaae
+      - VCID-gx9x-n7ty-aaah
+      - VCID-kgy1-yshb-aaaq
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@0.7.4
+    affected_by_vulnerabilities:
+      - VCID-1vmc-634t-aaae
+      - VCID-gx9x-n7ty-aaah
+      - VCID-kgy1-yshb-aaaq
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-1vmc-634t-aaae
+      - VCID-gx9x-n7ty-aaah
+      - VCID-kgy1-yshb-aaaq
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@1.0.0.rc1
+    affected_by_vulnerabilities:
+      - VCID-1vmc-634t-aaae
+      - VCID-gx9x-n7ty-aaah
+      - VCID-kgy1-yshb-aaaq
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@1.0.0.rc2
+    affected_by_vulnerabilities:
+      - VCID-1vmc-634t-aaae
+      - VCID-gx9x-n7ty-aaah
+      - VCID-kgy1-yshb-aaaq
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@1.1.0
+    affected_by_vulnerabilities:
+      - VCID-1vmc-634t-aaae
+      - VCID-gx9x-n7ty-aaah
+      - VCID-kgy1-yshb-aaaq
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@1.2.0
+    affected_by_vulnerabilities:
+      - VCID-1vmc-634t-aaae
+      - VCID-gx9x-n7ty-aaah
+      - VCID-kgy1-yshb-aaaq
+      - VCID-kqbf-27yp-aaak
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@1.3.0
+    affected_by_vulnerabilities:
+      - VCID-1vmc-634t-aaae
+      - VCID-gx9x-n7ty-aaah
+      - VCID-kgy1-yshb-aaaq
+      - VCID-kqbf-27yp-aaak
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@1.3.1
+    affected_by_vulnerabilities:
+      - VCID-1vmc-634t-aaae
+      - VCID-gx9x-n7ty-aaah
+      - VCID-kgy1-yshb-aaaq
+      - VCID-kqbf-27yp-aaak
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@1.4.0
+    affected_by_vulnerabilities:
+      - VCID-1vmc-634t-aaae
+      - VCID-gx9x-n7ty-aaah
+      - VCID-kgy1-yshb-aaaq
+      - VCID-kqbf-27yp-aaak
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@1.4.1
+    affected_by_vulnerabilities:
+      - VCID-gx9x-n7ty-aaah
+      - VCID-kgy1-yshb-aaaq
+      - VCID-kqbf-27yp-aaak
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities:
+      - VCID-1vmc-634t-aaae
+      - VCID-q77q-mnw3-aaag
+  - purl: pkg:gem/doorkeeper@1.4.2
+    affected_by_vulnerabilities:
+      - VCID-gx9x-n7ty-aaah
+      - VCID-kqbf-27yp-aaak
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities:
+      - VCID-kgy1-yshb-aaaq
+  - purl: pkg:gem/doorkeeper@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-gx9x-n7ty-aaah
+      - VCID-kgy1-yshb-aaaq
+      - VCID-kqbf-27yp-aaak
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@2.0.0.alpha1
+    affected_by_vulnerabilities:
+      - VCID-gx9x-n7ty-aaah
+      - VCID-kgy1-yshb-aaaq
+      - VCID-kqbf-27yp-aaak
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@2.0.0.rc2
+    affected_by_vulnerabilities:
+      - VCID-gx9x-n7ty-aaah
+      - VCID-kgy1-yshb-aaaq
+      - VCID-kqbf-27yp-aaak
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@2.0.0.rc3
+    affected_by_vulnerabilities:
+      - VCID-gx9x-n7ty-aaah
+      - VCID-kgy1-yshb-aaaq
+      - VCID-kqbf-27yp-aaak
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities:
+      - VCID-q77q-mnw3-aaag
+  - purl: pkg:gem/doorkeeper@2.0.1
+    affected_by_vulnerabilities:
+      - VCID-gx9x-n7ty-aaah
+      - VCID-kgy1-yshb-aaaq
+      - VCID-kqbf-27yp-aaak
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@2.1.0
+    affected_by_vulnerabilities:
+      - VCID-gx9x-n7ty-aaah
+      - VCID-jjdh-m9bp-aaab
+      - VCID-kgy1-yshb-aaaq
+      - VCID-kqbf-27yp-aaak
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@2.1.1
+    affected_by_vulnerabilities:
+      - VCID-gx9x-n7ty-aaah
+      - VCID-jjdh-m9bp-aaab
+      - VCID-kgy1-yshb-aaaq
+      - VCID-kqbf-27yp-aaak
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@2.1.2
+    affected_by_vulnerabilities:
+      - VCID-gx9x-n7ty-aaah
+      - VCID-jjdh-m9bp-aaab
+      - VCID-kqbf-27yp-aaak
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities:
+      - VCID-kgy1-yshb-aaaq
+  - purl: pkg:gem/doorkeeper@2.1.3
+    affected_by_vulnerabilities:
+      - VCID-gx9x-n7ty-aaah
+      - VCID-jjdh-m9bp-aaab
+      - VCID-kqbf-27yp-aaak
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@2.1.4
+    affected_by_vulnerabilities:
+      - VCID-gx9x-n7ty-aaah
+      - VCID-jjdh-m9bp-aaab
+      - VCID-kqbf-27yp-aaak
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@2.2.0
+    affected_by_vulnerabilities:
+      - VCID-gx9x-n7ty-aaah
+      - VCID-jjdh-m9bp-aaab
+      - VCID-kqbf-27yp-aaak
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@2.2.1
+    affected_by_vulnerabilities:
+      - VCID-gx9x-n7ty-aaah
+      - VCID-jjdh-m9bp-aaab
+      - VCID-kqbf-27yp-aaak
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@2.2.2
+    affected_by_vulnerabilities:
+      - VCID-gx9x-n7ty-aaah
+      - VCID-jjdh-m9bp-aaab
+      - VCID-kqbf-27yp-aaak
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@3.0.0
+    affected_by_vulnerabilities:
+      - VCID-gx9x-n7ty-aaah
+      - VCID-jjdh-m9bp-aaab
+      - VCID-kqbf-27yp-aaak
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@3.0.0.rc1
+    affected_by_vulnerabilities:
+      - VCID-gx9x-n7ty-aaah
+      - VCID-jjdh-m9bp-aaab
+      - VCID-kqbf-27yp-aaak
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@3.0.0.rc2
+    affected_by_vulnerabilities:
+      - VCID-gx9x-n7ty-aaah
+      - VCID-jjdh-m9bp-aaab
+      - VCID-kqbf-27yp-aaak
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@3.0.1
+    affected_by_vulnerabilities:
+      - VCID-gx9x-n7ty-aaah
+      - VCID-jjdh-m9bp-aaab
+      - VCID-kqbf-27yp-aaak
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@3.1.0
+    affected_by_vulnerabilities:
+      - VCID-gx9x-n7ty-aaah
+      - VCID-jjdh-m9bp-aaab
+      - VCID-kqbf-27yp-aaak
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@4.0.0
+    affected_by_vulnerabilities:
+      - VCID-gx9x-n7ty-aaah
+      - VCID-jjdh-m9bp-aaab
+      - VCID-kqbf-27yp-aaak
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@4.0.0.rc1
+    affected_by_vulnerabilities:
+      - VCID-gx9x-n7ty-aaah
+      - VCID-jjdh-m9bp-aaab
+      - VCID-kqbf-27yp-aaak
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@4.0.0.rc2
+    affected_by_vulnerabilities:
+      - VCID-gx9x-n7ty-aaah
+      - VCID-jjdh-m9bp-aaab
+      - VCID-kqbf-27yp-aaak
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@4.0.0.rc3
+    affected_by_vulnerabilities:
+      - VCID-gx9x-n7ty-aaah
+      - VCID-jjdh-m9bp-aaab
+      - VCID-kqbf-27yp-aaak
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@4.0.0.rc4
+    affected_by_vulnerabilities:
+      - VCID-gx9x-n7ty-aaah
+      - VCID-jjdh-m9bp-aaab
+      - VCID-kqbf-27yp-aaak
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@4.1.0
+    affected_by_vulnerabilities:
+      - VCID-gx9x-n7ty-aaah
+      - VCID-jjdh-m9bp-aaab
+      - VCID-kqbf-27yp-aaak
+      - VCID-wrk2-yppb-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@4.2.0
+    affected_by_vulnerabilities:
+      - VCID-gx9x-n7ty-aaah
+      - VCID-jjdh-m9bp-aaab
+    fixing_vulnerabilities:
+      - VCID-kqbf-27yp-aaak
+      - VCID-wrk2-yppb-aaaa
+  - purl: pkg:gem/doorkeeper@4.2.5
+    affected_by_vulnerabilities:
+      - VCID-jjdh-m9bp-aaab
+    fixing_vulnerabilities:
+      - VCID-gx9x-n7ty-aaah
+  - purl: pkg:gem/doorkeeper@4.2.6
+    affected_by_vulnerabilities:
+      - VCID-gx9x-n7ty-aaah
+    fixing_vulnerabilities:
+      - VCID-jjdh-m9bp-aaab
+  - purl: pkg:gem/doorkeeper@4.3.0
+    affected_by_vulnerabilities:
+      - VCID-gx9x-n7ty-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@4.3.1
+    affected_by_vulnerabilities:
+      - VCID-gx9x-n7ty-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@4.3.2
+    affected_by_vulnerabilities:
+      - VCID-gx9x-n7ty-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@4.4.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-gx9x-n7ty-aaah
+  - purl: pkg:gem/doorkeeper@5.0.0
+    affected_by_vulnerabilities:
+      - VCID-m6sb-ru3f-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@5.0.1
+    affected_by_vulnerabilities:
+      - VCID-m6sb-ru3f-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@5.0.2
+    affected_by_vulnerabilities:
+      - VCID-m6sb-ru3f-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@5.0.3
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-m6sb-ru3f-aaaf
+  - purl: pkg:gem/doorkeeper@5.1.0
+    affected_by_vulnerabilities:
+      - VCID-m6sb-ru3f-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@5.1.0.rc1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-m6sb-ru3f-aaaf
+  - purl: pkg:gem/doorkeeper@5.1.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-m6sb-ru3f-aaaf
+  - purl: pkg:gem/doorkeeper@5.2.0
+    affected_by_vulnerabilities:
+      - VCID-m6sb-ru3f-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@5.2.1
+    affected_by_vulnerabilities:
+      - VCID-m6sb-ru3f-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@5.2.2
+    affected_by_vulnerabilities:
+      - VCID-m6sb-ru3f-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@5.2.3
+    affected_by_vulnerabilities:
+      - VCID-m6sb-ru3f-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@5.2.4
+    affected_by_vulnerabilities:
+      - VCID-m6sb-ru3f-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@5.2.5
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-m6sb-ru3f-aaaf
+  - purl: pkg:gem/doorkeeper@5.3.0
+    affected_by_vulnerabilities:
+      - VCID-m6sb-ru3f-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@5.3.1
+    affected_by_vulnerabilities:
+      - VCID-m6sb-ru3f-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper@5.3.2
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-m6sb-ru3f-aaaf

@@ -1,0 +1,80 @@
+vulnerability_id: VCID-7pkj-kc6w-aaam
+aliases:
+  - CVE-2015-1866
+  - GHSA-mp78-r56v-45qc
+summary: Moderate severity vulnerability that affects ember-source
+severities:
+  - id: '196445'
+    reference_id: 29334
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+  - id: '196443'
+    reference_id: 29334
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+  - id: 5195
+    reference_id: 29336
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 29335
+    url: https://emberjs.com/blog/2015/04/14/security-and-bugfix-releases-ember-1-10-1-1-11-2-1-11-3.html
+    reference_id:
+  - id: 39095
+    url: https://groups.google.com/forum/#!topic/ember-security/nbntfs2EbRU
+    reference_id:
+  - id: 1469757
+    url: https://web.archive.org/web/20200228155301/http://www.securityfocus.com/bid/74185
+    reference_id:
+  - id: 29337
+    url: http://www.openwall.com/lists/oss-security/2015/04/14/11
+    reference_id:
+  - id: 29338
+    url: http://www.securityfocus.com/bid/74185
+    reference_id:
+  - id: 601199
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:emberjs:ember.js:1.10.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:emberjs:ember.js:1.10.0:*:*:*:*:*:*:*
+  - id: 601200
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:emberjs:ember.js:1.10.0:beta1:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:emberjs:ember.js:1.10.0:beta1:*:*:*:*:*:*
+  - id: 601201
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:emberjs:ember.js:1.10.0:beta2:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:emberjs:ember.js:1.10.0:beta2:*:*:*:*:*:*
+  - id: 601202
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:emberjs:ember.js:1.10.0:beta3:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:emberjs:ember.js:1.10.0:beta3:*:*:*:*:*:*
+  - id: 601203
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:emberjs:ember.js:1.10.0:beta4:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:emberjs:ember.js:1.10.0:beta4:*:*:*:*:*:*
+  - id: 601204
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:emberjs:ember.js:1.11.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:emberjs:ember.js:1.11.0:*:*:*:*:*:*:*
+  - id: 601205
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:emberjs:ember.js:1.11.0:beta1:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:emberjs:ember.js:1.11.0:beta1:*:*:*:*:*:*
+  - id: 601206
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:emberjs:ember.js:1.11.0:beta2:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:emberjs:ember.js:1.11.0:beta2:*:*:*:*:*:*
+  - id: 601207
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:emberjs:ember.js:1.11.0:beta3:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:emberjs:ember.js:1.11.0:beta3:*:*:*:*:*:*
+  - id: 601208
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:emberjs:ember.js:1.11.0:beta4:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:emberjs:ember.js:1.11.0:beta4:*:*:*:*:*:*
+  - id: 601209
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:emberjs:ember.js:1.11.0:beta5:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:emberjs:ember.js:1.11.0:beta5:*:*:*:*:*:*
+  - id: 601210
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:emberjs:ember.js:1.11.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:emberjs:ember.js:1.11.1:*:*:*:*:*:*:*
+  - id: 29334
+    url: https://nvd.nist.gov/vuln/detail/CVE-2015-1866
+    reference_id: CVE-2015-1866
+  - id: 29336
+    url: https://github.com/advisories/GHSA-mp78-r56v-45qc
+    reference_id: GHSA-mp78-r56v-45qc
+weaknesses: []

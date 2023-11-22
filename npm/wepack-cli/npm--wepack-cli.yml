@@ -1,0 +1,10 @@
+package: pkg:npm/wepack-cli
+versions:
+  - purl: pkg:npm/wepack-cli@0.0.0
+    affected_by_vulnerabilities:
+      - VCID-jwu8-7qzf-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/wepack-cli@0.0.1-security
+    affected_by_vulnerabilities:
+      - VCID-jwu8-7qzf-aaab
+    fixing_vulnerabilities: []

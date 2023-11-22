@@ -1,0 +1,45 @@
+vulnerability_id: VCID-9snd-euj7-aaar
+aliases:
+  - CVE-2021-25967
+  - GHSA-6w9p-88qg-p3g3
+  - PYSEC-2021-841
+summary: In CKAN, versions 2.9.0 to 2.9.3 are affected by a stored XSS vulnerability via SVG
+  file upload of users’ profile picture. This allows low privileged application users to store
+  malicious scripts in their profile picture. These scripts are executed in a victim’s browser
+  when they open the malicious profile picture
+severities:
+  - id: 523266
+    reference_id: 21580
+    scoring_system: cvssv2
+    value: '3.5'
+    scoring_elements: AV:N/AC:M/Au:S/C:N/I:P/A:N
+  - id: 523264
+    reference_id: 21580
+    scoring_system: cvssv3
+    value: '5.4'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N
+  - id: 3678
+    reference_id: 21584
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 21583
+    url: https://github.com/ckan/ckan/commit/5a46989c0a4f2c2873ca182c196da83b82babd25
+    reference_id:
+  - id: 21582
+    url: https://github.com/ckan/ckan/pull/6477
+    reference_id:
+  - id: 873593
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:okfn:ckan:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:okfn:ckan:*:*:*:*:*:*:*:*
+  - id: 21580
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-25967
+    reference_id: CVE-2021-25967
+  - id: 21581
+    url: https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25967
+    reference_id: CVE-2021-25967
+  - id: 21584
+    url: https://github.com/advisories/GHSA-6w9p-88qg-p3g3
+    reference_id: GHSA-6w9p-88qg-p3g3
+weaknesses: []

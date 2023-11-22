@@ -1,0 +1,35 @@
+vulnerability_id: VCID-7hap-axhd-aaab
+aliases:
+  - CVE-2021-46384
+  - GHSA-qwh6-xwj4-9cjg
+summary: Remote code execution in net.mingsoft:ms-mcms
+severities:
+  - id: 573808
+    reference_id: 1069
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 573806
+    reference_id: 1069
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 124
+    reference_id: 1071
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 1070
+    url: https://gitee.com/mingSoft/MCMS/issues/I4QZ1O
+    reference_id:
+  - id: 907448
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:mingsoft:mcms:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:mingsoft:mcms:*:*:*:*:*:*:*:*
+  - id: 1069
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-46384
+    reference_id: CVE-2021-46384
+  - id: 1071
+    url: https://github.com/advisories/GHSA-qwh6-xwj4-9cjg
+    reference_id: GHSA-qwh6-xwj4-9cjg
+weaknesses: []

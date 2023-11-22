@@ -1,0 +1,40 @@
+vulnerability_id: VCID-1dqk-hd8c-aaab
+aliases:
+  - CVE-2017-16074
+  - GHSA-c2m4-w5hm-vqjw
+summary: |
+  Malicious package (Typosquatting)
+  crossenv is a malicious module published with the intent to hijack environment variables. It has been unpublished by npm.
+severities:
+  - id: 269892
+    reference_id: 33612
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 269890
+    reference_id: 33612
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+  - id: 705664
+    reference_id: 1466879
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 687680
+    url: https://nodesecurity.io/advisories/513
+    reference_id:
+  - id: 1466880
+    url: https://www.npmjs.com/advisories/513
+    reference_id:
+  - id: 687681
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:crossenv_project:crossenv:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:crossenv_project:crossenv:*:*:*:*:*:node.js:*:*
+  - id: 33612
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-16074
+    reference_id: CVE-2017-16074
+  - id: 1466879
+    url: https://github.com/advisories/GHSA-c2m4-w5hm-vqjw
+    reference_id: GHSA-c2m4-w5hm-vqjw
+weaknesses: []

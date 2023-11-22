@@ -1,0 +1,34 @@
+vulnerability_id: VCID-2qpx-gpw6-aaaa
+aliases:
+  - GHSA-9wx7-jrvc-28mm
+  - GMS-2021-165
+  - GMS-2021-170
+  - GMS-2021-43
+  - GMS-2021-62
+summary: Signature verification vulnerability in Stark Bank ecdsa libraries
+severities:
+  - id: 913
+    reference_id: 10115
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 10112
+    url: https://github.com/starkbank/ecdsa-dotnet
+    reference_id:
+  - id: 10113
+    url: https://github.com/starkbank/ecdsa-java
+    reference_id:
+  - id: 10114
+    url: https://github.com/starkbank/ecdsa-node
+    reference_id:
+  - id: 8180
+    url: https://github.com/starkbank/ecdsa-python/releases/tag/v2.0.1
+    reference_id:
+  - id: 8179
+    url: https://research.nccgroup.com/2021/11/08/technical-advisory-arbitrary-signature-forgery-in-stark-bank-ecdsa-libraries/
+    reference_id:
+  - id: 10115
+    url: https://github.com/advisories/GHSA-9wx7-jrvc-28mm
+    reference_id: GHSA-9wx7-jrvc-28mm
+weaknesses: []

@@ -1,0 +1,15 @@
+vulnerability_id: VCID-jzw7-qsx4-aaam
+aliases:
+  - OSVDB-106279
+summary: |
+  Security bypass using Java imports
+  An attacker can Import Java classes to circumvent the security protections and execute arbitrary code outside the sandboxed environment.
+severities: []
+references:
+  - id: 38817
+    url: http://packetstormsecurity.com/files/126317/JRuby-Sandbox-0.2.2-Bypass.html
+    reference_id:
+  - id: 38818
+    url: http://seclists.org/fulldisclosure/2014/Apr/att-264/jruby-sandbox.txt
+    reference_id:
+weaknesses: []

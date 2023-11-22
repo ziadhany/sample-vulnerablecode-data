@@ -1,0 +1,27 @@
+vulnerability_id: VCID-vmrg-6cct-aaaf
+aliases:
+  - GHSA-8f93-rv4p-x4jw
+  - GMS-2019-57
+summary: |
+  SQL Injection in sql
+  All versions of `sql` are vulnerable to sql injection as it does not properly escape parameters when building SQL queries. No fix is currently available for this vulnerability. It is our recommendation to not install or use this module until a fix is available.
+severities:
+  - id: 704758
+    reference_id: 35250
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 35247
+    url: https://hackerone.com/reports/319465
+    reference_id:
+  - id: 35248
+    url: https://nodesecurity.io/advisories/662
+    reference_id:
+  - id: 35249
+    url: https://www.npmjs.com/advisories/662
+    reference_id:
+  - id: 35250
+    url: https://github.com/advisories/GHSA-8f93-rv4p-x4jw
+    reference_id: GHSA-8f93-rv4p-x4jw
+weaknesses: []

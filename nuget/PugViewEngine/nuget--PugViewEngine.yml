@@ -1,0 +1,6 @@
+package: pkg:nuget/PugViewEngine
+versions:
+  - purl: pkg:nuget/PugViewEngine@0.0.3
+    affected_by_vulnerabilities:
+      - VCID-u5qj-vv2c-aaaf
+    fixing_vulnerabilities: []

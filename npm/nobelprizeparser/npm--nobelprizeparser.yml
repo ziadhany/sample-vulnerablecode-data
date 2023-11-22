@@ -1,0 +1,14 @@
+package: pkg:npm/nobelprizeparser
+versions:
+  - purl: pkg:npm/nobelprizeparser@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-rcz5-3ds5-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nobelprizeparser@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-rcz5-3ds5-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nobelprizeparser@1.0.2
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-rcz5-3ds5-aaaj

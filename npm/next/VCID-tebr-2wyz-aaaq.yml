@@ -1,0 +1,40 @@
+vulnerability_id: VCID-tebr-2wyz-aaaq
+aliases:
+  - CVE-2021-37699
+  - GHSA-vxf5-wxwp-m7g9
+summary: |
+  URL Redirection to Untrusted Site (Open Redirect)
+  Next.In general, this redirect does not directly harm users although can allow for phishing attacks by redirecting to an attacker's domain from a trusted domain.
+severities:
+  - id: 552366
+    reference_id: 35890
+    scoring_system: cvssv2
+    value: '5.8'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:P/A:N
+  - id: 552364
+    reference_id: 35890
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+  - id: 706794
+    reference_id: 1468438
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 892469
+    url: https://github.com/vercel/next.js/releases/tag/v11.1.0
+    reference_id:
+  - id: 892470
+    url: https://github.com/vercel/next.js/security/advisories/GHSA-vxf5-wxwp-m7g9
+    reference_id:
+  - id: 822991
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:vercel:next.js:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:vercel:next.js:*:*:*:*:*:node.js:*:*
+  - id: 35890
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-37699
+    reference_id: CVE-2021-37699
+  - id: 1468438
+    url: https://github.com/advisories/GHSA-vxf5-wxwp-m7g9
+    reference_id: GHSA-vxf5-wxwp-m7g9
+weaknesses: []

@@ -1,0 +1,191 @@
+vulnerability_id: VCID-qjmg-q5dz-aaag
+aliases:
+  - CVE-2016-8627
+summary: admin-cli before versions 3.0.0.alpha25, 2.2.1.cr2 is vulnerable to an EAP feature
+  to download server log files that allows logs to be available via GET requests making them
+  vulnerable to cross-origin attacks. An attacker could trigger the user's browser to request
+  the log files consuming enough resources that normal server functioning could be impaired.
+severities:
+  - id: 624816
+    reference_id: 941947
+    scoring_system: cvssv3
+    value: '4.3'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L
+  - id: 624811
+    reference_id: 941942
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 241300
+    reference_id: 659697
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:N/A:P
+  - id: 241298
+    reference_id: 659697
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+  - id: 624813
+    reference_id: 941944
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 624812
+    reference_id: 941943
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 624815
+    reference_id: 941946
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 624814
+    reference_id: 941945
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 68503
+    reference_id: '198044'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 68502
+    reference_id: '198043'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 68498
+    reference_id: '198039'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 68497
+    reference_id: '198038'
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 68501
+    reference_id: '198042'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 47918
+    reference_id: 172494
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 47919
+    reference_id: 172495
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 47915
+    reference_id: 172491
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 47912
+    reference_id: 172488
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 655144
+    url: http://rhn.redhat.com/errata/RHSA-2017-0170.html
+    reference_id:
+  - id: 655145
+    url: http://rhn.redhat.com/errata/RHSA-2017-0171.html
+    reference_id:
+  - id: 655146
+    url: http://rhn.redhat.com/errata/RHSA-2017-0172.html
+    reference_id:
+  - id: 655147
+    url: http://rhn.redhat.com/errata/RHSA-2017-0173.html
+    reference_id:
+  - id: 654440
+    url: http://rhn.redhat.com/errata/RHSA-2017-0244.html
+    reference_id:
+  - id: 654441
+    url: http://rhn.redhat.com/errata/RHSA-2017-0245.html
+    reference_id:
+  - id: 654442
+    url: http://rhn.redhat.com/errata/RHSA-2017-0246.html
+    reference_id:
+  - id: 654443
+    url: http://rhn.redhat.com/errata/RHSA-2017-0247.html
+    reference_id:
+  - id: 654444
+    url: http://rhn.redhat.com/errata/RHSA-2017-0250.html
+    reference_id:
+  - id: 941947
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2016-8627.json
+    reference_id:
+  - id: 659696
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2016-8627
+    reference_id:
+  - id: 659694
+    url: http://www.securityfocus.com/bid/95698
+    reference_id:
+  - id: 659695
+    url: http://www.securitytracker.com/id/1037660
+    reference_id:
+  - id: 941942
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1388240
+    reference_id: 1388240
+  - id: 659698
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:6.4.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:6.4.0:*:*:*:*:*:*:*
+  - id: 659699
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:7.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:7.0.0:*:*:*:*:*:*:*
+  - id: 659700
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:7.1.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:7.1.0:*:*:*:*:*:*:*
+  - id: 659701
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:keycloak:-:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:keycloak:-:*:*:*:*:*:*:*
+  - id: 659697
+    url: https://nvd.nist.gov/vuln/detail/CVE-2016-8627
+    reference_id: CVE-2016-8627
+  - id: 941944
+    url: https://access.redhat.com/errata/RHSA-2017:0170
+    reference_id: RHSA-2017:0170
+  - id: 941943
+    url: https://access.redhat.com/errata/RHSA-2017:0171
+    reference_id: RHSA-2017:0171
+  - id: 941946
+    url: https://access.redhat.com/errata/RHSA-2017:0172
+    reference_id: RHSA-2017:0172
+  - id: 941945
+    url: https://access.redhat.com/errata/RHSA-2017:0173
+    reference_id: RHSA-2017:0173
+  - id: '198044'
+    url: https://access.redhat.com/errata/RHSA-2017:0244
+    reference_id: RHSA-2017:0244
+  - id: '198043'
+    url: https://access.redhat.com/errata/RHSA-2017:0245
+    reference_id: RHSA-2017:0245
+  - id: '198039'
+    url: https://access.redhat.com/errata/RHSA-2017:0246
+    reference_id: RHSA-2017:0246
+  - id: '198038'
+    url: https://access.redhat.com/errata/RHSA-2017:0247
+    reference_id: RHSA-2017:0247
+  - id: '198042'
+    url: https://access.redhat.com/errata/RHSA-2017:0250
+    reference_id: RHSA-2017:0250
+  - id: 172494
+    url: https://access.redhat.com/errata/RHSA-2017:3454
+    reference_id: RHSA-2017:3454
+  - id: 172495
+    url: https://access.redhat.com/errata/RHSA-2017:3455
+    reference_id: RHSA-2017:3455
+  - id: 172491
+    url: https://access.redhat.com/errata/RHSA-2017:3456
+    reference_id: RHSA-2017:3456
+  - id: 172488
+    url: https://access.redhat.com/errata/RHSA-2017:3458
+    reference_id: RHSA-2017:3458
+weaknesses: []

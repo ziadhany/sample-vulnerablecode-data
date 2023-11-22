@@ -1,0 +1,125 @@
+vulnerability_id: VCID-zv3w-yjaz-aaaf
+aliases:
+  - CVE-2016-3110
+summary: mod_cluster, as used in Red Hat JBoss Web Server 2.1, allows remote attackers to cause
+  a denial of service (Apache http server crash) via an MCMP message containing a series of
+  = (equals) characters after a legitimate element.
+severities:
+  - id: 627549
+    reference_id: 943815
+    scoring_system: cvssv3
+    value: '5.1'
+    scoring_elements: CVSS:3.0/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 627548
+    reference_id: 943814
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 223353
+    reference_id: 641047
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 223351
+    reference_id: 641047
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 48268
+    reference_id: 172763
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 48269
+    reference_id: 172764
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 48261
+    reference_id: 172756
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 54287
+    reference_id: 179489
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 54286
+    reference_id: 179488
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 49833
+    reference_id: 174273
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 637718
+    url: http://rhn.redhat.com/errata/RHSA-2016-1648.html
+    reference_id:
+  - id: 637719
+    url: http://rhn.redhat.com/errata/RHSA-2016-1649.html
+    reference_id:
+  - id: 566612
+    url: http://rhn.redhat.com/errata/RHSA-2016-1650.html
+    reference_id:
+  - id: 606222
+    url: http://rhn.redhat.com/errata/RHSA-2016-2054.html
+    reference_id:
+  - id: 606223
+    url: http://rhn.redhat.com/errata/RHSA-2016-2055.html
+    reference_id:
+  - id: 606224
+    url: http://rhn.redhat.com/errata/RHSA-2016-2056.html
+    reference_id:
+  - id: 943815
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2016-3110.json
+    reference_id:
+  - id: 641044
+    url: https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/6JMA2YLPK6SEUVF5Q3QEANHYEPRZA2RI/
+    reference_id:
+  - id: 641045
+    url: https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CX5QNNIVAUB2VVDV6TR3YMFTL6VRKOBO/
+    reference_id:
+  - id: 641046
+    url: https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/HE5YZTBZRXCMQFT5LDLZG2HAYBKMYQLL/
+    reference_id:
+  - id: 641042
+    url: http://www.securityfocus.com/bid/92584
+    reference_id:
+  - id: 943814
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1326320
+    reference_id: 1326320
+  - id: 641048
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:fedoraproject:fedora:28:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:fedoraproject:fedora:28:*:*:*:*:*:*:*
+  - id: 641049
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:fedoraproject:fedora:29:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:fedoraproject:fedora:29:*:*:*:*:*:*:*
+  - id: 641050
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:fedoraproject:fedora:30:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:fedoraproject:fedora:30:*:*:*:*:*:*:*
+  - id: 641047
+    url: https://nvd.nist.gov/vuln/detail/CVE-2016-3110
+    reference_id: CVE-2016-3110
+  - id: 172763
+    url: https://access.redhat.com/errata/RHSA-2016:1648
+    reference_id: RHSA-2016:1648
+  - id: 172764
+    url: https://access.redhat.com/errata/RHSA-2016:1649
+    reference_id: RHSA-2016:1649
+  - id: 172756
+    url: https://access.redhat.com/errata/RHSA-2016:1650
+    reference_id: RHSA-2016:1650
+  - id: 179489
+    url: https://access.redhat.com/errata/RHSA-2016:2054
+    reference_id: RHSA-2016:2054
+  - id: 179488
+    url: https://access.redhat.com/errata/RHSA-2016:2055
+    reference_id: RHSA-2016:2055
+  - id: 174273
+    url: https://access.redhat.com/errata/RHSA-2016:2056
+    reference_id: RHSA-2016:2056
+weaknesses: []

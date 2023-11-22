@@ -1,0 +1,66 @@
+package: pkg:npm/json8
+versions:
+  - purl: pkg:npm/json8@0.1.0
+    affected_by_vulnerabilities:
+      - VCID-b65e-tv9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/json8@0.2.0
+    affected_by_vulnerabilities:
+      - VCID-b65e-tv9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/json8@0.3.0
+    affected_by_vulnerabilities:
+      - VCID-b65e-tv9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/json8@0.4.0
+    affected_by_vulnerabilities:
+      - VCID-b65e-tv9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/json8@0.5.0
+    affected_by_vulnerabilities:
+      - VCID-b65e-tv9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/json8@0.6.0
+    affected_by_vulnerabilities:
+      - VCID-b65e-tv9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/json8@0.7.0
+    affected_by_vulnerabilities:
+      - VCID-b65e-tv9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/json8@0.8.0
+    affected_by_vulnerabilities:
+      - VCID-b65e-tv9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/json8@0.8.1
+    affected_by_vulnerabilities:
+      - VCID-b65e-tv9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/json8@0.8.2
+    affected_by_vulnerabilities:
+      - VCID-b65e-tv9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/json8@0.9.0
+    affected_by_vulnerabilities:
+      - VCID-b65e-tv9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/json8@0.9.1
+    affected_by_vulnerabilities:
+      - VCID-b65e-tv9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/json8@0.9.2
+    affected_by_vulnerabilities:
+      - VCID-b65e-tv9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/json8@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-b65e-tv9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/json8@1.0.2
+    affected_by_vulnerabilities:
+      - VCID-b65e-tv9c-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/json8@1.0.3
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-b65e-tv9c-aaan

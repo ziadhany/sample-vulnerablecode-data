@@ -1,0 +1,20 @@
+vulnerability_id: VCID-tyme-w4qw-aaaq
+aliases:
+  - GHSA-j8hw-49gg-vq3w
+  - GMS-2020-477
+summary: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+  in retcodelog.
+severities:
+  - id: 704997
+    reference_id: 35344
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 35343
+    url: https://www.npmjs.com/advisories/1061
+    reference_id:
+  - id: 35344
+    url: https://github.com/advisories/GHSA-j8hw-49gg-vq3w
+    reference_id: GHSA-j8hw-49gg-vq3w
+weaknesses: []

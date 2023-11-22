@@ -1,0 +1,26 @@
+package: pkg:pypi/codechecker
+versions:
+  - purl: pkg:pypi/codechecker@6.16.0
+    affected_by_vulnerabilities:
+      - VCID-77ba-fqnz-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/codechecker@6.16.0a1
+    affected_by_vulnerabilities:
+      - VCID-77ba-fqnz-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/codechecker@6.17.0
+    affected_by_vulnerabilities:
+      - VCID-77ba-fqnz-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/codechecker@6.18.0
+    affected_by_vulnerabilities:
+      - VCID-77ba-fqnz-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/codechecker@6.18.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-77ba-fqnz-aaas
+  - purl: pkg:pypi/codechecker@6.18.2
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-77ba-fqnz-aaas

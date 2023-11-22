@@ -1,0 +1,88 @@
+vulnerability_id: VCID-bs64-8qpb-aaaj
+aliases:
+  - CVE-2015-8103
+summary: 'CVE-2015-8103 jenkins: Remote code execution vulnerability due to unsafe deserialization
+  in Jenkins remoting (SECURITY-218)'
+severities:
+  - id: 52667
+    reference_id: 177550
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 204877
+    reference_id: 617318
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 51875
+    reference_id: 176575
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 52209
+    reference_id: 177000
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 617309
+    url: http://foxglovesecurity.com/2015/11/06/what-do-weblogic-websphere-jboss-jenkins-opennms-and-your-application-have-in-common-this-vulnerability/#jenkins
+    reference_id:
+  - id: 617310
+    url: http://packetstormsecurity.com/files/134805/Jenkins-CLI-RMI-Java-Deserialization.html
+    reference_id:
+  - id: 158438
+    url: http://rhn.redhat.com/errata/RHSA-2016-0489.html
+    reference_id:
+  - id: 177551
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2015-8103.json
+    reference_id:
+  - id: 617316
+    url: https://jenkins-ci.org/content/mitigating-unauthenticated-remote-code-execution-0-day-jenkins-cli
+    reference_id:
+  - id: 159203
+    url: https://wiki.jenkins-ci.org/display/SECURITY/Jenkins+Security+Advisory+2015-11-11
+    reference_id:
+  - id: 617317
+    url: https://www.exploit-db.com/exploits/38983/
+    reference_id:
+  - id: 617311
+    url: http://www.openwall.com/lists/oss-security/2015/11/09/5
+    reference_id:
+  - id: 617312
+    url: http://www.openwall.com/lists/oss-security/2015/11/18/11
+    reference_id:
+  - id: 617313
+    url: http://www.openwall.com/lists/oss-security/2015/11/18/13
+    reference_id:
+  - id: 617314
+    url: http://www.openwall.com/lists/oss-security/2015/11/18/2
+    reference_id:
+  - id: 617315
+    url: http://www.securityfocus.com/bid/77636
+    reference_id:
+  - id: 177550
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1282371
+    reference_id: 1282371
+  - id: 159205
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:jenkins:jenkins:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:jenkins:jenkins:*:*:*:*:*:*:*:*
+  - id: 159206
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:jenkins:jenkins:*:*:*:*:lts:*:*:*
+    reference_id: cpe:2.3:a:jenkins:jenkins:*:*:*:*:lts:*:*:*
+  - id: 158468
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift:2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift:2.0:*:*:*:*:*:*:*
+  - id: 159207
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift:*:*:*:*:enterprise:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift:*:*:*:*:enterprise:*:*:*
+  - id: 617318
+    url: https://nvd.nist.gov/vuln/detail/CVE-2015-8103
+    reference_id: CVE-2015-8103
+  - id: 176575
+    url: https://access.redhat.com/errata/RHSA-2016:0070
+    reference_id: RHSA-2016:0070
+  - id: 177000
+    url: https://access.redhat.com/errata/RHSA-2016:0489
+    reference_id: RHSA-2016:0489
+weaknesses: []

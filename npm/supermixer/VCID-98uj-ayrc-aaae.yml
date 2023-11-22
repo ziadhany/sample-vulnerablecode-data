@@ -1,0 +1,49 @@
+vulnerability_id: VCID-98uj-ayrc-aaae
+aliases:
+  - CVE-2020-24939
+  - GHSA-7prf-vw4p-qr59
+summary: |
+  Improperly Controlled Modification of Dynamically-Determined Object Attributes
+  Prototype pollution in Stampit supermixer allows an attacker to modify the prototype of a base object which can vary in severity depending on the implementation.
+severities:
+  - id: 460061
+    reference_id: 35947
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:P/A:N
+  - id: 460059
+    reference_id: 35947
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
+  - id: 706176
+    reference_id: 35952
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 947632
+    url: https://cwe.mitre.org/data/definitions/1321.html
+    reference_id:
+  - id: 35949
+    url: https://github.com/stampit-org/supermixer/commit/94dcc6fc45e0fed96187cb52aaffadf76dbbc0a3
+    reference_id:
+  - id: 35951
+    url: https://github.com/stampit-org/supermixer/compare/v1.0.4...v1.0.5
+    reference_id:
+  - id: 35948
+    url: https://github.com/stampit-org/supermixer/issues/9
+    reference_id:
+  - id: 35950
+    url: https://hackerone.com/reports/959987
+    reference_id:
+  - id: 832899
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:stampit:supermixer:1.0.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:stampit:supermixer:1.0.3:*:*:*:*:*:*:*
+  - id: 35947
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-24939
+    reference_id: CVE-2020-24939
+  - id: 35952
+    url: https://github.com/advisories/GHSA-7prf-vw4p-qr59
+    reference_id: GHSA-7prf-vw4p-qr59
+weaknesses: []

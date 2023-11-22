@@ -1,0 +1,6 @@
+package: pkg:pypi/apidev-coop
+versions:
+  - purl: pkg:pypi/apidev-coop@0.0.0a0
+    affected_by_vulnerabilities:
+      - VCID-vfa7-n8uq-aaac
+    fixing_vulnerabilities: []

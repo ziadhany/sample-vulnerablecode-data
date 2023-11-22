@@ -1,0 +1,283 @@
+vulnerability_id: VCID-4a93-z1uq-aaam
+aliases:
+  - CVE-2012-5575
+  - GHSA-7v5v-9v8r-w864
+summary: 'CVE-2012-5575 jbossws-native, jbossws-cxf, apache-cxf: XML encryption backwards compatibility
+  attacks'
+severities:
+  - id: 159214
+    reference_id: 507229
+    scoring_system: cvssv2
+    value: '6.4'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:N
+  - id: 630031
+    reference_id: 945913
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 59671
+    reference_id: 186407
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 59670
+    reference_id: 186406
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 59669
+    reference_id: 186405
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 62472
+    reference_id: '190488'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 62471
+    reference_id: '190487'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 62476
+    reference_id: '190492'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 62474
+    reference_id: '190490'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 62470
+    reference_id: '190486'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 62473
+    reference_id: '190489'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 62475
+    reference_id: '190491'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 61923
+    reference_id: 189699
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 59179
+    reference_id: 185710
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 502529
+    url: http://rhn.redhat.com/errata/RHSA-2013-0833.html
+    reference_id:
+  - id: 502530
+    url: http://rhn.redhat.com/errata/RHSA-2013-0834.html
+    reference_id:
+  - id: 502531
+    url: http://rhn.redhat.com/errata/RHSA-2013-0839.html
+    reference_id:
+  - id: 507220
+    url: http://rhn.redhat.com/errata/RHSA-2013-0873.html
+    reference_id:
+  - id: 507221
+    url: http://rhn.redhat.com/errata/RHSA-2013-0874.html
+    reference_id:
+  - id: 507222
+    url: http://rhn.redhat.com/errata/RHSA-2013-0875.html
+    reference_id:
+  - id: 507223
+    url: http://rhn.redhat.com/errata/RHSA-2013-0876.html
+    reference_id:
+  - id: 507224
+    url: http://rhn.redhat.com/errata/RHSA-2013-0943.html
+    reference_id:
+  - id: 30294
+    url: http://rhn.redhat.com/errata/RHSA-2013-1028.html
+    reference_id:
+  - id: 507225
+    url: http://rhn.redhat.com/errata/RHSA-2013-1143.html
+    reference_id:
+  - id: 450919
+    url: http://rhn.redhat.com/errata/RHSA-2013-1437.html
+    reference_id:
+  - id: '190493'
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2012-5575.json
+    reference_id:
+  - id: 507228
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=880443
+    reference_id:
+  - id: 10867
+    url: https://lists.apache.org/thread.html/r36e44ffc1a9b365327df62cdfaabe85b9a5637de102cea07d79b2dbf@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 1471053
+    url: https://lists.apache.org/thread.html/r36e44ffc1a9b365327df62cdfaabe85b9a5637de102cea07d79b2dbf%40%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10866
+    url: https://lists.apache.org/thread.html/rc774278135816e7afc943dc9fc78eb0764f2c84a2b96470a0187315c@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 1471054
+    url: https://lists.apache.org/thread.html/rc774278135816e7afc943dc9fc78eb0764f2c84a2b96470a0187315c%40%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10872
+    url: https://lists.apache.org/thread.html/rd49aabd984ed540c8ff7916d4d79405f3fa311d2fdbcf9ed307839a6@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 1471055
+    url: https://lists.apache.org/thread.html/rd49aabd984ed540c8ff7916d4d79405f3fa311d2fdbcf9ed307839a6%40%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10860
+    url: https://lists.apache.org/thread.html/rec7160382badd3ef4ad017a22f64a266c7188b9ba71394f0d321e2d4@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 1471056
+    url: https://lists.apache.org/thread.html/rec7160382badd3ef4ad017a22f64a266c7188b9ba71394f0d321e2d4%40%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10862
+    url: https://lists.apache.org/thread.html/rfb87e0bf3995e7d560afeed750fac9329ff5f1ad49da365129b7f89e@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 1471057
+    url: https://lists.apache.org/thread.html/rfb87e0bf3995e7d560afeed750fac9329ff5f1ad49da365129b7f89e%40%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10873
+    url: https://lists.apache.org/thread.html/rff42cfa5e7d75b7c1af0e37589140a8f1999e578a75738740b244bd4@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 1471058
+    url: https://lists.apache.org/thread.html/rff42cfa5e7d75b7c1af0e37589140a8f1999e578a75738740b244bd4%40%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 507226
+    url: http://www.nds.ruhr-uni-bochum.de/research/publications/backwards-compatibility/
+    reference_id:
+  - id: 507227
+    url: http://www.securityfocus.com/bid/60043
+    reference_id:
+  - id: 491366
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.5.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.5.0:*:*:*:*:*:*:*
+  - id: 481607
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.5.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.5.1:*:*:*:*:*:*:*
+  - id: 491352
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.5.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.5.2:*:*:*:*:*:*:*
+  - id: 491353
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.5.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.5.3:*:*:*:*:*:*:*
+  - id: 507230
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.5.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.5.4:*:*:*:*:*:*:*
+  - id: 507231
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.5.5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.5.5:*:*:*:*:*:*:*
+  - id: 507232
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.5.6:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.5.6:*:*:*:*:*:*:*
+  - id: 507233
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.5.7:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.5.7:*:*:*:*:*:*:*
+  - id: 507234
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.5.8:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.5.8:*:*:*:*:*:*:*
+  - id: 507235
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.5.9:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.5.9:*:*:*:*:*:*:*
+  - id: 491354
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.6.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.6.0:*:*:*:*:*:*:*
+  - id: 507236
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.6.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.6.1:*:*:*:*:*:*:*
+  - id: 507237
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.6.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.6.2:*:*:*:*:*:*:*
+  - id: 507238
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.6.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.6.3:*:*:*:*:*:*:*
+  - id: 507239
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.6.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.6.4:*:*:*:*:*:*:*
+  - id: 507240
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.6.5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.6.5:*:*:*:*:*:*:*
+  - id: 507241
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.6.6:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.6.6:*:*:*:*:*:*:*
+  - id: 507242
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.7.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.7.0:*:*:*:*:*:*:*
+  - id: 507243
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.7.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.7.1:*:*:*:*:*:*:*
+  - id: 507244
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.7.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.7.2:*:*:*:*:*:*:*
+  - id: 507245
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.7.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.7.3:*:*:*:*:*:*:*
+  - id: 408390
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:5.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:5.0.0:*:*:*:*:*:*:*
+  - id: 463367
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_portal_platform:4.3.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_portal_platform:4.3.0:*:*:*:*:*:*:*
+  - id: 425197
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_soa_platform:4.3.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_soa_platform:4.3.0:*:*:*:*:*:*:*
+  - id: 472140
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_web_platform:5.2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_web_platform:5.2.0:*:*:*:*:*:*:*
+  - id: 507246
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_fuse_esb_enterprise:7.1.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_fuse_esb_enterprise:7.1.0:*:*:*:*:*:*:*
+  - id: 507229
+    url: https://nvd.nist.gov/vuln/detail/CVE-2012-5575
+    reference_id: CVE-2012-5575
+  - id: 945912
+    url: http://cxf.apache.org/cve-2012-5575.html
+    reference_id: CVE-2012-5575.HTML
+  - id: 945913
+    url: https://github.com/advisories/GHSA-7v5v-9v8r-w864
+    reference_id: GHSA-7v5v-9v8r-w864
+  - id: 186407
+    url: https://access.redhat.com/errata/RHSA-2013:0833
+    reference_id: RHSA-2013:0833
+  - id: 186406
+    url: https://access.redhat.com/errata/RHSA-2013:0834
+    reference_id: RHSA-2013:0834
+  - id: 186405
+    url: https://access.redhat.com/errata/RHSA-2013:0839
+    reference_id: RHSA-2013:0839
+  - id: '190488'
+    url: https://access.redhat.com/errata/RHSA-2013:0873
+    reference_id: RHSA-2013:0873
+  - id: '190487'
+    url: https://access.redhat.com/errata/RHSA-2013:0874
+    reference_id: RHSA-2013:0874
+  - id: '190492'
+    url: https://access.redhat.com/errata/RHSA-2013:0875
+    reference_id: RHSA-2013:0875
+  - id: '190490'
+    url: https://access.redhat.com/errata/RHSA-2013:0876
+    reference_id: RHSA-2013:0876
+  - id: '190486'
+    url: https://access.redhat.com/errata/RHSA-2013:0943
+    reference_id: RHSA-2013:0943
+  - id: '190489'
+    url: https://access.redhat.com/errata/RHSA-2013:0953
+    reference_id: RHSA-2013:0953
+  - id: '190491'
+    url: https://access.redhat.com/errata/RHSA-2013:1006
+    reference_id: RHSA-2013:1006
+  - id: 189699
+    url: https://access.redhat.com/errata/RHSA-2013:1028
+    reference_id: RHSA-2013:1028
+  - id: 185710
+    url: https://access.redhat.com/errata/RHSA-2013:1437
+    reference_id: RHSA-2013:1437
+weaknesses: []

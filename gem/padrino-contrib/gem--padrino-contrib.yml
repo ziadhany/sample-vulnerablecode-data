@@ -1,0 +1,86 @@
+package: pkg:gem/padrino-contrib
+versions:
+  - purl: pkg:gem/padrino-contrib@0.0.1
+    affected_by_vulnerabilities:
+      - VCID-4kqc-m7tj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/padrino-contrib@0.0.2
+    affected_by_vulnerabilities:
+      - VCID-4kqc-m7tj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/padrino-contrib@0.0.3
+    affected_by_vulnerabilities:
+      - VCID-4kqc-m7tj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/padrino-contrib@0.0.4
+    affected_by_vulnerabilities:
+      - VCID-4kqc-m7tj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/padrino-contrib@0.0.5
+    affected_by_vulnerabilities:
+      - VCID-4kqc-m7tj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/padrino-contrib@0.0.6
+    affected_by_vulnerabilities:
+      - VCID-4kqc-m7tj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/padrino-contrib@0.1.0
+    affected_by_vulnerabilities:
+      - VCID-4kqc-m7tj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/padrino-contrib@0.1.1
+    affected_by_vulnerabilities:
+      - VCID-4kqc-m7tj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/padrino-contrib@0.1.10
+    affected_by_vulnerabilities:
+      - VCID-4kqc-m7tj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/padrino-contrib@0.1.11
+    affected_by_vulnerabilities:
+      - VCID-4kqc-m7tj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/padrino-contrib@0.1.12
+    affected_by_vulnerabilities:
+      - VCID-4kqc-m7tj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/padrino-contrib@0.1.13
+    affected_by_vulnerabilities:
+      - VCID-4kqc-m7tj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/padrino-contrib@0.1.2
+    affected_by_vulnerabilities:
+      - VCID-4kqc-m7tj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/padrino-contrib@0.1.3
+    affected_by_vulnerabilities:
+      - VCID-4kqc-m7tj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/padrino-contrib@0.1.4
+    affected_by_vulnerabilities:
+      - VCID-4kqc-m7tj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/padrino-contrib@0.1.5
+    affected_by_vulnerabilities:
+      - VCID-4kqc-m7tj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/padrino-contrib@0.1.6
+    affected_by_vulnerabilities:
+      - VCID-4kqc-m7tj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/padrino-contrib@0.1.7
+    affected_by_vulnerabilities:
+      - VCID-4kqc-m7tj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/padrino-contrib@0.1.8
+    affected_by_vulnerabilities:
+      - VCID-4kqc-m7tj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/padrino-contrib@0.1.9
+    affected_by_vulnerabilities:
+      - VCID-4kqc-m7tj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/padrino-contrib@0.2.0
+    affected_by_vulnerabilities:
+      - VCID-4kqc-m7tj-aaae
+    fixing_vulnerabilities: []

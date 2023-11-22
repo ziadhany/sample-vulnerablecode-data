@@ -1,0 +1,122 @@
+package: pkg:pypi/apache-airflow-providers-apache-pinot
+versions:
+  - purl: pkg:pypi/apache-airflow-providers-apache-pinot@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-xmhu-48t6-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-pinot@1.0.0b1
+    affected_by_vulnerabilities:
+      - VCID-xmhu-48t6-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-pinot@1.0.0b2
+    affected_by_vulnerabilities:
+      - VCID-xmhu-48t6-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-pinot@1.0.0rc1
+    affected_by_vulnerabilities:
+      - VCID-xmhu-48t6-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-pinot@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-xmhu-48t6-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-pinot@1.0.1rc1
+    affected_by_vulnerabilities:
+      - VCID-xmhu-48t6-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-pinot@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-xmhu-48t6-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-pinot@2.0.0rc1
+    affected_by_vulnerabilities:
+      - VCID-xmhu-48t6-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-pinot@2.0.0rc2
+    affected_by_vulnerabilities:
+      - VCID-xmhu-48t6-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-pinot@2.0.1
+    affected_by_vulnerabilities:
+      - VCID-xmhu-48t6-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-pinot@2.0.1rc1
+    affected_by_vulnerabilities:
+      - VCID-xmhu-48t6-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-pinot@2.0.2
+    affected_by_vulnerabilities:
+      - VCID-xmhu-48t6-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-pinot@2.0.2rc1
+    affected_by_vulnerabilities:
+      - VCID-xmhu-48t6-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-pinot@2.0.3
+    affected_by_vulnerabilities:
+      - VCID-xmhu-48t6-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-pinot@2.0.3rc1
+    affected_by_vulnerabilities:
+      - VCID-xmhu-48t6-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-pinot@2.0.4
+    affected_by_vulnerabilities:
+      - VCID-xmhu-48t6-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-pinot@2.0.4rc1
+    affected_by_vulnerabilities:
+      - VCID-xmhu-48t6-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-pinot@3.0.0
+    affected_by_vulnerabilities:
+      - VCID-xmhu-48t6-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-pinot@3.0.0rc1
+    affected_by_vulnerabilities:
+      - VCID-xmhu-48t6-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-pinot@3.0.0rc2
+    affected_by_vulnerabilities:
+      - VCID-xmhu-48t6-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-pinot@3.1.0
+    affected_by_vulnerabilities:
+      - VCID-xmhu-48t6-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-pinot@3.1.0rc1
+    affected_by_vulnerabilities:
+      - VCID-xmhu-48t6-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-pinot@3.2.0
+    affected_by_vulnerabilities:
+      - VCID-xmhu-48t6-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-pinot@3.2.0rc1
+    affected_by_vulnerabilities:
+      - VCID-xmhu-48t6-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-pinot@3.2.0rc2
+    affected_by_vulnerabilities:
+      - VCID-xmhu-48t6-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-pinot@3.2.0rc3
+    affected_by_vulnerabilities:
+      - VCID-xmhu-48t6-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-pinot@3.2.1
+    affected_by_vulnerabilities:
+      - VCID-xmhu-48t6-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-pinot@3.2.1rc1
+    affected_by_vulnerabilities:
+      - VCID-xmhu-48t6-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-pinot@4.0.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-xmhu-48t6-aaad
+  - purl: pkg:pypi/apache-airflow-providers-apache-pinot@4.0.0rc1
+    affected_by_vulnerabilities:
+      - VCID-xmhu-48t6-aaad
+    fixing_vulnerabilities: []

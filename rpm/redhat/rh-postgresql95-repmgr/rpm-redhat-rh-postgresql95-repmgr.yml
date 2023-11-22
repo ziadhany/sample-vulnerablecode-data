@@ -1,0 +1,16 @@
+package: pkg:rpm/redhat/rh-postgresql95-repmgr
+versions:
+  - purl: pkg:rpm/redhat/rh-postgresql95-repmgr@3.1.3-2?arch=el7cf
+    affected_by_vulnerabilities:
+      - VCID-6nh4-7nf5-aaad
+      - VCID-qez8-dgmj-aaak
+      - VCID-xmhy-jf4y-aaak
+      - VCID-xmx5-a45m-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/rh-postgresql95-repmgr@4.0.6-2?arch=el7cf
+    affected_by_vulnerabilities:
+      - VCID-22mr-wwfc-aaab
+      - VCID-pjrb-txh7-aaak
+      - VCID-r4sj-m8p3-aaaq
+      - VCID-xzna-6eg3-aaag
+    fixing_vulnerabilities: []

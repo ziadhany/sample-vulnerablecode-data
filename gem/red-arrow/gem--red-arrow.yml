@@ -1,0 +1,30 @@
+package: pkg:gem/red-arrow
+versions:
+  - purl: pkg:gem/red-arrow@0.12.0
+    affected_by_vulnerabilities:
+      - VCID-h6u5-kacg-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/red-arrow@0.13.0
+    affected_by_vulnerabilities:
+      - VCID-h6u5-kacg-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/red-arrow@0.14.0
+    affected_by_vulnerabilities:
+      - VCID-h6u5-kacg-aaab
+      - VCID-kchz-nyeu-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/red-arrow@0.14.1
+    affected_by_vulnerabilities:
+      - VCID-h6u5-kacg-aaab
+      - VCID-kchz-nyeu-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/red-arrow@0.15.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-h6u5-kacg-aaab
+      - VCID-kchz-nyeu-aaaa
+  - purl: pkg:gem/red-arrow@0.15.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-h6u5-kacg-aaab
+      - VCID-kchz-nyeu-aaaa

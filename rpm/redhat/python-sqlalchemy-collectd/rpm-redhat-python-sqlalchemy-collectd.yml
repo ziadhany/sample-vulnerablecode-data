@@ -1,0 +1,6 @@
+package: pkg:rpm/redhat/python-sqlalchemy-collectd
+versions:
+  - purl: pkg:rpm/redhat/python-sqlalchemy-collectd@0.0.4-1?arch=el8ost
+    affected_by_vulnerabilities:
+      - VCID-2cqt-v8wb-aaac
+    fixing_vulnerabilities: []

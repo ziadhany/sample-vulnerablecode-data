@@ -1,0 +1,104 @@
+package: pkg:pypi/aioxmpp
+versions:
+  - purl: pkg:pypi/aioxmpp@0.10.0
+    affected_by_vulnerabilities:
+      - VCID-4p14-jdkk-aaah
+      - VCID-8mgf-1u47-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aioxmpp@0.10.1
+    affected_by_vulnerabilities:
+      - VCID-4p14-jdkk-aaah
+      - VCID-8mgf-1u47-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aioxmpp@0.10.2
+    affected_by_vulnerabilities:
+      - VCID-4p14-jdkk-aaah
+      - VCID-8mgf-1u47-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aioxmpp@0.10.3
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-4p14-jdkk-aaah
+      - VCID-8mgf-1u47-aaad
+  - purl: pkg:pypi/aioxmpp@0.2
+    affected_by_vulnerabilities:
+      - VCID-4p14-jdkk-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aioxmpp@0.3
+    affected_by_vulnerabilities:
+      - VCID-4p14-jdkk-aaah
+      - VCID-8mgf-1u47-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aioxmpp@0.4.0
+    affected_by_vulnerabilities:
+      - VCID-4p14-jdkk-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aioxmpp@0.4.1
+    affected_by_vulnerabilities:
+      - VCID-4p14-jdkk-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aioxmpp@0.5.0
+    affected_by_vulnerabilities:
+      - VCID-4p14-jdkk-aaah
+      - VCID-8mgf-1u47-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aioxmpp@0.5.1
+    affected_by_vulnerabilities:
+      - VCID-4p14-jdkk-aaah
+      - VCID-8mgf-1u47-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aioxmpp@0.5.2
+    affected_by_vulnerabilities:
+      - VCID-4p14-jdkk-aaah
+      - VCID-8mgf-1u47-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aioxmpp@0.5.3
+    affected_by_vulnerabilities:
+      - VCID-4p14-jdkk-aaah
+      - VCID-8mgf-1u47-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aioxmpp@0.5.4
+    affected_by_vulnerabilities:
+      - VCID-4p14-jdkk-aaah
+      - VCID-8mgf-1u47-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aioxmpp@0.6.0
+    affected_by_vulnerabilities:
+      - VCID-4p14-jdkk-aaah
+      - VCID-8mgf-1u47-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aioxmpp@0.6.1
+    affected_by_vulnerabilities:
+      - VCID-4p14-jdkk-aaah
+      - VCID-8mgf-1u47-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aioxmpp@0.7.0
+    affected_by_vulnerabilities:
+      - VCID-4p14-jdkk-aaah
+      - VCID-8mgf-1u47-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aioxmpp@0.7.1
+    affected_by_vulnerabilities:
+      - VCID-4p14-jdkk-aaah
+      - VCID-8mgf-1u47-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aioxmpp@0.7.2
+    affected_by_vulnerabilities:
+      - VCID-4p14-jdkk-aaah
+      - VCID-8mgf-1u47-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aioxmpp@0.8.0
+    affected_by_vulnerabilities:
+      - VCID-4p14-jdkk-aaah
+      - VCID-8mgf-1u47-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aioxmpp@0.9.0
+    affected_by_vulnerabilities:
+      - VCID-4p14-jdkk-aaah
+      - VCID-8mgf-1u47-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aioxmpp@0.9.1
+    affected_by_vulnerabilities:
+      - VCID-4p14-jdkk-aaah
+      - VCID-8mgf-1u47-aaad
+    fixing_vulnerabilities: []

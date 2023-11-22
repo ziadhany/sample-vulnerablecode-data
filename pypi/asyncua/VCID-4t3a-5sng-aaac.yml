@@ -1,0 +1,46 @@
+vulnerability_id: VCID-4t3a-5sng-aaac
+aliases:
+  - CVE-2022-25304
+  - GHSA-mfpj-3qhm-976m
+summary: All versions of package opcua; all versions of package asyncua are vulnerable to Denial
+  of Service (DoS) due to a missing limitation on the number of received chunks - per single
+  session or in total for all concurrent sessions. An attacker can exploit this vulnerability
+  by sending an unlimited number of huge chunks (e.g. 2GB each) without sending the Final closing
+  chunk.
+severities:
+  - id: 645552
+    reference_id: 1342248
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 646320
+    reference_id: 1414707
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 1342245
+    url: https://github.com/FreeOpcUa/python-opcua/issues/1466
+    reference_id:
+  - id: 1342246
+    url: https://security.snyk.io/vuln/SNYK-PYTHON-ASYNCUA-2988731
+    reference_id:
+  - id: 1342247
+    url: https://security.snyk.io/vuln/SNYK-PYTHON-OPCUA-2988730
+    reference_id:
+  - id: 1416035
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:asyncua_project:asyncua:*:*:*:*:*:python:*:*
+    reference_id: cpe:2.3:a:asyncua_project:asyncua:*:*:*:*:*:python:*:*
+  - id: 1413452
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:opcua-asyncio_project:opcua-asyncio:*:*:*:*:*:python:*:*
+    reference_id: cpe:2.3:a:opcua-asyncio_project:opcua-asyncio:*:*:*:*:*:python:*:*
+  - id: 1416036
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:opcua_project:opcua:*:*:*:*:*:python:*:*
+    reference_id: cpe:2.3:a:opcua_project:opcua:*:*:*:*:*:python:*:*
+  - id: 1342248
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-25304
+    reference_id: CVE-2022-25304
+  - id: 1414707
+    url: https://github.com/advisories/GHSA-mfpj-3qhm-976m
+    reference_id: GHSA-mfpj-3qhm-976m
+weaknesses: []

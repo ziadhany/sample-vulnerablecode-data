@@ -1,0 +1,1186 @@
+package: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty
+versions:
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.100
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.101
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.102
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.103
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.104
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.105
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.106
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.107
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.108
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.109
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.110
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.111
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.112
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.113
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.114
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.115
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.116
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.117
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.118
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.119
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.120
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.121
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.122
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.123
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.124
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.125
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.126
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.127
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.128
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.129
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.130
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.131
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.132
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.133
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.134
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.135
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.136
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.137
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.138
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.139
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.140
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.141
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.142
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.143
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.144
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.145
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.146
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.147
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.148
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.149
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.150
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.151
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.152
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.153
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.154
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.155
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.156
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.157
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.158
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.159
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.160
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.161
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.162
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.163
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.165
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.166
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.167
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.168
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.169
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.170
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.171
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.172
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.173
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.174
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.175
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.176
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.177
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.178
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.179
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.180
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.181
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.182
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.183
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.184
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.185
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.186
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.187
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.188
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.189
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.190
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.191
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.192
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.193
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.194
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.195
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.196
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.197
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.198
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.199
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.200
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.201
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.202
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.203
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.204
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.205
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.206
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.207
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.208
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.209
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.210
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.211
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.212
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.213
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.214
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.215
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.216
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.217
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.218
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.219
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.220
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.221
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.222
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.223
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.224
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.225
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.226
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.227
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.228
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.229
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.230
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.231
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.232
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.233
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.234
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.236
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.237
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.238
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.240
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.241
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.242
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.243
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.244
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.245
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.246
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.247
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.248
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.249
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.250
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.251
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.252
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.253
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.254
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.255
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.256
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.257
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.258
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.259
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.260
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.261
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.262
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.263
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.264
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.265
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.266
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.267
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.268
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.269
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.270
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.271
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.272
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.273
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.274
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.275
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.276
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.277
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.278
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.279
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.280
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.281
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.282
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.283
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.284
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.285
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.286
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.287
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.288
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.289
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.290
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.291
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.292
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.293
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.294
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.295
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.296
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.297
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.298
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.299
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.300
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.50
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.51
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.52
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.53
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.54
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.55
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.56
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.57
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.58
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.59
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.60
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.61
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.62
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.63
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.64
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.65
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.66
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.67
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.68
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.69
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.70
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.71
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.72
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.73
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.74
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.75
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.76
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.77
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.78
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.79
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.80
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.81
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.82
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.83
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.84
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.85
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.86
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.87
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.88
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.89
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.90
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.91
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.92
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.93
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.94
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.95
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.96
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.97
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.98
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.0.99
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.1.0
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.1.1
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.1.10
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.1.11
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.1.12
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.1.2
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.1.3
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.1.5
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.1.6
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.1.7
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.1.8
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.1.9
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.2.0
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.2.10
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.2.11
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.2.12
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.2.13
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.2.14
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.2.15
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.2.16
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.2.17
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.2.18
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.2.19
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.2.2
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.2.20
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.2.21
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.2.22
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.2.23
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.2.24
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.2.25
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.2.26
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.2.27
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.2.28
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.2.29
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.2.3
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.2.30
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.2.31
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.2.32
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.2.33
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.2.34
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.2.4
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.2.5
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.2.6
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.2.7
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.2.8
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.2.9
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.3.0
+    affected_by_vulnerabilities:
+      - VCID-euc8-ufpd-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.wso2.transport.http/org.wso2.transport.http.netty@6.3.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-euc8-ufpd-aaae

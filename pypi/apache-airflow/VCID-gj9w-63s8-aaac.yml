@@ -1,0 +1,28 @@
+vulnerability_id: VCID-gj9w-63s8-aaac
+aliases:
+  - CVE-2022-27949
+  - GHSA-fvw2-2pf7-77vw
+summary: Apache Airflow subject to Exposure of Sensitive Information
+severities:
+  - id: 702866
+    reference_id: 1462056
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 1462053
+    url: https://github.com/apache/airflow/pull/22754
+    reference_id:
+  - id: 1462054
+    url: https://lists.apache.org/thread/n38oc5obb48600fsvnbopxcs0jpbp65p
+    reference_id:
+  - id: 1462055
+    url: http://www.openwall.com/lists/oss-security/2022/11/14/3
+    reference_id:
+  - id: 1462052
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-27949
+    reference_id: CVE-2022-27949
+  - id: 1462056
+    url: https://github.com/advisories/GHSA-fvw2-2pf7-77vw
+    reference_id: GHSA-fvw2-2pf7-77vw
+weaknesses: []

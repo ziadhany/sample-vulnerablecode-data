@@ -1,0 +1,38 @@
+vulnerability_id: VCID-wk9a-8rfq-aaaj
+aliases:
+  - GHSA-q42p-pg8m-cqh6
+  - GMS-2019-126
+summary: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+  in handlebars.
+severities:
+  - id: 705098
+    reference_id: 35110
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 1472358
+    url: https://github.com/handlebars-lang/handlebars.js/commit/0d6d8c335ad81bad1b672fc56b6a44f6aa472dac
+    reference_id:
+  - id: 35107
+    url: https://github.com/handlebars-lang/handlebars.js/commit/7372d4e9dffc9d70c09671aa28b9392a1577fd86
+    reference_id:
+  - id: 1472359
+    url: https://github.com/handlebars-lang/handlebars.js/commit/85c8783b34fc6d36145d8b53885ad0b9e3c3f9c4
+    reference_id:
+  - id: 1472360
+    url: https://github.com/handlebars-lang/handlebars.js/commit/cd38583216dce3252831916323202749431c773e
+    reference_id:
+  - id: 35106
+    url: https://github.com/handlebars-lang/handlebars.js/issues/1495
+    reference_id:
+  - id: 35108
+    url: https://snyk.io/vuln/SNYK-JS-HANDLEBARS-173692
+    reference_id:
+  - id: 35109
+    url: https://www.npmjs.com/advisories/755
+    reference_id:
+  - id: 35110
+    url: https://github.com/advisories/GHSA-q42p-pg8m-cqh6
+    reference_id: GHSA-q42p-pg8m-cqh6
+weaknesses: []

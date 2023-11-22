@@ -1,0 +1,73 @@
+vulnerability_id: VCID-fse4-6yqv-aaaq
+aliases:
+  - CVE-2015-0203
+summary: 'CVE-2015-0203 qpid-cpp: 3 qpidd DoS issues in AMQP 0-10 protocol handling'
+severities:
+  - id: '193056'
+    reference_id: 594080
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:N/I:N/A:P
+  - id: '193054'
+    reference_id: 594080
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+  - id: 56694
+    reference_id: 182447
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 56693
+    reference_id: 182446
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 56692
+    reference_id: 182445
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 56696
+    reference_id: 182449
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 594077
+    url: https://access.redhat.com/errata/RHBA-2016:1500
+    reference_id:
+  - id: 182902
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2015-0203.json
+    reference_id:
+  - id: 594078
+    url: https://issues.apache.org/jira/browse/QPID-6310
+    reference_id:
+  - id: 594079
+    url: https://packetstormsecurity.com/files/129941/Apache-Qpid-0.30-Denial-Of-Service.html
+    reference_id:
+  - id: 594076
+    url: http://www.securityfocus.com/bid/72030
+    reference_id:
+  - id: 489921
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:qpid:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:qpid:*:*:*:*:*:*:*:*
+  - id: 594080
+    url: https://nvd.nist.gov/vuln/detail/CVE-2015-0203
+    reference_id: CVE-2015-0203
+  - id: 182901
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1181721
+    reference_id: RHBA-2016:1500
+  - id: 182447
+    url: https://access.redhat.com/errata/RHSA-2015:0660
+    reference_id: RHSA-2015:0660
+  - id: 182446
+    url: https://access.redhat.com/errata/RHSA-2015:0661
+    reference_id: RHSA-2015:0661
+  - id: 182445
+    url: https://access.redhat.com/errata/RHSA-2015:0662
+    reference_id: RHSA-2015:0662
+  - id: 182449
+    url: https://access.redhat.com/errata/RHSA-2015:0707
+    reference_id: RHSA-2015:0707
+weaknesses: []

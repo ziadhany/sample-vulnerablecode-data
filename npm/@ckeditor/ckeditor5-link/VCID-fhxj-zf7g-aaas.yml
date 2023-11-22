@@ -1,0 +1,46 @@
+vulnerability_id: VCID-fhxj-zf7g-aaas
+aliases:
+  - CVE-2018-11093
+  - GHSA-gvpx-9459-w3mj
+summary: |
+  Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')
+  Cross-site scripting (XSS) vulnerability in the Link package for CKEditor 5 allows remote attackers to inject arbitrary web script through a crafted href attribute of a link (A) element.
+severities:
+  - id: 312413
+    reference_id: 35728
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+  - id: 312411
+    reference_id: 35728
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+  - id: 705836
+    reference_id: 35730
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 35729
+    url: https://ckeditor.com/blog/CKEditor-5-v10.0.1-released/
+    reference_id:
+  - id: 35733
+    url: https://github.com/ckeditor/ckeditor5-link/blob/master/CHANGELOG.md#1001-2018-05-22
+    reference_id:
+  - id: 35731
+    url: https://snyk.io/vuln/SNYK-JS-CKEDITORCKEDITOR5LINK-72892
+    reference_id:
+  - id: 35732
+    url: https://www.npmjs.com/advisories/1154
+    reference_id:
+  - id: 726041
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:ckeditor:ckeditor_5-link:*:*:*:*:*:ckeditor_5:*:*
+    reference_id: cpe:2.3:a:ckeditor:ckeditor_5-link:*:*:*:*:*:ckeditor_5:*:*
+  - id: 35728
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-11093
+    reference_id: CVE-2018-11093
+  - id: 35730
+    url: https://github.com/advisories/GHSA-gvpx-9459-w3mj
+    reference_id: GHSA-gvpx-9459-w3mj
+weaknesses: []

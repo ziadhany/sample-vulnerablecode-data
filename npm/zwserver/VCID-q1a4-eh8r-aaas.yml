@@ -1,0 +1,43 @@
+vulnerability_id: VCID-q1a4-eh8r-aaas
+aliases:
+  - CVE-2017-16149
+  - GHSA-whcm-29f4-j4mx
+summary: |
+  Path Traversal
+  zwserver is vulnerable to a directory traversal issue, giving an attacker access to the filesystem by placing `../` in the url.
+severities:
+  - id: 270208
+    reference_id: 31583
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 270206
+    reference_id: 31583
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+  - id: 705736
+    reference_id: 1467027
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 29144
+    url: https://github.com/JacksonGL/NPM-Vuln-PoC/tree/master/directory-traversal/zwserver
+    reference_id:
+  - id: 687886
+    url: https://nodesecurity.io/advisories/372
+    reference_id:
+  - id: 1467026
+    url: https://www.npmjs.com/advisories/372
+    reference_id:
+  - id: 687887
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:zwserver_project:zwserver:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:zwserver_project:zwserver:*:*:*:*:*:node.js:*:*
+  - id: 31583
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-16149
+    reference_id: CVE-2017-16149
+  - id: 1467027
+    url: https://github.com/advisories/GHSA-whcm-29f4-j4mx
+    reference_id: GHSA-whcm-29f4-j4mx
+weaknesses: []

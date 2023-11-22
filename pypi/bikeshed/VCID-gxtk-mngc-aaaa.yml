@@ -1,0 +1,42 @@
+vulnerability_id: VCID-gxtk-mngc-aaaa
+aliases:
+  - CVE-2021-23423
+  - GHSA-hf6p-4rv2-9qrp
+  - PYSEC-2021-117
+  - SNYK-PYTHON-BIKESHED-1537647
+summary: This affects the package bikeshed before 3.0.0. This can occur when an untrusted source
+  file containing include, include-code or include-raw block is processed. The contents of arbitrary
+  files could be disclosed in the HTML output.
+severities:
+  - id: 515432
+    reference_id: 22510
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 515430
+    reference_id: 22510
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+  - id: 3909
+    reference_id: 22511
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 7465
+    url: https://github.com/tabatkins/bikeshed/commit/b2f668fca204260b1cad28d5078e93471cb6b2dd
+    reference_id:
+  - id: 7467
+    url: https://snyk.io/vuln/SNYK-PYTHON-BIKESHED-1537647
+    reference_id:
+  - id: 868610
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:bikeshed_project:bikeshed:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:bikeshed_project:bikeshed:*:*:*:*:*:*:*:*
+  - id: 22510
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-23423
+    reference_id: CVE-2021-23423
+  - id: 22511
+    url: https://github.com/advisories/GHSA-hf6p-4rv2-9qrp
+    reference_id: GHSA-hf6p-4rv2-9qrp
+weaknesses: []

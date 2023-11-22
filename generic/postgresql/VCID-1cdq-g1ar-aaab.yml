@@ -1,0 +1,135 @@
+vulnerability_id: VCID-1cdq-g1ar-aaab
+aliases:
+  - CVE-2005-0227
+summary: PostgreSQL (pgsql) 7.4.x, 7.2.x, and other versions allows local users to load arbitrary
+  shared libraries and execute code via the LOAD extension.
+severities:
+  - id: 79027
+    reference_id: 211030
+    scoring_system: rhbs
+    value: unspecified
+    scoring_elements:
+  - id: 27146
+    reference_id: 113967
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:L/AC:L/Au:S/C:P/I:P/A:P
+  - id: 78992
+    reference_id: 210973
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 78993
+    reference_id: 210974
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 78994
+    reference_id: 210975
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 113956
+    url: http://archives.postgresql.org/pgsql-announce/2005-02/msg00000.php
+    reference_id:
+  - id: 113957
+    url: http://archives.postgresql.org/pgsql-bugs/2005-01/msg00269.php
+    reference_id:
+  - id: 113958
+    url: http://marc.info/?l=bugtraq&m=110726899107148&w=2
+    reference_id:
+  - id: 211031
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2005-0227.json
+    reference_id:
+  - id: 113959
+    url: http://secunia.com/advisories/12948
+    reference_id:
+  - id: 113960
+    url: http://security.gentoo.org/glsa/glsa-200502-08.xml
+    reference_id:
+  - id: 113966
+    url: https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A10234
+    reference_id:
+  - id: 1469246
+    url: https://www.postgresql.org/support/security/CVE-2005-0227/
+    reference_id:
+  - id: 113961
+    url: http://www.debian.org/security/2005/dsa-668
+    reference_id:
+  - id: 113962
+    url: http://www.mandriva.com/security/advisories?name=MDKSA-2005:040
+    reference_id:
+  - id: 113597
+    url: http://www.novell.com/linux/security/advisories/2005_36_sudo.html
+    reference_id:
+  - id: 113963
+    url: http://www.redhat.com/support/errata/RHSA-2005-138.html
+    reference_id:
+  - id: 113964
+    url: http://www.redhat.com/support/errata/RHSA-2005-150.html
+    reference_id:
+  - id: 113965
+    url: http://www.securityfocus.com/bid/12411
+    reference_id:
+  - id: 48834
+    url: http://www.trustix.org/errata/2005/0003/
+    reference_id:
+  - id: 211030
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1617499
+    reference_id: 1617499
+  - id: 70372
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.2.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.2.1:*:*:*:*:*:*:*
+  - id: 73251
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.2.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.2.2:*:*:*:*:*:*:*
+  - id: 73252
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.2.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.2.3:*:*:*:*:*:*:*
+  - id: 85304
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.2.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.2.4:*:*:*:*:*:*:*
+  - id: 113968
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.2.5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.2.5:*:*:*:*:*:*:*
+  - id: 113969
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.2.6:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.2.6:*:*:*:*:*:*:*
+  - id: 113970
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.2.7:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.2.7:*:*:*:*:*:*:*
+  - id: 113971
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.4.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.4.1:*:*:*:*:*:*:*
+  - id: 113972
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.4.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.4.2:*:*:*:*:*:*:*
+  - id: 98003
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.4.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.4.3:*:*:*:*:*:*:*
+  - id: 113973
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.4.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.4.4:*:*:*:*:*:*:*
+  - id: 98004
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.4.5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.4.5:*:*:*:*:*:*:*
+  - id: 113974
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.4.6:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.4.6:*:*:*:*:*:*:*
+  - id: 113975
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.4.7:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.4.7:*:*:*:*:*:*:*
+  - id: 113967
+    url: https://nvd.nist.gov/vuln/detail/CVE-2005-0227
+    reference_id: CVE-2005-0227
+  - id: 210973
+    url: https://access.redhat.com/errata/RHSA-2005:138
+    reference_id: RHSA-2005:138
+  - id: 210974
+    url: https://access.redhat.com/errata/RHSA-2005:141
+    reference_id: RHSA-2005:141
+  - id: 210975
+    url: https://access.redhat.com/errata/RHSA-2005:150
+    reference_id: RHSA-2005:150
+weaknesses: []

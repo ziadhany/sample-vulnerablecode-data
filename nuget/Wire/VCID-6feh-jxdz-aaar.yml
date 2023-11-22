@@ -1,0 +1,38 @@
+vulnerability_id: VCID-6feh-jxdz-aaar
+aliases:
+  - CVE-2021-29508
+  - GHSA-hpw7-3vq3-mmv6
+summary: Insecure deserialization in Wire
+severities:
+  - id: 531741
+    reference_id: 8291
+    scoring_system: cvssv2
+    value: '6.4'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:P/A:P
+  - id: 531739
+    reference_id: 8291
+    scoring_system: cvssv3
+    value: '9.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H
+  - id: 666
+    reference_id: 8293
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 879130
+    url: https://github.com/AsynkronIT/Wire/security/advisories/GHSA-hpw7-3vq3-mmv6
+    reference_id:
+  - id: 8292
+    url: https://www.nuget.org/packages/Wire/
+    reference_id:
+  - id: 879131
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:asynkron:wire:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:asynkron:wire:*:*:*:*:*:*:*:*
+  - id: 8291
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-29508
+    reference_id: CVE-2021-29508
+  - id: 8293
+    url: https://github.com/advisories/GHSA-hpw7-3vq3-mmv6
+    reference_id: GHSA-hpw7-3vq3-mmv6
+weaknesses: []

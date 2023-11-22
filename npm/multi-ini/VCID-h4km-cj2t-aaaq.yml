@@ -1,0 +1,40 @@
+vulnerability_id: VCID-h4km-cj2t-aaaq
+aliases:
+  - CVE-2020-28460
+  - GHSA-67mq-h2r9-rh2m
+summary: |
+  Uncontrolled Resource Consumption
+  It is possible to pollute an object's prototype by specifying the `constructor.proto` object as part of an array. This is a bypass of CVE-2020-28448.
+severities:
+  - id: 469222
+    reference_id: 36237
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 469220
+    reference_id: 36237
+    scoring_system: cvssv3
+    value: '5.6'
+    scoring_elements: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
+  - id: 706241
+    reference_id: 1467771
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 839003
+    url: https://github.com/evangelion1204/multi-ini/commit/6b2212b2ce152c19538a2431415f72942c5a1bde
+    reference_id:
+  - id: 839004
+    url: https://snyk.io/vuln/SNYK-JS-MULTIINI-1053229
+    reference_id:
+  - id: 838976
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:multi-ini_project:multi-ini:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:multi-ini_project:multi-ini:*:*:*:*:*:node.js:*:*
+  - id: 36237
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-28460
+    reference_id: CVE-2020-28460
+  - id: 1467771
+    url: https://github.com/advisories/GHSA-67mq-h2r9-rh2m
+    reference_id: GHSA-67mq-h2r9-rh2m
+weaknesses: []

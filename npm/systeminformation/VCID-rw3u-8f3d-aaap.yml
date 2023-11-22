@@ -1,0 +1,53 @@
+vulnerability_id: VCID-rw3u-8f3d-aaap
+aliases:
+  - CVE-2020-7752
+  - GHSA-94xh-2fmc-xf5j
+summary: The systeminformation package is vulnerable to Command Injection. An attacker can concatenate
+  the curl command's parameters to overwrite Javascript files and then execute any OS commands.
+severities:
+  - id: 489597
+    reference_id: 33896
+    scoring_system: cvssv2
+    value: '6.5'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:P/A:P
+  - id: 489595
+    reference_id: 33896
+    scoring_system: cvssv3
+    value: '8.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+  - id: 706422
+    reference_id: 1468011
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 706421
+    reference_id: 1468010
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 853078
+    url: https://github.com/sebhildebrandt/systeminformation/blob/master/lib/internet.js
+    reference_id:
+  - id: 853079
+    url: https://github.com/sebhildebrandt/systeminformation/commit/931fecaec2c1a7dcc10457bb8cd552d08089da61
+    reference_id:
+  - id: 853080
+    url: https://snyk.io/vuln/SNYK-JS-SYSTEMINFORMATION-1021909
+    reference_id:
+  - id: 835429
+    url: https://www.npmjs.com/package/systeminformation
+    reference_id:
+  - id: 835285
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:systeminformation:systeminformation:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:systeminformation:systeminformation:*:*:*:*:*:node.js:*:*
+  - id: 33896
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-7752
+    reference_id: CVE-2020-7752
+  - id: 1468011
+    url: https://github.com/advisories/GHSA-94xh-2fmc-xf5j
+    reference_id: GHSA-94xh-2fmc-xf5j
+  - id: 1468010
+    url: https://github.com/sebhildebrandt/systeminformation/security/advisories/GHSA-94xh-2fmc-xf5j
+    reference_id: GHSA-94xh-2fmc-xf5j
+weaknesses: []

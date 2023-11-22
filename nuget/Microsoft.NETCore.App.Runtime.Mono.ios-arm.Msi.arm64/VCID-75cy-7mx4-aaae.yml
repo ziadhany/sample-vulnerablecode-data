@@ -1,0 +1,152 @@
+vulnerability_id: VCID-75cy-7mx4-aaae
+aliases:
+  - CVE-2022-24512
+  - GHSA-c6w8-7mp3-34j9
+summary: .NET and Visual Studio Remote Code Execution Vulnerability.
+severities:
+  - id: 159114
+    reference_id: 506900
+    scoring_system: cvssv3
+    value: '6.3'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L
+  - id: 159113
+    reference_id: 506899
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 589275
+    reference_id: 37650
+    scoring_system: cvssv2
+    value: '6.8'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:P/A:P
+  - id: 589273
+    reference_id: 37650
+    scoring_system: cvssv3
+    value: '8.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+  - id: 647904
+    reference_id: 1417991
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 647903
+    reference_id: 1417989
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 159106
+    reference_id: 506893
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 159105
+    reference_id: 506892
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 159110
+    reference_id: 506897
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 159109
+    reference_id: 506896
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 159108
+    reference_id: 506895
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 159107
+    reference_id: 506894
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 506900
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-24512.json
+    reference_id:
+  - id: 1417990
+    url: https://github.com/dotnet/announcements/issues/213
+    reference_id:
+  - id: 37657
+    url: https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4TOGTZ2ZWDH662ZNFFSZVL3M5AJXV6JF/
+    reference_id:
+  - id: 37655
+    url: https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CIJGCVKLHVNLFBTEYJGWS43QG5DYJFBL/
+    reference_id:
+  - id: 37656
+    url: https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/MQLM7ABVCYJLF6JRPF3M3EBXW63GNC27/
+    reference_id:
+  - id: 37652
+    url: https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/MRGSPXMZY4RM2L35FYHCXBFROLC23B2V/
+    reference_id:
+  - id: 37653
+    url: https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/OS2Q4NPRSARP7GHLKFLIYHFOPSYDO6MK/
+    reference_id:
+  - id: 37654
+    url: https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZXEQ3GQVELA2T4HNZG7VPMS2HDVXMJRG/
+    reference_id:
+  - id: 917076
+    url: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-24512
+    reference_id:
+  - id: 506899
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=2061854
+    reference_id: 2061854
+  - id: 899322
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:.net:5.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:.net:5.0:*:*:*:*:*:*:*
+  - id: 915288
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:.net:6.0.0:-:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:.net:6.0.0:-:*:*:*:*:*:*
+  - id: 915289
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:.net_core:3.1:-:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:.net_core:3.1:-:*:*:*:*:*:*
+  - id: 855834
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:powershell:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:powershell:*:*:*:*:*:*:*:*
+  - id: 776266
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:visual_studio_2019:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:visual_studio_2019:*:*:*:*:*:*:*:*
+  - id: 855835
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:visual_studio_2022:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:visual_studio_2022:*:*:*:*:*:*:*:*
+  - id: 169238
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:fedoraproject:fedora:34:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:fedoraproject:fedora:34:*:*:*:*:*:*:*
+  - id: 169239
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:fedoraproject:fedora:35:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:fedoraproject:fedora:35:*:*:*:*:*:*:*
+  - id: 169240
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:fedoraproject:fedora:36:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:fedoraproject:fedora:36:*:*:*:*:*:*:*
+  - id: 37650
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-24512
+    reference_id: CVE-2022-24512
+  - id: 1417991
+    url: https://github.com/advisories/GHSA-c6w8-7mp3-34j9
+    reference_id: GHSA-c6w8-7mp3-34j9
+  - id: 1417989
+    url: https://github.com/dotnet/runtime/security/advisories/GHSA-c6w8-7mp3-34j9
+    reference_id: GHSA-c6w8-7mp3-34j9
+  - id: 506893
+    url: https://access.redhat.com/errata/RHSA-2022:0826
+    reference_id: RHSA-2022:0826
+  - id: 506892
+    url: https://access.redhat.com/errata/RHSA-2022:0827
+    reference_id: RHSA-2022:0827
+  - id: 506897
+    url: https://access.redhat.com/errata/RHSA-2022:0828
+    reference_id: RHSA-2022:0828
+  - id: 506896
+    url: https://access.redhat.com/errata/RHSA-2022:0829
+    reference_id: RHSA-2022:0829
+  - id: 506895
+    url: https://access.redhat.com/errata/RHSA-2022:0830
+    reference_id: RHSA-2022:0830
+  - id: 506894
+    url: https://access.redhat.com/errata/RHSA-2022:0832
+    reference_id: RHSA-2022:0832
+weaknesses: []

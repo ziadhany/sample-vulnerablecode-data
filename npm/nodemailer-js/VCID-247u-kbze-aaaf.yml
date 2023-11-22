@@ -1,0 +1,40 @@
+vulnerability_id: VCID-247u-kbze-aaaf
+aliases:
+  - CVE-2017-16071
+  - GHSA-xh56-3f5w-9h25
+summary: |
+  Malicious package (Typosquatting)
+  nodemailer-js is a malicious module published with the intent to hijack environment variables. It has been unpublished by npm.
+severities:
+  - id: 269880
+    reference_id: 34575
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 269878
+    reference_id: 34575
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+  - id: 705661
+    reference_id: 1466873
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 687674
+    url: https://nodesecurity.io/advisories/510
+    reference_id:
+  - id: 1466874
+    url: https://www.npmjs.com/advisories/510
+    reference_id:
+  - id: 687675
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:nodemailer-js_project:nodemailer-js:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:nodemailer-js_project:nodemailer-js:*:*:*:*:*:node.js:*:*
+  - id: 34575
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-16071
+    reference_id: CVE-2017-16071
+  - id: 1466873
+    url: https://github.com/advisories/GHSA-xh56-3f5w-9h25
+    reference_id: GHSA-xh56-3f5w-9h25
+weaknesses: []

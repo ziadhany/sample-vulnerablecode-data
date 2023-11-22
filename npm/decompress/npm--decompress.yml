@@ -1,0 +1,166 @@
+package: pkg:npm/decompress
+versions:
+  - purl: pkg:npm/decompress@0.1.0
+    affected_by_vulnerabilities:
+      - VCID-v19j-6tsa-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress@0.1.1
+    affected_by_vulnerabilities:
+      - VCID-v19j-6tsa-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress@0.1.10
+    affected_by_vulnerabilities:
+      - VCID-v19j-6tsa-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress@0.1.2
+    affected_by_vulnerabilities:
+      - VCID-v19j-6tsa-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress@0.1.3
+    affected_by_vulnerabilities:
+      - VCID-v19j-6tsa-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress@0.1.4
+    affected_by_vulnerabilities:
+      - VCID-v19j-6tsa-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress@0.1.5
+    affected_by_vulnerabilities:
+      - VCID-v19j-6tsa-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress@0.1.6
+    affected_by_vulnerabilities:
+      - VCID-v19j-6tsa-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress@0.1.7
+    affected_by_vulnerabilities:
+      - VCID-v19j-6tsa-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress@0.1.8
+    affected_by_vulnerabilities:
+      - VCID-v19j-6tsa-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress@0.1.9
+    affected_by_vulnerabilities:
+      - VCID-v19j-6tsa-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress@0.2.0
+    affected_by_vulnerabilities:
+      - VCID-v19j-6tsa-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress@0.2.1
+    affected_by_vulnerabilities:
+      - VCID-v19j-6tsa-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress@0.2.2
+    affected_by_vulnerabilities:
+      - VCID-v19j-6tsa-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress@0.2.3
+    affected_by_vulnerabilities:
+      - VCID-v19j-6tsa-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress@0.2.4
+    affected_by_vulnerabilities:
+      - VCID-v19j-6tsa-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress@0.2.5
+    affected_by_vulnerabilities:
+      - VCID-v19j-6tsa-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress@0.3.0
+    affected_by_vulnerabilities:
+      - VCID-v19j-6tsa-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress@0.3.1
+    affected_by_vulnerabilities:
+      - VCID-v19j-6tsa-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress@0.3.2
+    affected_by_vulnerabilities:
+      - VCID-v19j-6tsa-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress@0.3.3
+    affected_by_vulnerabilities:
+      - VCID-v19j-6tsa-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-v19j-6tsa-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-v19j-6tsa-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress@1.0.2
+    affected_by_vulnerabilities:
+      - VCID-v19j-6tsa-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress@1.0.3
+    affected_by_vulnerabilities:
+      - VCID-v19j-6tsa-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress@1.0.4
+    affected_by_vulnerabilities:
+      - VCID-v19j-6tsa-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress@1.0.5
+    affected_by_vulnerabilities:
+      - VCID-v19j-6tsa-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress@1.0.6
+    affected_by_vulnerabilities:
+      - VCID-v19j-6tsa-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress@1.0.7
+    affected_by_vulnerabilities:
+      - VCID-v19j-6tsa-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-v19j-6tsa-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress@2.1.0
+    affected_by_vulnerabilities:
+      - VCID-v19j-6tsa-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress@2.1.1
+    affected_by_vulnerabilities:
+      - VCID-v19j-6tsa-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress@2.1.2
+    affected_by_vulnerabilities:
+      - VCID-v19j-6tsa-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress@2.2.0
+    affected_by_vulnerabilities:
+      - VCID-v19j-6tsa-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress@2.2.1
+    affected_by_vulnerabilities:
+      - VCID-v19j-6tsa-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress@2.3.0
+    affected_by_vulnerabilities:
+      - VCID-v19j-6tsa-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress@3.0.0
+    affected_by_vulnerabilities:
+      - VCID-v19j-6tsa-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress@4.0.0
+    affected_by_vulnerabilities:
+      - VCID-v19j-6tsa-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress@4.1.0
+    affected_by_vulnerabilities:
+      - VCID-v19j-6tsa-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress@4.2.0
+    affected_by_vulnerabilities:
+      - VCID-v19j-6tsa-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress@4.2.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-v19j-6tsa-aaag

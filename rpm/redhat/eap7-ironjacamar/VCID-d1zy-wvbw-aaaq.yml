@@ -1,0 +1,158 @@
+vulnerability_id: VCID-d1zy-wvbw-aaaq
+aliases:
+  - CVE-2018-10862
+  - GHSA-w8r2-5j8x-x8j6
+summary: WildFly Core before version 6.0.0.Alpha3 does not properly validate file paths in .war
+  archives, allowing for the extraction of crafted .war archives to overwrite arbitrary files.
+  This is an instance of the 'Zip Slip' vulnerability.
+severities:
+  - id: 615609
+    reference_id: 935460
+    scoring_system: cvssv3
+    value: '7.6'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:L
+  - id: 682939
+    reference_id: 14744
+    scoring_system: generic_textual
+    value: Medium
+    scoring_elements:
+  - id: 615607
+    reference_id: 935458
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 311505
+    reference_id: 724990
+    scoring_system: cvssv2
+    value: '4.9'
+    scoring_elements: AV:N/AC:M/Au:S/C:N/I:P/A:P
+  - id: 311503
+    reference_id: 724990
+    scoring_system: cvssv3
+    value: '5.5'
+    scoring_elements: CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
+  - id: 630386
+    reference_id: 946518
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 615478
+    reference_id: 935370
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 615479
+    reference_id: 935371
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 615477
+    reference_id: 935369
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 615475
+    reference_id: 935367
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 615476
+    reference_id: 935368
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 615474
+    reference_id: 935366
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 615473
+    reference_id: 935365
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 614938
+    reference_id: 934979
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 64824
+    reference_id: '193549'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 57398
+    reference_id: 183428
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 615608
+    reference_id: 935459
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 935460
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2018-10862.json
+    reference_id:
+  - id: 724989
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2018-10862
+    reference_id:
+  - id: 14744
+    url: https://snyk.io/research/zip-slip-vulnerability
+    reference_id:
+  - id: 935458
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1593527
+    reference_id: 1593527
+  - id: 676013
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:virtualization:4.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:virtualization:4.0:*:*:*:*:*:*:*
+  - id: 724991
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:wildfly_core:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:wildfly_core:*:*:*:*:*:*:*:*
+  - id: 724992
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:wildfly_core:6.0.0:alpha1:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:wildfly_core:6.0.0:alpha1:*:*:*:*:*:*
+  - id: 724993
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:wildfly_core:6.0.0:alpha2:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:wildfly_core:6.0.0:alpha2:*:*:*:*:*:*
+  - id: 724990
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-10862
+    reference_id: CVE-2018-10862
+  - id: 946518
+    url: https://github.com/advisories/GHSA-w8r2-5j8x-x8j6
+    reference_id: GHSA-w8r2-5j8x-x8j6
+  - id: 935370
+    url: https://access.redhat.com/errata/RHSA-2018:2276
+    reference_id: RHSA-2018:2276
+  - id: 935371
+    url: https://access.redhat.com/errata/RHSA-2018:2277
+    reference_id: RHSA-2018:2277
+  - id: 935369
+    url: https://access.redhat.com/errata/RHSA-2018:2279
+    reference_id: RHSA-2018:2279
+  - id: 935367
+    url: https://access.redhat.com/errata/RHSA-2018:2423
+    reference_id: RHSA-2018:2423
+  - id: 935368
+    url: https://access.redhat.com/errata/RHSA-2018:2424
+    reference_id: RHSA-2018:2424
+  - id: 935366
+    url: https://access.redhat.com/errata/RHSA-2018:2425
+    reference_id: RHSA-2018:2425
+  - id: 935365
+    url: https://access.redhat.com/errata/RHSA-2018:2428
+    reference_id: RHSA-2018:2428
+  - id: 934979
+    url: https://access.redhat.com/errata/RHSA-2018:2643
+    reference_id: RHSA-2018:2643
+  - id: '193549'
+    url: https://access.redhat.com/errata/RHSA-2019:0877
+    reference_id: RHSA-2019:0877
+  - id: 183428
+    url: https://access.redhat.com/errata/RHSA-2020:2321
+    reference_id: RHSA-2020:2321
+  - id: 935459
+    url: https://access.redhat.com/errata/RHSA-2020:2562
+    reference_id: RHSA-2020:2562
+weaknesses: []

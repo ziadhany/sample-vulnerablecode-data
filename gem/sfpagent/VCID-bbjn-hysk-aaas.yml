@@ -1,0 +1,201 @@
+vulnerability_id: VCID-bbjn-hysk-aaas
+aliases:
+  - CVE-2014-2888
+  - GHSA-vm28-mrm7-fpjq
+summary: High severity vulnerability that affects sfpagent
+severities:
+  - id: 179360
+    reference_id: 30732
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 5362
+    reference_id: 30733
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 30734
+    url: http://seclists.org/fulldisclosure/2014/Apr/243
+    reference_id:
+  - id: 39128
+    url: http://seclists.org/oss-sec/2014/q2/118
+    reference_id:
+  - id: 1469721
+    url: https://web.archive.org/web/20201029141944/http://www.vapid.dhs.org/advisories/spfagent-remotecmd.html
+    reference_id:
+  - id: 30735
+    url: http://www.openwall.com/lists/oss-security/2014/04/16/1
+    reference_id:
+  - id: 30736
+    url: http://www.openwall.com/lists/oss-security/2014/04/18/4
+    reference_id:
+  - id: 30737
+    url: http://www.vapid.dhs.org/advisories/spfagent-remotecmd.html
+    reference_id:
+  - id: 562941
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.0.1:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.0.1:*:*:*:*:ruby:*:*
+  - id: 562942
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.1.0:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.1.0:*:*:*:*:ruby:*:*
+  - id: 562943
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.1.10:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.1.10:*:*:*:*:ruby:*:*
+  - id: 562944
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.1.11:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.1.11:*:*:*:*:ruby:*:*
+  - id: 562945
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.1.12:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.1.12:*:*:*:*:ruby:*:*
+  - id: 562946
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.1.13:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.1.13:*:*:*:*:ruby:*:*
+  - id: 562947
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.1.14:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.1.14:*:*:*:*:ruby:*:*
+  - id: 562948
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.1.1:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.1.1:*:*:*:*:ruby:*:*
+  - id: 562949
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.1.2:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.1.2:*:*:*:*:ruby:*:*
+  - id: 562950
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.1.3:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.1.3:*:*:*:*:ruby:*:*
+  - id: 562951
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.1.4:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.1.4:*:*:*:*:ruby:*:*
+  - id: 562952
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.1.5:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.1.5:*:*:*:*:ruby:*:*
+  - id: 562953
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.1.6:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.1.6:*:*:*:*:ruby:*:*
+  - id: 562954
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.1.7:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.1.7:*:*:*:*:ruby:*:*
+  - id: 562955
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.1.8:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.1.8:*:*:*:*:ruby:*:*
+  - id: 562956
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.1.9:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.1.9:*:*:*:*:ruby:*:*
+  - id: 562957
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.2.0:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.2.0:*:*:*:*:ruby:*:*
+  - id: 562958
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.2.10:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.2.10:*:*:*:*:ruby:*:*
+  - id: 562959
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.2.1:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.2.1:*:*:*:*:ruby:*:*
+  - id: 562960
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.2.2:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.2.2:*:*:*:*:ruby:*:*
+  - id: 562961
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.2.3:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.2.3:*:*:*:*:ruby:*:*
+  - id: 562962
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.2.4:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.2.4:*:*:*:*:ruby:*:*
+  - id: 562963
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.2.5:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.2.5:*:*:*:*:ruby:*:*
+  - id: 562964
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.2.6:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.2.6:*:*:*:*:ruby:*:*
+  - id: 562965
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.2.7:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.2.7:*:*:*:*:ruby:*:*
+  - id: 562966
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.2.8:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.2.8:*:*:*:*:ruby:*:*
+  - id: 562967
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.2.9:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.2.9:*:*:*:*:ruby:*:*
+  - id: 562968
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.3.0:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.3.0:*:*:*:*:ruby:*:*
+  - id: 562969
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.3.10:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.3.10:*:*:*:*:ruby:*:*
+  - id: 562970
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.3.1:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.3.1:*:*:*:*:ruby:*:*
+  - id: 562971
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.3.2:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.3.2:*:*:*:*:ruby:*:*
+  - id: 562972
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.3.3:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.3.3:*:*:*:*:ruby:*:*
+  - id: 562973
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.3.4:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.3.4:*:*:*:*:ruby:*:*
+  - id: 562974
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.3.5:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.3.5:*:*:*:*:ruby:*:*
+  - id: 562975
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.3.6:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.3.6:*:*:*:*:ruby:*:*
+  - id: 562976
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.3.7:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.3.7:*:*:*:*:ruby:*:*
+  - id: 562977
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.3.8:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.3.8:*:*:*:*:ruby:*:*
+  - id: 562978
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.3.9:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.3.9:*:*:*:*:ruby:*:*
+  - id: 562979
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.4.0:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.4.0:*:*:*:*:ruby:*:*
+  - id: 562980
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.4.10:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.4.10:*:*:*:*:ruby:*:*
+  - id: 562981
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.4.11:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.4.11:*:*:*:*:ruby:*:*
+  - id: 562982
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.4.12:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.4.12:*:*:*:*:ruby:*:*
+  - id: 562983
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.4.13:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.4.13:*:*:*:*:ruby:*:*
+  - id: 562984
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.4.1:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.4.1:*:*:*:*:ruby:*:*
+  - id: 562985
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.4.2:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.4.2:*:*:*:*:ruby:*:*
+  - id: 562986
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.4.3:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.4.3:*:*:*:*:ruby:*:*
+  - id: 562987
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.4.4:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.4.4:*:*:*:*:ruby:*:*
+  - id: 562988
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.4.5:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.4.5:*:*:*:*:ruby:*:*
+  - id: 562989
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.4.6:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.4.6:*:*:*:*:ruby:*:*
+  - id: 562990
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.4.7:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.4.7:*:*:*:*:ruby:*:*
+  - id: 562991
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.4.8:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.4.8:*:*:*:*:ruby:*:*
+  - id: 562992
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:0.4.9:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:0.4.9:*:*:*:*:ruby:*:*
+  - id: 562940
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:herry:sfpagent:*:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:herry:sfpagent:*:*:*:*:*:ruby:*:*
+  - id: 30732
+    url: https://nvd.nist.gov/vuln/detail/CVE-2014-2888
+    reference_id: CVE-2014-2888
+  - id: 30733
+    url: https://github.com/advisories/GHSA-vm28-mrm7-fpjq
+    reference_id: GHSA-vm28-mrm7-fpjq
+weaknesses: []

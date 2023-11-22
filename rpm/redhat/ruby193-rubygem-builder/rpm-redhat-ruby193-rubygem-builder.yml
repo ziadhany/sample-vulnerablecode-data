@@ -1,0 +1,17 @@
+package: pkg:rpm/redhat/ruby193-rubygem-builder
+versions:
+  - purl: pkg:rpm/redhat/ruby193-rubygem-builder@3.0.0-2?arch=el6
+    affected_by_vulnerabilities:
+      - VCID-8crm-zz36-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/ruby193-rubygem-builder@3.0.0-3?arch=el6
+    affected_by_vulnerabilities:
+      - VCID-1dw1-j2yq-aaar
+      - VCID-3smj-tswr-aaab
+      - VCID-66pw-s4p5-aaaq
+      - VCID-bcb5-bmr6-aaan
+      - VCID-f6nq-5mym-aaad
+      - VCID-jbx1-58rp-aaaa
+      - VCID-ntkx-nmxf-aaam
+      - VCID-ynpx-2ryt-aaad
+    fixing_vulnerabilities: []

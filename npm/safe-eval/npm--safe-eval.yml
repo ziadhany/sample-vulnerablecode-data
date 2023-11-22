@@ -1,0 +1,51 @@
+package: pkg:npm/safe-eval
+versions:
+  - purl: pkg:npm/safe-eval@0.0.0
+    affected_by_vulnerabilities:
+      - VCID-441r-n8d8-aaac
+      - VCID-fep1-cngf-aaaq
+      - VCID-hnym-5j32-aaah
+      - VCID-k68k-5maj-aaas
+      - VCID-qgdf-ha4h-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/safe-eval@0.0.0-alpha
+    affected_by_vulnerabilities:
+      - VCID-k68k-5maj-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/safe-eval@0.1.0
+    affected_by_vulnerabilities:
+      - VCID-441r-n8d8-aaac
+      - VCID-fep1-cngf-aaaq
+      - VCID-hnym-5j32-aaah
+      - VCID-k68k-5maj-aaas
+      - VCID-qgdf-ha4h-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/safe-eval@0.2.0
+    affected_by_vulnerabilities:
+      - VCID-441r-n8d8-aaac
+      - VCID-fep1-cngf-aaaq
+      - VCID-hnym-5j32-aaah
+      - VCID-k68k-5maj-aaas
+      - VCID-qgdf-ha4h-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/safe-eval@0.3.0
+    affected_by_vulnerabilities:
+      - VCID-441r-n8d8-aaac
+      - VCID-fep1-cngf-aaaq
+      - VCID-hnym-5j32-aaah
+      - VCID-k68k-5maj-aaas
+      - VCID-qgdf-ha4h-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/safe-eval@0.4.0
+    affected_by_vulnerabilities:
+      - VCID-441r-n8d8-aaac
+      - VCID-fep1-cngf-aaaq
+      - VCID-qgdf-ha4h-aaae
+    fixing_vulnerabilities:
+      - VCID-hnym-5j32-aaah
+  - purl: pkg:npm/safe-eval@0.4.1
+    affected_by_vulnerabilities:
+      - VCID-441r-n8d8-aaac
+      - VCID-fep1-cngf-aaaq
+      - VCID-qgdf-ha4h-aaae
+    fixing_vulnerabilities: []

@@ -1,0 +1,56 @@
+vulnerability_id: VCID-gk4s-6xep-aaap
+aliases:
+  - CVE-2013-4386
+summary: 'CVE-2013-4386 Foreman: host and host group parameter SQL injection'
+severities:
+  - id: 169089
+    reference_id: 534836
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 61343
+    reference_id: 188887
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 534833
+    url: http://projects.theforeman.org/issues/3160
+    reference_id:
+  - id: 534834
+    url: http://rhn.redhat.com/errata/RHSA-2013-1522.html
+    reference_id:
+  - id: 188888
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2013-4386.json
+    reference_id:
+  - id: 534835
+    url: https://groups.google.com/forum/#!topic/foreman-announce/GKMNXM66Z84
+    reference_id:
+  - id: 520349
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openstack:3.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:openstack:3.0:*:*:*:*:*:*:*
+  - id: 158226
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:foreman:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:foreman:*:*:*:*:*:*:*:*
+  - id: 533374
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:foreman:1.2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:foreman:1.2.0:*:*:*:*:*:*:*
+  - id: 533375
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:foreman:1.2.0:rc1:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:foreman:1.2.0:rc1:*:*:*:*:*:*
+  - id: 533376
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:foreman:1.2.0:rc2:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:foreman:1.2.0:rc2:*:*:*:*:*:*
+  - id: 534837
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:foreman:1.2.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:foreman:1.2.1:*:*:*:*:*:*:*
+  - id: 534836
+    url: https://nvd.nist.gov/vuln/detail/CVE-2013-4386
+    reference_id: CVE-2013-4386
+  - id: 188886
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1013076
+    reference_id: RHEA-2014:1175
+  - id: 188887
+    url: https://access.redhat.com/errata/RHSA-2013:1522
+    reference_id: RHSA-2013:1522
+weaknesses: []

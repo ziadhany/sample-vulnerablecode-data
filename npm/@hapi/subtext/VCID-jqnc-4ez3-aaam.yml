@@ -1,0 +1,19 @@
+vulnerability_id: VCID-jqnc-4ez3-aaam
+aliases:
+  - GHSA-3wqh-h42r-x8fq
+  - GMS-2020-29
+summary: Improper Neutralization in @hapi/subtext.
+severities:
+  - id: 704550
+    reference_id: 31471
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 31470
+    url: https://www.npmjs.com/advisories/1476
+    reference_id:
+  - id: 31471
+    url: https://github.com/advisories/GHSA-3wqh-h42r-x8fq
+    reference_id: GHSA-3wqh-h42r-x8fq
+weaknesses: []

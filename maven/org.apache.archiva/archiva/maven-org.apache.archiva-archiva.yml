@@ -1,0 +1,56 @@
+package: pkg:maven/org.apache.archiva/archiva
+versions:
+  - purl: pkg:maven/org.apache.archiva/archiva@1.2
+    affected_by_vulnerabilities:
+      - VCID-2njy-6meq-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.archiva/archiva@1.3.9
+    affected_by_vulnerabilities:
+      - VCID-2njy-6meq-aaar
+      - VCID-8zb5-kxk2-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.archiva/archiva@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-2njy-6meq-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.archiva/archiva@2.2.0
+    affected_by_vulnerabilities:
+      - VCID-2njy-6meq-aaar
+      - VCID-8ghg-3nhu-aaap
+      - VCID-9rzv-4212-aaad
+      - VCID-cvsn-c8cj-aaan
+      - VCID-t3cy-gdt7-aaae
+    fixing_vulnerabilities:
+      - VCID-8zb5-kxk2-aaad
+  - purl: pkg:maven/org.apache.archiva/archiva@2.2.1
+    affected_by_vulnerabilities:
+      - VCID-2njy-6meq-aaar
+      - VCID-8ghg-3nhu-aaap
+      - VCID-9rzv-4212-aaad
+      - VCID-cvsn-c8cj-aaan
+      - VCID-t3cy-gdt7-aaae
+    fixing_vulnerabilities:
+      - VCID-8zb5-kxk2-aaad
+  - purl: pkg:maven/org.apache.archiva/archiva@2.2.3
+    affected_by_vulnerabilities:
+      - VCID-2njy-6meq-aaar
+      - VCID-9rzv-4212-aaad
+      - VCID-cvsn-c8cj-aaan
+      - VCID-t3cy-gdt7-aaae
+    fixing_vulnerabilities:
+      - VCID-8ghg-3nhu-aaap
+  - purl: pkg:maven/org.apache.archiva/archiva@2.2.4
+    affected_by_vulnerabilities:
+      - VCID-cvsn-c8cj-aaan
+      - VCID-t3cy-gdt7-aaae
+    fixing_vulnerabilities:
+      - VCID-2njy-6meq-aaar
+      - VCID-9rzv-4212-aaad
+  - purl: pkg:maven/org.apache.archiva/archiva@2.2.5
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-t3cy-gdt7-aaae
+  - purl: pkg:maven/org.apache.archiva/archiva@2.2.8
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-cvsn-c8cj-aaan

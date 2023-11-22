@@ -1,0 +1,37 @@
+vulnerability_id: VCID-wrqx-g5nn-aaaj
+aliases:
+  - CVE-2020-25449
+  - PYSEC-2020-226
+summary: Cross Site Scripting (XSS) vulnerability in Arachnys Cabot 0.11.12 can be exploited
+  via the Address column.
+severities:
+  - id: 461468
+    reference_id: 17936
+    scoring_system: cvssv2
+    value: '3.5'
+    scoring_elements: AV:N/AC:M/Au:S/C:N/I:P/A:N
+  - id: 461466
+    reference_id: 17936
+    scoring_system: cvssv3
+    value: '4.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N
+references:
+  - id: 6915
+    url: https://itsmeanonartist.tech/blogs/blog2.html
+    reference_id:
+  - id: 6918
+    url: https://packetstormsecurity.com/files/159070/Cabot-0.11.12-Cross-Site-Scripting.html
+    reference_id:
+  - id: 6917
+    url: https://www.exploitalert.com/view-details.html?id=36106
+    reference_id:
+  - id: 6916
+    url: https://www.exploit-db.com/exploits/48791
+    reference_id:
+  - id: 833699
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:arachnys:cabot:0.11.12:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:arachnys:cabot:0.11.12:*:*:*:*:*:*:*
+  - id: 17936
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-25449
+    reference_id: CVE-2020-25449
+weaknesses: []

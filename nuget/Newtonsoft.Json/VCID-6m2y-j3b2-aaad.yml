@@ -1,0 +1,34 @@
+vulnerability_id: VCID-6m2y-j3b2-aaad
+aliases:
+  - GHSA-5crp-9r3c-p9vr
+  - GMS-2022-2616
+summary: Improper Handling of Exceptional Conditions in Newtonsoft.Json
+severities:
+  - id: 630569
+    reference_id: 946770
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 38663
+    url: https://alephsecurity.com/2018/10/22/StackOverflowException/
+    reference_id:
+  - id: 38662
+    url: https://alephsecurity.com/vulns/aleph-2018004
+    reference_id:
+  - id: 946768
+    url: https://github.com/JamesNK/Newtonsoft.Json/commit/7e77bbe1beccceac4fc7b174b53abfefac278b66
+    reference_id:
+  - id: 38664
+    url: https://github.com/JamesNK/Newtonsoft.Json/issues/2457
+    reference_id:
+  - id: 38665
+    url: https://github.com/JamesNK/Newtonsoft.Json/pull/2462
+    reference_id:
+  - id: 946769
+    url: https://security.snyk.io/vuln/SNYK-DOTNET-NEWTONSOFTJSON-2774678
+    reference_id:
+  - id: 946770
+    url: https://github.com/advisories/GHSA-5crp-9r3c-p9vr
+    reference_id: GHSA-5crp-9r3c-p9vr
+weaknesses: []

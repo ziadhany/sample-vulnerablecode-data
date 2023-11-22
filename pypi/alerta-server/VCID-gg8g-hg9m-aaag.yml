@@ -1,0 +1,62 @@
+vulnerability_id: VCID-gg8g-hg9m-aaag
+aliases:
+  - CVE-2020-26214
+  - GHSA-5hmm-x8q8-w5jh
+  - PYSEC-2020-159
+summary: In Alerta before version 8.1.0, users may be able to bypass LDAP authentication if
+  they provide an empty password when Alerta server is configure to use LDAP as the authorization
+  provider. Only deployments where LDAP servers are configured to allow unauthenticated authentication
+  mechanism for anonymous authorization are affected. A fix has been implemented in version
+  8.1.0 that returns HTTP 401 Unauthorized response for any authentication attempts where the
+  password field is empty. As a workaround LDAP administrators can disallow unauthenticated
+  bind requests by clients.
+severities:
+  - id: 463656
+    reference_id: 23663
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 463654
+    reference_id: 23663
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 4511
+    reference_id: 25327
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 4510
+    reference_id: 25326
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 6761
+    url: https://github.com/alerta/alerta/commit/2bfa31779a4c9df2fa68fa4d0c5c909698c5ef65
+    reference_id:
+  - id: 6758
+    url: https://github.com/alerta/alerta/issues/1277
+    reference_id:
+  - id: 6763
+    url: https://github.com/alerta/alerta/pull/1345
+    reference_id:
+  - id: 6759
+    url: https://pypi.org/project/alerta-server/8.1.0/
+    reference_id:
+  - id: 6762
+    url: https://tools.ietf.org/html/rfc4513#section-5.1.2
+    reference_id:
+  - id: 835179
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:alerta_project:alerta:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:alerta_project:alerta:*:*:*:*:*:*:*:*
+  - id: 23663
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-26214
+    reference_id: CVE-2020-26214
+  - id: 25327
+    url: https://github.com/advisories/GHSA-5hmm-x8q8-w5jh
+    reference_id: GHSA-5hmm-x8q8-w5jh
+  - id: 25326
+    url: https://github.com/alerta/alerta/security/advisories/GHSA-5hmm-x8q8-w5jh
+    reference_id: GHSA-5hmm-x8q8-w5jh
+weaknesses: []

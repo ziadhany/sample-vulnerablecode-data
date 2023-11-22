@@ -1,0 +1,31 @@
+vulnerability_id: VCID-fmns-b2w4-aaak
+aliases:
+  - CVE-2020-28272
+summary: |
+  Code Injection
+  Prototype pollution vulnerability in 'keyget' allows attacker to cause a denial of service and may lead to remote code execution.
+severities:
+  - id: 468794
+    reference_id: 36369
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 468792
+    reference_id: 36369
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+references:
+  - id: 838656
+    url: https://github.com/rumkin/keyget/commit/17d15b6c75036eb429075a8cfeccfc18094dd2e2
+    reference_id:
+  - id: 838657
+    url: https://www.whitesourcesoftware.com/vulnerability-database/CVE-2020-28272
+    reference_id:
+  - id: 838658
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:keyget_project:keyget:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:keyget_project:keyget:*:*:*:*:*:node.js:*:*
+  - id: 36369
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-28272
+    reference_id: CVE-2020-28272
+weaknesses: []

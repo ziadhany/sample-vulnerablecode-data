@@ -1,0 +1,61 @@
+vulnerability_id: VCID-3hh6-ee6v-aaag
+aliases:
+  - CVE-2008-2368
+summary: 'CVE-2008-2368 Certificate System: plain text passwords stored in debug log'
+severities:
+  - id: 112343
+    reference_id: 341768
+    scoring_system: cvssv2
+    value: '2.1'
+    scoring_elements: AV:L/AC:L/Au:N/C:P/I:N/A:N
+  - id: 73435
+    reference_id: 204097
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 73369
+    reference_id: 204015
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 204100
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2008-2368.json
+    reference_id:
+  - id: 341766
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=452000
+    reference_id:
+  - id: 341756
+    url: http://secunia.com/advisories/33540
+    reference_id:
+  - id: 341757
+    url: http://securitytracker.com/id?1021608
+    reference_id:
+  - id: 341767
+    url: https://exchange.xforce.ibmcloud.com/vulnerabilities/48022
+    reference_id:
+  - id: 341762
+    url: https://rhn.redhat.com/errata/RHSA-2009-0006.html
+    reference_id:
+  - id: 341763
+    url: https://rhn.redhat.com/errata/RHSA-2009-0007.html
+    reference_id:
+  - id: 341758
+    url: http://www.securityfocus.com/bid/33288
+    reference_id:
+  - id: 341759
+    url: http://www.vupen.com/english/advisories/2009/0145
+    reference_id:
+  - id: 341765
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:certificate_system:7.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:certificate_system:7.2:*:*:*:*:*:*:*
+  - id: 341768
+    url: https://nvd.nist.gov/vuln/detail/CVE-2008-2368
+    reference_id: CVE-2008-2368
+  - id: 204097
+    url: https://access.redhat.com/errata/RHSA-2009:0006
+    reference_id: RHSA-2009:0006
+  - id: 204015
+    url: https://access.redhat.com/errata/RHSA-2009:0007
+    reference_id: RHSA-2009:0007
+weaknesses: []

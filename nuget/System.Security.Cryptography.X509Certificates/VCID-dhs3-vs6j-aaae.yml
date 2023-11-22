@@ -1,0 +1,71 @@
+vulnerability_id: VCID-dhs3-vs6j-aaae
+aliases:
+  - CVE-2017-11770
+  - GHSA-7mfr-774f-w5r9
+summary: Improper Certificate Validation
+severities:
+  - id: 619765
+    reference_id: 938423
+    scoring_system: cvssv3
+    value: '5.9'
+    scoring_elements: CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 619763
+    reference_id: 938421
+    scoring_system: rhbs
+    value: low
+    scoring_elements:
+  - id: 256351
+    reference_id: 15825
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 256349
+    reference_id: 15825
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 1818
+    reference_id: 15830
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 619764
+    reference_id: 938422
+    scoring_system: rhas
+    value: Low
+    scoring_elements:
+references:
+  - id: 938423
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2017-11770.json
+    reference_id:
+  - id: 674797
+    url: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-11770
+    reference_id:
+  - id: 15828
+    url: http://www.securityfocus.com/bid/101710
+    reference_id:
+  - id: 15829
+    url: http://www.securitytracker.com/id/1039787
+    reference_id:
+  - id: 938421
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1512992
+    reference_id: 1512992
+  - id: 674798
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:aspnetcore:1.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:aspnetcore:1.0:*:*:*:*:*:*:*
+  - id: 674799
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:aspnetcore:1.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:aspnetcore:1.1:*:*:*:*:*:*:*
+  - id: 674800
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:aspnetcore:2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:aspnetcore:2.0:*:*:*:*:*:*:*
+  - id: 15825
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-11770
+    reference_id: CVE-2017-11770
+  - id: 15830
+    url: https://github.com/advisories/GHSA-7mfr-774f-w5r9
+    reference_id: GHSA-7mfr-774f-w5r9
+  - id: 938422
+    url: https://access.redhat.com/errata/RHSA-2017:3248
+    reference_id: RHSA-2017:3248
+weaknesses: []

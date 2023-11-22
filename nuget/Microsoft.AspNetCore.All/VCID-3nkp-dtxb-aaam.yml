@@ -1,0 +1,34 @@
+vulnerability_id: VCID-3nkp-dtxb-aaam
+aliases:
+  - CVE-2018-0784
+summary: |
+  Privilege Escalation
+  ASP.NET Core allow an elevation of privilege vulnerability due to the ASP.NET Core project templates, aka "ASP.NET Core Elevation Of Privilege Vulnerability". This CVE is unique from CVE-2018-0808.
+severities:
+  - id: 306118
+    reference_id: 37559
+    scoring_system: cvssv2
+    value: '6.8'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:P/A:P
+  - id: 306116
+    reference_id: 37559
+    scoring_system: cvssv3
+    value: '8.8'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+references:
+  - id: 720420
+    url: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-0784
+    reference_id:
+  - id: 37562
+    url: http://www.securityfocus.com/bid/102377
+    reference_id:
+  - id: 37561
+    url: http://www.securitytracker.com/id/1040151
+    reference_id:
+  - id: 675289
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:asp.net_core:2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:asp.net_core:2.0:*:*:*:*:*:*:*
+  - id: 37559
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-0784
+    reference_id: CVE-2018-0784
+weaknesses: []

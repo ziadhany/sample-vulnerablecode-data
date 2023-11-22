@@ -1,0 +1,11 @@
+package: pkg:npm/arcanist
+versions:
+  - purl: pkg:npm/arcanist@0.0.0-alpha
+    affected_by_vulnerabilities:
+      - VCID-pmtz-dche-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/arcanist@0.0.1
+    affected_by_vulnerabilities:
+      - VCID-8sf2-31cw-aaak
+      - VCID-pmtz-dche-aaap
+    fixing_vulnerabilities: []

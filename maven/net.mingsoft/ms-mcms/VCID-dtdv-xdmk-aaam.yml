@@ -1,0 +1,31 @@
+vulnerability_id: VCID-dtdv-xdmk-aaam
+aliases:
+  - CVE-2022-36272
+  - GHSA-hmj3-mqgw-2fq6
+summary: Mingsoft MCMS 5.2.8 was discovered to contain a SQL injection vulnerability in /mdiy/page/verify
+  URI via fieldName parameter.
+severities:
+  - id: 644680
+    reference_id: 1344421
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 646297
+    reference_id: 1414677
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 1344420
+    url: https://github.com/ming-soft/MCMS/issues/97
+    reference_id:
+  - id: 950212
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:mingsoft:mcms:5.2.8:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:mingsoft:mcms:5.2.8:*:*:*:*:*:*:*
+  - id: 1344421
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-36272
+    reference_id: CVE-2022-36272
+  - id: 1414677
+    url: https://github.com/advisories/GHSA-hmj3-mqgw-2fq6
+    reference_id: GHSA-hmj3-mqgw-2fq6
+weaknesses: []

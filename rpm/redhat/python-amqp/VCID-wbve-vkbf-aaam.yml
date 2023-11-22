@@ -1,0 +1,38 @@
+vulnerability_id: VCID-wbve-vkbf-aaam
+aliases:
+  - CVE-2013-2101
+summary: 'CVE-2013-2101 Katello: Multiple XSS in various entities'
+severities:
+  - id: 164823
+    reference_id: 523109
+    scoring_system: cvssv2
+    value: '3.5'
+    scoring_elements: AV:N/AC:M/Au:S/C:N/I:P/A:N
+  - id: 164821
+    reference_id: 523109
+    scoring_system: cvssv3
+    value: '5.4'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N
+references:
+  - id: 185697
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2013-2101.json
+    reference_id:
+  - id: 523107
+    url: https://access.redhat.com/security/cve/cve-2013-2101
+    reference_id:
+  - id: 523108
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2013-2101
+    reference_id:
+  - id: 511591
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:satellite:6.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:satellite:6.0:*:*:*:*:*:*:*
+  - id: 513276
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:katello:-:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:katello:-:*:*:*:*:*:*:*
+  - id: 523109
+    url: https://nvd.nist.gov/vuln/detail/CVE-2013-2101
+    reference_id: CVE-2013-2101
+  - id: 185696
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=963568
+    reference_id: RHEA-2014:1175
+weaknesses: []

@@ -1,0 +1,48 @@
+vulnerability_id: VCID-4mwt-cgce-aaas
+aliases:
+  - CVE-2015-2963
+  - GHSA-6jvm-3j5h-79f6
+summary: Moderate severity vulnerability that affects paperclip
+severities:
+  - id: '198584'
+    reference_id: 29517
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+  - id: 5371
+    reference_id: 30800
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 30803
+    url: http://jvndb.jvn.jp/jvndb/JVNDB-2015-000088
+    reference_id:
+  - id: 30802
+    url: http://jvn.jp/en/jp/JVN83881261/index.html
+    reference_id:
+  - id: 30804
+    url: http://openwall.com/lists/oss-security/2015/06/19/3
+    reference_id:
+  - id: 30799
+    url: https://github.com/thoughtbot/paperclip/commit/9aee4112f36058cd28d5fe4a006d6981bd1eda57
+    reference_id:
+  - id: 30801
+    url: https://robots.thoughtbot.com/paperclip-security-release
+    reference_id:
+  - id: 1469759
+    url: https://web.archive.org/web/20200228084907/http://www.securityfocus.com/bid/75304
+    reference_id:
+  - id: 30805
+    url: http://www.securityfocus.com/bid/75304
+    reference_id:
+  - id: 605399
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:thoughtbot:paperclip:*:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:thoughtbot:paperclip:*:*:*:*:*:ruby:*:*
+  - id: 29517
+    url: https://nvd.nist.gov/vuln/detail/CVE-2015-2963
+    reference_id: CVE-2015-2963
+  - id: 30800
+    url: https://github.com/advisories/GHSA-6jvm-3j5h-79f6
+    reference_id: GHSA-6jvm-3j5h-79f6
+weaknesses: []

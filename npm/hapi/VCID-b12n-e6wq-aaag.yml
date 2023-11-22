@@ -1,0 +1,43 @@
+vulnerability_id: VCID-b12n-e6wq-aaag
+aliases:
+  - CVE-2017-16013
+  - GHSA-cqjg-whmm-8gv6
+summary: |
+  Improper Input Validation
+  When hapi encounters a malformed `accept-encoding` header, an uncaught exception is thrown. This may cause hapi to crash or to hang the client connection until the timeout period is reached.
+severities:
+  - id: 269652
+    reference_id: 37224
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 269650
+    reference_id: 37224
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 705607
+    reference_id: 1466762
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 37223
+    url: https://github.com/hapijs/hapi/issues/3466
+    reference_id:
+  - id: 687534
+    url: https://nodesecurity.io/advisories/335
+    reference_id:
+  - id: 1466763
+    url: https://www.npmjs.com/advisories/335
+    reference_id:
+  - id: 621306
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:hapijs:hapi:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:hapijs:hapi:*:*:*:*:*:node.js:*:*
+  - id: 37224
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-16013
+    reference_id: CVE-2017-16013
+  - id: 1466762
+    url: https://github.com/advisories/GHSA-cqjg-whmm-8gv6
+    reference_id: GHSA-cqjg-whmm-8gv6
+weaknesses: []

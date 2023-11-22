@@ -1,0 +1,54 @@
+vulnerability_id: VCID-cb3r-vy6b-aaar
+aliases:
+  - CVE-2020-7014
+  - GHSA-hqqv-9x3v-mp7w
+summary: Privilege Escalation Flaw in Elasticsearch
+severities:
+  - id: 611795
+    reference_id: 932643
+    scoring_system: cvssv3
+    value: '8.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+  - id: 611794
+    reference_id: 932642
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 487182
+    reference_id: 1679
+    scoring_system: cvssv2
+    value: '6.5'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:P/A:P
+  - id: 487180
+    reference_id: 1679
+    scoring_system: cvssv3
+    value: '8.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+  - id: 250
+    reference_id: 1682
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 932643
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2020-7014.json
+    reference_id:
+  - id: 1680
+    url: https://security.netapp.com/advisory/ntap-20200619-0003/
+    reference_id:
+  - id: 1681
+    url: https://www.elastic.co/community/security/
+    reference_id:
+  - id: 932642
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1849019
+    reference_id: 1849019
+  - id: 159755
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:elastic:elasticsearch:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:elastic:elasticsearch:*:*:*:*:*:*:*:*
+  - id: 1679
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-7014
+    reference_id: CVE-2020-7014
+  - id: 1682
+    url: https://github.com/advisories/GHSA-hqqv-9x3v-mp7w
+    reference_id: GHSA-hqqv-9x3v-mp7w
+weaknesses: []

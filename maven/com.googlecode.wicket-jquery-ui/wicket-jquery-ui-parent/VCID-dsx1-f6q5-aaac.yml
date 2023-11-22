@@ -1,0 +1,94 @@
+vulnerability_id: VCID-dsx1-f6q5-aaac
+aliases:
+  - CVE-2018-1325
+  - GHSA-pjv3-rh6v-2pj8
+summary: |
+  Cross-site Scripting
+  In Apache wicket-jquery-ui JS code created in WYSIWYG editor will be executed on display.
+severities:
+  - id: 319829
+    reference_id: 31031
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+  - id: 319827
+    reference_id: 31031
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+  - id: 648100
+    reference_id: 1418503
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 731535
+    url: https://markmail.org/message/6bxjyaolehhq7jrl
+    reference_id:
+  - id: 686610
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:wicket-jquery-ui_project:wicket-jquery-ui:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:wicket-jquery-ui_project:wicket-jquery-ui:*:*:*:*:*:*:*:*
+  - id: 686611
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:wicket-jquery-ui_project:wicket-jquery-ui:7.0.0:-:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:wicket-jquery-ui_project:wicket-jquery-ui:7.0.0:-:*:*:*:*:*:*
+  - id: 686612
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:wicket-jquery-ui_project:wicket-jquery-ui:7.0.0:milestone3:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:wicket-jquery-ui_project:wicket-jquery-ui:7.0.0:milestone3:*:*:*:*:*:*
+  - id: 686613
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:wicket-jquery-ui_project:wicket-jquery-ui:7.0.0:milestone4:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:wicket-jquery-ui_project:wicket-jquery-ui:7.0.0:milestone4:*:*:*:*:*:*
+  - id: 686614
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:wicket-jquery-ui_project:wicket-jquery-ui:7.0.0:milestone5:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:wicket-jquery-ui_project:wicket-jquery-ui:7.0.0:milestone5:*:*:*:*:*:*
+  - id: 686615
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:wicket-jquery-ui_project:wicket-jquery-ui:7.0.0:milestone6:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:wicket-jquery-ui_project:wicket-jquery-ui:7.0.0:milestone6:*:*:*:*:*:*
+  - id: 686630
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:wicket-jquery-ui_project:wicket-jquery-ui:8.0.0:-:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:wicket-jquery-ui_project:wicket-jquery-ui:8.0.0:-:*:*:*:*:*:*
+  - id: 686632
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:wicket-jquery-ui_project:wicket-jquery-ui:8.0.0:milestone1:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:wicket-jquery-ui_project:wicket-jquery-ui:8.0.0:milestone1:*:*:*:*:*:*
+  - id: 686631
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:wicket-jquery-ui_project:wicket-jquery-ui:8.0.0:milestone1.1:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:wicket-jquery-ui_project:wicket-jquery-ui:8.0.0:milestone1.1:*:*:*:*:*:*
+  - id: 686633
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:wicket-jquery-ui_project:wicket-jquery-ui:8.0.0:milestone2:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:wicket-jquery-ui_project:wicket-jquery-ui:8.0.0:milestone2:*:*:*:*:*:*
+  - id: 686634
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:wicket-jquery-ui_project:wicket-jquery-ui:8.0.0:milestone3:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:wicket-jquery-ui_project:wicket-jquery-ui:8.0.0:milestone3:*:*:*:*:*:*
+  - id: 686636
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:wicket-jquery-ui_project:wicket-jquery-ui:8.0.0:milestone4:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:wicket-jquery-ui_project:wicket-jquery-ui:8.0.0:milestone4:*:*:*:*:*:*
+  - id: 686635
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:wicket-jquery-ui_project:wicket-jquery-ui:8.0.0:milestone4.1:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:wicket-jquery-ui_project:wicket-jquery-ui:8.0.0:milestone4.1:*:*:*:*:*:*
+  - id: 686637
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:wicket-jquery-ui_project:wicket-jquery-ui:8.0.0:milestone5:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:wicket-jquery-ui_project:wicket-jquery-ui:8.0.0:milestone5:*:*:*:*:*:*
+  - id: 686638
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:wicket-jquery-ui_project:wicket-jquery-ui:8.0.0:milestone6:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:wicket-jquery-ui_project:wicket-jquery-ui:8.0.0:milestone6:*:*:*:*:*:*
+  - id: 686639
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:wicket-jquery-ui_project:wicket-jquery-ui:8.0.0:milestone7:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:wicket-jquery-ui_project:wicket-jquery-ui:8.0.0:milestone7:*:*:*:*:*:*
+  - id: 686640
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:wicket-jquery-ui_project:wicket-jquery-ui:8.0.0:milestone8:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:wicket-jquery-ui_project:wicket-jquery-ui:8.0.0:milestone8:*:*:*:*:*:*
+  - id: 731536
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:wicket-jquery-ui_project:wicket-jquery-ui:8.0.0:milestone8.1:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:wicket-jquery-ui_project:wicket-jquery-ui:8.0.0:milestone8.1:*:*:*:*:*:*
+  - id: 731538
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:wicket-jquery-ui_project:wicket-jquery-ui:8.0.0:milestone9:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:wicket-jquery-ui_project:wicket-jquery-ui:8.0.0:milestone9:*:*:*:*:*:*
+  - id: 731537
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:wicket-jquery-ui_project:wicket-jquery-ui:8.0.0:milestone9.1:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:wicket-jquery-ui_project:wicket-jquery-ui:8.0.0:milestone9.1:*:*:*:*:*:*
+  - id: 31031
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-1325
+    reference_id: CVE-2018-1325
+  - id: 1418503
+    url: https://github.com/advisories/GHSA-pjv3-rh6v-2pj8
+    reference_id: GHSA-pjv3-rh6v-2pj8
+weaknesses: []

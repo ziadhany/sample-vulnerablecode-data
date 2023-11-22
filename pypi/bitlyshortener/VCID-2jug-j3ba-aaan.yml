@@ -1,0 +1,23 @@
+vulnerability_id: VCID-2jug-j3ba-aaan
+aliases:
+  - GHSA-ggrh-grj3-vfvw
+summary: Package discontinued because Bitly lowered the free quota
+severities:
+  - id: 703003
+    reference_id: 1462526
+    scoring_system: cvssv3.1_qr
+    value: LOW
+    scoring_elements:
+  - id: 703002
+    reference_id: 1462525
+    scoring_system: cvssv3.1_qr
+    value: LOW
+    scoring_elements:
+references:
+  - id: 1462526
+    url: https://github.com/advisories/GHSA-ggrh-grj3-vfvw
+    reference_id: GHSA-ggrh-grj3-vfvw
+  - id: 1462525
+    url: https://github.com/impredicative/bitlyshortener/security/advisories/GHSA-ggrh-grj3-vfvw
+    reference_id: GHSA-ggrh-grj3-vfvw
+weaknesses: []

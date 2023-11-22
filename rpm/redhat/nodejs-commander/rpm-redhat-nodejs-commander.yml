@@ -1,0 +1,15 @@
+package: pkg:rpm/redhat/nodejs-commander
+versions:
+  - purl: pkg:rpm/redhat/nodejs-commander@0.6.1-1?arch=el6op
+    affected_by_vulnerabilities:
+      - VCID-1fct-4dv4-aaan
+      - VCID-fwvt-h5ng-aaad
+      - VCID-ge9e-v9x6-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/nodejs-commander@2.8.1-2?arch=el7aos
+    affected_by_vulnerabilities:
+      - VCID-3qb1-f6fw-aaad
+      - VCID-8g31-3v68-aaan
+      - VCID-kac9-8rqu-aaaa
+      - VCID-sb3k-9d77-aaab
+    fixing_vulnerabilities: []

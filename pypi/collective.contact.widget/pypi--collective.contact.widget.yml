@@ -1,0 +1,82 @@
+package: pkg:pypi/collective.contact.widget
+versions:
+  - purl: pkg:pypi/collective.contact.widget@0.10
+    affected_by_vulnerabilities:
+      - VCID-e2sx-buea-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.contact.widget@0.11
+    affected_by_vulnerabilities:
+      - VCID-e2sx-buea-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.contact.widget@0.12
+    affected_by_vulnerabilities:
+      - VCID-e2sx-buea-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.contact.widget@1.0
+    affected_by_vulnerabilities:
+      - VCID-e2sx-buea-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.contact.widget@1.0rc1
+    affected_by_vulnerabilities:
+      - VCID-e2sx-buea-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.contact.widget@1.1
+    affected_by_vulnerabilities:
+      - VCID-e2sx-buea-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.contact.widget@1.10
+    affected_by_vulnerabilities:
+      - VCID-e2sx-buea-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.contact.widget@1.11
+    affected_by_vulnerabilities:
+      - VCID-e2sx-buea-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.contact.widget@1.12
+    affected_by_vulnerabilities:
+      - VCID-e2sx-buea-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.contact.widget@1.13
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-e2sx-buea-aaas
+  - purl: pkg:pypi/collective.contact.widget@1.2
+    affected_by_vulnerabilities:
+      - VCID-e2sx-buea-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.contact.widget@1.2.1
+    affected_by_vulnerabilities:
+      - VCID-e2sx-buea-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.contact.widget@1.2.2
+    affected_by_vulnerabilities:
+      - VCID-e2sx-buea-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.contact.widget@1.3
+    affected_by_vulnerabilities:
+      - VCID-e2sx-buea-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.contact.widget@1.4
+    affected_by_vulnerabilities:
+      - VCID-e2sx-buea-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.contact.widget@1.5
+    affected_by_vulnerabilities:
+      - VCID-e2sx-buea-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.contact.widget@1.6
+    affected_by_vulnerabilities:
+      - VCID-e2sx-buea-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.contact.widget@1.7
+    affected_by_vulnerabilities:
+      - VCID-e2sx-buea-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.contact.widget@1.8
+    affected_by_vulnerabilities:
+      - VCID-e2sx-buea-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.contact.widget@1.9
+    affected_by_vulnerabilities:
+      - VCID-e2sx-buea-aaas
+    fixing_vulnerabilities: []

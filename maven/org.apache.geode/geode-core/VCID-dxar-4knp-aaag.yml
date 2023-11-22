@@ -1,0 +1,49 @@
+vulnerability_id: VCID-dxar-4knp-aaag
+aliases:
+  - CVE-2017-15695
+  - GHSA-jmg4-x4vp-6c6x
+summary: |
+  Permission Issues
+  Apache Geode server is configured with a security manager, a user with `DATA:WRITE` privileges is allowed to deploy code by invoking an internal Geode function. This allows remote code execution. Code deployment should be restricted to users with `DATA:MANAGE` privilege.
+severities:
+  - id: 268540
+    reference_id: 30419
+    scoring_system: cvssv2
+    value: '6.5'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:P/A:P
+  - id: 268538
+    reference_id: 30419
+    scoring_system: cvssv3
+    value: '8.8'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+  - id: 648161
+    reference_id: 1418657
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 1418655
+    url: https://cwiki.apache.org/confluence/display/GEODE/Release+Notes#ReleaseNotes-SecurityVulnerabilities
+    reference_id:
+  - id: 1418654
+    url: https://github.com/apache/geode/pull/1258
+    reference_id:
+  - id: 1418656
+    url: https://issues.apache.org/jira/browse/GEODE-3974
+    reference_id:
+  - id: 686485
+    url: https://lists.apache.org/thread.html/dc8875c0b924885a884eba6d5bd7dc3f123411b2d33cffd00e351c99@%3Cuser.geode.apache.org%3E
+    reference_id:
+  - id: 30420
+    url: http://www.securityfocus.com/bid/104465
+    reference_id:
+  - id: 677805
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:geode:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:geode:*:*:*:*:*:*:*:*
+  - id: 30419
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-15695
+    reference_id: CVE-2017-15695
+  - id: 1418657
+    url: https://github.com/advisories/GHSA-jmg4-x4vp-6c6x
+    reference_id: GHSA-jmg4-x4vp-6c6x
+weaknesses: []

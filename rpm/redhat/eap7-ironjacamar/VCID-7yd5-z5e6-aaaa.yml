@@ -1,0 +1,331 @@
+vulnerability_id: VCID-7yd5-z5e6-aaaa
+aliases:
+  - CVE-2020-8908
+  - GHSA-5mg8-w23w-74h3
+summary: Information Disclosure in Guava
+severities:
+  - id: 609836
+    reference_id: 931224
+    scoring_system: cvssv3
+    value: '3.3'
+    scoring_elements: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N
+  - id: 701265
+    reference_id: 387
+    scoring_system: generic_textual
+    value: Medium
+    scoring_elements:
+  - id: 609835
+    reference_id: 931223
+    scoring_system: rhbs
+    value: low
+    scoring_elements:
+  - id: 493124
+    reference_id: 9903
+    scoring_system: cvssv2
+    value: '2.1'
+    scoring_elements: AV:L/AC:L/Au:N/C:P/I:N/A:N
+  - id: 493122
+    reference_id: 9903
+    scoring_system: cvssv3
+    value: '3.3'
+    scoring_elements: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N
+  - id: 875
+    reference_id: 9943
+    scoring_system: cvssv3.1_qr
+    value: LOW
+    scoring_elements:
+  - id: 48104
+    reference_id: 172639
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 51183
+    reference_id: 175831
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 51184
+    reference_id: 175832
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 51182
+    reference_id: 175830
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 51181
+    reference_id: 175829
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 48101
+    reference_id: 172636
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 604513
+    reference_id: 927315
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 60398
+    reference_id: 187507
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 368921
+    reference_id: 767883
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 176920
+    reference_id: 556755
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 931224
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2020-8908.json
+    reference_id:
+  - id: 9905
+    url: https://github.com/google/guava/commit/fec0dbc4634006a6162cfd4d0d09c962073ddf40
+    reference_id:
+  - id: 9904
+    url: https://github.com/google/guava/issues/4011
+    reference_id:
+  - id: 9923
+    url: https://lists.apache.org/thread.html/r007add131977f4f576c232b25e024249a3d16f66aad14a4b52819d21@%3Ccommon-issues.hadoop.apache.org%3E
+    reference_id:
+  - id: 9918
+    url: https://lists.apache.org/thread.html/r037fed1d0ebde50c9caf8d99815db3093c344c3f651c5a49a09824ce@%3Cdev.drill.apache.org%3E
+    reference_id:
+  - id: 9919
+    url: https://lists.apache.org/thread.html/r07ed3e4417ad043a27bee7bb33322e9bfc7d7e6d1719b8e3dfd95c14@%3Cdev.drill.apache.org%3E
+    reference_id:
+  - id: 9920
+    url: https://lists.apache.org/thread.html/r161b87f8037bbaff400194a63cd2016c9a69f5949f06dcc79beeab54@%3Cdev.drill.apache.org%3E
+    reference_id:
+  - id: 9906
+    url: https://lists.apache.org/thread.html/r215b3d50f56faeb2f9383505f3e62faa9f549bb23e8a9848b78a968e@%3Ccommits.ws.apache.org%3E
+    reference_id:
+  - id: 9924
+    url: https://lists.apache.org/thread.html/r294be9d31c0312d2c0837087204b5d4bf49d0552890e6eec716fa6a6@%3Cyarn-issues.hadoop.apache.org%3E
+    reference_id:
+  - id: 9921
+    url: https://lists.apache.org/thread.html/r2fe45d96eea8434b91592ca08109118f6308d60f6d0e21d52438cfb4@%3Cdev.drill.apache.org%3E
+    reference_id:
+  - id: 9915
+    url: https://lists.apache.org/thread.html/r3c3b33ee5bef0c67391d27a97cbfd89d44f328cf072b601b58d4e748@%3Ccommits.pulsar.apache.org%3E
+    reference_id:
+  - id: 9925
+    url: https://lists.apache.org/thread.html/r3dd8881de891598d622227e9840dd7c2ef1d08abbb49e9690c7ae1bc@%3Cissues.geode.apache.org%3E
+    reference_id:
+  - id: 9907
+    url: https://lists.apache.org/thread.html/r4776f62dfae4a0006658542f43034a7fc199350e35a66d4e18164ee6@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 9926
+    url: https://lists.apache.org/thread.html/r49549a8322f62cd3acfa4490d25bfba0be04f3f9ff4d14fe36199d27@%3Cyarn-dev.hadoop.apache.org%3E
+    reference_id:
+  - id: 9927
+    url: https://lists.apache.org/thread.html/r58a8775205ab1839dba43054b09a9ab3b25b423a4170b2413c4067ac@%3Ccommon-issues.hadoop.apache.org%3E
+    reference_id:
+  - id: 9928
+    url: https://lists.apache.org/thread.html/r5b3d93dfdfb7708e796e8762ab40edbde8ff8add48aba53e5ea26f44@%3Cissues.geode.apache.org%3E
+    reference_id:
+  - id: 9929
+    url: https://lists.apache.org/thread.html/r5d61b98ceb7bba939a651de5900dbd67be3817db6bfcc41c6e04e199@%3Cyarn-issues.hadoop.apache.org%3E
+    reference_id:
+  - id: 9922
+    url: https://lists.apache.org/thread.html/r6874dfe26eefc41b7c9a5e4a0487846fc4accf8c78ff948b24a1104a@%3Cdev.drill.apache.org%3E
+    reference_id:
+  - id: 9908
+    url: https://lists.apache.org/thread.html/r68d86f4b06c808204f62bcb254fcb5b0432528ee8d37a07ef4bc8222@%3Ccommits.ws.apache.org%3E
+    reference_id:
+  - id: 9930
+    url: https://lists.apache.org/thread.html/r79e47ed555bdb1180e528420a7a2bb898541367a29a3bc6bbf0baf2c@%3Cissues.hive.apache.org%3E
+    reference_id:
+  - id: 9931
+    url: https://lists.apache.org/thread.html/r7b0e81d8367264d6cad98766a469d64d11248eb654417809bfdacf09@%3Cyarn-issues.hadoop.apache.org%3E
+    reference_id:
+  - id: 9909
+    url: https://lists.apache.org/thread.html/r841c5e14e1b55281523ebcde661ece00b38a0569e00ef5e12bd5f6ba@%3Cissues.maven.apache.org%3E
+    reference_id:
+  - id: 9932
+    url: https://lists.apache.org/thread.html/ra7ab308481ee729f998691e8e3e02e93b1dedfc98f6b1cd3d86923b3@%3Cyarn-issues.hadoop.apache.org%3E
+    reference_id:
+  - id: 9933
+    url: https://lists.apache.org/thread.html/rb2364f4cf4d274eab5a7ecfaf64bf575cedf8b0173551997c749d322@%3Cgitbox.hive.apache.org%3E
+    reference_id:
+  - id: 9910
+    url: https://lists.apache.org/thread.html/rb8c0f1b7589864396690fe42a91a71dea9412e86eec66dc85bbacaaf@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 9911
+    url: https://lists.apache.org/thread.html/rbc7642b9800249553f13457e46b813bea1aec99d2bc9106510e00ff3@%3Ctorque-dev.db.apache.org%3E
+    reference_id:
+  - id: 9912
+    url: https://lists.apache.org/thread.html/rc2dbc4633a6eea1fcbce6831876cfa17b73759a98c65326d1896cb1a@%3Ctorque-dev.db.apache.org%3E
+    reference_id:
+  - id: 9934
+    url: https://lists.apache.org/thread.html/rc607bc52f3507b8b9c28c6a747c3122f51ac24afe80af2a670785b97@%3Cissues.geode.apache.org%3E
+    reference_id:
+  - id: 9935
+    url: https://lists.apache.org/thread.html/rcafc3a637d82bdc9a24036b2ddcad1e519dd0e6f848fcc3d606fd78f@%3Cdev.hive.apache.org%3E
+    reference_id:
+  - id: 9917
+    url: https://lists.apache.org/thread.html/rd01f5ff0164c468ec7abc96ff7646cea3cce6378da2e4aa29c6bcb95@%3Cgithub.arrow.apache.org%3E
+    reference_id:
+  - id: 9936
+    url: https://lists.apache.org/thread.html/rd2704306ec729ccac726e50339b8a8f079515cc29ccb77713b16e7c5@%3Cissues.hive.apache.org%3E
+    reference_id:
+  - id: 9913
+    url: https://lists.apache.org/thread.html/rd5d58088812cf8e677d99b07f73c654014c524c94e7fedbdee047604@%3Ctorque-dev.db.apache.org%3E
+    reference_id:
+  - id: 9941
+    url: https://lists.apache.org/thread.html/rd7e12d56d49d73e2b8549694974b07561b79b05455f7f781954231bf@%3Cdev.pig.apache.org%3E
+    reference_id:
+  - id: 9937
+    url: https://lists.apache.org/thread.html/re120f6b3d2f8222121080342c5801fdafca2f5188ceeb3b49c8a1d27@%3Cyarn-issues.hadoop.apache.org%3E
+    reference_id:
+  - id: 9938
+    url: https://lists.apache.org/thread.html/reebbd63c25bc1a946caa419cec2be78079f8449d1af48e52d47c9e85@%3Cissues.geode.apache.org%3E
+    reference_id:
+  - id: 9939
+    url: https://lists.apache.org/thread.html/rf00b688ffa620c990597f829ff85fdbba8bf73ee7bfb34783e1f0d4e@%3Cyarn-dev.hadoop.apache.org%3E
+    reference_id:
+  - id: 9940
+    url: https://lists.apache.org/thread.html/rf9f0fa84b8ae1a285f0210bafec6de2a9eba083007d04640b82aa625@%3Cissues.geode.apache.org%3E
+    reference_id:
+  - id: 9916
+    url: https://lists.apache.org/thread.html/rfc27e2727a20a574f39273e0432aa97486a332f9b3068f6ac1346594@%3Cdev.myfaces.apache.org%3E
+    reference_id:
+  - id: 9942
+    url: https://security.netapp.com/advisory/ntap-20220210-0003/
+    reference_id:
+  - id: 9914
+    url: https://snyk.io/vuln/SNYK-JAVA-COMGOOGLEGUAVA-1015415
+    reference_id:
+  - id: 420
+    url: https://www.oracle.com/security-alerts/cpuApr2021.html
+    reference_id:
+  - id: 389
+    url: https://www.oracle.com/security-alerts/cpuapr2022.html
+    reference_id:
+  - id: 388
+    url: https://www.oracle.com/security-alerts/cpujan2022.html
+    reference_id:
+  - id: 386
+    url: https://www.oracle.com//security-alerts/cpujul2021.html
+    reference_id:
+  - id: 387
+    url: https://www.oracle.com/security-alerts/cpuoct2021.html
+    reference_id:
+  - id: 931223
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1906919
+    reference_id: '1906919'
+  - id: 723332
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:google:guava:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:google:guava:*:*:*:*:*:*:*:*
+  - id: 766416
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:netapp:active_iq_unified_manager:-:*:*:*:*:linux:*:*
+    reference_id: cpe:2.3:a:netapp:active_iq_unified_manager:-:*:*:*:*:linux:*:*
+  - id: 766417
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:netapp:active_iq_unified_manager:-:*:*:*:*:vmware_vsphere:*:*
+    reference_id: cpe:2.3:a:netapp:active_iq_unified_manager:-:*:*:*:*:vmware_vsphere:*:*
+  - id: 766418
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:netapp:active_iq_unified_manager:-:*:*:*:*:windows:*:*
+    reference_id: cpe:2.3:a:netapp:active_iq_unified_manager:-:*:*:*:*:windows:*:*
+  - id: 766934
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:commerce_guided_search:11.3.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:commerce_guided_search:11.3.2:*:*:*:*:*:*:*
+  - id: 766948
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:communications_cloud_native_core_network_repository_function:1.14.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:communications_cloud_native_core_network_repository_function:1.14.0:*:*:*:*:*:*:*
+  - id: 763313
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:communications_cloud_native_core_network_slice_selection_function:1.2.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:communications_cloud_native_core_network_slice_selection_function:1.2.1:*:*:*:*:*:*:*
+  - id: 766973
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:communications_pricing_design_center:12.0.0.4.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:communications_pricing_design_center:12.0.0.4.0:*:*:*:*:*:*:*
+  - id: 855776
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:communications_pricing_design_center:12.0.0.5.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:communications_pricing_design_center:12.0.0.5.0:*:*:*:*:*:*:*
+  - id: 620699
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:data_integrator:12.2.1.3.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:data_integrator:12.2.1.3.0:*:*:*:*:*:*:*
+  - id: 620700
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:data_integrator:12.2.1.4.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:data_integrator:12.2.1.4.0:*:*:*:*:*:*:*
+  - id: 722620
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:nosql_database:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:nosql_database:*:*:*:*:*:*:*:*
+  - id: 621376
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:peoplesoft_enterprise_peopletools:8.57:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:peoplesoft_enterprise_peopletools:8.57:*:*:*:*:*:*:*
+  - id: 759307
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:peoplesoft_enterprise_peopletools:8.58:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:peoplesoft_enterprise_peopletools:8.58:*:*:*:*:*:*:*
+  - id: 763420
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:peoplesoft_enterprise_peopletools:8.59:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:peoplesoft_enterprise_peopletools:8.59:*:*:*:*:*:*:*
+  - id: 621380
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:primavera_unifier:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:primavera_unifier:*:*:*:*:*:*:*:*
+  - id: 621381
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:primavera_unifier:18.8:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:primavera_unifier:18.8:*:*:*:*:*:*:*
+  - id: 759310
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:primavera_unifier:19.12:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:primavera_unifier:19.12:*:*:*:*:*:*:*
+  - id: 767073
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:primavera_unifier:20.12:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:primavera_unifier:20.12:*:*:*:*:*:*:*
+  - id: 767074
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:primavera_unifier:21.12:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:primavera_unifier:21.12:*:*:*:*:*:*:*
+  - id: 767087
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:retail_customer_management_and_segmentation_foundation:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:retail_customer_management_and_segmentation_foundation:*:*:*:*:*:*:*:*
+  - id: 702836
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:weblogic_server:14.1.1.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:weblogic_server:14.1.1.0.0:*:*:*:*:*:*:*
+  - id: 694123
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:quarkus:quarkus:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:quarkus:quarkus:*:*:*:*:*:*:*:*
+  - id: 9903
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-8908
+    reference_id: CVE-2020-8908
+  - id: 9943
+    url: https://github.com/advisories/GHSA-5mg8-w23w-74h3
+    reference_id: GHSA-5mg8-w23w-74h3
+  - id: 172639
+    url: https://access.redhat.com/errata/RHSA-2021:0417
+    reference_id: RHSA-2021:0417
+  - id: 175831
+    url: https://access.redhat.com/errata/RHSA-2021:0872
+    reference_id: RHSA-2021:0872
+  - id: 175832
+    url: https://access.redhat.com/errata/RHSA-2021:0873
+    reference_id: RHSA-2021:0873
+  - id: 175830
+    url: https://access.redhat.com/errata/RHSA-2021:0874
+    reference_id: RHSA-2021:0874
+  - id: 175829
+    url: https://access.redhat.com/errata/RHSA-2021:0885
+    reference_id: RHSA-2021:0885
+  - id: 172636
+    url: https://access.redhat.com/errata/RHSA-2021:0974
+    reference_id: RHSA-2021:0974
+  - id: 927315
+    url: https://access.redhat.com/errata/RHSA-2021:2210
+    reference_id: RHSA-2021:2210
+  - id: 187507
+    url: https://access.redhat.com/errata/RHSA-2021:4702
+    reference_id: RHSA-2021:4702
+  - id: 767883
+    url: https://access.redhat.com/errata/RHSA-2022:1013
+    reference_id: RHSA-2022:1013
+  - id: 556755
+    url: https://access.redhat.com/errata/RHSA-2022:1029
+    reference_id: RHSA-2022:1029
+weaknesses: []

@@ -1,0 +1,12 @@
+package: pkg:rpm/redhat/rubygem-domain_name
+versions:
+  - purl: pkg:rpm/redhat/rubygem-domain_name@0.5.20170404-2?arch=el7
+    affected_by_vulnerabilities:
+      - VCID-3qb1-f6fw-aaad
+      - VCID-8g31-3v68-aaan
+      - VCID-sb3k-9d77-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/rubygem-domain_name@0.5.20180417-1?arch=el7
+    affected_by_vulnerabilities:
+      - VCID-kac9-8rqu-aaaa
+    fixing_vulnerabilities: []

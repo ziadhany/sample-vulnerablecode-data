@@ -1,0 +1,69 @@
+package: pkg:pypi/calibreweb
+versions:
+  - purl: pkg:pypi/calibreweb@0.6.12
+    affected_by_vulnerabilities:
+      - VCID-9421-n759-aaan
+      - VCID-adtr-ddrd-aaar
+      - VCID-bas9-7n8y-aaaq
+      - VCID-d639-6x9f-aaan
+      - VCID-gc74-pwww-aaaj
+      - VCID-qypm-7bz4-aaaf
+      - VCID-s4cz-2uq2-aaas
+      - VCID-sczx-mtkq-aaab
+      - VCID-t61t-zdx1-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/calibreweb@0.6.13
+    affected_by_vulnerabilities:
+      - VCID-9421-n759-aaan
+      - VCID-adtr-ddrd-aaar
+      - VCID-bas9-7n8y-aaaq
+      - VCID-d639-6x9f-aaan
+      - VCID-gc74-pwww-aaaj
+      - VCID-qypm-7bz4-aaaf
+      - VCID-s4cz-2uq2-aaas
+      - VCID-sczx-mtkq-aaab
+      - VCID-t61t-zdx1-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/calibreweb@0.6.14
+    affected_by_vulnerabilities:
+      - VCID-9421-n759-aaan
+      - VCID-adtr-ddrd-aaar
+      - VCID-bas9-7n8y-aaaq
+      - VCID-d639-6x9f-aaan
+      - VCID-gc74-pwww-aaaj
+      - VCID-qypm-7bz4-aaaf
+      - VCID-s4cz-2uq2-aaas
+      - VCID-sczx-mtkq-aaab
+      - VCID-t61t-zdx1-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/calibreweb@0.6.15
+    affected_by_vulnerabilities:
+      - VCID-adtr-ddrd-aaar
+      - VCID-bas9-7n8y-aaaq
+      - VCID-d639-6x9f-aaan
+      - VCID-s4cz-2uq2-aaas
+      - VCID-sczx-mtkq-aaab
+      - VCID-t61t-zdx1-aaac
+    fixing_vulnerabilities:
+      - VCID-9421-n759-aaan
+      - VCID-gc74-pwww-aaaj
+      - VCID-qypm-7bz4-aaaf
+  - purl: pkg:pypi/calibreweb@0.6.16
+    affected_by_vulnerabilities:
+      - VCID-adtr-ddrd-aaar
+      - VCID-d639-6x9f-aaan
+      - VCID-t61t-zdx1-aaac
+    fixing_vulnerabilities:
+      - VCID-bas9-7n8y-aaaq
+      - VCID-s4cz-2uq2-aaas
+      - VCID-sczx-mtkq-aaab
+  - purl: pkg:pypi/calibreweb@0.6.17
+    affected_by_vulnerabilities:
+      - VCID-adtr-ddrd-aaar
+    fixing_vulnerabilities:
+      - VCID-d639-6x9f-aaan
+      - VCID-t61t-zdx1-aaac
+  - purl: pkg:pypi/calibreweb@0.6.18
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-adtr-ddrd-aaar

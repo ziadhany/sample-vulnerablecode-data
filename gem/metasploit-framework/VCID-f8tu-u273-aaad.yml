@@ -1,0 +1,41 @@
+vulnerability_id: VCID-f8tu-u273-aaad
+aliases:
+  - CVE-2023-0669
+  - GHSA-6pm2-j2v8-h3cj
+summary: 'Withdrawn: Fortra GoAnywhere MFT Deserialization of Untrusted Data vulnerability affects
+  metasploit-framework'
+severities:
+  - id: 708235
+    reference_id: 1472748
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 1472741
+    url: https://attackerkb.com/topics/mg883Nbeva/cve-2023-0669/rapid7-analysis
+    reference_id:
+  - id: 1472746
+    url: https://duo.com/decipher/fortra-patches-actively-exploited-zero-day-in-goanywhere-mft
+    reference_id:
+  - id: 1472747
+    url: https://frycos.github.io/vulns4free/2023/02/06/goanywhere-forgotten.html
+    reference_id:
+  - id: 1472745
+    url: https://github.com/rapid7/metasploit-framework/pull/17607
+    reference_id:
+  - id: 1472742
+    url: https://infosec.exchange/@briankrebs/109795710941843934
+    reference_id:
+  - id: 1472743
+    url: https://my.goanywhere.com/webclient/ViewSecurityAdvisories.xhtml#zerodayfeb1
+    reference_id:
+  - id: 1472744
+    url: https://www.rapid7.com/blog/post/2023/02/03/exploitation-of-goanywhere-mft-zero-day-vulnerability/
+    reference_id:
+  - id: 1472740
+    url: https://nvd.nist.gov/vuln/detail/CVE-2023-0669
+    reference_id: CVE-2023-0669
+  - id: 1472748
+    url: https://github.com/advisories/GHSA-6pm2-j2v8-h3cj
+    reference_id: GHSA-6pm2-j2v8-h3cj
+weaknesses: []

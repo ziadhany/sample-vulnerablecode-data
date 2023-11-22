@@ -1,0 +1,38 @@
+vulnerability_id: VCID-2a4v-17qq-aaap
+aliases:
+  - CVE-2022-28156
+  - GHSA-6h2c-g688-q9qr
+summary: Path traversal in Jenkins Phoenix AutoTest Plugin
+severities:
+  - id: 596420
+    reference_id: 9218
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:N/A:N
+  - id: 596418
+    reference_id: 9218
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+  - id: 725
+    reference_id: 9220
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 9219
+    url: https://www.jenkins.io/security/advisory/2022-03-29/#SECURITY-2683
+    reference_id:
+  - id: 662
+    url: http://www.openwall.com/lists/oss-security/2022/03/29/1
+    reference_id:
+  - id: 921605
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:jenkins:pipeline\:_phoenix_autotest:*:*:*:*:*:jenkins:*:*
+    reference_id: cpe:2.3:a:jenkins:pipeline\:_phoenix_autotest:*:*:*:*:*:jenkins:*:*
+  - id: 9218
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-28156
+    reference_id: CVE-2022-28156
+  - id: 9220
+    url: https://github.com/advisories/GHSA-6h2c-g688-q9qr
+    reference_id: GHSA-6h2c-g688-q9qr
+weaknesses: []

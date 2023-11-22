@@ -1,0 +1,126 @@
+package: pkg:npm/%40hapi/hoek
+versions:
+  - purl: pkg:npm/%40hapi/hoek@6.2.0
+    affected_by_vulnerabilities:
+      - VCID-12tw-su4q-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40hapi/hoek@6.2.1
+    affected_by_vulnerabilities:
+      - VCID-12tw-su4q-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40hapi/hoek@6.2.2
+    affected_by_vulnerabilities:
+      - VCID-12tw-su4q-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40hapi/hoek@6.2.3
+    affected_by_vulnerabilities:
+      - VCID-12tw-su4q-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40hapi/hoek@6.2.4
+    affected_by_vulnerabilities:
+      - VCID-12tw-su4q-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40hapi/hoek@7.0.0
+    affected_by_vulnerabilities:
+      - VCID-12tw-su4q-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40hapi/hoek@7.1.0
+    affected_by_vulnerabilities:
+      - VCID-12tw-su4q-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40hapi/hoek@7.2.0
+    affected_by_vulnerabilities:
+      - VCID-12tw-su4q-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40hapi/hoek@7.2.1
+    affected_by_vulnerabilities:
+      - VCID-12tw-su4q-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40hapi/hoek@8.0.0
+    affected_by_vulnerabilities:
+      - VCID-12tw-su4q-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40hapi/hoek@8.0.1
+    affected_by_vulnerabilities:
+      - VCID-12tw-su4q-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40hapi/hoek@8.0.2
+    affected_by_vulnerabilities:
+      - VCID-12tw-su4q-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40hapi/hoek@8.1.0
+    affected_by_vulnerabilities:
+      - VCID-12tw-su4q-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40hapi/hoek@8.2.0
+    affected_by_vulnerabilities:
+      - VCID-12tw-su4q-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40hapi/hoek@8.2.1
+    affected_by_vulnerabilities:
+      - VCID-12tw-su4q-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40hapi/hoek@8.2.2
+    affected_by_vulnerabilities:
+      - VCID-12tw-su4q-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40hapi/hoek@8.2.3
+    affected_by_vulnerabilities:
+      - VCID-12tw-su4q-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40hapi/hoek@8.2.4
+    affected_by_vulnerabilities:
+      - VCID-12tw-su4q-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40hapi/hoek@8.2.5
+    affected_by_vulnerabilities:
+      - VCID-12tw-su4q-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40hapi/hoek@8.3.0
+    affected_by_vulnerabilities:
+      - VCID-12tw-su4q-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40hapi/hoek@8.3.1
+    affected_by_vulnerabilities:
+      - VCID-12tw-su4q-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40hapi/hoek@8.3.2
+    affected_by_vulnerabilities:
+      - VCID-12tw-su4q-aaam
+      - VCID-j1cc-4m8g-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40hapi/hoek@8.4.0
+    affected_by_vulnerabilities:
+      - VCID-12tw-su4q-aaam
+      - VCID-j1cc-4m8g-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40hapi/hoek@8.5.0
+    affected_by_vulnerabilities:
+      - VCID-12tw-su4q-aaam
+      - VCID-j1cc-4m8g-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40hapi/hoek@8.5.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-12tw-su4q-aaam
+      - VCID-j1cc-4m8g-aaah
+  - purl: pkg:npm/%40hapi/hoek@9.0.0
+    affected_by_vulnerabilities:
+      - VCID-12tw-su4q-aaam
+      - VCID-j1cc-4m8g-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40hapi/hoek@9.0.1
+    affected_by_vulnerabilities:
+      - VCID-12tw-su4q-aaam
+      - VCID-j1cc-4m8g-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40hapi/hoek@9.0.2
+    affected_by_vulnerabilities:
+      - VCID-12tw-su4q-aaam
+      - VCID-j1cc-4m8g-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40hapi/hoek@9.0.3
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-12tw-su4q-aaam
+      - VCID-j1cc-4m8g-aaah

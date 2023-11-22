@@ -1,0 +1,79 @@
+vulnerability_id: VCID-kqu6-94cz-aaaq
+aliases:
+  - CVE-2018-0875
+  - GHSA-xcvr-qv8h-m7xw
+summary: |
+  Uncontrolled Resource Consumption
+  .NET Core, .NET Core, NET Core and PowerShell Core allow a denial of Service vulnerability due to how specially crafted requests are handled, aka ".NET Core Denial of Service Vulnerability".
+severities:
+  - id: 617819
+    reference_id: 937058
+    scoring_system: cvssv3
+    value: '3.7'
+    scoring_elements: CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+  - id: 617817
+    reference_id: 937056
+    scoring_system: rhbs
+    value: low
+    scoring_elements:
+  - id: 306486
+    reference_id: 37606
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 306484
+    reference_id: 37606
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 647975
+    reference_id: 1418165
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 617818
+    reference_id: 937057
+    scoring_system: rhas
+    value: Low
+    scoring_elements:
+references:
+  - id: 937058
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2018-0875.json
+    reference_id:
+  - id: 1418164
+    url: https://github.com/dotnet/announcements/issues/62
+    reference_id:
+  - id: 720718
+    url: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-0875
+    reference_id:
+  - id: 37610
+    url: http://www.securityfocus.com/bid/103225
+    reference_id:
+  - id: 37609
+    url: http://www.securitytracker.com/id/1040505
+    reference_id:
+  - id: 937056
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1552060
+    reference_id: 1552060
+  - id: 713473
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:asp.net_core:1.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:asp.net_core:1.0:*:*:*:*:*:*:*
+  - id: 713474
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:asp.net_core:1.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:asp.net_core:1.1:*:*:*:*:*:*:*
+  - id: 675289
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:asp.net_core:2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:asp.net_core:2.0:*:*:*:*:*:*:*
+  - id: 720396
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:powershell_core:6.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:powershell_core:6.0:*:*:*:*:*:*:*
+  - id: 37606
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-0875
+    reference_id: CVE-2018-0875
+  - id: 1418165
+    url: https://github.com/advisories/GHSA-xcvr-qv8h-m7xw
+    reference_id: GHSA-xcvr-qv8h-m7xw
+  - id: 937057
+    url: https://access.redhat.com/errata/RHSA-2018:0522
+    reference_id: RHSA-2018:0522
+weaknesses: []

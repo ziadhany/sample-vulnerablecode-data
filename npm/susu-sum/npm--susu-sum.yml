@@ -1,0 +1,11 @@
+package: pkg:npm/susu-sum
+versions:
+  - purl: pkg:npm/susu-sum@0.0.0-alpha
+    affected_by_vulnerabilities:
+      - VCID-add7-f7wr-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/susu-sum@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-add7-f7wr-aaag
+      - VCID-c9pf-xvcc-aaaf
+    fixing_vulnerabilities: []

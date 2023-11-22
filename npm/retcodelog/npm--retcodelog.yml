@@ -1,0 +1,10 @@
+package: pkg:npm/retcodelog
+versions:
+  - purl: pkg:npm/retcodelog@0.0.0
+    affected_by_vulnerabilities:
+      - VCID-tyme-w4qw-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/retcodelog@0.0.1-security
+    affected_by_vulnerabilities:
+      - VCID-tyme-w4qw-aaaq
+    fixing_vulnerabilities: []

@@ -1,0 +1,38 @@
+vulnerability_id: VCID-88q2-b15n-aaan
+aliases:
+  - CVE-2020-7734
+  - PYSEC-2020-227
+  - SNYK-PYTHON-CABOT-609862
+summary: All versions of package cabot are vulnerable to Cross-site Scripting (XSS) via the
+  Endpoint column.
+severities:
+  - id: 489525
+    reference_id: 18094
+    scoring_system: cvssv2
+    value: '3.5'
+    scoring_elements: AV:N/AC:M/Au:S/C:N/I:P/A:N
+  - id: 489523
+    reference_id: 18094
+    scoring_system: cvssv3
+    value: '8.2'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:L/A:L
+references:
+  - id: 6920
+    url: https://github.com/arachnys/cabot/pull/694
+    reference_id:
+  - id: 6915
+    url: https://itsmeanonartist.tech/blogs/blog2.html
+    reference_id:
+  - id: 6919
+    url: https://snyk.io/vuln/SNYK-PYTHON-CABOT-609862
+    reference_id:
+  - id: 6916
+    url: https://www.exploit-db.com/exploits/48791
+    reference_id:
+  - id: 852934
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:arachnys:cabot:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:arachnys:cabot:*:*:*:*:*:*:*:*
+  - id: 18094
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-7734
+    reference_id: CVE-2020-7734
+weaknesses: []

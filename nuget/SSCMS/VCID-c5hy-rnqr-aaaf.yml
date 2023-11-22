@@ -1,0 +1,41 @@
+vulnerability_id: VCID-c5hy-rnqr-aaaf
+aliases:
+  - CVE-2021-42655
+  - GHSA-5xr5-v2h7-2w7w
+summary: SQL injection in SiteServer CMS
+severities:
+  - id: 565395
+    reference_id: 767
+    scoring_system: cvssv2
+    value: '6.5'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:P/A:P
+  - id: 565393
+    reference_id: 767
+    scoring_system: cvssv3
+    value: '8.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+  - id: 53
+    reference_id: 769
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 901521
+    url: https://github.com/siteserver/cms
+    reference_id:
+  - id: 768
+    url: https://github.com/siteserver/cms/issues/3237
+    reference_id:
+  - id: 901526
+    url: https://github.com/siteserver/cms/releases/download/siteserver-v6.15.51/siteserver_install.zip
+    reference_id:
+  - id: 901527
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:sscms:siteserver_cms:6.15.51:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:sscms:siteserver_cms:6.15.51:*:*:*:*:*:*:*
+  - id: 767
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-42655
+    reference_id: CVE-2021-42655
+  - id: 769
+    url: https://github.com/advisories/GHSA-5xr5-v2h7-2w7w
+    reference_id: GHSA-5xr5-v2h7-2w7w
+weaknesses: []

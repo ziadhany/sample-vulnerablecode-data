@@ -1,0 +1,72 @@
+vulnerability_id: VCID-pw8c-5hee-aaad
+aliases:
+  - CVE-2022-21701
+summary: 'CVE-2022-21701 istio: Privileged Escalation in Kubernetes Gateway API'
+severities:
+  - id: 338789
+    reference_id: 746194
+    scoring_system: cvssv3
+    value: '8.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+  - id: 338788
+    reference_id: 746193
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 582873
+    reference_id: 912941
+    scoring_system: cvssv2
+    value: '6.0'
+    scoring_elements: AV:N/AC:M/Au:S/C:P/I:P/A:P
+  - id: 582871
+    reference_id: 912941
+    scoring_system: cvssv3
+    value: '8.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+references:
+  - id: 746194
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-21701.json
+    reference_id:
+  - id: 912940
+    url: https://github.com/istio/istio/security/advisories/GHSA-mq8f-9446-c28r
+    reference_id:
+  - id: 912892
+    url: https://istio.io/latest/news/releases/1.12.x/announcing-1.12.2/
+    reference_id:
+  - id: 746193
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=2045053
+    reference_id: 2045053
+  - id: 912894
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:istio:istio:1.12.0:-:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:istio:istio:1.12.0:-:*:*:*:*:*:*
+  - id: 912895
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:istio:istio:1.12.0:alpha0:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:istio:istio:1.12.0:alpha0:*:*:*:*:*:*
+  - id: 912896
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:istio:istio:1.12.0:alpha1:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:istio:istio:1.12.0:alpha1:*:*:*:*:*:*
+  - id: 912897
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:istio:istio:1.12.0:alpha5:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:istio:istio:1.12.0:alpha5:*:*:*:*:*:*
+  - id: 912898
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:istio:istio:1.12.0:beta0:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:istio:istio:1.12.0:beta0:*:*:*:*:*:*
+  - id: 912899
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:istio:istio:1.12.0:beta1:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:istio:istio:1.12.0:beta1:*:*:*:*:*:*
+  - id: 912900
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:istio:istio:1.12.0:beta2:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:istio:istio:1.12.0:beta2:*:*:*:*:*:*
+  - id: 912901
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:istio:istio:1.12.0:rc1:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:istio:istio:1.12.0:rc1:*:*:*:*:*:*
+  - id: 912902
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:istio:istio:1.12.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:istio:istio:1.12.1:*:*:*:*:*:*:*
+  - id: 912941
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-21701
+    reference_id: CVE-2022-21701
+  - id: 1474023
+    url: https://istio.io/latest/news/security/ISTIO-SECURITY-2022-002/
+    reference_id: ISTIO-SECURITY-2022-002
+weaknesses: []

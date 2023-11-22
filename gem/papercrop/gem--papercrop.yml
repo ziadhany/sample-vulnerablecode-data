@@ -1,0 +1,30 @@
+package: pkg:gem/papercrop
+versions:
+  - purl: pkg:gem/papercrop@0.0.2
+    affected_by_vulnerabilities:
+      - VCID-uuw5-a7er-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/papercrop@0.0.5
+    affected_by_vulnerabilities:
+      - VCID-uuw5-a7er-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/papercrop@0.0.7
+    affected_by_vulnerabilities:
+      - VCID-uuw5-a7er-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/papercrop@0.1.0
+    affected_by_vulnerabilities:
+      - VCID-uuw5-a7er-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/papercrop@0.1.1
+    affected_by_vulnerabilities:
+      - VCID-uuw5-a7er-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/papercrop@0.2.0
+    affected_by_vulnerabilities:
+      - VCID-uuw5-a7er-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/papercrop@0.3.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-uuw5-a7er-aaaq

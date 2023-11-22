@@ -1,0 +1,38 @@
+vulnerability_id: VCID-xup3-vcng-aaah
+aliases:
+  - CVE-2021-44667
+  - GHSA-4gr7-qw2q-jxh6
+summary: Cross-site Scripting in Nacos
+severities:
+  - id: 570081
+    reference_id: 1065
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+  - id: 570079
+    reference_id: 1065
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+  - id: 123
+    reference_id: 1068
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 1067
+    url: https://github.com/alibaba/nacos/commit/cd6d7e33b94f24814701f3faf8b632e5e85444c5
+    reference_id:
+  - id: 1066
+    url: https://github.com/alibaba/nacos/issues/7359
+    reference_id:
+  - id: 904897
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:alibaba:nacos:2.0.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:alibaba:nacos:2.0.3:*:*:*:*:*:*:*
+  - id: 1065
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-44667
+    reference_id: CVE-2021-44667
+  - id: 1068
+    url: https://github.com/advisories/GHSA-4gr7-qw2q-jxh6
+    reference_id: GHSA-4gr7-qw2q-jxh6
+weaknesses: []

@@ -1,0 +1,28 @@
+vulnerability_id: VCID-xw3e-c7gw-aaac
+aliases:
+  - CVE-2022-40754
+  - GHSA-4fg5-j4mm-wfpg
+summary: Apache Airflow vulnerable to open redirect
+severities:
+  - id: 647842
+    reference_id: 1417716
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 1417713
+    url: https://github.com/apache/airflow/pull/26409
+    reference_id:
+  - id: 1417714
+    url: https://github.com/pypa/advisory-database/tree/main/vulns/apache-airflow/PYSEC-2022-280.yaml
+    reference_id:
+  - id: 1417715
+    url: https://lists.apache.org/thread/cn098dcp5x3c402xrb06p3l7nz5goffm
+    reference_id:
+  - id: 1417712
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-40754
+    reference_id: CVE-2022-40754
+  - id: 1417716
+    url: https://github.com/advisories/GHSA-4fg5-j4mm-wfpg
+    reference_id: GHSA-4fg5-j4mm-wfpg
+weaknesses: []

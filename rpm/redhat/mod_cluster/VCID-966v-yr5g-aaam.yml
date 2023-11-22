@@ -1,0 +1,96 @@
+vulnerability_id: VCID-966v-yr5g-aaam
+aliases:
+  - CVE-2012-4549
+summary: 'CVE-2012-4549 JBoss AS: EJB authorization succeeds for any role when allowed roles
+  list is empty'
+severities:
+  - id: 63526
+    reference_id: '191804'
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 157585
+    reference_id: 502762
+    scoring_system: cvssv2
+    value: '5.8'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:P/A:N
+  - id: 63523
+    reference_id: '191800'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63524
+    reference_id: '191801'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63525
+    reference_id: '191802'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 325966
+    url: http://rhn.redhat.com/errata/RHSA-2012-1591.html
+    reference_id:
+  - id: 325967
+    url: http://rhn.redhat.com/errata/RHSA-2012-1592.html
+    reference_id:
+  - id: 325968
+    url: http://rhn.redhat.com/errata/RHSA-2012-1594.html
+    reference_id:
+  - id: '191805'
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2012-4549.json
+    reference_id:
+  - id: 325970
+    url: http://secunia.com/advisories/51607
+    reference_id:
+  - id: '191804'
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=870868
+    reference_id: 870868
+  - id: 157730
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:*:*:*:*:*:*:*:*
+  - id: 469827
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:4.2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:4.2.0:*:*:*:*:*:*:*
+  - id: 433292
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:4.3.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:4.3.0:*:*:*:*:*:*:*
+  - id: 408390
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:5.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:5.0.0:*:*:*:*:*:*:*
+  - id: 469828
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:5.0.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:5.0.1:*:*:*:*:*:*:*
+  - id: 453724
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:5.1.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:5.1.0:*:*:*:*:*:*:*
+  - id: 453708
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:5.1.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:5.1.1:*:*:*:*:*:*:*
+  - id: 470862
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:5.1.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:5.1.2:*:*:*:*:*:*:*
+  - id: 472139
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:5.2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:5.2.0:*:*:*:*:*:*:*
+  - id: 484417
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:5.2.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:5.2.1:*:*:*:*:*:*:*
+  - id: 502763
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:5.2.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:5.2.2:*:*:*:*:*:*:*
+  - id: 502762
+    url: https://nvd.nist.gov/vuln/detail/CVE-2012-4549
+    reference_id: CVE-2012-4549
+  - id: '191800'
+    url: https://access.redhat.com/errata/RHSA-2012:1591
+    reference_id: RHSA-2012:1591
+  - id: '191801'
+    url: https://access.redhat.com/errata/RHSA-2012:1592
+    reference_id: RHSA-2012:1592
+  - id: '191802'
+    url: https://access.redhat.com/errata/RHSA-2012:1594
+    reference_id: RHSA-2012:1594
+weaknesses: []

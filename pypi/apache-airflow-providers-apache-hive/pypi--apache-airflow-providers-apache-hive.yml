@@ -1,0 +1,339 @@
+package: pkg:pypi/apache-airflow-providers-apache-hive
+versions:
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+      - VCID-uc5g-fudp-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@1.0.0b1
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+      - VCID-uc5g-fudp-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@1.0.0b2
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+      - VCID-uc5g-fudp-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@1.0.0rc1
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+      - VCID-uc5g-fudp-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+      - VCID-uc5g-fudp-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@1.0.1rc1
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+      - VCID-uc5g-fudp-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@1.0.2
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+      - VCID-uc5g-fudp-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@1.0.2rc1
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+      - VCID-uc5g-fudp-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@1.0.3
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+      - VCID-uc5g-fudp-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@1.0.3rc1
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+      - VCID-uc5g-fudp-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+      - VCID-uc5g-fudp-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@2.0.0rc1
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+      - VCID-uc5g-fudp-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@2.0.0rc2
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+      - VCID-uc5g-fudp-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@2.0.1
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+      - VCID-uc5g-fudp-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@2.0.1rc1
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+      - VCID-uc5g-fudp-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@2.0.1rc2
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+      - VCID-uc5g-fudp-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@2.0.2
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+      - VCID-uc5g-fudp-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@2.0.2rc1
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+      - VCID-uc5g-fudp-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@2.0.3
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+      - VCID-uc5g-fudp-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@2.0.3rc1
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+      - VCID-uc5g-fudp-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@2.1.0
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+      - VCID-uc5g-fudp-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@2.1.0rc1
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+      - VCID-uc5g-fudp-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@2.2.0
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+      - VCID-uc5g-fudp-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@2.2.0rc1
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+      - VCID-uc5g-fudp-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@2.2.0rc2
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+      - VCID-uc5g-fudp-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@2.3.0
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+      - VCID-uc5g-fudp-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@2.3.0rc1
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+      - VCID-uc5g-fudp-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@2.3.1
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+      - VCID-uc5g-fudp-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@2.3.1rc1
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+      - VCID-uc5g-fudp-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@2.3.2
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+      - VCID-uc5g-fudp-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@2.3.2rc1
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+      - VCID-uc5g-fudp-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@2.3.3
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+      - VCID-uc5g-fudp-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@2.3.3rc1
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+      - VCID-uc5g-fudp-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@3.0.0
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+      - VCID-uc5g-fudp-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@3.0.0rc1
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+      - VCID-uc5g-fudp-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@3.0.0rc2
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+      - VCID-uc5g-fudp-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@3.1.0
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+      - VCID-uc5g-fudp-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@3.1.0rc1
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+      - VCID-uc5g-fudp-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@4.0.0
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+      - VCID-uc5g-fudp-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@4.0.0rc1
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+      - VCID-uc5g-fudp-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@4.0.0rc2
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+      - VCID-uc5g-fudp-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@4.0.0rc3
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+      - VCID-uc5g-fudp-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@4.0.1
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+      - VCID-uc5g-fudp-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@4.0.1rc1
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+      - VCID-uc5g-fudp-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@4.1.0
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+    fixing_vulnerabilities:
+      - VCID-uc5g-fudp-aaaq
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@4.1.0rc1
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+      - VCID-uc5g-fudp-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@4.1.1
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@4.1.1rc2
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@4.1.1rc3
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@5.0.0
+    affected_by_vulnerabilities:
+      - VCID-t5jt-9tez-aaan
+    fixing_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@5.0.0rc1
+    affected_by_vulnerabilities:
+      - VCID-qh8h-5cq5-aaam
+      - VCID-t5jt-9tez-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@5.1.0
+    affected_by_vulnerabilities:
+      - VCID-t5jt-9tez-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@5.1.0rc1
+    affected_by_vulnerabilities:
+      - VCID-t5jt-9tez-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@5.1.0rc2
+    affected_by_vulnerabilities:
+      - VCID-t5jt-9tez-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@5.1.1
+    affected_by_vulnerabilities:
+      - VCID-t5jt-9tez-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@5.1.1rc1
+    affected_by_vulnerabilities:
+      - VCID-t5jt-9tez-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@5.1.2
+    affected_by_vulnerabilities:
+      - VCID-t5jt-9tez-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@5.1.2rc1
+    affected_by_vulnerabilities:
+      - VCID-t5jt-9tez-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@5.1.3
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-t5jt-9tez-aaan
+  - purl: pkg:pypi/apache-airflow-providers-apache-hive@5.1.3rc1
+    affected_by_vulnerabilities:
+      - VCID-t5jt-9tez-aaan
+    fixing_vulnerabilities: []

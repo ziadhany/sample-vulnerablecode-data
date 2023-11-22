@@ -1,0 +1,138 @@
+package: pkg:npm/lodash.template
+versions:
+  - purl: pkg:npm/lodash.template@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash.template@2.1.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash.template@2.2.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash.template@2.2.1
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash.template@2.3.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash.template@2.4.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash.template@2.4.1
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash.template@3.0.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash.template@3.0.1
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash.template@3.1.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash.template@3.2.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash.template@3.3.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash.template@3.3.1
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash.template@3.3.2
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash.template@3.4.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash.template@3.5.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash.template@3.5.1
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash.template@3.6.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash.template@3.6.1
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash.template@3.6.2
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash.template@4.0.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash.template@4.0.1
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash.template@4.0.2
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash.template@4.1.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash.template@4.1.1
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash.template@4.2.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash.template@4.2.1
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash.template@4.2.2
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash.template@4.2.3
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash.template@4.2.4
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash.template@4.2.5
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash.template@4.3.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash.template@4.4.0
+    affected_by_vulnerabilities:
+      - VCID-jert-s2dt-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/lodash.template@4.5.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-jert-s2dt-aaac

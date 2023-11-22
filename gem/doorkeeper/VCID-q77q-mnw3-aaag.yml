@@ -1,0 +1,32 @@
+vulnerability_id: VCID-q77q-mnw3-aaag
+aliases:
+  - CVE-2012-5664
+summary: |
+  access_token Disclosure CSRF
+  Doorkeeper contains a flaw as HTTP requests do not require multiple steps, explicit confirmation, or a unique token when performing certain sensitive actions. By tricking a user into following a specially crafted link, a context-dependent attacker can perform a Cross-Site Request Forgery (CSRF / XSRF) attack causing the victim to disclose their access_token with an arbitrary scope.
+severities:
+  - id: 63519
+    reference_id: '191791'
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+references:
+  - id: 39138
+    url: http://homakov.blogspot.nl/2014/12/blatant-csrf-in-doorkeeper-most-popular.html
+    reference_id:
+  - id: 39139
+    url: http://osvdb.org/show/osvdb/116010
+    reference_id:
+  - id: '191792'
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2012-5664.json
+    reference_id:
+  - id: 29230
+    url: https://github.com/doorkeeper-gem/doorkeeper/blob/master/CHANGELOG.md
+    reference_id:
+  - id: '191791'
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=889649
+    reference_id: 889649
+  - id: 507842
+    url: https://nvd.nist.gov/vuln/detail/CVE-2012-5664
+    reference_id: CVE-2012-5664
+weaknesses: []

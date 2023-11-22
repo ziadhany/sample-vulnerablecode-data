@@ -1,0 +1,38 @@
+vulnerability_id: VCID-gp8c-5yq9-aaaq
+aliases:
+  - CVE-2021-45230
+  - GHSA-4jh2-3c85-q67h
+  - PYSEC-2022-11
+summary: In Apache Airflow prior to 2.2.0. This CVE applies to a specific case where a User
+  who has "can_create" permissions on DAG Runs can create Dag Runs for dags that they don't
+  have "edit" permissions for.
+severities:
+  - id: 570989
+    reference_id: 16076
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:N/I:P/A:N
+  - id: 570987
+    reference_id: 16076
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
+  - id: 3595
+    reference_id: 21388
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 8643
+    url: https://lists.apache.org/thread/m778ojn0k595rwco4ht9wjql89mjoxnl
+    reference_id:
+  - id: 677676
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:airflow:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:airflow:*:*:*:*:*:*:*:*
+  - id: 16076
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-45230
+    reference_id: CVE-2021-45230
+  - id: 21388
+    url: https://github.com/advisories/GHSA-4jh2-3c85-q67h
+    reference_id: GHSA-4jh2-3c85-q67h
+weaknesses: []

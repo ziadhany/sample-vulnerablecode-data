@@ -1,0 +1,32 @@
+vulnerability_id: VCID-xtut-1bqk-aaar
+aliases:
+  - GHSA-8w57-jfpm-945m
+  - GMS-2019-30
+summary: |
+  Denial of Service in http-proxy-agent
+  Versions of `http-proxy-agent` are vulnerable to denial of service and uninitialized memory leak when unsanitized options are passed to `Buffer`. ## Recommendation
+
+  Update to or later.
+severities:
+  - id: 704789
+    reference_id: 35123
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 35120
+    url: https://github.com/TooTallNate/node-http-proxy-agent/blob/2.0.0/index.js#L80
+    reference_id:
+  - id: 35119
+    url: https://hackerone.com/reports/321631
+    reference_id:
+  - id: 35121
+    url: https://nodesecurity.io/advisories/607
+    reference_id:
+  - id: 35122
+    url: https://www.npmjs.com/advisories/607
+    reference_id:
+  - id: 35123
+    url: https://github.com/advisories/GHSA-8w57-jfpm-945m
+    reference_id: GHSA-8w57-jfpm-945m
+weaknesses: []

@@ -1,0 +1,37 @@
+vulnerability_id: VCID-m21k-ve83-aaab
+aliases:
+  - CVE-2018-1000023
+  - GHSA-8p2p-p8mg-x3cw
+summary: |
+  Improper Input Validation
+  Bitpay/insight-api Insight-api contains a CWE-20: input validation vulnerability in transaction broadcast endpoint that can result in Full Path Disclosure. This attack appear to be exploitable via Web request.
+severities:
+  - id: 307026
+    reference_id: 33308
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 307024
+    reference_id: 33308
+    scoring_system: cvssv3
+    value: '5.3'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+  - id: 705825
+    reference_id: 33310
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 33309
+    url: https://github.com/bitpay/insight-api/issues/542
+    reference_id:
+  - id: 721194
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:insight.bitpay:insight-api:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:insight.bitpay:insight-api:*:*:*:*:*:*:*:*
+  - id: 33308
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-1000023
+    reference_id: CVE-2018-1000023
+  - id: 33310
+    url: https://github.com/advisories/GHSA-8p2p-p8mg-x3cw
+    reference_id: GHSA-8p2p-p8mg-x3cw
+weaknesses: []

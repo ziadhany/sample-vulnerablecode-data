@@ -1,0 +1,30 @@
+package: pkg:npm/nodemssql
+versions:
+  - purl: pkg:npm/nodemssql@0.0.0
+    affected_by_vulnerabilities:
+      - VCID-efw5-5ajm-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodemssql@0.0.0-alpha
+    affected_by_vulnerabilities:
+      - VCID-8hcp-xnrj-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodemssql@0.0.1-security
+    affected_by_vulnerabilities:
+      - VCID-8hcp-xnrj-aaag
+      - VCID-efw5-5ajm-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodemssql@0.0.2-security
+    affected_by_vulnerabilities:
+      - VCID-8hcp-xnrj-aaag
+      - VCID-efw5-5ajm-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodemssql@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-8hcp-xnrj-aaag
+      - VCID-efw5-5ajm-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/nodemssql@1.0.2
+    affected_by_vulnerabilities:
+      - VCID-8hcp-xnrj-aaag
+      - VCID-efw5-5ajm-aaag
+    fixing_vulnerabilities: []

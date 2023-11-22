@@ -1,0 +1,89 @@
+vulnerability_id: VCID-g96g-hgdh-aaan
+aliases:
+  - CVE-2018-8356
+  - GHSA-p9wx-v264-q34p
+summary: |
+  Improper Certificate Validation
+  A security feature bypass vulnerability exists when Microsoft .NET Framework components do not correctly validate certificates, aka ".NET Framework Security Feature Bypass Vulnerability." This affects .NET Framework, Microsoft .NET Framework, Microsoft .NET Framework /4.7/4.7.1/4.7.2, ASP.NET Core, Microsoft .NET Framework, ASP.NET Core, ASP.NET Core, .NET Core, Microsoft .NET Framework, Microsoft .NET Framework, Microsoft .NET Framework /4.6.1/4.6.2, .NET Core, .NET Core, Microsoft .NET Framework, Microsoft .NET Framework /4.6.1/4.6.2/4.7/4.7.1/4.7.1/4.7.2, Microsoft .NET Framework
+severities:
+  - id: 615322
+    reference_id: 935257
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
+  - id: 615321
+    reference_id: 935256
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 358648
+    reference_id: 37618
+    scoring_system: cvssv2
+    value: '2.1'
+    scoring_elements: AV:L/AC:L/Au:N/C:N/I:P/A:N
+  - id: 358646
+    reference_id: 37618
+    scoring_system: cvssv3
+    value: '5.5'
+    scoring_elements: CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
+  - id: 630552
+    reference_id: 946734
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 935257
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2018-8356.json
+    reference_id:
+  - id: 946733
+    url: https://github.com/dotnet/announcements/issues/73
+    reference_id:
+  - id: 946724
+    url: https://github.com/github/advisory-database/issues/302
+    reference_id:
+  - id: 760119
+    url: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8356
+    reference_id:
+  - id: 37621
+    url: http://www.securityfocus.com/bid/104664
+    reference_id:
+  - id: 37620
+    url: http://www.securitytracker.com/id/1041257
+    reference_id:
+  - id: 935256
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1600323
+    reference_id: 1600323
+  - id: 713473
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:asp.net_core:1.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:asp.net_core:1.0:*:*:*:*:*:*:*
+  - id: 713474
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:asp.net_core:1.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:asp.net_core:1.1:*:*:*:*:*:*:*
+  - id: 675289
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:asp.net_core:2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:asp.net_core:2.0:*:*:*:*:*:*:*
+  - id: 720393
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:.net_core:1.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:.net_core:1.0:*:*:*:*:*:*:*
+  - id: 720394
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:.net_core:1.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:.net_core:1.1:*:*:*:*:*:*:*
+  - id: 720395
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:.net_core:2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:.net_core:2.0:*:*:*:*:*:*:*
+  - id: 760120
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:.net_framework_developer_pack:4.7.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:.net_framework_developer_pack:4.7.2:*:*:*:*:*:*:*
+  - id: 720396
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:powershell_core:6.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:powershell_core:6.0:*:*:*:*:*:*:*
+  - id: 759856
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:powershell_core:6.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:powershell_core:6.1:*:*:*:*:*:*:*
+  - id: 37618
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-8356
+    reference_id: CVE-2018-8356
+  - id: 946734
+    url: https://github.com/advisories/GHSA-p9wx-v264-q34p
+    reference_id: GHSA-p9wx-v264-q34p
+weaknesses: []

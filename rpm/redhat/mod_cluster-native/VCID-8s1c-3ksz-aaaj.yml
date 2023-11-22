@@ -1,0 +1,66 @@
+vulnerability_id: VCID-8s1c-3ksz-aaaj
+aliases:
+  - CVE-2012-4550
+summary: 'CVE-2012-4550 JBoss JACC: Security constraints configured for EJBs are incorrectly
+  interpreted and not applied'
+severities:
+  - id: 65299
+    reference_id: '194138'
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 157589
+    reference_id: 502768
+    scoring_system: cvssv2
+    value: '6.4'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:N
+  - id: 63523
+    reference_id: '191800'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63524
+    reference_id: '191801'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63525
+    reference_id: '191802'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 325966
+    url: http://rhn.redhat.com/errata/RHSA-2012-1591.html
+    reference_id:
+  - id: 325967
+    url: http://rhn.redhat.com/errata/RHSA-2012-1592.html
+    reference_id:
+  - id: 325968
+    url: http://rhn.redhat.com/errata/RHSA-2012-1594.html
+    reference_id:
+  - id: '194139'
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2012-4550.json
+    reference_id:
+  - id: 325970
+    url: http://secunia.com/advisories/51607
+    reference_id:
+  - id: '194138'
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=870871
+    reference_id: 870871
+  - id: 502543
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:6.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:6.0.0:*:*:*:*:*:*:*
+  - id: 502768
+    url: https://nvd.nist.gov/vuln/detail/CVE-2012-4550
+    reference_id: CVE-2012-4550
+  - id: '191800'
+    url: https://access.redhat.com/errata/RHSA-2012:1591
+    reference_id: RHSA-2012:1591
+  - id: '191801'
+    url: https://access.redhat.com/errata/RHSA-2012:1592
+    reference_id: RHSA-2012:1592
+  - id: '191802'
+    url: https://access.redhat.com/errata/RHSA-2012:1594
+    reference_id: RHSA-2012:1594
+weaknesses: []

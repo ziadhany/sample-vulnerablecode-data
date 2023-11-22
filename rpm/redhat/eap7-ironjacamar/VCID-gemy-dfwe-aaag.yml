@@ -1,0 +1,164 @@
+vulnerability_id: VCID-gemy-dfwe-aaag
+aliases:
+  - CVE-2020-1748
+  - GHSA-qgrq-cx4c-2rmm
+summary: A flaw was found in all supported versions before wildfly-elytron-1.6.8.Final-redhat-00001,
+  where the WildFlySecurityManager checks were bypassed when using custom security managers,
+  resulting in an improper authorization. This flaw leads to information exposure by unauthenticated
+  access to secure resources.
+severities:
+  - id: 610446
+    reference_id: 931670
+    scoring_system: cvssv3
+    value: '4.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
+  - id: 610445
+    reference_id: 931669
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 451070
+    reference_id: 827289
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 451068
+    reference_id: 827289
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+  - id: 630471
+    reference_id: 945232
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 49241
+    reference_id: 173535
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49242
+    reference_id: 173536
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49238
+    reference_id: 173532
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49239
+    reference_id: 173533
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 50141
+    reference_id: 174647
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 50143
+    reference_id: 174649
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49245
+    reference_id: 173539
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49243
+    reference_id: 173537
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49244
+    reference_id: 173538
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49237
+    reference_id: 173531
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 50645
+    reference_id: 175233
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49184
+    reference_id: 173462
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 49183
+    reference_id: 173461
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 931670
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2020-1748.json
+    reference_id:
+  - id: 827288
+    url: https://security.netapp.com/advisory/ntap-20201001-0005/
+    reference_id:
+  - id: 931669
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1807707
+    reference_id: 1807707
+  - id: 709719
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:decision_manager:7.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:decision_manager:7.0:*:*:*:*:*:*:*
+  - id: 779340
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:process_automation:7.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:process_automation:7.0:*:*:*:*:*:*:*
+  - id: 812182
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:wildfly_elytron:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:wildfly_elytron:*:*:*:*:*:*:*:*
+  - id: 827289
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-1748
+    reference_id: CVE-2020-1748
+  - id: 945232
+    url: https://github.com/advisories/GHSA-qgrq-cx4c-2rmm
+    reference_id: GHSA-qgrq-cx4c-2rmm
+  - id: 173535
+    url: https://access.redhat.com/errata/RHSA-2020:3461
+    reference_id: RHSA-2020:3461
+  - id: 173536
+    url: https://access.redhat.com/errata/RHSA-2020:3462
+    reference_id: RHSA-2020:3462
+  - id: 173532
+    url: https://access.redhat.com/errata/RHSA-2020:3463
+    reference_id: RHSA-2020:3463
+  - id: 173533
+    url: https://access.redhat.com/errata/RHSA-2020:3464
+    reference_id: RHSA-2020:3464
+  - id: 174647
+    url: https://access.redhat.com/errata/RHSA-2020:3501
+    reference_id: RHSA-2020:3501
+  - id: 174649
+    url: https://access.redhat.com/errata/RHSA-2020:3539
+    reference_id: RHSA-2020:3539
+  - id: 173539
+    url: https://access.redhat.com/errata/RHSA-2020:3637
+    reference_id: RHSA-2020:3637
+  - id: 173537
+    url: https://access.redhat.com/errata/RHSA-2020:3638
+    reference_id: RHSA-2020:3638
+  - id: 173538
+    url: https://access.redhat.com/errata/RHSA-2020:3639
+    reference_id: RHSA-2020:3639
+  - id: 173531
+    url: https://access.redhat.com/errata/RHSA-2020:3642
+    reference_id: RHSA-2020:3642
+  - id: 175233
+    url: https://access.redhat.com/errata/RHSA-2020:3779
+    reference_id: RHSA-2020:3779
+  - id: 173462
+    url: https://access.redhat.com/errata/RHSA-2020:4960
+    reference_id: RHSA-2020:4960
+  - id: 173461
+    url: https://access.redhat.com/errata/RHSA-2020:4961
+    reference_id: RHSA-2020:4961
+weaknesses: []

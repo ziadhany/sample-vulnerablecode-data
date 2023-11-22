@@ -1,0 +1,66 @@
+package: pkg:maven/com.fasterxml.jackson/jackson-base
+versions:
+  - purl: pkg:maven/com.fasterxml.jackson/jackson-base@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-f3h3-7htd-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.fasterxml.jackson/jackson-base@2.8.11.5
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-f3h3-7htd-aaar
+  - purl: pkg:maven/com.fasterxml.jackson/jackson-base@2.9.10
+    affected_by_vulnerabilities:
+      - VCID-f3h3-7htd-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.fasterxml.jackson/jackson-base@2.9.10.20191020
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-f3h3-7htd-aaar
+  - purl: pkg:maven/com.fasterxml.jackson/jackson-base@2.9.10.3
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-f3h3-7htd-aaar
+  - purl: pkg:maven/com.fasterxml.jackson/jackson-base@2.9.2
+    affected_by_vulnerabilities:
+      - VCID-f3h3-7htd-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.fasterxml.jackson/jackson-base@2.9.3
+    affected_by_vulnerabilities:
+      - VCID-f3h3-7htd-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.fasterxml.jackson/jackson-base@2.9.4
+    affected_by_vulnerabilities:
+      - VCID-f3h3-7htd-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.fasterxml.jackson/jackson-base@2.9.5
+    affected_by_vulnerabilities:
+      - VCID-f3h3-7htd-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.fasterxml.jackson/jackson-base@2.9.6
+    affected_by_vulnerabilities:
+      - VCID-f3h3-7htd-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.fasterxml.jackson/jackson-base@2.9.7
+    affected_by_vulnerabilities:
+      - VCID-f3h3-7htd-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.fasterxml.jackson/jackson-base@2.9.8
+    affected_by_vulnerabilities:
+      - VCID-f3h3-7htd-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.fasterxml.jackson/jackson-base@2.9.9
+    affected_by_vulnerabilities:
+      - VCID-f3h3-7htd-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.fasterxml.jackson/jackson-base@2.9.9.20190727
+    affected_by_vulnerabilities:
+      - VCID-f3h3-7htd-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.fasterxml.jackson/jackson-base@2.9.9.20190806
+    affected_by_vulnerabilities:
+      - VCID-f3h3-7htd-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.fasterxml.jackson/jackson-base@2.9.9.20190807
+    affected_by_vulnerabilities:
+      - VCID-f3h3-7htd-aaar
+    fixing_vulnerabilities: []

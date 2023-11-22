@@ -1,0 +1,65 @@
+vulnerability_id: VCID-zyfe-ntqu-aaap
+aliases:
+  - CVE-2022-1466
+  - GHSA-f32v-vf79-p29q
+summary: Improper authorization in Keycloak
+severities:
+  - id: 388070
+    reference_id: 783064
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:H
+  - id: 388069
+    reference_id: 783063
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 579366
+    reference_id: 9227
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:N/I:P/A:N
+  - id: 579364
+    reference_id: 9227
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
+  - id: 727
+    reference_id: 9231
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 310456
+    reference_id: 724051
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 783064
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-1466.json
+    reference_id:
+  - id: 9229
+    url: https://www.syss.de/fileadmin/dokumente/Publikationen/Advisories/SYSS-2021-076.txt
+    reference_id:
+  - id: 9230
+    url: https://www.syss.de/pentest-blog/fehlerhafte-autorisierung-bei-red-hat-single-sign-on-750ga-syss-2021-076
+    reference_id:
+  - id: 783063
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=2050228
+    reference_id: 2050228
+  - id: 568146
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:keycloak:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:keycloak:*:*:*:*:*:*:*:*
+  - id: 910878
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:single_sign-on:7.5.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:single_sign-on:7.5.0:*:*:*:*:*:*:*
+  - id: 9227
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-1466
+    reference_id: CVE-2022-1466
+  - id: 9231
+    url: https://github.com/advisories/GHSA-f32v-vf79-p29q
+    reference_id: GHSA-f32v-vf79-p29q
+  - id: 724051
+    url: https://access.redhat.com/errata/RHSA-2022:0449
+    reference_id: RHSA-2022:0449
+weaknesses: []

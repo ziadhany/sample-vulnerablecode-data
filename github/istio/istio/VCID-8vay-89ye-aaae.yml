@@ -1,0 +1,36 @@
+vulnerability_id: VCID-8vay-89ye-aaae
+aliases:
+  - CVE-2019-12995
+summary: Istio before 1.2.2 mishandles certain access tokens, leading to "Epoch 0 terminated
+  with an error" in Envoy. This is related to a jwt_authenticator.cc segmentation fault.
+severities:
+  - id: 377250
+    reference_id: 774917
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 377248
+    reference_id: 774917
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+references:
+  - id: 774915
+    url: https://github.com/istio/istio.io/pull/4555
+    reference_id:
+  - id: 774916
+    url: https://github.com/istio/istio/issues/15084
+    reference_id:
+  - id: 767893
+    url: https://istio.io/about/notes/
+    reference_id:
+  - id: 767896
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:istio:istio:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:istio:istio:*:*:*:*:*:*:*:*
+  - id: 774917
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-12995
+    reference_id: CVE-2019-12995
+  - id: 1470876
+    url: https://istio.io/latest/news/security/ISTIO-SECURITY-2019-002/
+    reference_id: ISTIO-SECURITY-2019-002
+weaknesses: []

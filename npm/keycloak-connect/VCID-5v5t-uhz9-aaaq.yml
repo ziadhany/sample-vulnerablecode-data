@@ -1,0 +1,47 @@
+vulnerability_id: VCID-5v5t-uhz9-aaaq
+aliases:
+  - CVE-2020-10686
+summary: |
+  Incorrect Authorization
+  A flaw was found in Keycloak where a malicious user registers as oneself. The attacker could then use the remove devices form to post different credential IDs and possibly remove MFA devices for other users.
+severities:
+  - id: 50583
+    reference_id: 175162
+    scoring_system: cvssv3
+    value: '4.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:L/I:L/A:L
+  - id: 50582
+    reference_id: 175161
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 430348
+    reference_id: 30779
+    scoring_system: cvssv2
+    value: '6.5'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:P/A:P
+  - id: 430346
+    reference_id: 30779
+    scoring_system: cvssv3
+    value: '4.7'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:L
+references:
+  - id: 175162
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2020-10686.json
+    reference_id:
+  - id: 30780
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2020-10686
+    reference_id:
+  - id: 175161
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1814609
+    reference_id: 1814609
+  - id: 812081
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:keycloak:8.0.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:keycloak:8.0.2:*:*:*:*:*:*:*
+  - id: 812082
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:keycloak:9.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:keycloak:9.0.0:*:*:*:*:*:*:*
+  - id: 30779
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-10686
+    reference_id: CVE-2020-10686
+weaknesses: []

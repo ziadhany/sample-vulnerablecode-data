@@ -1,0 +1,41 @@
+package: pkg:maven/org.apache.cxf.fediz/fediz-jetty9
+versions:
+  - purl: pkg:maven/org.apache.cxf.fediz/fediz-jetty9@1.3.0
+    affected_by_vulnerabilities:
+      - VCID-1syh-m6ep-aaaq
+      - VCID-w62p-ndvf-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf.fediz/fediz-jetty9@1.3.1
+    affected_by_vulnerabilities:
+      - VCID-1syh-m6ep-aaaq
+      - VCID-w62p-ndvf-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf.fediz/fediz-jetty9@1.3.2
+    affected_by_vulnerabilities:
+      - VCID-1syh-m6ep-aaaq
+    fixing_vulnerabilities:
+      - VCID-w62p-ndvf-aaaf
+  - purl: pkg:maven/org.apache.cxf.fediz/fediz-jetty9@1.3.3
+    affected_by_vulnerabilities:
+      - VCID-1syh-m6ep-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf.fediz/fediz-jetty9@1.4.0
+    affected_by_vulnerabilities:
+      - VCID-1syh-m6ep-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf.fediz/fediz-jetty9@1.4.1
+    affected_by_vulnerabilities:
+      - VCID-1syh-m6ep-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf.fediz/fediz-jetty9@1.4.2
+    affected_by_vulnerabilities:
+      - VCID-1syh-m6ep-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf.fediz/fediz-jetty9@1.4.3
+    affected_by_vulnerabilities:
+      - VCID-1syh-m6ep-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf.fediz/fediz-jetty9@1.4.4
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-1syh-m6ep-aaaq

@@ -1,0 +1,98 @@
+package: pkg:npm/%40ckeditor/ckeditor5-paste-from-office
+versions:
+  - purl: pkg:npm/%40ckeditor/ckeditor5-paste-from-office@0.0.1
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-paste-from-office@10.0.0
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-paste-from-office@11.0.0
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-paste-from-office@11.0.1
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-paste-from-office@11.0.2
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-paste-from-office@11.0.3
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-paste-from-office@11.0.4
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-paste-from-office@11.1.0
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-paste-from-office@15.0.0
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-paste-from-office@16.0.0
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-paste-from-office@17.0.0
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-paste-from-office@18.0.0
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-paste-from-office@19.0.0
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-paste-from-office@19.0.1
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-paste-from-office@19.0.2
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-paste-from-office@20.0.0
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-paste-from-office@21.0.0
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-paste-from-office@22.0.0
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-paste-from-office@23.0.0
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-paste-from-office@23.1.0
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-paste-from-office@24.0.0
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-paste-from-office@25.0.0
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-paste-from-office@26.0.0
+    affected_by_vulnerabilities:
+      - VCID-6qc1-b496-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-paste-from-office@27.0.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-6qc1-b496-aaae

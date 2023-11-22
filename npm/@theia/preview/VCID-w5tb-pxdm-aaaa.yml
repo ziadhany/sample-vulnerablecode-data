@@ -1,0 +1,43 @@
+vulnerability_id: VCID-w5tb-pxdm-aaaa
+aliases:
+  - CVE-2020-27224
+  - GHSA-gcm9-cc3r-c6vj
+summary: |
+  Cross-site Scripting
+  The Markdown Preview can be exploited to execute arbitrary code.
+severities:
+  - id: 466029
+    reference_id: 31831
+    scoring_system: cvssv2
+    value: '9.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:C/I:C/A:C
+  - id: 466027
+    reference_id: 31831
+    scoring_system: cvssv3
+    value: '9.6'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+  - id: 706193
+    reference_id: 1467725
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 31832
+    url: https://github.com/eclipse-theia/theia/issues/7954
+    reference_id:
+  - id: 1467724
+    url: https://github.com/eclipse-theia/theia/pull/7971
+    reference_id:
+  - id: 836873
+    url: https://omespino.com/write-up-google-bug-bounty-xss-to-cloud-shell-instance-takeover-rce-as-root-5000-usd/
+    reference_id:
+  - id: 786905
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:eclipse:theia:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:eclipse:theia:*:*:*:*:*:*:*:*
+  - id: 31831
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-27224
+    reference_id: CVE-2020-27224
+  - id: 1467725
+    url: https://github.com/advisories/GHSA-gcm9-cc3r-c6vj
+    reference_id: GHSA-gcm9-cc3r-c6vj
+weaknesses: []

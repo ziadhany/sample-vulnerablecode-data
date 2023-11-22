@@ -1,0 +1,58 @@
+vulnerability_id: VCID-5jkw-4a5e-aaak
+aliases:
+  - CVE-2020-16844
+summary: In Istio 1.5.0 though 1.5.8 and Istio 1.6.0 through 1.6.7, when users specify an AuthorizationPolicy
+  resource with DENY actions using wildcard suffixes (e.g. *-some-suffix) for source principals
+  or namespace fields, callers will never be denied access, bypassing the intended policy.
+severities:
+  - id: 610346
+    reference_id: 931598
+    scoring_system: cvssv3
+    value: '6.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N
+  - id: 610344
+    reference_id: 931596
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 449291
+    reference_id: 826231
+    scoring_system: cvssv2
+    value: '4.9'
+    scoring_elements: AV:N/AC:M/Au:S/C:P/I:P/A:N
+  - id: 449289
+    reference_id: 826231
+    scoring_system: cvssv3
+    value: '6.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N
+  - id: 610345
+    reference_id: 931597
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 931598
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2020-16844.json
+    reference_id:
+  - id: 826229
+    url: https://github.com/istio/istio/releases
+    reference_id:
+  - id: 826230
+    url: https://istio.io/latest/news/security/istio-security-2020-009/
+    reference_id:
+  - id: 931596
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1861625
+    reference_id: 1861625
+  - id: 767896
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:istio:istio:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:istio:istio:*:*:*:*:*:*:*:*
+  - id: 826231
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-16844
+    reference_id: CVE-2020-16844
+  - id: 1474014
+    url: https://istio.io/latest/news/security/ISTIO-SECURITY-2020-009/
+    reference_id: ISTIO-SECURITY-2020-009
+  - id: 931597
+    url: https://access.redhat.com/errata/RHSA-2020:3425
+    reference_id: RHSA-2020:3425
+weaknesses: []

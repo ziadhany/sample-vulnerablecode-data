@@ -1,0 +1,8 @@
+package: pkg:maven/com.surenpi.jenkins/phoenix-autotest
+versions:
+  - purl: pkg:maven/com.surenpi.jenkins/phoenix-autotest@1.3
+    affected_by_vulnerabilities:
+      - VCID-2a4v-17qq-aaap
+      - VCID-k96h-h5ac-aaac
+      - VCID-vdx2-f2gw-aaag
+    fixing_vulnerabilities: []

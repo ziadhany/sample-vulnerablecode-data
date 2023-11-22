@@ -1,0 +1,34 @@
+vulnerability_id: VCID-nrbr-zk9h-aaah
+aliases:
+  - GHSA-883x-6fch-6wjx
+  - GMS-2022-13
+summary: Trust Boundary Violation due to Incomplete Blacklist in Test Failure Processing in
+  Ares
+severities:
+  - id: 850
+    reference_id: 9794
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 849
+    reference_id: 9790
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 9792
+    url: https://github.com/ls1intum/Ares/commit/af4f28a56e2fe600d8750b3b415352a0a3217392
+    reference_id:
+  - id: 9791
+    url: https://github.com/ls1intum/Ares/issues/15#issuecomment-996449371
+    reference_id:
+  - id: 9793
+    url: https://github.com/ls1intum/Ares/releases/tag/1.7.6
+    reference_id:
+  - id: 9794
+    url: https://github.com/advisories/GHSA-883x-6fch-6wjx
+    reference_id: GHSA-883x-6fch-6wjx
+  - id: 9790
+    url: https://github.com/ls1intum/Ares/security/advisories/GHSA-883x-6fch-6wjx
+    reference_id: GHSA-883x-6fch-6wjx
+weaknesses: []

@@ -1,0 +1,37 @@
+vulnerability_id: VCID-2j2w-g882-aaae
+aliases:
+  - CVE-2018-16330
+  - GHSA-vjcj-5g2r-vxqc
+summary: |
+  Cross-site Scripting
+  Pandao Editor.md allows XSS via crafted attributes of an invalid `IMG` element.
+severities:
+  - id: 329365
+    reference_id: 31952
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+  - id: 329363
+    reference_id: 31952
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+  - id: 705848
+    reference_id: 1467233
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 738721
+    url: https://github.com/pandao/editor.md/issues/612
+    reference_id:
+  - id: 738722
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:ipandao:editor.md:1.5.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:ipandao:editor.md:1.5.0:*:*:*:*:*:*:*
+  - id: 31952
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-16330
+    reference_id: CVE-2018-16330
+  - id: 1467233
+    url: https://github.com/advisories/GHSA-vjcj-5g2r-vxqc
+    reference_id: GHSA-vjcj-5g2r-vxqc
+weaknesses: []

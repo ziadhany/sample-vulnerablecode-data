@@ -1,0 +1,94 @@
+package: pkg:maven/org.apache.cxf/cxf-rt-rs-security-jose
+versions:
+  - purl: pkg:maven/org.apache.cxf/cxf-rt-rs-security-jose@3.0.10
+    affected_by_vulnerabilities:
+      - VCID-e5f8-hk44-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-rt-rs-security-jose@3.0.11
+    affected_by_vulnerabilities:
+      - VCID-e5f8-hk44-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-rt-rs-security-jose@3.0.12
+    affected_by_vulnerabilities:
+      - VCID-e5f8-hk44-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-rt-rs-security-jose@3.0.13
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-e5f8-hk44-aaam
+  - purl: pkg:maven/org.apache.cxf/cxf-rt-rs-security-jose@3.0.2
+    affected_by_vulnerabilities:
+      - VCID-e5f8-hk44-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-rt-rs-security-jose@3.0.3
+    affected_by_vulnerabilities:
+      - VCID-e5f8-hk44-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-rt-rs-security-jose@3.0.4
+    affected_by_vulnerabilities:
+      - VCID-e5f8-hk44-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-rt-rs-security-jose@3.0.5
+    affected_by_vulnerabilities:
+      - VCID-e5f8-hk44-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-rt-rs-security-jose@3.0.6
+    affected_by_vulnerabilities:
+      - VCID-e5f8-hk44-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-rt-rs-security-jose@3.0.7
+    affected_by_vulnerabilities:
+      - VCID-e5f8-hk44-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-rt-rs-security-jose@3.0.8
+    affected_by_vulnerabilities:
+      - VCID-e5f8-hk44-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-rt-rs-security-jose@3.0.9
+    affected_by_vulnerabilities:
+      - VCID-e5f8-hk44-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-rt-rs-security-jose@3.1.0
+    affected_by_vulnerabilities:
+      - VCID-e5f8-hk44-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-rt-rs-security-jose@3.1.1
+    affected_by_vulnerabilities:
+      - VCID-e5f8-hk44-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-rt-rs-security-jose@3.1.10
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-e5f8-hk44-aaam
+  - purl: pkg:maven/org.apache.cxf/cxf-rt-rs-security-jose@3.1.2
+    affected_by_vulnerabilities:
+      - VCID-e5f8-hk44-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-rt-rs-security-jose@3.1.3
+    affected_by_vulnerabilities:
+      - VCID-e5f8-hk44-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-rt-rs-security-jose@3.1.4
+    affected_by_vulnerabilities:
+      - VCID-e5f8-hk44-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-rt-rs-security-jose@3.1.5
+    affected_by_vulnerabilities:
+      - VCID-e5f8-hk44-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-rt-rs-security-jose@3.1.6
+    affected_by_vulnerabilities:
+      - VCID-e5f8-hk44-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-rt-rs-security-jose@3.1.7
+    affected_by_vulnerabilities:
+      - VCID-e5f8-hk44-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-rt-rs-security-jose@3.1.8
+    affected_by_vulnerabilities:
+      - VCID-e5f8-hk44-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf/cxf-rt-rs-security-jose@3.1.9
+    affected_by_vulnerabilities:
+      - VCID-e5f8-hk44-aaam
+    fixing_vulnerabilities: []

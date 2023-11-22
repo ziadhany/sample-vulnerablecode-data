@@ -1,0 +1,6 @@
+package: pkg:maven/com.ruoyi/ruoyi
+versions:
+  - purl: pkg:maven/com.ruoyi/ruoyi@4.7.4
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-1cuy-svqf-aaah

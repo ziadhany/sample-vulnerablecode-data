@@ -1,0 +1,41 @@
+vulnerability_id: VCID-edjz-cf8c-aaad
+aliases:
+  - CVE-2021-33452
+summary: An issue was discovered in NASM version 2.16rc0. There are memory leaks in nasm_malloc()
+  in nasmlib/alloc.c.
+severities:
+  - id: 646406
+    reference_id: 1414851
+    scoring_system: cvssv3
+    value: '5.5'
+    scoring_elements: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+  - id: 646405
+    reference_id: 1414850
+    scoring_system: rhbs
+    value: low
+    scoring_elements:
+  - id: 641058
+    reference_id: 1179685
+    scoring_system: cvssv3
+    value: '5.5'
+    scoring_elements: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+references:
+  - id: 1414851
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-33452.json
+    reference_id:
+  - id: 1179684
+    url: https://bugzilla.nasm.us/show_bug.cgi?id=3392757
+    reference_id:
+  - id: 1179653
+    url: https://gist.github.com/Clingto/bb632c0c463f4b2c97e4f65f751c5e6d
+    reference_id:
+  - id: 1414850
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=2123082
+    reference_id: 2123082
+  - id: 905481
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:nasm:netwide_assembler:2.16:rc0:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:nasm:netwide_assembler:2.16:rc0:*:*:*:*:*:*
+  - id: 1179685
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-33452
+    reference_id: CVE-2021-33452
+weaknesses: []

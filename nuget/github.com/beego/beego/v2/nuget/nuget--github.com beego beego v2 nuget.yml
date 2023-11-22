@@ -1,0 +1,6 @@
+package: pkg:nuget/github.com/beego/beego/v2/nuget
+versions:
+  - purl: pkg:nuget/github.com/beego/beego/v2/nuget@3.0.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-h7p2-prgp-aaah

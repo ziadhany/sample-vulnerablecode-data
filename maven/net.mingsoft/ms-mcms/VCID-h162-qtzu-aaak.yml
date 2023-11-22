@@ -1,0 +1,35 @@
+vulnerability_id: VCID-h162-qtzu-aaak
+aliases:
+  - CVE-2018-18830
+  - GHSA-c7c7-xm8g-xm36
+summary: Moderate severity vulnerability that affects net.mingsoft:ms-mcms
+severities:
+  - id: 336614
+    reference_id: 732
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 336612
+    reference_id: 732
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 40
+    reference_id: 734
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 733
+    url: https://gitee.com/mingSoft/MCMS/issues/IO0IQ
+    reference_id:
+  - id: 744655
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:mingsoft:mcms:4.6.5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:mingsoft:mcms:4.6.5:*:*:*:*:*:*:*
+  - id: 732
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-18830
+    reference_id: CVE-2018-18830
+  - id: 734
+    url: https://github.com/advisories/GHSA-c7c7-xm8g-xm36
+    reference_id: GHSA-c7c7-xm8g-xm36
+weaknesses: []

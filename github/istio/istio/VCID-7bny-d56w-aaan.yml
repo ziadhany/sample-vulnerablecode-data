@@ -1,0 +1,51 @@
+vulnerability_id: VCID-7bny-d56w-aaan
+aliases:
+  - CVE-2020-8660
+summary: 'CVE-2020-8660 envoy: TLS inspector bypassc'
+severities:
+  - id: 53879
+    reference_id: 179014
+    scoring_system: cvssv3
+    value: '5.3'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+  - id: 53878
+    reference_id: 179013
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 492256
+    reference_id: 855293
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 492254
+    reference_id: 855293
+    scoring_system: cvssv3
+    value: '5.3'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+references:
+  - id: 855285
+    url: https://access.redhat.com/errata/RHSA-2020:0734
+    reference_id:
+  - id: 179014
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2020-8660.json
+    reference_id:
+  - id: 855292
+    url: https://github.com/envoyproxy/envoy/security/advisories/GHSA-c4g8-7grc-5wvx
+    reference_id:
+  - id: 855288
+    url: https://www.envoyproxy.io/docs/envoy/v1.13.1/intro/version_history
+    reference_id:
+  - id: 179013
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1802545
+    reference_id: 1802545
+  - id: 780349
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:envoyproxy:envoy:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:envoyproxy:envoy:*:*:*:*:*:*:*:*
+  - id: 855293
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-8660
+    reference_id: CVE-2020-8660
+  - id: 1474018
+    url: https://istio.io/latest/news/security/ISTIO-SECURITY-2020-003/
+    reference_id: ISTIO-SECURITY-2020-003
+weaknesses: []

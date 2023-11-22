@@ -1,0 +1,42 @@
+package: pkg:rpm/redhat/ipmitool
+versions:
+  - purl: pkg:rpm/redhat/ipmitool@1.8.11-12.el6_2?arch=1
+    affected_by_vulnerabilities:
+      - VCID-e3rt-9rrk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/ipmitool@1.8.13-10?arch=el7_2
+    affected_by_vulnerabilities:
+      - VCID-862v-jkyb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/ipmitool@1.8.15-3?arch=el6_10
+    affected_by_vulnerabilities:
+      - VCID-862v-jkyb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/ipmitool@1.8.15-8?arch=el7_3
+    affected_by_vulnerabilities:
+      - VCID-862v-jkyb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/ipmitool@1.8.18-12?arch=el8_0
+    affected_by_vulnerabilities:
+      - VCID-862v-jkyb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/ipmitool@1.8.18-12?arch=el8_1
+    affected_by_vulnerabilities:
+      - VCID-862v-jkyb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/ipmitool@1.8.18-6?arch=el7_4
+    affected_by_vulnerabilities:
+      - VCID-862v-jkyb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/ipmitool@1.8.18-9?arch=el7_5
+    affected_by_vulnerabilities:
+      - VCID-862v-jkyb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/ipmitool@1.8.18-9?arch=el7_6
+    affected_by_vulnerabilities:
+      - VCID-862v-jkyb-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/ipmitool@1.8.18-9?arch=el7_7
+    affected_by_vulnerabilities:
+      - VCID-862v-jkyb-aaan
+    fixing_vulnerabilities: []

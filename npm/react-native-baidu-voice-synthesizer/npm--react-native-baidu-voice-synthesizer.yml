@@ -1,0 +1,11 @@
+package: pkg:npm/react-native-baidu-voice-synthesizer
+versions:
+  - purl: pkg:npm/react-native-baidu-voice-synthesizer@0.0.0-alpha
+    affected_by_vulnerabilities:
+      - VCID-gf2n-d93k-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/react-native-baidu-voice-synthesizer@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-gf2n-d93k-aaaq
+      - VCID-xamu-8g3m-aaar
+    fixing_vulnerabilities: []

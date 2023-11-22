@@ -1,0 +1,6 @@
+package: pkg:pypi/body-parser-xml-pip
+versions:
+  - purl: pkg:pypi/body-parser-xml-pip@3.0.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-cdg7-7ksk-aaac

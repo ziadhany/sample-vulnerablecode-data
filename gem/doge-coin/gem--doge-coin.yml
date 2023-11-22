@@ -1,0 +1,6 @@
+package: pkg:gem/doge-coin
+versions:
+  - purl: pkg:gem/doge-coin@0
+    affected_by_vulnerabilities:
+      - VCID-g3ck-rv1a-aaas
+    fixing_vulnerabilities: []

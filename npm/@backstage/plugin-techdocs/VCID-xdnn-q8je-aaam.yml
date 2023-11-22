@@ -1,0 +1,43 @@
+vulnerability_id: VCID-xdnn-q8je-aaam
+aliases:
+  - CVE-2021-32661
+  - GHSA-gg96-f8wr-p89f
+summary: |
+  Unrestricted Upload of File with Dangerous Type
+  Backstage is an open platform for building developer portals. In versions of Backstage's Techdocs Plugin (`@backstage/plugin-techdocs`), a malicious internal actor can potentially upload documentation content with malicious scripts by embedding the script within an `object` element. This may give access to sensitive data when other users visit that same documentation page. The ability to upload malicious content may be limited by internal code review processes, unless the chosen TechDocs deployment method is to use an object store and the actor has access to upload files directly to that store. The vulnerability is patched in the `0.9.5` release of `@backstage/plugin-techdocs`.
+severities:
+  - id: 540421
+    reference_id: 37440
+    scoring_system: cvssv2
+    value: '4.9'
+    scoring_elements: AV:N/AC:M/Au:S/C:P/I:P/A:N
+  - id: 540419
+    reference_id: 37440
+    scoring_system: cvssv3
+    value: '7.3'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:N
+  - id: 706740
+    reference_id: 37443
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 37441
+    url: https://github.com/backstage/backstage/commit/aad98c544e59369901fe9e0a85f6357644dceb5c
+    reference_id:
+  - id: 37442
+    url: https://github.com/backstage/backstage/releases/tag/release-2021-06-03
+    reference_id:
+  - id: 884587
+    url: https://github.com/backstage/backstage/security/advisories/GHSA-gg96-f8wr-p89f
+    reference_id:
+  - id: 884588
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:linuxfoundation:\@backstage\/plugin-techdocs:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:linuxfoundation:\@backstage\/plugin-techdocs:*:*:*:*:*:node.js:*:*
+  - id: 37440
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-32661
+    reference_id: CVE-2021-32661
+  - id: 37443
+    url: https://github.com/advisories/GHSA-gg96-f8wr-p89f
+    reference_id: GHSA-gg96-f8wr-p89f
+weaknesses: []

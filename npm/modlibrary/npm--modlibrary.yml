@@ -1,0 +1,6 @@
+package: pkg:npm/modlibrary
+versions:
+  - purl: pkg:npm/modlibrary@0.1.1
+    affected_by_vulnerabilities:
+      - VCID-vt53-73nc-aaap
+    fixing_vulnerabilities: []

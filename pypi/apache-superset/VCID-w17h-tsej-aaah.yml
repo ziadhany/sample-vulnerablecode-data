@@ -1,0 +1,36 @@
+vulnerability_id: VCID-w17h-tsej-aaah
+aliases:
+  - CVE-2021-32609
+  - GHSA-f8vc-f28w-x9c9
+  - PYSEC-2021-377
+summary: Apache Superset up to and including 1.1 does not sanitize titles correctly on the Explore
+  page. This allows an attacker with Explore access to save a chart with a malicious title,
+  injecting html (including scripts) into the page.
+severities:
+  - id: 540209
+    reference_id: 23778
+    scoring_system: cvssv2
+    value: '3.5'
+    scoring_elements: AV:N/AC:M/Au:S/C:N/I:P/A:N
+  - id: 540207
+    reference_id: 23778
+    scoring_system: cvssv3
+    value: '5.4'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N
+references:
+  - id: 1416728
+    url: https://github.com/advisories/GHSA-f8vc-f28w-x9c9
+    reference_id:
+  - id: 1416798
+    url: https://github.com/pypa/advisory-database/tree/main/vulns/apache-superset/PYSEC-2021-377.yaml
+    reference_id:
+  - id: 628
+    url: https://lists.apache.org/thread.html/r2c09254e98b4f8b3deb422762bd0e2aa6d743b72d96c2f90cbaae31a%40%3Cdev.superset.apache.org%3E
+    reference_id:
+  - id: 759276
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:superset:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:superset:*:*:*:*:*:*:*:*
+  - id: 23778
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-32609
+    reference_id: CVE-2021-32609
+weaknesses: []

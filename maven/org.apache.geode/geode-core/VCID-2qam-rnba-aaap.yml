@@ -1,0 +1,43 @@
+vulnerability_id: VCID-2qam-rnba-aaap
+aliases:
+  - CVE-2017-9797
+  - GHSA-vh98-fqfc-4hj3
+summary: |
+  Information Exposure
+  When an Apache Geode cluster is operating in secure mode, an unauthenticated client can enter multi-user authentication mode and send metadata messages. These metadata operations could leak information about application data types. In addition, an attacker could perform a denial of service attack on the cluster.
+severities:
+  - id: 302422
+    reference_id: 30400
+    scoring_system: cvssv2
+    value: '5.8'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:N/A:P
+  - id: 302420
+    reference_id: 30400
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H
+  - id: 648170
+    reference_id: 1418672
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 716816
+    url: http://mail-archives.apache.org/mod_mbox/geode-user/201709.mbox/%3cCAEwge-Hrbb7JS8Nygrh7geyFvW4bMZ3AdCmPOzMfvbniipz0bA@mail.gmail.com%3e
+    reference_id:
+  - id: 1418655
+    url: https://cwiki.apache.org/confluence/display/GEODE/Release+Notes#ReleaseNotes-SecurityVulnerabilities
+    reference_id:
+  - id: 1418671
+    url: https://issues.apache.org/jira/browse/GEODE-3249
+    reference_id:
+  - id: 677805
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:geode:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:geode:*:*:*:*:*:*:*:*
+  - id: 30400
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-9797
+    reference_id: CVE-2017-9797
+  - id: 1418672
+    url: https://github.com/advisories/GHSA-vh98-fqfc-4hj3
+    reference_id: GHSA-vh98-fqfc-4hj3
+weaknesses: []

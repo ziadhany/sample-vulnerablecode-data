@@ -1,0 +1,40 @@
+vulnerability_id: VCID-n48u-k1mf-aaam
+aliases:
+  - CVE-2016-10575
+  - GHSA-h7pc-85cg-wmch
+summary: |
+  Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+  Kindlegen is a simple Node.js wrapper of the official kindlegen program. Kindlegen versions before 1.1.0 download binary resources over HTTP, which leaves it vulnerable to MITM attacks. It may be possible to cause remote code execution (RCE) by swapping out the requested binary with an attacker controlled binary if the attacker is on the network or positioned in between the user and the remote server.
+severities:
+  - id: 214851
+    reference_id: 34043
+    scoring_system: cvssv2
+    value: '9.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:C/I:C/A:C
+  - id: 214849
+    reference_id: 34043
+    scoring_system: cvssv3
+    value: '8.1'
+    scoring_elements: CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 705439
+    reference_id: 34044
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 34046
+    url: https://nodesecurity.io/advisories/251
+    reference_id:
+  - id: 34045
+    url: https://www.npmjs.com/advisories/251
+    reference_id:
+  - id: 628671
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:hakatashi:kindlegen:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:hakatashi:kindlegen:*:*:*:*:*:node.js:*:*
+  - id: 34043
+    url: https://nvd.nist.gov/vuln/detail/CVE-2016-10575
+    reference_id: CVE-2016-10575
+  - id: 34044
+    url: https://github.com/advisories/GHSA-h7pc-85cg-wmch
+    reference_id: GHSA-h7pc-85cg-wmch
+weaknesses: []

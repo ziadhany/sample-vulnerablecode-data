@@ -1,0 +1,71 @@
+vulnerability_id: VCID-5rd1-wyxd-aaap
+aliases:
+  - CVE-2017-11883
+  - GHSA-f9jc-rrm2-pmfg
+summary: .NET Core 1.0, 1.1, and 2.0 allow an unauthenticated attacker to remotely cause a denial
+  of service attack against a .NET Core web application by improperly handling web requests,
+  aka ".NET CORE Denial Of Service Vulnerability".
+severities:
+  - id: 618185
+    reference_id: 937319
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 618184
+    reference_id: 937318
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 256787
+    reference_id: 675309
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 256785
+    reference_id: 675309
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 630554
+    reference_id: 946739
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 937319
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2017-11883.json
+    reference_id:
+  - id: 946738
+    url: https://github.com/aspnet/Announcements/issues/278
+    reference_id:
+  - id: 946724
+    url: https://github.com/github/advisory-database/issues/302
+    reference_id:
+  - id: 675307
+    url: http://www.securityfocus.com/bid/101835
+    reference_id:
+  - id: 37598
+    url: http://www.securitytracker.com/id/1039793
+    reference_id:
+  - id: 937318
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1513363
+    reference_id: 1513363
+  - id: 674798
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:aspnetcore:1.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:aspnetcore:1.0:*:*:*:*:*:*:*
+  - id: 674799
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:aspnetcore:1.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:aspnetcore:1.1:*:*:*:*:*:*:*
+  - id: 674800
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:aspnetcore:2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:aspnetcore:2.0:*:*:*:*:*:*:*
+  - id: 675309
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-11883
+    reference_id: CVE-2017-11883
+  - id: 946737
+    url: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-11883
+    reference_id: CVE-2017-11883
+  - id: 946739
+    url: https://github.com/advisories/GHSA-f9jc-rrm2-pmfg
+    reference_id: GHSA-f9jc-rrm2-pmfg
+weaknesses: []

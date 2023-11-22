@@ -1,0 +1,186 @@
+package: pkg:pypi/autogluon.multimodal
+versions:
+  - purl: pkg:pypi/autogluon.multimodal@0.4.3b20220616
+    affected_by_vulnerabilities:
+      - VCID-9hsr-ahc7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/autogluon.multimodal@0.4.3b20220617
+    affected_by_vulnerabilities:
+      - VCID-9hsr-ahc7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/autogluon.multimodal@0.4.3b20220618
+    affected_by_vulnerabilities:
+      - VCID-9hsr-ahc7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/autogluon.multimodal@0.4.3b20220619
+    affected_by_vulnerabilities:
+      - VCID-9hsr-ahc7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/autogluon.multimodal@0.4.3b20220620
+    affected_by_vulnerabilities:
+      - VCID-9hsr-ahc7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/autogluon.multimodal@0.4.3b20220621
+    affected_by_vulnerabilities:
+      - VCID-9hsr-ahc7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/autogluon.multimodal@0.4.3b20220622
+    affected_by_vulnerabilities:
+      - VCID-9hsr-ahc7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/autogluon.multimodal@0.5.0
+    affected_by_vulnerabilities:
+      - VCID-9hsr-ahc7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/autogluon.multimodal@0.5.0b20220623
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-9hsr-ahc7-aaak
+  - purl: pkg:pypi/autogluon.multimodal@0.5.1
+    affected_by_vulnerabilities:
+      - VCID-9hsr-ahc7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/autogluon.multimodal@0.5.1b20220624
+    affected_by_vulnerabilities:
+      - VCID-9hsr-ahc7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/autogluon.multimodal@0.5.1b20220625
+    affected_by_vulnerabilities:
+      - VCID-9hsr-ahc7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/autogluon.multimodal@0.5.1b20220626
+    affected_by_vulnerabilities:
+      - VCID-9hsr-ahc7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/autogluon.multimodal@0.5.1b20220627
+    affected_by_vulnerabilities:
+      - VCID-9hsr-ahc7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/autogluon.multimodal@0.5.1b20220628
+    affected_by_vulnerabilities:
+      - VCID-9hsr-ahc7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/autogluon.multimodal@0.5.1b20220629
+    affected_by_vulnerabilities:
+      - VCID-9hsr-ahc7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/autogluon.multimodal@0.5.1b20220630
+    affected_by_vulnerabilities:
+      - VCID-9hsr-ahc7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/autogluon.multimodal@0.5.1b20220701
+    affected_by_vulnerabilities:
+      - VCID-9hsr-ahc7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/autogluon.multimodal@0.5.1b20220702
+    affected_by_vulnerabilities:
+      - VCID-9hsr-ahc7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/autogluon.multimodal@0.5.1b20220703
+    affected_by_vulnerabilities:
+      - VCID-9hsr-ahc7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/autogluon.multimodal@0.5.1b20220704
+    affected_by_vulnerabilities:
+      - VCID-9hsr-ahc7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/autogluon.multimodal@0.5.1b20220705
+    affected_by_vulnerabilities:
+      - VCID-9hsr-ahc7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/autogluon.multimodal@0.5.1b20220706
+    affected_by_vulnerabilities:
+      - VCID-9hsr-ahc7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/autogluon.multimodal@0.5.1b20220707
+    affected_by_vulnerabilities:
+      - VCID-9hsr-ahc7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/autogluon.multimodal@0.5.1b20220708
+    affected_by_vulnerabilities:
+      - VCID-9hsr-ahc7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/autogluon.multimodal@0.5.1b20220709
+    affected_by_vulnerabilities:
+      - VCID-9hsr-ahc7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/autogluon.multimodal@0.5.1b20220710
+    affected_by_vulnerabilities:
+      - VCID-9hsr-ahc7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/autogluon.multimodal@0.5.1b20220711
+    affected_by_vulnerabilities:
+      - VCID-9hsr-ahc7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/autogluon.multimodal@0.5.1b20220712
+    affected_by_vulnerabilities:
+      - VCID-9hsr-ahc7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/autogluon.multimodal@0.5.1b20220713
+    affected_by_vulnerabilities:
+      - VCID-9hsr-ahc7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/autogluon.multimodal@0.5.1b20220714
+    affected_by_vulnerabilities:
+      - VCID-9hsr-ahc7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/autogluon.multimodal@0.5.1b20220715
+    affected_by_vulnerabilities:
+      - VCID-9hsr-ahc7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/autogluon.multimodal@0.5.1b20220716
+    affected_by_vulnerabilities:
+      - VCID-9hsr-ahc7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/autogluon.multimodal@0.5.1b20220717
+    affected_by_vulnerabilities:
+      - VCID-9hsr-ahc7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/autogluon.multimodal@0.5.1b20220718
+    affected_by_vulnerabilities:
+      - VCID-9hsr-ahc7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/autogluon.multimodal@0.5.2
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-9hsr-ahc7-aaak
+  - purl: pkg:pypi/autogluon.multimodal@0.5.2b20220719
+    affected_by_vulnerabilities:
+      - VCID-9hsr-ahc7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/autogluon.multimodal@0.5.2b20220720
+    affected_by_vulnerabilities:
+      - VCID-9hsr-ahc7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/autogluon.multimodal@0.5.2b20220721
+    affected_by_vulnerabilities:
+      - VCID-9hsr-ahc7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/autogluon.multimodal@0.5.2b20220722
+    affected_by_vulnerabilities:
+      - VCID-9hsr-ahc7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/autogluon.multimodal@0.5.2b20220723
+    affected_by_vulnerabilities:
+      - VCID-9hsr-ahc7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/autogluon.multimodal@0.5.2b20220724
+    affected_by_vulnerabilities:
+      - VCID-9hsr-ahc7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/autogluon.multimodal@0.5.2b20220725
+    affected_by_vulnerabilities:
+      - VCID-9hsr-ahc7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/autogluon.multimodal@0.5.2b20220726
+    affected_by_vulnerabilities:
+      - VCID-9hsr-ahc7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/autogluon.multimodal@0.5.2b20220727
+    affected_by_vulnerabilities:
+      - VCID-9hsr-ahc7-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/autogluon.multimodal@0.5.2b20220728
+    affected_by_vulnerabilities:
+      - VCID-9hsr-ahc7-aaak
+    fixing_vulnerabilities: []

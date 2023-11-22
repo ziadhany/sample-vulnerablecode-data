@@ -1,0 +1,56 @@
+vulnerability_id: VCID-qp18-7kq8-aaab
+aliases:
+  - CVE-2017-15100
+summary: 'An attacker submitting facts to the Foreman server containing HTML can cause a stored
+  XSS on certain pages: (1) Facts page, when clicking on the "chart" button and hovering over
+  the chart; (2) Trends page, when checking the graph for a trend based on a such fact; (3)
+  Statistics page, for facts that are aggregated on this page.'
+severities:
+  - id: 619893
+    reference_id: 938513
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+  - id: 619892
+    reference_id: 938512
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 266760
+    reference_id: 684868
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+  - id: 266758
+    reference_id: 684868
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+  - id: 49936
+    reference_id: 174399
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 684866
+    url: http://projects.theforeman.org/issues/21519
+    reference_id:
+  - id: 938513
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2017-15100.json
+    reference_id:
+  - id: 684867
+    url: https://github.com/theforeman/foreman/pull/4967
+    reference_id:
+  - id: 938512
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1508551
+    reference_id: 1508551
+  - id: 158226
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:foreman:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:foreman:*:*:*:*:*:*:*:*
+  - id: 684868
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-15100
+    reference_id: CVE-2017-15100
+  - id: 174399
+    url: https://access.redhat.com/errata/RHSA-2018:2927
+    reference_id: RHSA-2018:2927
+weaknesses: []

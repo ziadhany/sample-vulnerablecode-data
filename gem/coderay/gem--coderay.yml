@@ -1,0 +1,14 @@
+package: pkg:gem/coderay
+versions:
+  - purl: pkg:gem/coderay@1.1.0.rc1
+    affected_by_vulnerabilities:
+      - VCID-btpf-f2ex-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/coderay@1.1.0.rc2
+    affected_by_vulnerabilities:
+      - VCID-btpf-f2ex-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/coderay@1.1.0.rc5
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-btpf-f2ex-aaae

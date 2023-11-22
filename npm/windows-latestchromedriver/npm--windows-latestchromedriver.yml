@@ -1,0 +1,15 @@
+package: pkg:npm/windows-latestchromedriver
+versions:
+  - purl: pkg:npm/windows-latestchromedriver@0.0.0
+    affected_by_vulnerabilities:
+      - VCID-x3sy-tn92-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/windows-latestchromedriver@0.0.0-alpha
+    affected_by_vulnerabilities:
+      - VCID-r2hy-zzdw-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/windows-latestchromedriver@0.1.0
+    affected_by_vulnerabilities:
+      - VCID-r2hy-zzdw-aaae
+      - VCID-x3sy-tn92-aaas
+    fixing_vulnerabilities: []

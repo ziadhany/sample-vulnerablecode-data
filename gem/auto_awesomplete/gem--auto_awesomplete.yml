@@ -1,0 +1,18 @@
+package: pkg:gem/auto_awesomplete
+versions:
+  - purl: pkg:gem/auto_awesomplete@0.0.1
+    affected_by_vulnerabilities:
+      - VCID-5bqf-1jsc-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/auto_awesomplete@0.0.2
+    affected_by_vulnerabilities:
+      - VCID-5bqf-1jsc-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/auto_awesomplete@0.0.3
+    affected_by_vulnerabilities:
+      - VCID-5bqf-1jsc-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/auto_awesomplete@0.1.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-5bqf-1jsc-aaad

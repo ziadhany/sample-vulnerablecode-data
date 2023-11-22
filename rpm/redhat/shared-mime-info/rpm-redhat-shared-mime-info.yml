@@ -1,0 +1,10 @@
+package: pkg:rpm/redhat/shared-mime-info
+versions:
+  - purl: pkg:rpm/redhat/shared-mime-info@1.1-9?arch=el7
+    affected_by_vulnerabilities:
+      - VCID-tq9e-k6nt-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/shared-mime-info@1.8-5?arch=el7
+    affected_by_vulnerabilities:
+      - VCID-dmp9-4dsk-aaaa
+    fixing_vulnerabilities: []

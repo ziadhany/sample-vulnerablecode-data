@@ -1,0 +1,23 @@
+vulnerability_id: VCID-c142-nvsc-aaaf
+aliases:
+  - GHSA-3m2r-q8x3-xmf7
+  - GMS-2018-37
+  - GMS-2018-39
+  - GMS-2018-40
+  - GMS-2018-43
+summary: Moderate severity vulnerability that affects Microsoft.AspNetCore.All, Microsoft.AspNetCore.Server.Kestrel.Core,
+  Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions, and Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv
+severities:
+  - id: 83
+    reference_id: 879
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 878
+    url: https://github.com/aspnet/Announcements/issues/300
+    reference_id:
+  - id: 879
+    url: https://github.com/advisories/GHSA-3m2r-q8x3-xmf7
+    reference_id: GHSA-3m2r-q8x3-xmf7
+weaknesses: []

@@ -1,0 +1,175 @@
+vulnerability_id: VCID-6usx-ks5f-aaag
+aliases:
+  - CVE-2018-1047
+  - GHSA-fmr4-w67p-vh8x
+summary: Moderate severity vulnerability that affects org.wildfly:wildfly-undertow
+severities:
+  - id: 619318
+    reference_id: 938111
+    scoring_system: cvssv3
+    value: '8.6'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N
+  - id: 619317
+    reference_id: 938110
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 310113
+    reference_id: 14961
+    scoring_system: cvssv2
+    value: '2.1'
+    scoring_elements: AV:L/AC:L/Au:N/C:P/I:N/A:N
+  - id: 310111
+    reference_id: 14961
+    scoring_system: cvssv3
+    value: '5.5'
+    scoring_elements: CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+  - id: 1674
+    reference_id: 14967
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 616941
+    reference_id: 936426
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 616939
+    reference_id: 936424
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 616940
+    reference_id: 936425
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 616942
+    reference_id: 936427
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 618154
+    reference_id: 937295
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 938111
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2018-1047.json
+    reference_id:
+  - id: 14968
+    url: https://issues.jboss.org/browse/WFLY-9620
+    reference_id:
+  - id: 938110
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1528361
+    reference_id: 1528361
+  - id: 723793
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_wildfly_application_server:10.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_wildfly_application_server:10.0.0:*:*:*:*:*:*:*
+  - id: 723794
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_wildfly_application_server:10.0.0:alpha1:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_wildfly_application_server:10.0.0:alpha1:*:*:*:*:*:*
+  - id: 723795
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_wildfly_application_server:10.0.0:alpha2:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_wildfly_application_server:10.0.0:alpha2:*:*:*:*:*:*
+  - id: 723796
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_wildfly_application_server:10.0.0:alpha3:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_wildfly_application_server:10.0.0:alpha3:*:*:*:*:*:*
+  - id: 723797
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_wildfly_application_server:10.0.0:alpha4:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_wildfly_application_server:10.0.0:alpha4:*:*:*:*:*:*
+  - id: 723798
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_wildfly_application_server:10.0.0:alpha5:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_wildfly_application_server:10.0.0:alpha5:*:*:*:*:*:*
+  - id: 723799
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_wildfly_application_server:10.0.0:alpha6:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_wildfly_application_server:10.0.0:alpha6:*:*:*:*:*:*
+  - id: 723800
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_wildfly_application_server:10.0.0:beta1:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_wildfly_application_server:10.0.0:beta1:*:*:*:*:*:*
+  - id: 723801
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_wildfly_application_server:10.0.0:beta2:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_wildfly_application_server:10.0.0:beta2:*:*:*:*:*:*
+  - id: 723802
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_wildfly_application_server:10.0.0:cr1:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_wildfly_application_server:10.0.0:cr1:*:*:*:*:*:*
+  - id: 723803
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_wildfly_application_server:10.0.0:cr2:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_wildfly_application_server:10.0.0:cr2:*:*:*:*:*:*
+  - id: 723804
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_wildfly_application_server:10.0.0:cr3:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_wildfly_application_server:10.0.0:cr3:*:*:*:*:*:*
+  - id: 723805
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_wildfly_application_server:10.0.0:cr4:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_wildfly_application_server:10.0.0:cr4:*:*:*:*:*:*
+  - id: 723806
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_wildfly_application_server:10.0.0:cr5:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_wildfly_application_server:10.0.0:cr5:*:*:*:*:*:*
+  - id: 723807
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_wildfly_application_server:10.1.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_wildfly_application_server:10.1.0:*:*:*:*:*:*:*
+  - id: 723808
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_wildfly_application_server:10.1.0:cr1:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_wildfly_application_server:10.1.0:cr1:*:*:*:*:*:*
+  - id: 723809
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_wildfly_application_server:11.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_wildfly_application_server:11.0.0:*:*:*:*:*:*:*
+  - id: 663115
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_wildfly_application_server:11.0.0:alpha1:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_wildfly_application_server:11.0.0:alpha1:*:*:*:*:*:*
+  - id: 723810
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_wildfly_application_server:11.0.0:beta1:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_wildfly_application_server:11.0.0:beta1:*:*:*:*:*:*
+  - id: 723811
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_wildfly_application_server:11.0.0:cr1:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_wildfly_application_server:11.0.0:cr1:*:*:*:*:*:*
+  - id: 723812
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_wildfly_application_server:9.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_wildfly_application_server:9.0.0:*:*:*:*:*:*:*
+  - id: 723813
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_wildfly_application_server:9.0.0:alpha1:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_wildfly_application_server:9.0.0:alpha1:*:*:*:*:*:*
+  - id: 606321
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_wildfly_application_server:9.0.0:beta1:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_wildfly_application_server:9.0.0:beta1:*:*:*:*:*:*
+  - id: 606322
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_wildfly_application_server:9.0.0:beta2:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_wildfly_application_server:9.0.0:beta2:*:*:*:*:*:*
+  - id: 606323
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_wildfly_application_server:9.0.0:cr1:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_wildfly_application_server:9.0.0:cr1:*:*:*:*:*:*
+  - id: 723814
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_wildfly_application_server:9.0.0:cr2:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_wildfly_application_server:9.0.0:cr2:*:*:*:*:*:*
+  - id: 723815
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_wildfly_application_server:9.0.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_wildfly_application_server:9.0.1:*:*:*:*:*:*:*
+  - id: 723816
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_wildfly_application_server:9.0.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_wildfly_application_server:9.0.2:*:*:*:*:*:*:*
+  - id: 1470773
+    url: https://access.redhat.com/security/cve/CVE-2018-1047
+    reference_id: CVE-2018-1047
+  - id: 14961
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-1047
+    reference_id: CVE-2018-1047
+  - id: 14967
+    url: https://github.com/advisories/GHSA-fmr4-w67p-vh8x
+    reference_id: GHSA-fmr4-w67p-vh8x
+  - id: 936426
+    url: https://access.redhat.com/errata/RHSA-2018:1247
+    reference_id: RHSA-2018:1247
+  - id: 936424
+    url: https://access.redhat.com/errata/RHSA-2018:1248
+    reference_id: RHSA-2018:1248
+  - id: 936425
+    url: https://access.redhat.com/errata/RHSA-2018:1249
+    reference_id: RHSA-2018:1249
+  - id: 936427
+    url: https://access.redhat.com/errata/RHSA-2018:1251
+    reference_id: RHSA-2018:1251
+  - id: 937295
+    url: https://access.redhat.com/errata/RHSA-2018:2938
+    reference_id: RHSA-2018:2938
+weaknesses: []

@@ -1,0 +1,62 @@
+package: pkg:npm/decompress-zip
+versions:
+  - purl: pkg:npm/decompress-zip@0.0.1
+    affected_by_vulnerabilities:
+      - VCID-4t6h-p7rs-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress-zip@0.0.2
+    affected_by_vulnerabilities:
+      - VCID-4t6h-p7rs-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress-zip@0.0.3
+    affected_by_vulnerabilities:
+      - VCID-4t6h-p7rs-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress-zip@0.0.4
+    affected_by_vulnerabilities:
+      - VCID-4t6h-p7rs-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress-zip@0.0.5
+    affected_by_vulnerabilities:
+      - VCID-4t6h-p7rs-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress-zip@0.0.6
+    affected_by_vulnerabilities:
+      - VCID-4t6h-p7rs-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress-zip@0.0.7
+    affected_by_vulnerabilities:
+      - VCID-4t6h-p7rs-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress-zip@0.0.8
+    affected_by_vulnerabilities:
+      - VCID-4t6h-p7rs-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress-zip@0.1.0
+    affected_by_vulnerabilities:
+      - VCID-4t6h-p7rs-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress-zip@0.2.0
+    affected_by_vulnerabilities:
+      - VCID-4t6h-p7rs-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress-zip@0.2.1
+    affected_by_vulnerabilities:
+      - VCID-4t6h-p7rs-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress-zip@0.2.2
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-4t6h-p7rs-aaae
+  - purl: pkg:npm/decompress-zip@0.3.0
+    affected_by_vulnerabilities:
+      - VCID-4t6h-p7rs-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress-zip@0.3.1
+    affected_by_vulnerabilities:
+      - VCID-4t6h-p7rs-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decompress-zip@0.3.2
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-4t6h-p7rs-aaae

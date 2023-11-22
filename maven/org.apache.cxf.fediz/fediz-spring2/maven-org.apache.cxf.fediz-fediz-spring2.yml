@@ -1,0 +1,115 @@
+package: pkg:maven/org.apache.cxf.fediz/fediz-spring2
+versions:
+  - purl: pkg:maven/org.apache.cxf.fediz/fediz-spring2@1.1.0
+    affected_by_vulnerabilities:
+      - VCID-1syh-m6ep-aaaq
+      - VCID-2w4d-73qc-aaag
+      - VCID-n68x-3jqs-aaan
+      - VCID-w62p-ndvf-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf.fediz/fediz-spring2@1.1.1
+    affected_by_vulnerabilities:
+      - VCID-1syh-m6ep-aaaq
+      - VCID-2w4d-73qc-aaag
+      - VCID-n68x-3jqs-aaan
+      - VCID-w62p-ndvf-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf.fediz/fediz-spring2@1.1.2
+    affected_by_vulnerabilities:
+      - VCID-1syh-m6ep-aaaq
+      - VCID-2w4d-73qc-aaag
+      - VCID-n68x-3jqs-aaan
+      - VCID-w62p-ndvf-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf.fediz/fediz-spring2@1.1.3
+    affected_by_vulnerabilities:
+      - VCID-1syh-m6ep-aaaq
+      - VCID-2w4d-73qc-aaag
+      - VCID-w62p-ndvf-aaaf
+    fixing_vulnerabilities:
+      - VCID-n68x-3jqs-aaan
+  - purl: pkg:maven/org.apache.cxf.fediz/fediz-spring2@1.2.0
+    affected_by_vulnerabilities:
+      - VCID-1syh-m6ep-aaaq
+      - VCID-2w4d-73qc-aaag
+      - VCID-n68x-3jqs-aaan
+      - VCID-w62p-ndvf-aaaf
+      - VCID-zy5d-tt8t-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf.fediz/fediz-spring2@1.2.1
+    affected_by_vulnerabilities:
+      - VCID-1syh-m6ep-aaaq
+      - VCID-2w4d-73qc-aaag
+      - VCID-w62p-ndvf-aaaf
+      - VCID-zy5d-tt8t-aaas
+    fixing_vulnerabilities:
+      - VCID-n68x-3jqs-aaan
+  - purl: pkg:maven/org.apache.cxf.fediz/fediz-spring2@1.2.2
+    affected_by_vulnerabilities:
+      - VCID-1syh-m6ep-aaaq
+      - VCID-2w4d-73qc-aaag
+      - VCID-w62p-ndvf-aaaf
+      - VCID-zy5d-tt8t-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf.fediz/fediz-spring2@1.2.3
+    affected_by_vulnerabilities:
+      - VCID-1syh-m6ep-aaaq
+      - VCID-2w4d-73qc-aaag
+      - VCID-w62p-ndvf-aaaf
+    fixing_vulnerabilities:
+      - VCID-zy5d-tt8t-aaas
+  - purl: pkg:maven/org.apache.cxf.fediz/fediz-spring2@1.2.4
+    affected_by_vulnerabilities:
+      - VCID-1syh-m6ep-aaaq
+      - VCID-2w4d-73qc-aaag
+    fixing_vulnerabilities:
+      - VCID-w62p-ndvf-aaaf
+  - purl: pkg:maven/org.apache.cxf.fediz/fediz-spring2@1.3.0
+    affected_by_vulnerabilities:
+      - VCID-1syh-m6ep-aaaq
+      - VCID-2w4d-73qc-aaag
+      - VCID-w62p-ndvf-aaaf
+      - VCID-zy5d-tt8t-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf.fediz/fediz-spring2@1.3.1
+    affected_by_vulnerabilities:
+      - VCID-1syh-m6ep-aaaq
+      - VCID-2w4d-73qc-aaag
+      - VCID-w62p-ndvf-aaaf
+    fixing_vulnerabilities:
+      - VCID-zy5d-tt8t-aaas
+  - purl: pkg:maven/org.apache.cxf.fediz/fediz-spring2@1.3.2
+    affected_by_vulnerabilities:
+      - VCID-1syh-m6ep-aaaq
+      - VCID-2w4d-73qc-aaag
+    fixing_vulnerabilities:
+      - VCID-w62p-ndvf-aaaf
+  - purl: pkg:maven/org.apache.cxf.fediz/fediz-spring2@1.3.3
+    affected_by_vulnerabilities:
+      - VCID-1syh-m6ep-aaaq
+    fixing_vulnerabilities:
+      - VCID-2w4d-73qc-aaag
+  - purl: pkg:maven/org.apache.cxf.fediz/fediz-spring2@1.4.0
+    affected_by_vulnerabilities:
+      - VCID-1syh-m6ep-aaaq
+      - VCID-2w4d-73qc-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf.fediz/fediz-spring2@1.4.1
+    affected_by_vulnerabilities:
+      - VCID-1syh-m6ep-aaaq
+      - VCID-2w4d-73qc-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf.fediz/fediz-spring2@1.4.2
+    affected_by_vulnerabilities:
+      - VCID-1syh-m6ep-aaaq
+      - VCID-2w4d-73qc-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.cxf.fediz/fediz-spring2@1.4.3
+    affected_by_vulnerabilities:
+      - VCID-1syh-m6ep-aaaq
+    fixing_vulnerabilities:
+      - VCID-2w4d-73qc-aaag
+  - purl: pkg:maven/org.apache.cxf.fediz/fediz-spring2@1.4.4
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-1syh-m6ep-aaaq

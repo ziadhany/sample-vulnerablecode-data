@@ -1,0 +1,36 @@
+vulnerability_id: VCID-9j8e-4vat-aaae
+aliases:
+  - GHSA-q2fj-6h62-59m2
+  - GMS-2022-9213
+  - GMS-2022-9214
+summary: Apiman Vert.x Gateway has Transitive Hazelcast connection caching issue
+severities:
+  - id: 704460
+    reference_id: 1466106
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+  - id: 704452
+    reference_id: 1466108
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 704451
+    reference_id: 1466105
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 1466107
+    url: https://support.hazelcast.com/s/article/Security-Advisory-for-CVE-2022-36437
+    reference_id:
+  - id: 1466106
+    url: https://github.com/advisories/GHSA-c5hg-mr8r-f6jp
+    reference_id: GHSA-c5hg-mr8r-f6jp
+  - id: 1466108
+    url: https://github.com/advisories/GHSA-q2fj-6h62-59m2
+    reference_id: GHSA-q2fj-6h62-59m2
+  - id: 1466105
+    url: https://github.com/apiman/apiman/security/advisories/GHSA-q2fj-6h62-59m2
+    reference_id: GHSA-q2fj-6h62-59m2
+weaknesses: []

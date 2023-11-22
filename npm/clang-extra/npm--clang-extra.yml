@@ -1,0 +1,16 @@
+package: pkg:npm/clang-extra
+versions:
+  - purl: pkg:npm/clang-extra@0.0.0-alpha
+    affected_by_vulnerabilities:
+      - VCID-8ut6-tyjd-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/clang-extra@0.1.0
+    affected_by_vulnerabilities:
+      - VCID-8ut6-tyjd-aaaj
+      - VCID-8z3c-dz63-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/clang-extra@0.1.1
+    affected_by_vulnerabilities:
+      - VCID-8ut6-tyjd-aaaj
+      - VCID-8z3c-dz63-aaad
+    fixing_vulnerabilities: []

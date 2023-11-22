@@ -1,0 +1,55 @@
+vulnerability_id: VCID-gcn2-tqdt-aaac
+aliases:
+  - CVE-2014-8183
+summary: It was found that foreman, versions 1.x.x before 1.15.6, in Satellite 6 did not properly
+  enforce access controls on certain resources. An attacker with access to the API and knowledge
+  of the resource name can access resources in other organizations.
+severities:
+  - id: 621303
+    reference_id: 939532
+    scoring_system: cvssv3
+    value: '7.4'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:L
+  - id: 621302
+    reference_id: 939531
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 189168
+    reference_id: 586383
+    scoring_system: cvssv2
+    value: '6.5'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:P/A:P
+  - id: 189166
+    reference_id: 586383
+    scoring_system: cvssv3
+    value: '7.4'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:L
+  - id: 48853
+    reference_id: 173183
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 939532
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2014-8183.json
+    reference_id:
+  - id: 586382
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2014-8183
+    reference_id:
+  - id: 939531
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1480886
+    reference_id: 1480886
+  - id: 511591
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:satellite:6.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:satellite:6.0:*:*:*:*:*:*:*
+  - id: 158226
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:foreman:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:foreman:*:*:*:*:*:*:*:*
+  - id: 586383
+    url: https://nvd.nist.gov/vuln/detail/CVE-2014-8183
+    reference_id: CVE-2014-8183
+  - id: 173183
+    url: https://access.redhat.com/errata/RHSA-2018:0336
+    reference_id: RHSA-2018:0336
+weaknesses: []

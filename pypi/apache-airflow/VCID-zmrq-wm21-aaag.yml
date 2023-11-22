@@ -1,0 +1,28 @@
+vulnerability_id: VCID-zmrq-wm21-aaag
+aliases:
+  - CVE-2022-45402
+  - GHSA-rg94-84xj-7gq3
+summary: Apache Airflow vulnerable to Open Redirect
+severities:
+  - id: 703010
+    reference_id: 1462556
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 1462553
+    url: https://github.com/apache/airflow/pull/27576
+    reference_id:
+  - id: 1462554
+    url: https://lists.apache.org/thread/nf4xrkoo6c81g6fdn4vj8k9x2686o9nh
+    reference_id:
+  - id: 1462555
+    url: http://www.openwall.com/lists/oss-security/2022/11/15/1
+    reference_id:
+  - id: 1462552
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-45402
+    reference_id: CVE-2022-45402
+  - id: 1462556
+    url: https://github.com/advisories/GHSA-rg94-84xj-7gq3
+    reference_id: GHSA-rg94-84xj-7gq3
+weaknesses: []

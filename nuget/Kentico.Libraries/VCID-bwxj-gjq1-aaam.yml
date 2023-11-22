@@ -1,0 +1,28 @@
+vulnerability_id: VCID-bwxj-gjq1-aaam
+aliases:
+  - CVE-2021-46163
+summary: |
+  Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')
+  Kentico Xperience allows XSS via an XML document to the Media Libraries subsystem.
+severities:
+  - id: 46890
+    reference_id: 37826
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+  - id: 46888
+    reference_id: 37826
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+references:
+  - id: 37827
+    url: https://gist.github.com/boatpavaris/649e731b2398597634fbe423dcfd8485
+    reference_id:
+  - id: 171742
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:kentico:kentico_cms:13.0.44:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:kentico:kentico_cms:13.0.44:*:*:*:*:*:*:*
+  - id: 37826
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-46163
+    reference_id: CVE-2021-46163
+weaknesses: []

@@ -1,0 +1,26 @@
+vulnerability_id: VCID-3g7p-b3gd-aaaj
+aliases:
+  - CVE-2022-38369
+  - GHSA-g6vm-3ch8-c6jq
+summary: Apache IoTDB version 0.13.0 is vulnerable by session id attack. Users should upgrade
+  to version 0.13.1 which addresses this issue.
+severities:
+  - id: 647798
+    reference_id: 1417576
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 1415871
+    url: https://lists.apache.org/thread/7nk03ywvx3t3yjbcxzt7zy4nyc89y9b0
+    reference_id:
+  - id: 1415870
+    url: http://www.openwall.com/lists/oss-security/2022/09/05/1
+    reference_id:
+  - id: 1415872
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-38369
+    reference_id: CVE-2022-38369
+  - id: 1417576
+    url: https://github.com/advisories/GHSA-g6vm-3ch8-c6jq
+    reference_id: GHSA-g6vm-3ch8-c6jq
+weaknesses: []

@@ -1,0 +1,21 @@
+vulnerability_id: VCID-8jtf-xtzx-aaaj
+aliases:
+  - GHSA-wv39-cgmm-cq29
+  - GMS-2020-174
+summary: |
+  Malicious Package
+  contained malicious code. The package targeted the Ethereum cryptocurrency and performed transactions to wallets not controlled by the user. Remove the package from your environment. Ensure no Ethereum funds were compromised.
+severities:
+  - id: 705246
+    reference_id: 34042
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 34041
+    url: https://www.npmjs.com/advisories/1261
+    reference_id:
+  - id: 34042
+    url: https://github.com/advisories/GHSA-wv39-cgmm-cq29
+    reference_id: GHSA-wv39-cgmm-cq29
+weaknesses: []

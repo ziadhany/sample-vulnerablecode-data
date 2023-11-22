@@ -1,0 +1,15 @@
+vulnerability_id: VCID-u26t-17g6-aaae
+aliases:
+  - GHSA-84qj-9qf2-q92r
+  - GMS-2020-434
+summary: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+  in pm-controls.
+severities: []
+references:
+  - id: 36133
+    url: https://www.npmjs.com/advisories/949
+    reference_id:
+  - id: 36134
+    url: https://github.com/advisories/GHSA-84qj-9qf2-q92r
+    reference_id: GHSA-84qj-9qf2-q92r
+weaknesses: []

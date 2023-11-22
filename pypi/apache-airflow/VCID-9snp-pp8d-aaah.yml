@@ -1,0 +1,26 @@
+vulnerability_id: VCID-9snp-pp8d-aaah
+aliases:
+  - CVE-2022-41672
+  - GHSA-3q8r-f3pj-3gc4
+summary: Apache Airflow may allow authenticated users who have been deactivated to continue
+  using the UI or API
+severities:
+  - id: 647874
+    reference_id: 1417882
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 1417880
+    url: https://github.com/apache/airflow/pull/26635
+    reference_id:
+  - id: 1417881
+    url: https://lists.apache.org/thread/ohf3pvd3dftb8zb01yngbn1jtkq5m08y
+    reference_id:
+  - id: 1417879
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-41672
+    reference_id: CVE-2022-41672
+  - id: 1417882
+    url: https://github.com/advisories/GHSA-3q8r-f3pj-3gc4
+    reference_id: GHSA-3q8r-f3pj-3gc4
+weaknesses: []

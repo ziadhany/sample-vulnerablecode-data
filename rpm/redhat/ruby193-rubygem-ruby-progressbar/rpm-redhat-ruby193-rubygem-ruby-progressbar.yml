@@ -1,0 +1,15 @@
+package: pkg:rpm/redhat/ruby193-rubygem-ruby-progressbar
+versions:
+  - purl: pkg:rpm/redhat/ruby193-rubygem-ruby-progressbar@0.0.10-1?arch=el6cf
+    affected_by_vulnerabilities:
+      - VCID-1dw1-j2yq-aaar
+      - VCID-3ejb-g4hr-aaaj
+      - VCID-3smj-tswr-aaab
+      - VCID-66pw-s4p5-aaaq
+      - VCID-8j6y-z3b5-aaaq
+      - VCID-bcb5-bmr6-aaan
+      - VCID-f6nq-5mym-aaad
+      - VCID-jbx1-58rp-aaaa
+      - VCID-ntkx-nmxf-aaam
+      - VCID-ynpx-2ryt-aaad
+    fixing_vulnerabilities: []

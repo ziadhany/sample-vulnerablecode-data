@@ -1,0 +1,85 @@
+vulnerability_id: VCID-urtu-ytvx-aaag
+aliases:
+  - CVE-2019-3872
+summary: 'CVE-2019-3872 picketlink: reflected XSS in SAMLRequest via RelayState parameter'
+severities:
+  - id: 72543
+    reference_id: 203023
+    scoring_system: cvssv3
+    value: '5.4'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N
+  - id: 72538
+    reference_id: 203018
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 406396
+    reference_id: 796271
+    scoring_system: cvssv2
+    value: '3.5'
+    scoring_elements: AV:N/AC:M/Au:S/C:N/I:P/A:N
+  - id: 406394
+    reference_id: 796271
+    scoring_system: cvssv3
+    value: '5.4'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N
+  - id: 72542
+    reference_id: 203022
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 72539
+    reference_id: 203019
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 72541
+    reference_id: 203021
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 72540
+    reference_id: 203020
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 48733
+    reference_id: 173084
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 203023
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2019-3872.json
+    reference_id:
+  - id: 796270
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2019-3872
+    reference_id:
+  - id: 796269
+    url: http://www.securityfocus.com/bid/108732
+    reference_id:
+  - id: 203018
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1688966
+    reference_id: 1688966
+  - id: 766462
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:single_sign-on:7.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:single_sign-on:7.0:*:*:*:*:*:*:*
+  - id: 796271
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-3872
+    reference_id: CVE-2019-3872
+  - id: 203022
+    url: https://access.redhat.com/errata/RHSA-2019:1419
+    reference_id: RHSA-2019:1419
+  - id: 203019
+    url: https://access.redhat.com/errata/RHSA-2019:1420
+    reference_id: RHSA-2019:1420
+  - id: 203021
+    url: https://access.redhat.com/errata/RHSA-2019:1421
+    reference_id: RHSA-2019:1421
+  - id: 203020
+    url: https://access.redhat.com/errata/RHSA-2019:1424
+    reference_id: RHSA-2019:1424
+  - id: 173084
+    url: https://access.redhat.com/errata/RHSA-2019:1456
+    reference_id: RHSA-2019:1456
+weaknesses: []

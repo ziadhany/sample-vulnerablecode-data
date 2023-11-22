@@ -1,0 +1,37 @@
+vulnerability_id: VCID-zfsb-c35e-aaah
+aliases:
+  - CVE-2020-17513
+  - GHSA-6r3p-fcvm-xh7c
+  - PYSEC-2020-20
+summary: In Apache Airflow versions prior to 1.10.13, the Charts and Query View of the old (Flask-admin
+  based) UI were vulnerable for SSRF attack.
+severities:
+  - id: 451177
+    reference_id: 17439
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:P/A:N
+  - id: 451175
+    reference_id: 17439
+    scoring_system: cvssv3
+    value: '5.3'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+  - id: 4472
+    reference_id: 25189
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 6818
+    url: https://lists.apache.org/thread.html/rb3647269f07cc2775ca6568cbfd4994d862c842a58120d2aba9c658a%40%3Cusers.airflow.apache.org%3E
+    reference_id:
+  - id: 677676
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:airflow:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:airflow:*:*:*:*:*:*:*:*
+  - id: 17439
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-17513
+    reference_id: CVE-2020-17513
+  - id: 25189
+    url: https://github.com/advisories/GHSA-6r3p-fcvm-xh7c
+    reference_id: GHSA-6r3p-fcvm-xh7c
+weaknesses: []

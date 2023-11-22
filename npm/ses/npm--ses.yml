@@ -1,0 +1,329 @@
+package: pkg:npm/ses
+versions:
+  - purl: pkg:npm/ses@0.0.0
+    affected_by_vulnerabilities:
+      - VCID-bd7w-w41k-aaaa
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.0.1
+    affected_by_vulnerabilities:
+      - VCID-bd7w-w41k-aaaa
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.10.0
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.10.1
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.10.2
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.10.3
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.10.4
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.11.0
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.11.1
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.1.2
+    affected_by_vulnerabilities:
+      - VCID-bd7w-w41k-aaaa
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.12.0
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.12.1
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.12.2
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.12.3
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.12.4
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.12.5
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.12.6
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.12.7
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.1.3
+    affected_by_vulnerabilities:
+      - VCID-bd7w-w41k-aaaa
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.13.0
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.13.1
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.13.2
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.13.3
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.13.4
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.14.0
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.14.1
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.14.2
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.14.3
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.14.4
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.15.0
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.15.1
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.15.10
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.15.11
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.15.12
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.15.13
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.15.14
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.15.15
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.15.16
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.15.17
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.15.18
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.15.19
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.15.2
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.15.20
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.15.21
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.15.22
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.15.23
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.15.3
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.15.4
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.15.5
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.15.6
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.15.7
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.15.8
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.15.9
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.16.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+  - purl: pkg:npm/ses@0.2.0
+    affected_by_vulnerabilities:
+      - VCID-bd7w-w41k-aaaa
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.3.0
+    affected_by_vulnerabilities:
+      - VCID-bd7w-w41k-aaaa
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.4.0
+    affected_by_vulnerabilities:
+      - VCID-bd7w-w41k-aaaa
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.5.0
+    affected_by_vulnerabilities:
+      - VCID-bd7w-w41k-aaaa
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.5.1
+    affected_by_vulnerabilities:
+      - VCID-bd7w-w41k-aaaa
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.5.2
+    affected_by_vulnerabilities:
+      - VCID-bd7w-w41k-aaaa
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.5.3
+    affected_by_vulnerabilities:
+      - VCID-bd7w-w41k-aaaa
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.6.0
+    affected_by_vulnerabilities:
+      - VCID-bd7w-w41k-aaaa
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.6.1
+    affected_by_vulnerabilities:
+      - VCID-bd7w-w41k-aaaa
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.6.2
+    affected_by_vulnerabilities:
+      - VCID-bd7w-w41k-aaaa
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.6.3
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities:
+      - VCID-bd7w-w41k-aaaa
+  - purl: pkg:npm/ses@0.6.4
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.6.5
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.7.0
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.7.1
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.7.2
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.7.3
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.7.4
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.7.5
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.7.6
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.7.7
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.8.0
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.9.0
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ses@0.9.1
+    affected_by_vulnerabilities:
+      - VCID-sz6f-trt7-aaam
+    fixing_vulnerabilities: []

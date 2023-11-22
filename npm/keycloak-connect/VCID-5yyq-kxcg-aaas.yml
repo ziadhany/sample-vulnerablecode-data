@@ -1,0 +1,44 @@
+vulnerability_id: VCID-5yyq-kxcg-aaas
+aliases:
+  - CVE-2020-27838
+summary: |
+  Improper Authentication
+  A flaw was found in keycloak The client registration endpoint allows fetching information about PUBLIC clients (like client secret) without authentication which could be an issue if the same PUBLIC client changed to CONFIDENTIAL later. The highest threat from this vulnerability is to data confidentiality.
+severities:
+  - id: 606769
+    reference_id: 928974
+    scoring_system: cvssv3
+    value: '5.3'
+    scoring_elements: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N
+  - id: 606768
+    reference_id: 928973
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 467598
+    reference_id: 30580
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:N/A:N
+  - id: 467596
+    reference_id: 30580
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+references:
+  - id: 928974
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2020-27838.json
+    reference_id:
+  - id: 928973
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1906797
+    reference_id: '1906797'
+  - id: 568146
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:keycloak:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:keycloak:*:*:*:*:*:*:*:*
+  - id: 766462
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:single_sign-on:7.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:single_sign-on:7.0:*:*:*:*:*:*:*
+  - id: 30580
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-27838
+    reference_id: CVE-2020-27838
+weaknesses: []

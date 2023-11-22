@@ -1,0 +1,44 @@
+vulnerability_id: VCID-4sdv-2zqx-aaah
+aliases:
+  - CVE-2019-7615
+  - GHSA-35j2-p8fh-x966
+summary: A TLS certificate validation flaw was found in Elastic APM agent for Ruby versions
+  before 2.9.0. When specifying a trusted server CA certificate via the 'server_ca_cert' setting,
+  the Ruby agent would not properly verify the certificate returned by the APM server. This
+  could result in a man in the middle style attack against the Ruby agent.
+severities:
+  - id: 416306
+    reference_id: 804049
+    scoring_system: cvssv2
+    value: '5.8'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:P/A:N
+  - id: 416304
+    reference_id: 804049
+    scoring_system: cvssv3
+    value: '7.4'
+    scoring_elements: CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+  - id: 708200
+    reference_id: 1471923
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 1471922
+    url: https://github.com/elastic/apm-agent-ruby/pull/449
+    reference_id:
+  - id: 1681
+    url: https://www.elastic.co/community/security/
+    reference_id:
+  - id: 804050
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:elastic:apm-agent-ruby:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:elastic:apm-agent-ruby:*:*:*:*:*:*:*:*
+  - id: 804049
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-7615
+    reference_id: CVE-2019-7615
+  - id: 1472527
+    url: https://github.com/rubysec/ruby-advisory-db/blob/master/gems/elastic-apm/CVE-2019-7615.yml
+    reference_id: CVE-2019-7615.YML
+  - id: 1471923
+    url: https://github.com/advisories/GHSA-35j2-p8fh-x966
+    reference_id: GHSA-35j2-p8fh-x966
+weaknesses: []

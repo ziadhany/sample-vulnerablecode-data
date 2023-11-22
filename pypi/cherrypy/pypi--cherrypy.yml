@@ -1,0 +1,11 @@
+package: pkg:pypi/cherrypy
+versions:
+  - purl: pkg:pypi/cherrypy@2.1.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-1wrr-awpb-aaak
+      - VCID-vsnp-ephj-aaaf
+  - purl: pkg:pypi/cherrypy@3.0.2
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-vsnp-ephj-aaaf

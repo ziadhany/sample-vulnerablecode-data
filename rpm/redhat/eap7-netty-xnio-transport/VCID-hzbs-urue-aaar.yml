@@ -1,0 +1,168 @@
+vulnerability_id: VCID-hzbs-urue-aaar
+aliases:
+  - CVE-2016-4978
+summary: The getObject method of the javax.jms.ObjectMessage class in the (1) JMS Core client,
+  (2) Artemis broker, and (3) Artemis REST component in Apache ActiveMQ Artemis before 1.4.0
+  might allow remote authenticated users with permission to send messages to the Artemis broker
+  to deserialize arbitrary objects and execute arbitrary code by leveraging gadget classes being
+  present on the Artemis classpath.
+severities:
+  - id: 627002
+    reference_id: 943446
+    scoring_system: cvssv3
+    value: '6.6'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:C/C:L/I:L/A:L
+  - id: 627001
+    reference_id: 943445
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 230161
+    reference_id: 647041
+    scoring_system: cvssv2
+    value: '6.0'
+    scoring_elements: AV:N/AC:M/Au:S/C:P/I:P/A:P
+  - id: 230159
+    reference_id: 647041
+    scoring_system: cvssv3
+    value: '7.2'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H
+  - id: 74760
+    reference_id: 205674
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 74759
+    reference_id: 205673
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 74762
+    reference_id: 205676
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 74761
+    reference_id: 205675
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 47918
+    reference_id: 172494
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 47919
+    reference_id: 172495
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 47915
+    reference_id: 172491
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 47912
+    reference_id: 172488
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 618156
+    reference_id: 937297
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 618155
+    reference_id: 937296
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 74753
+    reference_id: 205667
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 74765
+    reference_id: 205679
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 618158
+    reference_id: 937300
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 647036
+    url: http://mail-archives.apache.org/mod_mbox/activemq-users/201609.mbox/%3CCAH6wpnqzeNtpykT7emtDU1-GV7AvjFP5-YroWcCC4UZyQEFvtA%40mail.gmail.com%3E
+    reference_id:
+  - id: 943446
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2016-4978.json
+    reference_id:
+  - id: 647038
+    url: https://lists.apache.org/thread.html/7260bd0955c12aac5bd892039d3356ba3aa0ff4caaf2aa4fd4fe84a2@%3Cissues.activemq.apache.org%3E
+    reference_id:
+  - id: 647039
+    url: https://lists.apache.org/thread.html/d4ffbc6a43a915324a394b2913ceb7d07bc352f2d08caa19df0aff02@%3Cissues.activemq.apache.org%3E
+    reference_id:
+  - id: 12300
+    url: https://lists.apache.org/thread.html/rb2fd3bf2dce042e0ab3f3c94c4767c96bb2e7e6737624d63162df36d@%3Ccommits.activemq.apache.org%3E
+    reference_id:
+  - id: 12310
+    url: https://lists.apache.org/thread.html/rc96ad63f148f784c84ea7f0a178c84a8985c6afccabbcd9847a82088@%3Ccommits.activemq.apache.org%3E
+    reference_id:
+  - id: 647040
+    url: https://www.blackhat.com/docs/us-16/materials/us-16-Kaiser-Pwning-Your-Java-Messaging-With-Deserialization-Vulnerabilities.pdf
+    reference_id:
+  - id: 647037
+    url: http://www.securityfocus.com/bid/93142
+    reference_id:
+  - id: 943445
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1379207
+    reference_id: 1379207
+  - id: 647042
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:activemq_artemis:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:activemq_artemis:*:*:*:*:*:*:*:*
+  - id: 647041
+    url: https://nvd.nist.gov/vuln/detail/CVE-2016-4978
+    reference_id: CVE-2016-4978
+  - id: 205674
+    url: https://access.redhat.com/errata/RHSA-2017:1834
+    reference_id: RHSA-2017:1834
+  - id: 205673
+    url: https://access.redhat.com/errata/RHSA-2017:1835
+    reference_id: RHSA-2017:1835
+  - id: 205676
+    url: https://access.redhat.com/errata/RHSA-2017:1836
+    reference_id: RHSA-2017:1836
+  - id: 205675
+    url: https://access.redhat.com/errata/RHSA-2017:1837
+    reference_id: RHSA-2017:1837
+  - id: 172494
+    url: https://access.redhat.com/errata/RHSA-2017:3454
+    reference_id: RHSA-2017:3454
+  - id: 172495
+    url: https://access.redhat.com/errata/RHSA-2017:3455
+    reference_id: RHSA-2017:3455
+  - id: 172491
+    url: https://access.redhat.com/errata/RHSA-2017:3456
+    reference_id: RHSA-2017:3456
+  - id: 172488
+    url: https://access.redhat.com/errata/RHSA-2017:3458
+    reference_id: RHSA-2017:3458
+  - id: 937297
+    url: https://access.redhat.com/errata/RHSA-2018:1447
+    reference_id: RHSA-2018:1447
+  - id: 937296
+    url: https://access.redhat.com/errata/RHSA-2018:1448
+    reference_id: RHSA-2018:1448
+  - id: 205667
+    url: https://access.redhat.com/errata/RHSA-2018:1449
+    reference_id: RHSA-2018:1449
+  - id: 205679
+    url: https://access.redhat.com/errata/RHSA-2018:1450
+    reference_id: RHSA-2018:1450
+  - id: 937300
+    url: https://access.redhat.com/errata/RHSA-2018:1451
+    reference_id: RHSA-2018:1451
+weaknesses: []

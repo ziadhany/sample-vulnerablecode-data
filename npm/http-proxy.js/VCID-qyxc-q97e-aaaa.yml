@@ -1,0 +1,40 @@
+vulnerability_id: VCID-qyxc-q97e-aaaa
+aliases:
+  - CVE-2017-16075
+  - GHSA-4g54-95xv-f353
+summary: |
+  Malicious package (Typosquatting)
+  http-proxy.js is a malicious module published with the intent to hijack environment variables. It has been unpublished by npm.
+severities:
+  - id: 269900
+    reference_id: 34027
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 269898
+    reference_id: 34027
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+  - id: 705665
+    reference_id: 1466881
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 687685
+    url: https://nodesecurity.io/advisories/514
+    reference_id:
+  - id: 1466882
+    url: https://www.npmjs.com/advisories/514
+    reference_id:
+  - id: 687686
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:http-proxy.js_project:http-proxy.js:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:http-proxy.js_project:http-proxy.js:*:*:*:*:*:node.js:*:*
+  - id: 34027
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-16075
+    reference_id: CVE-2017-16075
+  - id: 1466881
+    url: https://github.com/advisories/GHSA-4g54-95xv-f353
+    reference_id: GHSA-4g54-95xv-f353
+weaknesses: []

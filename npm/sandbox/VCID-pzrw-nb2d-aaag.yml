@@ -1,0 +1,23 @@
+vulnerability_id: VCID-pzrw-nb2d-aaag
+aliases:
+  - GHSA-fm4j-4xhm-xpwx
+  - GMS-2020-494
+summary: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+  in sandbox.
+severities:
+  - id: 704893
+    reference_id: 36097
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 36095
+    url: https://github.com/gf3/sandbox/issues/50
+    reference_id:
+  - id: 36096
+    url: https://www.npmjs.com/advisories/766
+    reference_id:
+  - id: 36097
+    url: https://github.com/advisories/GHSA-fm4j-4xhm-xpwx
+    reference_id: GHSA-fm4j-4xhm-xpwx
+weaknesses: []

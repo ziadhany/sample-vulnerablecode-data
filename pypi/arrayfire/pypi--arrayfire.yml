@@ -1,0 +1,86 @@
+package: pkg:pypi/arrayfire
+versions:
+  - purl: pkg:pypi/arrayfire@3.0.20150914
+    affected_by_vulnerabilities:
+      - VCID-4ayq-y1wn-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/arrayfire@3.1.20151111
+    affected_by_vulnerabilities:
+      - VCID-4ayq-y1wn-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/arrayfire@3.2.20151211
+    affected_by_vulnerabilities:
+      - VCID-4ayq-y1wn-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/arrayfire@3.2.20151214
+    affected_by_vulnerabilities:
+      - VCID-4ayq-y1wn-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/arrayfire@3.2.20151224
+    affected_by_vulnerabilities:
+      - VCID-4ayq-y1wn-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/arrayfire@3.2.20151224.post1
+    affected_by_vulnerabilities:
+      - VCID-4ayq-y1wn-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/arrayfire@3.3.20160320
+    affected_by_vulnerabilities:
+      - VCID-4ayq-y1wn-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/arrayfire@3.3.20160328
+    affected_by_vulnerabilities:
+      - VCID-4ayq-y1wn-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/arrayfire@3.3.20160427
+    affected_by_vulnerabilities:
+      - VCID-4ayq-y1wn-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/arrayfire@3.3.20160427.post1
+    affected_by_vulnerabilities:
+      - VCID-4ayq-y1wn-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/arrayfire@3.3.20160510
+    affected_by_vulnerabilities:
+      - VCID-4ayq-y1wn-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/arrayfire@3.3.20160516
+    affected_by_vulnerabilities:
+      - VCID-4ayq-y1wn-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/arrayfire@3.3.20160624
+    affected_by_vulnerabilities:
+      - VCID-4ayq-y1wn-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/arrayfire@3.3.20160624.post1
+    affected_by_vulnerabilities:
+      - VCID-4ayq-y1wn-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/arrayfire@3.4.20160925
+    affected_by_vulnerabilities:
+      - VCID-4ayq-y1wn-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/arrayfire@3.4.20161126
+    affected_by_vulnerabilities:
+      - VCID-4ayq-y1wn-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/arrayfire@3.4.20170222
+    affected_by_vulnerabilities:
+      - VCID-4ayq-y1wn-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/arrayfire@3.5.20170718
+    affected_by_vulnerabilities:
+      - VCID-4ayq-y1wn-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/arrayfire@3.5.20170721
+    affected_by_vulnerabilities:
+      - VCID-4ayq-y1wn-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/arrayfire@3.5.20170817
+    affected_by_vulnerabilities:
+      - VCID-4ayq-y1wn-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/arrayfire@3.6.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-4ayq-y1wn-aaam

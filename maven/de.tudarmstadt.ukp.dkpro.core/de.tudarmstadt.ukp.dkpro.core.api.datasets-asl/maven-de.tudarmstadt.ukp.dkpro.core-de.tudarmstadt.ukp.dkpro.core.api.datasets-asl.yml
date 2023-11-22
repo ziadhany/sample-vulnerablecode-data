@@ -1,0 +1,22 @@
+package: pkg:maven/de.tudarmstadt.ukp.dkpro.core/de.tudarmstadt.ukp.dkpro.core.api.datasets-asl
+versions:
+  - purl: pkg:maven/de.tudarmstadt.ukp.dkpro.core/de.tudarmstadt.ukp.dkpro.core.api.datasets-asl@1.10.0
+    affected_by_vulnerabilities:
+      - VCID-p2ht-y7rc-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/de.tudarmstadt.ukp.dkpro.core/de.tudarmstadt.ukp.dkpro.core.api.datasets-asl@1.9.0
+    affected_by_vulnerabilities:
+      - VCID-p2ht-y7rc-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/de.tudarmstadt.ukp.dkpro.core/de.tudarmstadt.ukp.dkpro.core.api.datasets-asl@1.9.1
+    affected_by_vulnerabilities:
+      - VCID-p2ht-y7rc-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/de.tudarmstadt.ukp.dkpro.core/de.tudarmstadt.ukp.dkpro.core.api.datasets-asl@1.9.2
+    affected_by_vulnerabilities:
+      - VCID-p2ht-y7rc-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/de.tudarmstadt.ukp.dkpro.core/de.tudarmstadt.ukp.dkpro.core.api.datasets-asl@1.9.3
+    affected_by_vulnerabilities:
+      - VCID-p2ht-y7rc-aaae
+    fixing_vulnerabilities: []

@@ -1,0 +1,28 @@
+vulnerability_id: VCID-7bav-c2pd-aaaa
+aliases:
+  - CVE-2022-43982
+  - GHSA-h63r-9xxf-f2c7
+summary: Apache Airflow Cross-site Scripting vulnerability
+severities:
+  - id: 648110
+    reference_id: 1418528
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 1418526
+    url: https://github.com/apache/airflow/pull/27143
+    reference_id:
+  - id: 1418688
+    url: https://github.com/pypa/advisory-database/tree/main/vulns/apache-airflow/PYSEC-2022-42970.yaml
+    reference_id:
+  - id: 1418527
+    url: https://lists.apache.org/thread/vqnvdrfsw9z7v7c46qh3psjgr7wy959l
+    reference_id:
+  - id: 1418525
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-43982
+    reference_id: CVE-2022-43982
+  - id: 1418528
+    url: https://github.com/advisories/GHSA-h63r-9xxf-f2c7
+    reference_id: GHSA-h63r-9xxf-f2c7
+weaknesses: []

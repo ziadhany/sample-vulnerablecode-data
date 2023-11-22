@@ -1,0 +1,6 @@
+package: pkg:npm/pyramid-proportion
+versions:
+  - purl: pkg:npm/pyramid-proportion@1.0.5
+    affected_by_vulnerabilities:
+      - VCID-2ehb-n1e9-aaab
+    fixing_vulnerabilities: []

@@ -1,0 +1,22 @@
+vulnerability_id: VCID-hg9g-j6zh-aaaa
+aliases:
+  - GHSA-cgpw-2gph-2r9g
+  - GMS-2018-36
+  - GMS-2018-38
+  - GMS-2018-44
+summary: Moderate severity vulnerability that affects Microsoft.AspNetCore.All, Microsoft.AspNetCore.App,
+  and Microsoft.AspNetCore.Server.Kestrel.Core
+severities:
+  - id: 82
+    reference_id: 877
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 876
+    url: https://github.com/aspnet/Announcements/issues/311
+    reference_id:
+  - id: 877
+    url: https://github.com/advisories/GHSA-cgpw-2gph-2r9g
+    reference_id: GHSA-cgpw-2gph-2r9g
+weaknesses: []

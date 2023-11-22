@@ -1,0 +1,44 @@
+vulnerability_id: VCID-t72v-wuyx-aaac
+aliases:
+  - CVE-2017-18349
+  - GHSA-xjrr-xv9m-4pw5
+summary: High severity vulnerability that affects com.alibaba:fastjson
+severities:
+  - id: 277004
+    reference_id: 14929
+    scoring_system: cvssv2
+    value: '10.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:C/I:C/A:C
+  - id: 277002
+    reference_id: 14929
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 1668
+    reference_id: 14932
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 14931
+    url: https://fortiguard.com/encyclopedia/ips/44059
+    reference_id:
+  - id: 14933
+    url: https://github.com/alibaba/fastjson/wiki/security_update_20170315
+    reference_id:
+  - id: 14930
+    url: https://github.com/pippo-java/pippo/issues/466
+    reference_id:
+  - id: 693577
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:alibaba:fastjson:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:alibaba:fastjson:*:*:*:*:*:*:*:*
+  - id: 693578
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:pippo:pippo:1.11.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:pippo:pippo:1.11.0:*:*:*:*:*:*:*
+  - id: 14929
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-18349
+    reference_id: CVE-2017-18349
+  - id: 14932
+    url: https://github.com/advisories/GHSA-xjrr-xv9m-4pw5
+    reference_id: GHSA-xjrr-xv9m-4pw5
+weaknesses: []

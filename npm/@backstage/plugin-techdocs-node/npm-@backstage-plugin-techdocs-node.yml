@@ -1,0 +1,394 @@
+package: pkg:npm/%40backstage/plugin-techdocs-node
+versions:
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220305022735
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220306022754
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220307022304
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220308022132
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220309022441
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220310022859
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220311022539
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220312021830
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220313021839
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220314022351
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220315022536
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220316022902
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220317022557
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220323023253
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220324023116
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220325022909
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220326022848
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220327022954
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220328023349
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220329023345
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220330023352
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220331023254
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220401024216
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220402023243
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220403023234
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220404023441
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220405023238
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220406023303
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220407023218
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220408023622
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220409023050
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220410023309
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220411023616
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220412023410
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220413023505
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220414023749
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220415024634
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220416023406
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220417023605
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220418024512
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220419024359
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220426024700
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220427024951
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220428025925
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220429024638
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220430024336
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220501025208
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220502025029
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220503024657
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220504024625
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220505023756
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220506023454
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220507023751
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220508024231
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220509024521
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220510022953
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220511024315
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220512024113
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220513024945
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220514025553
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220515024439
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220516023848
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220517024505
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220525024352
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220526024803
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220527024541
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220528023512
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220529024825
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220530025009
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220531024457
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220601025619
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220602024936
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220603023939
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220604023645
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220605024123
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220606024253
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220607024221
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220608024714
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220609024358
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220610024824
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220611024121
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220612024701
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220613024651
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.0.0-nightly-20220614024926
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.11.12
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@0.11.12-next.0
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@1.0.1-next.0
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@1.0.1-next.1
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@1.1.0
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@1.1.0-next.2
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@1.1.1
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@1.1.1-next.0
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@1.1.1-next.1
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@1.1.2
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@1.1.2-next.0
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@1.1.2-next.1
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-techdocs-node@1.1.2-next.2
+    affected_by_vulnerabilities:
+      - VCID-wv5x-8cq9-aaaa
+    fixing_vulnerabilities: []

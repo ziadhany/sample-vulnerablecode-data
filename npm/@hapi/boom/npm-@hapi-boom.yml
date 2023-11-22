@@ -1,0 +1,6 @@
+package: pkg:npm/%40hapi/boom
+versions:
+  - purl: pkg:npm/%40hapi/boom@0.3.8
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-q6vm-2jxa-aaac

@@ -1,0 +1,55 @@
+vulnerability_id: VCID-jbw5-5xat-aaaa
+aliases:
+  - CVE-2015-3208
+  - GHSA-x6rc-54xp-ccxx
+summary: 'CVE-2015-3208 hornetq: XXE/SSRF in XPath selector'
+severities:
+  - id: '199092'
+    reference_id: 606390
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: '199090'
+    reference_id: 606390
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 630181
+    reference_id: 946184
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+  - id: 49936
+    reference_id: 174399
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 179264
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2015-3208.json
+    reference_id:
+  - id: 606388
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1225252
+    reference_id:
+  - id: 606389
+    url: https://github.com/apache/activemq-artemis/commit/48d9951d879e0c8cbb59d4b64ab59d53ef88310d
+    reference_id:
+  - id: 606386
+    url: http://www.openwall.com/lists/oss-security/2015/07/24/2
+    reference_id:
+  - id: 606387
+    url: http://www.securityfocus.com/bid/76025
+    reference_id:
+  - id: 606391
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:activemq_artemis:-:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:activemq_artemis:-:*:*:*:*:*:*:*
+  - id: 606390
+    url: https://nvd.nist.gov/vuln/detail/CVE-2015-3208
+    reference_id: CVE-2015-3208
+  - id: 946184
+    url: https://github.com/advisories/GHSA-x6rc-54xp-ccxx
+    reference_id: GHSA-x6rc-54xp-ccxx
+  - id: 174399
+    url: https://access.redhat.com/errata/RHSA-2018:2927
+    reference_id: RHSA-2018:2927
+weaknesses: []

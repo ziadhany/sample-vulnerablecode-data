@@ -1,0 +1,12 @@
+vulnerability_id: VCID-7vmw-ujte-aaaj
+aliases:
+  - OSVDB-112683
+summary: |
+  Allow a local attacker to gain access to credential information
+  As Gem for Ruby contains a flaw that is due to the program displaying credential information in plaintext in the process list. This may allow a local attacker to gain access to credential information.
+severities: []
+references:
+  - id: 39169
+    url: https://github.com/rubysec/ruby-advisory-db/blob/master/gems/as/OSVDB-112683.yml
+    reference_id:
+weaknesses: []

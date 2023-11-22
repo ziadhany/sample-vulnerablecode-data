@@ -1,0 +1,30 @@
+vulnerability_id: VCID-9hsr-ahc7-aaak
+aliases:
+  - GHSA-6h2x-4gjf-jc5w
+  - GMS-2022-4391
+summary: autogluon.multimodal vulnerable to unsafe YAML deserialization
+severities:
+  - id: 647566
+    reference_id: 1416897
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 647565
+    reference_id: 1416894
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 1416896
+    url: https://github.com/awslabs/autogluon/commit/23a37e74e58d03055c84a1b89c5af6c3db296b5e
+    reference_id:
+  - id: 1416895
+    url: https://github.com/awslabs/autogluon/pull/1987
+    reference_id:
+  - id: 1416897
+    url: https://github.com/advisories/GHSA-6h2x-4gjf-jc5w
+    reference_id: GHSA-6h2x-4gjf-jc5w
+  - id: 1416894
+    url: https://github.com/awslabs/autogluon/security/advisories/GHSA-6h2x-4gjf-jc5w
+    reference_id: GHSA-6h2x-4gjf-jc5w
+weaknesses: []

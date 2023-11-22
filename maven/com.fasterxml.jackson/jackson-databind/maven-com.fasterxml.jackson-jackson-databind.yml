@@ -1,0 +1,14 @@
+package: pkg:maven/com.fasterxml.jackson/jackson-databind
+versions:
+  - purl: pkg:maven/com.fasterxml.jackson/jackson-databind@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-b6wb-a6hz-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.fasterxml.jackson/jackson-databind@2.9.10.7
+    affected_by_vulnerabilities:
+      - VCID-b6wb-a6hz-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.fasterxml.jackson/jackson-databind@2.9.10.8
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-b6wb-a6hz-aaan

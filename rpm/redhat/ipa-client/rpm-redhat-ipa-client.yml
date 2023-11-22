@@ -1,0 +1,6 @@
+package: pkg:rpm/redhat/ipa-client
+versions:
+  - purl: pkg:rpm/redhat/ipa-client@2.1.3-5.el5_9?arch=2
+    affected_by_vulnerabilities:
+      - VCID-cgsn-m1kk-aaaf
+    fixing_vulnerabilities: []

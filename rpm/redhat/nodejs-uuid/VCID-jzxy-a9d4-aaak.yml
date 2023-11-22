@@ -1,0 +1,65 @@
+vulnerability_id: VCID-jzxy-a9d4-aaak
+aliases:
+  - CVE-2015-7537
+summary: 'CVE-2015-7537 jenkins: CSRF vulnerability in some administrative actions (SECURITY-225)'
+severities:
+  - id: 52208
+    reference_id: 176999
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 203539
+    reference_id: 614314
+    scoring_system: cvssv2
+    value: '6.8'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:P/A:P
+  - id: 203537
+    reference_id: 614314
+    scoring_system: cvssv3
+    value: '8.8'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+  - id: 51875
+    reference_id: 176575
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 52209
+    reference_id: 177000
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 158438
+    url: http://rhn.redhat.com/errata/RHSA-2016-0489.html
+    reference_id:
+  - id: 177001
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2015-7537.json
+    reference_id:
+  - id: 614235
+    url: https://wiki.jenkins-ci.org/display/SECURITY/Jenkins+Security+Advisory+2015-12-09
+    reference_id:
+  - id: 176999
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1291795
+    reference_id: 1291795
+  - id: 159205
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:jenkins:jenkins:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:jenkins:jenkins:*:*:*:*:*:*:*:*
+  - id: 159206
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:jenkins:jenkins:*:*:*:*:lts:*:*:*
+    reference_id: cpe:2.3:a:jenkins:jenkins:*:*:*:*:lts:*:*:*
+  - id: 158468
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift:2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift:2.0:*:*:*:*:*:*:*
+  - id: 159207
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift:*:*:*:*:enterprise:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift:*:*:*:*:enterprise:*:*:*
+  - id: 614314
+    url: https://nvd.nist.gov/vuln/detail/CVE-2015-7537
+    reference_id: CVE-2015-7537
+  - id: 176575
+    url: https://access.redhat.com/errata/RHSA-2016:0070
+    reference_id: RHSA-2016:0070
+  - id: 177000
+    url: https://access.redhat.com/errata/RHSA-2016:0489
+    reference_id: RHSA-2016:0489
+weaknesses: []

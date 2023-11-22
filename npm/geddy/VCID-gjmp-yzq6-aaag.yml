@@ -1,0 +1,65 @@
+vulnerability_id: VCID-gjmp-yzq6-aaag
+aliases:
+  - CVE-2015-5688
+  - GHSA-333x-9vgq-v2j4
+summary: |
+  Directory Traversal Vulnerability
+  Static file serving allows directory traversal with a URI encoded path.
+severities:
+  - id: 708460
+    reference_id: 33963
+    scoring_system: cvssv3
+    value: '5.3'
+    scoring_elements:
+  - id: 708461
+    reference_id: 33964
+    scoring_system: cvssv3
+    value: '5.3'
+    scoring_elements:
+  - id: 708462
+    reference_id: 1473402
+    scoring_system: cvssv3
+    value: '5.3'
+    scoring_elements:
+  - id: 39053
+    reference_id: 161708
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 705335
+    reference_id: 1466507
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 161705
+    url: https://github.com/geddy/geddy/commit/2de63b68b3aa6c08848f261ace550a37959ef231
+    reference_id:
+  - id: 33963
+    url: https://github.com/geddy/geddy/issues/697
+    reference_id:
+  - id: 33964
+    url: https://github.com/geddy/geddy/pull/699
+    reference_id:
+  - id: 161706
+    url: https://github.com/geddy/geddy/releases/tag/v13.0.8
+    reference_id:
+  - id: 161707
+    url: https://nodesecurity.io/advisories/geddy-directory-traversal
+    reference_id:
+  - id: 1466508
+    url: https://www.npmjs.com/advisories/10
+    reference_id:
+  - id: 1473402
+    url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/10.json
+    reference_id: 10
+  - id: 161709
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:geddyjs:geddy:13.0.7:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:geddyjs:geddy:13.0.7:*:*:*:*:node.js:*:*
+  - id: 161708
+    url: https://nvd.nist.gov/vuln/detail/CVE-2015-5688
+    reference_id: CVE-2015-5688
+  - id: 1466507
+    url: https://github.com/advisories/GHSA-333x-9vgq-v2j4
+    reference_id: GHSA-333x-9vgq-v2j4
+weaknesses: []

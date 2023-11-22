@@ -1,0 +1,131 @@
+vulnerability_id: VCID-f5ex-vsrm-aaah
+aliases:
+  - CVE-2017-15089
+  - GHSA-46r5-59fg-2fjc
+summary: It was found that the Hotrod client in Infinispan before 9.2.0.CR1 would unsafely read
+  deserialized data on information from the cache. An authenticated attacker could inject a
+  malicious object into the data cache and attain deserialization on the client, and possibly
+  conduct further attacks.
+severities:
+  - id: 618447
+    reference_id: 937509
+    scoring_system: cvssv3
+    value: '8.0'
+    scoring_elements: CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:H
+  - id: 618445
+    reference_id: 937507
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 266716
+    reference_id: 684823
+    scoring_system: cvssv2
+    value: '6.5'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:P/A:P
+  - id: 266714
+    reference_id: 684823
+    scoring_system: cvssv3
+    value: '8.8'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+  - id: 643180
+    reference_id: 1338771
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 74756
+    reference_id: 205670
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 617263
+    reference_id: 936660
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 617264
+    reference_id: 936661
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 617261
+    reference_id: 936658
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 617265
+    reference_id: 936662
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 618446
+    reference_id: 937508
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 617262
+    reference_id: 936659
+    scoring_system: rhas
+    value: Critical
+    scoring_elements:
+references:
+  - id: 625192
+    url: https://access.redhat.com/errata/RHSA-2018:0501
+    reference_id:
+  - id: 937509
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2017-15089.json
+    reference_id:
+  - id: 684822
+    url: https://github.com/infinispan/infinispan/pull/5639
+    reference_id:
+  - id: 3166
+    url: http://www.securitytracker.com/id/1040360
+    reference_id:
+  - id: 937507
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1503610
+    reference_id: 1503610
+  - id: 625197
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:infinispan:infinispan:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:infinispan:infinispan:*:*:*:*:*:*:*:*
+  - id: 684824
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:infinispan:infinispan:9.2.0:alpha1:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:infinispan:infinispan:9.2.0:alpha1:*:*:*:*:*:*
+  - id: 684825
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:infinispan:infinispan:9.2.0:alpha2:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:infinispan:infinispan:9.2.0:alpha2:*:*:*:*:*:*
+  - id: 684826
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:infinispan:infinispan:9.2.0:beta1:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:infinispan:infinispan:9.2.0:beta1:*:*:*:*:*:*
+  - id: 684827
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:infinispan:infinispan:9.2.0:beta2:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:infinispan:infinispan:9.2.0:beta2:*:*:*:*:*:*
+  - id: 684828
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:infinispan:infinispan:9.2.0:cr1:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:infinispan:infinispan:9.2.0:cr1:*:*:*:*:*:*
+  - id: 684823
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-15089
+    reference_id: CVE-2017-15089
+  - id: 1338771
+    url: https://github.com/advisories/GHSA-46r5-59fg-2fjc
+    reference_id: GHSA-46r5-59fg-2fjc
+  - id: 205670
+    url: https://access.redhat.com/errata/RHSA-2018:0294
+    reference_id: RHSA-2018:0294
+  - id: 936660
+    url: https://access.redhat.com/errata/RHSA-2018:0478
+    reference_id: RHSA-2018:0478
+  - id: 936661
+    url: https://access.redhat.com/errata/RHSA-2018:0479
+    reference_id: RHSA-2018:0479
+  - id: 936658
+    url: https://access.redhat.com/errata/RHSA-2018:0480
+    reference_id: RHSA-2018:0480
+  - id: 936662
+    url: https://access.redhat.com/errata/RHSA-2018:0481
+    reference_id: RHSA-2018:0481
+  - id: 937508
+    url: https://access.redhat.com/errata/RHSA-2019:1326
+    reference_id: RHSA-2019:1326
+  - id: 936659
+    url: https://access.redhat.com/errata/RHSA-2020:2561
+    reference_id: RHSA-2020:2561
+weaknesses: []

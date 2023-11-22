@@ -1,0 +1,6 @@
+package: pkg:gem/coin_base
+versions:
+  - purl: pkg:gem/coin_base@0
+    affected_by_vulnerabilities:
+      - VCID-g3ck-rv1a-aaas
+    fixing_vulnerabilities: []

@@ -1,0 +1,25 @@
+vulnerability_id: VCID-puba-jrth-aaam
+aliases:
+  - CVE-2023-25693
+  - GHSA-j69x-v4wc-3fpf
+summary: Apache Airflow Sqoop Provider Improper Input Validation vulnerability
+severities:
+  - id: 708037
+    reference_id: 1471810
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 1471808
+    url: https://github.com/apache/airflow/pull/29500
+    reference_id:
+  - id: 1471809
+    url: https://lists.apache.org/thread/79qn8g5xbq036f8crb115obvr22l52q4
+    reference_id:
+  - id: 1471807
+    url: https://nvd.nist.gov/vuln/detail/CVE-2023-25693
+    reference_id: CVE-2023-25693
+  - id: 1471810
+    url: https://github.com/advisories/GHSA-j69x-v4wc-3fpf
+    reference_id: GHSA-j69x-v4wc-3fpf
+weaknesses: []

@@ -1,0 +1,262 @@
+package: pkg:npm/semver
+versions:
+  - purl: pkg:npm/semver@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@1.0.10
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@1.0.11
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@1.0.12
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@1.0.13
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@1.0.14
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@1.0.2
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@1.0.3
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@1.0.4
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@1.0.5
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@1.0.6
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@1.0.7
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@1.0.8
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@1.0.9
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@1.1.0
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@1.1.1
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@1.1.2
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@1.1.3
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@1.1.4
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@2.0.0-alpha
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@2.0.0-beta
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@2.0.1
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@2.0.10
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@2.0.11
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@2.0.2
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@2.0.3
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@2.0.4
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@2.0.5
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@2.0.6
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@2.0.7
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@2.0.8
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@2.0.9
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@2.1.0
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@2.2.0
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@2.2.1
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@2.3.0
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@2.3.1
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@2.3.2
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@3.0.0
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@3.0.1
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@4.0.0
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@4.0.2
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@4.0.3
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@4.1.0
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@4.1.1
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@4.2.0
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@4.2.1
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@4.2.2
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@4.3.0
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@4.3.1
+    affected_by_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/semver@4.3.2
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-2q9u-g7sj-aaah
+      - VCID-jseu-sgju-aaae

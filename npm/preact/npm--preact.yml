@@ -1,0 +1,30 @@
+package: pkg:npm/preact
+versions:
+  - purl: pkg:npm/preact@10.0.0-alpha.0
+    affected_by_vulnerabilities:
+      - VCID-t6eg-4wb4-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/preact@10.0.0-alpha.1
+    affected_by_vulnerabilities:
+      - VCID-t6eg-4wb4-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/preact@10.0.0-alpha.2
+    affected_by_vulnerabilities:
+      - VCID-t6eg-4wb4-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/preact@10.0.0-alpha.3
+    affected_by_vulnerabilities:
+      - VCID-t6eg-4wb4-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/preact@10.0.0-alpha.4
+    affected_by_vulnerabilities:
+      - VCID-t6eg-4wb4-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/preact@10.0.0-beta.0
+    affected_by_vulnerabilities:
+      - VCID-t6eg-4wb4-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/preact@10.0.0-beta.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-t6eg-4wb4-aaag

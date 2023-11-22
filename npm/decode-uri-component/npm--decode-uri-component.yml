@@ -1,0 +1,16 @@
+package: pkg:npm/decode-uri-component
+versions:
+  - purl: pkg:npm/decode-uri-component@0.1.0
+    affected_by_vulnerabilities:
+      - VCID-jgug-qq27-aaab
+      - VCID-tnzv-kqnd-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decode-uri-component@0.2.0
+    affected_by_vulnerabilities:
+      - VCID-jgug-qq27-aaab
+      - VCID-tnzv-kqnd-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/decode-uri-component@0.2.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-jgug-qq27-aaab

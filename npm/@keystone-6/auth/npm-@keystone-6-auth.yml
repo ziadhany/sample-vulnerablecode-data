@@ -1,0 +1,14 @@
+package: pkg:npm/%40keystone-6/auth
+versions:
+  - purl: pkg:npm/%40keystone-6/auth@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-519h-zgf5-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40keystone-6/auth@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-519h-zgf5-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40keystone-6/auth@1.0.2
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-519h-zgf5-aaam

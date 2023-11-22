@@ -1,0 +1,40 @@
+vulnerability_id: VCID-btr9-jhwb-aaae
+aliases:
+  - CVE-2021-25979
+  - GHSA-9j9m-8wjc-ff96
+summary: |
+  Insufficient Session Expiration
+  Apostrophe CMS versions between which allows unauthenticated remote attackers to hijack recently logged-in users' sessions.
+severities:
+  - id: 523338
+    reference_id: 33348
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 523336
+    reference_id: 33348
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 706680
+    reference_id: 1468310
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 33349
+    url: https://github.com/apostrophecms/apostrophe
+    reference_id:
+  - id: 873640
+    url: https://github.com/apostrophecms/apostrophe/commit/c211b211f9f4303a77a307cf41aac9b4ef8d2c7c
+    reference_id:
+  - id: 873639
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apostrophecms:apostrophecms:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apostrophecms:apostrophecms:*:*:*:*:*:*:*:*
+  - id: 33348
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-25979
+    reference_id: CVE-2021-25979
+  - id: 1468310
+    url: https://github.com/advisories/GHSA-9j9m-8wjc-ff96
+    reference_id: GHSA-9j9m-8wjc-ff96
+weaknesses: []

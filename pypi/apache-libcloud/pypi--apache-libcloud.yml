@@ -1,0 +1,85 @@
+package: pkg:pypi/apache-libcloud
+versions:
+  - purl: pkg:pypi/apache-libcloud@0.10.1
+    affected_by_vulnerabilities:
+      - VCID-fs53-2tfz-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-libcloud@0.11.0
+    affected_by_vulnerabilities:
+      - VCID-fs53-2tfz-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-libcloud@0.11.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-fs53-2tfz-aaaf
+  - purl: pkg:pypi/apache-libcloud@0.12.3
+    affected_by_vulnerabilities:
+      - VCID-8dge-jgsm-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-libcloud@0.12.4
+    affected_by_vulnerabilities:
+      - VCID-8dge-jgsm-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-libcloud@0.13.0
+    affected_by_vulnerabilities:
+      - VCID-8dge-jgsm-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-libcloud@0.13.1
+    affected_by_vulnerabilities:
+      - VCID-8dge-jgsm-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-libcloud@0.13.2
+    affected_by_vulnerabilities:
+      - VCID-8dge-jgsm-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-libcloud@0.13.3
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-8dge-jgsm-aaah
+  - purl: pkg:pypi/apache-libcloud@0.3.1
+    affected_by_vulnerabilities:
+      - VCID-fs53-2tfz-aaaf
+      - VCID-r2b8-7qmp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-libcloud@0.4.0
+    affected_by_vulnerabilities:
+      - VCID-fs53-2tfz-aaaf
+      - VCID-r2b8-7qmp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-libcloud@0.4.1
+    affected_by_vulnerabilities:
+      - VCID-r2b8-7qmp-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-libcloud@0.4.2
+    affected_by_vulnerabilities:
+      - VCID-fs53-2tfz-aaaf
+    fixing_vulnerabilities:
+      - VCID-r2b8-7qmp-aaah
+  - purl: pkg:pypi/apache-libcloud@0.5.0
+    affected_by_vulnerabilities:
+      - VCID-fs53-2tfz-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-libcloud@0.5.2
+    affected_by_vulnerabilities:
+      - VCID-fs53-2tfz-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-libcloud@0.6.1
+    affected_by_vulnerabilities:
+      - VCID-fs53-2tfz-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-libcloud@0.6.2
+    affected_by_vulnerabilities:
+      - VCID-fs53-2tfz-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-libcloud@0.7.1
+    affected_by_vulnerabilities:
+      - VCID-fs53-2tfz-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-libcloud@0.8.0
+    affected_by_vulnerabilities:
+      - VCID-fs53-2tfz-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-libcloud@0.9.1
+    affected_by_vulnerabilities:
+      - VCID-fs53-2tfz-aaaf
+    fixing_vulnerabilities: []

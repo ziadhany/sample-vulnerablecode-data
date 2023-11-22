@@ -1,0 +1,70 @@
+package: pkg:nuget/BTCPayServer.Client
+versions:
+  - purl: pkg:nuget/BTCPayServer.Client@1.0.4.2
+    affected_by_vulnerabilities:
+      - VCID-2q2b-s4q4-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/BTCPayServer.Client@1.0.4.3
+    affected_by_vulnerabilities:
+      - VCID-2q2b-s4q4-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/BTCPayServer.Client@1.0.4.4
+    affected_by_vulnerabilities:
+      - VCID-2q2b-s4q4-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/BTCPayServer.Client@1.0.4.5
+    affected_by_vulnerabilities:
+      - VCID-2q2b-s4q4-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/BTCPayServer.Client@1.0.4.6
+    affected_by_vulnerabilities:
+      - VCID-2q2b-s4q4-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/BTCPayServer.Client@1.0.4.7
+    affected_by_vulnerabilities:
+      - VCID-2q2b-s4q4-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/BTCPayServer.Client@1.0.4.8
+    affected_by_vulnerabilities:
+      - VCID-2q2b-s4q4-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/BTCPayServer.Client@1.1.0
+    affected_by_vulnerabilities:
+      - VCID-2q2b-s4q4-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/BTCPayServer.Client@1.1.1
+    affected_by_vulnerabilities:
+      - VCID-2q2b-s4q4-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/BTCPayServer.Client@1.2.0
+    affected_by_vulnerabilities:
+      - VCID-2q2b-s4q4-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/BTCPayServer.Client@1.3.0
+    affected_by_vulnerabilities:
+      - VCID-2q2b-s4q4-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/BTCPayServer.Client@1.4.0
+    affected_by_vulnerabilities:
+      - VCID-2q2b-s4q4-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/BTCPayServer.Client@1.5.0
+    affected_by_vulnerabilities:
+      - VCID-2q2b-s4q4-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/BTCPayServer.Client@1.6.0
+    affected_by_vulnerabilities:
+      - VCID-2q2b-s4q4-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/BTCPayServer.Client@1.7.0
+    affected_by_vulnerabilities:
+      - VCID-2q2b-s4q4-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/BTCPayServer.Client@1.7.1
+    affected_by_vulnerabilities:
+      - VCID-2q2b-s4q4-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/BTCPayServer.Client@1.7.2
+    affected_by_vulnerabilities:
+      - VCID-2q2b-s4q4-aaah
+    fixing_vulnerabilities: []

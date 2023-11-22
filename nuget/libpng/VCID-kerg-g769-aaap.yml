@@ -1,0 +1,126 @@
+vulnerability_id: VCID-kerg-g769-aaap
+aliases:
+  - CVE-2011-2501
+summary: |
+  Out-of-bounds Read
+  The png_format_buffer function in pngerror.c in libpng  allows remote attackers to cause a denial of service (application crash) via a crafted PNG image that triggers an out-of-bounds read during the copying of error-message data. NOTE: this vulnerability exists because of a CVE-2004-0421 regression. NOTE: this is called an off-by-one error by some sources.
+severities:
+  - id: 144410
+    reference_id: 37860
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:N/A:P
+  - id: 144408
+    reference_id: 37860
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+  - id: 67159
+    reference_id: '196398'
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 460116
+    url: http://libpng.git.sourceforge.net/git/gitweb.cgi?p=libpng/libpng;a=commit;h=65e6d5a34f49acdb362a0625a706c6b914e670af
+    reference_id:
+  - id: 460117
+    url: http://lists.fedoraproject.org/pipermail/package-announce/2011-July/062720.html
+    reference_id:
+  - id: 460118
+    url: http://lists.fedoraproject.org/pipermail/package-announce/2011-July/063118.html
+    reference_id:
+  - id: '196627'
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2011-2501.json
+    reference_id:
+  - id: 460135
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=717084
+    reference_id:
+  - id: 460119
+    url: http://secunia.com/advisories/45046
+    reference_id:
+  - id: 460120
+    url: http://secunia.com/advisories/45289
+    reference_id:
+  - id: 460121
+    url: http://secunia.com/advisories/45405
+    reference_id:
+  - id: 460122
+    url: http://secunia.com/advisories/45415
+    reference_id:
+  - id: 460123
+    url: http://secunia.com/advisories/45460
+    reference_id:
+  - id: 460124
+    url: http://secunia.com/advisories/45486
+    reference_id:
+  - id: 460125
+    url: http://secunia.com/advisories/45492
+    reference_id:
+  - id: 341404
+    url: http://secunia.com/advisories/49660
+    reference_id:
+  - id: 341405
+    url: http://security.gentoo.org/glsa/glsa-201206-15.xml
+    reference_id:
+  - id: 460136
+    url: https://exchange.xforce.ibmcloud.com/vulnerabilities/68517
+    reference_id:
+  - id: 460126
+    url: http://slackware.com/security/viewer.php?l=slackware-security&y=2011&m=slackware-security.617466
+    reference_id:
+  - id: 460127
+    url: http://sourceforge.net/mailarchive/forum.php?thread_name=BANLkTikrnU6FJNQYFvwmt78hwpgKPVRd1Q%40mail.gmail.com&forum_name=png-mng-implement
+    reference_id:
+  - id: 460128
+    url: http://www.debian.org/security/2011/dsa-2287
+    reference_id:
+  - id: 460129
+    url: http://www.mandriva.com/security/advisories?name=MDVSA-2011:151
+    reference_id:
+  - id: 460130
+    url: http://www.openwall.com/lists/oss-security/2011/06/27/13
+    reference_id:
+  - id: 460131
+    url: http://www.openwall.com/lists/oss-security/2011/06/28/16
+    reference_id:
+  - id: 460132
+    url: http://www.redhat.com/support/errata/RHSA-2011-1105.html
+    reference_id:
+  - id: 460133
+    url: http://www.securityfocus.com/bid/48474
+    reference_id:
+  - id: 460134
+    url: http://www.ubuntu.com/usn/USN-1175-1
+    reference_id:
+  - id: 149566
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:libpng:libpng:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:libpng:libpng:*:*:*:*:*:*:*:*
+  - id: 417481
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:canonical:ubuntu_linux:10.04:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:canonical:ubuntu_linux:10.04:*:*:*:*:*:*:*
+  - id: 157463
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:canonical:ubuntu_linux:10.10:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:canonical:ubuntu_linux:10.10:*:*:*:*:*:*:*
+  - id: 404628
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:canonical:ubuntu_linux:11.04:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:canonical:ubuntu_linux:11.04:*:*:*:*:*:*:*
+  - id: 152409
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:canonical:ubuntu_linux:8.04:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:canonical:ubuntu_linux:8.04:*:*:*:*:*:*:*
+  - id: 152410
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:debian:debian_linux:5.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:debian:debian_linux:5.0:*:*:*:*:*:*:*
+  - id: 79273
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:debian:debian_linux:6.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:debian:debian_linux:6.0:*:*:*:*:*:*:*
+  - id: 398114
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:fedoraproject:fedora:14:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:fedoraproject:fedora:14:*:*:*:*:*:*:*
+  - id: 37860
+    url: https://nvd.nist.gov/vuln/detail/CVE-2011-2501
+    reference_id: CVE-2011-2501
+  - id: '196398'
+    url: https://access.redhat.com/errata/RHSA-2011:1105
+    reference_id: RHSA-2011:1105
+weaknesses: []

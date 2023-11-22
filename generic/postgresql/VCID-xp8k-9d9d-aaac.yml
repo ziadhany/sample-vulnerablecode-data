@@ -1,0 +1,291 @@
+vulnerability_id: VCID-xp8k-9d9d-aaac
+aliases:
+  - CVE-2006-5540
+summary: CVE-2006-5540 security flaw
+severities:
+  - id: 77934
+    reference_id: 209215
+    scoring_system: rhbs
+    value: low
+    scoring_elements:
+  - id: 91626
+    reference_id: 258938
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:N/I:N/A:P
+  - id: 62793
+    reference_id: '190860'
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 62672
+    reference_id: '190726'
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 142767
+    url: ftp://patches.sgi.com/support/free/security/advisories/20070201-01-P.asc
+    reference_id:
+  - id: 258916
+    url: http://projects.commandprompt.com/public/pgsql/changeset/25504
+    reference_id:
+  - id: 209216
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2006-5540.json
+    reference_id:
+  - id: 258917
+    url: http://secunia.com/advisories/22562
+    reference_id:
+  - id: 258918
+    url: http://secunia.com/advisories/22584
+    reference_id:
+  - id: 258919
+    url: http://secunia.com/advisories/22606
+    reference_id:
+  - id: 258920
+    url: http://secunia.com/advisories/22636
+    reference_id:
+  - id: 258921
+    url: http://secunia.com/advisories/23048
+    reference_id:
+  - id: 256307
+    url: http://secunia.com/advisories/23132
+    reference_id:
+  - id: 258922
+    url: http://secunia.com/advisories/24094
+    reference_id:
+  - id: 142776
+    url: http://secunia.com/advisories/24284
+    reference_id:
+  - id: 258923
+    url: http://secunia.com/advisories/24577
+    reference_id:
+  - id: 258924
+    url: http://securitytracker.com/id?1017115
+    reference_id:
+  - id: 258937
+    url: https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A11425
+    reference_id:
+  - id: 258925
+    url: http://support.avaya.com/elmodocs2/security/ASA-2007-117.htm
+    reference_id:
+  - id: 258926
+    url: http://support.novell.com/techcenter/psdb/59650c03a8bc5ae310cd7898bd106ad2.html
+    reference_id:
+  - id: 1469521
+    url: https://www.postgresql.org/support/security/CVE-2006-5540/
+    reference_id:
+  - id: 258927
+    url: http://www.mandriva.com/security/advisories?name=MDKSA-2006:194
+    reference_id:
+  - id: 256313
+    url: http://www.novell.com/linux/security/advisories/2006_27_sr.html
+    reference_id:
+  - id: 258928
+    url: http://www.postgresql.org/about/news.664
+    reference_id:
+  - id: 258929
+    url: http://www.redhat.com/support/errata/RHSA-2007-0064.html
+    reference_id:
+  - id: 258930
+    url: http://www.redhat.com/support/errata/RHSA-2007-0067.html
+    reference_id:
+  - id: 258931
+    url: http://www.redhat.com/support/errata/RHSA-2007-0068.html
+    reference_id:
+  - id: 258932
+    url: http://www.securityfocus.com/bid/20717
+    reference_id:
+  - id: 258933
+    url: http://www.trustix.org/errata/2006/0059/
+    reference_id:
+  - id: 258934
+    url: http://www.ubuntu.com/usn/usn-369-1
+    reference_id:
+  - id: 258935
+    url: http://www.ubuntu.com/usn/usn-369-2
+    reference_id:
+  - id: 258936
+    url: http://www.vupen.com/english/advisories/2006/4182
+    reference_id:
+  - id: 209215
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1618217
+    reference_id: 1618217
+  - id: 45800
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:6.3.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:6.3.2:*:*:*:*:*:*:*
+  - id: 45802
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:6.5.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:6.5.3:*:*:*:*:*:*:*
+  - id: 258939
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.0.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.0.2:*:*:*:*:*:*:*
+  - id: 73228
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.0.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.0.3:*:*:*:*:*:*:*
+  - id: 70371
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.1:*:*:*:*:*:*:*
+  - id: 70369
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.1.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.1.1:*:*:*:*:*:*:*
+  - id: 70370
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.1.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.1.2:*:*:*:*:*:*:*
+  - id: 73229
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.1.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.1.3:*:*:*:*:*:*:*
+  - id: 70373
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.2:*:*:*:*:*:*:*
+  - id: 70372
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.2.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.2.1:*:*:*:*:*:*:*
+  - id: 73251
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.2.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.2.2:*:*:*:*:*:*:*
+  - id: 73252
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.2.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.2.3:*:*:*:*:*:*:*
+  - id: 85304
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.2.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.2.4:*:*:*:*:*:*:*
+  - id: 113970
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.2.7:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.2.7:*:*:*:*:*:*:*
+  - id: 85308
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.3:*:*:*:*:*:*:*
+  - id: 85305
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.3.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.3.1:*:*:*:*:*:*:*
+  - id: 220330
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.3.10:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.3.10:*:*:*:*:*:*:*
+  - id: 220331
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.3.11:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.3.11:*:*:*:*:*:*:*
+  - id: 220332
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.3.12:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.3.12:*:*:*:*:*:*:*
+  - id: 220333
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.3.13:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.3.13:*:*:*:*:*:*:*
+  - id: 233541
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.3.14:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.3.14:*:*:*:*:*:*:*
+  - id: 258940
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.3.15:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.3.15:*:*:*:*:*:*:*
+  - id: 85306
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.3.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.3.2:*:*:*:*:*:*:*
+  - id: 85307
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.3.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.3.3:*:*:*:*:*:*:*
+  - id: 114078
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.3.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.3.4:*:*:*:*:*:*:*
+  - id: 114080
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.3.6:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.3.6:*:*:*:*:*:*:*
+  - id: 114082
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.3.8:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.3.8:*:*:*:*:*:*:*
+  - id: 114083
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.3.9:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.3.9:*:*:*:*:*:*:*
+  - id: 114084
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.4:*:*:*:*:*:*:*
+  - id: 113971
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.4.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.4.1:*:*:*:*:*:*:*
+  - id: 220334
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.4.10:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.4.10:*:*:*:*:*:*:*
+  - id: 220335
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.4.11:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.4.11:*:*:*:*:*:*:*
+  - id: 233542
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.4.12:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.4.12:*:*:*:*:*:*:*
+  - id: 258941
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.4.13:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.4.13:*:*:*:*:*:*:*
+  - id: 113972
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.4.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.4.2:*:*:*:*:*:*:*
+  - id: 98003
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.4.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.4.3:*:*:*:*:*:*:*
+  - id: 113973
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.4.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.4.4:*:*:*:*:*:*:*
+  - id: 98004
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.4.5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.4.5:*:*:*:*:*:*:*
+  - id: 113974
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.4.6:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.4.6:*:*:*:*:*:*:*
+  - id: 113975
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.4.7:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.4.7:*:*:*:*:*:*:*
+  - id: 220336
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.4.8:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.4.8:*:*:*:*:*:*:*
+  - id: 220337
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:7.4.9:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:7.4.9:*:*:*:*:*:*:*
+  - id: 114093
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:8.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:8.0:*:*:*:*:*:*:*
+  - id: 114120
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:8.0.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:8.0.1:*:*:*:*:*:*:*
+  - id: 121454
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:8.0.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:8.0.2:*:*:*:*:*:*:*
+  - id: 216102
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:8.0.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:8.0.3:*:*:*:*:*:*:*
+  - id: 216103
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:8.0.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:8.0.4:*:*:*:*:*:*:*
+  - id: 216104
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:8.0.5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:8.0.5:*:*:*:*:*:*:*
+  - id: 220338
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:8.0.6:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:8.0.6:*:*:*:*:*:*:*
+  - id: 233543
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:8.0.7:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:8.0.7:*:*:*:*:*:*:*
+  - id: 258942
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:8.0.8:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:8.0.8:*:*:*:*:*:*:*
+  - id: 220339
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:8.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:8.1:*:*:*:*:*:*:*
+  - id: 216106
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:8.1.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:8.1.1:*:*:*:*:*:*:*
+  - id: 219824
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:8.1.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:8.1.2:*:*:*:*:*:*:*
+  - id: 233544
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:8.1.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:8.1.3:*:*:*:*:*:*:*
+  - id: 258943
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:8.1.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:8.1.4:*:*:*:*:*:*:*
+  - id: 258938
+    url: https://nvd.nist.gov/vuln/detail/CVE-2006-5540
+    reference_id: CVE-2006-5540
+  - id: '190860'
+    url: https://access.redhat.com/errata/RHSA-2007:0064
+    reference_id: RHSA-2007:0064
+  - id: '190726'
+    url: https://access.redhat.com/errata/RHSA-2007:0068
+    reference_id: RHSA-2007:0068
+weaknesses: []

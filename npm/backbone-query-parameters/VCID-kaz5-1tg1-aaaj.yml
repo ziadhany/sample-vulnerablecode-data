@@ -1,0 +1,36 @@
+vulnerability_id: VCID-kaz5-1tg1-aaaj
+aliases:
+  - CVE-2021-20085
+  - GHSA-8qpm-5c82-rf96
+summary: Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution')
+  in backbone-query-parameters allows a malicious user to inject properties into Object.prototype.
+severities:
+  - id: 503372
+    reference_id: 32590
+    scoring_system: cvssv2
+    value: '6.5'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:P/A:P
+  - id: 503370
+    reference_id: 32590
+    scoring_system: cvssv3
+    value: '8.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+  - id: 706496
+    reference_id: 1468105
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 860990
+    url: https://github.com/BlackFan/client-side-prototype-pollution/blob/master/pp/backbone-qp.md
+    reference_id:
+  - id: 860991
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:backbone-query-parameters_project:backbone-query-parameters:0.4.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:backbone-query-parameters_project:backbone-query-parameters:0.4.0:*:*:*:*:*:*:*
+  - id: 32590
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-20085
+    reference_id: CVE-2021-20085
+  - id: 1468105
+    url: https://github.com/advisories/GHSA-8qpm-5c82-rf96
+    reference_id: GHSA-8qpm-5c82-rf96
+weaknesses: []

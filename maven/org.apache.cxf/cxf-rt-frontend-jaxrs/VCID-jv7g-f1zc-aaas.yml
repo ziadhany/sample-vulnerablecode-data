@@ -1,0 +1,115 @@
+vulnerability_id: VCID-jv7g-f1zc-aaas
+aliases:
+  - CVE-2017-12624
+  - GHSA-7vgj-8mw4-hg8r
+summary: |
+  Uncontrolled Resource Consumption
+  It is possible to craft a message attachment header that could lead to a Denial of Service (DoS) attack on a CXF web service provider.
+severities:
+  - id: 619795
+    reference_id: 938443
+    scoring_system: cvssv3
+    value: '5.3'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+  - id: 619794
+    reference_id: 938442
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 259201
+    reference_id: 26291
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:N/A:P
+  - id: 259199
+    reference_id: 26291
+    scoring_system: cvssv3
+    value: '5.5'
+    scoring_elements: CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+  - id: 630304
+    reference_id: 946409
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 615475
+    reference_id: 935367
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 615476
+    reference_id: 935368
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 615474
+    reference_id: 935366
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 615473
+    reference_id: 935365
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 677815
+    url: http://cxf.apache.org/security-advisories.data/CVE-2017-12624.txt.asc
+    reference_id:
+  - id: 938443
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2017-12624.json
+    reference_id:
+  - id: 31133
+    url: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-12624
+    reference_id:
+  - id: 31134
+    url: https://github.com/apache/cxf/commit/8bd915bfd7735c248ad660059c6b6ad26cdbcdf6
+    reference_id:
+  - id: 10867
+    url: https://lists.apache.org/thread.html/r36e44ffc1a9b365327df62cdfaabe85b9a5637de102cea07d79b2dbf@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10866
+    url: https://lists.apache.org/thread.html/rc774278135816e7afc943dc9fc78eb0764f2c84a2b96470a0187315c@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10872
+    url: https://lists.apache.org/thread.html/rd49aabd984ed540c8ff7916d4d79405f3fa311d2fdbcf9ed307839a6@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10860
+    url: https://lists.apache.org/thread.html/rec7160382badd3ef4ad017a22f64a266c7188b9ba71394f0d321e2d4@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10862
+    url: https://lists.apache.org/thread.html/rfb87e0bf3995e7d560afeed750fac9329ff5f1ad49da365129b7f89e@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10873
+    url: https://lists.apache.org/thread.html/rff42cfa5e7d75b7c1af0e37589140a8f1999e578a75738740b244bd4@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 26293
+    url: http://www.securityfocus.com/bid/101859
+    reference_id:
+  - id: 26294
+    url: http://www.securitytracker.com/id/1040486
+    reference_id:
+  - id: 938442
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1515976
+    reference_id: 1515976
+  - id: 158434
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:*:*:*:*:*:*:*:*
+  - id: 26291
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-12624
+    reference_id: CVE-2017-12624
+  - id: 946409
+    url: https://github.com/advisories/GHSA-7vgj-8mw4-hg8r
+    reference_id: GHSA-7vgj-8mw4-hg8r
+  - id: 935367
+    url: https://access.redhat.com/errata/RHSA-2018:2423
+    reference_id: RHSA-2018:2423
+  - id: 935368
+    url: https://access.redhat.com/errata/RHSA-2018:2424
+    reference_id: RHSA-2018:2424
+  - id: 935366
+    url: https://access.redhat.com/errata/RHSA-2018:2425
+    reference_id: RHSA-2018:2425
+  - id: 935365
+    url: https://access.redhat.com/errata/RHSA-2018:2428
+    reference_id: RHSA-2018:2428
+weaknesses: []

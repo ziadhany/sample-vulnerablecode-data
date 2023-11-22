@@ -1,0 +1,104 @@
+vulnerability_id: VCID-fk4v-bfcv-aaan
+aliases:
+  - CVE-2016-1000232
+  - GHSA-qhv9-728r-6jqg
+summary: |
+  Improper Input Validation
+  NodeJS Tough-Cookie version 2.2.2 contains a Regular Expression Parsing vulnerability in HTTP request Cookie Header parsing that can result in Denial of Service. This attack appear to be exploitable via Custom HTTP header passed by client. This vulnerability appears to have been fixed in 2.3.0.
+severities:
+  - id: 47934
+    reference_id: 172506
+    scoring_system: cvssv3
+    value: '5.3'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+  - id: 708523
+    reference_id: 1473430
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements:
+  - id: 47931
+    reference_id: 172503
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 212452
+    reference_id: 34976
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 212450
+    reference_id: 34976
+    scoring_system: cvssv3
+    value: '5.3'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+  - id: 705373
+    reference_id: 34977
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 47932
+    reference_id: 172504
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 47933
+    reference_id: 172505
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 172506
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2016-1000232.json
+    reference_id:
+  - id: 626578
+    url: https://access.redhat.com/security/cve/cve-2016-1000232
+    reference_id:
+  - id: 34979
+    url: https://github.com/salesforce/tough-cookie/commit/615627206357d997d5e6ff9da158997de05235ae
+    reference_id:
+  - id: 34980
+    url: https://github.com/salesforce/tough-cookie/commit/e4fc2e0f9ee1b7a818d68f0ac7ea696f377b1534
+    reference_id:
+  - id: 34984
+    url: https://www.ibm.com/blogs/psirt/ibm-security-bulletin-ibm-api-connect-is-affected-by-node-js-tough-cookie-module-vulnerability-to-a-denial-of-service-cve-2016-1000232/
+    reference_id:
+  - id: 34978
+    url: https://www.npmjs.com/advisories/130
+    reference_id:
+  - id: 1473430
+    url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/130.json
+    reference_id: 130
+  - id: 172503
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1359818
+    reference_id: 1359818
+  - id: 626579
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:ibm:api_connect:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:ibm:api_connect:*:*:*:*:*:*:*:*
+  - id: 626580
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:ibm:api_connect:5.0.8.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:ibm:api_connect:5.0.8.0:*:*:*:*:*:*:*
+  - id: 626581
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift_container_platform:3.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift_container_platform:3.1:*:*:*:*:*:*:*
+  - id: 626582
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift_container_platform:3.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift_container_platform:3.2:*:*:*:*:*:*:*
+  - id: 626583
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift_container_platform:3.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift_container_platform:3.3:*:*:*:*:*:*:*
+  - id: 626584
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:salesforce:tough-cookie:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:salesforce:tough-cookie:*:*:*:*:*:node.js:*:*
+  - id: 34976
+    url: https://nvd.nist.gov/vuln/detail/CVE-2016-1000232
+    reference_id: CVE-2016-1000232
+  - id: 34977
+    url: https://github.com/advisories/GHSA-qhv9-728r-6jqg
+    reference_id: GHSA-qhv9-728r-6jqg
+  - id: 172504
+    url: https://access.redhat.com/errata/RHSA-2016:2101
+    reference_id: RHSA-2016:2101
+  - id: 172505
+    url: https://access.redhat.com/errata/RHSA-2017:2912
+    reference_id: RHSA-2017:2912
+weaknesses: []

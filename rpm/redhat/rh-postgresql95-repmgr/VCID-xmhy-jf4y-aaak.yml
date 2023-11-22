@@ -1,0 +1,43 @@
+vulnerability_id: VCID-xmhy-jf4y-aaak
+aliases:
+  - CVE-2016-4457
+summary: 'CVE-2016-4457 CFME: default certificate used across all installs'
+severities:
+  - id: 49420
+    reference_id: 173754
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+  - id: 228285
+    reference_id: 645316
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 228283
+    reference_id: 645316
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+references:
+  - id: 645313
+    url: https://access.redhat.com/errata/RHSA-2017:1367
+    reference_id:
+  - id: 645314
+    url: https://access.redhat.com/errata/RHSA-2017:1601
+    reference_id:
+  - id: 173754
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2016-4457.json
+    reference_id:
+  - id: 645315
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1341308
+    reference_id:
+  - id: 645312
+    url: http://www.securitytracker.com/id/1038599
+    reference_id:
+  - id: 645317
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:cloudforms_management_engine:5.7:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:cloudforms_management_engine:5.7:*:*:*:*:*:*:*
+  - id: 645316
+    url: https://nvd.nist.gov/vuln/detail/CVE-2016-4457
+    reference_id: CVE-2016-4457
+weaknesses: []

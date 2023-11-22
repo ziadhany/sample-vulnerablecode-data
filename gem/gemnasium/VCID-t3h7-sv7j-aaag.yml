@@ -1,0 +1,9 @@
+vulnerability_id: VCID-t3h7-sv7j-aaag
+aliases:
+  - GMS-2013-8
+summary: |
+  Api V1 is deprecated
+  The V1 of gemnasium.com's API has been deprecated due to major changes.
+severities: []
+references: []
+weaknesses: []

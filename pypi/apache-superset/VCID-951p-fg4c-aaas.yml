@@ -1,0 +1,22 @@
+vulnerability_id: VCID-951p-fg4c-aaas
+aliases:
+  - CVE-2022-43718
+  - GHSA-79x5-cv79-49rj
+summary: 'Apache Superset is vulnerable to Cross-Site Scripting (XSS) '
+severities:
+  - id: 707565
+    reference_id: 1470260
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 1470259
+    url: https://lists.apache.org/thread/8615608jt2x7b3rmqrtngldy8pn3nz2r
+    reference_id:
+  - id: 1470258
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-43718
+    reference_id: CVE-2022-43718
+  - id: 1470260
+    url: https://github.com/advisories/GHSA-79x5-cv79-49rj
+    reference_id: GHSA-79x5-cv79-49rj
+weaknesses: []

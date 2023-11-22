@@ -1,0 +1,38 @@
+vulnerability_id: VCID-z6nn-xe76-aaam
+aliases:
+  - CVE-2021-43840
+  - GHSA-xmgj-5fh3-xjmm
+summary: Path traversal when MessageBus::Diagnostics is enabled
+severities:
+  - id: 568045
+    reference_id: 26917
+    scoring_system: cvssv2
+    value: '3.5'
+    scoring_elements: AV:N/AC:M/Au:S/C:P/I:N/A:N
+  - id: 568043
+    reference_id: 26917
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+  - id: 4918
+    reference_id: 26918
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 26916
+    url: https://github.com/discourse/message_bus/commit/9b6deee01ed474c7e9b5ff65a06bb0447b4db2ba
+    reference_id:
+  - id: 903328
+    url: https://github.com/discourse/message_bus/security/advisories/GHSA-xmgj-5fh3-xjmm
+    reference_id:
+  - id: 903329
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:discourse:message_bus:*:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:discourse:message_bus:*:*:*:*:*:ruby:*:*
+  - id: 26917
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-43840
+    reference_id: CVE-2021-43840
+  - id: 26918
+    url: https://github.com/advisories/GHSA-xmgj-5fh3-xjmm
+    reference_id: GHSA-xmgj-5fh3-xjmm
+weaknesses: []

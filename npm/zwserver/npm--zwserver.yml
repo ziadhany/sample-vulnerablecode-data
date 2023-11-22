@@ -1,0 +1,16 @@
+package: pkg:npm/zwserver
+versions:
+  - purl: pkg:npm/zwserver@0.0.0-alpha
+    affected_by_vulnerabilities:
+      - VCID-3bp1-a4jd-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/zwserver@0.1.0
+    affected_by_vulnerabilities:
+      - VCID-3bp1-a4jd-aaaj
+      - VCID-q1a4-eh8r-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/zwserver@0.1.1
+    affected_by_vulnerabilities:
+      - VCID-3bp1-a4jd-aaaj
+      - VCID-q1a4-eh8r-aaas
+    fixing_vulnerabilities: []

@@ -1,0 +1,9 @@
+vulnerability_id: VCID-8dr5-uwxw-aaar
+aliases:
+  - GMS-2017-170
+summary: |
+  Hijacked Environment Variables
+  `sqlite.js` was a malicious module published with the intent to hijack environment variables. It has been unpublished by npm.
+severities: []
+references: []
+weaknesses: []

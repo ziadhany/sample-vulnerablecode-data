@@ -1,0 +1,35 @@
+vulnerability_id: VCID-u7vm-pqmq-aaah
+aliases:
+  - CVE-2022-30349
+  - GHSA-4qf6-vpj8-p4r6
+summary: Cross site scripting in SSCMS
+severities:
+  - id: 600340
+    reference_id: 762
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+  - id: 600338
+    reference_id: 762
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+  - id: 51
+    reference_id: 764
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 763
+    url: https://github.com/siteserver/cms/issues/3238
+    reference_id:
+  - id: 901527
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:sscms:siteserver_cms:6.15.51:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:sscms:siteserver_cms:6.15.51:*:*:*:*:*:*:*
+  - id: 762
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-30349
+    reference_id: CVE-2022-30349
+  - id: 764
+    url: https://github.com/advisories/GHSA-4qf6-vpj8-p4r6
+    reference_id: GHSA-4qf6-vpj8-p4r6
+weaknesses: []

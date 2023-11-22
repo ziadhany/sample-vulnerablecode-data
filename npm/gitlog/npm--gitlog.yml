@@ -1,0 +1,122 @@
+package: pkg:npm/gitlog
+versions:
+  - purl: pkg:npm/gitlog@0.0.1
+    affected_by_vulnerabilities:
+      - VCID-anxk-aahr-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/gitlog@0.1.1
+    affected_by_vulnerabilities:
+      - VCID-anxk-aahr-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/gitlog@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-anxk-aahr-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/gitlog@2.0.1
+    affected_by_vulnerabilities:
+      - VCID-anxk-aahr-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/gitlog@2.1.0
+    affected_by_vulnerabilities:
+      - VCID-anxk-aahr-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/gitlog@2.1.1
+    affected_by_vulnerabilities:
+      - VCID-anxk-aahr-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/gitlog@2.1.2
+    affected_by_vulnerabilities:
+      - VCID-anxk-aahr-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/gitlog@2.2.0
+    affected_by_vulnerabilities:
+      - VCID-anxk-aahr-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/gitlog@2.3.0
+    affected_by_vulnerabilities:
+      - VCID-anxk-aahr-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/gitlog@2.4.0
+    affected_by_vulnerabilities:
+      - VCID-anxk-aahr-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/gitlog@3.0.0
+    affected_by_vulnerabilities:
+      - VCID-anxk-aahr-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/gitlog@3.0.1
+    affected_by_vulnerabilities:
+      - VCID-anxk-aahr-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/gitlog@3.0.2
+    affected_by_vulnerabilities:
+      - VCID-anxk-aahr-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/gitlog@3.1.0
+    affected_by_vulnerabilities:
+      - VCID-anxk-aahr-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/gitlog@3.1.1
+    affected_by_vulnerabilities:
+      - VCID-anxk-aahr-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/gitlog@3.1.2
+    affected_by_vulnerabilities:
+      - VCID-anxk-aahr-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/gitlog@3.2.0
+    affected_by_vulnerabilities:
+      - VCID-anxk-aahr-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/gitlog@3.2.1-canary.4ad2eb5.0
+    affected_by_vulnerabilities:
+      - VCID-anxk-aahr-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/gitlog@3.3.0
+    affected_by_vulnerabilities:
+      - VCID-anxk-aahr-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/gitlog@3.3.1
+    affected_by_vulnerabilities:
+      - VCID-anxk-aahr-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/gitlog@3.3.2
+    affected_by_vulnerabilities:
+      - VCID-anxk-aahr-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/gitlog@3.3.3
+    affected_by_vulnerabilities:
+      - VCID-anxk-aahr-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/gitlog@3.3.4
+    affected_by_vulnerabilities:
+      - VCID-anxk-aahr-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/gitlog@3.3.5
+    affected_by_vulnerabilities:
+      - VCID-anxk-aahr-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/gitlog@3.3.6
+    affected_by_vulnerabilities:
+      - VCID-anxk-aahr-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/gitlog@4.0.0
+    affected_by_vulnerabilities:
+      - VCID-anxk-aahr-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/gitlog@4.0.1
+    affected_by_vulnerabilities:
+      - VCID-anxk-aahr-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/gitlog@4.0.2
+    affected_by_vulnerabilities:
+      - VCID-anxk-aahr-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/gitlog@4.0.3
+    affected_by_vulnerabilities:
+      - VCID-anxk-aahr-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/gitlog@4.0.4
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-anxk-aahr-aaan

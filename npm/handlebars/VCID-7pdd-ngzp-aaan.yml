@@ -1,0 +1,25 @@
+vulnerability_id: VCID-7pdd-ngzp-aaan
+aliases:
+  - GHSA-2cf5-4w76-r9qv
+  - GMS-2020-727
+summary: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+  in handlebars.
+severities:
+  - id: 693192
+    reference_id: 35096
+    scoring_system: generic_textual
+    value: Medium
+    scoring_elements:
+  - id: 704499
+    reference_id: 35098
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 35096
+    url: https://www.npmjs.com/advisories/1316
+    reference_id:
+  - id: 35098
+    url: https://github.com/advisories/GHSA-2cf5-4w76-r9qv
+    reference_id: GHSA-2cf5-4w76-r9qv
+weaknesses: []

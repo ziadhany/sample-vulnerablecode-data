@@ -1,0 +1,172 @@
+vulnerability_id: VCID-bsgf-8zzj-aaas
+aliases:
+  - CVE-2020-10740
+summary: A vulnerability was found in Wildfly in versions before 20.0.0.Final, where a remote
+  deserialization attack is possible in the Enterprise Application Beans(EJB) due to lack of
+  validation/filtering capabilities in wildfly.
+severities:
+  - id: 611844
+    reference_id: 932681
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+  - id: 611843
+    reference_id: 932680
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 430567
+    reference_id: 812278
+    scoring_system: cvssv2
+    value: '6.0'
+    scoring_elements: AV:N/AC:M/Au:S/C:P/I:P/A:P
+  - id: 430565
+    reference_id: 812278
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+  - id: 608959
+    reference_id: 930589
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 608957
+    reference_id: 930587
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 608958
+    reference_id: 930588
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 608956
+    reference_id: 930586
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49241
+    reference_id: 173535
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49242
+    reference_id: 173536
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49238
+    reference_id: 173532
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49239
+    reference_id: 173533
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 50141
+    reference_id: 174647
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 50143
+    reference_id: 174649
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49240
+    reference_id: 173534
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49245
+    reference_id: 173539
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49243
+    reference_id: 173537
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49244
+    reference_id: 173538
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49237
+    reference_id: 173531
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 48100
+    reference_id: 172635
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 932681
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2020-10740.json
+    reference_id:
+  - id: 812277
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2020-10740
+    reference_id:
+  - id: 932680
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1834512
+    reference_id: 1834512
+  - id: 734792
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:wildfly:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:wildfly:*:*:*:*:*:*:*:*
+  - id: 812278
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-10740
+    reference_id: CVE-2020-10740
+  - id: 930589
+    url: https://access.redhat.com/errata/RHSA-2020:3141
+    reference_id: RHSA-2020:3141
+  - id: 930587
+    url: https://access.redhat.com/errata/RHSA-2020:3142
+    reference_id: RHSA-2020:3142
+  - id: 930588
+    url: https://access.redhat.com/errata/RHSA-2020:3143
+    reference_id: RHSA-2020:3143
+  - id: 930586
+    url: https://access.redhat.com/errata/RHSA-2020:3144
+    reference_id: RHSA-2020:3144
+  - id: 173535
+    url: https://access.redhat.com/errata/RHSA-2020:3461
+    reference_id: RHSA-2020:3461
+  - id: 173536
+    url: https://access.redhat.com/errata/RHSA-2020:3462
+    reference_id: RHSA-2020:3462
+  - id: 173532
+    url: https://access.redhat.com/errata/RHSA-2020:3463
+    reference_id: RHSA-2020:3463
+  - id: 173533
+    url: https://access.redhat.com/errata/RHSA-2020:3464
+    reference_id: RHSA-2020:3464
+  - id: 174647
+    url: https://access.redhat.com/errata/RHSA-2020:3501
+    reference_id: RHSA-2020:3501
+  - id: 174649
+    url: https://access.redhat.com/errata/RHSA-2020:3539
+    reference_id: RHSA-2020:3539
+  - id: 173534
+    url: https://access.redhat.com/errata/RHSA-2020:3585
+    reference_id: RHSA-2020:3585
+  - id: 173539
+    url: https://access.redhat.com/errata/RHSA-2020:3637
+    reference_id: RHSA-2020:3637
+  - id: 173537
+    url: https://access.redhat.com/errata/RHSA-2020:3638
+    reference_id: RHSA-2020:3638
+  - id: 173538
+    url: https://access.redhat.com/errata/RHSA-2020:3639
+    reference_id: RHSA-2020:3639
+  - id: 173531
+    url: https://access.redhat.com/errata/RHSA-2020:3642
+    reference_id: RHSA-2020:3642
+  - id: 172635
+    url: https://access.redhat.com/errata/RHSA-2020:5568
+    reference_id: RHSA-2020:5568
+weaknesses: []

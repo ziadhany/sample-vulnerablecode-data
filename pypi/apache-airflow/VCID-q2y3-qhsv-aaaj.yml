@@ -1,0 +1,37 @@
+vulnerability_id: VCID-q2y3-qhsv-aaaj
+aliases:
+  - CVE-2017-17835
+  - GHSA-68wv-rjrm-576p
+  - PYSEC-2019-148
+summary: In Apache Airflow 1.8.2 and earlier, a CSRF vulnerability allowed for a remote command
+  injection on a default install of Airflow.
+severities:
+  - id: 275164
+    reference_id: 23441
+    scoring_system: cvssv2
+    value: '6.8'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:P/A:P
+  - id: 275162
+    reference_id: 23441
+    scoring_system: cvssv3
+    value: '8.8'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+  - id: 4751
+    reference_id: 26324
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 566
+    url: https://lists.apache.org/thread.html/ade4d54ebf614f68dc81a08891755e60ea58ba88e0209233eeea5f57@%3Cdev.airflow.apache.org%3E
+    reference_id:
+  - id: 677676
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:airflow:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:airflow:*:*:*:*:*:*:*:*
+  - id: 23441
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-17835
+    reference_id: CVE-2017-17835
+  - id: 26324
+    url: https://github.com/advisories/GHSA-68wv-rjrm-576p
+    reference_id: GHSA-68wv-rjrm-576p
+weaknesses: []

@@ -1,0 +1,18 @@
+package: pkg:gem/mixlib-archive
+versions:
+  - purl: pkg:gem/mixlib-archive@0.1.0
+    affected_by_vulnerabilities:
+      - VCID-pa63-gzw9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/mixlib-archive@0.2.0
+    affected_by_vulnerabilities:
+      - VCID-pa63-gzw9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/mixlib-archive@0.3.0
+    affected_by_vulnerabilities:
+      - VCID-pa63-gzw9-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/mixlib-archive@0.4.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-pa63-gzw9-aaaa

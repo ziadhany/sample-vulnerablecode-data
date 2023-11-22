@@ -1,0 +1,40 @@
+vulnerability_id: VCID-wg45-h5j5-aaaa
+aliases:
+  - CVE-2022-1291
+  - GHSA-j636-crp3-m584
+summary: |
+  Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')
+  XSS vulnerability with default `onCellHtmlData` function in GitHub repository hhurz/tableexport.jquery.plugin prior to 1.25.0. Transmitting cookies to third-party servers. Sending data from secure sessions to third-party servers
+severities:
+  - id: 578858
+    reference_id: 33199
+    scoring_system: cvssv2
+    value: '3.5'
+    scoring_elements: AV:N/AC:M/Au:S/C:N/I:P/A:N
+  - id: 578856
+    reference_id: 33199
+    scoring_system: cvssv3
+    value: '5.4'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N
+  - id: 706922
+    reference_id: 33202
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 33200
+    url: https://github.com/hhurz/tableexport.jquery.plugin/commit/dcbaee23cf98328397a153e71556f75202988ec9
+    reference_id:
+  - id: 33201
+    url: https://huntr.dev/bounties/49a14371-6058-47dd-9801-ec38a7459fc5
+    reference_id:
+  - id: 910481
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:tableexport.jquery.plugin_project:tableexport.jquery.plugin:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:tableexport.jquery.plugin_project:tableexport.jquery.plugin:*:*:*:*:*:*:*:*
+  - id: 33199
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-1291
+    reference_id: CVE-2022-1291
+  - id: 33202
+    url: https://github.com/advisories/GHSA-j636-crp3-m584
+    reference_id: GHSA-j636-crp3-m584
+weaknesses: []

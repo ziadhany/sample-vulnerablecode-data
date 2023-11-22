@@ -1,0 +1,188 @@
+vulnerability_id: VCID-6f55-kdyu-aaac
+aliases:
+  - CVE-2012-3451
+  - GHSA-55j7-f5wf-43m4
+summary: |
+  SOAPAction spoofing on document literal web services
+  This package allows remote attackers to execute unintended web-service operations by sending a header with a SOAP Action String that is inconsistent with the message body.
+severities:
+  - id: 155747
+    reference_id: 497241
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+  - id: 629997
+    reference_id: 945853
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 63523
+    reference_id: '191800'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63524
+    reference_id: '191801'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63525
+    reference_id: '191802'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 62950
+    reference_id: '191042'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 62945
+    reference_id: '191037'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 62944
+    reference_id: '191036'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 62947
+    reference_id: '191039'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 62943
+    reference_id: '191035'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 62948
+    reference_id: '191040'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 497231
+    url: http://cxf.apache.org/cve-2012-3451.html
+    reference_id:
+  - id: 325966
+    url: http://rhn.redhat.com/errata/RHSA-2012-1591.html
+    reference_id:
+  - id: 325967
+    url: http://rhn.redhat.com/errata/RHSA-2012-1592.html
+    reference_id:
+  - id: 325968
+    url: http://rhn.redhat.com/errata/RHSA-2012-1594.html
+    reference_id:
+  - id: 497232
+    url: http://rhn.redhat.com/errata/RHSA-2013-0256.html
+    reference_id:
+  - id: 497233
+    url: http://rhn.redhat.com/errata/RHSA-2013-0257.html
+    reference_id:
+  - id: 497234
+    url: http://rhn.redhat.com/errata/RHSA-2013-0258.html
+    reference_id:
+  - id: 497235
+    url: http://rhn.redhat.com/errata/RHSA-2013-0259.html
+    reference_id:
+  - id: 497236
+    url: http://rhn.redhat.com/errata/RHSA-2013-0726.html
+    reference_id:
+  - id: 497237
+    url: http://rhn.redhat.com/errata/RHSA-2013-0743.html
+    reference_id:
+  - id: '192836'
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2012-3451.json
+    reference_id:
+  - id: 497239
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=851896
+    reference_id:
+  - id: 26251
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2012-3451
+    reference_id:
+  - id: 325970
+    url: http://secunia.com/advisories/51607
+    reference_id:
+  - id: 497238
+    url: http://secunia.com/advisories/52183
+    reference_id:
+  - id: 497240
+    url: https://exchange.xforce.ibmcloud.com/vulnerabilities/78734
+    reference_id:
+  - id: 10867
+    url: https://lists.apache.org/thread.html/r36e44ffc1a9b365327df62cdfaabe85b9a5637de102cea07d79b2dbf@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 1471053
+    url: https://lists.apache.org/thread.html/r36e44ffc1a9b365327df62cdfaabe85b9a5637de102cea07d79b2dbf%40%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10866
+    url: https://lists.apache.org/thread.html/rc774278135816e7afc943dc9fc78eb0764f2c84a2b96470a0187315c@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 1471054
+    url: https://lists.apache.org/thread.html/rc774278135816e7afc943dc9fc78eb0764f2c84a2b96470a0187315c%40%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10872
+    url: https://lists.apache.org/thread.html/rd49aabd984ed540c8ff7916d4d79405f3fa311d2fdbcf9ed307839a6@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 1471055
+    url: https://lists.apache.org/thread.html/rd49aabd984ed540c8ff7916d4d79405f3fa311d2fdbcf9ed307839a6%40%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10860
+    url: https://lists.apache.org/thread.html/rec7160382badd3ef4ad017a22f64a266c7188b9ba71394f0d321e2d4@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 1471056
+    url: https://lists.apache.org/thread.html/rec7160382badd3ef4ad017a22f64a266c7188b9ba71394f0d321e2d4%40%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10862
+    url: https://lists.apache.org/thread.html/rfb87e0bf3995e7d560afeed750fac9329ff5f1ad49da365129b7f89e@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 1471057
+    url: https://lists.apache.org/thread.html/rfb87e0bf3995e7d560afeed750fac9329ff5f1ad49da365129b7f89e%40%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10873
+    url: https://lists.apache.org/thread.html/rff42cfa5e7d75b7c1af0e37589140a8f1999e578a75738740b244bd4@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 1471058
+    url: https://lists.apache.org/thread.html/rff42cfa5e7d75b7c1af0e37589140a8f1999e578a75738740b244bd4%40%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 26250
+    url: http://svn.apache.org/viewvc?view=revision&revision=1368559
+    reference_id:
+  - id: 158434
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:*:*:*:*:*:*:*:*
+  - id: 497241
+    url: https://nvd.nist.gov/vuln/detail/CVE-2012-3451
+    reference_id: CVE-2012-3451
+  - id: 945853
+    url: https://github.com/advisories/GHSA-55j7-f5wf-43m4
+    reference_id: GHSA-55j7-f5wf-43m4
+  - id: '191800'
+    url: https://access.redhat.com/errata/RHSA-2012:1591
+    reference_id: RHSA-2012:1591
+  - id: '191801'
+    url: https://access.redhat.com/errata/RHSA-2012:1592
+    reference_id: RHSA-2012:1592
+  - id: '191802'
+    url: https://access.redhat.com/errata/RHSA-2012:1594
+    reference_id: RHSA-2012:1594
+  - id: '191042'
+    url: https://access.redhat.com/errata/RHSA-2013:0256
+    reference_id: RHSA-2013:0256
+  - id: '191037'
+    url: https://access.redhat.com/errata/RHSA-2013:0257
+    reference_id: RHSA-2013:0257
+  - id: '191036'
+    url: https://access.redhat.com/errata/RHSA-2013:0258
+    reference_id: RHSA-2013:0258
+  - id: '191039'
+    url: https://access.redhat.com/errata/RHSA-2013:0259
+    reference_id: RHSA-2013:0259
+  - id: '191035'
+    url: https://access.redhat.com/errata/RHSA-2013:0726
+    reference_id: RHSA-2013:0726
+  - id: '191040'
+    url: https://access.redhat.com/errata/RHSA-2013:0743
+    reference_id: RHSA-2013:0743
+weaknesses: []

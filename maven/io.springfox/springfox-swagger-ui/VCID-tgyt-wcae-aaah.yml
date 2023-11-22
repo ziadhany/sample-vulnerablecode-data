@@ -1,0 +1,117 @@
+vulnerability_id: VCID-tgyt-wcae-aaah
+aliases:
+  - CVE-2019-17495
+  - GHSA-c427-hjc3-wrfw
+summary: |
+  Injection Vulnerability
+  A Cascading Style Sheets (CSS) injection vulnerability in Swagger UI allows attackers to use the Relative Path Overwrite (RPO) technique to perform CSS-based input field value exfiltration, such as exfiltration of a CSRF token value. In other words, this product intentionally allows the embedding of untrusted JSON data from remote servers, but it was not previously known that `<style>@import` within the JSON data was a functional attack method.
+severities:
+  - id: 696630
+    reference_id: 278
+    scoring_system: generic_textual
+    value: Medium
+    scoring_elements:
+  - id: 391788
+    reference_id: 28679
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 391786
+    reference_id: 28679
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 706061
+    reference_id: 1467547
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 786240
+    url: https://github.com/swagger-api/swagger-ui/releases/tag/v3.23.11
+    reference_id:
+  - id: 786241
+    url: https://github.com/tarantula-team/CSS-injection-in-Swagger-UI
+    reference_id:
+  - id: 786242
+    url: https://lists.apache.org/thread.html/r103579b01da2d0aa0f672b88f811224bbf8ef493aaad845895955e91@%3Ccommits.airflow.apache.org%3E
+    reference_id:
+  - id: 786243
+    url: https://lists.apache.org/thread.html/r3acb7e494cf1aab99b6784b7c5bbddfd0d4f8a484ab534c3a61ef9cf@%3Ccommits.airflow.apache.org%3E
+    reference_id:
+  - id: 786244
+    url: https://lists.apache.org/thread.html/r84b327f7a8b6b28857b906c07a66dd98e1d341191fa8d7816514ef96@%3Ccommits.airflow.apache.org%3E
+    reference_id:
+  - id: 786245
+    url: https://lists.apache.org/thread.html/r853ffeb915a400f899de78124d4e0d77a19379d2e11bf8f4e98c624f@%3Ccommits.airflow.apache.org%3E
+    reference_id:
+  - id: 786246
+    url: https://lists.apache.org/thread.html/ref70b940c4f69560d29d6ba792d6c82865e74de3dcad4c92d99b1f8f@%3Ccommits.airflow.apache.org%3E
+    reference_id:
+  - id: 420
+    url: https://www.oracle.com/security-alerts/cpuApr2021.html
+    reference_id:
+  - id: 388
+    url: https://www.oracle.com/security-alerts/cpujan2022.html
+    reference_id:
+  - id: 945268
+    url: https://www.oracle.com/security-alerts/cpujul2022.html
+    reference_id:
+  - id: 278
+    url: https://www.oracle.com/security-alerts/cpuoct2020.html
+    reference_id:
+  - id: 786247
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:banking_apis:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:banking_apis:*:*:*:*:*:*:*:*
+  - id: 766905
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:banking_apis:19.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:banking_apis:19.1:*:*:*:*:*:*:*
+  - id: 766906
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:banking_apis:19.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:banking_apis:19.2:*:*:*:*:*:*:*
+  - id: 766907
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:banking_apis:20.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:banking_apis:20.1:*:*:*:*:*:*:*
+  - id: 766908
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:banking_apis:21.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:banking_apis:21.1:*:*:*:*:*:*:*
+  - id: 786248
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:banking_digital_experience:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:banking_digital_experience:*:*:*:*:*:*:*:*
+  - id: 766913
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:banking_digital_experience:19.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:banking_digital_experience:19.1:*:*:*:*:*:*:*
+  - id: 766914
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:banking_digital_experience:19.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:banking_digital_experience:19.2:*:*:*:*:*:*:*
+  - id: 766915
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:banking_digital_experience:20.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:banking_digital_experience:20.1:*:*:*:*:*:*:*
+  - id: 766916
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:banking_digital_experience:21.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:banking_digital_experience:21.1:*:*:*:*:*:*:*
+  - id: 766406
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:banking_platform:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:banking_platform:*:*:*:*:*:*:*:*
+  - id: 702811
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:primavera_gateway:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:primavera_gateway:*:*:*:*:*:*:*:*
+  - id: 759460
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:utilities_framework:4.3.0.6.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:utilities_framework:4.3.0.6.0:*:*:*:*:*:*:*
+  - id: 722101
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:utilities_framework:4.4.0.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:utilities_framework:4.4.0.0.0:*:*:*:*:*:*:*
+  - id: 765622
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:utilities_framework:4.4.0.2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:utilities_framework:4.4.0.2.0:*:*:*:*:*:*:*
+  - id: 169214
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:smartbear:swagger_ui:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:smartbear:swagger_ui:*:*:*:*:*:*:*:*
+  - id: 28679
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-17495
+    reference_id: CVE-2019-17495
+  - id: 1467547
+    url: https://github.com/advisories/GHSA-c427-hjc3-wrfw
+    reference_id: GHSA-c427-hjc3-wrfw
+weaknesses: []

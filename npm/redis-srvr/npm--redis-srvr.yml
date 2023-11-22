@@ -1,0 +1,36 @@
+package: pkg:npm/redis-srvr
+versions:
+  - purl: pkg:npm/redis-srvr@0.0.0-alpha
+    affected_by_vulnerabilities:
+      - VCID-arfv-42h7-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/redis-srvr@2.8.17-beta.1
+    affected_by_vulnerabilities:
+      - VCID-arfv-42h7-aaas
+      - VCID-xvap-3cxf-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/redis-srvr@2.8.17-beta.2
+    affected_by_vulnerabilities:
+      - VCID-arfv-42h7-aaas
+      - VCID-xvap-3cxf-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/redis-srvr@2.8.17-beta.3
+    affected_by_vulnerabilities:
+      - VCID-arfv-42h7-aaas
+      - VCID-xvap-3cxf-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/redis-srvr@2.8.17-beta.4
+    affected_by_vulnerabilities:
+      - VCID-arfv-42h7-aaas
+      - VCID-xvap-3cxf-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/redis-srvr@2.8.17-beta.5
+    affected_by_vulnerabilities:
+      - VCID-arfv-42h7-aaas
+      - VCID-xvap-3cxf-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/redis-srvr@2.8.17-beta.6
+    affected_by_vulnerabilities:
+      - VCID-arfv-42h7-aaas
+      - VCID-xvap-3cxf-aaaa
+    fixing_vulnerabilities: []

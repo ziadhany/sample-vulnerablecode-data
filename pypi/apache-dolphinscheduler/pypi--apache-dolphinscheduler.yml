@@ -1,0 +1,18 @@
+package: pkg:pypi/apache-dolphinscheduler
+versions:
+  - purl: pkg:pypi/apache-dolphinscheduler@0
+    affected_by_vulnerabilities:
+      - VCID-yb46-w72u-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-dolphinscheduler@0.1.0
+    affected_by_vulnerabilities:
+      - VCID-yb46-w72u-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-dolphinscheduler@0.1.1
+    affected_by_vulnerabilities:
+      - VCID-yb46-w72u-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/apache-dolphinscheduler@2.0.5
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-yb46-w72u-aaag

@@ -1,0 +1,38 @@
+vulnerability_id: VCID-t61t-zdx1-aaac
+aliases:
+  - CVE-2022-0767
+  - GHSA-h65g-jfqg-2w6m
+summary: Server-Side Request Forgery in calibreweb
+severities:
+  - id: 577266
+    reference_id: 21089
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 577264
+    reference_id: 21089
+    scoring_system: cvssv3
+    value: '9.9'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:H
+  - id: 3436
+    reference_id: 21092
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 21090
+    url: https://github.com/janeczku/calibre-web/commit/965352c8d96c9eae7a6867ff76b0db137d04b0b8
+    reference_id:
+  - id: 21091
+    url: https://huntr.dev/bounties/b26fc127-9b6a-4be7-a455-58aefbb62d9e
+    reference_id:
+  - id: 873600
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:calibre-web_project:calibre-web:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:calibre-web_project:calibre-web:*:*:*:*:*:*:*:*
+  - id: 21089
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-0767
+    reference_id: CVE-2022-0767
+  - id: 21092
+    url: https://github.com/advisories/GHSA-h65g-jfqg-2w6m
+    reference_id: GHSA-h65g-jfqg-2w6m
+weaknesses: []

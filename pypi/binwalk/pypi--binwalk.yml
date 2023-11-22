@@ -1,0 +1,6 @@
+package: pkg:pypi/binwalk
+versions:
+  - purl: pkg:pypi/binwalk@2.1.0
+    affected_by_vulnerabilities:
+      - VCID-5zpc-bgfy-aaad
+    fixing_vulnerabilities: []

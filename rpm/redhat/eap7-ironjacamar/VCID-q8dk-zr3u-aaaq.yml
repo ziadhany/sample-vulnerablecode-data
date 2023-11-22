@@ -1,0 +1,109 @@
+vulnerability_id: VCID-q8dk-zr3u-aaaq
+aliases:
+  - CVE-2021-20250
+  - GHSA-2259-h742-5vr4
+summary: |
+  Information Exposure
+  A flaw was found in wildfly. The JBoss EJB client has publicly accessible privileged actions which may lead to information disclosure on the server it is deployed on. The highest threat from this vulnerability is to data confidentiality.
+severities:
+  - id: 606961
+    reference_id: 929115
+    scoring_system: cvssv3
+    value: '4.3'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N
+  - id: 606960
+    reference_id: 929114
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 504064
+    reference_id: 29404
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:N/A:N
+  - id: 504062
+    reference_id: 29404
+    scoring_system: cvssv3
+    value: '4.3'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N
+  - id: 630535
+    reference_id: 946698
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 51183
+    reference_id: 175831
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 51184
+    reference_id: 175832
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 51182
+    reference_id: 175830
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 51181
+    reference_id: 175829
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 48101
+    reference_id: 172636
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 604513
+    reference_id: 927315
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 603918
+    reference_id: 926885
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 929115
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-20250.json
+    reference_id:
+  - id: 929114
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1929479
+    reference_id: '1929479'
+  - id: 861380
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss-ejb-client:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss-ejb-client:*:*:*:*:*:*:*:*
+  - id: 861381
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform_expansion_pack:-:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform_expansion_pack:-:*:*:*:*:*:*:*
+  - id: 29404
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-20250
+    reference_id: CVE-2021-20250
+  - id: 946698
+    url: https://github.com/advisories/GHSA-2259-h742-5vr4
+    reference_id: GHSA-2259-h742-5vr4
+  - id: 175831
+    url: https://access.redhat.com/errata/RHSA-2021:0872
+    reference_id: RHSA-2021:0872
+  - id: 175832
+    url: https://access.redhat.com/errata/RHSA-2021:0873
+    reference_id: RHSA-2021:0873
+  - id: 175830
+    url: https://access.redhat.com/errata/RHSA-2021:0874
+    reference_id: RHSA-2021:0874
+  - id: 175829
+    url: https://access.redhat.com/errata/RHSA-2021:0885
+    reference_id: RHSA-2021:0885
+  - id: 172636
+    url: https://access.redhat.com/errata/RHSA-2021:0974
+    reference_id: RHSA-2021:0974
+  - id: 927315
+    url: https://access.redhat.com/errata/RHSA-2021:2210
+    reference_id: RHSA-2021:2210
+  - id: 926885
+    url: https://access.redhat.com/errata/RHSA-2021:2755
+    reference_id: RHSA-2021:2755
+weaknesses: []

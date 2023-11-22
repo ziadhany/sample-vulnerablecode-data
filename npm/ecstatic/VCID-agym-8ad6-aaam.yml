@@ -1,0 +1,46 @@
+vulnerability_id: VCID-agym-8ad6-aaam
+aliases:
+  - CVE-2015-9242
+  - GHSA-vwjc-q9px-r9vq
+summary: |
+  Improper Input Validation
+  Certain input strings when passed to new Date() or Date.parse() in ecstatic node module before 1.4.0 will cause v8 to raise an exception. This leads to a crash and denial of service in ecstatic when this input is passed into the server via the If-Modified-Since header.
+severities:
+  - id: 207961
+    reference_id: 37245
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 207959
+    reference_id: 37245
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 705357
+    reference_id: 37247
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 37246
+    url: https://bugs.chromium.org/p/v8/issues/detail?id=4640
+    reference_id:
+  - id: 37222
+    url: https://github.com/jfhbrook/node-ecstatic/pull/179
+    reference_id:
+  - id: 37227
+    url: https://nodesecurity.io/advisories/64
+    reference_id:
+  - id: 37248
+    url: https://www.npmjs.com/advisories/64
+    reference_id:
+  - id: 621308
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:ecstatic_project:ecstatic:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:ecstatic_project:ecstatic:*:*:*:*:*:node.js:*:*
+  - id: 37245
+    url: https://nvd.nist.gov/vuln/detail/CVE-2015-9242
+    reference_id: CVE-2015-9242
+  - id: 37247
+    url: https://github.com/advisories/GHSA-vwjc-q9px-r9vq
+    reference_id: GHSA-vwjc-q9px-r9vq
+weaknesses: []

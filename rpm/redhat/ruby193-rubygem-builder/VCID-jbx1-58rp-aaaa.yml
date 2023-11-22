@@ -1,0 +1,123 @@
+vulnerability_id: VCID-jbx1-58rp-aaaa
+aliases:
+  - CVE-2013-1901
+summary: 'CVE-2013-1901 postgresql: Improper user privilege check for on-line backups'
+severities:
+  - id: 164359
+    reference_id: 521312
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:N/I:P/A:N
+references:
+  - id: 482392
+    url: http://lists.apple.com/archives/security-announce/2013/Sep/msg00002.html
+    reference_id:
+  - id: 516799
+    url: http://lists.apple.com/archives/security-announce/2013/Sep/msg00004.html
+    reference_id:
+  - id: 521293
+    url: http://lists.fedoraproject.org/pipermail/package-announce/2013-April/101519.html
+    reference_id:
+  - id: 521294
+    url: http://lists.fedoraproject.org/pipermail/package-announce/2013-April/102806.html
+    reference_id:
+  - id: 521295
+    url: http://lists.opensuse.org/opensuse-security-announce/2013-04/msg00007.html
+    reference_id:
+  - id: 521296
+    url: http://lists.opensuse.org/opensuse-security-announce/2013-04/msg00008.html
+    reference_id:
+  - id: 521297
+    url: http://lists.opensuse.org/opensuse-security-announce/2013-04/msg00011.html
+    reference_id:
+  - id: 521298
+    url: http://lists.opensuse.org/opensuse-security-announce/2013-04/msg00012.html
+    reference_id:
+  - id: '190268'
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2013-1901.json
+    reference_id:
+  - id: 482394
+    url: http://support.apple.com/kb/HT5880
+    reference_id:
+  - id: 516800
+    url: http://support.apple.com/kb/HT5892
+    reference_id:
+  - id: 521299
+    url: http://www.debian.org/security/2013/dsa-2658
+    reference_id:
+  - id: 513085
+    url: http://www.mandriva.com/security/advisories?name=MDVSA-2013:142
+    reference_id:
+  - id: 521300
+    url: http://www.postgresql.org/about/news/1456/
+    reference_id:
+  - id: 521302
+    url: http://www.postgresql.org/docs/current/static/release-9-1-9.html
+    reference_id:
+  - id: 521303
+    url: http://www.postgresql.org/docs/current/static/release-9-2-4.html
+    reference_id:
+  - id: 521305
+    url: http://www.ubuntu.com/usn/USN-1789-1
+    reference_id:
+  - id: 158785
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:9.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:9.1:*:*:*:*:*:*:*
+  - id: 158776
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:9.1.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:9.1.1:*:*:*:*:*:*:*
+  - id: 158777
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:9.1.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:9.1.2:*:*:*:*:*:*:*
+  - id: 158778
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:9.1.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:9.1.3:*:*:*:*:*:*:*
+  - id: 158779
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:9.1.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:9.1.4:*:*:*:*:*:*:*
+  - id: 158780
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:9.1.5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:9.1.5:*:*:*:*:*:*:*
+  - id: 158781
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:9.1.6:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:9.1.6:*:*:*:*:*:*:*
+  - id: 158782
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:9.1.7:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:9.1.7:*:*:*:*:*:*:*
+  - id: 158783
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:9.1.8:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:9.1.8:*:*:*:*:*:*:*
+  - id: 158799
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:9.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:9.2:*:*:*:*:*:*:*
+  - id: 158790
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:9.2.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:9.2.1:*:*:*:*:*:*:*
+  - id: 158791
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:9.2.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:9.2.2:*:*:*:*:*:*:*
+  - id: 158792
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:9.2.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:9.2.3:*:*:*:*:*:*:*
+  - id: 414302
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:canonical:ubuntu_linux:10.04:-:lts:*:*:*:*:*
+    reference_id: cpe:2.3:o:canonical:ubuntu_linux:10.04:-:lts:*:*:*:*:*
+  - id: 404629
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:canonical:ubuntu_linux:11.10:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:canonical:ubuntu_linux:11.10:*:*:*:*:*:*:*
+  - id: 322396
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:canonical:ubuntu_linux:12.04:-:lts:*:*:*:*:*
+    reference_id: cpe:2.3:o:canonical:ubuntu_linux:12.04:-:lts:*:*:*:*:*
+  - id: 322397
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:canonical:ubuntu_linux:12.10:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:canonical:ubuntu_linux:12.10:*:*:*:*:*:*:*
+  - id: 355775
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:canonical:ubuntu_linux:8.04:-:lts:*:*:*:*:*
+    reference_id: cpe:2.3:o:canonical:ubuntu_linux:8.04:-:lts:*:*:*:*:*
+  - id: 521312
+    url: https://nvd.nist.gov/vuln/detail/CVE-2013-1901
+    reference_id: CVE-2013-1901
+  - id: '190267'
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=929328
+    reference_id: RHEA-2013:1487
+weaknesses: []

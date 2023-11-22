@@ -1,0 +1,38 @@
+vulnerability_id: VCID-t6wy-62ja-aaab
+aliases:
+  - CVE-2021-40146
+  - GHSA-99px-7724-484v
+summary: Remote Code Execution in Any23
+severities:
+  - id: 559445
+    reference_id: 10343
+    scoring_system: cvssv2
+    value: '10.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:C/I:C/A:C
+  - id: 559443
+    reference_id: 10343
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 964
+    reference_id: 10346
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 10344
+    url: https://lists.apache.org/thread.html/r7c521ed85c7ae1bad4fdf95b459f2aaa8a67eae338636b7b7ec35d86%40%3Cannounce.apache.org%3E
+    reference_id:
+  - id: 10345
+    url: http://www.openwall.com/lists/oss-security/2021/09/11/2
+    reference_id:
+  - id: 894079
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:any23:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:any23:*:*:*:*:*:*:*:*
+  - id: 10343
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-40146
+    reference_id: CVE-2021-40146
+  - id: 10346
+    url: https://github.com/advisories/GHSA-99px-7724-484v
+    reference_id: GHSA-99px-7724-484v
+weaknesses: []

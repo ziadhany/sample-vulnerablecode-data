@@ -1,0 +1,18 @@
+vulnerability_id: VCID-w1mg-76ke-aaas
+aliases:
+  - GMS-2013-6
+summary: |
+  Cross-site Scripting
+  XSS vulnerability for html files served up with `Content-Disposition attachment` headers.
+severities: []
+references:
+  - id: 39211
+    url: https://github.com/turbolinks/turbolinks-classic/commit/fff70bd9371bf9d700ff40463eb03f1a2b8ec3ab
+    reference_id:
+  - id: 39212
+    url: https://github.com/turbolinks/turbolinks-classic/issues/195
+    reference_id:
+  - id: 39213
+    url: https://github.com/turbolinks/turbolinks-classic/pull/441
+    reference_id:
+weaknesses: []

@@ -1,0 +1,14 @@
+package: pkg:gem/text_helpers
+versions:
+  - purl: pkg:gem/text_helpers@1.1.0
+    affected_by_vulnerabilities:
+      - VCID-2pnd-7ctm-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/text_helpers@1.1.1
+    affected_by_vulnerabilities:
+      - VCID-2pnd-7ctm-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/text_helpers@1.2.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-2pnd-7ctm-aaan

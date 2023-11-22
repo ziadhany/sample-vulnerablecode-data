@@ -1,0 +1,31 @@
+vulnerability_id: VCID-jwd6-vwuz-aaad
+aliases:
+  - GHSA-7fhm-mqm4-2wp7
+summary: 'Withdrawn: ESLint dependencies are vulnerable (ReDoS and Prototype Pollution)'
+severities:
+  - id: 704672
+    reference_id: 36764
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 704713
+    reference_id: 1466357
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 706303
+    reference_id: 1466356
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 36764
+    url: https://github.com/advisories/GHSA-6chw-6frg-f759
+    reference_id: GHSA-6chw-6frg-f759
+  - id: 1466357
+    url: https://github.com/advisories/GHSA-7fhm-mqm4-2wp7
+    reference_id: GHSA-7fhm-mqm4-2wp7
+  - id: 1466356
+    url: https://github.com/advisories/GHSA-vh95-rmgr-6w4m
+    reference_id: GHSA-vh95-rmgr-6w4m
+weaknesses: []

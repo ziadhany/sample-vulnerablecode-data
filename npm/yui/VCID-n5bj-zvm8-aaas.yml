@@ -1,0 +1,224 @@
+vulnerability_id: VCID-n5bj-zvm8-aaas
+aliases:
+  - CVE-2013-4942
+summary: Cross-site scripting (XSS) vulnerability in flashuploader.swf in the Uploader component
+  in Yahoo! YUI 3.5.0 through 3.9.1, as used in Moodle through 2.1.10, 2.2.x before 2.2.11,
+  2.3.x before 2.3.8, 2.4.x before 2.4.5, 2.5.x before 2.5.1, and other products, allows remote
+  attackers to inject arbitrary web script or HTML via a crafted string in a URL.
+severities:
+  - id: 653217
+    reference_id: 538073
+    scoring_system: generic_textual
+    value: Medium
+    scoring_elements:
+  - id: 653224
+    reference_id: 1422670
+    scoring_system: generic_textual
+    value: Medium
+    scoring_elements:
+  - id: 653225
+    reference_id: 1422671
+    scoring_system: generic_textual
+    value: Medium
+    scoring_elements:
+  - id: 653221
+    reference_id: 538077
+    scoring_system: generic_textual
+    value: Medium
+    scoring_elements:
+  - id: 708393
+    reference_id: 1473359
+    scoring_system: cvssv3
+    value: '5.3'
+    scoring_elements:
+  - id: 653219
+    reference_id: 538074
+    scoring_system: generic_textual
+    value: Medium
+    scoring_elements:
+  - id: 708394
+    reference_id: 1473360
+    scoring_system: cvssv3
+    value: '5.3'
+    scoring_elements:
+  - id: 170101
+    reference_id: 538103
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+references:
+  - id: 538073
+    url: http://git.moodle.org/gw?p=moodle.git&a=search&h=HEAD&st=commit&s=MDL-39678
+    reference_id:
+  - id: 1422670
+    url: http://people.canonical.com/~ubuntu-security/cve/2013/CVE-2013-4942.html
+    reference_id:
+  - id: 1422671
+    url: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4942
+    reference_id:
+  - id: 538077
+    url: https://moodle.org/mod/forum/discuss.php?d=232496
+    reference_id:
+  - id: 1473359
+    url: https://yuilibrary.com/support/20130515-vulnerability/)
+    reference_id:
+  - id: 538074
+    url: http://yuilibrary.com/support/20130515-vulnerability/
+    reference_id:
+  - id: 1473360
+    url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/332.json
+    reference_id: 332
+  - id: 468324
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:moodle:moodle:2.1.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:moodle:moodle:2.1.0:*:*:*:*:*:*:*
+  - id: 468325
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:moodle:moodle:2.1.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:moodle:moodle:2.1.1:*:*:*:*:*:*:*
+  - id: 520569
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:moodle:moodle:2.1.10:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:moodle:moodle:2.1.10:*:*:*:*:*:*:*
+  - id: 468326
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:moodle:moodle:2.1.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:moodle:moodle:2.1.2:*:*:*:*:*:*:*
+  - id: 481544
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:moodle:moodle:2.1.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:moodle:moodle:2.1.3:*:*:*:*:*:*:*
+  - id: 490819
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:moodle:moodle:2.1.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:moodle:moodle:2.1.4:*:*:*:*:*:*:*
+  - id: 490820
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:moodle:moodle:2.1.5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:moodle:moodle:2.1.5:*:*:*:*:*:*:*
+  - id: 496692
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:moodle:moodle:2.1.6:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:moodle:moodle:2.1.6:*:*:*:*:*:*:*
+  - id: 501540
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:moodle:moodle:2.1.7:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:moodle:moodle:2.1.7:*:*:*:*:*:*:*
+  - id: 506603
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:moodle:moodle:2.1.8:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:moodle:moodle:2.1.8:*:*:*:*:*:*:*
+  - id: 509256
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:moodle:moodle:2.1.9:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:moodle:moodle:2.1.9:*:*:*:*:*:*:*
+  - id: 468327
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:moodle:moodle:2.2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:moodle:moodle:2.2.0:*:*:*:*:*:*:*
+  - id: 490821
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:moodle:moodle:2.2.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:moodle:moodle:2.2.1:*:*:*:*:*:*:*
+  - id: 509494
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:moodle:moodle:2.2.10:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:moodle:moodle:2.2.10:*:*:*:*:*:*:*
+  - id: 490822
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:moodle:moodle:2.2.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:moodle:moodle:2.2.2:*:*:*:*:*:*:*
+  - id: 496685
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:moodle:moodle:2.2.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:moodle:moodle:2.2.3:*:*:*:*:*:*:*
+  - id: 501532
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:moodle:moodle:2.2.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:moodle:moodle:2.2.4:*:*:*:*:*:*:*
+  - id: 506604
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:moodle:moodle:2.2.5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:moodle:moodle:2.2.5:*:*:*:*:*:*:*
+  - id: 509257
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:moodle:moodle:2.2.6:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:moodle:moodle:2.2.6:*:*:*:*:*:*:*
+  - id: 509495
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:moodle:moodle:2.2.7:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:moodle:moodle:2.2.7:*:*:*:*:*:*:*
+  - id: 509496
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:moodle:moodle:2.2.8:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:moodle:moodle:2.2.8:*:*:*:*:*:*:*
+  - id: 509497
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:moodle:moodle:2.2.9:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:moodle:moodle:2.2.9:*:*:*:*:*:*:*
+  - id: 496681
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:moodle:moodle:2.3.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:moodle:moodle:2.3.0:*:*:*:*:*:*:*
+  - id: 501533
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:moodle:moodle:2.3.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:moodle:moodle:2.3.1:*:*:*:*:*:*:*
+  - id: 506605
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:moodle:moodle:2.3.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:moodle:moodle:2.3.2:*:*:*:*:*:*:*
+  - id: 509258
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:moodle:moodle:2.3.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:moodle:moodle:2.3.3:*:*:*:*:*:*:*
+  - id: 509498
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:moodle:moodle:2.3.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:moodle:moodle:2.3.4:*:*:*:*:*:*:*
+  - id: 509499
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:moodle:moodle:2.3.5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:moodle:moodle:2.3.5:*:*:*:*:*:*:*
+  - id: 509500
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:moodle:moodle:2.3.6:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:moodle:moodle:2.3.6:*:*:*:*:*:*:*
+  - id: 509501
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:moodle:moodle:2.3.7:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:moodle:moodle:2.3.7:*:*:*:*:*:*:*
+  - id: 509259
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:moodle:moodle:2.4.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:moodle:moodle:2.4.0:*:*:*:*:*:*:*
+  - id: 509503
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:moodle:moodle:2.4.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:moodle:moodle:2.4.1:*:*:*:*:*:*:*
+  - id: 509504
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:moodle:moodle:2.4.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:moodle:moodle:2.4.2:*:*:*:*:*:*:*
+  - id: 509505
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:moodle:moodle:2.4.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:moodle:moodle:2.4.3:*:*:*:*:*:*:*
+  - id: 509506
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:moodle:moodle:2.4.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:moodle:moodle:2.4.4:*:*:*:*:*:*:*
+  - id: 509508
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:moodle:moodle:2.5.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:moodle:moodle:2.5.0:*:*:*:*:*:*:*
+  - id: 538083
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:yahoo:yui:3.10.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:yahoo:yui:3.10.0:*:*:*:*:*:*:*
+  - id: 538084
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:yahoo:yui:3.10.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:yahoo:yui:3.10.1:*:*:*:*:*:*:*
+  - id: 538085
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:yahoo:yui:3.10.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:yahoo:yui:3.10.2:*:*:*:*:*:*:*
+  - id: 538090
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:yahoo:yui:3.5.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:yahoo:yui:3.5.0:*:*:*:*:*:*:*
+  - id: 538091
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:yahoo:yui:3.5.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:yahoo:yui:3.5.1:*:*:*:*:*:*:*
+  - id: 538092
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:yahoo:yui:3.6.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:yahoo:yui:3.6.0:*:*:*:*:*:*:*
+  - id: 538093
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:yahoo:yui:3.7.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:yahoo:yui:3.7.0:*:*:*:*:*:*:*
+  - id: 538094
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:yahoo:yui:3.7.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:yahoo:yui:3.7.1:*:*:*:*:*:*:*
+  - id: 538095
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:yahoo:yui:3.7.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:yahoo:yui:3.7.2:*:*:*:*:*:*:*
+  - id: 538096
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:yahoo:yui:3.7.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:yahoo:yui:3.7.3:*:*:*:*:*:*:*
+  - id: 538097
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:yahoo:yui:3.8.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:yahoo:yui:3.8.0:*:*:*:*:*:*:*
+  - id: 538098
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:yahoo:yui:3.8.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:yahoo:yui:3.8.1:*:*:*:*:*:*:*
+  - id: 538099
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:yahoo:yui:3.9.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:yahoo:yui:3.9.0:*:*:*:*:*:*:*
+  - id: 538100
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:yahoo:yui:3.9.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:yahoo:yui:3.9.1:*:*:*:*:*:*:*
+  - id: 538103
+    url: https://nvd.nist.gov/vuln/detail/CVE-2013-4942
+    reference_id: CVE-2013-4942
+weaknesses: []

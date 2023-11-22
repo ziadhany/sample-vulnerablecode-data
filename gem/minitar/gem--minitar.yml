@@ -1,0 +1,21 @@
+package: pkg:gem/minitar
+versions:
+  - purl: pkg:gem/minitar@0.5.3
+    affected_by_vulnerabilities:
+      - VCID-7g77-ct36-aaaj
+      - VCID-tspn-9n17-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/minitar@0.5.4
+    affected_by_vulnerabilities:
+      - VCID-7g77-ct36-aaaj
+      - VCID-tspn-9n17-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/minitar@0.6
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-7g77-ct36-aaaj
+      - VCID-tspn-9n17-aaak
+  - purl: pkg:gem/minitar@0.6.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-7g77-ct36-aaaj

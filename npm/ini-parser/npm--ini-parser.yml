@@ -1,0 +1,10 @@
+package: pkg:npm/ini-parser
+versions:
+  - purl: pkg:npm/ini-parser@0.0.1
+    affected_by_vulnerabilities:
+      - VCID-ssmv-1r4b-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ini-parser@0.0.2
+    affected_by_vulnerabilities:
+      - VCID-ssmv-1r4b-aaan
+    fixing_vulnerabilities: []

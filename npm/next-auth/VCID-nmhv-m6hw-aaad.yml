@@ -1,0 +1,57 @@
+vulnerability_id: VCID-nmhv-m6hw-aaad
+aliases:
+  - CVE-2022-31093
+  - GHSA-g5fm-jp9v-2432
+  - GMS-2022-2609
+summary: NextAuth.js is a complete open source authentication solution for Next.js applications.
+  In affected versions an attacker can send a request to an app using NextAuth.js with an invalid
+  `callbackUrl` query parameter, which internally is converted to a `URL` object. The URL instantiation
+  would fail due to a malformed URL being passed into the constructor, causing it to throw an
+  unhandled error which led to the **API route handler timing out and logging in to fail**.
+  This has been remedied in versions 3.29.5 and 4.5.0. If for some reason you cannot upgrade,
+  the workaround requires you to rely on Advanced Initialization. Please see the documentation
+  for more.
+severities:
+  - id: 635069
+    reference_id: 949690
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 635067
+    reference_id: 949690
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 707124
+    reference_id: 1178773
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 707123
+    reference_id: 1178772
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 949686
+    url: https://github.com/nextauthjs/next-auth/commit/25517b73153332d948114bacdff3b5908de91d85
+    reference_id:
+  - id: 949687
+    url: https://github.com/nextauthjs/next-auth/commit/e498483b23273d1bfc81be68339607f88d411bd6
+    reference_id:
+  - id: 949689
+    url: https://next-auth.js.org/configuration/initialization#advanced-initialization
+    reference_id:
+  - id: 863829
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:nextauth.js:next-auth:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:nextauth.js:next-auth:*:*:*:*:*:node.js:*:*
+  - id: 949690
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-31093
+    reference_id: CVE-2022-31093
+  - id: 1178773
+    url: https://github.com/advisories/GHSA-g5fm-jp9v-2432
+    reference_id: GHSA-g5fm-jp9v-2432
+  - id: 1178772
+    url: https://github.com/nextauthjs/next-auth/security/advisories/GHSA-g5fm-jp9v-2432
+    reference_id: GHSA-g5fm-jp9v-2432
+weaknesses: []

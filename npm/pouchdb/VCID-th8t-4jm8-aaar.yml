@@ -1,0 +1,40 @@
+vulnerability_id: VCID-th8t-4jm8-aaar
+aliases:
+  - CVE-2016-10546
+  - GHSA-cgqv-x5cx-xvqh
+summary: |
+  Improper Control of Generation of Code ('Code Injection')
+  An arbitrary code injection vector was found in PouchDB 6.0.4 and lesser via the map/reduce functions used in PouchDB temporary views and design documents. The code execution engine for this branch is not properly sandboxed and may be used to run arbitrary JavaScript as well as system commands.
+severities:
+  - id: 214715
+    reference_id: 33459
+    scoring_system: cvssv2
+    value: '10.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:C/I:C/A:C
+  - id: 214713
+    reference_id: 33459
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 705410
+    reference_id: 33460
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 33462
+    url: https://nodesecurity.io/advisories/143
+    reference_id:
+  - id: 33461
+    url: https://www.npmjs.com/advisories/143
+    reference_id:
+  - id: 628625
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:pouchdb:pouchdb:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:pouchdb:pouchdb:*:*:*:*:*:node.js:*:*
+  - id: 33459
+    url: https://nvd.nist.gov/vuln/detail/CVE-2016-10546
+    reference_id: CVE-2016-10546
+  - id: 33460
+    url: https://github.com/advisories/GHSA-cgqv-x5cx-xvqh
+    reference_id: GHSA-cgqv-x5cx-xvqh
+weaknesses: []

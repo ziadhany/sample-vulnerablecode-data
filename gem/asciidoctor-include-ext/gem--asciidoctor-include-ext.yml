@@ -1,0 +1,26 @@
+package: pkg:gem/asciidoctor-include-ext
+versions:
+  - purl: pkg:gem/asciidoctor-include-ext@0.1.0
+    affected_by_vulnerabilities:
+      - VCID-up48-g5f6-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/asciidoctor-include-ext@0.1.1
+    affected_by_vulnerabilities:
+      - VCID-up48-g5f6-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/asciidoctor-include-ext@0.2.0
+    affected_by_vulnerabilities:
+      - VCID-up48-g5f6-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/asciidoctor-include-ext@0.3.0
+    affected_by_vulnerabilities:
+      - VCID-up48-g5f6-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/asciidoctor-include-ext@0.3.1
+    affected_by_vulnerabilities:
+      - VCID-up48-g5f6-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/asciidoctor-include-ext@0.4.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-up48-g5f6-aaap

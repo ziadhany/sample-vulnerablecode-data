@@ -1,0 +1,23 @@
+vulnerability_id: VCID-ayhf-6rux-aaag
+aliases:
+  - GHSA-74hh-4rcv-pp27
+  - GMS-2020-118
+summary: |
+  Malicious Package
+  All versions of this package contained malware. The package was designed to find and exfiltrate cryptocurrency wallets. Any computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer.
+
+  The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.
+severities:
+  - id: 704700
+    reference_id: 34059
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 34058
+    url: https://www.npmjs.com/advisories/1370
+    reference_id:
+  - id: 34059
+    url: https://github.com/advisories/GHSA-74hh-4rcv-pp27
+    reference_id: GHSA-74hh-4rcv-pp27
+weaknesses: []

@@ -1,0 +1,20 @@
+package: pkg:nuget/System.Private.Uri
+versions:
+  - purl: pkg:nuget/System.Private.Uri@4.3.0
+    affected_by_vulnerabilities:
+      - VCID-5567-qgdd-aaah
+      - VCID-jrhk-rbba-aaag
+      - VCID-zszu-7wv4-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/System.Private.Uri@4.3.1
+    affected_by_vulnerabilities:
+      - VCID-5567-qgdd-aaah
+      - VCID-jrhk-rbba-aaag
+      - VCID-zszu-7wv4-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/System.Private.Uri@4.3.2
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-5567-qgdd-aaah
+      - VCID-jrhk-rbba-aaag
+      - VCID-zszu-7wv4-aaaq

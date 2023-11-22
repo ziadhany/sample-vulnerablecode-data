@@ -1,0 +1,57 @@
+vulnerability_id: VCID-1eym-s789-aaad
+aliases:
+  - CVE-2020-1694
+  - GHSA-72j4-94rx-cr6w
+summary: Incorrect Permission Assignment for Critical Resource and Permissive List of Allowed
+  Inputs in Keycloak
+severities:
+  - id: 611211
+    reference_id: 932222
+    scoring_system: cvssv3
+    value: '3.3'
+    scoring_elements: CVSS:3.0/AV:N/AC:H/PR:H/UI:N/S:U/C:L/I:L/A:N
+  - id: 611210
+    reference_id: 932221
+    scoring_system: rhbs
+    value: low
+    scoring_elements:
+  - id: 449646
+    reference_id: 1234
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:N/A:N
+  - id: 449644
+    reference_id: 1234
+    scoring_system: cvssv3
+    value: '4.9'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N
+  - id: 165
+    reference_id: 1236
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 49610
+    reference_id: 173979
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 932222
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2020-1694.json
+    reference_id:
+  - id: 932221
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1790759
+    reference_id: 1790759
+  - id: 568146
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:keycloak:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:keycloak:*:*:*:*:*:*:*:*
+  - id: 1234
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-1694
+    reference_id: CVE-2020-1694
+  - id: 1236
+    url: https://github.com/advisories/GHSA-72j4-94rx-cr6w
+    reference_id: GHSA-72j4-94rx-cr6w
+  - id: 173979
+    url: https://access.redhat.com/errata/RHSA-2020:2813
+    reference_id: RHSA-2020:2813
+weaknesses: []

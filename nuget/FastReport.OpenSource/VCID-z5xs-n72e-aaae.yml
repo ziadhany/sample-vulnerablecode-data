@@ -1,0 +1,44 @@
+vulnerability_id: VCID-z5xs-n72e-aaae
+aliases:
+  - CVE-2020-27998
+  - GHSA-v726-3vg9-cp34
+summary: Missing Authorization in FastReport
+severities:
+  - id: 468170
+    reference_id: 15992
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 468168
+    reference_id: 15992
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 1866
+    reference_id: 15997
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 15994
+    url: https://github.com/FastReports/FastReport/compare/v2020.3.0...v2020.4.0
+    reference_id:
+  - id: 15993
+    url: https://github.com/FastReports/FastReport/pull/206
+    reference_id:
+  - id: 15995
+    url: https://opensource.fast-report.com/2020/09/report-script-security.html
+    reference_id:
+  - id: 15996
+    url: https://securitylab.github.com/advisories/GHSL-2020-143-FastReportsInc-FastReports
+    reference_id:
+  - id: 838233
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:fast-report:fastreport:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:fast-report:fastreport:*:*:*:*:*:*:*:*
+  - id: 15992
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-27998
+    reference_id: CVE-2020-27998
+  - id: 15997
+    url: https://github.com/advisories/GHSA-v726-3vg9-cp34
+    reference_id: GHSA-v726-3vg9-cp34
+weaknesses: []

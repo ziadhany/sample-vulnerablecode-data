@@ -1,0 +1,21 @@
+vulnerability_id: VCID-s2w8-w7tn-aaaf
+aliases:
+  - GHSA-6r5x-hmgg-7h53
+summary: Remote code execution in Handlebars.js
+severities:
+  - id: 704687
+    reference_id: 1466355
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 1466354
+    url: https://github.com/wycats/handlebars.js/commit/edc6220d51139b32c28e51641fadad59a543ae57
+    reference_id:
+  - id: 1466353
+    url: https://github.com/wycats/handlebars.js/issues/1267#issue-187151586
+    reference_id:
+  - id: 1466355
+    url: https://github.com/advisories/GHSA-6r5x-hmgg-7h53
+    reference_id: GHSA-6r5x-hmgg-7h53
+weaknesses: []

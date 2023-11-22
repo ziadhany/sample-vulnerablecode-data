@@ -1,0 +1,55 @@
+vulnerability_id: VCID-88my-hd9q-aaam
+aliases:
+  - CVE-2018-1096
+summary: An input sanitization flaw was found in the id field in the dashboard controller of
+  Foreman before 1.16.1. A user could use this flaw to perform an SQL injection attack on the
+  back end database.
+severities:
+  - id: 616854
+    reference_id: 936361
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+  - id: 616853
+    reference_id: 936360
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 311933
+    reference_id: 725589
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:N/A:N
+  - id: 311931
+    reference_id: 725589
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+  - id: 49936
+    reference_id: 174399
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 725587
+    url: http://projects.theforeman.org/issues/23028
+    reference_id:
+  - id: 936361
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2018-1096.json
+    reference_id:
+  - id: 936360
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1561061
+    reference_id: 1561061
+  - id: 670917
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:satellite:6.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:satellite:6.4:*:*:*:*:*:*:*
+  - id: 158226
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:foreman:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:foreman:*:*:*:*:*:*:*:*
+  - id: 725589
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-1096
+    reference_id: CVE-2018-1096
+  - id: 174399
+    url: https://access.redhat.com/errata/RHSA-2018:2927
+    reference_id: RHSA-2018:2927
+weaknesses: []

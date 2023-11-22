@@ -1,0 +1,63 @@
+vulnerability_id: VCID-kkyf-sr7e-aaap
+aliases:
+  - CVE-2015-5320
+summary: Jenkins before 1.638 and LTS before 1.625.2 do not properly verify the shared secret
+  used in JNLP slave connections, which allows remote attackers to connect as slaves and obtain
+  sensitive information or possibly gain administrative access by leveraging knowledge of the
+  name of a slave.
+severities:
+  - id: 52634
+    reference_id: 177516
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 38137
+    reference_id: 159210
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 51875
+    reference_id: 176575
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 52209
+    reference_id: 177000
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 158438
+    url: http://rhn.redhat.com/errata/RHSA-2016-0489.html
+    reference_id:
+  - id: 177517
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2015-5320.json
+    reference_id:
+  - id: 159203
+    url: https://wiki.jenkins-ci.org/display/SECURITY/Jenkins+Security+Advisory+2015-11-11
+    reference_id:
+  - id: 177516
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1282363
+    reference_id: 1282363
+  - id: 159205
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:jenkins:jenkins:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:jenkins:jenkins:*:*:*:*:*:*:*:*
+  - id: 159206
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:jenkins:jenkins:*:*:*:*:lts:*:*:*
+    reference_id: cpe:2.3:a:jenkins:jenkins:*:*:*:*:lts:*:*:*
+  - id: 158468
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift:2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift:2.0:*:*:*:*:*:*:*
+  - id: 159207
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift:*:*:*:*:enterprise:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift:*:*:*:*:enterprise:*:*:*
+  - id: 159210
+    url: https://nvd.nist.gov/vuln/detail/CVE-2015-5320
+    reference_id: CVE-2015-5320
+  - id: 176575
+    url: https://access.redhat.com/errata/RHSA-2016:0070
+    reference_id: RHSA-2016:0070
+  - id: 177000
+    url: https://access.redhat.com/errata/RHSA-2016:0489
+    reference_id: RHSA-2016:0489
+weaknesses: []

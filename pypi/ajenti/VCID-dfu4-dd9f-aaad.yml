@@ -1,0 +1,34 @@
+vulnerability_id: VCID-dfu4-dd9f-aaad
+aliases:
+  - CVE-2018-1000082
+  - PYSEC-2018-111
+summary: Ajenti version version 2 contains a Cross ite Request Forgery (CSRF) vulnerability
+  in the command execution panel of the tool used to manage the server. that can result in Code
+  execution on the server . This attack appear to be exploitable via Being a CSRF, victim interaction
+  is needed, when the victim access the infected trigger of the CSRF any code that match the
+  victim privledges on the server can be executed..
+severities:
+  - id: 307242
+    reference_id: 22584
+    scoring_system: cvssv2
+    value: '6.8'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:P/A:P
+  - id: 307240
+    reference_id: 22584
+    scoring_system: cvssv3
+    value: '8.8'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+references:
+  - id: 1430
+    url: https://medium.com/stolabs/security-issues-on-ajenti-d2b7526eaeee
+    reference_id:
+  - id: 1431
+    url: https://pypi.org/project/ajenti-panel
+    reference_id:
+  - id: 721368
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:ajenti:ajenti:2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:ajenti:ajenti:2:*:*:*:*:*:*:*
+  - id: 22584
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-1000082
+    reference_id: CVE-2018-1000082
+weaknesses: []

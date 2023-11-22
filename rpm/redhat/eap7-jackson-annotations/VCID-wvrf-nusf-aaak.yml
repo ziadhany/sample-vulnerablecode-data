@@ -1,0 +1,137 @@
+vulnerability_id: VCID-wvrf-nusf-aaak
+aliases:
+  - CVE-2019-10202
+  - GHSA-c27h-mcmw-48hv
+summary: 'CVE-2019-10202 codehaus: incomplete fix for unsafe deserialization in jackson-databind
+  vulnerabilities'
+severities:
+  - id: 72443
+    reference_id: 202941
+    scoring_system: cvssv3
+    value: '8.1'
+    scoring_elements: CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 72442
+    reference_id: 202940
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 367308
+    reference_id: 766618
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 367306
+    reference_id: 766618
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 707947
+    reference_id: 1471482
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+  - id: 71892
+    reference_id: 202376
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 71895
+    reference_id: 202379
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 71894
+    reference_id: 202378
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 63406
+    reference_id: '191640'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 48100
+    reference_id: 172635
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 202941
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2019-10202.json
+    reference_id:
+  - id: 766616
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2019-10202
+    reference_id:
+  - id: 14063
+    url: https://lists.apache.org/thread.html/r0fbf2c60967bc9f73d7f5a62ad3b955789f9a14b950f42e99fca9b4e@%3Cissues.hive.apache.org%3E
+    reference_id:
+  - id: 1471205
+    url: https://lists.apache.org/thread.html/r0fbf2c60967bc9f73d7f5a62ad3b955789f9a14b950f42e99fca9b4e%40%3Cissues.hive.apache.org%3E
+    reference_id:
+  - id: 14064
+    url: https://lists.apache.org/thread.html/r1edabcfacdad42d3c830464e9cf07a9a489059a7b7a8642cf055542d@%3Cissues.hive.apache.org%3E
+    reference_id:
+  - id: 1471207
+    url: https://lists.apache.org/thread.html/r1edabcfacdad42d3c830464e9cf07a9a489059a7b7a8642cf055542d%40%3Cissues.hive.apache.org%3E
+    reference_id:
+  - id: 14070
+    url: https://lists.apache.org/thread.html/r356592d9874ab4bc9da4754592f8aa6edc894c95e17e58484bc2af7a@%3Cissues.hive.apache.org%3E
+    reference_id:
+  - id: 1471212
+    url: https://lists.apache.org/thread.html/r356592d9874ab4bc9da4754592f8aa6edc894c95e17e58484bc2af7a%40%3Cissues.hive.apache.org%3E
+    reference_id:
+  - id: 14066
+    url: https://lists.apache.org/thread.html/r500867b74f42230a3d65b8aec31fc93ac390eeae737c91a759ab94cb@%3Cissues.hive.apache.org%3E
+    reference_id:
+  - id: 1471220
+    url: https://lists.apache.org/thread.html/r500867b74f42230a3d65b8aec31fc93ac390eeae737c91a759ab94cb%40%3Cissues.hive.apache.org%3E
+    reference_id:
+  - id: 14067
+    url: https://lists.apache.org/thread.html/r5f16a1bd31a7e94ca78eda686179930781aa3a4a990cd55986703581@%3Cdev.hive.apache.org%3E
+    reference_id:
+  - id: 1471221
+    url: https://lists.apache.org/thread.html/r5f16a1bd31a7e94ca78eda686179930781aa3a4a990cd55986703581%40%3Cdev.hive.apache.org%3E
+    reference_id:
+  - id: 14068
+    url: https://lists.apache.org/thread.html/r6dea2a887f5eb1d68f124d64b14cd1a04f682f06de8cd01b7e4214e0@%3Cissues.hive.apache.org%3E
+    reference_id:
+  - id: 1471224
+    url: https://lists.apache.org/thread.html/r6dea2a887f5eb1d68f124d64b14cd1a04f682f06de8cd01b7e4214e0%40%3Cissues.hive.apache.org%3E
+    reference_id:
+  - id: 14069
+    url: https://lists.apache.org/thread.html/rce00a1c60f7df4b10e72fa87827c102f55b074bb91993631df2c21f9@%3Cdev.hive.apache.org%3E
+    reference_id:
+  - id: 1471230
+    url: https://lists.apache.org/thread.html/rce00a1c60f7df4b10e72fa87827c102f55b074bb91993631df2c21f9%40%3Cdev.hive.apache.org%3E
+    reference_id:
+  - id: 766617
+    url: https://lists.apache.org/thread.html/refea6018a2c4e9eb7838cab567ed219c3f726dcd83a5472fbb80d8d9@%3Cissues.flume.apache.org%3E
+    reference_id:
+  - id: 1471481
+    url: https://lists.apache.org/thread.html/refea6018a2c4e9eb7838cab567ed219c3f726dcd83a5472fbb80d8d9%40%3Cissues.flume.apache.org%3E
+    reference_id:
+  - id: 202940
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1731271
+    reference_id: 1731271
+  - id: 766618
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-10202
+    reference_id: CVE-2019-10202
+  - id: 1471482
+    url: https://github.com/advisories/GHSA-c27h-mcmw-48hv
+    reference_id: GHSA-c27h-mcmw-48hv
+  - id: 202376
+    url: https://access.redhat.com/errata/RHSA-2019:2935
+    reference_id: RHSA-2019:2935
+  - id: 202379
+    url: https://access.redhat.com/errata/RHSA-2019:2936
+    reference_id: RHSA-2019:2936
+  - id: 202378
+    url: https://access.redhat.com/errata/RHSA-2019:2937
+    reference_id: RHSA-2019:2937
+  - id: '191640'
+    url: https://access.redhat.com/errata/RHSA-2019:2938
+    reference_id: RHSA-2019:2938
+  - id: 172635
+    url: https://access.redhat.com/errata/RHSA-2020:5568
+    reference_id: RHSA-2020:5568
+weaknesses: []

@@ -1,0 +1,12 @@
+vulnerability_id: VCID-t1a8-fh64-aaac
+aliases:
+  - OSVDB-97854
+summary: |
+  Windows Shell Escaping Weakness
+  The gem contains a flaw that is due to the program failing to properly escape a shell that contains injected characters. This may allow a context-dependent attacker to potentially execute arbitrary commands.
+severities: []
+references:
+  - id: 38756
+    url: http://osvdb.org/show/osvdb/97854
+    reference_id:
+weaknesses: []

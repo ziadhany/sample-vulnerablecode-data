@@ -1,0 +1,38 @@
+package: pkg:npm/thenify
+versions:
+  - purl: pkg:npm/thenify@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-cewf-hwaq-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/thenify@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-cewf-hwaq-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/thenify@3.0.0
+    affected_by_vulnerabilities:
+      - VCID-cewf-hwaq-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/thenify@3.1.0
+    affected_by_vulnerabilities:
+      - VCID-cewf-hwaq-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/thenify@3.1.1
+    affected_by_vulnerabilities:
+      - VCID-cewf-hwaq-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/thenify@3.2.0
+    affected_by_vulnerabilities:
+      - VCID-cewf-hwaq-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/thenify@3.2.1
+    affected_by_vulnerabilities:
+      - VCID-cewf-hwaq-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/thenify@3.3.0
+    affected_by_vulnerabilities:
+      - VCID-cewf-hwaq-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/thenify@3.3.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-cewf-hwaq-aaaa

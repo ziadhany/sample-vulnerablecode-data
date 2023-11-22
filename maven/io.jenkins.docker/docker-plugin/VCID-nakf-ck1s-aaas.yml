@@ -1,0 +1,34 @@
+vulnerability_id: VCID-nakf-ck1s-aaas
+aliases:
+  - CVE-2019-10342
+summary: |
+  Information Exposure
+  A missing permission check in Jenkins Docker Plugin in various `fillCredentialsIdItems` methods allowed users with Overall/Read access to enumerate credentials ID of credentials stored in Jenkins.
+severities:
+  - id: 367892
+    reference_id: 29130
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:N/A:N
+  - id: 367890
+    reference_id: 29130
+    scoring_system: cvssv3
+    value: '4.3'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N
+references:
+  - id: 29131
+    url: https://jenkins.io/security/advisory/2019-07-11/#SECURITY-1400
+    reference_id:
+  - id: 767471
+    url: http://www.openwall.com/lists/oss-security/2019/07/11/4
+    reference_id:
+  - id: 29127
+    url: http://www.securityfocus.com/bid/109156
+    reference_id:
+  - id: 767472
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:jenkins:docker:*:*:*:*:*:jenkins:*:*
+    reference_id: cpe:2.3:a:jenkins:docker:*:*:*:*:*:jenkins:*:*
+  - id: 29130
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-10342
+    reference_id: CVE-2019-10342
+weaknesses: []

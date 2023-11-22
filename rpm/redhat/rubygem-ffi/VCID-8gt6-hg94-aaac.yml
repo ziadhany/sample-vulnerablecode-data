@@ -1,0 +1,69 @@
+vulnerability_id: VCID-8gt6-hg94-aaac
+aliases:
+  - CVE-2019-3893
+summary: In Foreman it was discovered that the delete compute resource operation, when executed
+  from the Foreman API, leads to the disclosure of the plaintext password or token for the affected
+  compute resource. A malicious user with the "delete_compute_resource" permission can use this
+  flaw to take control over compute resources managed by foreman. Versions before 1.20.3, 1.21.1,
+  1.22.0 are vulnerable.
+severities:
+  - id: 612523
+    reference_id: 933193
+    scoring_system: cvssv3
+    value: '4.9'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N
+  - id: 612522
+    reference_id: 933192
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 406480
+    reference_id: 796360
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:N/A:N
+  - id: 406478
+    reference_id: 796360
+    scoring_system: cvssv3
+    value: '4.9'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N
+  - id: 62030
+    reference_id: 189830
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 933193
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2019-3893.json
+    reference_id:
+  - id: 796357
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2019-3893
+    reference_id:
+  - id: 796358
+    url: https://github.com/theforeman/foreman/pull/6621
+    reference_id:
+  - id: 796359
+    url: https://projects.theforeman.org/issues/26450
+    reference_id:
+  - id: 796355
+    url: http://www.openwall.com/lists/oss-security/2019/04/14/2
+    reference_id:
+  - id: 796356
+    url: http://www.securityfocus.com/bid/107846
+    reference_id:
+  - id: 933192
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1696400
+    reference_id: 1696400
+  - id: 511591
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:satellite:6.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:satellite:6.0:*:*:*:*:*:*:*
+  - id: 158226
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:foreman:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:foreman:*:*:*:*:*:*:*:*
+  - id: 796360
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-3893
+    reference_id: CVE-2019-3893
+  - id: 189830
+    url: https://access.redhat.com/errata/RHSA-2019:3172
+    reference_id: RHSA-2019:3172
+weaknesses: []

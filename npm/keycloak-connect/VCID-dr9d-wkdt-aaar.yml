@@ -1,0 +1,52 @@
+vulnerability_id: VCID-dr9d-wkdt-aaar
+aliases:
+  - CVE-2019-10169
+summary: |
+  Improper Privilege Management
+  A flaw was found in Keycloak’s user-managed access interface, where it would permit a script to be set in the UMA policy. This flaw allows an authenticated attacker with UMA permissions to configure a malicious script to trigger and execute arbitrary code with the permissions of the user running the application.
+severities:
+  - id: 50510
+    reference_id: 175072
+    scoring_system: cvssv3
+    value: '6.6'
+    scoring_elements: CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H
+  - id: 50509
+    reference_id: 175071
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 367104
+    reference_id: 34953
+    scoring_system: cvssv2
+    value: '6.5'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:P/A:P
+  - id: 367102
+    reference_id: 34953
+    scoring_system: cvssv3
+    value: '7.2'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H
+  - id: 50506
+    reference_id: 175069
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 175072
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2019-10169.json
+    reference_id:
+  - id: 34954
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2019-10169
+    reference_id:
+  - id: 175071
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1721302
+    reference_id: 1721302
+  - id: 568146
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:keycloak:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:keycloak:*:*:*:*:*:*:*:*
+  - id: 34953
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-10169
+    reference_id: CVE-2019-10169
+  - id: 175069
+    url: https://access.redhat.com/errata/RHSA-2019:3050
+    reference_id: RHSA-2019:3050
+weaknesses: []

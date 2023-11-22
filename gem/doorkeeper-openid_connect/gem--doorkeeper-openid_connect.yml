@@ -1,0 +1,26 @@
+package: pkg:gem/doorkeeper-openid_connect
+versions:
+  - purl: pkg:gem/doorkeeper-openid_connect@1.4.0
+    affected_by_vulnerabilities:
+      - VCID-1nga-td9z-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper-openid_connect@1.5.0
+    affected_by_vulnerabilities:
+      - VCID-1nga-td9z-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper-openid_connect@1.5.1
+    affected_by_vulnerabilities:
+      - VCID-1nga-td9z-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper-openid_connect@1.5.2
+    affected_by_vulnerabilities:
+      - VCID-1nga-td9z-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper-openid_connect@1.5.3
+    affected_by_vulnerabilities:
+      - VCID-1nga-td9z-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/doorkeeper-openid_connect@1.5.4
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-1nga-td9z-aaag

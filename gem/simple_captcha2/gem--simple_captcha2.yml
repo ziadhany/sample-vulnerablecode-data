@@ -1,0 +1,10 @@
+package: pkg:gem/simple_captcha2
+versions:
+  - purl: pkg:gem/simple_captcha2@0.2.3
+    affected_by_vulnerabilities:
+      - VCID-fcrh-jv7w-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/simple_captcha2@0.3.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-fcrh-jv7w-aaan

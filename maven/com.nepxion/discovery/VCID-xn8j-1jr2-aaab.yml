@@ -1,0 +1,23 @@
+vulnerability_id: VCID-xn8j-1jr2-aaab
+aliases:
+  - CVE-2022-23464
+  - GHSA-hhxh-qphc-v423
+summary: 'Nepxion Discovery vulnerable to potential Information Disclosure due to  Server-Side
+  Request Forgery '
+severities:
+  - id: 647589
+    reference_id: 1416983
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 1416980
+    url: https://securitylab.github.com/advisories/GHSL-2022-033_GHSL-2022-034_Discovery/
+    reference_id:
+  - id: 1416982
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-23464
+    reference_id: CVE-2022-23464
+  - id: 1416983
+    url: https://github.com/advisories/GHSA-hhxh-qphc-v423
+    reference_id: GHSA-hhxh-qphc-v423
+weaknesses: []

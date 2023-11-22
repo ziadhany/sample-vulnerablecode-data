@@ -1,0 +1,14 @@
+package: pkg:pypi/beginner
+versions:
+  - purl: pkg:pypi/beginner@0.0.2
+    affected_by_vulnerabilities:
+      - VCID-f6n8-xwae-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/beginner@0.0.4
+    affected_by_vulnerabilities:
+      - VCID-f6n8-xwae-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/beginner@0.0.5
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-f6n8-xwae-aaan

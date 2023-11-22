@@ -1,0 +1,31 @@
+vulnerability_id: VCID-bp4y-cbvr-aaaj
+aliases:
+  - CVE-2020-7613
+summary: |
+  Injection Vulnerability
+  clamscan is vulnerable to Command Injection. It is possible to inject arbitrary commands as part of the `_is_clamav_binary` function located within `Index.js`.
+severities:
+  - id: 489081
+    reference_id: 34183
+    scoring_system: cvssv2
+    value: '6.8'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:P/A:P
+  - id: 489079
+    reference_id: 34183
+    scoring_system: cvssv3
+    value: '8.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+references:
+  - id: 852632
+    url: https://github.com/kylefarris/clamscan/blob/master/index.js#L34
+    reference_id:
+  - id: 852633
+    url: https://snyk.io/vuln/SNYK-JS-CLAMSCAN-564113
+    reference_id:
+  - id: 852634
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:clamscan_project:clamscan:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:clamscan_project:clamscan:*:*:*:*:*:*:*:*
+  - id: 34183
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-7613
+    reference_id: CVE-2020-7613
+weaknesses: []

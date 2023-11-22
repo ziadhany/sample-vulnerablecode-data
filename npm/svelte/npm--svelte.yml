@@ -1,0 +1,1750 @@
+package: pkg:npm/svelte
+versions:
+  - purl: pkg:npm/svelte@0.0.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@0.0.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@0.1.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@0.1.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@0.2.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@0.2.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@0.2.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@0.3.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.0.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.0.3
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.0.4
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.0.5
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.0.6
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.0.7
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.1.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.10.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.10.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.10.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.10.3
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.1.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.11.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.11.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.11.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.11.3
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.11.4
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.1.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.12.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.12.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.1.3
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.13.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.13.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.13.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.13.3
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.13.4
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.13.5
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.13.6
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.13.7
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.14.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.14.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.15.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.15.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.16.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.17.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.17.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.17.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.18.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.18.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.18.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.19.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.19.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.2.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.20.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.20.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.20.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.2.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.21.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.2.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.22.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.22.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.22.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.22.3
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.22.4
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.22.5
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.2.3
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.23.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.23.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.23.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.23.3
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.23.4
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.2.4
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.24.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.2.5
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.25.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.25.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.26.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.26.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.26.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.27.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.28.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.28.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.29.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.29.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.29.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.29.3
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.3.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.30.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.3.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.31.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.32.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.33.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.34.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.35.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.36.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.37.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.38.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.39.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.39.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.39.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.39.3
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.39.4
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.4.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.40.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.40.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.40.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.41.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.41.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.41.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.41.3
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.41.4
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.42.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.42.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.43.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.43.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.44.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.44.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.44.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.45.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.46.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.46.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.47.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.47.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.47.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.48.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.49.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.49.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.49.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.49.3
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.5.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.50.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.50.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.51.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.51.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.52.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.53.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.54.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.54.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.54.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.55.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.55.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.56.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.56.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.56.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.56.3
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.56.4
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.57.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.57.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.57.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.57.3
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.57.4
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.58.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.58.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.58.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.58.3
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.58.4
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.58.5
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.59.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.6.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.60.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.60.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.60.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.60.3
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.6.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.6.10
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.61.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.6.11
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.6.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.62.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.6.3
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.63.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.63.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.6.4
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.64.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.64.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.6.5
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.6.6
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.6.7
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.6.8
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.6.9
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.7.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.7.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.8.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.8.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.9.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@1.9.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.1.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.10.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.10.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.1.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.11.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.12.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.12.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.13.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.13.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.13.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.13.3
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.13.4
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.13.5
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.14.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.14.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.14.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.14.3
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.15.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.15.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.15.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.15.3
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.16.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.16.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.2.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.3.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.4.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.4.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.4.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.4.3
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.4.4
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.5.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.5.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.6.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.6.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.6.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.6.3
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.6.4
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.6.5
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.6.6
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.7.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.7.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.7.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.8.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.8.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.9.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.9.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.9.10
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.9.11
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.9.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.9.3
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.9.4
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.9.5
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.9.6
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.9.7
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.9.8
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@2.9.9
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-alpha1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-alpha10
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-alpha11
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-alpha12
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-alpha13
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-alpha14
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-alpha15
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-alpha16
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-alpha17
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-alpha18
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-alpha19
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-alpha2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-alpha20
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-alpha21
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-alpha22
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-alpha23
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-alpha24
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-alpha25
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-alpha26
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-alpha27
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-alpha3
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-alpha4
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-alpha5
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-alpha6
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-alpha7
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-alpha8
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-alpha9
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-beta.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-beta.10
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-beta.11
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-beta.12
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-beta.13
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-beta.14
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-beta.15
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-beta.16
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-beta.17
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-beta.18
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-beta.19
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-beta.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-beta.20
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-beta.21
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-beta.22
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-beta.23
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-beta.25
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-beta.26
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-beta.27
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-beta.28
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-beta.3
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-beta.4
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-beta.5
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-beta.6
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-beta.7
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-beta.8
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.0-beta.9
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.0.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.1.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.10.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.10.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.11.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.12.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.12.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.13.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.13.0-alpha.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.13.0-alpha.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.13.0-alpha.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.14.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.14.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.15.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.16.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.16.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.16.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.16.3
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.16.4
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.16.5
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.16.6
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.16.7
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.17.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.17.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.17.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.17.3
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.18.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.18.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.18.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.19.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.19.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.19.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.2.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.20.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.20.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.2.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.21.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.2.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.22.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.22.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.22.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.22.3
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.23.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.23.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.23.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.24.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.24.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.25.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.25.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.26.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.27.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.28.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.29.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.29.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.29.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.29.3
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.29.4
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.29.5
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.29.6
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.29.7
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.3.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.30.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.30.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.31.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.31.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.31.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.32.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.32.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.32.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.32.3
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.33.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.34.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.35.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.36.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.37.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.38.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.38.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.38.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.38.3
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.39.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.4.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.40.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.40.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.40.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.40.3
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.4.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.41.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.4.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.42.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.42.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.42.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.42.3
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.42.4
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.42.5
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.42.6
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.4.3
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.43.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.43.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.43.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.4.4
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.44.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.44.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.44.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.44.3
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.45.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.46.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.46.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.46.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.46.3
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.46.4
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.46.5
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.46.6
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.47.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.48.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.49.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+  - purl: pkg:npm/svelte@3.5.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.5.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.5.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.5.3
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.5.4
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.6.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.6.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.6.10
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.6.11
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.6.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.6.3
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.6.4
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.6.5
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.6.6
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.6.7
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.6.8
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.6.9
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.7.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.7.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.8.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.8.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.9.0
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.9.1
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/svelte@3.9.2
+    affected_by_vulnerabilities:
+      - VCID-h2gn-zk49-aaam
+    fixing_vulnerabilities: []

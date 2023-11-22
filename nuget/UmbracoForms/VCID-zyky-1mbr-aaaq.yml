@@ -1,0 +1,35 @@
+vulnerability_id: VCID-zyky-1mbr-aaaq
+aliases:
+  - CVE-2020-7685
+  - GHSA-8m73-w2r2-6xxj
+summary: Insecure defaults in UmbracoForms
+severities:
+  - id: 489361
+    reference_id: 16363
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:P/A:N
+  - id: 489359
+    reference_id: 16363
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
+  - id: '1951'
+    reference_id: 16365
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 16364
+    url: https://snyk.io/vuln/SNYK-DOTNET-UMBRACOFORMS-595765
+    reference_id:
+  - id: 852805
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:umbraco:umbracoforms:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:umbraco:umbracoforms:*:*:*:*:*:*:*:*
+  - id: 16363
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-7685
+    reference_id: CVE-2020-7685
+  - id: 16365
+    url: https://github.com/advisories/GHSA-8m73-w2r2-6xxj
+    reference_id: GHSA-8m73-w2r2-6xxj
+weaknesses: []

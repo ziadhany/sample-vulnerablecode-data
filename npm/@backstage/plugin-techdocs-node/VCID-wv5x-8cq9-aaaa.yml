@@ -1,0 +1,30 @@
+vulnerability_id: VCID-wv5x-8cq9-aaaa
+aliases:
+  - GHSA-4jqc-jvh2-pxg9
+  - GMS-2022-2230
+  - GMS-2022-2231
+summary: |
+  Path traversal for local publishers in TechDocs backend
+  A malicious actor with the ability to register entities in the Software Catalog is able to write files to arbitrary paths on the techdocs backend host instance when `techdocs.publisher.type` is set to `local`.
+severities:
+  - id: 704579
+    reference_id: 952130
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 704578
+    reference_id: 952128
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 952129
+    url: https://github.com/backstage/backstage/commit/429c9f9daa5654dd1b996aa85f7264eb23a2e4fa
+    reference_id:
+  - id: 952130
+    url: https://github.com/advisories/GHSA-4jqc-jvh2-pxg9
+    reference_id: GHSA-4jqc-jvh2-pxg9
+  - id: 952128
+    url: https://github.com/backstage/backstage/security/advisories/GHSA-4jqc-jvh2-pxg9
+    reference_id: GHSA-4jqc-jvh2-pxg9
+weaknesses: []

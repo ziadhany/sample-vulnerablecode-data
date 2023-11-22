@@ -1,0 +1,94 @@
+vulnerability_id: VCID-9bep-e7zz-aaaa
+aliases:
+  - CVE-2012-0803
+  - GHSA-2p7x-jcr3-7p2c
+summary: 'CVE-2012-0803 Apache CXF: improper validation of UsernameToken policies'
+severities:
+  - id: 65808
+    reference_id: '194746'
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 151086
+    reference_id: 481605
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 151084
+    reference_id: 481605
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 630003
+    reference_id: 945868
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 481603
+    url: http://marc.info/?l=full-disclosure&m=132861746008002
+    reference_id:
+  - id: '194747'
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2012-0803.json
+    reference_id:
+  - id: 10867
+    url: https://lists.apache.org/thread.html/r36e44ffc1a9b365327df62cdfaabe85b9a5637de102cea07d79b2dbf@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 1471053
+    url: https://lists.apache.org/thread.html/r36e44ffc1a9b365327df62cdfaabe85b9a5637de102cea07d79b2dbf%40%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10866
+    url: https://lists.apache.org/thread.html/rc774278135816e7afc943dc9fc78eb0764f2c84a2b96470a0187315c@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 1471054
+    url: https://lists.apache.org/thread.html/rc774278135816e7afc943dc9fc78eb0764f2c84a2b96470a0187315c%40%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10872
+    url: https://lists.apache.org/thread.html/rd49aabd984ed540c8ff7916d4d79405f3fa311d2fdbcf9ed307839a6@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 1471055
+    url: https://lists.apache.org/thread.html/rd49aabd984ed540c8ff7916d4d79405f3fa311d2fdbcf9ed307839a6%40%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10860
+    url: https://lists.apache.org/thread.html/rec7160382badd3ef4ad017a22f64a266c7188b9ba71394f0d321e2d4@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 1471056
+    url: https://lists.apache.org/thread.html/rec7160382badd3ef4ad017a22f64a266c7188b9ba71394f0d321e2d4%40%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10862
+    url: https://lists.apache.org/thread.html/rfb87e0bf3995e7d560afeed750fac9329ff5f1ad49da365129b7f89e@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 1471057
+    url: https://lists.apache.org/thread.html/rfb87e0bf3995e7d560afeed750fac9329ff5f1ad49da365129b7f89e%40%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10873
+    url: https://lists.apache.org/thread.html/rff42cfa5e7d75b7c1af0e37589140a8f1999e578a75738740b244bd4@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 1471058
+    url: https://lists.apache.org/thread.html/rff42cfa5e7d75b7c1af0e37589140a8f1999e578a75738740b244bd4%40%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 1471060
+    url: https://marc.info/?l=full-disclosure&m=132861746008002
+    reference_id:
+  - id: 1471061
+    url: https://svn.apache.org/viewvc?view=revision&revision=1233457
+    reference_id:
+  - id: 481604
+    url: http://svn.apache.org/viewvc?view=revision&revision=1233457
+    reference_id:
+  - id: '194746'
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=788208
+    reference_id: 788208
+  - id: 481606
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.4.5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.4.5:*:*:*:*:*:*:*
+  - id: 481607
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:2.5.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:2.5.1:*:*:*:*:*:*:*
+  - id: 481605
+    url: https://nvd.nist.gov/vuln/detail/CVE-2012-0803
+    reference_id: CVE-2012-0803
+  - id: 945868
+    url: https://github.com/advisories/GHSA-2p7x-jcr3-7p2c
+    reference_id: GHSA-2p7x-jcr3-7p2c
+weaknesses: []

@@ -1,0 +1,53 @@
+vulnerability_id: VCID-f1fn-3z4v-aaar
+aliases:
+  - CVE-2013-4182
+summary: 'CVE-2013-4182 foreman: app/controllers/api/v1/hosts_controller.rb API privilege escalation'
+severities:
+  - id: 168659
+    reference_id: 533382
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 61560
+    reference_id: 189168
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 533380
+    url: http://projects.theforeman.org/issues/2863
+    reference_id:
+  - id: 533371
+    url: http://rhn.redhat.com/errata/RHSA-2013-1196.html
+    reference_id:
+  - id: 189173
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2013-4182.json
+    reference_id:
+  - id: 533381
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=990374
+    reference_id:
+  - id: 533372
+    url: http://theforeman.org/manuals/1.2/index.html#Releasenotesfor1.2.2
+    reference_id:
+  - id: 520349
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openstack:3.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:openstack:3.0:*:*:*:*:*:*:*
+  - id: 158226
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:foreman:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:foreman:*:*:*:*:*:*:*:*
+  - id: 533374
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:foreman:1.2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:foreman:1.2.0:*:*:*:*:*:*:*
+  - id: 533375
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:foreman:1.2.0:rc1:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:foreman:1.2.0:rc1:*:*:*:*:*:*
+  - id: 533376
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:foreman:1.2.0:rc2:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:foreman:1.2.0:rc2:*:*:*:*:*:*
+  - id: 533382
+    url: https://nvd.nist.gov/vuln/detail/CVE-2013-4182
+    reference_id: CVE-2013-4182
+  - id: 189168
+    url: https://access.redhat.com/errata/RHSA-2013:1196
+    reference_id: RHSA-2013:1196
+weaknesses: []

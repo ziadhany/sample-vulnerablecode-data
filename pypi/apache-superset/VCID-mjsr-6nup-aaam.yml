@@ -1,0 +1,38 @@
+vulnerability_id: VCID-mjsr-6nup-aaam
+aliases:
+  - CVE-2021-42250
+  - GHSA-5fp8-c45m-256p
+  - PYSEC-2021-435
+summary: Improper output neutralization for Logs. A specific Apache Superset HTTP endpoint allowed
+  for an authenticated user to forge log entries or inject malicious content into logs.
+severities:
+  - id: 564648
+    reference_id: 23159
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:N/I:P/A:N
+  - id: 564646
+    reference_id: 23159
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
+references:
+  - id: 1416731
+    url: https://github.com/advisories/GHSA-5fp8-c45m-256p
+    reference_id:
+  - id: 1416802
+    url: https://github.com/pypa/advisory-database/tree/main/vulns/apache-superset/PYSEC-2021-435.yaml
+    reference_id:
+  - id: 8264
+    url: https://lists.apache.org/thread/53lkszw6d3tybp5t99nvgcj538b9trw9
+    reference_id:
+  - id: 8265
+    url: http://www.openwall.com/lists/oss-security/2021/11/17/2
+    reference_id:
+  - id: 759276
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:superset:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:superset:*:*:*:*:*:*:*:*
+  - id: 23159
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-42250
+    reference_id: CVE-2021-42250
+weaknesses: []

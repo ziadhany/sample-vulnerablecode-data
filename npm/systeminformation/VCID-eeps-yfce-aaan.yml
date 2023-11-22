@@ -1,0 +1,40 @@
+vulnerability_id: VCID-eeps-yfce-aaan
+aliases:
+  - CVE-2020-26245
+  - GHSA-4v2w-h9jm-mqjg
+summary: |
+  OS Command Injection
+  npm package systeminformation is vulnerable to Prototype Pollution leading to Command Injection.If you cannot upgrade, be sure to check or sanitize service parameter strings that are passed to `si.inetChecksite().`
+severities:
+  - id: 463800
+    reference_id: 33897
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 463798
+    reference_id: 33897
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 706180
+    reference_id: 1467709
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 835283
+    url: https://github.com/sebhildebrandt/systeminformation/commit/8113ff0e87b2f422a5756c48f1057575e73af016
+    reference_id:
+  - id: 835284
+    url: https://github.com/sebhildebrandt/systeminformation/security/advisories/GHSA-4v2w-h9jm-mqjg
+    reference_id:
+  - id: 835285
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:systeminformation:systeminformation:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:systeminformation:systeminformation:*:*:*:*:*:node.js:*:*
+  - id: 33897
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-26245
+    reference_id: CVE-2020-26245
+  - id: 1467709
+    url: https://github.com/advisories/GHSA-4v2w-h9jm-mqjg
+    reference_id: GHSA-4v2w-h9jm-mqjg
+weaknesses: []

@@ -1,0 +1,16 @@
+package: pkg:npm/welcomyzt
+versions:
+  - purl: pkg:npm/welcomyzt@0.0.0-alpha
+    affected_by_vulnerabilities:
+      - VCID-tknd-s69k-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/welcomyzt@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-3uez-dt4d-aaap
+      - VCID-tknd-s69k-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/welcomyzt@1.1.0
+    affected_by_vulnerabilities:
+      - VCID-3uez-dt4d-aaap
+      - VCID-tknd-s69k-aaac
+    fixing_vulnerabilities: []

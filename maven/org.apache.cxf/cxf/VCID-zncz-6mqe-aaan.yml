@@ -1,0 +1,162 @@
+vulnerability_id: VCID-zncz-6mqe-aaan
+aliases:
+  - CVE-2020-1954
+  - GHSA-ffm7-7r8g-77xm
+summary: Exposure of Sensitive Information to an Unauthorized Actor in Apache CXF
+severities:
+  - id: 52700
+    reference_id: 177601
+    scoring_system: cvssv3
+    value: '5.3'
+    scoring_elements: CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
+  - id: 696630
+    reference_id: 278
+    scoring_system: generic_textual
+    value: Medium
+    scoring_elements:
+  - id: 52694
+    reference_id: 177595
+    scoring_system: rhbs
+    value: low
+    scoring_elements:
+  - id: 453248
+    reference_id: 11579
+    scoring_system: cvssv2
+    value: '2.9'
+    scoring_elements: AV:A/AC:M/Au:N/C:P/I:N/A:N
+  - id: 453246
+    reference_id: 11579
+    scoring_system: cvssv3
+    value: '5.3'
+    scoring_elements: CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
+  - id: 1163
+    reference_id: 11582
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 49240
+    reference_id: 173534
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 52699
+    reference_id: 177600
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 52698
+    reference_id: 177599
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 52697
+    reference_id: 177598
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 52696
+    reference_id: 177597
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 52695
+    reference_id: 177596
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 49184
+    reference_id: 173462
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 49183
+    reference_id: 173461
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 828632
+    url: http://cxf.apache.org/security-advisories.data/CVE-2020-1954.txt.asc?version=1&modificationDate=1585730169000&api=v2
+    reference_id:
+  - id: 177601
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2020-1954.json
+    reference_id:
+  - id: 10872
+    url: https://lists.apache.org/thread.html/rd49aabd984ed540c8ff7916d4d79405f3fa311d2fdbcf9ed307839a6@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10860
+    url: https://lists.apache.org/thread.html/rec7160382badd3ef4ad017a22f64a266c7188b9ba71394f0d321e2d4@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10862
+    url: https://lists.apache.org/thread.html/rfb87e0bf3995e7d560afeed750fac9329ff5f1ad49da365129b7f89e@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 11581
+    url: https://security.netapp.com/advisory/ntap-20220210-0001/
+    reference_id:
+  - id: 278
+    url: https://www.oracle.com/security-alerts/cpuoct2020.html
+    reference_id:
+  - id: 177595
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1824301
+    reference_id: 1824301
+  - id: 158434
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:*:*:*:*:*:*:*:*
+  - id: 169590
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:netapp:oncommand_workflow_automation:-:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:netapp:oncommand_workflow_automation:-:*:*:*:*:*:*:*
+  - id: 170310
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:netapp:snapmanager:-:*:*:*:*:sap:*:*
+    reference_id: cpe:2.3:a:netapp:snapmanager:-:*:*:*:*:sap:*:*
+  - id: 171277
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:communications_diameter_signaling_router:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:communications_diameter_signaling_router:*:*:*:*:*:*:*:*
+  - id: 813031
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:communications_diameter_signaling_router_idih\::*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:communications_diameter_signaling_router_idih\::*:*:*:*:*:*:*:*
+  - id: 773163
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:communications_element_manager:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:communications_element_manager:*:*:*:*:*:*:*:*
+  - id: 171281
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:communications_session_report_manager:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:communications_session_report_manager:*:*:*:*:*:*:*:*
+  - id: 171282
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:communications_session_route_manager:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:communications_session_route_manager:*:*:*:*:*:*:*:*
+  - id: 773202
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:enterprise_manager_base_platform:13.2.1.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:enterprise_manager_base_platform:13.2.1.0:*:*:*:*:*:*:*
+  - id: 169482
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:peoplesoft_enterprise_peopletools:8.56:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:peoplesoft_enterprise_peopletools:8.56:*:*:*:*:*:*:*
+  - id: 11579
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-1954
+    reference_id: CVE-2020-1954
+  - id: 11582
+    url: https://github.com/advisories/GHSA-ffm7-7r8g-77xm
+    reference_id: GHSA-ffm7-7r8g-77xm
+  - id: 173534
+    url: https://access.redhat.com/errata/RHSA-2020:3585
+    reference_id: RHSA-2020:3585
+  - id: 177600
+    url: https://access.redhat.com/errata/RHSA-2020:4244
+    reference_id: RHSA-2020:4244
+  - id: 177599
+    url: https://access.redhat.com/errata/RHSA-2020:4245
+    reference_id: RHSA-2020:4245
+  - id: 177598
+    url: https://access.redhat.com/errata/RHSA-2020:4246
+    reference_id: RHSA-2020:4246
+  - id: 177597
+    url: https://access.redhat.com/errata/RHSA-2020:4247
+    reference_id: RHSA-2020:4247
+  - id: 177596
+    url: https://access.redhat.com/errata/RHSA-2020:4931
+    reference_id: RHSA-2020:4931
+  - id: 173462
+    url: https://access.redhat.com/errata/RHSA-2020:4960
+    reference_id: RHSA-2020:4960
+  - id: 173461
+    url: https://access.redhat.com/errata/RHSA-2020:4961
+    reference_id: RHSA-2020:4961
+weaknesses: []

@@ -1,0 +1,47 @@
+vulnerability_id: VCID-7fvv-tax9-aaag
+aliases:
+  - CVE-2013-4347
+  - PYSEC-2014-86
+summary: The (1) make_nonce, (2) generate_nonce, and (3) generate_verifier functions in SimpleGeo
+  python-oauth2 uses weak random numbers to generate nonces, which makes it easier for remote
+  attackers to guess the nonce via a brute force attack.
+severities:
+  - id: 62136
+    reference_id: 189969
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 169009
+    reference_id: 534541
+    scoring_system: cvssv2
+    value: '5.8'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:P/A:N
+references:
+  - id: 189970
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2013-4347.json
+    reference_id:
+  - id: 23422
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2013-4347
+    reference_id:
+  - id: 4653
+    url: https://github.com/simplegeo/python-oauth2/issues/9
+    reference_id:
+  - id: 4654
+    url: https://github.com/simplegeo/python-oauth2/pull/146
+    reference_id:
+  - id: 4650
+    url: http://www.openwall.com/lists/oss-security/2013/09/12/7
+    reference_id:
+  - id: 4655
+    url: http://www.securityfocus.com/bid/62388
+    reference_id:
+  - id: 189969
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1007758
+    reference_id: 1007758
+  - id: 534540
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:urbanairship:python-oauth2:-:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:urbanairship:python-oauth2:-:*:*:*:*:*:*:*
+  - id: 534541
+    url: https://nvd.nist.gov/vuln/detail/CVE-2013-4347
+    reference_id: CVE-2013-4347
+weaknesses: []

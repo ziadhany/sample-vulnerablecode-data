@@ -1,0 +1,12 @@
+vulnerability_id: VCID-6fn7-gevc-aaaj
+aliases:
+  - GMS-2017-133
+summary: |
+  Command Execution
+  The `findLoad` method passes a provided string directly to the shell, allowing arbitrary command execution.
+severities: []
+references:
+  - id: 37265
+    url: https://github.com/KyleRoss/windows-cpu/blob/master/index.js#L81
+    reference_id:
+weaknesses: []

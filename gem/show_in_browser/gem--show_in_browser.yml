@@ -1,0 +1,14 @@
+package: pkg:gem/show_in_browser
+versions:
+  - purl: pkg:gem/show_in_browser@0.0.1
+    affected_by_vulnerabilities:
+      - VCID-sjne-bh85-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/show_in_browser@0.0.2
+    affected_by_vulnerabilities:
+      - VCID-sjne-bh85-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/show_in_browser@0.0.3
+    affected_by_vulnerabilities:
+      - VCID-sjne-bh85-aaan
+    fixing_vulnerabilities: []

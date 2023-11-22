@@ -1,0 +1,34 @@
+vulnerability_id: VCID-5s8m-e4rr-aaam
+aliases:
+  - CVE-2023-26113
+  - GHSA-47pj-q2vm-46xc
+summary: Collection.js vulnerable to Prototype Pollution
+severities:
+  - id: 708334
+    reference_id: 1472969
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 1472966
+    url: https://github.com/kobezzza/Collection/blob/be32c48e68f49d3be48a58e929d1ab8ff1d2d19c/dist/node/iterators/extend.js%23L324
+    reference_id:
+  - id: 1472965
+    url: https://github.com/kobezzza/Collection/commit/d3d937645f62f37d3115d6aa90bb510fd856e6a2
+    reference_id:
+  - id: 1472964
+    url: https://github.com/kobezzza/Collection/issues/27
+    reference_id:
+  - id: 1472967
+    url: https://github.com/kobezzza/Collection/releases/tag/v6.8.1
+    reference_id:
+  - id: 1472968
+    url: https://security.snyk.io/vuln/SNYK-JS-COLLECTIONJS-3185148
+    reference_id:
+  - id: 1472963
+    url: https://nvd.nist.gov/vuln/detail/CVE-2023-26113
+    reference_id: CVE-2023-26113
+  - id: 1472969
+    url: https://github.com/advisories/GHSA-47pj-q2vm-46xc
+    reference_id: GHSA-47pj-q2vm-46xc
+weaknesses: []

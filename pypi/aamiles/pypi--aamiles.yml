@@ -1,0 +1,10 @@
+package: pkg:pypi/aamiles
+versions:
+  - purl: pkg:pypi/aamiles@0.1.0
+    affected_by_vulnerabilities:
+      - VCID-7f7j-pxas-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aamiles@0.1.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-7f7j-pxas-aaar

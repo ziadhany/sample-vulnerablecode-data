@@ -1,0 +1,120 @@
+package: pkg:rpm/redhat/hiera
+versions:
+  - purl: pkg:rpm/redhat/hiera@1.0.0-3?arch=el6_4
+    affected_by_vulnerabilities:
+      - VCID-1yrw-e49x-aaas
+      - VCID-2ne6-wkuq-aaan
+      - VCID-2r63-z5t2-aaap
+      - VCID-2vne-6txv-aaaa
+      - VCID-2z8f-j936-aaam
+      - VCID-3pj4-1xv5-aaae
+      - VCID-53ec-mxyk-aaad
+      - VCID-6f2h-b6xh-aaam
+      - VCID-7fvv-tax9-aaag
+      - VCID-7s9f-rfa3-aaaf
+      - VCID-8k6k-s8p1-aaaf
+      - VCID-8ugw-7akm-aaah
+      - VCID-bptg-k9td-aaaf
+      - VCID-brrg-w1wu-aaad
+      - VCID-c196-2ujb-aaar
+      - VCID-eppu-krjj-aaac
+      - VCID-f1fn-3z4v-aaar
+      - VCID-gcz7-s9d8-aaan
+      - VCID-gk4s-6xep-aaap
+      - VCID-gz85-2k1e-aaab
+      - VCID-k6hs-tp56-aaan
+      - VCID-mf3u-4t39-aaab
+      - VCID-mjx8-ycsn-aaag
+      - VCID-n9k5-awr3-aaas
+      - VCID-rbr1-1m1x-aaaf
+      - VCID-sxf1-hnwu-aaaq
+      - VCID-u486-npjf-aaar
+      - VCID-uawc-cwm4-aaab
+      - VCID-w5pa-u7x8-aaad
+      - VCID-wbve-vkbf-aaam
+      - VCID-wpep-e823-aaas
+      - VCID-wv3e-9eeh-aaap
+      - VCID-ypjz-as1z-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/hiera@1.3.1-2?arch=el6sat
+    affected_by_vulnerabilities:
+      - VCID-asgj-9qjg-aaaf
+      - VCID-fse4-6yqv-aaaq
+      - VCID-j9hu-3awy-aaar
+      - VCID-ngfh-qspj-aaam
+      - VCID-us5b-bv9a-aaaa
+      - VCID-xntu-77nf-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/hiera@1.3.1-2?arch=el7
+    affected_by_vulnerabilities:
+      - VCID-1yrw-e49x-aaas
+      - VCID-2ne6-wkuq-aaan
+      - VCID-2r63-z5t2-aaap
+      - VCID-2vne-6txv-aaaa
+      - VCID-3pj4-1xv5-aaae
+      - VCID-55ga-282t-aaah
+      - VCID-6f2h-b6xh-aaam
+      - VCID-7fvv-tax9-aaag
+      - VCID-7s9f-rfa3-aaaf
+      - VCID-8k6k-s8p1-aaaf
+      - VCID-8ugw-7akm-aaah
+      - VCID-bptg-k9td-aaaf
+      - VCID-brrg-w1wu-aaad
+      - VCID-c196-2ujb-aaar
+      - VCID-eppu-krjj-aaac
+      - VCID-f1fn-3z4v-aaar
+      - VCID-gcz7-s9d8-aaan
+      - VCID-gk4s-6xep-aaap
+      - VCID-gz85-2k1e-aaab
+      - VCID-k6hs-tp56-aaan
+      - VCID-mf3u-4t39-aaab
+      - VCID-mjx8-ycsn-aaag
+      - VCID-n9k5-awr3-aaas
+      - VCID-r4j9-xzjm-aaag
+      - VCID-rbr1-1m1x-aaaf
+      - VCID-sxf1-hnwu-aaaq
+      - VCID-u486-npjf-aaar
+      - VCID-uawc-cwm4-aaab
+      - VCID-w5pa-u7x8-aaad
+      - VCID-wbve-vkbf-aaam
+      - VCID-wpep-e823-aaas
+      - VCID-ypjz-as1z-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/hiera@1.3.1-2?arch=el7sat
+    affected_by_vulnerabilities:
+      - VCID-3qfk-stpz-aaaq
+      - VCID-3r2r-sxyy-aaad
+      - VCID-4v8h-hnrc-aaak
+      - VCID-5yh1-uuyy-aaan
+      - VCID-6krj-6jsq-aaag
+      - VCID-7fzt-njy6-aaaf
+      - VCID-7png-an8b-aaar
+      - VCID-asgj-9qjg-aaaf
+      - VCID-eev7-td5s-aaan
+      - VCID-feek-6cna-aaag
+      - VCID-fse4-6yqv-aaaq
+      - VCID-gcn2-tqdt-aaac
+      - VCID-gf6a-pqd5-aaag
+      - VCID-hmge-d261-aaad
+      - VCID-j9hu-3awy-aaar
+      - VCID-k5rk-uzvf-aaac
+      - VCID-kyax-4w7t-aaaq
+      - VCID-m3p9-grq4-aaaq
+      - VCID-m7n7-rhar-aaae
+      - VCID-n311-z2c8-aaad
+      - VCID-nemq-8rsh-aaaj
+      - VCID-ngfh-qspj-aaam
+      - VCID-npe5-ky7h-aaag
+      - VCID-s95s-6udd-aaaa
+      - VCID-sw16-2dmn-aaac
+      - VCID-u1ud-hyuk-aaag
+      - VCID-us5b-bv9a-aaaa
+      - VCID-w6h5-kjvr-aaaa
+      - VCID-xntu-77nf-aaam
+      - VCID-ynjx-wr84-aaad
+      - VCID-yw8v-jgcb-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/hiera@3.3.1-5?arch=el8ost
+    affected_by_vulnerabilities:
+      - VCID-2cqt-v8wb-aaac
+    fixing_vulnerabilities: []

@@ -1,0 +1,12 @@
+vulnerability_id: VCID-add7-f7wr-aaag
+aliases:
+  - GMS-2017-292
+summary: |
+  Directory Traversal
+  `susu-sum` is vulnerable to a directory traversal issue, giving an attacker access to the filesystem by placing "../" in the url./n
+severities: []
+references:
+  - id: 33861
+    url: https://github.com/JacksonGL/NPM-Vuln-PoC/blob/master/directory-traversal/susu-sum
+    reference_id:
+weaknesses: []

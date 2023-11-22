@@ -1,0 +1,10 @@
+vulnerability_id: VCID-mr62-dsgx-aaap
+aliases:
+  - CVE-2022-39388
+summary: Identity impersonation if user has localhost access.
+severities: []
+references:
+  - id: 1474025
+    url: https://istio.io/latest/news/security/ISTIO-SECURITY-2022-008/
+    reference_id: ISTIO-SECURITY-2022-008
+weaknesses: []

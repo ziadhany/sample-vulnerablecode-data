@@ -1,0 +1,46 @@
+vulnerability_id: VCID-bfws-g1gp-aaab
+aliases:
+  - CVE-2020-28482
+  - GHSA-49wp-qq6x-g2rf
+summary: |
+  Cross-Site Request Forgery (CSRF)
+  The generated cookie uses insecure defaults, and does not have the `httpOnly` flag on `cookieOpts: { path: '/', sameSite: true }`. Additionally, the CSRF token is available in the GET query parameter.
+severities:
+  - id: 469286
+    reference_id: 33219
+    scoring_system: cvssv2
+    value: '6.8'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:P/A:P
+  - id: 469284
+    reference_id: 33219
+    scoring_system: cvssv3
+    value: '8.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+  - id: 706254
+    reference_id: 1467791
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 1467789
+    url: https://github.com/fastify/fastify-csrf/commit/3c9de36e9e73ce0eda9207f84f2ac0243e1f5253
+    reference_id:
+  - id: 839070
+    url: https://github.com/fastify/fastify-csrf/pull/26
+    reference_id:
+  - id: 839071
+    url: https://snyk.io/vuln/SNYK-JS-FASTIFYCSRF-1062044
+    reference_id:
+  - id: 1467790
+    url: https://www.npmjs.com/package/fastify-csrf
+    reference_id:
+  - id: 839072
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:fastify:fastify-csrf:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:fastify:fastify-csrf:*:*:*:*:*:node.js:*:*
+  - id: 33219
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-28482
+    reference_id: CVE-2020-28482
+  - id: 1467791
+    url: https://github.com/advisories/GHSA-49wp-qq6x-g2rf
+    reference_id: GHSA-49wp-qq6x-g2rf
+weaknesses: []

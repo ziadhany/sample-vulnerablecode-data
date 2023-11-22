@@ -1,0 +1,47 @@
+vulnerability_id: VCID-1m3m-ay28-aaag
+aliases:
+  - CVE-2019-14910
+summary: |
+  Improper Authentication
+  A vulnerability was found in keycloak, when keycloak is configured with LDAP user federation and StartTLS is used instead of SSL/TLS from the LDAP server (ldaps), in this case user authentication succeeds even if invalid password has entered.
+severities:
+  - id: 63671
+    reference_id: '192005'
+    scoring_system: cvssv3
+    value: '9.3'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:N
+  - id: 63670
+    reference_id: '192004'
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 383405
+    reference_id: 34948
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 383403
+    reference_id: 34948
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+references:
+  - id: '192005'
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2019-14910.json
+    reference_id:
+  - id: 34949
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2019-14910
+    reference_id:
+  - id: '192004'
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1778265
+    reference_id: 1778265
+  - id: 779567
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:keycloak:7.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:keycloak:7.0.0:*:*:*:*:*:*:*
+  - id: 779568
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:keycloak:7.0.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:keycloak:7.0.1:*:*:*:*:*:*:*
+  - id: 34948
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-14910
+    reference_id: CVE-2019-14910
+weaknesses: []

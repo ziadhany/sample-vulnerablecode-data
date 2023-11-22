@@ -1,0 +1,50 @@
+vulnerability_id: VCID-95qd-vjsr-aaap
+aliases:
+  - CVE-2017-2809
+  - GHSA-c2w9-48qc-qpj4
+  - PYSEC-2017-5
+summary: An exploitable vulnerability exists in the yaml loading functionality of ansible-vault
+  before 1.0.5. A specially crafted vault can execute arbitrary python commands resulting in
+  command execution. An attacker can insert python into the vault to trigger this vulnerability.
+severities:
+  - id: 281711
+    reference_id: 22297
+    scoring_system: cvssv2
+    value: '6.8'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:P/A:P
+  - id: 281709
+    reference_id: 22297
+    scoring_system: cvssv3
+    value: '7.8'
+    scoring_elements: CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+  - id: 4786
+    reference_id: 22298
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 5264
+    url: https://github.com/tomoh1r/ansible-vault/blob/v1.0.5/CHANGES.txt
+    reference_id:
+  - id: 5263
+    url: https://github.com/tomoh1r/ansible-vault/commit/3f8f659ef443ab870bb19f95d43543470168ae04
+    reference_id:
+  - id: 5262
+    url: https://github.com/tomoh1r/ansible-vault/issues/4
+    reference_id:
+  - id: 5261
+    url: https://www.talosintelligence.com/vulnerability_reports/TALOS-2017-0305
+    reference_id:
+  - id: 5265
+    url: http://www.securityfocus.com/bid/100824
+    reference_id:
+  - id: 696953
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:ansible-vault_project:ansible-vault:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:ansible-vault_project:ansible-vault:*:*:*:*:*:*:*:*
+  - id: 22297
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-2809
+    reference_id: CVE-2017-2809
+  - id: 22298
+    url: https://github.com/advisories/GHSA-c2w9-48qc-qpj4
+    reference_id: GHSA-c2w9-48qc-qpj4
+weaknesses: []

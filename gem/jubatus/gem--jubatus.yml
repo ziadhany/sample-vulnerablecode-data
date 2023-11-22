@@ -1,0 +1,102 @@
+package: pkg:gem/jubatus
+versions:
+  - purl: pkg:gem/jubatus@0.1.0
+    affected_by_vulnerabilities:
+      - VCID-bzr6-7rkb-aaaq
+      - VCID-cxpn-ve23-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jubatus@0.4.0
+    affected_by_vulnerabilities:
+      - VCID-bzr6-7rkb-aaaq
+      - VCID-cxpn-ve23-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jubatus@0.4.1
+    affected_by_vulnerabilities:
+      - VCID-bzr6-7rkb-aaaq
+      - VCID-cxpn-ve23-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jubatus@0.5.0
+    affected_by_vulnerabilities:
+      - VCID-bzr6-7rkb-aaaq
+      - VCID-cxpn-ve23-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jubatus@0.5.1
+    affected_by_vulnerabilities:
+      - VCID-bzr6-7rkb-aaaq
+      - VCID-cxpn-ve23-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jubatus@0.5.2
+    affected_by_vulnerabilities:
+      - VCID-bzr6-7rkb-aaaq
+      - VCID-cxpn-ve23-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jubatus@0.5.3
+    affected_by_vulnerabilities:
+      - VCID-bzr6-7rkb-aaaq
+      - VCID-cxpn-ve23-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jubatus@0.5.4
+    affected_by_vulnerabilities:
+      - VCID-bzr6-7rkb-aaaq
+      - VCID-cxpn-ve23-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jubatus@0.6.0
+    affected_by_vulnerabilities:
+      - VCID-bzr6-7rkb-aaaq
+      - VCID-cxpn-ve23-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jubatus@0.6.1
+    affected_by_vulnerabilities:
+      - VCID-bzr6-7rkb-aaaq
+      - VCID-cxpn-ve23-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jubatus@0.6.2
+    affected_by_vulnerabilities:
+      - VCID-bzr6-7rkb-aaaq
+      - VCID-cxpn-ve23-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jubatus@0.7.0
+    affected_by_vulnerabilities:
+      - VCID-bzr6-7rkb-aaaq
+      - VCID-cxpn-ve23-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jubatus@0.7.1
+    affected_by_vulnerabilities:
+      - VCID-bzr6-7rkb-aaaq
+      - VCID-cxpn-ve23-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jubatus@0.8.0
+    affected_by_vulnerabilities:
+      - VCID-bzr6-7rkb-aaaq
+      - VCID-cxpn-ve23-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jubatus@0.9.0
+    affected_by_vulnerabilities:
+      - VCID-bzr6-7rkb-aaaq
+      - VCID-cxpn-ve23-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jubatus@0.9.1
+    affected_by_vulnerabilities:
+      - VCID-bzr6-7rkb-aaaq
+      - VCID-cxpn-ve23-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jubatus@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-bzr6-7rkb-aaaq
+      - VCID-cxpn-ve23-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jubatus@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-bzr6-7rkb-aaaq
+      - VCID-cxpn-ve23-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jubatus@1.0.2
+    affected_by_vulnerabilities:
+      - VCID-bzr6-7rkb-aaaq
+      - VCID-cxpn-ve23-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jubatus@1.0.3
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-bzr6-7rkb-aaaq
+      - VCID-cxpn-ve23-aaaq

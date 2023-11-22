@@ -1,0 +1,37 @@
+vulnerability_id: VCID-w578-3zrr-aaan
+aliases:
+  - CVE-2020-7605
+  - GHSA-x67x-98x7-wv26
+summary: |
+  Injection Vulnerability
+  It is possible to inject arbitrary OS commands by passing them into `gulp-tape` options.
+severities:
+  - id: 488957
+    reference_id: 31923
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 488955
+    reference_id: 31923
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 706309
+    reference_id: 1467860
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 852543
+    url: https://snyk.io/vuln/SNYK-JS-GULPTAPE-560124
+    reference_id:
+  - id: 852544
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:gulp-tape_project:gulp-tape:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:gulp-tape_project:gulp-tape:*:*:*:*:*:node.js:*:*
+  - id: 31923
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-7605
+    reference_id: CVE-2020-7605
+  - id: 1467860
+    url: https://github.com/advisories/GHSA-x67x-98x7-wv26
+    reference_id: GHSA-x67x-98x7-wv26
+weaknesses: []

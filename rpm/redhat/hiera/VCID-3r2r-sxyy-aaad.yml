@@ -1,0 +1,53 @@
+vulnerability_id: VCID-3r2r-sxyy-aaad
+aliases:
+  - CVE-2017-15699
+summary: A Denial of Service vulnerability was found in Apache Qpid Dispatch Router versions
+  0.7.0 and 0.8.0. To exploit this vulnerability, a remote user must be able to establish an
+  AMQP connection to the Qpid Dispatch Router and send a specifically crafted AMQP frame which
+  will cause it to segfault and shut down.
+severities:
+  - id: 618296
+    reference_id: 937399
+    scoring_system: cvssv3
+    value: '6.0'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:H
+  - id: 618295
+    reference_id: 937398
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 268552
+    reference_id: 686496
+    scoring_system: cvssv2
+    value: '6.8'
+    scoring_elements: AV:N/AC:L/Au:S/C:N/I:N/A:C
+  - id: 268550
+    reference_id: 686496
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+  - id: 48853
+    reference_id: 173183
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 937399
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2017-15699.json
+    reference_id:
+  - id: 686495
+    url: https://issues.apache.org/jira/browse/DISPATCH-924
+    reference_id:
+  - id: 686494
+    url: http://www.securityfocus.com/bid/103067
+    reference_id:
+  - id: 937398
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1512724
+    reference_id: 1512724
+  - id: 686496
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-15699
+    reference_id: CVE-2017-15699
+  - id: 173183
+    url: https://access.redhat.com/errata/RHSA-2018:0336
+    reference_id: RHSA-2018:0336
+weaknesses: []

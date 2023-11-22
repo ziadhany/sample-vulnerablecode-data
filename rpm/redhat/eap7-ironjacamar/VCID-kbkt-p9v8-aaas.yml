@@ -1,0 +1,107 @@
+vulnerability_id: VCID-kbkt-p9v8-aaas
+aliases:
+  - CVE-2020-35510
+  - GHSA-p6j8-hgv5-m35g
+summary: Uncontrolled Resource Consumption in jboss-remoting
+severities:
+  - id: 604514
+    reference_id: 927316
+    scoring_system: cvssv3
+    value: '5.9'
+    scoring_elements: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 604512
+    reference_id: 927314
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 474269
+    reference_id: 781
+    scoring_system: cvssv2
+    value: '7.1'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:N/A:C
+  - id: 474267
+    reference_id: 781
+    scoring_system: cvssv3
+    value: '5.9'
+    scoring_elements: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 57
+    reference_id: 783
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 51183
+    reference_id: 175831
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 51184
+    reference_id: 175832
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 51182
+    reference_id: 175830
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 51181
+    reference_id: 175829
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 48101
+    reference_id: 172636
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 604513
+    reference_id: 927315
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 50840
+    reference_id: 175434
+    scoring_system: rhas
+    value: Critical
+    scoring_elements:
+references:
+  - id: 927316
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2020-35510.json
+    reference_id:
+  - id: 927314
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1905796
+    reference_id: '1905796'
+  - id: 789926
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss-remoting:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss-remoting:*:*:*:*:*:*:*:*
+  - id: 842470
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss-remoting:5.0.20:-:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss-remoting:5.0.20:-:*:*:*:*:*:*
+  - id: 781
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-35510
+    reference_id: CVE-2020-35510
+  - id: 783
+    url: https://github.com/advisories/GHSA-p6j8-hgv5-m35g
+    reference_id: GHSA-p6j8-hgv5-m35g
+  - id: 175831
+    url: https://access.redhat.com/errata/RHSA-2021:0872
+    reference_id: RHSA-2021:0872
+  - id: 175832
+    url: https://access.redhat.com/errata/RHSA-2021:0873
+    reference_id: RHSA-2021:0873
+  - id: 175830
+    url: https://access.redhat.com/errata/RHSA-2021:0874
+    reference_id: RHSA-2021:0874
+  - id: 175829
+    url: https://access.redhat.com/errata/RHSA-2021:0885
+    reference_id: RHSA-2021:0885
+  - id: 172636
+    url: https://access.redhat.com/errata/RHSA-2021:0974
+    reference_id: RHSA-2021:0974
+  - id: 927315
+    url: https://access.redhat.com/errata/RHSA-2021:2210
+    reference_id: RHSA-2021:2210
+  - id: 175434
+    url: https://access.redhat.com/errata/RHSA-2021:5134
+    reference_id: RHSA-2021:5134
+weaknesses: []

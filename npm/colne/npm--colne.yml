@@ -1,0 +1,10 @@
+package: pkg:npm/colne
+versions:
+  - purl: pkg:npm/colne@0.0.0
+    affected_by_vulnerabilities:
+      - VCID-64hz-prjx-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/colne@0.0.1-security
+    affected_by_vulnerabilities:
+      - VCID-64hz-prjx-aaaf
+    fixing_vulnerabilities: []

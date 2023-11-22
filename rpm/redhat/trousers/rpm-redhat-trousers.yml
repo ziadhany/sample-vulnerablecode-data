@@ -1,0 +1,12 @@
+package: pkg:rpm/redhat/trousers
+versions:
+  - purl: pkg:rpm/redhat/trousers@0.3.13-2?arch=el6
+    affected_by_vulnerabilities:
+      - VCID-fcjw-y5yf-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/trousers@0.3.15-1?arch=el8
+    affected_by_vulnerabilities:
+      - VCID-9ym4-8kgw-aaaq
+      - VCID-dds3-jezv-aaag
+      - VCID-wrwh-6c1d-aaap
+    fixing_vulnerabilities: []

@@ -1,0 +1,37 @@
+vulnerability_id: VCID-9bzd-kfza-aaae
+aliases:
+  - CVE-2020-8214
+  - GHSA-v3px-6cc8-f8j3
+summary: |
+  Path Traversal
+  A path traversal vulnerability in servey allows an attacker to read content of any arbitrary file.
+severities:
+  - id: 491033
+    reference_id: 37305
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 491031
+    reference_id: 37305
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+  - id: 706482
+    reference_id: 1468087
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 37302
+    url: https://hackerone.com/reports/355501
+    reference_id:
+  - id: 854136
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:servey_project:servey:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:servey_project:servey:*:*:*:*:*:node.js:*:*
+  - id: 37305
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-8214
+    reference_id: CVE-2020-8214
+  - id: 1468087
+    url: https://github.com/advisories/GHSA-v3px-6cc8-f8j3
+    reference_id: GHSA-v3px-6cc8-f8j3
+weaknesses: []

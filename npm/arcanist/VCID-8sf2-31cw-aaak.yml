@@ -1,0 +1,40 @@
+vulnerability_id: VCID-8sf2-31cw-aaak
+aliases:
+  - CVE-2016-10683
+  - GHSA-g7w9-vm5m-48q8
+summary: |
+  Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+  arcanist downloads resources over HTTP, which leaves it vulnerable to MITM attacks. It may be possible to cause remote code execution (RCE) by swapping out the requested resources with an attacker controlled copy if the attacker is on the network or positioned in between the user and the remote server.
+severities:
+  - id: 215347
+    reference_id: 33957
+    scoring_system: cvssv2
+    value: '9.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:C/I:C/A:C
+  - id: 215345
+    reference_id: 33957
+    scoring_system: cvssv3
+    value: '8.1'
+    scoring_elements: CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 705547
+    reference_id: 33958
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 33960
+    url: https://nodesecurity.io/advisories/286
+    reference_id:
+  - id: 33959
+    url: https://www.npmjs.com/advisories/286
+    reference_id:
+  - id: 628856
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:hujiang:arcanist:0.0.1:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:hujiang:arcanist:0.0.1:*:*:*:*:node.js:*:*
+  - id: 33957
+    url: https://nvd.nist.gov/vuln/detail/CVE-2016-10683
+    reference_id: CVE-2016-10683
+  - id: 33958
+    url: https://github.com/advisories/GHSA-g7w9-vm5m-48q8
+    reference_id: GHSA-g7w9-vm5m-48q8
+weaknesses: []

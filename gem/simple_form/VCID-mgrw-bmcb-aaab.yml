@@ -1,0 +1,44 @@
+vulnerability_id: VCID-mgrw-bmcb-aaab
+aliases:
+  - CVE-2019-16676
+  - GHSA-r74q-gxcg-73hx
+summary: High severity vulnerability that affects simple_form
+severities:
+  - id: 389235
+    reference_id: 28855
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 389233
+    reference_id: 28855
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 5131
+    reference_id: 28856
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 28858
+    url: http://blog.plataformatec.com.br/2019/09/incorrect-access-control-in-simple-form-cve-2019-16676/
+    reference_id:
+  - id: 1462022
+    url: https://github.com/heartcombo/simple_form/commit/8c91bd76a5052ddf3e3ab9fd8333f9aa7b2e2dd6
+    reference_id:
+  - id: 28857
+    url: https://github.com/plataformatec/simple_form/commits/master
+    reference_id:
+  - id: 783921
+    url: https://github.com/plataformatec/simple_form/security/advisories/GHSA-r74q-gxcg-73hx
+    reference_id:
+  - id: 783922
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:plataformatec:simple_form:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:plataformatec:simple_form:*:*:*:*:*:*:*:*
+  - id: 28855
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-16676
+    reference_id: CVE-2019-16676
+  - id: 28856
+    url: https://github.com/advisories/GHSA-r74q-gxcg-73hx
+    reference_id: GHSA-r74q-gxcg-73hx
+weaknesses: []

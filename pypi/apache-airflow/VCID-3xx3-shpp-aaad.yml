@@ -1,0 +1,47 @@
+vulnerability_id: VCID-3xx3-shpp-aaad
+aliases:
+  - CVE-2019-12398
+  - GHSA-rjvg-q57v-mjjc
+  - PYSEC-2020-162
+summary: In Apache Airflow before 1.10.5 when running with the "classic" UI, a malicious admin
+  user could edit the state of objects in the Airflow metadata database to execute arbitrary
+  javascript on certain page views. The new "RBAC" UI is unaffected.
+severities:
+  - id: 375071
+    reference_id: 23470
+    scoring_system: cvssv2
+    value: '3.5'
+    scoring_elements: AV:N/AC:M/Au:S/C:N/I:P/A:N
+  - id: 375069
+    reference_id: 23470
+    scoring_system: cvssv3
+    value: '4.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N
+  - id: 4626
+    reference_id: 26075
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 26074
+    url: https://github.com/apache/airflow/blob/1.10.5/CHANGELOG.txt
+    reference_id:
+  - id: 6776
+    url: https://lists.apache.org/thread.html/r72487ad6b23d18689896962782f8c93032afe5c72a6bfd23b253352b@%3Cdev.airflow.apache.org%3E
+    reference_id:
+  - id: 6775
+    url: https://lists.apache.org/thread.html/r72487ad6b23d18689896962782f8c93032afe5c72a6bfd23b253352b%40%3Cusers.airflow.apache.org%3E
+    reference_id:
+  - id: 6774
+    url: http://www.openwall.com/lists/oss-security/2020/01/14/2
+    reference_id:
+  - id: 677676
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:airflow:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:airflow:*:*:*:*:*:*:*:*
+  - id: 23470
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-12398
+    reference_id: CVE-2019-12398
+  - id: 26075
+    url: https://github.com/advisories/GHSA-rjvg-q57v-mjjc
+    reference_id: GHSA-rjvg-q57v-mjjc
+weaknesses: []

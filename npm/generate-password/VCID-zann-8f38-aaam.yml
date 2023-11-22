@@ -1,0 +1,24 @@
+vulnerability_id: VCID-zann-8f38-aaam
+aliases:
+  - GHSA-6qqf-vvcr-7qrv
+  - GMS-2019-28
+summary: |
+  Cryptographically Weak PRNG in generate-password
+  Affected versions of generate-password generate random values that are biased towards certain characters depending on the chosen character sets. This may result in guessable passwords. Update to or later.
+severities:
+  - id: 704685
+    reference_id: 32458
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 32456
+    url: https://github.com/brendanashworth/generate-password/pull/26
+    reference_id:
+  - id: 32457
+    url: https://www.npmjs.com/advisories/762
+    reference_id:
+  - id: 32458
+    url: https://github.com/advisories/GHSA-6qqf-vvcr-7qrv
+    reference_id: GHSA-6qqf-vvcr-7qrv
+weaknesses: []

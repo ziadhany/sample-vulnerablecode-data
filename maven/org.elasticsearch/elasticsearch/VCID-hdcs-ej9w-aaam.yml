@@ -1,0 +1,58 @@
+vulnerability_id: VCID-hdcs-ej9w-aaam
+aliases:
+  - CVE-2020-7009
+  - GHSA-gfv5-grx2-9jw2
+summary: 'CVE-2020-7009 elasticsearch: Generating API keys with specific steps could result
+  in generating API key with elevated privileges'
+severities:
+  - id: 52840
+    reference_id: 177782
+    scoring_system: cvssv3
+    value: '8.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+  - id: 52839
+    reference_id: 177781
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 487162
+    reference_id: 851353
+    scoring_system: cvssv2
+    value: '6.5'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:P/A:P
+  - id: 487160
+    reference_id: 851353
+    scoring_system: cvssv3
+    value: '8.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+  - id: 630507
+    reference_id: 946668
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 177782
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2020-7009.json
+    reference_id:
+  - id: 851351
+    url: https://discuss.elastic.co/t/elastic-stack-6-8-8-and-7-6-2-security-update/225920
+    reference_id:
+  - id: 851352
+    url: https://security.netapp.com/advisory/ntap-20200403-0004/
+    reference_id:
+  - id: 1681
+    url: https://www.elastic.co/community/security/
+    reference_id:
+  - id: 177781
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1821240
+    reference_id: 1821240
+  - id: 159755
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:elastic:elasticsearch:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:elastic:elasticsearch:*:*:*:*:*:*:*:*
+  - id: 851353
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-7009
+    reference_id: CVE-2020-7009
+  - id: 946668
+    url: https://github.com/advisories/GHSA-gfv5-grx2-9jw2
+    reference_id: GHSA-gfv5-grx2-9jw2
+weaknesses: []

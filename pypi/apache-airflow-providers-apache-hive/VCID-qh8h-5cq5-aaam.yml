@@ -1,0 +1,25 @@
+vulnerability_id: VCID-qh8h-5cq5-aaam
+aliases:
+  - CVE-2022-46421
+  - GHSA-rc58-qr9j-cpgw
+summary: Apache Airflow Hive Provider vulnerable to Command Injection
+severities:
+  - id: 707316
+    reference_id: 1468952
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 1468950
+    url: https://github.com/apache/airflow/pull/28101
+    reference_id:
+  - id: 1468951
+    url: https://lists.apache.org/thread/09twdoyoybldlfj5gvk0qswtofh0rmp4
+    reference_id:
+  - id: 1468949
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-46421
+    reference_id: CVE-2022-46421
+  - id: 1468952
+    url: https://github.com/advisories/GHSA-rc58-qr9j-cpgw
+    reference_id: GHSA-rc58-qr9j-cpgw
+weaknesses: []

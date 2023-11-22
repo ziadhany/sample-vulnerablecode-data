@@ -1,0 +1,10 @@
+package: pkg:npm/bitcoisnj-lib
+versions:
+  - purl: pkg:npm/bitcoisnj-lib@0.0.0
+    affected_by_vulnerabilities:
+      - VCID-aecm-e7na-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/bitcoisnj-lib@0.0.1-security
+    affected_by_vulnerabilities:
+      - VCID-aecm-e7na-aaak
+    fixing_vulnerabilities: []

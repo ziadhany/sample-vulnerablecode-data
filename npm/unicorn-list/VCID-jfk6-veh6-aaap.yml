@@ -1,0 +1,43 @@
+vulnerability_id: VCID-jfk6-veh6-aaap
+aliases:
+  - CVE-2017-16131
+  - GHSA-3vg2-4qxc-ch4j
+summary: |
+  Path Traversal
+  unicorn-list is vulnerable to a directory traversal issue, giving an attacker access to the filesystem by placing `../` in the url.
+severities:
+  - id: 270128
+    reference_id: 34668
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 270126
+    reference_id: 34668
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+  - id: 705718
+    reference_id: 1466989
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 687838
+    url: https://github.com/JacksonGL/NPM-Vuln-PoC/blob/master/directory-traversal/unicorn-list
+    reference_id:
+  - id: 687839
+    url: https://nodesecurity.io/advisories/477
+    reference_id:
+  - id: 1466990
+    url: https://www.npmjs.com/advisories/477
+    reference_id:
+  - id: 687840
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:unicorn-list_project:unicorn-list:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:unicorn-list_project:unicorn-list:*:*:*:*:*:node.js:*:*
+  - id: 34668
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-16131
+    reference_id: CVE-2017-16131
+  - id: 1466989
+    url: https://github.com/advisories/GHSA-3vg2-4qxc-ch4j
+    reference_id: GHSA-3vg2-4qxc-ch4j
+weaknesses: []

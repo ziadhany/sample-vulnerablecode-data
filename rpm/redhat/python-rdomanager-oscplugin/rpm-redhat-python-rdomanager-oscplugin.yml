@@ -1,0 +1,15 @@
+package: pkg:rpm/redhat/python-rdomanager-oscplugin
+versions:
+  - purl: pkg:rpm/redhat/python-rdomanager-oscplugin@0.0.10-22?arch=el7ost
+    affected_by_vulnerabilities:
+      - VCID-dgtc-erbu-aaah
+      - VCID-hvt6-3aq7-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/python-rdomanager-oscplugin@0.0.10-34?arch=el7ost
+    affected_by_vulnerabilities:
+      - VCID-5vtz-swsz-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/python-rdomanager-oscplugin@0.0.10-8?arch=el7ost
+    affected_by_vulnerabilities:
+      - VCID-vhex-fda3-aaaa
+    fixing_vulnerabilities: []

@@ -1,0 +1,61 @@
+vulnerability_id: VCID-av3y-xjr9-aaac
+aliases:
+  - CVE-2022-29226
+summary: Envoy is a cloud-native high-performance proxy. In versions prior to 1.22.1 the OAuth
+  filter implementation does not include a mechanism for validating access tokens, so by design
+  when the HMAC signed cookie is missing a full authentication flow should be triggered. However,
+  the current implementation assumes that access tokens are always validated thus allowing access
+  in the presence of any access token attached to the request. Users are advised to upgrade.
+  There is no known workaround for this issue.
+severities:
+  - id: 638836
+    reference_id: 951969
+    scoring_system: cvssv3
+    value: '10.0'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N
+  - id: 638835
+    reference_id: 951968
+    scoring_system: rhbs
+    value: urgent
+    scoring_elements:
+  - id: 628115
+    reference_id: 922790
+    scoring_system: cvssv2
+    value: '6.4'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:N
+  - id: 628113
+    reference_id: 922790
+    scoring_system: cvssv3
+    value: '9.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
+  - id: 638832
+    reference_id: 951966
+    scoring_system: rhas
+    value: Critical
+    scoring_elements:
+references:
+  - id: 951969
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-29226.json
+    reference_id:
+  - id: 922788
+    url: https://github.com/envoyproxy/envoy/commit/7ffda4e809dec74449ebc330cebb9d2f4ab61360
+    reference_id:
+  - id: 922789
+    url: https://github.com/envoyproxy/envoy/security/advisories/GHSA-h45c-2f94-prxh
+    reference_id:
+  - id: 951968
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=2088739
+    reference_id: 2088739
+  - id: 780349
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:envoyproxy:envoy:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:envoyproxy:envoy:*:*:*:*:*:*:*:*
+  - id: 922790
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-29226
+    reference_id: CVE-2022-29226
+  - id: 1470887
+    url: https://istio.io/latest/news/security/ISTIO-SECURITY-2022-005/
+    reference_id: ISTIO-SECURITY-2022-005
+  - id: 951966
+    url: https://access.redhat.com/errata/RHSA-2022:5004
+    reference_id: RHSA-2022:5004
+weaknesses: []

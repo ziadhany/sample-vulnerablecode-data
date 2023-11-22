@@ -1,0 +1,28 @@
+vulnerability_id: VCID-6azu-3fs9-aaaj
+aliases:
+  - CVE-2017-17736
+summary: |
+  Direct Request ('Forced Browsing')
+  Kentico allows remote attackers to obtain Global Administrator access by visiting CMSInstall/install.aspx and then navigating to the CMS Administration Dashboard.
+severities:
+  - id: 274792
+    reference_id: 37819
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 274790
+    reference_id: 37819
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+references:
+  - id: 37820
+    url: https://blog.hivint.com/advisory-access-control-bypass-in-kentico-cms-cve-2017-17736-49e1e43ae55b
+    reference_id:
+  - id: 691946
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:kentico:kentico_cms:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:kentico:kentico_cms:*:*:*:*:*:*:*:*
+  - id: 37819
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-17736
+    reference_id: CVE-2017-17736
+weaknesses: []

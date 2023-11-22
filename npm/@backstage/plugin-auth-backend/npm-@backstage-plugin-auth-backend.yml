@@ -1,0 +1,1034 @@
+package: pkg:npm/%40backstage/plugin-auth-backend
+versions:
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20201012104
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202010142827
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20201015290
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202010162838
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20201017299
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202010182850
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20201019294
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20201022852
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202010242102
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202010272939
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20201032846
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202010421028
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-2020111021742
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202011152214
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-2020111622153
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202011172224
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202011221044
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202011282408
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-2020112923923
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20201132941
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202011821442
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202011921610
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202091021045
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202091121048
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202091221056
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202091321043
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202091421050
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202091521233
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202091621247
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202091721033
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202091821034
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202091921037
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202092021157
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202092121142
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202092221123
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202092321213
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202092421320
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202092521528
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202092621659
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202092721637
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202092821610
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202092921857
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202093021035
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20209312948
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20209621029
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-2020972106
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-2020982921
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20209921112
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20210133124
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20210143754
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20210193842
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20210203828
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202102131012
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20210243124
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20210253107
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20210262290
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20210272305
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202102822956
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20210625032
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20210725232
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-2021101022158
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-2021101122259
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-2021101222132
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-2021101322257
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-2021101422237
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202110152240
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202110162216
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-2021101722431
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-2021102322318
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-2021102422528
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-2021102522541
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-2021102722415
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-2021102822136
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-2021102922210
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-2021103021730
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202111121833
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202111122525
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202111221544
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202111321628
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202111421743
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202111521822
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202111621648
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202111721417
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202111821617
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202112321938
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202112422121
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202112522125
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202112622032
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202112721938
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20211282237
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202121022744
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202121122711
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202121222849
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20212122546
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202121322742
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202121422829
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20212152292
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202121622848
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202121722854
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202121823014
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20212221248
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202123022619
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202123122536
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20212322253
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-2021242250
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-2021252249
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20212622340
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20212722653
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20212822648
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20212922838
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-2021322315
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20213322746
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20213422834
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20213522742
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20213622832
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20213723126
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20213822940
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202141223240
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202141823433
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202141923045
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202142023115
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202142725110
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20214622436
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202151023138
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202151722113
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202151822534
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202151922517
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202152022747
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202152122642
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202152222254
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202152321757
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202152421441
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202152522033
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202152621725
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20215272227
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202152822029
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202152921754
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202153022114
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20215923438
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-2021612205
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202161321735
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202161421532
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202161521855
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202162222215
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202162921842
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20216321437
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20216421633
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20216521717
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20216621753
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20216721750
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20216821837
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20217122173
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202171821648
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202171921745
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202172421711
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202172521756
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202172621715
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20217282182
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202172921910
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202173021720
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202173121752
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202181122031
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-2021812202
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202181221950
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20218132205
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20218142218
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202181521952
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202181622118
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202182121918
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20218221816
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202182222128
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202182322249
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20218272212
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202182821947
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202182921621
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202183022336
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20219102203
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202191122352
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202191222240
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20219132255
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202191422038
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202191522214
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202191622432
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202191722049
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202191822546
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202191922036
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202192022219
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-202192122645
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-20219622210
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-2021972229
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.0.0-nightly-2021992218
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.1.1
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.1.1-alpha.10
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.1.1-alpha.11
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.1.1-alpha.12
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.1.1-alpha.13
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.1.1-alpha.14
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.1.1-alpha.15
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.1.1-alpha.16
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.1.1-alpha.17
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.1.1-alpha.18
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.1.1-alpha.19
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.1.1-alpha.20
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.1.1-alpha.21
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.1.1-alpha.22
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.1.1-alpha.23
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.1.1-alpha.24
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.1.1-alpha.25
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.1.1-alpha.26
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.1.1-alpha.9
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.2.0
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.2.1
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.2.10
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.2.11
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.2.12
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.2.2
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.2.3
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.2.4
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.2.5
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.2.6
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.2.7
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.2.8
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.2.9
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.3.0
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.3.1
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.3.10
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.3.11
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.3.12
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.3.13
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.3.14
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.3.15
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.3.16
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.3.17
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.3.18
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.3.19
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.3.2
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.3.20
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.3.21
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.3.22
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.3.23
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.3.24
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.3.3
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.3.4
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.3.5
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.3.6
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.3.7
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.3.8
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.3.9
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.4.0
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.4.1
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.4.2
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.4.3
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.4.4
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.4.5
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.4.6
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.4.7
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.4.8
+    affected_by_vulnerabilities:
+      - VCID-vzrs-558n-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40backstage/plugin-auth-backend@0.4.9
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-vzrs-558n-aaah

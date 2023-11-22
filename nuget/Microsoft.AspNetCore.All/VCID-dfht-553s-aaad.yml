@@ -1,0 +1,49 @@
+vulnerability_id: VCID-dfht-553s-aaad
+aliases:
+  - CVE-2017-11879
+  - GHSA-3wcj-rg8q-9cqv
+summary: |
+  URL Redirection to Untrusted Site ('Open Redirect')
+  ASP.NET Core allows an attacker to steal log-in session information such as cookies or authentication tokens via a specially crafted URL aka "ASP.NET Core Elevation Of Privilege Vulnerability".
+severities:
+  - id: 256775
+    reference_id: 37596
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:N/A:N
+  - id: 256773
+    reference_id: 37596
+    scoring_system: cvssv3
+    value: '8.8'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+  - id: 630555
+    reference_id: 946741
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 946740
+    url: https://github.com/aspnet/Announcements/issues/277
+    reference_id:
+  - id: 946724
+    url: https://github.com/github/advisory-database/issues/302
+    reference_id:
+  - id: 675288
+    url: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-11879
+    reference_id:
+  - id: 37599
+    url: http://www.securityfocus.com/bid/101713
+    reference_id:
+  - id: 37598
+    url: http://www.securitytracker.com/id/1039793
+    reference_id:
+  - id: 675289
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:asp.net_core:2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:asp.net_core:2.0:*:*:*:*:*:*:*
+  - id: 37596
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-11879
+    reference_id: CVE-2017-11879
+  - id: 946741
+    url: https://github.com/advisories/GHSA-3wcj-rg8q-9cqv
+    reference_id: GHSA-3wcj-rg8q-9cqv
+weaknesses: []

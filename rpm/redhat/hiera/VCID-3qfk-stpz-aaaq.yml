@@ -1,0 +1,77 @@
+vulnerability_id: VCID-3qfk-stpz-aaaq
+aliases:
+  - CVE-2016-3693
+  - GHSA-c92m-rrrc-q5wf
+summary: High severity vulnerability that affects safemode
+severities:
+  - id: 50209
+    reference_id: 174723
+    scoring_system: cvssv3
+    value: '3.1'
+    scoring_elements: CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N
+  - id: 50208
+    reference_id: 174722
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 225481
+    reference_id: 29389
+    scoring_system: cvssv2
+    value: '6.8'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:P/A:P
+  - id: 225479
+    reference_id: 29389
+    scoring_system: cvssv3
+    value: '8.1'
+    scoring_elements: CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 5384
+    reference_id: 30885
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 48853
+    reference_id: 173183
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 30886
+    url: http://projects.theforeman.org/issues/14635
+    reference_id:
+  - id: 642928
+    url: http://rubysec.com/advisories/CVE-2016-3693/
+    reference_id:
+  - id: 174723
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2016-3693.json
+    reference_id:
+  - id: 39084
+    url: http://seclists.org/oss-sec/2016/q2/119
+    reference_id:
+  - id: 30883
+    url: https://github.com/svenfuchs/safemode/commit/0f764a1720a3a68fd2842e21377c8bfad6d7126f
+    reference_id:
+  - id: 30884
+    url: https://github.com/theforeman/foreman/commit/82f9b93c54f72c5814df6bab7fad057eab65b2f2
+    reference_id:
+  - id: 30888
+    url: http://theforeman.org/security.html#2016-3693
+    reference_id:
+  - id: 30889
+    url: http://www.openwall.com/lists/oss-security/2016/04/20/8
+    reference_id:
+  - id: 174722
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1327471
+    reference_id: 1327471
+  - id: 642929
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:safemode_project:safemode:*:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:safemode_project:safemode:*:*:*:*:*:ruby:*:*
+  - id: 29389
+    url: https://nvd.nist.gov/vuln/detail/CVE-2016-3693
+    reference_id: CVE-2016-3693
+  - id: 30885
+    url: https://github.com/advisories/GHSA-c92m-rrrc-q5wf
+    reference_id: GHSA-c92m-rrrc-q5wf
+  - id: 173183
+    url: https://access.redhat.com/errata/RHSA-2018:0336
+    reference_id: RHSA-2018:0336
+weaknesses: []

@@ -1,0 +1,17 @@
+package: pkg:npm/kindlegen
+versions:
+  - purl: pkg:npm/kindlegen@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-7bvw-34ex-aaam
+      - VCID-n48u-k1mf-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/kindlegen@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-7bvw-34ex-aaam
+      - VCID-n48u-k1mf-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/kindlegen@1.1.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-7bvw-34ex-aaam
+      - VCID-n48u-k1mf-aaam

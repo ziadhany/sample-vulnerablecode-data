@@ -1,0 +1,24 @@
+package: pkg:rpm/redhat/python-sqlalchemy
+versions:
+  - purl: pkg:rpm/redhat/python-sqlalchemy@0.5.5-3?arch=el6_2
+    affected_by_vulnerabilities:
+      - VCID-nkwd-zdx9-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/python-sqlalchemy@0.8.4-2?arch=el6ost
+    affected_by_vulnerabilities:
+      - VCID-2t76-rmk7-aaag
+      - VCID-3kj5-47gk-aaae
+      - VCID-ahmd-81af-aaaf
+      - VCID-k68e-xgfg-aaaa
+      - VCID-n8nd-vq3c-aaaf
+      - VCID-qcuz-8s5j-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/python-sqlalchemy@0.8.4-2?arch=el7ost
+    affected_by_vulnerabilities:
+      - VCID-2t76-rmk7-aaag
+      - VCID-3kj5-47gk-aaae
+      - VCID-ahmd-81af-aaaf
+      - VCID-k68e-xgfg-aaaa
+      - VCID-n8nd-vq3c-aaaf
+      - VCID-qcuz-8s5j-aaah
+    fixing_vulnerabilities: []

@@ -1,0 +1,87 @@
+vulnerability_id: VCID-c413-2csk-aaam
+aliases:
+  - CVE-2020-0603
+  - GHSA-655q-9gvg-q4cm
+summary: |
+  Out-of-bounds Write
+  A remote code execution vulnerability exists in ASP.NET Core software when the software fails to handle objects in memory.An attacker who successfully exploited the vulnerability could run arbitrary code in the context of the current user, aka 'ASP.NET Core Remote Code Execution Vulnerability'.
+severities:
+  - id: 58731
+    reference_id: 185150
+    scoring_system: cvssv3
+    value: '8.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 58730
+    reference_id: 185149
+    scoring_system: rhbs
+    value: urgent
+    scoring_elements:
+  - id: 426479
+    reference_id: 37632
+    scoring_system: cvssv2
+    value: '9.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:C/I:C/A:C
+  - id: 426477
+    reference_id: 37632
+    scoring_system: cvssv3
+    value: '8.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+  - id: 630562
+    reference_id: 946755
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 58727
+    reference_id: 185147
+    scoring_system: rhas
+    value: Critical
+    scoring_elements:
+  - id: 58726
+    reference_id: 185146
+    scoring_system: rhas
+    value: Critical
+    scoring_elements:
+references:
+  - id: 185150
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2020-0603.json
+    reference_id:
+  - id: 37633
+    url: https://github.com/aspnet/Announcements/issues/403
+    reference_id:
+  - id: 946724
+    url: https://github.com/github/advisory-database/issues/302
+    reference_id:
+  - id: 809610
+    url: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-0603
+    reference_id:
+  - id: 185149
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1789624
+    reference_id: 1789624
+  - id: 759926
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:asp.net_core:2.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:asp.net_core:2.1:*:*:*:*:*:*:*
+  - id: 774963
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:asp.net_core:3.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:asp.net_core:3.0:*:*:*:*:*:*:*
+  - id: 809607
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:asp.net_core:3.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:asp.net_core:3.1:*:*:*:*:*:*:*
+  - id: 169119
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:redhat:enterprise_linux:8.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:redhat:enterprise_linux:8.0:*:*:*:*:*:*:*
+  - id: 723721
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:redhat:enterprise_linux_eus:8.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:redhat:enterprise_linux_eus:8.1:*:*:*:*:*:*:*
+  - id: 37632
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-0603
+    reference_id: CVE-2020-0603
+  - id: 946755
+    url: https://github.com/advisories/GHSA-655q-9gvg-q4cm
+    reference_id: GHSA-655q-9gvg-q4cm
+  - id: 185147
+    url: https://access.redhat.com/errata/RHSA-2020:0130
+    reference_id: RHSA-2020:0130
+  - id: 185146
+    url: https://access.redhat.com/errata/RHSA-2020:0134
+    reference_id: RHSA-2020:0134
+weaknesses: []

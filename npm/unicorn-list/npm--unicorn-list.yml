@@ -1,0 +1,26 @@
+package: pkg:npm/unicorn-list
+versions:
+  - purl: pkg:npm/unicorn-list@0.0.0-alpha
+    affected_by_vulnerabilities:
+      - VCID-jdsj-v2n1-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/unicorn-list@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-jdsj-v2n1-aaap
+      - VCID-jfk6-veh6-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/unicorn-list@1.0.2
+    affected_by_vulnerabilities:
+      - VCID-jdsj-v2n1-aaap
+      - VCID-jfk6-veh6-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/unicorn-list@1.0.3
+    affected_by_vulnerabilities:
+      - VCID-jdsj-v2n1-aaap
+      - VCID-jfk6-veh6-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/unicorn-list@1.0.4
+    affected_by_vulnerabilities:
+      - VCID-jdsj-v2n1-aaap
+      - VCID-jfk6-veh6-aaap
+    fixing_vulnerabilities: []

@@ -1,0 +1,102 @@
+vulnerability_id: VCID-gfmn-evwc-aaaf
+aliases:
+  - CVE-2020-1744
+  - GHSA-4gf2-xv97-63m2
+summary: Exposure of Sensitive Information in keycloak
+severities:
+  - id: 53187
+    reference_id: 178203
+    scoring_system: cvssv3
+    value: '5.6'
+    scoring_elements: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
+  - id: 53182
+    reference_id: 178198
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 450942
+    reference_id: 10318
+    scoring_system: cvssv2
+    value: '6.8'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:P/A:P
+  - id: 450940
+    reference_id: 10318
+    scoring_system: cvssv3
+    value: '5.6'
+    scoring_elements: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
+  - id: 960
+    reference_id: 10321
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 53185
+    reference_id: 178201
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 53184
+    reference_id: 178200
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 53183
+    reference_id: 178199
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 53186
+    reference_id: 178202
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49251
+    reference_id: 173544
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 49250
+    reference_id: 173543
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 178203
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2020-1744.json
+    reference_id:
+  - id: 827201
+    url: https://access.redhat.com/security/cve/CVE-2020-1744
+    reference_id:
+  - id: 10320
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2020-1744
+    reference_id:
+  - id: 178198
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1805792
+    reference_id: 1805792
+  - id: 568146
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:keycloak:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:keycloak:*:*:*:*:*:*:*:*
+  - id: 10318
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-1744
+    reference_id: CVE-2020-1744
+  - id: 10321
+    url: https://github.com/advisories/GHSA-4gf2-xv97-63m2
+    reference_id: GHSA-4gf2-xv97-63m2
+  - id: 178201
+    url: https://access.redhat.com/errata/RHSA-2020:0945
+    reference_id: RHSA-2020:0945
+  - id: 178200
+    url: https://access.redhat.com/errata/RHSA-2020:0946
+    reference_id: RHSA-2020:0946
+  - id: 178199
+    url: https://access.redhat.com/errata/RHSA-2020:0947
+    reference_id: RHSA-2020:0947
+  - id: 178202
+    url: https://access.redhat.com/errata/RHSA-2020:0951
+    reference_id: RHSA-2020:0951
+  - id: 173544
+    url: https://access.redhat.com/errata/RHSA-2020:2252
+    reference_id: RHSA-2020:2252
+  - id: 173543
+    url: https://access.redhat.com/errata/RHSA-2020:2905
+    reference_id: RHSA-2020:2905
+weaknesses: []

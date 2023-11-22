@@ -1,0 +1,69 @@
+vulnerability_id: VCID-2w4d-73qc-aaag
+aliases:
+  - CVE-2017-12631
+  - GHSA-fv7x-4hpc-hf9f
+summary: Moderate severity vulnerability that affects org.apache.cxf.fediz:fediz-spring, org.apache.cxf.fediz:fediz-spring2,
+  and org.apache.cxf.fediz:fediz-spring3
+severities:
+  - id: 259225
+    reference_id: 15181
+    scoring_system: cvssv2
+    value: '6.8'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:P/A:P
+  - id: 259223
+    reference_id: 15181
+    scoring_system: cvssv3
+    value: '8.8'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+  - id: 1706
+    reference_id: 15182
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 15183
+    url: http://cxf.547215.n5.nabble.com/Apache-CXF-Fediz-1-4-3-and-1-3-3-released-with-a-new-security-advisory-CVE-2017-12631-td5785868.html
+    reference_id:
+  - id: 10867
+    url: https://lists.apache.org/thread.html/r36e44ffc1a9b365327df62cdfaabe85b9a5637de102cea07d79b2dbf@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10866
+    url: https://lists.apache.org/thread.html/rc774278135816e7afc943dc9fc78eb0764f2c84a2b96470a0187315c@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10872
+    url: https://lists.apache.org/thread.html/rd49aabd984ed540c8ff7916d4d79405f3fa311d2fdbcf9ed307839a6@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10860
+    url: https://lists.apache.org/thread.html/rec7160382badd3ef4ad017a22f64a266c7188b9ba71394f0d321e2d4@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10862
+    url: https://lists.apache.org/thread.html/rfb87e0bf3995e7d560afeed750fac9329ff5f1ad49da365129b7f89e@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10873
+    url: https://lists.apache.org/thread.html/rff42cfa5e7d75b7c1af0e37589140a8f1999e578a75738740b244bd4@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 15184
+    url: http://www.securityfocus.com/bid/102127
+    reference_id:
+  - id: 15185
+    url: http://www.securitytracker.com/id/1040487
+    reference_id:
+  - id: 157711
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf_fediz:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf_fediz:*:*:*:*:*:*:*:*
+  - id: 677829
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf_fediz:1.4.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf_fediz:1.4.0:*:*:*:*:*:*:*
+  - id: 677830
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf_fediz:1.4.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf_fediz:1.4.1:*:*:*:*:*:*:*
+  - id: 677831
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf_fediz:1.4.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf_fediz:1.4.2:*:*:*:*:*:*:*
+  - id: 15181
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-12631
+    reference_id: CVE-2017-12631
+  - id: 15182
+    url: https://github.com/advisories/GHSA-fv7x-4hpc-hf9f
+    reference_id: GHSA-fv7x-4hpc-hf9f
+weaknesses: []

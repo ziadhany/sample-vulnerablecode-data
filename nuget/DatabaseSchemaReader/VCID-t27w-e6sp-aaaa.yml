@@ -1,0 +1,35 @@
+vulnerability_id: VCID-t27w-e6sp-aaaa
+aliases:
+  - CVE-2020-26207
+  - GHSA-rfjh-m356-mpqf
+summary: |
+  Deserialization of Untrusted Data
+  `DatabaseSchemaViewer` is vulnerable to arbitrary code execution if a user is tricked into opening a specially crafted `.dbschema` file. As a workaround, ensure `.dbschema` files from untrusted sources are not opened.
+severities:
+  - id: 463624
+    reference_id: 37640
+    scoring_system: cvssv2
+    value: '6.8'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:P/A:P
+  - id: 463622
+    reference_id: 37640
+    scoring_system: cvssv3
+    value: '8.0'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
+references:
+  - id: 835148
+    url: https://github.com/martinjw/dbschemareader/commit/4c0ab7b1fd8c4e3140f9fd54d303f107a9c8d994
+    reference_id:
+  - id: 835149
+    url: https://github.com/martinjw/dbschemareader/releases/tag/2.7.4.3
+    reference_id:
+  - id: 835150
+    url: https://github.com/martinjw/dbschemareader/security/advisories/GHSA-rfjh-m356-mpqf
+    reference_id:
+  - id: 835151
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:databaseschemareader_project:dbschemareader:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:databaseschemareader_project:dbschemareader:*:*:*:*:*:*:*:*
+  - id: 37640
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-26207
+    reference_id: CVE-2020-26207
+weaknesses: []

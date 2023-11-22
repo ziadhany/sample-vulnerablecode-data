@@ -1,0 +1,31 @@
+vulnerability_id: VCID-wbqt-fduq-aaap
+aliases:
+  - GHSA-f52g-6jhx-586p
+  - GMS-2020-728
+summary: |
+  Denial of Service in handlebars
+  Affected versions of `handlebars` are vulnerable to Denial of Service. The package's parser may be forced into an endless loop while processing specially-crafted templates. This may allow attackers to exhaust system resources leading to Denial of Service.
+
+
+  ## Recommendation
+
+  Upgrade to version 4.4.5 or later.
+severities:
+  - id: 693198
+    reference_id: 35065
+    scoring_system: generic_textual
+    value: Medium
+    scoring_elements:
+  - id: 704875
+    reference_id: 35066
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 35065
+    url: https://www.npmjs.com/advisories/1300
+    reference_id:
+  - id: 35066
+    url: https://github.com/advisories/GHSA-f52g-6jhx-586p
+    reference_id: GHSA-f52g-6jhx-586p
+weaknesses: []

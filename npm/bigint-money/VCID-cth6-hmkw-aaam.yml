@@ -1,0 +1,21 @@
+vulnerability_id: VCID-cth6-hmkw-aaam
+aliases:
+  - GHSA-9r3m-mhfm-39cm
+  - GMS-2020-102
+summary: |
+  Incorrect Calculation in bigint-money
+  Versions of `bigint-money` are vulnerable to an Incorrect Calculation. The package incorrectly rounded certain numbers, which could have drastic consequences due to its usage in financial systems.
+severities:
+  - id: 704823
+    reference_id: 31914
+    scoring_system: cvssv3.1_qr
+    value: LOW
+    scoring_elements:
+references:
+  - id: 31913
+    url: https://www.npmjs.com/advisories/962
+    reference_id:
+  - id: 31914
+    url: https://github.com/advisories/GHSA-9r3m-mhfm-39cm
+    reference_id: GHSA-9r3m-mhfm-39cm
+weaknesses: []

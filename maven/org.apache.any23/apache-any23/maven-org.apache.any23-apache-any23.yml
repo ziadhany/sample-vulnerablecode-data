@@ -1,0 +1,76 @@
+package: pkg:maven/org.apache.any23/apache-any23
+versions:
+  - purl: pkg:maven/org.apache.any23/apache-any23@0.7.0-incubating
+    affected_by_vulnerabilities:
+      - VCID-6qm2-zjyj-aaae
+      - VCID-ha49-uv5v-aaah
+      - VCID-t6wy-62ja-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.any23/apache-any23@0.8.0
+    affected_by_vulnerabilities:
+      - VCID-6qm2-zjyj-aaae
+      - VCID-ha49-uv5v-aaah
+      - VCID-t6wy-62ja-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.any23/apache-any23@0.9.0
+    affected_by_vulnerabilities:
+      - VCID-6qm2-zjyj-aaae
+      - VCID-ha49-uv5v-aaah
+      - VCID-t6wy-62ja-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.any23/apache-any23@1.0
+    affected_by_vulnerabilities:
+      - VCID-6qm2-zjyj-aaae
+      - VCID-ha49-uv5v-aaah
+      - VCID-t6wy-62ja-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.any23/apache-any23@1.1
+    affected_by_vulnerabilities:
+      - VCID-6qm2-zjyj-aaae
+      - VCID-ha49-uv5v-aaah
+      - VCID-t6wy-62ja-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.any23/apache-any23@2.0
+    affected_by_vulnerabilities:
+      - VCID-6qm2-zjyj-aaae
+      - VCID-ha49-uv5v-aaah
+      - VCID-t6wy-62ja-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.any23/apache-any23@2.1
+    affected_by_vulnerabilities:
+      - VCID-6qm2-zjyj-aaae
+      - VCID-ha49-uv5v-aaah
+      - VCID-t6wy-62ja-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.any23/apache-any23@2.2
+    affected_by_vulnerabilities:
+      - VCID-6qm2-zjyj-aaae
+      - VCID-ha49-uv5v-aaah
+      - VCID-t6wy-62ja-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.any23/apache-any23@2.3
+    affected_by_vulnerabilities:
+      - VCID-6qm2-zjyj-aaae
+      - VCID-ha49-uv5v-aaah
+      - VCID-t6wy-62ja-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.any23/apache-any23@2.4
+    affected_by_vulnerabilities:
+      - VCID-6qm2-zjyj-aaae
+      - VCID-ha49-uv5v-aaah
+      - VCID-t6wy-62ja-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.any23/apache-any23@2.5
+    affected_by_vulnerabilities:
+      - VCID-6qm2-zjyj-aaae
+    fixing_vulnerabilities:
+      - VCID-ha49-uv5v-aaah
+      - VCID-t6wy-62ja-aaab
+  - purl: pkg:maven/org.apache.any23/apache-any23@2.6
+    affected_by_vulnerabilities:
+      - VCID-6qm2-zjyj-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.apache.any23/apache-any23@2.7
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-6qm2-zjyj-aaae

@@ -1,0 +1,22 @@
+vulnerability_id: VCID-9sdr-1g99-aaak
+aliases:
+  - CVE-2022-23463
+  - GHSA-q979-9m39-23mq
+summary: Nepxion Discovery vulnerable to SpEL Injection leading to Remote Code Execution
+severities:
+  - id: 647588
+    reference_id: 1416981
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 1416980
+    url: https://securitylab.github.com/advisories/GHSL-2022-033_GHSL-2022-034_Discovery/
+    reference_id:
+  - id: 1416979
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-23463
+    reference_id: CVE-2022-23463
+  - id: 1416981
+    url: https://github.com/advisories/GHSA-q979-9m39-23mq
+    reference_id: GHSA-q979-9m39-23mq
+weaknesses: []

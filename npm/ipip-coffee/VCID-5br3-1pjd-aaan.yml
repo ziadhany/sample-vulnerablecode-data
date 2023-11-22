@@ -1,0 +1,9 @@
+vulnerability_id: VCID-5br3-1pjd-aaan
+aliases:
+  - GMS-2017-26
+summary: |
+  Downloads Resources over HTTP
+  /nipip-coffee downloads geolocation resources over HTTP, which leaves it vulnerable to MITM attacks. This could impact the integrity and availability of the data being used to make geolocation decisions by an application.
+severities: []
+references: []
+weaknesses: []

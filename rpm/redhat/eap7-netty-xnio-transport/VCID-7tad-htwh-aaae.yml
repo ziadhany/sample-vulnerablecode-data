@@ -1,0 +1,167 @@
+vulnerability_id: VCID-7tad-htwh-aaae
+aliases:
+  - CVE-2016-8656
+summary: Jboss jbossas before versions 5.2.0-23, 6.4.13, 7.0.5 is vulnerable to an unsafe file
+  handling in the jboss init script which could result in local privilege escalation.
+severities:
+  - id: 627220
+    reference_id: 943596
+    scoring_system: cvssv3
+    value: '7.0'
+    scoring_elements: CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+  - id: 627219
+    reference_id: 943595
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 241440
+    reference_id: 659911
+    scoring_system: cvssv2
+    value: '4.6'
+    scoring_elements: AV:L/AC:L/Au:N/C:P/I:P/A:P
+  - id: 241438
+    reference_id: 659911
+    scoring_system: cvssv3
+    value: '7.8'
+    scoring_elements: CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+  - id: 68503
+    reference_id: '198044'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 68502
+    reference_id: '198043'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 68498
+    reference_id: '198039'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 68501
+    reference_id: '198042'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 623772
+    reference_id: 941238
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 623771
+    reference_id: 941237
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 623773
+    reference_id: 941239
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 47918
+    reference_id: 172494
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 47919
+    reference_id: 172495
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 47912
+    reference_id: 172488
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 626686
+    reference_id: 943227
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 654440
+    url: http://rhn.redhat.com/errata/RHSA-2017-0244.html
+    reference_id:
+  - id: 654441
+    url: http://rhn.redhat.com/errata/RHSA-2017-0245.html
+    reference_id:
+  - id: 654442
+    url: http://rhn.redhat.com/errata/RHSA-2017-0246.html
+    reference_id:
+  - id: 654444
+    url: http://rhn.redhat.com/errata/RHSA-2017-0250.html
+    reference_id:
+  - id: 659905
+    url: http://rhn.redhat.com/errata/RHSA-2017-0831.html
+    reference_id:
+  - id: 659906
+    url: http://rhn.redhat.com/errata/RHSA-2017-0832.html
+    reference_id:
+  - id: 659907
+    url: http://rhn.redhat.com/errata/RHSA-2017-0834.html
+    reference_id:
+  - id: 943596
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2016-8656.json
+    reference_id:
+  - id: 659910
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2016-8656
+    reference_id:
+  - id: 659908
+    url: http://www.securityfocus.com/bid/96035
+    reference_id:
+  - id: 943595
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1400344
+    reference_id: 1400344
+  - id: 408390
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:5.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:5.0.0:*:*:*:*:*:*:*
+  - id: 502543
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:6.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:6.0.0:*:*:*:*:*:*:*
+  - id: 659698
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:6.4.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:6.4.0:*:*:*:*:*:*:*
+  - id: 659699
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:7.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:7.0.0:*:*:*:*:*:*:*
+  - id: 659700
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:7.1.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:7.1.0:*:*:*:*:*:*:*
+  - id: 659911
+    url: https://nvd.nist.gov/vuln/detail/CVE-2016-8656
+    reference_id: CVE-2016-8656
+  - id: '198044'
+    url: https://access.redhat.com/errata/RHSA-2017:0244
+    reference_id: RHSA-2017:0244
+  - id: '198043'
+    url: https://access.redhat.com/errata/RHSA-2017:0245
+    reference_id: RHSA-2017:0245
+  - id: '198039'
+    url: https://access.redhat.com/errata/RHSA-2017:0246
+    reference_id: RHSA-2017:0246
+  - id: '198042'
+    url: https://access.redhat.com/errata/RHSA-2017:0250
+    reference_id: RHSA-2017:0250
+  - id: 941238
+    url: https://access.redhat.com/errata/RHSA-2017:0831
+    reference_id: RHSA-2017:0831
+  - id: 941237
+    url: https://access.redhat.com/errata/RHSA-2017:0832
+    reference_id: RHSA-2017:0832
+  - id: 941239
+    url: https://access.redhat.com/errata/RHSA-2017:0834
+    reference_id: RHSA-2017:0834
+  - id: 172494
+    url: https://access.redhat.com/errata/RHSA-2017:3454
+    reference_id: RHSA-2017:3454
+  - id: 172495
+    url: https://access.redhat.com/errata/RHSA-2017:3455
+    reference_id: RHSA-2017:3455
+  - id: 172488
+    url: https://access.redhat.com/errata/RHSA-2017:3458
+    reference_id: RHSA-2017:3458
+  - id: 943227
+    url: https://access.redhat.com/errata/RHSA-2018:1609
+    reference_id: RHSA-2018:1609
+weaknesses: []

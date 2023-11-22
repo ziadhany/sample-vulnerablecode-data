@@ -1,0 +1,52 @@
+vulnerability_id: VCID-vcwq-zrhc-aaag
+aliases:
+  - CVE-2021-29624
+  - GHSA-rc4q-9m69-gqp8
+summary: |
+  Reliance on Cookies without Validation and Integrity Checking
+  fastify-csrf is an open-source plugin helps developers protect their Fastify server against CSRF attacks. Versions of fastify-csrf have a "double submit" mechanism using cookies with an application deployed across multiple subdomains, e.g. "heroku"-style platform as a service. of the fastify-csrf fixes it. the vulnerability. The user of the module would need to supply a `userInfo` when generating the CSRF token to fully implement the protection on their end. This is needed only for applications hosted on different subdomains.
+severities:
+  - id: 532269
+    reference_id: 31804
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+  - id: 532267
+    reference_id: 31804
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N
+  - id: 706723
+    reference_id: 31806
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 31802
+    url: https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html
+    reference_id:
+  - id: 31800
+    url: https://github.com/fastify/csrf/pull/2
+    reference_id:
+  - id: 31801
+    url: https://github.com/fastify/fastify-csrf/pull/51
+    reference_id:
+  - id: 31805
+    url: https://github.com/fastify/fastify-csrf/releases/tag/v3.1.0
+    reference_id:
+  - id: 879229
+    url: https://github.com/fastify/fastify-csrf/security/advisories/GHSA-rc4q-9m69-gqp8
+    reference_id:
+  - id: 31803
+    url: https://owasp.org/www-pdf-archive/David_Johansson-Double_Defeat_of_Double-Submit_Cookie.pdf
+    reference_id:
+  - id: 839072
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:fastify:fastify-csrf:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:fastify:fastify-csrf:*:*:*:*:*:node.js:*:*
+  - id: 31804
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-29624
+    reference_id: CVE-2021-29624
+  - id: 31806
+    url: https://github.com/advisories/GHSA-rc4q-9m69-gqp8
+    reference_id: GHSA-rc4q-9m69-gqp8
+weaknesses: []

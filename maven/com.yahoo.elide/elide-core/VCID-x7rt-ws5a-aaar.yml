@@ -1,0 +1,41 @@
+vulnerability_id: VCID-x7rt-ws5a-aaar
+aliases:
+  - CVE-2020-5289
+  - GHSA-2mxr-89gf-rc4v
+summary: Read permissions not enforced for client provided filter expressions in Elide.
+severities:
+  - id: 481940
+    reference_id: 13894
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:N/A:N
+  - id: 481938
+    reference_id: 13894
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+  - id: 1507
+    reference_id: 13895
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 13892
+    url: https://github.com/yahoo/elide/pull/1236
+    reference_id:
+  - id: 13893
+    url: https://github.com/yahoo/elide/pull/1236/commits/a985f0f9c448aabe70bc904337096399de4576dc
+    reference_id:
+  - id: 847803
+    url: https://github.com/yahoo/elide/security/advisories/GHSA-2mxr-89gf-rc4v
+    reference_id:
+  - id: 847804
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:elide:elide:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:elide:elide:*:*:*:*:*:*:*:*
+  - id: 13894
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-5289
+    reference_id: CVE-2020-5289
+  - id: 13895
+    url: https://github.com/advisories/GHSA-2mxr-89gf-rc4v
+    reference_id: GHSA-2mxr-89gf-rc4v
+weaknesses: []

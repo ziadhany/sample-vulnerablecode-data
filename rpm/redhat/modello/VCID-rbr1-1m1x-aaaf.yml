@@ -1,0 +1,44 @@
+vulnerability_id: VCID-rbr1-1m1x-aaaf
+aliases:
+  - CVE-2013-4225
+summary: 'CVE-2013-4225 Katello: proxied Candlepin calls authorization bypass'
+severities:
+  - id: 168757
+    reference_id: 533587
+    scoring_system: cvssv2
+    value: '6.8'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:P/A:P
+  - id: 168755
+    reference_id: 533587
+    scoring_system: cvssv3
+    value: '8.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+references:
+  - id: 185702
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2013-4225.json
+    reference_id:
+  - id: 533584
+    url: https://drupal.org/node/2059591
+    reference_id:
+  - id: 533585
+    url: https://drupal.org/node/2059593
+    reference_id:
+  - id: 533586
+    url: https://drupal.org/node/2059603
+    reference_id:
+  - id: 533405
+    url: http://www.openwall.com/lists/oss-security/2013/08/10/1
+    reference_id:
+  - id: 533589
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:restful_web_services_project:restful_web_services:7.x-2.x:dev:*:*:*:drupal:*:*
+    reference_id: cpe:2.3:a:restful_web_services_project:restful_web_services:7.x-2.x:dev:*:*:*:drupal:*:*
+  - id: 533588
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:restful_web_services_project:restful_web_services:*:*:*:*:*:drupal:*:*
+    reference_id: cpe:2.3:a:restful_web_services_project:restful_web_services:*:*:*:*:*:drupal:*:*
+  - id: 533587
+    url: https://nvd.nist.gov/vuln/detail/CVE-2013-4225
+    reference_id: CVE-2013-4225
+  - id: 185701
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=997639
+    reference_id: RHEA-2014:1175
+weaknesses: []

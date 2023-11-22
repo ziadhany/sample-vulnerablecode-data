@@ -1,0 +1,14 @@
+package: pkg:gem/trestle-auth
+versions:
+  - purl: pkg:gem/trestle-auth@0.4.0
+    affected_by_vulnerabilities:
+      - VCID-mykr-dnjx-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/trestle-auth@0.4.1
+    affected_by_vulnerabilities:
+      - VCID-mykr-dnjx-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/trestle-auth@0.4.2
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-mykr-dnjx-aaak

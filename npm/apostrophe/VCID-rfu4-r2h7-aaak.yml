@@ -1,0 +1,40 @@
+vulnerability_id: VCID-rfu4-r2h7-aaak
+aliases:
+  - CVE-2021-25978
+  - GHSA-4r9c-jghc-cx5m
+summary: |
+  Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')
+  Apostrophe CMS versions between to are vulnerable to Stored XSS where an editor uploads an SVG file that contains malicious JavaScript onto the Images module, which triggers XSS once viewed.
+severities:
+  - id: 523334
+    reference_id: 33355
+    scoring_system: cvssv2
+    value: '3.5'
+    scoring_elements: AV:N/AC:M/Au:S/C:N/I:P/A:N
+  - id: 523332
+    reference_id: 33355
+    scoring_system: cvssv3
+    value: '5.4'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N
+  - id: 706679
+    reference_id: 1468309
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 33349
+    url: https://github.com/apostrophecms/apostrophe
+    reference_id:
+  - id: 873638
+    url: https://github.com/apostrophecms/apostrophe/commit/c8b94ee9c79468f1ce28e31966cb0e0839165e59
+    reference_id:
+  - id: 873639
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apostrophecms:apostrophecms:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apostrophecms:apostrophecms:*:*:*:*:*:*:*:*
+  - id: 33355
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-25978
+    reference_id: CVE-2021-25978
+  - id: 1468309
+    url: https://github.com/advisories/GHSA-4r9c-jghc-cx5m
+    reference_id: GHSA-4r9c-jghc-cx5m
+weaknesses: []

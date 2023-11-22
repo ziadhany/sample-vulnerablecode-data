@@ -1,0 +1,21 @@
+vulnerability_id: VCID-9w4f-xx2t-aaaa
+aliases:
+  - GHSA-23vw-mhv5-grv5
+  - GMS-2020-27
+summary: |
+  Denial of Service in @hapi/hapi
+  Versions of `@hapi/hapi` are vulnerable to Denial of Service. The CORS request handler has a vulnerability which will cause the function to throw a system error if the header contains some invalid values. If no unhandled exception handler is available, the application will exist, allowing an attacker to shut down services.
+severities:
+  - id: 704486
+    reference_id: 31475
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 31474
+    url: https://www.npmjs.com/advisories/1482
+    reference_id:
+  - id: 31475
+    url: https://github.com/advisories/GHSA-23vw-mhv5-grv5
+    reference_id: GHSA-23vw-mhv5-grv5
+weaknesses: []

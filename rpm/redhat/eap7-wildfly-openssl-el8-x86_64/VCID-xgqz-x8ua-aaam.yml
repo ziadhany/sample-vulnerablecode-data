@@ -1,0 +1,98 @@
+vulnerability_id: VCID-xgqz-x8ua-aaam
+aliases:
+  - CVE-2022-24823
+  - GHSA-269q-hmxg-m83q
+summary: Local Information Disclosure Vulnerability in io.netty:netty-codec-http
+severities:
+  - id: 26764
+    reference_id: 111934
+    scoring_system: cvssv3
+    value: '5.5'
+    scoring_elements: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+  - id: 26763
+    reference_id: 111933
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 590199
+    reference_id: 9168
+    scoring_system: cvssv2
+    value: '1.9'
+    scoring_elements: AV:L/AC:M/Au:N/C:P/I:N/A:N
+  - id: 590197
+    reference_id: 9168
+    scoring_system: cvssv3
+    value: '5.5'
+    scoring_elements: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+  - id: 712
+    reference_id: 9170
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 642077
+    reference_id: 1182810
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 642076
+    reference_id: 1182809
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 642074
+    reference_id: 1182807
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 642075
+    reference_id: 1182808
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 111934
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-24823.json
+    reference_id:
+  - id: 9169
+    url: https://github.com/netty/netty/commit/185f8b2756a36aaa4f973f1a2a025e7d981823f1
+    reference_id:
+  - id: 917771
+    url: https://github.com/netty/netty/security/advisories/GHSA-269q-hmxg-m83q
+    reference_id:
+  - id: 863731
+    url: https://github.com/netty/netty/security/advisories/GHSA-5mcr-gq6c-3hq2
+    reference_id:
+  - id: 944032
+    url: https://security.netapp.com/advisory/ntap-20220616-0004/
+    reference_id:
+  - id: 945268
+    url: https://www.oracle.com/security-alerts/cpujul2022.html
+    reference_id:
+  - id: 76979
+    url: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1010693
+    reference_id: 1010693
+  - id: 111933
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=2087186
+    reference_id: 2087186
+  - id: 566731
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:netty:netty:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:netty:netty:*:*:*:*:*:*:*:*
+  - id: 9168
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-24823
+    reference_id: CVE-2022-24823
+  - id: 9170
+    url: https://github.com/advisories/GHSA-269q-hmxg-m83q
+    reference_id: GHSA-269q-hmxg-m83q
+  - id: 1182810
+    url: https://access.redhat.com/errata/RHSA-2022:5892
+    reference_id: RHSA-2022:5892
+  - id: 1182809
+    url: https://access.redhat.com/errata/RHSA-2022:5893
+    reference_id: RHSA-2022:5893
+  - id: 1182807
+    url: https://access.redhat.com/errata/RHSA-2022:5894
+    reference_id: RHSA-2022:5894
+  - id: 1182808
+    url: https://access.redhat.com/errata/RHSA-2022:5928
+    reference_id: RHSA-2022:5928
+weaknesses: []

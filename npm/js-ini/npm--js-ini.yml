@@ -1,0 +1,34 @@
+package: pkg:npm/js-ini
+versions:
+  - purl: pkg:npm/js-ini@0.2.0
+    affected_by_vulnerabilities:
+      - VCID-bmwn-a2b2-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/js-ini@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-bmwn-a2b2-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/js-ini@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-bmwn-a2b2-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/js-ini@1.1.0
+    affected_by_vulnerabilities:
+      - VCID-bmwn-a2b2-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/js-ini@1.1.2
+    affected_by_vulnerabilities:
+      - VCID-bmwn-a2b2-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/js-ini@1.1.3
+    affected_by_vulnerabilities:
+      - VCID-bmwn-a2b2-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/js-ini@1.2.0
+    affected_by_vulnerabilities:
+      - VCID-bmwn-a2b2-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/js-ini@1.3.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-bmwn-a2b2-aaab

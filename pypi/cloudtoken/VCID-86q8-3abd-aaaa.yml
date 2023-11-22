@@ -1,0 +1,29 @@
+vulnerability_id: VCID-86q8-3abd-aaaa
+aliases:
+  - CVE-2018-13390
+  - PYSEC-2018-1
+summary: Unauthenticated access to cloudtoken daemon on Linux via network from version 0.1.1
+  before version 0.1.24 allows attackers on the same subnet to gain temporary AWS credentials
+  for the users' roles.
+severities:
+  - id: 320273
+    reference_id: 23510
+    scoring_system: cvssv2
+    value: '4.8'
+    scoring_elements: AV:A/AC:L/Au:N/C:P/I:P/A:N
+  - id: 320271
+    reference_id: 23510
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.0/AV:A/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N
+references:
+  - id: 5441
+    url: https://bitbucket.org/atlassian/cloudtoken/wiki/CVE-2018-13390%20-%20Exposed%20credentials%20in%20daemon%20mode%20on%20Linux
+    reference_id:
+  - id: 731756
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:atlassian:cloudtoken:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:atlassian:cloudtoken:*:*:*:*:*:*:*:*
+  - id: 23510
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-13390
+    reference_id: CVE-2018-13390
+weaknesses: []

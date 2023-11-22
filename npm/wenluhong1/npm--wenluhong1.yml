@@ -1,0 +1,15 @@
+package: pkg:npm/wenluhong1
+versions:
+  - purl: pkg:npm/wenluhong1@0.0.0
+    affected_by_vulnerabilities:
+      - VCID-uurf-2vbh-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/wenluhong1@0.0.0-alpha
+    affected_by_vulnerabilities:
+      - VCID-j97x-n7tb-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/wenluhong1@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-j97x-n7tb-aaah
+      - VCID-uurf-2vbh-aaak
+    fixing_vulnerabilities: []

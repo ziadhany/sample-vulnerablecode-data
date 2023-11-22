@@ -1,0 +1,12 @@
+vulnerability_id: VCID-g1yu-ztjg-aaaa
+aliases:
+  - GMS-2018-31
+summary: |
+  Malicious package
+  The flatmap-stream package is malicious.
+severities: []
+references:
+  - id: 35038
+    url: https://github.com/dominictarr/event-stream/issues/116
+    reference_id:
+weaknesses: []

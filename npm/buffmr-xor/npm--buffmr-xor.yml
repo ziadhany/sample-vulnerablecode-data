@@ -1,0 +1,10 @@
+package: pkg:npm/buffmr-xor
+versions:
+  - purl: pkg:npm/buffmr-xor@0.0.0
+    affected_by_vulnerabilities:
+      - VCID-8jtf-xtzx-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/buffmr-xor@0.0.1-security
+    affected_by_vulnerabilities:
+      - VCID-8jtf-xtzx-aaaj
+    fixing_vulnerabilities: []

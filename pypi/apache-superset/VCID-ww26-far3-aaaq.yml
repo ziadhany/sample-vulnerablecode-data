@@ -1,0 +1,38 @@
+vulnerability_id: VCID-ww26-far3-aaaq
+aliases:
+  - CVE-2021-41972
+  - GHSA-42q4-9xf9-f67x
+  - PYSEC-2021-434
+summary: Apache Superset up to and including 1.3.1 allowed for database connections password
+  leak for authenticated users. This information could be accessed in a non-trivial way.
+severities:
+  - id: 564008
+    reference_id: 23158
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:N/A:N
+  - id: 564006
+    reference_id: 23158
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+references:
+  - id: 1416730
+    url: https://github.com/advisories/GHSA-42q4-9xf9-f67x
+    reference_id:
+  - id: 1416801
+    url: https://github.com/pypa/advisory-database/tree/main/vulns/apache-superset/PYSEC-2021-434.yaml
+    reference_id:
+  - id: 8262
+    url: https://lists.apache.org/thread/xpdl2r538o695o7r9gd9qrwqb17bdd3v
+    reference_id:
+  - id: 8263
+    url: https://seclists.org/oss-sec/2021/q4/106
+    reference_id:
+  - id: 759276
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:superset:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:superset:*:*:*:*:*:*:*:*
+  - id: 23158
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-41972
+    reference_id: CVE-2021-41972
+weaknesses: []

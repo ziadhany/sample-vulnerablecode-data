@@ -1,0 +1,65 @@
+vulnerability_id: VCID-feek-6cna-aaag
+aliases:
+  - CVE-2016-8639
+summary: 'CVE-2016-8639 foreman: Stored XSS via organization/location with HTML in name'
+severities:
+  - id: 49667
+    reference_id: 174056
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+  - id: 49666
+    reference_id: 174055
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 241372
+    reference_id: 659793
+    scoring_system: cvssv2
+    value: '3.5'
+    scoring_elements: AV:N/AC:M/Au:S/C:N/I:P/A:N
+  - id: 241370
+    reference_id: 659793
+    scoring_system: cvssv3
+    value: '5.4'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N
+  - id: 48853
+    reference_id: 173183
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 174056
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2016-8639.json
+    reference_id:
+  - id: 659790
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2016-8639
+    reference_id:
+  - id: 659791
+    url: https://github.com/theforeman/foreman/pull/3523
+    reference_id:
+  - id: 659792
+    url: https://projects.theforeman.org/issues/15037
+    reference_id:
+  - id: 659789
+    url: http://www.securityfocus.com/bid/94263
+    reference_id:
+  - id: 174055
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1393291
+    reference_id: 1393291
+  - id: 659794
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:satellite:6.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:satellite:6.3:*:*:*:*:*:*:*
+  - id: 659795
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:satellite_capsule:6.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:satellite_capsule:6.3:*:*:*:*:*:*:*
+  - id: 158226
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:foreman:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:foreman:*:*:*:*:*:*:*:*
+  - id: 659793
+    url: https://nvd.nist.gov/vuln/detail/CVE-2016-8639
+    reference_id: CVE-2016-8639
+  - id: 173183
+    url: https://access.redhat.com/errata/RHSA-2018:0336
+    reference_id: RHSA-2018:0336
+weaknesses: []

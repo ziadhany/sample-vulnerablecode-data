@@ -1,0 +1,43 @@
+vulnerability_id: VCID-u847-czmr-aaah
+aliases:
+  - CVE-2015-9243
+  - GHSA-j3g2-m5jj-6336
+summary: |
+  Unsafe Merging of CORS Configuration Conflict in hapi
+  When server level, connection level or route level CORS configurations in hapi node module before 11.1.4 are combined and when a higher level config included security restrictions (like origin), a higher level config that included security restrictions (like origin) would have those restrictions overridden by less restrictive defaults (e.g. origin defaults to all origins `*`).
+severities:
+  - id: 207965
+    reference_id: 37194
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+  - id: 207963
+    reference_id: 37194
+    scoring_system: cvssv3
+    value: '5.9'
+    scoring_elements: CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+  - id: 705358
+    reference_id: 37196
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 37192
+    url: https://github.com/hapijs/hapi/issues/2980
+    reference_id:
+  - id: 37195
+    url: https://nodesecurity.io/advisories/65
+    reference_id:
+  - id: 37193
+    url: https://www.npmjs.com/advisories/65
+    reference_id:
+  - id: 621306
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:hapijs:hapi:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:hapijs:hapi:*:*:*:*:*:node.js:*:*
+  - id: 37194
+    url: https://nvd.nist.gov/vuln/detail/CVE-2015-9243
+    reference_id: CVE-2015-9243
+  - id: 37196
+    url: https://github.com/advisories/GHSA-j3g2-m5jj-6336
+    reference_id: GHSA-j3g2-m5jj-6336
+weaknesses: []

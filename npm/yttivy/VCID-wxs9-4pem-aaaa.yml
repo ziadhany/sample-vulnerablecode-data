@@ -1,0 +1,46 @@
+vulnerability_id: VCID-wxs9-4pem-aaaa
+aliases:
+  - CVE-2017-16219
+  - GHSA-96qc-ghj4-rq27
+summary: |
+  Path Traversal
+  yttivy is vulnerable to a directory traversal issue, giving an attacker access to the filesystem by placing `../` in the url.
+severities:
+  - id: 270492
+    reference_id: 34729
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 270490
+    reference_id: 34729
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+  - id: 705799
+    reference_id: 1467154
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 34728
+    url: https://github.com/JacksonGL/NPM-Vuln-PoC/blob/master/directory-traversal/yttivy
+    reference_id:
+  - id: 688058
+    url: https://nodesecurity.io/advisories/441
+    reference_id:
+  - id: 1472484
+    url: https://web.archive.org/web/20201208101732/https://www.npmjs.com/advisories/441
+    reference_id:
+  - id: 1467153
+    url: https://www.npmjs.com/advisories/441
+    reference_id:
+  - id: 688059
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:yttivy_project:yttivy:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:yttivy_project:yttivy:*:*:*:*:*:node.js:*:*
+  - id: 34729
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-16219
+    reference_id: CVE-2017-16219
+  - id: 1467154
+    url: https://github.com/advisories/GHSA-96qc-ghj4-rq27
+    reference_id: GHSA-96qc-ghj4-rq27
+weaknesses: []

@@ -1,0 +1,57 @@
+vulnerability_id: VCID-643s-7stg-aaab
+aliases:
+  - CVE-2016-0788
+summary: 'CVE-2016-0788 jenkins: Remote code execution vulnerability in remoting module (SECURITY-232)'
+severities:
+  - id: 51081
+    reference_id: 175733
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 211344
+    reference_id: 625520
+    scoring_system: cvssv2
+    value: '10.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:C/I:C/A:C
+  - id: 211342
+    reference_id: 625520
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 49672
+    reference_id: 174061
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 15573
+    url: http://rhn.redhat.com/errata/RHSA-2016-1773.html
+    reference_id:
+  - id: 625519
+    url: https://access.redhat.com/errata/RHSA-2016:0711
+    reference_id:
+  - id: 175735
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2016-0788.json
+    reference_id:
+  - id: 27020
+    url: https://wiki.jenkins-ci.org/display/SECURITY/Jenkins+Security+Advisory+2016-02-24
+    reference_id:
+  - id: 175733
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1311946
+    reference_id: 1311946
+  - id: 159205
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:jenkins:jenkins:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:jenkins:jenkins:*:*:*:*:*:*:*:*
+  - id: 625521
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:jenkins:jenkins:1.642.1:*:*:*:lts:*:*:*
+    reference_id: cpe:2.3:a:jenkins:jenkins:1.642.1:*:*:*:lts:*:*:*
+  - id: 614312
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift:3.1:*:*:*:enterprise:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift:3.1:*:*:*:enterprise:*:*:*
+  - id: 625520
+    url: https://nvd.nist.gov/vuln/detail/CVE-2016-0788
+    reference_id: CVE-2016-0788
+  - id: 174061
+    url: https://access.redhat.com/errata/RHSA-2016:1773
+    reference_id: RHSA-2016:1773
+weaknesses: []

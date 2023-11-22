@@ -1,0 +1,49 @@
+vulnerability_id: VCID-pjdg-p8nw-aaab
+aliases:
+  - CVE-2021-31918
+summary: A flaw was found in tripleo-ansible version as shipped in Red Hat Openstack 16.1. The
+  Ansible log file is readable to all users during stack update and creation. The highest threat
+  from this vulnerability is to data confidentiality.
+severities:
+  - id: 605717
+    reference_id: 928191
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+  - id: 605715
+    reference_id: 928189
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 538771
+    reference_id: 883480
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 538769
+    reference_id: 883480
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+  - id: 605716
+    reference_id: 928190
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 928191
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-31918.json
+    reference_id:
+  - id: 928189
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1954250
+    reference_id: '1954250'
+  - id: 637843
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openstack:16.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:openstack:16.1:*:*:*:*:*:*:*
+  - id: 883480
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-31918
+    reference_id: CVE-2021-31918
+  - id: 928190
+    url: https://access.redhat.com/errata/RHSA-2021:2119
+    reference_id: RHSA-2021:2119
+weaknesses: []

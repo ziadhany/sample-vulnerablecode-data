@@ -1,0 +1,19 @@
+vulnerability_id: VCID-3g2n-1v9z-aaar
+aliases:
+  - GHSA-9vrw-m88g-w75q
+  - GMS-2020-24
+summary: Improper Neutralization in @hapi/accept.
+severities:
+  - id: 704827
+    reference_id: 31473
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 31472
+    url: https://www.npmjs.com/advisories/1475
+    reference_id:
+  - id: 31473
+    url: https://github.com/advisories/GHSA-9vrw-m88g-w75q
+    reference_id: GHSA-9vrw-m88g-w75q
+weaknesses: []

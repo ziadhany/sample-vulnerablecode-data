@@ -1,0 +1,52 @@
+vulnerability_id: VCID-w4m8-cct6-aaan
+aliases:
+  - CVE-2014-7812
+summary: 'CVE-2014-7812 Red Hat Satellite, Spacewalk: XSS in system-group'
+severities:
+  - id: 56998
+    reference_id: 182942
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 188494
+    reference_id: 584355
+    scoring_system: cvssv2
+    value: '3.5'
+    scoring_elements: AV:N/AC:M/Au:S/C:N/I:P/A:N
+  - id: 56991
+    reference_id: 182934
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 584350
+    url: http://lists.opensuse.org/opensuse-security-announce/2015-05/msg00020.html
+    reference_id:
+  - id: 584351
+    url: http://rhn.redhat.com/errata/RHSA-2015-0033.html
+    reference_id:
+  - id: 182943
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2014-7812.json
+    reference_id:
+  - id: 584352
+    url: http://secunia.com/advisories/62183
+    reference_id:
+  - id: 182942
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1172934
+    reference_id: 1172934
+  - id: 169414
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:satellite:5.6:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:satellite:5.6:*:*:*:*:*:*:*
+  - id: 584354
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:spacewalk:-:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:spacewalk:-:*:*:*:*:*:*:*
+  - id: 535098
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:suse:manager:1.7:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:suse:manager:1.7:*:*:*:*:*:*:*
+  - id: 584355
+    url: https://nvd.nist.gov/vuln/detail/CVE-2014-7812
+    reference_id: CVE-2014-7812
+  - id: 182934
+    url: https://access.redhat.com/errata/RHSA-2015:0033
+    reference_id: RHSA-2015:0033
+weaknesses: []

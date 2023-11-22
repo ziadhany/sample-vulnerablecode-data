@@ -1,0 +1,46 @@
+vulnerability_id: VCID-5z8u-pbtu-aaab
+aliases:
+  - CVE-2020-7696
+  - GHSA-6xhg-q9c8-rj32
+summary: |
+  Information Exposure
+  This affects all versions of package react-native-fast-image. When an image is loaded, all other subsequent images will use the same headers, this can lead to signing credentials or other session tokens being leaked to other servers.
+severities:
+  - id: 489401
+    reference_id: 36378
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 489399
+    reference_id: 36378
+    scoring_system: cvssv3
+    value: '5.3'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+  - id: 706374
+    reference_id: 1467939
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 1467938
+    url: https://github.com/DylanVann/react-native-fast-image/commit/4a7cd64f5b0aa40b04d63ccb105ee2b511abe624
+    reference_id:
+  - id: 852832
+    url: https://github.com/DylanVann/react-native-fast-image/issues/690
+    reference_id:
+  - id: 36379
+    url: https://github.com/DylanVann/react-native-fast-image/pull/691
+    reference_id:
+  - id: 852833
+    url: https://snyk.io/vuln/SNYK-JS-REACTNATIVEFASTIMAGE-572228
+    reference_id:
+  - id: 852834
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:react-native-fast-image_project:react-native-fast-image:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:react-native-fast-image_project:react-native-fast-image:*:*:*:*:*:*:*:*
+  - id: 36378
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-7696
+    reference_id: CVE-2020-7696
+  - id: 1467939
+    url: https://github.com/advisories/GHSA-6xhg-q9c8-rj32
+    reference_id: GHSA-6xhg-q9c8-rj32
+weaknesses: []

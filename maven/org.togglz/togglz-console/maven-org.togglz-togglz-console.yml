@@ -1,0 +1,118 @@
+package: pkg:maven/org.togglz/togglz-console
+versions:
+  - purl: pkg:maven/org.togglz/togglz-console@1.0.0.Final
+    affected_by_vulnerabilities:
+      - VCID-b4gr-rac8-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.togglz/togglz-console@1.1.0.Final
+    affected_by_vulnerabilities:
+      - VCID-b4gr-rac8-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.togglz/togglz-console@1.1.1.Final
+    affected_by_vulnerabilities:
+      - VCID-b4gr-rac8-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.togglz/togglz-console@2.0.0.Alpha1
+    affected_by_vulnerabilities:
+      - VCID-b4gr-rac8-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.togglz/togglz-console@2.0.0.Beta1
+    affected_by_vulnerabilities:
+      - VCID-b4gr-rac8-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.togglz/togglz-console@2.0.0.Beta2
+    affected_by_vulnerabilities:
+      - VCID-b4gr-rac8-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.togglz/togglz-console@2.0.0.Final
+    affected_by_vulnerabilities:
+      - VCID-b4gr-rac8-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.togglz/togglz-console@2.0.0.RC1
+    affected_by_vulnerabilities:
+      - VCID-b4gr-rac8-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.togglz/togglz-console@2.0.1.Final
+    affected_by_vulnerabilities:
+      - VCID-b4gr-rac8-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.togglz/togglz-console@2.1.0.Final
+    affected_by_vulnerabilities:
+      - VCID-b4gr-rac8-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.togglz/togglz-console@2.2.0.Final
+    affected_by_vulnerabilities:
+      - VCID-b4gr-rac8-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.togglz/togglz-console@2.3.0.Final
+    affected_by_vulnerabilities:
+      - VCID-b4gr-rac8-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.togglz/togglz-console@2.3.0.RC1
+    affected_by_vulnerabilities:
+      - VCID-b4gr-rac8-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.togglz/togglz-console@2.3.0.RC2
+    affected_by_vulnerabilities:
+      - VCID-b4gr-rac8-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.togglz/togglz-console@2.4.0.Final
+    affected_by_vulnerabilities:
+      - VCID-b4gr-rac8-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.togglz/togglz-console@2.4.0.RC1
+    affected_by_vulnerabilities:
+      - VCID-b4gr-rac8-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.togglz/togglz-console@2.4.1.Final
+    affected_by_vulnerabilities:
+      - VCID-b4gr-rac8-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.togglz/togglz-console@2.5.0.Final
+    affected_by_vulnerabilities:
+      - VCID-b4gr-rac8-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.togglz/togglz-console@2.6.0.Final
+    affected_by_vulnerabilities:
+      - VCID-b4gr-rac8-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.togglz/togglz-console@2.6.1.Final
+    affected_by_vulnerabilities:
+      - VCID-b4gr-rac8-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.togglz/togglz-console@2.7.0
+    affected_by_vulnerabilities:
+      - VCID-b4gr-rac8-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.togglz/togglz-console@2.7.1
+    affected_by_vulnerabilities:
+      - VCID-b4gr-rac8-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.togglz/togglz-console@2.7.2
+    affected_by_vulnerabilities:
+      - VCID-b4gr-rac8-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.togglz/togglz-console@2.8.0
+    affected_by_vulnerabilities:
+      - VCID-b4gr-rac8-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.togglz/togglz-console@2.9.0
+    affected_by_vulnerabilities:
+      - VCID-b4gr-rac8-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.togglz/togglz-console@2.9.1
+    affected_by_vulnerabilities:
+      - VCID-b4gr-rac8-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.togglz/togglz-console@2.9.2
+    affected_by_vulnerabilities:
+      - VCID-b4gr-rac8-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.togglz/togglz-console@2.9.3
+    affected_by_vulnerabilities:
+      - VCID-b4gr-rac8-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.togglz/togglz-console@2.9.4
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-b4gr-rac8-aaag

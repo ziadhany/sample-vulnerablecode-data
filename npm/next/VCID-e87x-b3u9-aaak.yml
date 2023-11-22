@@ -1,0 +1,36 @@
+vulnerability_id: VCID-e87x-b3u9-aaak
+aliases:
+  - CVE-2022-36046
+  - GHSA-wff4-fpwg-qqv3
+  - GMS-2022-3782
+summary: 'Next.js is a React framework that can provide building blocks to create web applications.
+  All of the following must be true to be affected by this CVE: Next.js version 12.2.3, Node.js
+  version above v15.0.0 being used with strict `unhandledRejection` exiting AND using next start
+  or a [custom server](https://nextjs.org/docs/advanced-features/custom-server). Deployments
+  on Vercel ([vercel.com](https://vercel.com/)) are not affected along with similar environments
+  where `next-server` isn''t being shared across requests.'
+severities:
+  - id: 647449
+    reference_id: 1415408
+    scoring_system: cvssv3
+    value: '5.3'
+    scoring_elements: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+  - id: 707185
+    reference_id: 1462956
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 1415406
+    url: https://github.com/vercel/next.js/releases/tag/v12.2.4
+    reference_id:
+  - id: 1415407
+    url: https://github.com/vercel/next.js/security/advisories/GHSA-wff4-fpwg-qqv3
+    reference_id:
+  - id: 1415408
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-36046
+    reference_id: CVE-2022-36046
+  - id: 1462956
+    url: https://github.com/advisories/GHSA-wff4-fpwg-qqv3
+    reference_id: GHSA-wff4-fpwg-qqv3
+weaknesses: []

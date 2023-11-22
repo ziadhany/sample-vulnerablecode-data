@@ -1,0 +1,25 @@
+vulnerability_id: VCID-93yt-5vkz-aaam
+aliases:
+  - CVE-2022-4640
+  - GHSA-6rvv-h8g7-728w
+summary: Mingsoft MCMS Cross-site Scripting vulnerability
+severities:
+  - id: 704444
+    reference_id: 1466060
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 1466058
+    url: https://gitee.com/mingSoft/MCMS/issues/I65KI5
+    reference_id:
+  - id: 1466059
+    url: https://vuldb.com/?id.216499
+    reference_id:
+  - id: 1466057
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-4640
+    reference_id: CVE-2022-4640
+  - id: 1466060
+    url: https://github.com/advisories/GHSA-6rvv-h8g7-728w
+    reference_id: GHSA-6rvv-h8g7-728w
+weaknesses: []

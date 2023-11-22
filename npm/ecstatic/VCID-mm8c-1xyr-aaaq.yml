@@ -1,0 +1,37 @@
+vulnerability_id: VCID-mm8c-1xyr-aaaq
+aliases:
+  - CVE-2019-10775
+  - GHSA-jc84-3g44-wf2q
+summary: |
+  Uncontrolled Resource Consumption
+  ecstatic have a denial of service vulnerability. Successful exploitation could lead to crash of an application.
+severities:
+  - id: 369664
+    reference_id: 37250
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 369662
+    reference_id: 37250
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 705992
+    reference_id: 37254
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 37253
+    url: https://snyk.io/vuln/SNYK-JS-ECSTATIC-540354
+    reference_id:
+  - id: 621308
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:ecstatic_project:ecstatic:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:ecstatic_project:ecstatic:*:*:*:*:*:node.js:*:*
+  - id: 37250
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-10775
+    reference_id: CVE-2019-10775
+  - id: 37254
+    url: https://github.com/advisories/GHSA-jc84-3g44-wf2q
+    reference_id: GHSA-jc84-3g44-wf2q
+weaknesses: []

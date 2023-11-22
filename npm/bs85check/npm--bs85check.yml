@@ -1,0 +1,10 @@
+package: pkg:npm/bs85check
+versions:
+  - purl: pkg:npm/bs85check@0.0.0
+    affected_by_vulnerabilities:
+      - VCID-hy3s-3b86-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/bs85check@0.0.1-security
+    affected_by_vulnerabilities:
+      - VCID-hy3s-3b86-aaan
+    fixing_vulnerabilities: []

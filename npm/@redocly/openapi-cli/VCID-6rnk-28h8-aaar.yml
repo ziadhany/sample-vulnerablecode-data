@@ -1,0 +1,27 @@
+vulnerability_id: VCID-6rnk-28h8-aaar
+aliases:
+  - GHSA-q324-q795-2q5p
+  - GMS-2021-29
+summary: Relative Path Traversal in @redocly/openapi-cli.
+severities:
+  - id: 705095
+    reference_id: 33458
+    scoring_system: cvssv3.1_qr
+    value: LOW
+    scoring_elements:
+  - id: 705094
+    reference_id: 33456
+    scoring_system: cvssv3.1_qr
+    value: LOW
+    scoring_elements:
+references:
+  - id: 33457
+    url: https://github.com/Redocly/openapi-cli/pull/347
+    reference_id:
+  - id: 33458
+    url: https://github.com/advisories/GHSA-q324-q795-2q5p
+    reference_id: GHSA-q324-q795-2q5p
+  - id: 33456
+    url: https://github.com/Redocly/openapi-cli/security/advisories/GHSA-q324-q795-2q5p
+    reference_id: GHSA-q324-q795-2q5p
+weaknesses: []

@@ -1,0 +1,38 @@
+vulnerability_id: VCID-32w4-czn1-aaaq
+aliases:
+  - CVE-2022-39288
+  - GHSA-455w-c45v-86rg
+summary: |
+  Improper Check for Unusual or Exceptional Conditions
+  fastify is a fast and low overhead web framework, for Node.js. Affected versions of fastify are subject to a denial of service via malicious use of the Content-Type header. An attacker can send an invalid Content-Type header that can cause the application to crash. This issue has been addressed in commit `fbb07e8d` and will be included in release version 4.8.1. Users are advised to upgrade. Users unable to upgrade may manually filter out http content with malicious Content-Type headers.
+severities:
+  - id: 707242
+    reference_id: 1462824
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 707241
+    reference_id: 1462819
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 1462821
+    url: https://github.com/fastify/fastify/commit/fbb07e8dfad74c69cd4cd2211aedab87194618e3
+    reference_id:
+  - id: 1462822
+    url: https://github.com/fastify/fastify/security/policy
+    reference_id:
+  - id: 1462823
+    url: https://hackerone.com/bugs?report_id=1715536&subject=fastify
+    reference_id:
+  - id: 1462820
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-39288
+    reference_id: CVE-2022-39288
+  - id: 1462824
+    url: https://github.com/advisories/GHSA-455w-c45v-86rg
+    reference_id: GHSA-455w-c45v-86rg
+  - id: 1462819
+    url: https://github.com/fastify/fastify/security/advisories/GHSA-455w-c45v-86rg
+    reference_id: GHSA-455w-c45v-86rg
+weaknesses: []

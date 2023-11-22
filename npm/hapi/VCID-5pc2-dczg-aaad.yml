@@ -1,0 +1,49 @@
+vulnerability_id: VCID-5pc2-dczg-aaad
+aliases:
+  - CVE-2015-9241
+  - GHSA-rc8h-3fv6-pxv8
+summary: |
+  Improper Input Validation
+  Certain input passed into the If-Modified-Since or Last-Modified headers will cause an 'illegal access' exception to be raised. Instead of sending a HTTP 500 error back to the sender, hapi node module before 11.1.3 will continue to hold the socket open until timed out (default node timeout is 2 minutes).
+severities:
+  - id: 207957
+    reference_id: 37225
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 207955
+    reference_id: 37225
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 705356
+    reference_id: 37226
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 37221
+    url: https://github.com/hapijs/hapi/commit/aab2496e930dce5ee1ab28eecec94e0e45f03580
+    reference_id:
+  - id: 37222
+    url: https://github.com/jfhbrook/node-ecstatic/pull/179
+    reference_id:
+  - id: 37229
+    url: https://nodesecurity.io/advisories/63
+    reference_id:
+  - id: 37227
+    url: https://nodesecurity.io/advisories/64
+    reference_id:
+  - id: 37228
+    url: https://www.npmjs.com/advisories/63
+    reference_id:
+  - id: 621306
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:hapijs:hapi:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:hapijs:hapi:*:*:*:*:*:node.js:*:*
+  - id: 37225
+    url: https://nvd.nist.gov/vuln/detail/CVE-2015-9241
+    reference_id: CVE-2015-9241
+  - id: 37226
+    url: https://github.com/advisories/GHSA-rc8h-3fv6-pxv8
+    reference_id: GHSA-rc8h-3fv6-pxv8
+weaknesses: []

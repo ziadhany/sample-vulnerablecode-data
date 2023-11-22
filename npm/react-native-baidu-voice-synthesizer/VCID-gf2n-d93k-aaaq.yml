@@ -1,0 +1,9 @@
+vulnerability_id: VCID-gf2n-d93k-aaaq
+aliases:
+  - GMS-2017-2
+summary: |
+  Downloads Resources over HTTP
+  react-native-baidu-voice-synthesizer downloads resources over HTTP, which leaves it vulnerable to MITM attacks. It may be possible to cause remote code execution (RCE) by swapping out the requested resources with an attacker controlled copy if the attacker is on the network or positioned in between the user and the remote server.
+severities: []
+references: []
+weaknesses: []

@@ -1,0 +1,39 @@
+vulnerability_id: VCID-f6nq-5mym-aaad
+aliases:
+  - CVE-2013-2050
+summary: 'CVE-2013-2050 CloudForms Management Engine 2: miq_policy/explorer SQL injection'
+severities:
+  - id: 164707
+    reference_id: 522731
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+references:
+  - id: 522726
+    url: http://packetstormsecurity.com/files/124609/cfme_manageiq_evm_pass_reset.rb.txt
+    reference_id:
+  - id: 188371
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2013-2050.json
+    reference_id:
+  - id: 522729
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=959062
+    reference_id:
+  - id: 522727
+    url: http://secunia.com/advisories/56181
+    reference_id:
+  - id: 522730
+    url: https://exchange.xforce.ibmcloud.com/vulnerabilities/89984
+    reference_id:
+  - id: 522728
+    url: http://www.securityfocus.com/bid/64524
+    reference_id:
+  - id: 522732
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:cloudforms_management_engine:5.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:cloudforms_management_engine:5.1:*:*:*:*:*:*:*
+  - id: 522733
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:manageiq_enterprise_virtualization_manager:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:manageiq_enterprise_virtualization_manager:*:*:*:*:*:*:*:*
+  - id: 522731
+    url: https://nvd.nist.gov/vuln/detail/CVE-2013-2050
+    reference_id: CVE-2013-2050
+weaknesses: []

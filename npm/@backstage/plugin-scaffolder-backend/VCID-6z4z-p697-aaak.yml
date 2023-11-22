@@ -1,0 +1,40 @@
+vulnerability_id: VCID-6z4z-p697-aaak
+aliases:
+  - CVE-2021-43783
+  - GHSA-mg3m-f475-28hv
+summary: |
+  Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')
+  A malicious actor with write access to a registered scaffolder template is able to manipulate the template in a way that writes files to arbitrary paths on the scaffolder-backend host instance. This vulnerability can in some situation also be exploited through user input when executing a template, meaning you do not need write access to the templates. This method will not allow the attacker to control the contents of the injected file however, unless the template is also crafted in a specific way that gives control of the file contents.
+severities:
+  - id: 567825
+    reference_id: 37450
+    scoring_system: cvssv2
+    value: '5.5'
+    scoring_elements: AV:N/AC:L/Au:S/C:N/I:P/A:P
+  - id: 567823
+    reference_id: 37450
+    scoring_system: cvssv3
+    value: '8.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:N/I:H/A:L
+  - id: 706870
+    reference_id: 37457
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 37452
+    url: https://github.com/backstage/backstage/commit/f9352ab606367cd9efc6ff048915c70ed3013b7f
+    reference_id:
+  - id: 903142
+    url: https://github.com/backstage/backstage/security/advisories/GHSA-mg3m-f475-28hv
+    reference_id:
+  - id: 903143
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:backstage:backstage:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:backstage:backstage:*:*:*:*:*:*:*:*
+  - id: 37450
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-43783
+    reference_id: CVE-2021-43783
+  - id: 37457
+    url: https://github.com/advisories/GHSA-mg3m-f475-28hv
+    reference_id: GHSA-mg3m-f475-28hv
+weaknesses: []

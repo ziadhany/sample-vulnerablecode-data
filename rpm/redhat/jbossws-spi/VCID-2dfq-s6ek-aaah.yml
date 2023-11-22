@@ -1,0 +1,106 @@
+vulnerability_id: VCID-2dfq-s6ek-aaah
+aliases:
+  - CVE-2014-7849
+summary: 'CVE-2014-7849 JBoss AS/WildFly Domain Management: Limited RBAC authorization bypass'
+severities:
+  - id: 186851
+    reference_id: 581386
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:N/I:P/A:N
+  - id: 56489
+    reference_id: 182174
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 56488
+    reference_id: 182173
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 56487
+    reference_id: 182172
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 56486
+    reference_id: 182171
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 56494
+    reference_id: 182181
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 13699
+    url: http://rhn.redhat.com/errata/RHSA-2015-0215.html
+    reference_id:
+  - id: 13700
+    url: http://rhn.redhat.com/errata/RHSA-2015-0216.html
+    reference_id:
+  - id: 13701
+    url: http://rhn.redhat.com/errata/RHSA-2015-0217.html
+    reference_id:
+  - id: 13702
+    url: http://rhn.redhat.com/errata/RHSA-2015-0218.html
+    reference_id:
+  - id: 13707
+    url: http://rhn.redhat.com/errata/RHSA-2015-0920.html
+    reference_id:
+  - id: 182182
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2014-7849.json
+    reference_id:
+  - id: 581384
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1165170
+    reference_id:
+  - id: 581385
+    url: https://exchange.xforce.ibmcloud.com/vulnerabilities/100890
+    reference_id:
+  - id: 13709
+    url: http://www.securitytracker.com/id/1031741
+    reference_id:
+  - id: 549264
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:6.2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:6.2.0:*:*:*:*:*:*:*
+  - id: 566493
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:6.2.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:6.2.1:*:*:*:*:*:*:*
+  - id: 549138
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:6.2.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:6.2.2:*:*:*:*:*:*:*
+  - id: 551106
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:6.2.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:6.2.3:*:*:*:*:*:*:*
+  - id: 567167
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:6.2.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:6.2.4:*:*:*:*:*:*:*
+  - id: 566504
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:6.3.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:6.3.0:*:*:*:*:*:*:*
+  - id: 581387
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:6.3.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:6.3.1:*:*:*:*:*:*:*
+  - id: 581388
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:6.3.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:6.3.2:*:*:*:*:*:*:*
+  - id: 581386
+    url: https://nvd.nist.gov/vuln/detail/CVE-2014-7849
+    reference_id: CVE-2014-7849
+  - id: 182174
+    url: https://access.redhat.com/errata/RHSA-2015:0215
+    reference_id: RHSA-2015:0215
+  - id: 182173
+    url: https://access.redhat.com/errata/RHSA-2015:0216
+    reference_id: RHSA-2015:0216
+  - id: 182172
+    url: https://access.redhat.com/errata/RHSA-2015:0217
+    reference_id: RHSA-2015:0217
+  - id: 182171
+    url: https://access.redhat.com/errata/RHSA-2015:0218
+    reference_id: RHSA-2015:0218
+  - id: 182181
+    url: https://access.redhat.com/errata/RHSA-2015:0920
+    reference_id: RHSA-2015:0920
+weaknesses: []

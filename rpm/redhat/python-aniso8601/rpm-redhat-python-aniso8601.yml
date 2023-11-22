@@ -1,0 +1,6 @@
+package: pkg:rpm/redhat/python-aniso8601
+versions:
+  - purl: pkg:rpm/redhat/python-aniso8601@0.82-4?arch=el8ost
+    affected_by_vulnerabilities:
+      - VCID-2cqt-v8wb-aaac
+    fixing_vulnerabilities: []

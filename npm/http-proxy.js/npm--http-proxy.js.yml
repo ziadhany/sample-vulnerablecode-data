@@ -1,0 +1,30 @@
+package: pkg:npm/http-proxy.js
+versions:
+  - purl: pkg:npm/http-proxy.js@0.0.0
+    affected_by_vulnerabilities:
+      - VCID-qyxc-q97e-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/http-proxy.js@0.0.0-alpha
+    affected_by_vulnerabilities:
+      - VCID-jsk4-xgec-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/http-proxy.js@0.0.1-security
+    affected_by_vulnerabilities:
+      - VCID-jsk4-xgec-aaas
+      - VCID-qyxc-q97e-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/http-proxy.js@0.0.2-security
+    affected_by_vulnerabilities:
+      - VCID-jsk4-xgec-aaas
+      - VCID-qyxc-q97e-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/http-proxy.js@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-jsk4-xgec-aaas
+      - VCID-qyxc-q97e-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/http-proxy.js@1.0.2
+    affected_by_vulnerabilities:
+      - VCID-jsk4-xgec-aaas
+      - VCID-qyxc-q97e-aaaa
+    fixing_vulnerabilities: []

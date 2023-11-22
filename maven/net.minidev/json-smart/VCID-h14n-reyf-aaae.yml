@@ -1,0 +1,45 @@
+vulnerability_id: VCID-h14n-reyf-aaae
+aliases:
+  - CVE-2023-1370
+  - GHSA-493p-pfq6-5258
+summary: json-smart Uncontrolled Recursion vulnerabilty
+severities:
+  - id: 708242
+    reference_id: 1472771
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 708241
+    reference_id: 1472763
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 1472766
+    url: https://github.com/netplex/json-smart-v2/commit/5b3205d051952d3100aa0db1535f6ba6226bd87a
+    reference_id:
+  - id: 1472767
+    url: https://github.com/netplex/json-smart-v2/commit/e2791ae506a57491bc856b439d706c81e45adcf8
+    reference_id:
+  - id: 1472765
+    url: https://github.com/netplex/json-smart-v2/issues/137
+    reference_id:
+  - id: 1472768
+    url: https://research.jfrog.com/vulnerabilities/stack-exhaustion-in-json-smart-leads-to-denial-of-service-when-parsing-malformed-json-xray-427633/
+    reference_id:
+  - id: 1472769
+    url: https://security.snyk.io/vuln/SNYK-JAVA-NETMINIDEV-3369748
+    reference_id:
+  - id: 1472770
+    url: https://www.cve.org/CVERecord?id=CVE-2023-1370
+    reference_id:
+  - id: 1472764
+    url: https://nvd.nist.gov/vuln/detail/CVE-2023-1370
+    reference_id: CVE-2023-1370
+  - id: 1472771
+    url: https://github.com/advisories/GHSA-493p-pfq6-5258
+    reference_id: GHSA-493p-pfq6-5258
+  - id: 1472763
+    url: https://github.com/oswaldobapvicjr/jsonmerge/security/advisories/GHSA-493p-pfq6-5258
+    reference_id: GHSA-493p-pfq6-5258
+weaknesses: []

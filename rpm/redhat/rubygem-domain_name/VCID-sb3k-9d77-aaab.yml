@@ -1,0 +1,41 @@
+vulnerability_id: VCID-sb3k-9d77-aaab
+aliases:
+  - CVE-2017-15138
+summary: The OpenShift Enterprise cluster-read can access webhook tokens which would allow an
+  attacker with sufficient privileges to view confidential webhook tokens.
+severities:
+  - id: 617392
+    reference_id: 936750
+    scoring_system: cvssv3
+    value: '5.0'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:N/A:N
+  - id: 266900
+    reference_id: 685040
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:N/A:N
+  - id: 266898
+    reference_id: 685040
+    scoring_system: cvssv3
+    value: '5.0'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:N/A:N
+references:
+  - id: 685035
+    url: https://access.redhat.com/errata/RHBA-2018:0489
+    reference_id:
+  - id: 936750
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2017-15138.json
+    reference_id:
+  - id: 685039
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2017-15138
+    reference_id:
+  - id: 685038
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift_container_platform:3.9:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift_container_platform:3.9:*:*:*:*:*:*:*
+  - id: 685040
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-15138
+    reference_id: CVE-2017-15138
+  - id: 936749
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1566212
+    reference_id: RHBA-2018:0489
+weaknesses: []

@@ -1,0 +1,14 @@
+package: pkg:npm/safe-obj
+versions:
+  - purl: pkg:npm/safe-obj@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-6ewj-fse3-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/safe-obj@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-6ewj-fse3-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/safe-obj@1.0.2
+    affected_by_vulnerabilities:
+      - VCID-6ewj-fse3-aaac
+    fixing_vulnerabilities: []

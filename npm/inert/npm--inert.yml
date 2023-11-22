@@ -1,0 +1,17 @@
+package: pkg:npm/inert
+versions:
+  - purl: pkg:npm/inert@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-a6dk-vyeh-aaak
+      - VCID-tbje-ggth-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/inert@1.1.0
+    affected_by_vulnerabilities:
+      - VCID-a6dk-vyeh-aaak
+      - VCID-tbje-ggth-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/inert@1.1.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-a6dk-vyeh-aaak
+      - VCID-tbje-ggth-aaaq

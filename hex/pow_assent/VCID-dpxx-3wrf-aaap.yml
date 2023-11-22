@@ -1,0 +1,39 @@
+vulnerability_id: VCID-dpxx-3wrf-aaap
+aliases:
+  - CVE-2019-16764
+summary: The use of `String.to_atom/1` in PowAssent is susceptible to denial of service attacks.
+  In `PowAssent.Phoenix.AuthorizationController` a value is fetched from the user provided params,
+  and `String.to_atom/1` is used to convert the binary value to an atom so it can be used to
+  fetch the provider configuration value. This is unsafe as it is user provided data, and can
+  be used to fill up the whole atom table of ~1M which will cause the app to crash.
+severities:
+  - id: 389558
+    reference_id: 784192
+    scoring_system: cvssv2
+    value: '2.1'
+    scoring_elements: AV:L/AC:L/Au:N/C:N/I:N/A:P
+  - id: 389556
+    reference_id: 784192
+    scoring_system: cvssv3
+    value: '5.5'
+    scoring_elements: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+references:
+  - id: 784188
+    url: http://erlang.org/doc/efficiency_guide/commoncaveats.html#list_to_atom-1
+    reference_id:
+  - id: 784189
+    url: https://github.com/pow-auth/pow_assent/commit/026105eeecc0e3c2f807e7109e745ea93c0fd9cf
+    reference_id:
+  - id: 784190
+    url: https://github.com/pow-auth/pow_assent/security/advisories/GHSA-368c-xvrv-x986
+    reference_id:
+  - id: 784191
+    url: https://hex.pm/packages/pow_assent
+    reference_id:
+  - id: 784193
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:powauth:powassent:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:powauth:powassent:*:*:*:*:*:*:*:*
+  - id: 784192
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-16764
+    reference_id: CVE-2019-16764
+weaknesses: []

@@ -1,0 +1,67 @@
+vulnerability_id: VCID-jc2p-qabb-aaap
+aliases:
+  - CVE-2016-6311
+summary: 'CVE-2016-6311 EAP7: Internal IP address disclosed on redirect when request header
+  Host field is not set'
+severities:
+  - id: 48677
+    reference_id: 173043
+    scoring_system: cvssv3
+    value: '5.3'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+  - id: 234558
+    reference_id: 652243
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 234556
+    reference_id: 652243
+    scoring_system: cvssv3
+    value: '5.3'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+  - id: 47918
+    reference_id: 172494
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 47919
+    reference_id: 172495
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 47915
+    reference_id: 172491
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 47912
+    reference_id: 172488
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 173043
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2016-6311.json
+    reference_id:
+  - id: 652242
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1362735
+    reference_id:
+  - id: 652244
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:7.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:7.0:*:*:*:*:*:*:*
+  - id: 652243
+    url: https://nvd.nist.gov/vuln/detail/CVE-2016-6311
+    reference_id: CVE-2016-6311
+  - id: 172494
+    url: https://access.redhat.com/errata/RHSA-2017:3454
+    reference_id: RHSA-2017:3454
+  - id: 172495
+    url: https://access.redhat.com/errata/RHSA-2017:3455
+    reference_id: RHSA-2017:3455
+  - id: 172491
+    url: https://access.redhat.com/errata/RHSA-2017:3456
+    reference_id: RHSA-2017:3456
+  - id: 172488
+    url: https://access.redhat.com/errata/RHSA-2017:3458
+    reference_id: RHSA-2017:3458
+weaknesses: []

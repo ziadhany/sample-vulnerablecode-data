@@ -1,0 +1,133 @@
+vulnerability_id: VCID-vagq-ztp5-aaag
+aliases:
+  - CVE-2018-19519
+summary: In tcpdump 4.9.2, a stack-based buffer over-read exists in the print_prefix function
+  of print-hncp.c via crafted packet data because of missing initialization.
+severities:
+  - id: 685959
+    reference_id: 1448249
+    scoring_system: generic_textual
+    value: Low
+    scoring_elements:
+  - id: 613602
+    reference_id: 933999
+    scoring_system: cvssv3
+    value: '4.3'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N
+  - id: 685960
+    reference_id: 1448250
+    scoring_system: generic_textual
+    value: Low
+    scoring_elements:
+  - id: 685961
+    reference_id: 746232
+    scoring_system: generic_textual
+    value: Low
+    scoring_elements:
+  - id: 676634
+    reference_id: 1440982
+    scoring_system: generic_textual
+    value: Medium
+    scoring_elements:
+  - id: 676635
+    reference_id: 1440983
+    scoring_system: generic_textual
+    value: Medium
+    scoring_elements:
+  - id: 676632
+    reference_id: 1440980
+    scoring_system: generic_textual
+    value: Medium
+    scoring_elements:
+  - id: 676633
+    reference_id: 1440981
+    scoring_system: generic_textual
+    value: Medium
+    scoring_elements:
+  - id: 613599
+    reference_id: 933996
+    scoring_system: rhbs
+    value: low
+    scoring_elements:
+  - id: 338820
+    reference_id: 746234
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:N/A:N
+  - id: 338818
+    reference_id: 746234
+    scoring_system: cvssv3
+    value: '5.5'
+    scoring_elements: CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+  - id: 613600
+    reference_id: 933997
+    scoring_system: rhas
+    value: Low
+    scoring_elements:
+  - id: 613601
+    reference_id: 933998
+    scoring_system: rhas
+    value: Low
+    scoring_elements:
+references:
+  - id: 1448249
+    url: http://people.canonical.com/~ubuntu-security/cve/2018/CVE-2018-19519.html
+    reference_id:
+  - id: 933999
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2018-19519.json
+    reference_id:
+  - id: 1448250
+    url: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-19519
+    reference_id:
+  - id: 746232
+    url: https://github.com/zyingp/temp/blob/master/tcpdump.md
+    reference_id:
+  - id: 746233
+    url: https://kb.pulsesecure.net/articles/Pulse_Security_Advisories/SA44516
+    reference_id:
+  - id: 689319
+    url: https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/62XY42U6HY3H2APR5EHNWCZ7SAQNMMJN/
+    reference_id:
+  - id: 689320
+    url: https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/FNYXF3IY2X65IOD422SA6EQUULSGW7FN/
+    reference_id:
+  - id: 689321
+    url: https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/R2UDPOSGVJQIYC33SQBXMDXHH4QDSDMU/
+    reference_id:
+  - id: 1440982
+    url: https://ubuntu.com/security/notices/USN-4252-1
+    reference_id:
+  - id: 1440983
+    url: https://ubuntu.com/security/notices/USN-4252-2
+    reference_id:
+  - id: 689323
+    url: https://usn.ubuntu.com/4252-1/
+    reference_id:
+  - id: 689324
+    url: https://usn.ubuntu.com/4252-2/
+    reference_id:
+  - id: 1440980
+    url: https://usn.ubuntu.com/usn/usn-4252-1
+    reference_id:
+  - id: 1440981
+    url: https://usn.ubuntu.com/usn/usn-4252-2
+    reference_id:
+  - id: 746230
+    url: http://www.securityfocus.com/bid/106098
+    reference_id:
+  - id: 933996
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1655374
+    reference_id: 1655374
+  - id: 689326
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:tcpdump:tcpdump:4.9.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:tcpdump:tcpdump:4.9.2:*:*:*:*:*:*:*
+  - id: 746234
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-19519
+    reference_id: CVE-2018-19519
+  - id: 933997
+    url: https://access.redhat.com/errata/RHSA-2019:3976
+    reference_id: RHSA-2019:3976
+  - id: 933998
+    url: https://access.redhat.com/errata/RHSA-2020:1604
+    reference_id: RHSA-2020:1604
+weaknesses: []

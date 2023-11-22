@@ -1,0 +1,21 @@
+vulnerability_id: VCID-4epw-325a-aaap
+aliases:
+  - GHSA-jcgq-xh2f-2hfm
+summary: Regular Expression Denial of Service
+severities:
+  - id: 705002
+    reference_id: 1466408
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 1466407
+    url: https://github.com/eslint/eslint/commit/f6901d0bcf6c918ac4e5c6c7c4bddeb2cb715c09
+    reference_id:
+  - id: 1466406
+    url: https://github.com/eslint/eslint/issues/10002
+    reference_id:
+  - id: 1466408
+    url: https://github.com/advisories/GHSA-jcgq-xh2f-2hfm
+    reference_id: GHSA-jcgq-xh2f-2hfm
+weaknesses: []

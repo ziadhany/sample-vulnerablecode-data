@@ -1,0 +1,12 @@
+package: pkg:rpm/redhat/tk
+versions:
+  - purl: pkg:rpm/redhat/tk@8.4.13-5.el5_1?arch=1
+    affected_by_vulnerabilities:
+      - VCID-mwu7-u4py-aaas
+      - VCID-x12a-exzb-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/tk@8.4.7-3.el4_6?arch=1
+    affected_by_vulnerabilities:
+      - VCID-mwu7-u4py-aaas
+      - VCID-xjwx-te5y-aaaj
+    fixing_vulnerabilities: []

@@ -1,0 +1,18 @@
+package: pkg:rpm/redhat/eap7-wildfly-openssl-el8-x86_64
+versions:
+  - purl: pkg:rpm/redhat/eap7-wildfly-openssl-el8-x86_64@2.2.0-2.Final_redhat_00002.1?arch=el8eap
+    affected_by_vulnerabilities:
+      - VCID-3ra8-evd3-aaaa
+      - VCID-m4cr-bqq5-aaaa
+      - VCID-mmty-783v-aaaf
+      - VCID-scm2-me5u-aaam
+      - VCID-wk9g-2r1h-aaan
+      - VCID-wueh-63zw-aaab
+      - VCID-y1c6-8gmx-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/eap7-wildfly-openssl-el8-x86_64@2.2.2-1.Final_redhat_00002.1?arch=el8eap
+    affected_by_vulnerabilities:
+      - VCID-nze3-w2ta-aaas
+      - VCID-qx7e-cw3h-aaaq
+      - VCID-xgqz-x8ua-aaam
+    fixing_vulnerabilities: []

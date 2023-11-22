@@ -1,0 +1,40 @@
+vulnerability_id: VCID-gh93-xpqg-aaak
+aliases:
+  - CVE-2017-16050
+  - GHSA-6f34-pq9f-36vf
+summary: |
+  Malicious package (Typosquatting)
+  sqlite.js is a malicious module published with the intent to hijack environment variables. It has been unpublished by npm.
+severities:
+  - id: 269796
+    reference_id: 36102
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 269794
+    reference_id: 36102
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+  - id: 705640
+    reference_id: 1466832
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 687619
+    url: https://nodesecurity.io/advisories/491
+    reference_id:
+  - id: 1466833
+    url: https://www.npmjs.com/advisories/491
+    reference_id:
+  - id: 687620
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:sqlite.js_project:sqlite.js:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:sqlite.js_project:sqlite.js:*:*:*:*:*:node.js:*:*
+  - id: 36102
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-16050
+    reference_id: CVE-2017-16050
+  - id: 1466832
+    url: https://github.com/advisories/GHSA-6f34-pq9f-36vf
+    reference_id: GHSA-6f34-pq9f-36vf
+weaknesses: []

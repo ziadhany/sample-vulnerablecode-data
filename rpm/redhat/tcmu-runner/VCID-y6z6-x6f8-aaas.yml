@@ -1,0 +1,72 @@
+vulnerability_id: VCID-y6z6-x6f8-aaas
+aliases:
+  - CVE-2020-10763
+summary: An information-disclosure flaw was found in the way Heketi before 10.1.0 logs sensitive
+  information. This flaw allows an attacker with local access to the Heketi server to read potentially
+  sensitive information such as gluster-block passwords.
+severities:
+  - id: 609499
+    reference_id: 930977
+    scoring_system: cvssv3
+    value: '5.5'
+    scoring_elements: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+  - id: 609498
+    reference_id: 930976
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 430671
+    reference_id: 812375
+    scoring_system: cvssv2
+    value: '2.1'
+    scoring_elements: AV:L/AC:L/Au:N/C:P/I:N/A:N
+  - id: 430669
+    reference_id: 812375
+    scoring_system: cvssv3
+    value: '5.5'
+    scoring_elements: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+  - id: 609495
+    reference_id: 930974
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 75597
+    reference_id: 206525
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 930977
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2020-10763.json
+    reference_id:
+  - id: 812374
+    url: https://github.com/heketi/heketi/releases/tag/v10.1.0
+    reference_id:
+  - id: 930976
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1845387
+    reference_id: 1845387
+  - id: 812376
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:heketi_project:heketi:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:heketi_project:heketi:*:*:*:*:*:*:*:*
+  - id: 637787
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:gluster_storage:3.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:gluster_storage:3.0:*:*:*:*:*:*:*
+  - id: 637841
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:gluster_storage:3.5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:gluster_storage:3.5:*:*:*:*:*:*:*
+  - id: 766534
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift_container_platform:4.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift_container_platform:4.0:*:*:*:*:*:*:*
+  - id: 111852
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:o:redhat:enterprise_linux:7.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:o:redhat:enterprise_linux:7.0:*:*:*:*:*:*:*
+  - id: 812375
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-10763
+    reference_id: CVE-2020-10763
+  - id: 930974
+    url: https://access.redhat.com/errata/RHSA-2020:4143
+    reference_id: RHSA-2020:4143
+  - id: 206525
+    url: https://access.redhat.com/errata/RHSA-2020:5633
+    reference_id: RHSA-2020:5633
+weaknesses: []

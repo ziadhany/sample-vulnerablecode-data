@@ -1,0 +1,18 @@
+package: pkg:nuget/SSCMS
+versions:
+  - purl: pkg:nuget/SSCMS@1.0.0-preview4
+    affected_by_vulnerabilities:
+      - VCID-c5hy-rnqr-aaaf
+      - VCID-wtxu-g87x-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/SSCMS@6.15.51
+    affected_by_vulnerabilities:
+      - VCID-c5hy-rnqr-aaaf
+      - VCID-u7vm-pqmq-aaah
+      - VCID-wtxu-g87x-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/SSCMS@7.0.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-c5hy-rnqr-aaaf
+      - VCID-wtxu-g87x-aaak

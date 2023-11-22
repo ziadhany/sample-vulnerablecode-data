@@ -1,0 +1,40 @@
+vulnerability_id: VCID-uuw5-a7er-aaaq
+aliases:
+  - CVE-2015-2784
+  - GHSA-m44r-gv6q-9j9r
+summary: |
+  Improper Input Validation
+  The papercrop gem for Ruby on Rails does not properly handle crop input.
+severities:
+  - id: '198248'
+    reference_id: 38708
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: '198246'
+    reference_id: 38708
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 707459
+    reference_id: 1469758
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 604662
+    url: https://github.com/rsantamaria/papercrop/blob/master/CHANGELOG.md
+    reference_id:
+  - id: 604663
+    url: https://github.com/rsantamaria/papercrop/commit/b4ecd95debaf0a8712bd1d34def83f41fc6b3579
+    reference_id:
+  - id: 604664
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:papercrop_project:papercrop:*:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:papercrop_project:papercrop:*:*:*:*:*:ruby:*:*
+  - id: 38708
+    url: https://nvd.nist.gov/vuln/detail/CVE-2015-2784
+    reference_id: CVE-2015-2784
+  - id: 1469758
+    url: https://github.com/advisories/GHSA-m44r-gv6q-9j9r
+    reference_id: GHSA-m44r-gv6q-9j9r
+weaknesses: []

@@ -1,0 +1,23 @@
+vulnerability_id: VCID-d3cs-c5n4-aaac
+aliases:
+  - GHSA-5g6j-8hv4-vfgj
+  - GMS-2020-752
+summary: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')
+  in node-red.
+severities:
+  - id: 704627
+    reference_id: 36373
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 36371
+    url: https://hackerone.com/reports/349146
+    reference_id:
+  - id: 36372
+    url: https://www.npmjs.com/advisories/993
+    reference_id:
+  - id: 36373
+    url: https://github.com/advisories/GHSA-5g6j-8hv4-vfgj
+    reference_id: GHSA-5g6j-8hv4-vfgj
+weaknesses: []

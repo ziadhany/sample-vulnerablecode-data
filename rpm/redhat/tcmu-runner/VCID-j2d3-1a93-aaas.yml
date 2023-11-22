@@ -1,0 +1,66 @@
+vulnerability_id: VCID-j2d3-1a93-aaas
+aliases:
+  - CVE-2017-1000201
+summary: The tcmu-runner daemon in tcmu-runner version 1.0.5 to 1.2.0 is vulnerable to a local
+  denial of service attack
+severities:
+  - id: 622115
+    reference_id: 940088
+    scoring_system: cvssv3
+    value: '5.5'
+    scoring_elements: CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+  - id: 622114
+    reference_id: 940087
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 249676
+    reference_id: 668439
+    scoring_system: cvssv2
+    value: '2.1'
+    scoring_elements: AV:L/AC:L/Au:N/C:N/I:N/A:P
+  - id: 249674
+    reference_id: 668439
+    scoring_system: cvssv3
+    value: '5.5'
+    scoring_elements: CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+  - id: 622088
+    reference_id: 940069
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 940088
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2017-1000201.json
+    reference_id:
+  - id: 668438
+    url: https://github.com/open-iscsi/tcmu-runner/pull/200/commits/e2d953050766ac538615a811c64b34358614edce
+    reference_id:
+  - id: 940087
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1487247
+    reference_id: 1487247
+  - id: 668421
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:tcmu-runner_project:tcmu-runner:1.0.5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:tcmu-runner_project:tcmu-runner:1.0.5:*:*:*:*:*:*:*
+  - id: 668422
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:tcmu-runner_project:tcmu-runner:1.1.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:tcmu-runner_project:tcmu-runner:1.1.0:*:*:*:*:*:*:*
+  - id: 668423
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:tcmu-runner_project:tcmu-runner:1.1.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:tcmu-runner_project:tcmu-runner:1.1.1:*:*:*:*:*:*:*
+  - id: 668424
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:tcmu-runner_project:tcmu-runner:1.1.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:tcmu-runner_project:tcmu-runner:1.1.2:*:*:*:*:*:*:*
+  - id: 668425
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:tcmu-runner_project:tcmu-runner:1.1.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:tcmu-runner_project:tcmu-runner:1.1.3:*:*:*:*:*:*:*
+  - id: 668426
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:tcmu-runner_project:tcmu-runner:1.2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:tcmu-runner_project:tcmu-runner:1.2.0:*:*:*:*:*:*:*
+  - id: 668439
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-1000201
+    reference_id: CVE-2017-1000201
+  - id: 940069
+    url: https://access.redhat.com/errata/RHSA-2017:3277
+    reference_id: RHSA-2017:3277
+weaknesses: []

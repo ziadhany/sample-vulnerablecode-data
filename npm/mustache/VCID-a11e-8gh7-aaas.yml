@@ -1,0 +1,20 @@
+vulnerability_id: VCID-a11e-8gh7-aaas
+aliases:
+  - GMS-2014-10
+summary: |
+  XSS vulnerability due to improper value escaping
+  The library does not properly escape attribute values making XSS exploits possible.
+severities:
+  - id: 708497
+    reference_id: 34637
+    scoring_system: cvssv3
+    value: '5.3'
+    scoring_elements:
+references:
+  - id: 34637
+    url: https://github.com/janl/mustache.js/commit/378bcca8a5cfe4058f294a3dbb78e8755e8e0da5
+    reference_id:
+  - id: 34643
+    url: https://github.com/janl/mustache.js/pull/388
+    reference_id:
+weaknesses: []

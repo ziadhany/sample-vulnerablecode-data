@@ -1,0 +1,76 @@
+vulnerability_id: VCID-a39j-e5q2-aaan
+aliases:
+  - CVE-2019-10157
+  - GHSA-68hw-vfh7-xvg8
+summary: |
+  Improper Authentication
+  It was found that Keycloak's Node.js adapter did not properly verify the web token received from the server in its backchannel logout . An attacker with local access could use this to construct a malicious web token setting an NBF parameter that could prevent user access indefinitely.
+severities:
+  - id: 72138
+    reference_id: 202615
+    scoring_system: cvssv3
+    value: '4.7'
+    scoring_elements: CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+  - id: 72137
+    reference_id: 202614
+    scoring_system: rhbs
+    value: low
+    scoring_elements:
+  - id: 367048
+    reference_id: 34957
+    scoring_system: cvssv2
+    value: '2.1'
+    scoring_elements: AV:L/AC:L/Au:N/C:N/I:N/A:P
+  - id: 367046
+    reference_id: 34957
+    scoring_system: cvssv3
+    value: '5.5'
+    scoring_elements: CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+  - id: 705965
+    reference_id: 1467433
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 48733
+    reference_id: 173084
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 202615
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2019-10157.json
+    reference_id:
+  - id: 34959
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2019-10157
+    reference_id:
+  - id: 1467430
+    url: https://github.com/keycloak/keycloak-nodejs-connect/commit/55e54b55d05ba636bc125a8f3d39f0052d13f8f6
+    reference_id:
+  - id: 1467431
+    url: https://snyk.io/vuln/SNYK-JS-KEYCLOAKNODEJSCONNECT-449920
+    reference_id:
+  - id: 1467432
+    url: https://www.npmjs.com/advisories/978
+    reference_id:
+  - id: 34958
+    url: http://www.securityfocus.com/bid/108734
+    reference_id:
+  - id: 202614
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1702953
+    reference_id: 1702953
+  - id: 568146
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:keycloak:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:keycloak:*:*:*:*:*:*:*:*
+  - id: 766307
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:single_sign-on:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:single_sign-on:*:*:*:*:*:*:*:*
+  - id: 34957
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-10157
+    reference_id: CVE-2019-10157
+  - id: 1467433
+    url: https://github.com/advisories/GHSA-68hw-vfh7-xvg8
+    reference_id: GHSA-68hw-vfh7-xvg8
+  - id: 173084
+    url: https://access.redhat.com/errata/RHSA-2019:1456
+    reference_id: RHSA-2019:1456
+weaknesses: []

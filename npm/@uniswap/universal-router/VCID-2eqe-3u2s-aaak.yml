@@ -1,0 +1,34 @@
+vulnerability_id: VCID-2eqe-3u2s-aaak
+aliases:
+  - CVE-2022-48216
+  - GHSA-7m37-cx35-qgmr
+summary: Uniswap Universal Router Incorrect Authorization vulnerability
+severities:
+  - id: 707583
+    reference_id: 1470325
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 1470321
+    url: https://github.com/Uniswap/universal-router/commit/d82c6685ef566d9b280651c99f4b93a8454c08a8
+    reference_id:
+  - id: 1470322
+    url: https://github.com/Uniswap/universal-router/compare/v1.0.1...v1.1.0
+    reference_id:
+  - id: 1470320
+    url: https://github.com/Uniswap/universal-router/pull/189
+    reference_id:
+  - id: 1470323
+    url: https://media.dedaub.com/uniswap-bug-bounty-1625d8ff04ae
+    reference_id:
+  - id: 1470324
+    url: https://twitter.com/dedaub/status/1610058814094450694
+    reference_id:
+  - id: 1470319
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-48216
+    reference_id: CVE-2022-48216
+  - id: 1470325
+    url: https://github.com/advisories/GHSA-7m37-cx35-qgmr
+    reference_id: GHSA-7m37-cx35-qgmr
+weaknesses: []

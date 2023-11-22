@@ -1,0 +1,195 @@
+vulnerability_id: VCID-m6y6-tzxd-aaas
+aliases:
+  - CVE-2022-23437
+  - GHSA-h65f-jvqw-m9fj
+summary: Infinite Loop in Apache Xerces Java
+severities:
+  - id: 285685
+    reference_id: 700187
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+  - id: 285684
+    reference_id: 700186
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 586833
+    reference_id: 1473
+    scoring_system: cvssv2
+    value: '7.1'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:N/A:C
+  - id: 586831
+    reference_id: 1473
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+  - id: '197'
+    reference_id: 1476
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 20244
+    reference_id: 85116
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 20243
+    reference_id: 85115
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 20242
+    reference_id: 85114
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 700187
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-23437.json
+    reference_id:
+  - id: 1474
+    url: https://lists.apache.org/thread/6pjwm10bb69kq955fzr1n0nflnjd27dl
+    reference_id:
+  - id: 1418309
+    url: https://security.netapp.com/advisory/ntap-20221028-0005/
+    reference_id:
+  - id: 389
+    url: https://www.oracle.com/security-alerts/cpuapr2022.html
+    reference_id:
+  - id: 945268
+    url: https://www.oracle.com/security-alerts/cpujul2022.html
+    reference_id:
+  - id: 1475
+    url: http://www.openwall.com/lists/oss-security/2022/01/24/3
+    reference_id:
+  - id: 1183636
+    url: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1016975
+    reference_id: 1016975
+  - id: 700186
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=2047200
+    reference_id: 2047200
+  - id: 170229
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:xerces-j:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:xerces-j:*:*:*:*:*:*:*:*
+  - id: 773163
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:communications_element_manager:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:communications_element_manager:*:*:*:*:*:*:*:*
+  - id: 171281
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:communications_session_report_manager:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:communications_session_report_manager:*:*:*:*:*:*:*:*
+  - id: 171282
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:communications_session_route_manager:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:communications_session_route_manager:*:*:*:*:*:*:*:*
+  - id: 621354
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:financial_services_analytical_applications_infrastructure:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:financial_services_analytical_applications_infrastructure:*:*:*:*:*:*:*:*
+  - id: 702750
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:financial_services_behavior_detection_platform:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:financial_services_behavior_detection_platform:*:*:*:*:*:*:*:*
+  - id: 944163
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:financial_services_behavior_detection_platform:8.1.1.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:financial_services_behavior_detection_platform:8.1.1.0:*:*:*:*:*:*:*
+  - id: 944164
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:financial_services_behavior_detection_platform:8.1.1.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:financial_services_behavior_detection_platform:8.1.1.1:*:*:*:*:*:*:*
+  - id: 944165
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:financial_services_behavior_detection_platform:8.1.2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:financial_services_behavior_detection_platform:8.1.2.0:*:*:*:*:*:*:*
+  - id: 944166
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:financial_services_enterprise_case_management:8.0.7.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:financial_services_enterprise_case_management:8.0.7.1:*:*:*:*:*:*:*
+  - id: 889426
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:financial_services_enterprise_case_management:8.0.7.2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:financial_services_enterprise_case_management:8.0.7.2.0:*:*:*:*:*:*:*
+  - id: 944167
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:financial_services_enterprise_case_management:8.0.8.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:financial_services_enterprise_case_management:8.0.8.0:*:*:*:*:*:*:*
+  - id: 944168
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:financial_services_enterprise_case_management:8.0.8.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:financial_services_enterprise_case_management:8.0.8.1:*:*:*:*:*:*:*
+  - id: 944169
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:financial_services_enterprise_case_management:8.1.1.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:financial_services_enterprise_case_management:8.1.1.0:*:*:*:*:*:*:*
+  - id: 944170
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:financial_services_enterprise_case_management:8.1.1.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:financial_services_enterprise_case_management:8.1.1.1:*:*:*:*:*:*:*
+  - id: 170813
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:ilearning:6.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:ilearning:6.2:*:*:*:*:*:*:*
+  - id: 827391
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:ilearning:6.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:ilearning:6.3:*:*:*:*:*:*:*
+  - id: 785062
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:retail_bulk_data_integration:16.0.3.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:retail_bulk_data_integration:16.0.3.0:*:*:*:*:*:*:*
+  - id: 767093
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:retail_extract_transform_and_load:13.2.8:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:retail_extract_transform_and_load:13.2.8:*:*:*:*:*:*:*
+  - id: 767094
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:retail_financial_integration:14.1.3.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:retail_financial_integration:14.1.3.2:*:*:*:*:*:*:*
+  - id: 767095
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:retail_financial_integration:15.0.3.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:retail_financial_integration:15.0.3.1:*:*:*:*:*:*:*
+  - id: 767096
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:retail_financial_integration:16.0.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:retail_financial_integration:16.0.3:*:*:*:*:*:*:*
+  - id: 767097
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:retail_financial_integration:19.0.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:retail_financial_integration:19.0.1:*:*:*:*:*:*:*
+  - id: 767101
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:retail_integration_bus:14.1.3.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:retail_integration_bus:14.1.3.2:*:*:*:*:*:*:*
+  - id: 767102
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:retail_integration_bus:15.0.3.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:retail_integration_bus:15.0.3.1:*:*:*:*:*:*:*
+  - id: 737418
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:retail_integration_bus:16.0.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:retail_integration_bus:16.0.3:*:*:*:*:*:*:*
+  - id: 767104
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:retail_integration_bus:19.0.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:retail_integration_bus:19.0.1:*:*:*:*:*:*:*
+  - id: 784553
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:retail_merchandising_system:16.0.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:retail_merchandising_system:16.0.3:*:*:*:*:*:*:*
+  - id: 767106
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:retail_merchandising_system:19.0.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:retail_merchandising_system:19.0.1:*:*:*:*:*:*:*
+  - id: 767120
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:retail_service_backbone:14.1.3.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:retail_service_backbone:14.1.3.2:*:*:*:*:*:*:*
+  - id: 767121
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:retail_service_backbone:15.0.3.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:retail_service_backbone:15.0.3.1:*:*:*:*:*:*:*
+  - id: 815074
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:retail_service_backbone:16.0.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:retail_service_backbone:16.0.3:*:*:*:*:*:*:*
+  - id: 767123
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:retail_service_backbone:19.0.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:retail_service_backbone:19.0.1:*:*:*:*:*:*:*
+  - id: 169607
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:weblogic_server:12.2.1.3.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:weblogic_server:12.2.1.3.0:*:*:*:*:*:*:*
+  - id: 702835
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:weblogic_server:12.2.1.4.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:weblogic_server:12.2.1.4.0:*:*:*:*:*:*:*
+  - id: 702836
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:weblogic_server:14.1.1.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:weblogic_server:14.1.1.0.0:*:*:*:*:*:*:*
+  - id: 1473
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-23437
+    reference_id: CVE-2022-23437
+  - id: 1476
+    url: https://github.com/advisories/GHSA-h65f-jvqw-m9fj
+    reference_id: GHSA-h65f-jvqw-m9fj
+  - id: 85116
+    url: https://access.redhat.com/errata/RHSA-2022:4918
+    reference_id: RHSA-2022:4918
+  - id: 85115
+    url: https://access.redhat.com/errata/RHSA-2022:4919
+    reference_id: RHSA-2022:4919
+  - id: 85114
+    url: https://access.redhat.com/errata/RHSA-2022:4922
+    reference_id: RHSA-2022:4922
+weaknesses: []

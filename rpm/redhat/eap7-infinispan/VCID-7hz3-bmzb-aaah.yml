@@ -1,0 +1,176 @@
+vulnerability_id: VCID-7hz3-bmzb-aaah
+aliases:
+  - CVE-2021-28170
+  - GHSA-v6w3-2prq-h95f
+summary: Improper Input Validation in Jakarta Expression Language
+severities:
+  - id: 604313
+    reference_id: 927167
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
+  - id: 604312
+    reference_id: 927166
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 528529
+    reference_id: 10163
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:P/A:N
+  - id: 528527
+    reference_id: 10163
+    scoring_system: cvssv3
+    value: '5.3'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+  - id: 926
+    reference_id: 10167
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 603316
+    reference_id: 926434
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 603315
+    reference_id: 926433
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 603313
+    reference_id: 926431
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 603303
+    reference_id: 926421
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 603305
+    reference_id: 926423
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 603314
+    reference_id: 926432
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 603311
+    reference_id: 926429
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 603307
+    reference_id: 926425
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 603309
+    reference_id: 926427
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 50840
+    reference_id: 175434
+    scoring_system: rhas
+    value: Critical
+    scoring_elements:
+  - id: 391859
+    reference_id: 786303
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 368921
+    reference_id: 767883
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 176920
+    reference_id: 556755
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 927167
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-28170.json
+    reference_id:
+  - id: 10164
+    url: https://github.com/eclipse-ee4j/el-ri/issues/155
+    reference_id:
+  - id: 10165
+    url: https://github.com/eclipse-ee4j/el-ri/pull/160/commits/b6a3943ac5fba71cbc6719f092e319caa747855b
+    reference_id:
+  - id: 10166
+    url: https://securitylab.github.com/advisories/GHSL-2020-021-jakarta-el/
+    reference_id:
+  - id: 389
+    url: https://www.oracle.com/security-alerts/cpuapr2022.html
+    reference_id:
+  - id: 927166
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1965497
+    reference_id: '1965497'
+  - id: 42313
+    url: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=989259
+    reference_id: 989259
+  - id: 877192
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:eclipse:jakarta_expression_language:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:eclipse:jakarta_expression_language:*:*:*:*:*:*:*:*
+  - id: 171275
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:communications_cloud_native_core_policy:1.14.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:communications_cloud_native_core_policy:1.14.0:*:*:*:*:*:*:*
+  - id: 702836
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:weblogic_server:14.1.1.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:weblogic_server:14.1.1.0.0:*:*:*:*:*:*:*
+  - id: 694123
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:quarkus:quarkus:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:quarkus:quarkus:*:*:*:*:*:*:*:*
+  - id: 10163
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-28170
+    reference_id: CVE-2021-28170
+  - id: 10167
+    url: https://github.com/advisories/GHSA-v6w3-2prq-h95f
+    reference_id: GHSA-v6w3-2prq-h95f
+  - id: 926434
+    url: https://access.redhat.com/errata/RHSA-2021:3466
+    reference_id: RHSA-2021:3466
+  - id: 926433
+    url: https://access.redhat.com/errata/RHSA-2021:3467
+    reference_id: RHSA-2021:3467
+  - id: 926431
+    url: https://access.redhat.com/errata/RHSA-2021:3468
+    reference_id: RHSA-2021:3468
+  - id: 926421
+    url: https://access.redhat.com/errata/RHSA-2021:3471
+    reference_id: RHSA-2021:3471
+  - id: 926423
+    url: https://access.redhat.com/errata/RHSA-2021:3516
+    reference_id: RHSA-2021:3516
+  - id: 926432
+    url: https://access.redhat.com/errata/RHSA-2021:3534
+    reference_id: RHSA-2021:3534
+  - id: 926429
+    url: https://access.redhat.com/errata/RHSA-2021:3656
+    reference_id: RHSA-2021:3656
+  - id: 926425
+    url: https://access.redhat.com/errata/RHSA-2021:3658
+    reference_id: RHSA-2021:3658
+  - id: 926427
+    url: https://access.redhat.com/errata/RHSA-2021:3660
+    reference_id: RHSA-2021:3660
+  - id: 175434
+    url: https://access.redhat.com/errata/RHSA-2021:5134
+    reference_id: RHSA-2021:5134
+  - id: 786303
+    url: https://access.redhat.com/errata/RHSA-2022:0589
+    reference_id: RHSA-2022:0589
+  - id: 767883
+    url: https://access.redhat.com/errata/RHSA-2022:1013
+    reference_id: RHSA-2022:1013
+  - id: 556755
+    url: https://access.redhat.com/errata/RHSA-2022:1029
+    reference_id: RHSA-2022:1029
+weaknesses: []

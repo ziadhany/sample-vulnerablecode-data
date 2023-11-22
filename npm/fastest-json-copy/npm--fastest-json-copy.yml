@@ -1,0 +1,10 @@
+package: pkg:npm/fastest-json-copy
+versions:
+  - purl: pkg:npm/fastest-json-copy@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-n9qx-92mq-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/fastest-json-copy@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-n9qx-92mq-aaaa
+    fixing_vulnerabilities: []

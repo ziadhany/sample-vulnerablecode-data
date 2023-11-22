@@ -1,0 +1,34 @@
+vulnerability_id: VCID-2rdh-8h54-aaan
+aliases:
+  - CVE-2019-6035
+summary: |
+  URL Redirection to Untrusted Site (Open Redirect)
+  Open redirect vulnerability in Athenz allows remote attackers to redirect users to arbitrary web sites and conduct phishing attacks via a specially crafted page.
+severities:
+  - id: 412158
+    reference_id: 26969
+    scoring_system: cvssv2
+    value: '5.8'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:P/A:N
+  - id: 412156
+    reference_id: 26969
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+references:
+  - id: 800560
+    url: http://jvn.jp/en/jp/JVN57070811/index.html
+    reference_id:
+  - id: 800561
+    url: https://github.com/yahoo/athenz
+    reference_id:
+  - id: 800562
+    url: https://github.com/yahoo/athenz/pull/700
+    reference_id:
+  - id: 800563
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:yahoo:athenz:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:yahoo:athenz:*:*:*:*:*:*:*:*
+  - id: 26969
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-6035
+    reference_id: CVE-2019-6035
+weaknesses: []

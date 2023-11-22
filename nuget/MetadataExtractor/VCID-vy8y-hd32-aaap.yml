@@ -1,0 +1,38 @@
+vulnerability_id: VCID-vy8y-hd32-aaap
+aliases:
+  - CVE-2019-14262
+  - GHSA-cwqq-w8c3-r2jw
+summary: Uncontrolled Resource Consumption in MetadataExtractor
+severities:
+  - id: 381288
+    reference_id: 16394
+    scoring_system: cvssv2
+    value: '7.8'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:C
+  - id: 381286
+    reference_id: 16394
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: '1962'
+    reference_id: 16396
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 16395
+    url: https://github.com/drewnoakes/metadata-extractor-dotnet/pull/190
+    reference_id:
+  - id: 1342
+    url: https://lists.apache.org/thread.html/r204ba2a9ea750f38d789d2bb429cc0925ad6133deea7cbc3001d96b5@%3Csolr-user.lucene.apache.org%3E
+    reference_id:
+  - id: 777749
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:metadataextractor_project:metadataextractor:2.1.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:metadataextractor_project:metadataextractor:2.1.0:*:*:*:*:*:*:*
+  - id: 16394
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-14262
+    reference_id: CVE-2019-14262
+  - id: 16396
+    url: https://github.com/advisories/GHSA-cwqq-w8c3-r2jw
+    reference_id: GHSA-cwqq-w8c3-r2jw
+weaknesses: []

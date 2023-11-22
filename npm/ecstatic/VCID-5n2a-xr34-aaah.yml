@@ -1,0 +1,15 @@
+vulnerability_id: VCID-5n2a-xr34-aaah
+aliases:
+  - GMS-2017-333
+summary: |
+  Denial of Service
+  A payload of kB causes a lag of 1 second, a payload of kB causes a lag of 3 seconds, a payload of kB caused the server to crash.
+severities: []
+references:
+  - id: 37243
+    url: https://github.com/jfhbrook/node-ecstatic/commit/71ce93988ead4b561a8592168c72143907189f01#diff-b2b5a88fb51675f1aa1065c093dce1ee
+    reference_id:
+  - id: 37244
+    url: https://www.checkmarx.com/advisories/denial-of-service-dos-vulnerability-in-ecstatic-npm-package/
+    reference_id:
+weaknesses: []

@@ -1,0 +1,48 @@
+package: pkg:rpm/redhat/ipsec-tools
+versions:
+  - purl: pkg:rpm/redhat/ipsec-tools@0.2.5-0?arch=4
+    affected_by_vulnerabilities:
+      - VCID-3w4k-ucv2-aaar
+      - VCID-ehgs-ruap-aaan
+      - VCID-x95c-5za8-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/ipsec-tools@0.2.5-0?arch=5
+    affected_by_vulnerabilities:
+      - VCID-3r4r-m3h5-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/ipsec-tools@0.2.5-0?arch=7
+    affected_by_vulnerabilities:
+      - VCID-gtf9-tq5y-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/ipsec-tools@0.2.5-0.7.rhel3?arch=3
+    affected_by_vulnerabilities:
+      - VCID-9mxp-tase-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/ipsec-tools@0.2.5-0.7.rhel3?arch=5
+    affected_by_vulnerabilities:
+      - VCID-1bzx-hjur-aaak
+      - VCID-mjvg-n1n3-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/ipsec-tools@0.3.3-6.rhel4?arch=1
+    affected_by_vulnerabilities:
+      - VCID-9mxp-tase-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/ipsec-tools@0.3.3-7?arch=el4_7
+    affected_by_vulnerabilities:
+      - VCID-1bzx-hjur-aaak
+      - VCID-mjvg-n1n3-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/ipsec-tools@0.6.5-13.el5_3?arch=1
+    affected_by_vulnerabilities:
+      - VCID-9467-qevt-aaas
+      - VCID-d1n6-vc3u-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/ipsec-tools@0.6.5-8?arch=el5
+    affected_by_vulnerabilities:
+      - VCID-yr15-9vx3-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/ipsec-tools@0.6.5-9.el5_2?arch=3
+    affected_by_vulnerabilities:
+      - VCID-1bzx-hjur-aaak
+      - VCID-mjvg-n1n3-aaar
+    fixing_vulnerabilities: []

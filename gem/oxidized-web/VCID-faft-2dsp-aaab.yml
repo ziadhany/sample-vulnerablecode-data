@@ -1,0 +1,34 @@
+vulnerability_id: VCID-faft-2dsp-aaab
+aliases:
+  - CVE-2019-25088
+  - GHSA-8qwh-rm6c-jv96
+summary: Oxidized Web vulnerable to Cross-site Scripting
+severities:
+  - id: 707490
+    reference_id: 1469906
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 1469902
+    url: https://github.com/ytti/oxidized-web/commit/55ab9bdc68b03ebce9280b8746ef31d7fdedcc45
+    reference_id:
+  - id: 1469901
+    url: https://github.com/ytti/oxidized-web/pull/195
+    reference_id:
+  - id: 1469903
+    url: https://vuldb.com/?ctiid.216870
+    reference_id:
+  - id: 1469904
+    url: https://vuldb.com/?id.216870
+    reference_id:
+  - id: 1469900
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-25088
+    reference_id: CVE-2019-25088
+  - id: 1469905
+    url: https://github.com/rubysec/ruby-advisory-db/blob/master/gems/oxidized-web/CVE-2019-25088.yml
+    reference_id: CVE-2019-25088.YML
+  - id: 1469906
+    url: https://github.com/advisories/GHSA-8qwh-rm6c-jv96
+    reference_id: GHSA-8qwh-rm6c-jv96
+weaknesses: []

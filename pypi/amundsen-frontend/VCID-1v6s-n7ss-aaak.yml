@@ -1,0 +1,29 @@
+vulnerability_id: VCID-1v6s-n7ss-aaak
+aliases:
+  - GHSA-47qg-q58v-7vrp
+  - GMS-2020-5
+summary: |
+  UNEDITABLE_SCHEMAS and UNEDITABLE_TABLE_DESCRIPTION_MATCH_RULES not respected by frontend service backend
+  Any install that has `UNEDITABLE_SCHEMAS` and/or `UNEDITABLE_TABLE_DESCRIPTION_MATCH_RULES` set in the front-end, is being impacted. The value of these properties is ignored if set, allowing any user to modify table and column descriptions, even though the properties imply they shouldn't be.
+severities:
+  - id: 4493
+    reference_id: 21895
+    scoring_system: cvssv3.1_qr
+    value: LOW
+    scoring_elements:
+  - id: 4492
+    reference_id: 21893
+    scoring_system: cvssv3.1_qr
+    value: LOW
+    scoring_elements:
+references:
+  - id: 21894
+    url: https://github.com/amundsen-io/amundsenfrontendlibrary/commit/0b47694ea74cbbef34e03eb45f29643b16a1332a
+    reference_id:
+  - id: 21895
+    url: https://github.com/advisories/GHSA-47qg-q58v-7vrp
+    reference_id: GHSA-47qg-q58v-7vrp
+  - id: 21893
+    url: https://github.com/amundsen-io/amundsenfrontendlibrary/security/advisories/GHSA-47qg-q58v-7vrp
+    reference_id: GHSA-47qg-q58v-7vrp
+weaknesses: []

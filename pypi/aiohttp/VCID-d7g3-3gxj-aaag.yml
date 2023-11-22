@@ -1,0 +1,51 @@
+vulnerability_id: VCID-d7g3-3gxj-aaag
+aliases:
+  - CVE-2022-33124
+  - GHSA-rwqr-c348-m5wr
+summary: 'Withdrawn: Denial of Service in aiohttp'
+severities:
+  - id: 638793
+    reference_id: 951940
+    scoring_system: cvssv3
+    value: '3.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L
+  - id: 638792
+    reference_id: 951939
+    scoring_system: rhbs
+    value: low
+    scoring_elements:
+  - id: 637145
+    reference_id: 947067
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:N/A:P
+  - id: 637143
+    reference_id: 947067
+    scoring_system: cvssv3
+    value: '5.5'
+    scoring_elements: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+  - id: 630684
+    reference_id: 947069
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 951940
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-33124.json
+    reference_id:
+  - id: 947068
+    url: https://github.com/aio-libs/aiohttp/issues/6772
+    reference_id:
+  - id: 951939
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=2103107
+    reference_id: 2103107
+  - id: 950779
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:aiohttp_project:aiohttp:3.8.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:aiohttp_project:aiohttp:3.8.1:*:*:*:*:*:*:*
+  - id: 947067
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-33124
+    reference_id: CVE-2022-33124
+  - id: 947069
+    url: https://github.com/advisories/GHSA-rwqr-c348-m5wr
+    reference_id: GHSA-rwqr-c348-m5wr
+weaknesses: []

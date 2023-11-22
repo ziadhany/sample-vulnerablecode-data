@@ -1,0 +1,42 @@
+vulnerability_id: VCID-zjta-g4g4-aaae
+aliases:
+  - CVE-2014-9490
+  - GHSA-c9c5-9fpr-m882
+summary: Moderate severity vulnerability that affects sentry-raven
+severities:
+  - id: '191160'
+    reference_id: 30781
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 5369
+    reference_id: 30784
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 39145
+    url: http://osvdb.org/show/osvdb/115654
+    reference_id:
+  - id: 30786
+    url: http://seclists.org/oss-sec/2015/q1/26
+    reference_id:
+  - id: 30783
+    url: https://exchange.xforce.ibmcloud.com/vulnerabilities/99687
+    reference_id:
+  - id: 30782
+    url: https://github.com/getsentry/raven-ruby/commit/477ee93a3f735be33bc1e726820654cdf6e22d8f
+    reference_id:
+  - id: 30785
+    url: https://groups.google.com/forum/#!topic/getsentry/Cz5bih0ZY1U
+    reference_id:
+  - id: 591349
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:getsentry:raven-ruby:*:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:getsentry:raven-ruby:*:*:*:*:*:ruby:*:*
+  - id: 30781
+    url: https://nvd.nist.gov/vuln/detail/CVE-2014-9490
+    reference_id: CVE-2014-9490
+  - id: 30784
+    url: https://github.com/advisories/GHSA-c9c5-9fpr-m882
+    reference_id: GHSA-c9c5-9fpr-m882
+weaknesses: []

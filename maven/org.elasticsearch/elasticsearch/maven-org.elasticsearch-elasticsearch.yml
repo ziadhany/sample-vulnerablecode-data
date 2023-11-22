@@ -1,0 +1,3290 @@
+package: pkg:maven/org.elasticsearch/elasticsearch
+versions:
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.10.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.11.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.12.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.12.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.13.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.13.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.14.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.14.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.14.2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.14.3
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.14.4
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.15.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.15.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.15.2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.16.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.16.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.16.2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.16.3
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.16.4
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.16.5
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.17.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.17.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.17.10
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.17.2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.17.3
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.17.4
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.17.5
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.17.6
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.17.7
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.17.8
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.17.9
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.18.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.18.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.18.2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.18.3
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.18.4
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.18.5
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.18.6
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.18.7
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.19.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.19.0.RC1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.19.0.RC2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.19.0.RC3
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.19.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.19.10
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.19.11
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.19.12
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.19.2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.19.3
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.19.4
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.19.5
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.19.6
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.19.7
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.19.8
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.19.9
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.20.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.20.0.RC1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.20.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.20.2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.20.3
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.20.4
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.20.5
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.20.6
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.6.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.7.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.7.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.8.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.9.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.90.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.90.0.Beta1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.90.0.RC1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.90.0.RC2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.90.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.90.10
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.90.11
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.90.12
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.90.13
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.90.2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.90.3
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.90.4
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.90.5
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.90.6
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.90.7
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.90.8
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@0.90.9
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@1.0.0.Beta1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@1.0.0.Beta2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@1.0.0.RC1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@1.0.0.RC2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@1.0.2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@1.0.3
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@1.1.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@1.1.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@1.1.2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@1.2.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@1.2.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@1.2.2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@1.2.3
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@1.2.4
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@1.3.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@1.3.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@1.3.2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@1.3.3
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@1.3.4
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@1.3.5
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities:
+      - VCID-ma3u-16r3-aaak
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@1.3.6
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@1.3.7
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@1.3.8
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities:
+      - VCID-fzsx-quvw-aaaq
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@1.3.9
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-ma3u-16r3-aaak
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@1.4.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@1.4.0.Beta1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities:
+      - VCID-ma3u-16r3-aaak
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@1.4.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@1.4.2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-fzsx-quvw-aaaq
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@1.4.3
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities:
+      - VCID-fzsx-quvw-aaaq
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@1.4.4
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@1.4.5
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities:
+      - VCID-5kuv-4njc-aaab
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@1.5.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@1.5.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-5kuv-4njc-aaab
+      - VCID-dxya-9rvu-aaae
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@1.5.2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-t6se-vhjg-aaah
+    fixing_vulnerabilities:
+      - VCID-5kuv-4njc-aaab
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@1.6.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qcbq-kyjn-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities:
+      - VCID-t6se-vhjg-aaah
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@1.6.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities:
+      - VCID-qcbq-kyjn-aaan
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@1.6.2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@1.7.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@1.7.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@1.7.2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@1.7.3
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@1.7.4
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@1.7.5
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@1.7.6
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@2.0.0-beta1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@2.0.0-beta2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@2.0.0-rc1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@2.0.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@2.0.2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@2.1.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@2.1.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@2.1.2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@2.2.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@2.2.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@2.2.2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@2.3.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@2.3.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@2.3.2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@2.3.3
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@2.3.4
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@2.3.5
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@2.4.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@2.4.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@2.4.2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@2.4.3
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@2.4.4
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@2.4.5
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@2.4.6
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@5.0.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@5.0.0-alpha1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@5.0.0-alpha2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@5.0.0-alpha3
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@5.0.0-alpha4
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@5.0.0-alpha5
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@5.0.0-beta1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@5.0.0-rc1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@5.0.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@5.0.2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@5.1.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@5.1.2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@5.2.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@5.2.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@5.2.2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@5.3.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@5.3.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@5.3.2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@5.3.3
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@5.4.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@5.4.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@5.4.2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@5.4.3
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@5.5.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@5.5.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@5.5.2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@5.5.3
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@5.6.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-f48j-nrz8-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@5.6.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-f48j-nrz8-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@5.6.10
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-f48j-nrz8-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@5.6.11
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-f48j-nrz8-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@5.6.12
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities:
+      - VCID-f48j-nrz8-aaan
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@5.6.13
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@5.6.14
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@5.6.15
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities:
+      - VCID-3f4b-4rhk-aaap
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@5.6.16
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@5.6.2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-f48j-nrz8-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@5.6.3
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-f48j-nrz8-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@5.6.4
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-f48j-nrz8-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@5.6.5
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-f48j-nrz8-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@5.6.6
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-f48j-nrz8-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@5.6.7
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-f48j-nrz8-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@5.6.8
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-f48j-nrz8-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@5.6.9
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-f48j-nrz8-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.0.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-f48j-nrz8-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.0.0-alpha1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.0.0-alpha2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.0.0-beta1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.0.0-beta2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.0.0-rc1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.0.0-rc2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.0.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-f48j-nrz8-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.1.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-f48j-nrz8-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.1.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-f48j-nrz8-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.1.2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-f48j-nrz8-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.1.3
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-f48j-nrz8-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.1.4
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-f48j-nrz8-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.2.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-f48j-nrz8-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.2.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-f48j-nrz8-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.2.2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-f48j-nrz8-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.2.3
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-f48j-nrz8-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.2.4
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-f48j-nrz8-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.3.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-f48j-nrz8-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.3.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-f48j-nrz8-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.3.2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-f48j-nrz8-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.4.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-f48j-nrz8-aaan
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-uk6k-upnn-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.4.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-uk6k-upnn-aaas
+    fixing_vulnerabilities:
+      - VCID-f48j-nrz8-aaan
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.4.2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-uk6k-upnn-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.4.3
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities:
+      - VCID-uk6k-upnn-aaas
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.5.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-ctkx-7jpp-aaac
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.5.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-ctkx-7jpp-aaac
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.5.2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities:
+      - VCID-ctkx-7jpp-aaac
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.5.3
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.5.4
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.6.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-3f4b-4rhk-aaap
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.6.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities:
+      - VCID-3f4b-4rhk-aaap
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.6.2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.7.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-4cx5-tr34-aaak
+      - VCID-cb3r-vy6b-aaar
+      - VCID-dxya-9rvu-aaae
+      - VCID-hdcs-ej9w-aaam
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-zswb-je3r-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.7.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-4cx5-tr34-aaak
+      - VCID-cb3r-vy6b-aaar
+      - VCID-dxya-9rvu-aaae
+      - VCID-hdcs-ej9w-aaam
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-zswb-je3r-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.7.2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-4cx5-tr34-aaak
+      - VCID-cb3r-vy6b-aaar
+      - VCID-dxya-9rvu-aaae
+      - VCID-hdcs-ej9w-aaam
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-zswb-je3r-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.8.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-4cx5-tr34-aaak
+      - VCID-cb3r-vy6b-aaar
+      - VCID-dxya-9rvu-aaae
+      - VCID-hdcs-ej9w-aaam
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-zswb-je3r-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.8.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-4cx5-tr34-aaak
+      - VCID-cb3r-vy6b-aaar
+      - VCID-dxya-9rvu-aaae
+      - VCID-hdcs-ej9w-aaam
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-zswb-je3r-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.8.10
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.8.11
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.8.12
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.8.13
+    affected_by_vulnerabilities:
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+    fixing_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.8.14
+    affected_by_vulnerabilities:
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+    fixing_vulnerabilities:
+      - VCID-qgqq-66vq-aaaa
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.8.15
+    affected_by_vulnerabilities:
+      - VCID-4cx5-tr34-aaak
+    fixing_vulnerabilities:
+      - VCID-dxya-9rvu-aaae
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.8.16
+    affected_by_vulnerabilities:
+      - VCID-4cx5-tr34-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.8.17
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-4cx5-tr34-aaak
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.8.2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-4cx5-tr34-aaak
+      - VCID-cb3r-vy6b-aaar
+      - VCID-dxya-9rvu-aaae
+      - VCID-hdcs-ej9w-aaam
+      - VCID-qgqq-66vq-aaaa
+      - VCID-zswb-je3r-aaak
+    fixing_vulnerabilities:
+      - VCID-rx6m-rpja-aaah
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.8.3
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-4cx5-tr34-aaak
+      - VCID-cb3r-vy6b-aaar
+      - VCID-dxya-9rvu-aaae
+      - VCID-hdcs-ej9w-aaam
+      - VCID-qgqq-66vq-aaaa
+      - VCID-zswb-je3r-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.8.4
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-4cx5-tr34-aaak
+      - VCID-cb3r-vy6b-aaar
+      - VCID-dxya-9rvu-aaae
+      - VCID-hdcs-ej9w-aaam
+      - VCID-qgqq-66vq-aaaa
+    fixing_vulnerabilities:
+      - VCID-zswb-je3r-aaak
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.8.5
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-4cx5-tr34-aaak
+      - VCID-cb3r-vy6b-aaar
+      - VCID-dxya-9rvu-aaae
+      - VCID-hdcs-ej9w-aaam
+      - VCID-qgqq-66vq-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.8.6
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-4cx5-tr34-aaak
+      - VCID-cb3r-vy6b-aaar
+      - VCID-dxya-9rvu-aaae
+      - VCID-hdcs-ej9w-aaam
+      - VCID-qgqq-66vq-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.8.7
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-4cx5-tr34-aaak
+      - VCID-cb3r-vy6b-aaar
+      - VCID-dxya-9rvu-aaae
+      - VCID-hdcs-ej9w-aaam
+      - VCID-qgqq-66vq-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.8.8
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+    fixing_vulnerabilities:
+      - VCID-cb3r-vy6b-aaar
+      - VCID-hdcs-ej9w-aaam
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@6.8.9
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+      - VCID-qgqq-66vq-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.0.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-4cx5-tr34-aaak
+      - VCID-cb3r-vy6b-aaar
+      - VCID-dxya-9rvu-aaae
+      - VCID-hdcs-ej9w-aaam
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-zswb-je3r-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.0.0-alpha1
+    affected_by_vulnerabilities:
+      - VCID-4cx5-tr34-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.0.0-alpha2
+    affected_by_vulnerabilities:
+      - VCID-4cx5-tr34-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.0.0-beta1
+    affected_by_vulnerabilities:
+      - VCID-4cx5-tr34-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.0.0-rc1
+    affected_by_vulnerabilities:
+      - VCID-4cx5-tr34-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.0.0-rc2
+    affected_by_vulnerabilities:
+      - VCID-4cx5-tr34-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.0.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-4cx5-tr34-aaak
+      - VCID-cb3r-vy6b-aaar
+      - VCID-dxya-9rvu-aaae
+      - VCID-hdcs-ej9w-aaam
+      - VCID-qgqq-66vq-aaaa
+      - VCID-rx6m-rpja-aaah
+      - VCID-zswb-je3r-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.0.9
+    affected_by_vulnerabilities:
+      - VCID-qgqq-66vq-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.1.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-4cx5-tr34-aaak
+      - VCID-cb3r-vy6b-aaar
+      - VCID-dxya-9rvu-aaae
+      - VCID-hdcs-ej9w-aaam
+      - VCID-rx6m-rpja-aaah
+      - VCID-zswb-je3r-aaak
+    fixing_vulnerabilities:
+      - VCID-qgqq-66vq-aaaa
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.10.0
+    affected_by_vulnerabilities:
+      - VCID-2rt4-3um3-aaad
+      - VCID-4cx5-tr34-aaak
+      - VCID-5aqc-46fw-aaah
+      - VCID-dxya-9rvu-aaae
+    fixing_vulnerabilities:
+      - VCID-qgqq-66vq-aaaa
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.10.1
+    affected_by_vulnerabilities:
+      - VCID-2rt4-3um3-aaad
+      - VCID-4cx5-tr34-aaak
+      - VCID-5aqc-46fw-aaah
+      - VCID-dxya-9rvu-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.10.2
+    affected_by_vulnerabilities:
+      - VCID-2rt4-3um3-aaad
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+    fixing_vulnerabilities:
+      - VCID-5aqc-46fw-aaah
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.1.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-4cx5-tr34-aaak
+      - VCID-cb3r-vy6b-aaar
+      - VCID-dxya-9rvu-aaae
+      - VCID-hdcs-ej9w-aaam
+      - VCID-rx6m-rpja-aaah
+      - VCID-zswb-je3r-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.11.0
+    affected_by_vulnerabilities:
+      - VCID-2f8j-nbcd-aaaq
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+    fixing_vulnerabilities:
+      - VCID-2rt4-3um3-aaad
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.11.1
+    affected_by_vulnerabilities:
+      - VCID-2f8j-nbcd-aaaq
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.11.2
+    affected_by_vulnerabilities:
+      - VCID-2f8j-nbcd-aaaq
+      - VCID-4cx5-tr34-aaak
+    fixing_vulnerabilities:
+      - VCID-dxya-9rvu-aaae
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.12.0
+    affected_by_vulnerabilities:
+      - VCID-2f8j-nbcd-aaaq
+      - VCID-4cx5-tr34-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.12.1
+    affected_by_vulnerabilities:
+      - VCID-2f8j-nbcd-aaaq
+      - VCID-4cx5-tr34-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.13.0
+    affected_by_vulnerabilities:
+      - VCID-2f8j-nbcd-aaaq
+      - VCID-4cx5-tr34-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.13.1
+    affected_by_vulnerabilities:
+      - VCID-2f8j-nbcd-aaaq
+      - VCID-4cx5-tr34-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.13.2
+    affected_by_vulnerabilities:
+      - VCID-2f8j-nbcd-aaaq
+      - VCID-4cx5-tr34-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.13.3
+    affected_by_vulnerabilities:
+      - VCID-2f8j-nbcd-aaaq
+    fixing_vulnerabilities:
+      - VCID-4cx5-tr34-aaak
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.13.4
+    affected_by_vulnerabilities:
+      - VCID-2f8j-nbcd-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.14.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-2f8j-nbcd-aaaq
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.16.0
+    affected_by_vulnerabilities:
+      - VCID-nhu8-x3ct-aaaj
+      - VCID-vfb3-x7xr-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.16.1
+    affected_by_vulnerabilities:
+      - VCID-nhu8-x3ct-aaaj
+      - VCID-vfb3-x7xr-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.16.2
+    affected_by_vulnerabilities:
+      - VCID-nhu8-x3ct-aaaj
+      - VCID-vfb3-x7xr-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.16.3
+    affected_by_vulnerabilities:
+      - VCID-nhu8-x3ct-aaaj
+      - VCID-vfb3-x7xr-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.17.0
+    affected_by_vulnerabilities:
+      - VCID-nhu8-x3ct-aaaj
+      - VCID-vfb3-x7xr-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.17.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-nhu8-x3ct-aaaj
+      - VCID-vfb3-x7xr-aaar
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.2.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-4cx5-tr34-aaak
+      - VCID-cb3r-vy6b-aaar
+      - VCID-dxya-9rvu-aaae
+      - VCID-hdcs-ej9w-aaam
+      - VCID-rx6m-rpja-aaah
+      - VCID-zswb-je3r-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.2.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-4cx5-tr34-aaak
+      - VCID-cb3r-vy6b-aaar
+      - VCID-dxya-9rvu-aaae
+      - VCID-hdcs-ej9w-aaam
+      - VCID-zswb-je3r-aaak
+    fixing_vulnerabilities:
+      - VCID-rx6m-rpja-aaah
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.3.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-4cx5-tr34-aaak
+      - VCID-cb3r-vy6b-aaar
+      - VCID-dxya-9rvu-aaae
+      - VCID-hdcs-ej9w-aaam
+      - VCID-zswb-je3r-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.3.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-4cx5-tr34-aaak
+      - VCID-cb3r-vy6b-aaar
+      - VCID-dxya-9rvu-aaae
+      - VCID-hdcs-ej9w-aaam
+      - VCID-zswb-je3r-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.3.2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-4cx5-tr34-aaak
+      - VCID-cb3r-vy6b-aaar
+      - VCID-dxya-9rvu-aaae
+      - VCID-hdcs-ej9w-aaam
+      - VCID-zswb-je3r-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.4.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-4cx5-tr34-aaak
+      - VCID-cb3r-vy6b-aaar
+      - VCID-dxya-9rvu-aaae
+      - VCID-hdcs-ej9w-aaam
+    fixing_vulnerabilities:
+      - VCID-zswb-je3r-aaak
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.4.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-4cx5-tr34-aaak
+      - VCID-cb3r-vy6b-aaar
+      - VCID-dxya-9rvu-aaae
+      - VCID-hdcs-ej9w-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.4.2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-4cx5-tr34-aaak
+      - VCID-cb3r-vy6b-aaar
+      - VCID-dxya-9rvu-aaae
+      - VCID-hdcs-ej9w-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.5.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-4cx5-tr34-aaak
+      - VCID-cb3r-vy6b-aaar
+      - VCID-dxya-9rvu-aaae
+      - VCID-hdcs-ej9w-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.5.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-4cx5-tr34-aaak
+      - VCID-cb3r-vy6b-aaar
+      - VCID-dxya-9rvu-aaae
+      - VCID-hdcs-ej9w-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.5.2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-4cx5-tr34-aaak
+      - VCID-cb3r-vy6b-aaar
+      - VCID-dxya-9rvu-aaae
+      - VCID-hdcs-ej9w-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.6.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-2rt4-3um3-aaad
+      - VCID-4cx5-tr34-aaak
+      - VCID-cb3r-vy6b-aaar
+      - VCID-dxya-9rvu-aaae
+      - VCID-hdcs-ej9w-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.6.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-2rt4-3um3-aaad
+      - VCID-4cx5-tr34-aaak
+      - VCID-cb3r-vy6b-aaar
+      - VCID-dxya-9rvu-aaae
+      - VCID-hdcs-ej9w-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.6.2
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-2rt4-3um3-aaad
+      - VCID-4cx5-tr34-aaak
+      - VCID-dxya-9rvu-aaae
+    fixing_vulnerabilities:
+      - VCID-cb3r-vy6b-aaar
+      - VCID-hdcs-ej9w-aaam
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.7.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-2rt4-3um3-aaad
+      - VCID-4cx5-tr34-aaak
+      - VCID-5aqc-46fw-aaah
+      - VCID-dxya-9rvu-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.7.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-2rt4-3um3-aaad
+      - VCID-4cx5-tr34-aaak
+      - VCID-5aqc-46fw-aaah
+      - VCID-dxya-9rvu-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.8.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-2rt4-3um3-aaad
+      - VCID-4cx5-tr34-aaak
+      - VCID-5aqc-46fw-aaah
+      - VCID-dxya-9rvu-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.8.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-2rt4-3um3-aaad
+      - VCID-4cx5-tr34-aaak
+      - VCID-5aqc-46fw-aaah
+      - VCID-dxya-9rvu-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.9.0
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-2rt4-3um3-aaad
+      - VCID-4cx5-tr34-aaak
+      - VCID-5aqc-46fw-aaah
+      - VCID-dxya-9rvu-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.9.1
+    affected_by_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+      - VCID-2rt4-3um3-aaad
+      - VCID-4cx5-tr34-aaak
+      - VCID-5aqc-46fw-aaah
+      - VCID-dxya-9rvu-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.9.2
+    affected_by_vulnerabilities:
+      - VCID-2rt4-3um3-aaad
+      - VCID-4cx5-tr34-aaak
+      - VCID-5aqc-46fw-aaah
+      - VCID-dxya-9rvu-aaae
+    fixing_vulnerabilities:
+      - VCID-16bb-shnm-aaab
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@7.9.3
+    affected_by_vulnerabilities:
+      - VCID-2rt4-3um3-aaad
+      - VCID-4cx5-tr34-aaak
+      - VCID-5aqc-46fw-aaah
+      - VCID-dxya-9rvu-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@8.0.0
+    affected_by_vulnerabilities:
+      - VCID-wsrd-gddj-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@8.0.1
+    affected_by_vulnerabilities:
+      - VCID-wsrd-gddj-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@8.1.0
+    affected_by_vulnerabilities:
+      - VCID-wsrd-gddj-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@8.1.1
+    affected_by_vulnerabilities:
+      - VCID-wsrd-gddj-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@8.1.2
+    affected_by_vulnerabilities:
+      - VCID-wsrd-gddj-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@8.1.3
+    affected_by_vulnerabilities:
+      - VCID-wsrd-gddj-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@8.2.0
+    affected_by_vulnerabilities:
+      - VCID-wsrd-gddj-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/org.elasticsearch/elasticsearch@8.2.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-wsrd-gddj-aaap

@@ -1,0 +1,41 @@
+vulnerability_id: VCID-24ky-7ch9-aaak
+aliases:
+  - CVE-2020-17511
+  - GHSA-cvcq-gmc3-q6m8
+  - PYSEC-2020-262
+summary: In Airflow versions prior to 1.10.13, when creating a user using airflow CLI, the password
+  gets logged in plain text in the Log table in Airflow Metadatase. Same happened when creating
+  a Connection with a password field.
+severities:
+  - id: 451173
+    reference_id: 23465
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:N/A:N
+  - id: 451171
+    reference_id: 23465
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+  - id: 4473
+    reference_id: 25191
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 25190
+    url: https://github.com/apache/airflow/commit/4e32546faf227a6497ce8b282fff7450cae6f665
+    reference_id:
+  - id: 7021
+    url: https://lists.apache.org/thread.html/ree782a29d927b96bf0b39fb92e2f1f09ea3112a985f7a08ce93765ac%40%3Cusers.airflow.apache.org%3E
+    reference_id:
+  - id: 677676
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:airflow:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:airflow:*:*:*:*:*:*:*:*
+  - id: 23465
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-17511
+    reference_id: CVE-2020-17511
+  - id: 25191
+    url: https://github.com/advisories/GHSA-cvcq-gmc3-q6m8
+    reference_id: GHSA-cvcq-gmc3-q6m8
+weaknesses: []

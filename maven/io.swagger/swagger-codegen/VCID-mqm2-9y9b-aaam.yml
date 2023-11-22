@@ -1,0 +1,38 @@
+vulnerability_id: VCID-mqm2-9y9b-aaam
+aliases:
+  - CVE-2021-21364
+  - GHSA-hpv8-9rq5-hq7w
+summary: Generated Code Contains Local Information Disclosure Vulnerability
+severities:
+  - id: 508233
+    reference_id: 12687
+    scoring_system: cvssv2
+    value: '2.1'
+    scoring_elements: AV:L/AC:L/Au:N/C:P/I:N/A:N
+  - id: 508231
+    reference_id: 12687
+    scoring_system: cvssv3
+    value: '5.5'
+    scoring_elements: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+  - id: 1374
+    reference_id: 12689
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 12688
+    url: https://github.com/swagger-api/swagger-codegen/commit/35adbd552d5f99b3ff1e0e59da228becc85190f2
+    reference_id:
+  - id: 863984
+    url: https://github.com/swagger-api/swagger-codegen/security/advisories/GHSA-hpv8-9rq5-hq7w
+    reference_id:
+  - id: 863983
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:smartbear:swagger-codegen:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:smartbear:swagger-codegen:*:*:*:*:*:*:*:*
+  - id: 12687
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-21364
+    reference_id: CVE-2021-21364
+  - id: 12689
+    url: https://github.com/advisories/GHSA-hpv8-9rq5-hq7w
+    reference_id: GHSA-hpv8-9rq5-hq7w
+weaknesses: []

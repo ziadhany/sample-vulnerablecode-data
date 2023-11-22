@@ -1,0 +1,73 @@
+vulnerability_id: VCID-gt3g-vdwg-aaar
+aliases:
+  - CVE-2018-1002203
+  - GHSA-884w-698f-927f
+summary: |
+  Path Traversal
+  unzipper npm library is vulnerable to directory traversal, allowing attackers to write to arbitrary files via a `../` (dot dot slash) in a Zip archive entry that is mishandled during extraction. This vulnerability is also known as `Zip-Slip`.
+severities:
+  - id: 708575
+    reference_id: 1467204
+    scoring_system: cvssv3
+    value: '8.2'
+    scoring_elements:
+  - id: 682939
+    reference_id: 14744
+    scoring_system: generic_textual
+    value: Medium
+    scoring_elements:
+  - id: 708576
+    reference_id: 1473455
+    scoring_system: cvssv3
+    value: '8.2'
+    scoring_elements:
+  - id: 308882
+    reference_id: 36668
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+  - id: 308880
+    reference_id: 36668
+    scoring_system: cvssv3
+    value: '5.5'
+    scoring_elements: CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N
+  - id: 705832
+    reference_id: 1467205
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 16507
+    url: https://github.com/snyk/zip-slip-vulnerability
+    reference_id:
+  - id: 36669
+    url: https://github.com/ZJONSSON/node-unzipper/commit/2220ddd5b58f6252069a4f99f9475441ad0b50cd
+    reference_id:
+  - id: 36670
+    url: https://github.com/ZJONSSON/node-unzipper/pull/59
+    reference_id:
+  - id: 1467204
+    url: https://hackerone.com/reports/362119
+    reference_id:
+  - id: 14744
+    url: https://snyk.io/research/zip-slip-vulnerability
+    reference_id:
+  - id: 36671
+    url: https://snyk.io/vuln/npm:unzipper:20180415
+    reference_id:
+  - id: 1467206
+    url: https://www.npmjs.com/advisories/680
+    reference_id:
+  - id: 1473455
+    url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/459.json
+    reference_id: 459
+  - id: 722792
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:unzipper_project:unzipper:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:unzipper_project:unzipper:*:*:*:*:*:node.js:*:*
+  - id: 36668
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-1002203
+    reference_id: CVE-2018-1002203
+  - id: 1467205
+    url: https://github.com/advisories/GHSA-884w-698f-927f
+    reference_id: GHSA-884w-698f-927f
+weaknesses: []

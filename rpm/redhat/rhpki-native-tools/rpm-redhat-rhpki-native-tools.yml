@@ -1,0 +1,44 @@
+package: pkg:rpm/redhat/rhpki-native-tools
+versions:
+  - purl: pkg:rpm/redhat/rhpki-native-tools@7.3.0-6?arch=el4
+    affected_by_vulnerabilities:
+      - VCID-1sxy-v71c-aaah
+      - VCID-1um3-jpu8-aaaj
+      - VCID-22we-qr8x-aaad
+      - VCID-44gh-afxy-aaad
+      - VCID-8ev5-nn75-aaap
+      - VCID-8ha5-3wkt-aaaa
+      - VCID-8mnn-61dd-aaaj
+      - VCID-8tsz-hrqv-aaar
+      - VCID-a61m-1sk9-aaaj
+      - VCID-beah-u8vc-aaaq
+      - VCID-chav-tp7d-aaam
+      - VCID-chsg-486g-aaac
+      - VCID-dq5v-7ymd-aaaq
+      - VCID-es7j-vwa1-aaar
+      - VCID-ftdm-put6-aaaf
+      - VCID-g44f-ek3a-aaak
+      - VCID-gayz-z7bf-aaag
+      - VCID-gte7-xda1-aaas
+      - VCID-h6cu-3e96-aaak
+      - VCID-h9a7-yr37-aaad
+      - VCID-haca-yreg-aaap
+      - VCID-j1rr-k9yr-aaae
+      - VCID-jts3-sumc-aaaq
+      - VCID-kjcr-z95a-aaae
+      - VCID-mb8p-tgux-aaak
+      - VCID-nm2g-nz56-aaas
+      - VCID-p4wk-zcuh-aaad
+      - VCID-pwtu-8hzx-aaak
+      - VCID-qdyv-j5zf-aaaq
+      - VCID-qhh5-wcj1-aaae
+      - VCID-rqhs-ue3x-aaag
+      - VCID-tepv-qzma-aaab
+      - VCID-tkhp-xxex-aaag
+      - VCID-u6b5-d1yp-aaah
+      - VCID-ugfm-9gaz-aaab
+      - VCID-us96-4dyu-aaad
+      - VCID-w2az-ahw2-aaah
+      - VCID-y6c7-dj1n-aaas
+      - VCID-z2dp-keth-aaan
+    fixing_vulnerabilities: []

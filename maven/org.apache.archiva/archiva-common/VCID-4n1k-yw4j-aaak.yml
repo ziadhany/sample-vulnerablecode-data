@@ -1,0 +1,28 @@
+vulnerability_id: VCID-4n1k-yw4j-aaak
+aliases:
+  - CVE-2022-40308
+  - GHSA-463w-hxfv-g9f6
+summary: Apache Archiva vulnerable to Sensitive Information Disclosure via anonymous user
+severities:
+  - id: 703007
+    reference_id: 1462542
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 1462541
+    url: https://archiva.apache.org/security.html
+    reference_id:
+  - id: 1462539
+    url: https://lists.apache.org/thread/x01pnn0jjsw512cscxsbxzrjmz64n4cc
+    reference_id:
+  - id: 1462540
+    url: http://www.openwall.com/lists/oss-security/2022/11/15/2
+    reference_id:
+  - id: 1462538
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-40308
+    reference_id: CVE-2022-40308
+  - id: 1462542
+    url: https://github.com/advisories/GHSA-463w-hxfv-g9f6
+    reference_id: GHSA-463w-hxfv-g9f6
+weaknesses: []

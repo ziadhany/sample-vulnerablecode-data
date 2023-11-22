@@ -1,0 +1,48 @@
+package: pkg:rpm/redhat/openstack-heat
+versions:
+  - purl: pkg:rpm/redhat/openstack-heat@1:13.0.1-0.20191127204014.0703ca7?arch=el8ost
+    affected_by_vulnerabilities:
+      - VCID-2cqt-v8wb-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/openstack-heat@1:5.0.3-2?arch=el7ost
+    affected_by_vulnerabilities:
+      - VCID-3q1b-sfcf-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/openstack-heat@1:6.1.0-3?arch=el7ost
+    affected_by_vulnerabilities:
+      - VCID-3q1b-sfcf-aaac
+      - VCID-6q2y-yz34-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/openstack-heat@1:7.0.2-4?arch=el7ost
+    affected_by_vulnerabilities:
+      - VCID-6q2y-yz34-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/openstack-heat@2013.2.1-4?arch=el6ost
+    affected_by_vulnerabilities:
+      - VCID-1d2a-d9hu-aaaq
+      - VCID-cbgz-df45-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/openstack-heat@2013.2.4-1?arch=el6ost
+    affected_by_vulnerabilities:
+      - VCID-b2hg-z9as-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/openstack-heat@2014.1.5-7?arch=el6ost
+    affected_by_vulnerabilities:
+      - VCID-hfkq-6yxq-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/openstack-heat@2014.1.5-7?arch=el7ost
+    affected_by_vulnerabilities:
+      - VCID-hfkq-6yxq-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/openstack-heat@2014.2.3-11?arch=el7ost
+    affected_by_vulnerabilities:
+      - VCID-hfkq-6yxq-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/openstack-heat@2015.1.2-9?arch=el7ost
+    affected_by_vulnerabilities:
+      - VCID-hfkq-6yxq-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/openstack-heat@2015.1.4-3?arch=el7ost
+    affected_by_vulnerabilities:
+      - VCID-3q1b-sfcf-aaac
+    fixing_vulnerabilities: []

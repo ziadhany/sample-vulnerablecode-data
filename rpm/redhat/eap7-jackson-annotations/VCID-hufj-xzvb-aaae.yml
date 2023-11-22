@@ -1,0 +1,73 @@
+vulnerability_id: VCID-hufj-xzvb-aaae
+aliases:
+  - CVE-2022-0853
+summary: 'CVE-2022-0853 jboss-client: memory leakage in remote client transaction'
+severities:
+  - id: 168246
+    reference_id: 532184
+    scoring_system: cvssv3
+    value: '4.3'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L
+  - id: 577554
+    reference_id: 909628
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 577552
+    reference_id: 909628
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 20244
+    reference_id: 85116
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 20243
+    reference_id: 85115
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 20242
+    reference_id: 85114
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 532184
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-0853.json
+    reference_id:
+  - id: 909626
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=2060725
+    reference_id:
+  - id: 909627
+    url: https://github.com/ByteHackr/CVE-2022-0853
+    reference_id:
+  - id: 779339
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:descision_manager:7.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:descision_manager:7.0:*:*:*:*:*:*:*
+  - id: 659699
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:7.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:7.0.0:*:*:*:*:*:*:*
+  - id: 861381
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform_expansion_pack:-:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform_expansion_pack:-:*:*:*:*:*:*:*
+  - id: 779340
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:process_automation:7.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:process_automation:7.0:*:*:*:*:*:*:*
+  - id: 766462
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:single_sign-on:7.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:single_sign-on:7.0:*:*:*:*:*:*:*
+  - id: 909628
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-0853
+    reference_id: CVE-2022-0853
+  - id: 85116
+    url: https://access.redhat.com/errata/RHSA-2022:4918
+    reference_id: RHSA-2022:4918
+  - id: 85115
+    url: https://access.redhat.com/errata/RHSA-2022:4919
+    reference_id: RHSA-2022:4919
+  - id: 85114
+    url: https://access.redhat.com/errata/RHSA-2022:4922
+    reference_id: RHSA-2022:4922
+weaknesses: []

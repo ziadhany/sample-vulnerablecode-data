@@ -1,0 +1,87 @@
+vulnerability_id: VCID-5567-qgdd-aaah
+aliases:
+  - CVE-2019-0657
+  - GHSA-x5qj-9vmx-7g6g
+summary: A vulnerability exists in certain .Net Framework API's and Visual Studio in the way
+  they parse URL's, aka '.NET Framework and Visual Studio Spoofing Vulnerability'.
+severities:
+  - id: 612944
+    reference_id: 933510
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
+  - id: 612942
+    reference_id: 933508
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 364241
+    reference_id: 764328
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+  - id: 364239
+    reference_id: 764328
+    scoring_system: cvssv3
+    value: '5.9'
+    scoring_elements: CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+  - id: 630548
+    reference_id: 946725
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 612943
+    reference_id: 933509
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 933510
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2019-0657.json
+    reference_id:
+  - id: 946723
+    url: https://github.com/dotnet/announcements/issues/97
+    reference_id:
+  - id: 946724
+    url: https://github.com/github/advisory-database/issues/302
+    reference_id:
+  - id: 764325
+    url: http://www.securityfocus.com/bid/106890
+    reference_id:
+  - id: 933508
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1673891
+    reference_id: 1673891
+  - id: 720393
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:.net_core:1.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:.net_core:1.0:*:*:*:*:*:*:*
+  - id: 760240
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:.net_core:2.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:.net_core:2.1:*:*:*:*:*:*:*
+  - id: 764044
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:.net_core:2.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:.net_core:2.2:*:*:*:*:*:*:*
+  - id: 720396
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:powershell_core:6.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:powershell_core:6.0:*:*:*:*:*:*:*
+  - id: 759856
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:powershell_core:6.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:powershell_core:6.1:*:*:*:*:*:*:*
+  - id: 720965
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:visual_studio_2017:-:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:visual_studio_2017:-:*:*:*:*:*:*:*
+  - id: 760781
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:visual_studio_2017:15.9:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:visual_studio_2017:15.9:*:*:*:*:*:*:*
+  - id: 764328
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-0657
+    reference_id: CVE-2019-0657
+  - id: 946722
+    url: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-0657
+    reference_id: CVE-2019-0657
+  - id: 946725
+    url: https://github.com/advisories/GHSA-x5qj-9vmx-7g6g
+    reference_id: GHSA-x5qj-9vmx-7g6g
+  - id: 933509
+    url: https://access.redhat.com/errata/RHSA-2019:0349
+    reference_id: RHSA-2019:0349
+weaknesses: []

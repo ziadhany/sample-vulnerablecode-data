@@ -1,0 +1,390 @@
+package: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent
+versions:
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@1.5.10
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@1.5.11
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@6.0.0
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@6.10.0
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@6.11.0
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@6.12.0
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@6.13.0
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@6.13.1
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@6.14.0
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@6.15.0
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@6.16.0
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@6.17.0
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@6.18.0
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@6.18.1
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@6.19.0
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@6.19.1
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@6.19.2
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@6.19.3
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@6.20.0
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@6.20.1
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@6.20.2
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@6.20.3
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@6.21.0
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@6.21.1
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@6.21.2
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@6.22.0
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@6.22.1
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@6.22.2
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@6.23.0
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@6.24.0
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@6.25.0
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@6.25.1
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@6.26.0
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@6.27.0
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@6.28.0
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@6.28.1
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+    fixing_vulnerabilities:
+      - VCID-tavm-3szk-aaab
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@6.29.0
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@6.29.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@6.7.0
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@6.8.0
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@6.8.1
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@6.9.0
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@6.9.1
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@7.0.0
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@7.0.1
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@7.0.2
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@7.1.0
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@7.10.0
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@7.10.1
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@7.10.2
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@7.2.0
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@7.2.1
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@7.3.0
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@7.3.1
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@7.4.0
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@7.5.0
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@7.6.0
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@7.7.0
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@7.8.0
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@7.9.0
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@7.9.1
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@7.9.2
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+    fixing_vulnerabilities:
+      - VCID-tavm-3szk-aaab
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@8.0.0
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+    fixing_vulnerabilities:
+      - VCID-tavm-3szk-aaab
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@8.0.0-M0
+    affected_by_vulnerabilities:
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@8.0.0-M1
+    affected_by_vulnerabilities:
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@8.0.0-M1.1
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@8.0.0-M2
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@8.0.0-M3
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@8.0.0-M4
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@8.0.0-M4.1
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@8.0.0-M5
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@8.0.0-M6
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@8.0.0-M7
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@8.0.0-M8
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@8.0.0-M8.1
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@8.0.0-M9
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@8.0.0-M9.1
+    affected_by_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@8.0.0-M9.2
+    affected_by_vulnerabilities:
+      - VCID-tavm-3szk-aaab
+    fixing_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac
+  - purl: pkg:maven/com.googlecode.wicket-jquery-ui/wicket-jquery-ui-parent@8.1.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-dsx1-f6q5-aaac

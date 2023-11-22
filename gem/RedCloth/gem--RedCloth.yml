@@ -1,0 +1,106 @@
+package: pkg:gem/RedCloth
+versions:
+  - purl: pkg:gem/RedCloth@3.0.0
+    affected_by_vulnerabilities:
+      - VCID-8b1n-1r8m-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/RedCloth@3.0.1
+    affected_by_vulnerabilities:
+      - VCID-8b1n-1r8m-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/RedCloth@3.0.2
+    affected_by_vulnerabilities:
+      - VCID-8b1n-1r8m-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/RedCloth@3.0.3
+    affected_by_vulnerabilities:
+      - VCID-8b1n-1r8m-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/RedCloth@3.0.4
+    affected_by_vulnerabilities:
+      - VCID-8b1n-1r8m-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/RedCloth@4.0.0
+    affected_by_vulnerabilities:
+      - VCID-8b1n-1r8m-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/RedCloth@4.0.1
+    affected_by_vulnerabilities:
+      - VCID-8b1n-1r8m-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/RedCloth@4.0.2
+    affected_by_vulnerabilities:
+      - VCID-8b1n-1r8m-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/RedCloth@4.0.3
+    affected_by_vulnerabilities:
+      - VCID-8b1n-1r8m-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/RedCloth@4.0.4
+    affected_by_vulnerabilities:
+      - VCID-8b1n-1r8m-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/RedCloth@4.1.0
+    affected_by_vulnerabilities:
+      - VCID-8b1n-1r8m-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/RedCloth@4.1.1
+    affected_by_vulnerabilities:
+      - VCID-8b1n-1r8m-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/RedCloth@4.1.9
+    affected_by_vulnerabilities:
+      - VCID-8b1n-1r8m-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/RedCloth@4.2.0
+    affected_by_vulnerabilities:
+      - VCID-8b1n-1r8m-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/RedCloth@4.2.1
+    affected_by_vulnerabilities:
+      - VCID-8b1n-1r8m-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/RedCloth@4.2.2
+    affected_by_vulnerabilities:
+      - VCID-8b1n-1r8m-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/RedCloth@4.2.3
+    affected_by_vulnerabilities:
+      - VCID-8b1n-1r8m-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/RedCloth@4.2.4
+    affected_by_vulnerabilities:
+      - VCID-8b1n-1r8m-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/RedCloth@4.2.4.pre1
+    affected_by_vulnerabilities:
+      - VCID-8b1n-1r8m-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/RedCloth@4.2.4.pre2
+    affected_by_vulnerabilities:
+      - VCID-8b1n-1r8m-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/RedCloth@4.2.4.pre3
+    affected_by_vulnerabilities:
+      - VCID-8b1n-1r8m-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/RedCloth@4.2.5
+    affected_by_vulnerabilities:
+      - VCID-8b1n-1r8m-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/RedCloth@4.2.7
+    affected_by_vulnerabilities:
+      - VCID-8b1n-1r8m-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/RedCloth@4.2.8
+    affected_by_vulnerabilities:
+      - VCID-8b1n-1r8m-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/RedCloth@4.2.9
+    affected_by_vulnerabilities:
+      - VCID-8b1n-1r8m-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/RedCloth@4.3.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-8b1n-1r8m-aaaf

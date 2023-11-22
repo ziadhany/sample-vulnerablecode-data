@@ -1,0 +1,6 @@
+package: pkg:npm/dictum.js
+versions:
+  - purl: pkg:npm/dictum.js@1.0.5
+    affected_by_vulnerabilities:
+      - VCID-223c-r47t-aaar
+    fixing_vulnerabilities: []

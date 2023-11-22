@@ -1,0 +1,6 @@
+package: pkg:gem/metasploit-framework
+versions:
+  - purl: pkg:gem/metasploit-framework@6.0.33
+    affected_by_vulnerabilities:
+      - VCID-f8tu-u273-aaad
+    fixing_vulnerabilities: []

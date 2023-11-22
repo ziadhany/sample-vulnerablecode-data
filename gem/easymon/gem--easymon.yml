@@ -1,0 +1,62 @@
+package: pkg:gem/easymon
+versions:
+  - purl: pkg:gem/easymon@1.0.6
+    affected_by_vulnerabilities:
+      - VCID-xn2m-c7wp-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/easymon@1.0.7
+    affected_by_vulnerabilities:
+      - VCID-xn2m-c7wp-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/easymon@1.0.8
+    affected_by_vulnerabilities:
+      - VCID-xn2m-c7wp-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/easymon@1.0.9
+    affected_by_vulnerabilities:
+      - VCID-xn2m-c7wp-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/easymon@1.1
+    affected_by_vulnerabilities:
+      - VCID-xn2m-c7wp-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/easymon@1.2
+    affected_by_vulnerabilities:
+      - VCID-xn2m-c7wp-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/easymon@1.2.1
+    affected_by_vulnerabilities:
+      - VCID-xn2m-c7wp-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/easymon@1.2.2
+    affected_by_vulnerabilities:
+      - VCID-xn2m-c7wp-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/easymon@1.2.3
+    affected_by_vulnerabilities:
+      - VCID-xn2m-c7wp-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/easymon@1.2.4
+    affected_by_vulnerabilities:
+      - VCID-xn2m-c7wp-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/easymon@1.2.5
+    affected_by_vulnerabilities:
+      - VCID-xn2m-c7wp-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/easymon@1.2.6
+    affected_by_vulnerabilities:
+      - VCID-xn2m-c7wp-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/easymon@1.3
+    affected_by_vulnerabilities:
+      - VCID-xn2m-c7wp-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/easymon@1.4
+    affected_by_vulnerabilities:
+      - VCID-xn2m-c7wp-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/easymon@1.4.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-xn2m-c7wp-aaas

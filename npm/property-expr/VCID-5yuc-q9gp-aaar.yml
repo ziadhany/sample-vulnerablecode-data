@@ -1,0 +1,43 @@
+vulnerability_id: VCID-5yuc-q9gp-aaar
+aliases:
+  - CVE-2020-7707
+  - GHSA-6fw4-hr69-g3rv
+summary: |
+  Improper Input Validation
+  The package property-expr is vulnerable to Prototype Pollution via the setter function.
+severities:
+  - id: 489429
+    reference_id: 35384
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 489427
+    reference_id: 35384
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 706383
+    reference_id: 1467950
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 852853
+    url: https://github.com/jquense/expr/commit/df846910915d59f711ce63c1f817815bceab5ff7
+    reference_id:
+  - id: 852854
+    url: https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-598857
+    reference_id:
+  - id: 852855
+    url: https://snyk.io/vuln/SNYK-JS-PROPERTYEXPR-598800
+    reference_id:
+  - id: 852856
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:property-expr_project:property-expr:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:property-expr_project:property-expr:*:*:*:*:*:node.js:*:*
+  - id: 35384
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-7707
+    reference_id: CVE-2020-7707
+  - id: 1467950
+    url: https://github.com/advisories/GHSA-6fw4-hr69-g3rv
+    reference_id: GHSA-6fw4-hr69-g3rv
+weaknesses: []

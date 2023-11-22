@@ -1,0 +1,78 @@
+package: pkg:pypi/collective.js.datatables
+versions:
+  - purl: pkg:pypi/collective.js.datatables@0.0a0
+    affected_by_vulnerabilities:
+      - VCID-hkrv-te6h-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.js.datatables@1.7.4.2
+    affected_by_vulnerabilities:
+      - VCID-hkrv-te6h-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.js.datatables@1.7.4.3
+    affected_by_vulnerabilities:
+      - VCID-hkrv-te6h-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.js.datatables@1.7.5.1
+    affected_by_vulnerabilities:
+      - VCID-hkrv-te6h-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.js.datatables@1.7.5.2
+    affected_by_vulnerabilities:
+      - VCID-hkrv-te6h-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.js.datatables@1.8.0
+    affected_by_vulnerabilities:
+      - VCID-hkrv-te6h-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.js.datatables@1.8.0.1
+    affected_by_vulnerabilities:
+      - VCID-hkrv-te6h-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.js.datatables@1.8.0.2
+    affected_by_vulnerabilities:
+      - VCID-hkrv-te6h-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.js.datatables@1.9
+    affected_by_vulnerabilities:
+      - VCID-hkrv-te6h-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.js.datatables@1.9.1
+    affected_by_vulnerabilities:
+      - VCID-hkrv-te6h-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.js.datatables@1.9.2
+    affected_by_vulnerabilities:
+      - VCID-hkrv-te6h-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.js.datatables@1.9.2.1
+    affected_by_vulnerabilities:
+      - VCID-hkrv-te6h-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.js.datatables@1.9.2.2
+    affected_by_vulnerabilities:
+      - VCID-hkrv-te6h-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.js.datatables@1.9.2.3
+    affected_by_vulnerabilities:
+      - VCID-hkrv-te6h-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.js.datatables@1.9.3.1
+    affected_by_vulnerabilities:
+      - VCID-hkrv-te6h-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.js.datatables@2.0
+    affected_by_vulnerabilities:
+      - VCID-hkrv-te6h-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.js.datatables@2.0.1
+    affected_by_vulnerabilities:
+      - VCID-hkrv-te6h-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.js.datatables@3.1.10.4
+    affected_by_vulnerabilities:
+      - VCID-hkrv-te6h-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/collective.js.datatables@3.1.10.5
+    affected_by_vulnerabilities:
+      - VCID-hkrv-te6h-aaac
+    fixing_vulnerabilities: []

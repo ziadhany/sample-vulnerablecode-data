@@ -1,0 +1,25 @@
+vulnerability_id: VCID-2ysm-vy86-aaaq
+aliases:
+  - CVE-2023-25956
+  - GHSA-w695-p3j5-hrj9
+summary: Apache Airflow AWS Provider Generates Error Message Containing Sensitive Information
+severities:
+  - id: 708043
+    reference_id: 1471825
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 1471823
+    url: https://github.com/apache/airflow/pull/29587
+    reference_id:
+  - id: 1471824
+    url: https://lists.apache.org/thread/07pl9y4gdpw2c6rzqm77dvkm2z2kb5gv
+    reference_id:
+  - id: 1471822
+    url: https://nvd.nist.gov/vuln/detail/CVE-2023-25956
+    reference_id: CVE-2023-25956
+  - id: 1471825
+    url: https://github.com/advisories/GHSA-w695-p3j5-hrj9
+    reference_id: GHSA-w695-p3j5-hrj9
+weaknesses: []

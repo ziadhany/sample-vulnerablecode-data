@@ -1,0 +1,53 @@
+vulnerability_id: VCID-jj32-erup-aaah
+aliases:
+  - CVE-2018-3770
+  - GHSA-p7c9-jqhq-vr3v
+summary: |
+  Path Traversal
+  A path traversal exists in markdown-pdf that allows a user to insert a malicious html code that can result in reading the local files.
+severities:
+  - id: 708695
+    reference_id: 170915
+    scoring_system: cvssv3
+    value: '5.3'
+    scoring_elements:
+  - id: 708696
+    reference_id: 1473509
+    scoring_system: cvssv3
+    value: '5.3'
+    scoring_elements:
+  - id: 45907
+    reference_id: 36836
+    scoring_system: cvssv2
+    value: '2.1'
+    scoring_elements: AV:L/AC:L/Au:N/C:P/I:N/A:N
+  - id: 45905
+    reference_id: 36836
+    scoring_system: cvssv3
+    value: '5.5'
+    scoring_elements: CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+  - id: 705936
+    reference_id: 1467391
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 170915
+    url: https://hackerone.com/reports/360727
+    reference_id:
+  - id: 1467392
+    url: https://www.npmjs.com/advisories/991
+    reference_id:
+  - id: 1473509
+    url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/454.json
+    reference_id: 454
+  - id: 170916
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:markdown-pdf_project:markdown-pdf:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:markdown-pdf_project:markdown-pdf:*:*:*:*:*:node.js:*:*
+  - id: 36836
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-3770
+    reference_id: CVE-2018-3770
+  - id: 1467391
+    url: https://github.com/advisories/GHSA-p7c9-jqhq-vr3v
+    reference_id: GHSA-p7c9-jqhq-vr3v
+weaknesses: []

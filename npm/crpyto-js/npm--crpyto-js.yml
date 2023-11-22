@@ -1,0 +1,10 @@
+package: pkg:npm/crpyto-js
+versions:
+  - purl: pkg:npm/crpyto-js@0.0.0
+    affected_by_vulnerabilities:
+      - VCID-t88v-ectf-aaar
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/crpyto-js@0.0.1-security
+    affected_by_vulnerabilities:
+      - VCID-t88v-ectf-aaar
+    fixing_vulnerabilities: []

@@ -1,0 +1,82 @@
+vulnerability_id: VCID-p67f-hed7-aaac
+aliases:
+  - CVE-2019-3875
+  - GHSA-38cg-gg9j-q9j9
+summary: Improper Certificate Validation and Insufficient Verification of Data Authenticity
+  in Keycloak
+severities:
+  - id: 72168
+    reference_id: 202643
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
+  - id: 72167
+    reference_id: 202642
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 406408
+    reference_id: 14403
+    scoring_system: cvssv2
+    value: '5.8'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:P/A:N
+  - id: 406406
+    reference_id: 14403
+    scoring_system: cvssv3
+    value: '4.8'
+    scoring_elements: CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
+  - id: 1594
+    reference_id: 14405
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 48733
+    reference_id: 173084
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 52339
+    reference_id: 177155
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 69832
+    reference_id: '199687'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 202643
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2019-3875.json
+    reference_id:
+  - id: 14404
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2019-3875
+    reference_id:
+  - id: 34950
+    url: http://www.securityfocus.com/bid/108748
+    reference_id:
+  - id: 202642
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1690628
+    reference_id: 1690628
+  - id: 568146
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:keycloak:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:keycloak:*:*:*:*:*:*:*:*
+  - id: 728430
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:single_sign-on:7.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:single_sign-on:7.3:*:*:*:*:*:*:*
+  - id: 14403
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-3875
+    reference_id: CVE-2019-3875
+  - id: 14405
+    url: https://github.com/advisories/GHSA-38cg-gg9j-q9j9
+    reference_id: GHSA-38cg-gg9j-q9j9
+  - id: 173084
+    url: https://access.redhat.com/errata/RHSA-2019:1456
+    reference_id: RHSA-2019:1456
+  - id: 177155
+    url: https://access.redhat.com/errata/RHSA-2020:2067
+    reference_id: RHSA-2020:2067
+  - id: '199687'
+    url: https://access.redhat.com/errata/RHSA-2020:2366
+    reference_id: RHSA-2020:2366
+weaknesses: []

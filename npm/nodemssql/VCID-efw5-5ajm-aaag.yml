@@ -1,0 +1,40 @@
+vulnerability_id: VCID-efw5-5ajm-aaag
+aliases:
+  - CVE-2017-16057
+  - GHSA-9xgh-xgw5-p5cw
+summary: |
+  Malicious package (Typosquatting)
+  nodemssql is a malicious module published with the intent to hijack environment variables. It has been unpublished by npm.
+severities:
+  - id: 269820
+    reference_id: 33660
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 269818
+    reference_id: 33660
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+  - id: 705647
+    reference_id: 1466846
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 687632
+    url: https://nodesecurity.io/advisories/484
+    reference_id:
+  - id: 1466847
+    url: https://www.npmjs.com/advisories/484
+    reference_id:
+  - id: 687633
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:nodemssql_project:nodemssql:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:nodemssql_project:nodemssql:*:*:*:*:*:node.js:*:*
+  - id: 33660
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-16057
+    reference_id: CVE-2017-16057
+  - id: 1466846
+    url: https://github.com/advisories/GHSA-9xgh-xgw5-p5cw
+    reference_id: GHSA-9xgh-xgw5-p5cw
+weaknesses: []

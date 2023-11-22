@@ -1,0 +1,73 @@
+vulnerability_id: VCID-gr6a-81am-aaab
+aliases:
+  - CVE-2022-0866
+summary: 'CVE-2022-0866 wildfly: Wildfly management of EJB Session context returns wrong caller
+  principal with Elytron Security enabled'
+severities:
+  - id: 20245
+    reference_id: 85117
+    scoring_system: cvssv3
+    value: '3.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N
+  - id: 20241
+    reference_id: 85113
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 577598
+    reference_id: 909652
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:N/A:N
+  - id: 577596
+    reference_id: 909652
+    scoring_system: cvssv3
+    value: '5.3'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+  - id: 20244
+    reference_id: 85116
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 20243
+    reference_id: 85115
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 20242
+    reference_id: 85114
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 85117
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-0866.json
+    reference_id:
+  - id: 909651
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=2060929#c0
+    reference_id:
+  - id: 85113
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=2060929
+    reference_id: 2060929
+  - id: 157730
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:*:*:*:*:*:*:*:*
+  - id: 820862
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openstack_platform:13.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:openstack_platform:13.0:*:*:*:*:*:*:*
+  - id: 734792
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:wildfly:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:wildfly:*:*:*:*:*:*:*:*
+  - id: 909652
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-0866
+    reference_id: CVE-2022-0866
+  - id: 85116
+    url: https://access.redhat.com/errata/RHSA-2022:4918
+    reference_id: RHSA-2022:4918
+  - id: 85115
+    url: https://access.redhat.com/errata/RHSA-2022:4919
+    reference_id: RHSA-2022:4919
+  - id: 85114
+    url: https://access.redhat.com/errata/RHSA-2022:4922
+    reference_id: RHSA-2022:4922
+weaknesses: []

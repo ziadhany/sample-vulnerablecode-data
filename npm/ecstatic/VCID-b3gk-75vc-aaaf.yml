@@ -1,0 +1,41 @@
+vulnerability_id: VCID-b3gk-75vc-aaaf
+aliases:
+  - GHSA-9q64-mpxx-87fg
+  - GMS-2020-712
+summary: |
+  Open Redirect in ecstatic
+  Versions of `ecstatic` prior to 4.1.2, 3.3.2 or 2.2.2 are vulnerable to Open Redirect. The package fails to validate redirects, allowing attackers to craft requests that result in an `HTTP 301` redirect to any other domains.
+
+
+  ## Recommendation
+
+  If using `ecstatic` 4.x, upgrade to 4.1.2 or later.
+  If using `ecstatic` 3.x, upgrade to 3.3.2 or later.
+  If using `ecstatic` 2.x, upgrade to 2.2.2 or later.
+severities:
+  - id: 369664
+    reference_id: 37250
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 369662
+    reference_id: 37250
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 704817
+    reference_id: 37252
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 37251
+    url: https://www.npmjs.com/advisories/830
+    reference_id:
+  - id: 37250
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-10775
+    reference_id: CVE-2019-10775
+  - id: 37252
+    url: https://github.com/advisories/GHSA-9q64-mpxx-87fg
+    reference_id: GHSA-9q64-mpxx-87fg
+weaknesses: []

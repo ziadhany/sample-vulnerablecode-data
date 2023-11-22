@@ -1,0 +1,86 @@
+vulnerability_id: VCID-1sy5-pjxk-aaaa
+aliases:
+  - CVE-2015-7294
+  - GHSA-82mg-x548-gq3j
+summary: |
+  LDAP Injection
+  The library is vulnerable to LDAP injection through the "username" parameter.
+severities:
+  - id: 708469
+    reference_id: 31609
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements:
+  - id: 708468
+    reference_id: 31610
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements:
+  - id: 708471
+    reference_id: 33694
+    scoring_system: cvssv3
+    value: '5.3'
+    scoring_elements:
+  - id: 708470
+    reference_id: 1473404
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements:
+  - id: 708472
+    reference_id: 1473405
+    scoring_system: cvssv3
+    value: '5.3'
+    scoring_elements:
+  - id: 202937
+    reference_id: 33697
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 202935
+    reference_id: 33697
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+  - id: 705337
+    reference_id: 33700
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 31609
+    url: https://github.com/vesse/node-ldapauth-fork/commit/3feea43e243698bcaeffa904a7324f4d96df60e4
+    reference_id:
+  - id: 31610
+    url: https://github.com/vesse/node-ldapauth-fork/issues/21
+    reference_id:
+  - id: 33695
+    url: https://www.npmjs.com/advisories/18
+    reference_id:
+  - id: 33696
+    url: https://www.npmjs.com/advisories/19
+    reference_id:
+  - id: 33694
+    url: http://www.openwall.com/lists/oss-security/2015/09/18/4
+    reference_id:
+  - id: 33698
+    url: http://www.openwall.com/lists/oss-security/2015/09/18/8
+    reference_id:
+  - id: 33699
+    url: http://www.openwall.com/lists/oss-security/2015/09/21/2
+    reference_id:
+  - id: 1473404
+    url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/18.json
+    reference_id: 18
+  - id: 1473405
+    url: https://github.com/nodejs/security-wg/blob/main/vuln/npm/19.json
+    reference_id: '19'
+  - id: 613340
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:ldapauth-fork_project:ldapauth-fork:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:ldapauth-fork_project:ldapauth-fork:*:*:*:*:*:node.js:*:*
+  - id: 33697
+    url: https://nvd.nist.gov/vuln/detail/CVE-2015-7294
+    reference_id: CVE-2015-7294
+  - id: 33700
+    url: https://github.com/advisories/GHSA-82mg-x548-gq3j
+    reference_id: GHSA-82mg-x548-gq3j
+weaknesses: []

@@ -1,0 +1,10 @@
+package: pkg:npm/ecuvre
+versions:
+  - purl: pkg:npm/ecuvre@0.0.0
+    affected_by_vulnerabilities:
+      - VCID-u6yb-f8h7-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/ecuvre@0.0.1-security
+    affected_by_vulnerabilities:
+      - VCID-u6yb-f8h7-aaam
+    fixing_vulnerabilities: []

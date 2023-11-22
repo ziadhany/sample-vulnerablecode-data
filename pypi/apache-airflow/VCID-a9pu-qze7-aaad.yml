@@ -1,0 +1,39 @@
+vulnerability_id: VCID-a9pu-qze7-aaad
+aliases:
+  - CVE-2021-35936
+  - GHSA-m6h2-jx9v-58w6
+  - PYSEC-2021-122
+summary: If remote logging is not used, the worker (in the case of CeleryExecutor) or the scheduler
+  (in the case of LocalExecutor) runs a Flask logging server and is listening on a specific
+  port and also binds on 0.0.0.0 by default. This logging server had no authentication and allows
+  reading log files of DAG jobs. This issue affects Apache Airflow < 2.1.2.
+severities:
+  - id: 547780
+    reference_id: 22512
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 547778
+    reference_id: 22512
+    scoring_system: cvssv3
+    value: '5.3'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+  - id: 3910
+    reference_id: 22513
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 7479
+    url: https://lists.apache.org/thread.html/r53d6bd7b0a66f92ddaf1313282f10fec802e71246606dd30c16536df%40%3Cusers.airflow.apache.org%3E
+    reference_id:
+  - id: 677676
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:airflow:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:airflow:*:*:*:*:*:*:*:*
+  - id: 22512
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-35936
+    reference_id: CVE-2021-35936
+  - id: 22513
+    url: https://github.com/advisories/GHSA-m6h2-jx9v-58w6
+    reference_id: GHSA-m6h2-jx9v-58w6
+weaknesses: []

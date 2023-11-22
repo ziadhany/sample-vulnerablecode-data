@@ -1,0 +1,41 @@
+vulnerability_id: VCID-j8hn-wwq8-aaae
+aliases:
+  - CVE-2014-3661
+summary: 'CVE-2014-3661 jenkins: denial of service (SECURITY-87)'
+severities:
+  - id: 180831
+    reference_id: 568171
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 51875
+    reference_id: 176575
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 184724
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2014-3661.json
+    reference_id:
+  - id: 523968
+    url: https://wiki.jenkins-ci.org/display/SECURITY/Jenkins+Security+Advisory+2014-10-01
+    reference_id:
+  - id: 159205
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:jenkins:jenkins:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:jenkins:jenkins:*:*:*:*:*:*:*:*
+  - id: 159206
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:jenkins:jenkins:*:*:*:*:lts:*:*:*
+    reference_id: cpe:2.3:a:jenkins:jenkins:*:*:*:*:lts:*:*:*
+  - id: 159207
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift:*:*:*:*:enterprise:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift:*:*:*:*:enterprise:*:*:*
+  - id: 568171
+    url: https://nvd.nist.gov/vuln/detail/CVE-2014-3661
+    reference_id: CVE-2014-3661
+  - id: 184723
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1147758
+    reference_id: RHBA-2014:1630
+  - id: 176575
+    url: https://access.redhat.com/errata/RHSA-2016:0070
+    reference_id: RHSA-2016:0070
+weaknesses: []

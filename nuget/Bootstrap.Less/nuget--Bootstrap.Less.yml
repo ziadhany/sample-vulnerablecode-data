@@ -1,0 +1,128 @@
+package: pkg:nuget/Bootstrap.Less
+versions:
+  - purl: pkg:nuget/Bootstrap.Less@2.1.1
+    affected_by_vulnerabilities:
+      - VCID-5yzm-svzb-aaam
+      - VCID-629y-8sgm-aaar
+      - VCID-7yj5-vqp3-aaas
+      - VCID-f2ce-5gu9-aaag
+      - VCID-y8gs-j8qk-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Bootstrap.Less@2.2.0
+    affected_by_vulnerabilities:
+      - VCID-5yzm-svzb-aaam
+      - VCID-629y-8sgm-aaar
+      - VCID-7yj5-vqp3-aaas
+      - VCID-f2ce-5gu9-aaag
+      - VCID-y8gs-j8qk-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Bootstrap.Less@2.2.1
+    affected_by_vulnerabilities:
+      - VCID-5yzm-svzb-aaam
+      - VCID-629y-8sgm-aaar
+      - VCID-7yj5-vqp3-aaas
+      - VCID-f2ce-5gu9-aaag
+      - VCID-y8gs-j8qk-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Bootstrap.Less@2.2.2
+    affected_by_vulnerabilities:
+      - VCID-5yzm-svzb-aaam
+      - VCID-629y-8sgm-aaar
+      - VCID-7yj5-vqp3-aaas
+      - VCID-f2ce-5gu9-aaag
+      - VCID-y8gs-j8qk-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Bootstrap.Less@2.3.0
+    affected_by_vulnerabilities:
+      - VCID-5yzm-svzb-aaam
+      - VCID-629y-8sgm-aaar
+      - VCID-7yj5-vqp3-aaas
+      - VCID-f2ce-5gu9-aaag
+      - VCID-y8gs-j8qk-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Bootstrap.Less@2.3.1
+    affected_by_vulnerabilities:
+      - VCID-5yzm-svzb-aaam
+      - VCID-629y-8sgm-aaar
+      - VCID-7yj5-vqp3-aaas
+      - VCID-f2ce-5gu9-aaag
+      - VCID-y8gs-j8qk-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Bootstrap.Less@2.3.2
+    affected_by_vulnerabilities:
+      - VCID-5yzm-svzb-aaam
+      - VCID-629y-8sgm-aaar
+      - VCID-7yj5-vqp3-aaas
+      - VCID-f2ce-5gu9-aaag
+      - VCID-y8gs-j8qk-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Bootstrap.Less@3.0.0
+    affected_by_vulnerabilities:
+      - VCID-dyer-9pw2-aaab
+      - VCID-y8gs-j8qk-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Bootstrap.Less@3.3.5
+    affected_by_vulnerabilities:
+      - VCID-5yzm-svzb-aaam
+      - VCID-629y-8sgm-aaar
+      - VCID-7yj5-vqp3-aaas
+      - VCID-dyer-9pw2-aaab
+      - VCID-f2ce-5gu9-aaag
+      - VCID-y8gs-j8qk-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Bootstrap.Less@3.3.6
+    affected_by_vulnerabilities:
+      - VCID-5yzm-svzb-aaam
+      - VCID-629y-8sgm-aaar
+      - VCID-7yj5-vqp3-aaas
+      - VCID-dyer-9pw2-aaab
+      - VCID-f2ce-5gu9-aaag
+      - VCID-y8gs-j8qk-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Bootstrap.Less@3.3.6.1
+    affected_by_vulnerabilities:
+      - VCID-5yzm-svzb-aaam
+      - VCID-629y-8sgm-aaar
+      - VCID-7yj5-vqp3-aaas
+      - VCID-dyer-9pw2-aaab
+      - VCID-f2ce-5gu9-aaag
+      - VCID-y8gs-j8qk-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Bootstrap.Less@3.3.6-jQuery3
+    affected_by_vulnerabilities:
+      - VCID-5yzm-svzb-aaam
+      - VCID-629y-8sgm-aaar
+      - VCID-7yj5-vqp3-aaas
+      - VCID-dyer-9pw2-aaab
+      - VCID-f2ce-5gu9-aaag
+      - VCID-y8gs-j8qk-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Bootstrap.Less@3.3.7
+    affected_by_vulnerabilities:
+      - VCID-5yzm-svzb-aaam
+      - VCID-629y-8sgm-aaar
+      - VCID-7yj5-vqp3-aaas
+      - VCID-dyer-9pw2-aaab
+      - VCID-f2ce-5gu9-aaag
+      - VCID-y8gs-j8qk-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Bootstrap.Less@3.4.0
+    affected_by_vulnerabilities:
+      - VCID-y8gs-j8qk-aaad
+    fixing_vulnerabilities:
+      - VCID-629y-8sgm-aaar
+      - VCID-dyer-9pw2-aaab
+      - VCID-f2ce-5gu9-aaag
+      - VCID-zydt-b9zf-aaam
+  - purl: pkg:nuget/Bootstrap.Less@3.4.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-y8gs-j8qk-aaad
+  - purl: pkg:nuget/Bootstrap.Less@4.0.0
+    affected_by_vulnerabilities:
+      - VCID-dyer-9pw2-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/Bootstrap.Less@4.3.0
+    affected_by_vulnerabilities:
+      - VCID-y8gs-j8qk-aaad
+    fixing_vulnerabilities: []

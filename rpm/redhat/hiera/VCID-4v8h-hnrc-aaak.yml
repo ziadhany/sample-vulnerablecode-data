@@ -1,0 +1,64 @@
+vulnerability_id: VCID-4v8h-hnrc-aaak
+aliases:
+  - CVE-2016-6319
+summary: Cross-site scripting (XSS) vulnerability in app/helpers/form_helper.rb in Foreman before
+  1.12.2, as used by Remote Execution and possibly other plugins, allows remote attackers to
+  inject arbitrary web script or HTML via the label parameter.
+severities:
+  - id: 627729
+    reference_id: 943945
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+  - id: 627728
+    reference_id: 943944
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 234586
+    reference_id: 652325
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+  - id: 234584
+    reference_id: 652325
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+  - id: 48853
+    reference_id: 173183
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 652319
+    url: http://projects.theforeman.org/issues/16019
+    reference_id:
+  - id: 652320
+    url: http://projects.theforeman.org/issues/16024
+    reference_id:
+  - id: 943945
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2016-6319.json
+    reference_id:
+  - id: 652323
+    url: https://github.com/theforeman/foreman/commit/0f35fe14acf0d0d3b55e9337bc5e2b9640ff2372
+    reference_id:
+  - id: 652324
+    url: https://theforeman.org/security.html#2016-6319
+    reference_id:
+  - id: 652321
+    url: http://www.securityfocus.com/bid/92429
+    reference_id:
+  - id: 943944
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1365815
+    reference_id: 1365815
+  - id: 158226
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:foreman:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:foreman:*:*:*:*:*:*:*:*
+  - id: 652325
+    url: https://nvd.nist.gov/vuln/detail/CVE-2016-6319
+    reference_id: CVE-2016-6319
+  - id: 173183
+    url: https://access.redhat.com/errata/RHSA-2018:0336
+    reference_id: RHSA-2018:0336
+weaknesses: []

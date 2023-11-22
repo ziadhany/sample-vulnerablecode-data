@@ -1,0 +1,146 @@
+package: pkg:pypi/aleksis-core
+versions:
+  - purl: pkg:pypi/aleksis-core@2.0
+    affected_by_vulnerabilities:
+      - VCID-8spm-857r-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aleksis-core@2.0a3
+    affected_by_vulnerabilities:
+      - VCID-8spm-857r-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aleksis-core@2.0a3.dev0
+    affected_by_vulnerabilities:
+      - VCID-8spm-857r-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aleksis-core@2.0a4
+    affected_by_vulnerabilities:
+      - VCID-8spm-857r-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aleksis-core@2.0b0
+    affected_by_vulnerabilities:
+      - VCID-8spm-857r-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aleksis-core@2.0b1
+    affected_by_vulnerabilities:
+      - VCID-8spm-857r-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aleksis-core@2.0b2
+    affected_by_vulnerabilities:
+      - VCID-8spm-857r-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aleksis-core@2.0rc1
+    affected_by_vulnerabilities:
+      - VCID-8spm-857r-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aleksis-core@2.0rc2
+    affected_by_vulnerabilities:
+      - VCID-8spm-857r-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aleksis-core@2.0rc3
+    affected_by_vulnerabilities:
+      - VCID-8spm-857r-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aleksis-core@2.0rc4
+    affected_by_vulnerabilities:
+      - VCID-8spm-857r-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aleksis-core@2.0rc5
+    affected_by_vulnerabilities:
+      - VCID-8spm-857r-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aleksis-core@2.0rc6
+    affected_by_vulnerabilities:
+      - VCID-8spm-857r-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aleksis-core@2.0rc7
+    affected_by_vulnerabilities:
+      - VCID-8spm-857r-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aleksis-core@2.1
+    affected_by_vulnerabilities:
+      - VCID-8spm-857r-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aleksis-core@2.1.1
+    affected_by_vulnerabilities:
+      - VCID-8spm-857r-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aleksis-core@2.1.dev0
+    affected_by_vulnerabilities:
+      - VCID-8spm-857r-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aleksis-core@2.2
+    affected_by_vulnerabilities:
+      - VCID-8spm-857r-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aleksis-core@2.2.1
+    affected_by_vulnerabilities:
+      - VCID-8spm-857r-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aleksis-core@2.3
+    affected_by_vulnerabilities:
+      - VCID-8spm-857r-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aleksis-core@2.3.1
+    affected_by_vulnerabilities:
+      - VCID-8spm-857r-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aleksis-core@2.3.2
+    affected_by_vulnerabilities:
+      - VCID-8spm-857r-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aleksis-core@2.4
+    affected_by_vulnerabilities:
+      - VCID-8spm-857r-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aleksis-core@2.5
+    affected_by_vulnerabilities:
+      - VCID-8spm-857r-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aleksis-core@2.6
+    affected_by_vulnerabilities:
+      - VCID-8spm-857r-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aleksis-core@2.7
+    affected_by_vulnerabilities:
+      - VCID-8spm-857r-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aleksis-core@2.7.1
+    affected_by_vulnerabilities:
+      - VCID-8spm-857r-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aleksis-core@2.7.2
+    affected_by_vulnerabilities:
+      - VCID-8spm-857r-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aleksis-core@2.7.3
+    affected_by_vulnerabilities:
+      - VCID-8spm-857r-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aleksis-core@2.7.4
+    affected_by_vulnerabilities:
+      - VCID-8spm-857r-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aleksis-core@2.8
+    affected_by_vulnerabilities:
+      - VCID-8spm-857r-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aleksis-core@2.8.1
+    affected_by_vulnerabilities:
+      - VCID-8spm-857r-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aleksis-core@2.8.1.dev0
+    affected_by_vulnerabilities:
+      - VCID-8spm-857r-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aleksis-core@2.8.2.dev0
+    affected_by_vulnerabilities:
+      - VCID-8spm-857r-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aleksis-core@2.8.2.dev1
+    affected_by_vulnerabilities:
+      - VCID-8spm-857r-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aleksis-core@2.9
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-8spm-857r-aaam

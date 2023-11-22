@@ -1,0 +1,723 @@
+package: pkg:npm/node-red
+versions:
+  - purl: pkg:npm/node-red@0.1.0
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.10.0
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.10.1
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.10.10
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.10.2
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.10.3
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.10.4
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.10.6
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.10.8
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.10.8-2
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.10.8-3
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.10.9
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.11.0
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.11.1
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.11.2
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.12.0
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.12.1
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.12.2
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.12.3
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.12.4
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.12.5
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.13.0
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.13.1
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.13.2
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.13.3
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.13.4
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.14.0
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.14.1
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.14.2
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.14.3
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.14.4
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.14.5
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.14.6
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.15.0
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.15.1
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.15.2
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.15.3
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.16.0
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.16.1
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.16.2
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.17.0
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.17.2
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.17.3
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.17.4
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.17.5
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.18.0
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.18.1
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.18.2
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.18.3
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.18.4
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.18.5
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.18.6
+    affected_by_vulnerabilities:
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+  - purl: pkg:npm/node-red@0.18.7
+    affected_by_vulnerabilities:
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.19.0
+    affected_by_vulnerabilities:
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.19.1
+    affected_by_vulnerabilities:
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.19.2
+    affected_by_vulnerabilities:
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.19.3
+    affected_by_vulnerabilities:
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.19.4
+    affected_by_vulnerabilities:
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.19.5
+    affected_by_vulnerabilities:
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.19.6
+    affected_by_vulnerabilities:
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.2.0
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.20.0
+    affected_by_vulnerabilities:
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.20.0-beta.2
+    affected_by_vulnerabilities:
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.20.0-beta.3
+    affected_by_vulnerabilities:
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.20.0-beta.4
+    affected_by_vulnerabilities:
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.20.0-beta.5
+    affected_by_vulnerabilities:
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.20.1
+    affected_by_vulnerabilities:
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.20.2
+    affected_by_vulnerabilities:
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.20.3
+    affected_by_vulnerabilities:
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.20.4
+    affected_by_vulnerabilities:
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.20.5
+    affected_by_vulnerabilities:
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.20.6
+    affected_by_vulnerabilities:
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.20.7
+    affected_by_vulnerabilities:
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.20.8
+    affected_by_vulnerabilities:
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities:
+      - VCID-hpjz-33xg-aaaa
+  - purl: pkg:npm/node-red@0.3.0
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.4.0
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.5.0
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.6.0
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.7.0
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.7.1
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.7.2
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.8.0
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.8.1
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.9.0
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.9.1
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@0.9.1-nocolors
+    affected_by_vulnerabilities:
+      - VCID-d3cs-c5n4-aaac
+      - VCID-hpjz-33xg-aaaa
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@1.0.0-beta.1
+    affected_by_vulnerabilities:
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@1.0.0-beta.2
+    affected_by_vulnerabilities:
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@1.0.0-beta.3
+    affected_by_vulnerabilities:
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@1.0.0-beta.4
+    affected_by_vulnerabilities:
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@1.0.2
+    affected_by_vulnerabilities:
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@1.0.3
+    affected_by_vulnerabilities:
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@1.0.4
+    affected_by_vulnerabilities:
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@1.0.5
+    affected_by_vulnerabilities:
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@1.0.6
+    affected_by_vulnerabilities:
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@1.1.0
+    affected_by_vulnerabilities:
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@1.1.0-beta.1
+    affected_by_vulnerabilities:
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@1.1.0-beta.2
+    affected_by_vulnerabilities:
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@1.1.0-beta.3
+    affected_by_vulnerabilities:
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@1.1.1
+    affected_by_vulnerabilities:
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@1.1.2
+    affected_by_vulnerabilities:
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@1.1.3
+    affected_by_vulnerabilities:
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@1.2.0
+    affected_by_vulnerabilities:
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@1.2.0-beta.1
+    affected_by_vulnerabilities:
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@1.2.1
+    affected_by_vulnerabilities:
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@1.2.2
+    affected_by_vulnerabilities:
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@1.2.3
+    affected_by_vulnerabilities:
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@1.2.4
+    affected_by_vulnerabilities:
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@1.2.5
+    affected_by_vulnerabilities:
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@1.2.6
+    affected_by_vulnerabilities:
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@1.2.7
+    affected_by_vulnerabilities:
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/node-red@1.2.8
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-st67-xfjh-aaae
+      - VCID-tcd5-7xdf-aaan

@@ -1,0 +1,47 @@
+vulnerability_id: VCID-t1ye-hjhr-aaak
+aliases:
+  - CVE-2018-8021
+  - GHSA-vxp9-wv2f-wqmw
+  - PYSEC-2018-74
+summary: Versions of Superset prior to 0.23 used an unsafe load method from the pickle library
+  to deserialize data leading to possible remote code execution. Note Superset 0.23 was released
+  prior to any Superset release under the Apache Software Foundation.
+severities:
+  - id: 357621
+    reference_id: 20855
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 357619
+    reference_id: 20855
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 3353
+    reference_id: 20858
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 5866
+    url: https://github.com/apache/incubator-superset/pull/4243
+    reference_id:
+  - id: 20857
+    url: https://github.com/apache/superset/commit/2c72a7ae4fc0a8bac1f037a79efa90e1c5549710
+    reference_id:
+  - id: 20856
+    url: https://github.com/apache/superset/pull/4243
+    reference_id:
+  - id: 5867
+    url: https://www.exploit-db.com/exploits/45933/
+    reference_id:
+  - id: 759276
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:superset:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:superset:*:*:*:*:*:*:*:*
+  - id: 20855
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-8021
+    reference_id: CVE-2018-8021
+  - id: 20858
+    url: https://github.com/advisories/GHSA-vxp9-wv2f-wqmw
+    reference_id: GHSA-vxp9-wv2f-wqmw
+weaknesses: []

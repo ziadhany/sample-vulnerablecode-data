@@ -1,0 +1,43 @@
+vulnerability_id: VCID-9n2v-mj42-aaad
+aliases:
+  - CVE-2021-23377
+  - GHSA-rhwp-9vm9-547q
+summary: |
+  Command Injection
+  If attacker-controlled user input is given to the scroll function, it is possible for an attacker to execute arbitrary commands. This is due to use of the `child_process` `exec` function without input sanitization.
+severities:
+  - id: 515228
+    reference_id: 32123
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 515226
+    reference_id: 32123
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 706565
+    reference_id: 1468185
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 1468184
+    url: https://github.com/naddeoa/onion-oled-js/blob/8a523645d2cc29130f98de661b742893773d760d/src/oled-exp.js#23L91
+    reference_id:
+  - id: 868465
+    url: https://github.com/naddeoa/onion-oled-js/blob/8a523645d2cc29130f98de661b742893773d760d/src/oled-exp.js%23L91
+    reference_id:
+  - id: 868466
+    url: https://snyk.io/vuln/SNYK-JS-ONIONOLEDJS-1078808
+    reference_id:
+  - id: 868467
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:onion-oled-js_project:onion-oled-js:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:onion-oled-js_project:onion-oled-js:*:*:*:*:*:node.js:*:*
+  - id: 32123
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-23377
+    reference_id: CVE-2021-23377
+  - id: 1468185
+    url: https://github.com/advisories/GHSA-rhwp-9vm9-547q
+    reference_id: GHSA-rhwp-9vm9-547q
+weaknesses: []

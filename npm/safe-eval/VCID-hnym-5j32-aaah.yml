@@ -1,0 +1,58 @@
+vulnerability_id: VCID-hnym-5j32-aaah
+aliases:
+  - CVE-2017-16088
+  - GHSA-ww6v-677g-p656
+summary: |
+  Improper Input Validation
+  By accessing the object constructors, un-sanitized user input can access the entire standard library and effectively break out of the sandbox.
+severities:
+  - id: 269952
+    reference_id: 20610
+    scoring_system: cvssv2
+    value: '10.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:C/I:C/A:C
+  - id: 269950
+    reference_id: 20610
+    scoring_system: cvssv3
+    value: '10.0'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+  - id: 705678
+    reference_id: 1466907
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 29904
+    url: https://github.com/hacksparrow/safe-eval/issues/5
+    reference_id:
+  - id: 1466906
+    url: https://github.com/hacksparrow/safe-eval/pull/13
+    reference_id:
+  - id: 687713
+    url: https://github.com/patriksimek/vm2/issues/59
+    reference_id:
+  - id: 687714
+    url: https://nodesecurity.io/advisories/337
+    reference_id:
+  - id: 1466908
+    url: https://www.npmjs.com/advisories/337
+    reference_id:
+  - id: 687715
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:safe-eval_project:safe-eval:0.0.0:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:safe-eval_project:safe-eval:0.0.0:*:*:*:*:node.js:*:*
+  - id: 687716
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:safe-eval_project:safe-eval:0.1.0:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:safe-eval_project:safe-eval:0.1.0:*:*:*:*:node.js:*:*
+  - id: 687717
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:safe-eval_project:safe-eval:0.2.0:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:safe-eval_project:safe-eval:0.2.0:*:*:*:*:node.js:*:*
+  - id: 687718
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:safe-eval_project:safe-eval:0.3.0:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:safe-eval_project:safe-eval:0.3.0:*:*:*:*:node.js:*:*
+  - id: 20610
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-16088
+    reference_id: CVE-2017-16088
+  - id: 1466907
+    url: https://github.com/advisories/GHSA-ww6v-677g-p656
+    reference_id: GHSA-ww6v-677g-p656
+weaknesses: []

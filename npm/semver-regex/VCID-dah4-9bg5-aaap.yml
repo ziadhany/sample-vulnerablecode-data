@@ -1,0 +1,40 @@
+vulnerability_id: VCID-dah4-9bg5-aaap
+aliases:
+  - CVE-2021-43307
+  - GHSA-4x5v-gmq8-25ch
+summary: An exponential ReDoS (Regular Expression Denial of Service) can be triggered in the
+  semver-regex npm package, when an attacker is able to supply arbitrary input to the test()
+  method
+severities:
+  - id: 566835
+    reference_id: 902412
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 566833
+    reference_id: 902412
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 706865
+    reference_id: 952132
+    scoring_system: cvssv3.1_qr
+    value: LOW
+    scoring_elements:
+references:
+  - id: 952131
+    url: https://github.com/sindresorhus/semver-regex/commit/d8ba39a528c1027c43ab23f12eec28ca4d40dd0c
+    reference_id:
+  - id: 902411
+    url: https://research.jfrog.com/vulnerabilities/semver-regex-redos-xray-211349/
+    reference_id:
+  - id: 892740
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:semver-regex_project:semver-regex:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:semver-regex_project:semver-regex:*:*:*:*:*:*:*:*
+  - id: 902412
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-43307
+    reference_id: CVE-2021-43307
+  - id: 952132
+    url: https://github.com/advisories/GHSA-4x5v-gmq8-25ch
+    reference_id: GHSA-4x5v-gmq8-25ch
+weaknesses: []

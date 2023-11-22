@@ -1,0 +1,13 @@
+package: pkg:rpm/redhat/postgis
+versions:
+  - purl: pkg:rpm/redhat/postgis@1.5.3-1?arch=el6op
+    affected_by_vulnerabilities:
+      - VCID-1fct-4dv4-aaan
+      - VCID-5mjm-5fzs-aaad
+      - VCID-7kdp-nnf4-aaan
+      - VCID-8e2j-pmfz-aaan
+      - VCID-fwvt-h5ng-aaad
+      - VCID-ge9e-v9x6-aaaf
+      - VCID-nce6-8j7b-aaak
+      - VCID-yg3d-xatj-aaar
+    fixing_vulnerabilities: []

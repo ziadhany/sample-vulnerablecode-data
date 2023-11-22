@@ -1,0 +1,59 @@
+vulnerability_id: VCID-7enm-tzmq-aaaa
+aliases:
+  - CVE-2016-0791
+summary: |
+  Information Exposure
+  Jenkins does not use a constant-time algorithm to verify CSRF tokens, which makes it easier for remote attackers to bypass a CSRF protection mechanism via a brute-force approach.
+severities:
+  - id: 51089
+    reference_id: 175743
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 211356
+    reference_id: 27042
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 211354
+    reference_id: 27042
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 49672
+    reference_id: 174061
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 15573
+    url: http://rhn.redhat.com/errata/RHSA-2016-1773.html
+    reference_id:
+  - id: 625519
+    url: https://access.redhat.com/errata/RHSA-2016:0711
+    reference_id:
+  - id: 175744
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2016-0791.json
+    reference_id:
+  - id: 27020
+    url: https://wiki.jenkins-ci.org/display/SECURITY/Jenkins+Security+Advisory+2016-02-24
+    reference_id:
+  - id: 175743
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1311949
+    reference_id: 1311949
+  - id: 159205
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:jenkins:jenkins:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:jenkins:jenkins:*:*:*:*:*:*:*:*
+  - id: 625521
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:jenkins:jenkins:1.642.1:*:*:*:lts:*:*:*
+    reference_id: cpe:2.3:a:jenkins:jenkins:1.642.1:*:*:*:lts:*:*:*
+  - id: 614312
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift:3.1:*:*:*:enterprise:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift:3.1:*:*:*:enterprise:*:*:*
+  - id: 27042
+    url: https://nvd.nist.gov/vuln/detail/CVE-2016-0791
+    reference_id: CVE-2016-0791
+  - id: 174061
+    url: https://access.redhat.com/errata/RHSA-2016:1773
+    reference_id: RHSA-2016:1773
+weaknesses: []

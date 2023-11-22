@@ -1,0 +1,58 @@
+vulnerability_id: VCID-w3w7-upq4-aaam
+aliases:
+  - CVE-2019-18801
+summary: 'CVE-2019-18801 envoy: an untrusted remote client may send HTTP/2 requests that write
+  to the heap outside of the request buffers when the upstream is HTTP/1'
+severities:
+  - id: 62254
+    reference_id: '190159'
+    scoring_system: cvssv3
+    value: '8.1'
+    scoring_elements: CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 62252
+    reference_id: '190157'
+    scoring_system: rhbs
+    value: urgent
+    scoring_elements:
+  - id: 394298
+    reference_id: 788473
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 394296
+    reference_id: 788473
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+references:
+  - id: 788469
+    url: https://access.redhat.com/errata/RHSA-2019:4222
+    reference_id:
+  - id: '190159'
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2019-18801.json
+    reference_id:
+  - id: 788470
+    url: https://blog.envoyproxy.io
+    reference_id:
+  - id: 780351
+    url: https://github.com/envoyproxy/envoy/commits/master
+    reference_id:
+  - id: 788471
+    url: https://github.com/envoyproxy/envoy/security/advisories/GHSA-gxvv-x4p2-rppp
+    reference_id:
+  - id: 788472
+    url: https://groups.google.com/forum/#!forum/envoy-users
+    reference_id:
+  - id: '190157'
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1773444
+    reference_id: 1773444
+  - id: 780349
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:envoyproxy:envoy:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:envoyproxy:envoy:*:*:*:*:*:*:*:*
+  - id: 788473
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-18801
+    reference_id: CVE-2019-18801
+  - id: 1474009
+    url: https://istio.io/latest/news/security/ISTIO-SECURITY-2019-007/
+    reference_id: ISTIO-SECURITY-2019-007
+weaknesses: []

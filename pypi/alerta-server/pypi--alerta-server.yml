@@ -1,0 +1,930 @@
+package: pkg:pypi/alerta-server
+versions:
+  - purl: pkg:pypi/alerta-server@3.1.2
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@3.2.0
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@3.2.3
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@3.2.4
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@3.2.6
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@3.2.7
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@3.2.8
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@3.2.9
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@3.3.0
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@3.3.1
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@3.3.2
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@3.3.3
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@3.3.4
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@3.3.5
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@3.3.6
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@3.3.7
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.0.0
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.0.1
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.0.2
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.0.3
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.0.4
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.0.5
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.0.6
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.0.7
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.0.8
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.0.9
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.1.0
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.10.0
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.10.1
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.10.2
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.10.3
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.10.4
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.10.5
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.1.1
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.1.2
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.1.4
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.1.5
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.1.6
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.1.7
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.1.8
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.2.1
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.2.2
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.2.3
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.2.4
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.2.5
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.2.6
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.3.0
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.3.1
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.3.2
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.4.0
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.4.1
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.4.10
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.4.11
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.4.12
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.4.13
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.4.2
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.4.5
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.4.6
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.4.7
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.4.8
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.4.9
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.5.0
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.5.1
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.5.2
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.5.3
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.5.4
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.5.5
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.6.0
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.6.1
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.6.2
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.6.3
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.6.4
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.6.5
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.6.6
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.6.7
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.6.8
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.6.9
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.7.0
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.7.1
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.7.10
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.7.11
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.7.12
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.7.13
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.7.14
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.7.15
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.7.16
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.7.17
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.7.18
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.7.19
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.7.2
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.7.20
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.7.21
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.7.22
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.7.23
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.7.24
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.7.25
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.7.26
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.7.27
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.7.28
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.7.29
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.7.3
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.7.30
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.7.31
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.7.32
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.7.33
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.7.4
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.7.5
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.7.6
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.7.7
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.7.8
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.7.9
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.8.0
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.8.1
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.8.10
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.8.11
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.8.12
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.8.13
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.8.14
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.8.15
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.8.16
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.8.17
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.8.18
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.8.19
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.8.2
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.8.20
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.8.21
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.8.22
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.8.23
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.8.24
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.8.25
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.8.26
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.8.3
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.8.4
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.8.5
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.8.6
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.8.7
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.8.8
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.8.9
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.9.0
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.9.1
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.9.2
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.9.3
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.9.4
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.9.5
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@4.9.6
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@5.0.0
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@5.0.0rc1
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@5.0.0rc2
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@5.0.0rc3
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@5.0.1
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@5.0.2
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@5.0.3
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@5.0.4
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@5.0.5
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@5.0.6
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@5.0.7
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@5.0.8
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@5.0.9
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@5.1.0
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@5.1.1
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@5.2.0
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@5.2.1
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@5.2.2
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@5.2.3
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@5.2.4
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@5.2.5
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@5.2.6
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@5.2.7
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@5.2.8
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@5.2.9
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@6.0.0
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@6.0.1
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@6.1.0
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@6.2.0
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@6.2.1
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@6.3.0
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@6.3.1
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@6.3.2
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@6.4.0
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@6.5.0
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@6.6.0
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@6.6.1
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@6.7.0
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@6.7.1
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@6.7.2
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@6.7.3
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@6.7.4
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@6.7.5
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@6.8.0
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@6.8.1
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@6.8.2
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@6.8.3
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@6.8.4
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@6.8.5
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@7.0.0
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@7.0.1
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@7.1.0
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@7.1.1
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@7.1.2
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@7.2.0
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@7.2.1
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@7.2.10
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@7.2.11
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@7.2.2
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@7.2.3
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@7.2.4
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@7.2.5
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@7.2.6
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@7.2.7
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@7.2.8
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@7.2.9
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@7.3.0
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@7.3.1
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@7.3.2
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@7.4.0
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@7.4.1
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@7.4.4
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@7.4.5
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@7.4.6
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@7.5.0
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@7.5.1
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@7.5.2
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@7.5.3
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@7.5.4
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@7.5.5
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@7.5.6
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@7.5.7
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+  - purl: pkg:pypi/alerta-server@8.0.0
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@8.0.1
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@8.0.2
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@8.0.3
+    affected_by_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/alerta-server@8.1.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-gg8g-hg9m-aaag

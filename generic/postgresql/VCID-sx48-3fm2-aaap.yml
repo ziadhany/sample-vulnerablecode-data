@@ -1,0 +1,71 @@
+vulnerability_id: VCID-sx48-3fm2-aaap
+aliases:
+  - CVE-2006-0105
+summary: PostgreSQL 8.0.x before 8.0.6 and 8.1.x before 8.1.2, when running on Windows, allows
+  remote attackers to cause a denial of service (postmaster exit and no new connections) via
+  a large number of simultaneous connection requests.
+severities:
+  - id: 81005
+    reference_id: 216101
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+references:
+  - id: 216092
+    url: http://archives.postgresql.org/pgsql-announce/2006-01/msg00001.php
+    reference_id:
+  - id: 216093
+    url: http://secunia.com/advisories/18419
+    reference_id:
+  - id: 216094
+    url: http://securityreason.com/securityalert/327
+    reference_id:
+  - id: 216095
+    url: http://securitytracker.com/id?1015482
+    reference_id:
+  - id: 216100
+    url: https://exchange.xforce.ibmcloud.com/vulnerabilities/24049
+    reference_id:
+  - id: 1469336
+    url: https://www.postgresql.org/support/security/CVE-2006-0105/
+    reference_id:
+  - id: 216096
+    url: http://www.postgresql.org/about/news.456
+    reference_id:
+  - id: 216097
+    url: http://www.securityfocus.com/archive/1/421592/100/0/threaded
+    reference_id:
+  - id: 216098
+    url: http://www.securityfocus.com/bid/16201
+    reference_id:
+  - id: 216099
+    url: http://www.vupen.com/english/advisories/2006/0114
+    reference_id:
+  - id: 114093
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:8.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:8.0:*:*:*:*:*:*:*
+  - id: 114120
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:8.0.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:8.0.1:*:*:*:*:*:*:*
+  - id: 121454
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:8.0.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:8.0.2:*:*:*:*:*:*:*
+  - id: 216102
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:8.0.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:8.0.3:*:*:*:*:*:*:*
+  - id: 216103
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:8.0.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:8.0.4:*:*:*:*:*:*:*
+  - id: 216104
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:8.0.5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:8.0.5:*:*:*:*:*:*:*
+  - id: 216105
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:8.1.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:8.1.0:*:*:*:*:*:*:*
+  - id: 216106
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:postgresql:postgresql:8.1.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:postgresql:postgresql:8.1.1:*:*:*:*:*:*:*
+  - id: 216101
+    url: https://nvd.nist.gov/vuln/detail/CVE-2006-0105
+    reference_id: CVE-2006-0105
+weaknesses: []

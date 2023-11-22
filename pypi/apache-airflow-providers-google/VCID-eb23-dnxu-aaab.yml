@@ -1,0 +1,25 @@
+vulnerability_id: VCID-eb23-dnxu-aaab
+aliases:
+  - CVE-2023-25692
+  - GHSA-h8p2-8g72-qpgh
+summary: Apache Airflow Google Provider Improper Input Validation vulnerability
+severities:
+  - id: 708036
+    reference_id: 1471806
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 1471804
+    url: https://github.com/apache/airflow/pull/29499
+    reference_id:
+  - id: 1471805
+    url: https://lists.apache.org/thread/ks4l78l5rwdpmvfn7y7yhs179nyxtlsh
+    reference_id:
+  - id: 1471803
+    url: https://nvd.nist.gov/vuln/detail/CVE-2023-25692
+    reference_id: CVE-2023-25692
+  - id: 1471806
+    url: https://github.com/advisories/GHSA-h8p2-8g72-qpgh
+    reference_id: GHSA-h8p2-8g72-qpgh
+weaknesses: []

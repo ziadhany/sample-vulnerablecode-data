@@ -1,0 +1,25 @@
+vulnerability_id: VCID-xmhu-48t6-aaad
+aliases:
+  - CVE-2022-38649
+  - GHSA-7wqf-h36w-47mc
+summary: OS Command Injection in Apache Airflow
+severities:
+  - id: 702882
+    reference_id: 1462125
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 1462123
+    url: https://github.com/apache/airflow/pull/27641
+    reference_id:
+  - id: 1462124
+    url: https://lists.apache.org/thread/033o1gbc4ly6dpd2xf1o201v56fbl4dz
+    reference_id:
+  - id: 1462122
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-38649
+    reference_id: CVE-2022-38649
+  - id: 1462125
+    url: https://github.com/advisories/GHSA-7wqf-h36w-47mc
+    reference_id: GHSA-7wqf-h36w-47mc
+weaknesses: []

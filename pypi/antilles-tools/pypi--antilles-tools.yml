@@ -1,0 +1,10 @@
+package: pkg:pypi/antilles-tools
+versions:
+  - purl: pkg:pypi/antilles-tools@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-zfvd-5tbe-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/antilles-tools@1.0.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-zfvd-5tbe-aaas

@@ -1,0 +1,43 @@
+vulnerability_id: VCID-jmas-z9c1-aaaf
+aliases:
+  - CVE-2021-31712
+  - GHSA-qcg2-h349-vwm3
+summary: |
+  Cross-site Scripting
+  react-draft-wysiwyg (aka React Draft Wysiwyg) allows a javascript: URi in a Link Target of the link decorator in decorators/Link/index.js when a draft is shared across users, leading to XSS.
+severities:
+  - id: 538110
+    reference_id: 31622
+    scoring_system: cvssv2
+    value: '3.5'
+    scoring_elements: AV:N/AC:M/Au:S/C:N/I:P/A:N
+  - id: 538108
+    reference_id: 31622
+    scoring_system: cvssv3
+    value: '5.4'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N
+  - id: 706730
+    reference_id: 1468360
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 883035
+    url: https://github.com/jpuri/react-draft-wysiwyg/commit/d2faeb612b53f10dff048de7dc57e1f4044b5380
+    reference_id:
+  - id: 31623
+    url: https://github.com/jpuri/react-draft-wysiwyg/issues/1102
+    reference_id:
+  - id: 883036
+    url: https://github.com/jpuri/react-draft-wysiwyg/pull/1104
+    reference_id:
+  - id: 883037
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:react_draft_wysiwyg_project:react_draft_wysiwyg:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:react_draft_wysiwyg_project:react_draft_wysiwyg:*:*:*:*:*:node.js:*:*
+  - id: 31622
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-31712
+    reference_id: CVE-2021-31712
+  - id: 1468360
+    url: https://github.com/advisories/GHSA-qcg2-h349-vwm3
+    reference_id: GHSA-qcg2-h349-vwm3
+weaknesses: []

@@ -1,0 +1,15 @@
+vulnerability_id: VCID-vt53-73nc-aaap
+aliases:
+  - GHSA-94m7-w873-6wwf
+  - GMS-2020-383
+summary: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+  in modlibrary.
+severities: []
+references:
+  - id: 32836
+    url: https://www.npmjs.com/advisories/631
+    reference_id:
+  - id: 32837
+    url: https://github.com/advisories/GHSA-94m7-w873-6wwf
+    reference_id: GHSA-94m7-w873-6wwf
+weaknesses: []

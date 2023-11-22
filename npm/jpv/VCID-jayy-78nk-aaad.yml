@@ -1,0 +1,40 @@
+vulnerability_id: VCID-jayy-78nk-aaad
+aliases:
+  - CVE-2019-19507
+  - GHSA-rh46-3fgc-mvrf
+summary: |
+  Improper Authentication
+  In jpv (aka Json Pattern Validator) before 2.1.1, compareCommon() can be bypassed because certain internal attributes can be overwritten via a conflicting name, as demonstrated by 'constructor': {'name':'Array'}. This affects validate(). Hence, a crafted payload can overwrite this builtin attribute to manipulate the type detection result.
+severities:
+  - id: 396586
+    reference_id: 32461
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:P/A:N
+  - id: 396584
+    reference_id: 32461
+    scoring_system: cvssv3
+    value: '5.3'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+  - id: 706067
+    reference_id: 32464
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 32462
+    url: https://github.com/manvel-khnkoyan/jpv/issues/6
+    reference_id:
+  - id: 32463
+    url: https://www.npmjs.com/package/jpv
+    reference_id:
+  - id: 790275
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:json_pattern_validator_project:json_pattern_validator:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:json_pattern_validator_project:json_pattern_validator:*:*:*:*:*:*:*:*
+  - id: 32461
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-19507
+    reference_id: CVE-2019-19507
+  - id: 32464
+    url: https://github.com/advisories/GHSA-rh46-3fgc-mvrf
+    reference_id: GHSA-rh46-3fgc-mvrf
+weaknesses: []

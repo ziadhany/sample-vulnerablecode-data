@@ -1,0 +1,44 @@
+vulnerability_id: VCID-7s9f-rfa3-aaaf
+aliases:
+  - CVE-2015-1816
+summary: 'CVE-2015-1816 foreman: lack of SSL certificate validation when performing LDAPS authentication'
+severities:
+  - id: 56416
+    reference_id: 182078
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: '196319'
+    reference_id: 600902
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:P/A:N
+references:
+  - id: 600897
+    url: http://projects.theforeman.org/issues/9858
+    reference_id:
+  - id: 600898
+    url: https://access.redhat.com/errata/RHSA-2015:1591
+    reference_id:
+  - id: 600899
+    url: https://access.redhat.com/errata/RHSA-2015:1592
+    reference_id:
+  - id: 182079
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2015-1816.json
+    reference_id:
+  - id: 600900
+    url: https://github.com/theforeman/foreman/pull/2265
+    reference_id:
+  - id: 600901
+    url: https://groups.google.com/forum/#!topic/foreman-announce/9ZnuPcplNLI
+    reference_id:
+  - id: 182078
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1208602
+    reference_id: 1208602
+  - id: 158226
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:foreman:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:foreman:*:*:*:*:*:*:*:*
+  - id: 600902
+    url: https://nvd.nist.gov/vuln/detail/CVE-2015-1816
+    reference_id: CVE-2015-1816
+weaknesses: []

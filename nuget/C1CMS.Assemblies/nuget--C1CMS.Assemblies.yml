@@ -1,0 +1,54 @@
+package: pkg:nuget/C1CMS.Assemblies
+versions:
+  - purl: pkg:nuget/C1CMS.Assemblies@6.0.6248.33161
+    affected_by_vulnerabilities:
+      - VCID-v49f-mzh4-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/C1CMS.Assemblies@6.10.7583.21856
+    affected_by_vulnerabilities:
+      - VCID-v49f-mzh4-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/C1CMS.Assemblies@6.11.7982.26191
+    affected_by_vulnerabilities:
+      - VCID-v49f-mzh4-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/C1CMS.Assemblies@6.12.8122.18346
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-v49f-mzh4-aaah
+  - purl: pkg:nuget/C1CMS.Assemblies@6.1.6325.31805
+    affected_by_vulnerabilities:
+      - VCID-v49f-mzh4-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/C1CMS.Assemblies@6.2.6435.31469
+    affected_by_vulnerabilities:
+      - VCID-v49f-mzh4-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/C1CMS.Assemblies@6.3.6599.29375
+    affected_by_vulnerabilities:
+      - VCID-v49f-mzh4-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/C1CMS.Assemblies@6.4.6638.27326
+    affected_by_vulnerabilities:
+      - VCID-v49f-mzh4-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/C1CMS.Assemblies@6.5.6754.25114
+    affected_by_vulnerabilities:
+      - VCID-v49f-mzh4-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/C1CMS.Assemblies@6.6.6912.30810
+    affected_by_vulnerabilities:
+      - VCID-v49f-mzh4-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/C1CMS.Assemblies@6.7.7240.24791
+    affected_by_vulnerabilities:
+      - VCID-v49f-mzh4-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/C1CMS.Assemblies@6.8.7271.23834
+    affected_by_vulnerabilities:
+      - VCID-v49f-mzh4-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:nuget/C1CMS.Assemblies@6.9.7410.31615
+    affected_by_vulnerabilities:
+      - VCID-v49f-mzh4-aaah
+    fixing_vulnerabilities: []

@@ -1,0 +1,43 @@
+vulnerability_id: VCID-gnx5-dy91-aaaj
+aliases:
+  - CVE-2017-16098
+  - GHSA-9cp3-fh5x-xfcj
+summary: |
+  Uncontrolled Resource Consumption
+  charset is vulnerable to regular expression denial of service. Input of around k characters is required for a slow down of around 2 seconds. Unless node was compiled using the `-DHTTP_MAX_HEADER_SIZE=` option the default header max length is kb, so the impact of the ReDoS is relatively low.
+severities:
+  - id: 269996
+    reference_id: 31757
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 269994
+    reference_id: 31757
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 705687
+    reference_id: 1466925
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 31758
+    url: https://github.com/node-modules/charset/issues/10
+    reference_id:
+  - id: 687743
+    url: https://nodesecurity.io/advisories/524
+    reference_id:
+  - id: 1466926
+    url: https://www.npmjs.com/advisories/524
+    reference_id:
+  - id: 687744
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:charset_project:charset:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:charset_project:charset:*:*:*:*:*:node.js:*:*
+  - id: 31757
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-16098
+    reference_id: CVE-2017-16098
+  - id: 1466925
+    url: https://github.com/advisories/GHSA-9cp3-fh5x-xfcj
+    reference_id: GHSA-9cp3-fh5x-xfcj
+weaknesses: []

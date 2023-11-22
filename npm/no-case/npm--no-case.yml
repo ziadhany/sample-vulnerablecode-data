@@ -1,0 +1,32 @@
+package: pkg:npm/no-case
+versions:
+  - purl: pkg:npm/no-case@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-1rb1-qpsy-aaaf
+      - VCID-ta75-9azd-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/no-case@2.1.0
+    affected_by_vulnerabilities:
+      - VCID-1rb1-qpsy-aaaf
+      - VCID-ta75-9azd-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/no-case@2.2.0
+    affected_by_vulnerabilities:
+      - VCID-1rb1-qpsy-aaaf
+      - VCID-ta75-9azd-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/no-case@2.3.0
+    affected_by_vulnerabilities:
+      - VCID-1rb1-qpsy-aaaf
+      - VCID-ta75-9azd-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/no-case@2.3.1
+    affected_by_vulnerabilities:
+      - VCID-1rb1-qpsy-aaaf
+      - VCID-ta75-9azd-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/no-case@2.3.2
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-1rb1-qpsy-aaaf
+      - VCID-ta75-9azd-aaas

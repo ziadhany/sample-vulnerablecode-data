@@ -1,0 +1,26 @@
+package: pkg:npm/%40fastify/bearer-auth
+versions:
+  - purl: pkg:npm/%40fastify/bearer-auth@7.0.0
+    affected_by_vulnerabilities:
+      - VCID-cf3c-717f-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40fastify/bearer-auth@7.0.0-rc.1
+    affected_by_vulnerabilities:
+      - VCID-cf3c-717f-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40fastify/bearer-auth@7.0.1
+    affected_by_vulnerabilities:
+      - VCID-cf3c-717f-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40fastify/bearer-auth@7.0.2
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-cf3c-717f-aaaj
+  - purl: pkg:npm/%40fastify/bearer-auth@8.0.0
+    affected_by_vulnerabilities:
+      - VCID-cf3c-717f-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40fastify/bearer-auth@8.0.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-cf3c-717f-aaaj

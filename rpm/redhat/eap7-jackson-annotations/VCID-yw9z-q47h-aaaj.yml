@@ -1,0 +1,173 @@
+vulnerability_id: VCID-yw9z-q47h-aaaj
+aliases:
+  - CVE-2020-25644
+summary: |
+  Uncontrolled Resource Consumption
+  A memory leak flaw was found in WildFly OpenSSL, where it removes an HTTP session. It may allow the attacker to cause OOM leading to a denial of service. The highest threat from this vulnerability is to system availability.
+severities:
+  - id: 609628
+    reference_id: 931072
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 609622
+    reference_id: 931066
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 461974
+    reference_id: 29415
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 461972
+    reference_id: 29415
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 609624
+    reference_id: 931068
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 609623
+    reference_id: 931067
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 609627
+    reference_id: 931071
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 609625
+    reference_id: 931069
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 609626
+    reference_id: 931070
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 59312
+    reference_id: 185891
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 59310
+    reference_id: 185889
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 59307
+    reference_id: 185886
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 59305
+    reference_id: 185884
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 59304
+    reference_id: 185883
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 608308
+    reference_id: 930104
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+  - id: 48860
+    reference_id: 173188
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 931072
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2020-25644.json
+    reference_id:
+  - id: 834027
+    url: https://github.com/wildfly-security/wildfly-openssl-natives/pull/4/files
+    reference_id:
+  - id: 29417
+    url: https://issues.redhat.com/browse/WFSSL-51
+    reference_id:
+  - id: 834028
+    url: https://security.netapp.com/advisory/ntap-20201016-0004/
+    reference_id:
+  - id: 931066
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1885485
+    reference_id: 1885485
+  - id: 169589
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:netapp:oncommand_insight:-:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:netapp:oncommand_insight:-:*:*:*:*:*:*:*
+  - id: 169590
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:netapp:oncommand_workflow_automation:-:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:netapp:oncommand_workflow_automation:-:*:*:*:*:*:*:*
+  - id: 702722
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:netapp:service_level_manager:-:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:netapp:service_level_manager:-:*:*:*:*:*:*:*
+  - id: 812394
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:data_grid:8.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:data_grid:8.0:*:*:*:*:*:*:*
+  - id: 834029
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_data_grid:7.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_data_grid:7.0:*:*:*:*:*:*:*
+  - id: 659699
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:7.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:7.0.0:*:*:*:*:*:*:*
+  - id: 766405
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_fuse:7.0.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_fuse:7.0.0:*:*:*:*:*:*:*
+  - id: 779474
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift_application_runtimes:-:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift_application_runtimes:-:*:*:*:*:*:*:*
+  - id: 766462
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:single_sign-on:7.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:single_sign-on:7.0:*:*:*:*:*:*:*
+  - id: 834030
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:wildfly_openssl:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:wildfly_openssl:*:*:*:*:*:*:*:*
+  - id: 29415
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-25644
+    reference_id: CVE-2020-25644
+  - id: 931068
+    url: https://access.redhat.com/errata/RHSA-2020:4256
+    reference_id: RHSA-2020:4256
+  - id: 931067
+    url: https://access.redhat.com/errata/RHSA-2020:4257
+    reference_id: RHSA-2020:4257
+  - id: 931071
+    url: https://access.redhat.com/errata/RHSA-2020:4922
+    reference_id: RHSA-2020:4922
+  - id: 931069
+    url: https://access.redhat.com/errata/RHSA-2020:4923
+    reference_id: RHSA-2020:4923
+  - id: 931070
+    url: https://access.redhat.com/errata/RHSA-2020:4978
+    reference_id: RHSA-2020:4978
+  - id: 185891
+    url: https://access.redhat.com/errata/RHSA-2020:5340
+    reference_id: RHSA-2020:5340
+  - id: 185889
+    url: https://access.redhat.com/errata/RHSA-2020:5341
+    reference_id: RHSA-2020:5341
+  - id: 185886
+    url: https://access.redhat.com/errata/RHSA-2020:5342
+    reference_id: RHSA-2020:5342
+  - id: 185884
+    url: https://access.redhat.com/errata/RHSA-2020:5344
+    reference_id: RHSA-2020:5344
+  - id: 185883
+    url: https://access.redhat.com/errata/RHSA-2020:5410
+    reference_id: RHSA-2020:5410
+  - id: 930104
+    url: https://access.redhat.com/errata/RHSA-2021:0433
+    reference_id: RHSA-2021:0433
+  - id: 173188
+    url: https://access.redhat.com/errata/RHSA-2021:3140
+    reference_id: RHSA-2021:3140
+weaknesses: []

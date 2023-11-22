@@ -1,0 +1,696 @@
+package: pkg:gem/ember-source
+versions:
+  - purl: pkg:gem/ember-source@0.0.1
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+      - VCID-pj57-rmcp-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@0.0.2
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+      - VCID-pj57-rmcp-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@0.0.3
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+      - VCID-pj57-rmcp-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@0.0.4
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+      - VCID-pj57-rmcp-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@0.0.5
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+      - VCID-pj57-rmcp-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@0.0.6
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+      - VCID-pj57-rmcp-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@0.0.7
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+      - VCID-pj57-rmcp-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@0.0.8
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+      - VCID-pj57-rmcp-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@0.0.9
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+      - VCID-pj57-rmcp-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.0.0.pre4.0
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+      - VCID-pj57-rmcp-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.0.0.pre4.1
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+      - VCID-pj57-rmcp-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.0.0.pre4.2
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+      - VCID-pj57-rmcp-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.0.0.rc1.0
+    affected_by_vulnerabilities:
+      - VCID-pj57-rmcp-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.0.0.rc1.0.0
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+      - VCID-pj57-rmcp-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.0.0.rc1.1
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+      - VCID-pj57-rmcp-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.0.0.rc1.2
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+      - VCID-pj57-rmcp-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.0.0.rc1.3
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+      - VCID-pj57-rmcp-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.0.0.rc1.4
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+      - VCID-pj57-rmcp-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.0.0.rc2.0
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+      - VCID-pj57-rmcp-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.0.0.rc2.1
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+      - VCID-pj57-rmcp-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.0.0.rc2.2
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+      - VCID-pj57-rmcp-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.0.0.rc2.3
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.0.0.rc3
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+      - VCID-pj57-rmcp-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.0.0.rc3.0
+    affected_by_vulnerabilities:
+      - VCID-pj57-rmcp-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.0.0.rc3.1
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+      - VCID-pj57-rmcp-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.0.0.rc3.2
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+      - VCID-pj57-rmcp-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.0.0.rc3.3
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+      - VCID-pj57-rmcp-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.0.0.rc3.4
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+      - VCID-pj57-rmcp-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.0.0.rc3.5
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.0.0.rc4
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+      - VCID-pj57-rmcp-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.0.0.rc4.0
+    affected_by_vulnerabilities:
+      - VCID-pj57-rmcp-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.0.0.rc4.1
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+    fixing_vulnerabilities:
+      - VCID-pj57-rmcp-aaae
+  - purl: pkg:gem/ember-source@1.0.0.rc5
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+      - VCID-pj57-rmcp-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.0.0.rc5.0
+    affected_by_vulnerabilities:
+      - VCID-pj57-rmcp-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.0.0.rc5.1
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+    fixing_vulnerabilities:
+      - VCID-pj57-rmcp-aaae
+  - purl: pkg:gem/ember-source@1.0.0.rc6
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+      - VCID-pj57-rmcp-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.0.0.rc6.0
+    affected_by_vulnerabilities:
+      - VCID-pj57-rmcp-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.0.0.rc6.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-pj57-rmcp-aaae
+  - purl: pkg:gem/ember-source@1.0.0.rc6.2
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+    fixing_vulnerabilities:
+      - VCID-pj57-rmcp-aaae
+  - purl: pkg:gem/ember-source@1.0.0.rc6.4
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.0.0.rc7
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.0.0.rc8
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.0.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+  - purl: pkg:gem/ember-source@1.1.0
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.10.0
+    affected_by_vulnerabilities:
+      - VCID-7pkj-kc6w-aaam
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.10.0a
+    affected_by_vulnerabilities:
+      - VCID-7pkj-kc6w-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.10.0.beta.1
+    affected_by_vulnerabilities:
+      - VCID-7pkj-kc6w-aaam
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.10.0.beta.2
+    affected_by_vulnerabilities:
+      - VCID-7pkj-kc6w-aaam
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.10.0.beta.3
+    affected_by_vulnerabilities:
+      - VCID-7pkj-kc6w-aaam
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.10.0.beta.4
+    affected_by_vulnerabilities:
+      - VCID-7pkj-kc6w-aaam
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.10.1
+    affected_by_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities:
+      - VCID-7pkj-kc6w-aaam
+  - purl: pkg:gem/ember-source@1.1.0.alpha0
+    affected_by_vulnerabilities:
+      - VCID-c9qx-ve1q-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.1.1
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.11.0
+    affected_by_vulnerabilities:
+      - VCID-7pkj-kc6w-aaam
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.11.0.1
+    affected_by_vulnerabilities:
+      - VCID-7pkj-kc6w-aaam
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.11.0a
+    affected_by_vulnerabilities:
+      - VCID-7pkj-kc6w-aaam
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.11.0.beta.1
+    affected_by_vulnerabilities:
+      - VCID-7pkj-kc6w-aaam
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.11.0.beta.2
+    affected_by_vulnerabilities:
+      - VCID-7pkj-kc6w-aaam
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.11.0.beta.2.1
+    affected_by_vulnerabilities:
+      - VCID-7pkj-kc6w-aaam
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.11.0.beta.2.2
+    affected_by_vulnerabilities:
+      - VCID-7pkj-kc6w-aaam
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.11.0.beta.3
+    affected_by_vulnerabilities:
+      - VCID-7pkj-kc6w-aaam
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.11.0.beta.4
+    affected_by_vulnerabilities:
+      - VCID-7pkj-kc6w-aaam
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.11.0.beta.5
+    affected_by_vulnerabilities:
+      - VCID-7pkj-kc6w-aaam
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.11.1
+    affected_by_vulnerabilities:
+      - VCID-7pkj-kc6w-aaam
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.11.2
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-7pkj-kc6w-aaam
+  - purl: pkg:gem/ember-source@1.11.3
+    affected_by_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities:
+      - VCID-7pkj-kc6w-aaam
+  - purl: pkg:gem/ember-source@1.11.3.1
+    affected_by_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.11.4
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+  - purl: pkg:gem/ember-source@1.1.2
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+  - purl: pkg:gem/ember-source@1.12.0
+    affected_by_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities:
+      - VCID-7pkj-kc6w-aaam
+  - purl: pkg:gem/ember-source@1.12.0a
+    affected_by_vulnerabilities:
+      - VCID-7pkj-kc6w-aaam
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.12.0.beta.1
+    affected_by_vulnerabilities:
+      - VCID-7pkj-kc6w-aaam
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.12.0.beta.3
+    affected_by_vulnerabilities:
+      - VCID-7pkj-kc6w-aaam
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.12.1
+    affected_by_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.12.2
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+  - purl: pkg:gem/ember-source@1.1.3
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+  - purl: pkg:gem/ember-source@1.13.0
+    affected_by_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.13.0a
+    affected_by_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.13.0.beta.1
+    affected_by_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.13.0.beta.2
+    affected_by_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.13.1
+    affected_by_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.13.10
+    affected_by_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.13.1.1
+    affected_by_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.13.11
+    affected_by_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.13.12
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+  - purl: pkg:gem/ember-source@1.13.2
+    affected_by_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.13.3
+    affected_by_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.13.4
+    affected_by_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.13.4.1
+    affected_by_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.13.5
+    affected_by_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.13.6
+    affected_by_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.13.7
+    affected_by_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.13.8
+    affected_by_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.13.9
+    affected_by_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.2.0
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+      - VCID-jyh3-p1bg-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.2.0.1
+    affected_by_vulnerabilities:
+      - VCID-c9qx-ve1q-aaak
+      - VCID-jyh3-p1bg-aaaq
+    fixing_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+  - purl: pkg:gem/ember-source@1.2.0.alpha0
+    affected_by_vulnerabilities:
+      - VCID-c9qx-ve1q-aaak
+      - VCID-jyh3-p1bg-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.2.0.beta.1
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+      - VCID-jyh3-p1bg-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.2.0.beta.2
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+      - VCID-jyh3-p1bg-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.2.0.beta.3
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+      - VCID-jyh3-p1bg-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.2.0.beta.4
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+      - VCID-jyh3-p1bg-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.2.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+  - purl: pkg:gem/ember-source@1.2.1.1
+    affected_by_vulnerabilities:
+      - VCID-jyh3-p1bg-aaaq
+    fixing_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+  - purl: pkg:gem/ember-source@1.2.2
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-jyh3-p1bg-aaaq
+  - purl: pkg:gem/ember-source@1.3.0
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+      - VCID-jyh3-p1bg-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.3.0.alpha0
+    affected_by_vulnerabilities:
+      - VCID-c9qx-ve1q-aaak
+      - VCID-jyh3-p1bg-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.3.0.beta.1
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+      - VCID-jyh3-p1bg-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.3.0.beta.2
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+      - VCID-jyh3-p1bg-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.3.0.beta.3
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+      - VCID-jyh3-p1bg-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.3.0.beta.4
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+      - VCID-jyh3-p1bg-aaaq
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.3.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+  - purl: pkg:gem/ember-source@1.3.1.1
+    affected_by_vulnerabilities:
+      - VCID-jyh3-p1bg-aaaq
+    fixing_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+  - purl: pkg:gem/ember-source@1.3.2
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-jyh3-p1bg-aaaq
+  - purl: pkg:gem/ember-source@1.4.0.beta.1
+    affected_by_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.4.0.beta.2
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-9ze9-g57f-aaar
+      - VCID-c9qx-ve1q-aaak
+  - purl: pkg:gem/ember-source@1.8.0
+    affected_by_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.8.1
+    affected_by_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.9.0
+    affected_by_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.9.0.alpha
+    affected_by_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.9.0.alpha.2
+    affected_by_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.9.0.beta.1
+    affected_by_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.9.0.beta.1.1
+    affected_by_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.9.0.beta.3
+    affected_by_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.9.0.beta.4
+    affected_by_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@1.9.1
+    affected_by_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@2.0.0a
+    affected_by_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@2.0.0.beta.2
+    affected_by_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@2.0.0.beta.3
+    affected_by_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@2.0.0.beta.5
+    affected_by_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@2.0.2
+    affected_by_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@2.0.3
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+  - purl: pkg:gem/ember-source@2.1.0
+    affected_by_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@2.1.0a
+    affected_by_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@2.1.0.beta.1
+    affected_by_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@2.1.0.beta.3
+    affected_by_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@2.1.2
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+  - purl: pkg:gem/ember-source@2.2.0
+    affected_by_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@2.2.0a
+    affected_by_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@2.2.0.beta.1
+    affected_by_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/ember-source@2.2.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-b7c9-eb6c-aaam

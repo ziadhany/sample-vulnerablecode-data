@@ -1,0 +1,46 @@
+vulnerability_id: VCID-bpvt-g978-aaan
+aliases:
+  - CVE-2021-21254
+  - GHSA-hgmg-hhc8-g5wr
+summary: |
+  Uncontrolled Resource Consumption
+  CKEditor 5 is an open source rich text editor framework with a modular architecture. The CKEditor 5 Markdown plugin (@ckeditor/ckeditor5-markdown-gfm) before version 25.0.0 has a regex denial of service (ReDoS) vulnerability. The vulnerability allowed to abuse link recognition regular expression, which could cause a significant performance drop resulting in browser tab freeze. It affects all users using CKEditor 5 Markdown plugin at version <= 24.0.0. The problem has been recognized and patched. The fix will be available in version 25.0.0.
+severities:
+  - id: 507746
+    reference_id: 35737
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:N/I:N/A:P
+  - id: 507744
+    reference_id: 35737
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+  - id: 706501
+    reference_id: 35738
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 35735
+    url: https://github.com/ckeditor/ckeditor5/releases/tag/v25.0.0
+    reference_id:
+  - id: 863590
+    url: https://github.com/ckeditor/ckeditor5/security/advisories/GHSA-hgmg-hhc8-g5wr
+    reference_id:
+  - id: 35736
+    url: https://www.npmjs.com/package/@ckeditor/ckeditor5-markdown-gfm
+    reference_id:
+  - id: 863591
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:ckeditor:ckeditor_5:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:ckeditor:ckeditor_5:*:*:*:*:*:*:*:*
+  - id: 1182821
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:ckeditor:ckeditor5:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:ckeditor:ckeditor5:*:*:*:*:*:*:*:*
+  - id: 35737
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-21254
+    reference_id: CVE-2021-21254
+  - id: 35738
+    url: https://github.com/advisories/GHSA-hgmg-hhc8-g5wr
+    reference_id: GHSA-hgmg-hhc8-g5wr
+weaknesses: []

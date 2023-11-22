@@ -1,0 +1,9 @@
+vulnerability_id: VCID-u5n9-kqwp-aaas
+aliases:
+  - GMS-2016-36
+summary: |
+  Regular Expression Denial of Service
+  The primary function, `minimatch(path, pattern)` is vulnerable to ReDoS in the `pattern` parameter. This is because of the regular expression on line of minimatch.js: `/((?:\\{2})*)(\\?)\|/g,`. The problematic portion of the regex is `((?:\\{2})*)` which matches against `//`.
+severities: []
+references: []
+weaknesses: []

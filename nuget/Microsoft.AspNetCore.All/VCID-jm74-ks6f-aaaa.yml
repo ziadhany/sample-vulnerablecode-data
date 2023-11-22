@@ -1,0 +1,74 @@
+vulnerability_id: VCID-jm74-ks6f-aaaa
+aliases:
+  - CVE-2018-8292
+  - GHSA-7jgj-8wvc-jh57
+summary: .NET Core Information Disclosure
+severities:
+  - id: 614186
+    reference_id: 934430
+    scoring_system: cvssv3
+    value: '7.4'
+    scoring_elements: CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+  - id: 614184
+    reference_id: 934428
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 358429
+    reference_id: 16052
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 358427
+    reference_id: 16052
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+  - id: 1878
+    reference_id: 16057
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 614185
+    reference_id: 934429
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 934430
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2018-8292.json
+    reference_id:
+  - id: 16053
+    url: https://github.com/dotnet/announcements/issues/88
+    reference_id:
+  - id: 759925
+    url: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8292
+    reference_id:
+  - id: 16056
+    url: http://www.securityfocus.com/bid/105548
+    reference_id:
+  - id: 934428
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1636274
+    reference_id: 1636274
+  - id: 713473
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:asp.net_core:1.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:asp.net_core:1.0:*:*:*:*:*:*:*
+  - id: 713474
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:asp.net_core:1.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:asp.net_core:1.1:*:*:*:*:*:*:*
+  - id: 759926
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:asp.net_core:2.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:asp.net_core:2.1:*:*:*:*:*:*:*
+  - id: 720396
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:powershell_core:6.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:powershell_core:6.0:*:*:*:*:*:*:*
+  - id: 16052
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-8292
+    reference_id: CVE-2018-8292
+  - id: 16057
+    url: https://github.com/advisories/GHSA-7jgj-8wvc-jh57
+    reference_id: GHSA-7jgj-8wvc-jh57
+  - id: 934429
+    url: https://access.redhat.com/errata/RHSA-2018:2902
+    reference_id: RHSA-2018:2902
+weaknesses: []

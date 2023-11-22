@@ -1,0 +1,10 @@
+package: pkg:gem/paratrooper-newrelic
+versions:
+  - purl: pkg:gem/paratrooper-newrelic@0.0.0
+    affected_by_vulnerabilities:
+      - VCID-yghw-kt5c-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/paratrooper-newrelic@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-yghw-kt5c-aaac
+    fixing_vulnerabilities: []

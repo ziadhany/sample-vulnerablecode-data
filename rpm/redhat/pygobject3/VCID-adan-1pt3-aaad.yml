@@ -1,0 +1,57 @@
+vulnerability_id: VCID-adan-1pt3-aaad
+aliases:
+  - CVE-2020-14334
+summary: A flaw was found in Red Hat Satellite 6 which allows privileged attacker to read cache
+  files. These cache credentials could help attacker to gain complete control of the Satellite
+  instance.
+severities:
+  - id: 610630
+    reference_id: 931808
+    scoring_system: cvssv3
+    value: '8.8'
+    scoring_elements: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H
+  - id: 610628
+    reference_id: 931806
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 441863
+    reference_id: 820703
+    scoring_system: cvssv2
+    value: '4.6'
+    scoring_elements: AV:L/AC:L/Au:N/C:P/I:P/A:P
+  - id: 441861
+    reference_id: 820703
+    scoring_system: cvssv3
+    value: '8.8'
+    scoring_elements: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H
+  - id: 610629
+    reference_id: 931807
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 48023
+    reference_id: 172574
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 931808
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2020-14334.json
+    reference_id:
+  - id: 931806
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1858284
+    reference_id: 1858284
+  - id: 511591
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:satellite:6.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:satellite:6.0:*:*:*:*:*:*:*
+  - id: 820703
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-14334
+    reference_id: CVE-2020-14334
+  - id: 931807
+    url: https://access.redhat.com/errata/RHSA-2020:4127
+    reference_id: RHSA-2020:4127
+  - id: 172574
+    url: https://access.redhat.com/errata/RHSA-2020:4366
+    reference_id: RHSA-2020:4366
+weaknesses: []

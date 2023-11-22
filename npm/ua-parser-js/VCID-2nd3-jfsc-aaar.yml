@@ -1,0 +1,13 @@
+vulnerability_id: VCID-2nd3-jfsc-aaar
+aliases:
+  - GHSA-pjwm-rvh2-c87w
+  - GMS-2021-1
+summary: |
+  Embedded Malicious Code
+  This package was found to contain malicious code.
+severities: []
+references:
+  - id: 35326
+    url: https://us-cert.cisa.gov/ncas/current-activity/2021/10/22/malware-discovered-popular-npm-package-ua-parser-js
+    reference_id:
+weaknesses: []

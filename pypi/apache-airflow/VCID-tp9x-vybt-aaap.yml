@@ -1,0 +1,45 @@
+vulnerability_id: VCID-tp9x-vybt-aaap
+aliases:
+  - CVE-2017-17836
+  - GHSA-9gqg-3fxr-9hv7
+  - PYSEC-2019-149
+summary: In Apache Airflow 1.8.2 and earlier, an experimental Airflow feature displayed authenticated
+  cookies, as well as passwords to databases used by Airflow. An attacker who has limited access
+  to airflow, whether it be via XSS or by leaving a machine unlocked can exfiltrate all credentials
+  from the system.
+severities:
+  - id: 275168
+    reference_id: 26314
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 275166
+    reference_id: 26314
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 4745
+    reference_id: 26315
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 23482
+    url: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-17836
+    reference_id:
+  - id: 22128
+    url: https://cwe.mitre.org/data/definitions/200.html
+    reference_id:
+  - id: 566
+    url: https://lists.apache.org/thread.html/ade4d54ebf614f68dc81a08891755e60ea58ba88e0209233eeea5f57@%3Cdev.airflow.apache.org%3E
+    reference_id:
+  - id: 677676
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:airflow:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:airflow:*:*:*:*:*:*:*:*
+  - id: 26314
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-17836
+    reference_id: CVE-2017-17836
+  - id: 26315
+    url: https://github.com/advisories/GHSA-9gqg-3fxr-9hv7
+    reference_id: GHSA-9gqg-3fxr-9hv7
+weaknesses: []

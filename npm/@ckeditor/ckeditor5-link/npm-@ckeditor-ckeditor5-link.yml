@@ -1,0 +1,58 @@
+package: pkg:npm/%40ckeditor/ckeditor5-link
+versions:
+  - purl: pkg:npm/%40ckeditor/ckeditor5-link@0.3.0
+    affected_by_vulnerabilities:
+      - VCID-fhxj-zf7g-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-link@0.4.0
+    affected_by_vulnerabilities:
+      - VCID-fhxj-zf7g-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-link@0.5.0
+    affected_by_vulnerabilities:
+      - VCID-fhxj-zf7g-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-link@0.5.1
+    affected_by_vulnerabilities:
+      - VCID-fhxj-zf7g-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-link@0.6.0
+    affected_by_vulnerabilities:
+      - VCID-fhxj-zf7g-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-link@0.7.0
+    affected_by_vulnerabilities:
+      - VCID-fhxj-zf7g-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-link@0.8.0
+    affected_by_vulnerabilities:
+      - VCID-fhxj-zf7g-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-link@10.0.0
+    affected_by_vulnerabilities:
+      - VCID-fhxj-zf7g-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-link@10.0.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-fhxj-zf7g-aaas
+  - purl: pkg:npm/%40ckeditor/ckeditor5-link@1.0.0-alpha.1
+    affected_by_vulnerabilities:
+      - VCID-fhxj-zf7g-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-link@1.0.0-alpha.2
+    affected_by_vulnerabilities:
+      - VCID-fhxj-zf7g-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-link@1.0.0-beta.1
+    affected_by_vulnerabilities:
+      - VCID-fhxj-zf7g-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-link@1.0.0-beta.2
+    affected_by_vulnerabilities:
+      - VCID-fhxj-zf7g-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/%40ckeditor/ckeditor5-link@1.0.0-beta.4
+    affected_by_vulnerabilities:
+      - VCID-fhxj-zf7g-aaas
+    fixing_vulnerabilities: []

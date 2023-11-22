@@ -1,0 +1,33 @@
+vulnerability_id: VCID-tnzv-kqnd-aaab
+aliases:
+  - CVE-2022-38900
+  - GHSA-w573-4hg7-7wgq
+summary: |
+  decode-uri-component vulnerable to Denial of Service (DoS)
+  decode-uri-component 0.2.0 is vulnerable to Improper Input Validation resulting in DoS.
+severities:
+  - id: 707212
+    reference_id: 1466284
+    scoring_system: cvssv3.1_qr
+    value: LOW
+    scoring_elements:
+references:
+  - id: 1468810
+    url: https://github.com/SamVerschueren/decode-uri-component/commit/746ca5dcb6667c5d364e782d53c542830e4c10b9
+    reference_id:
+  - id: 1466282
+    url: https://github.com/SamVerschueren/decode-uri-component/issues/5
+    reference_id:
+  - id: 1468811
+    url: https://github.com/SamVerschueren/decode-uri-component/releases/tag/v0.2.1
+    reference_id:
+  - id: 1466283
+    url: https://github.com/sindresorhus/query-string/issues/345
+    reference_id:
+  - id: 1466281
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-38900
+    reference_id: CVE-2022-38900
+  - id: 1466284
+    url: https://github.com/advisories/GHSA-w573-4hg7-7wgq
+    reference_id: GHSA-w573-4hg7-7wgq
+weaknesses: []

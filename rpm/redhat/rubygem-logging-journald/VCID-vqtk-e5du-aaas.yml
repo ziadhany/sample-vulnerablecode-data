@@ -1,0 +1,57 @@
+vulnerability_id: VCID-vqtk-e5du-aaas
+aliases:
+  - CVE-2019-10198
+summary: 'CVE-2019-10198 foreman: authorization bypasses in foreman-tasks leading to information
+  disclosure'
+severities:
+  - id: 62031
+    reference_id: 189831
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+  - id: 62029
+    reference_id: 189829
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 367212
+    reference_id: 766492
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:P/I:N/A:N
+  - id: 367210
+    reference_id: 766492
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+  - id: 62030
+    reference_id: 189830
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 189831
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2019-10198.json
+    reference_id:
+  - id: 766490
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2019-10198
+    reference_id:
+  - id: 766491
+    url: https://projects.theforeman.org/issues/27275
+    reference_id:
+  - id: 189829
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1729130
+    reference_id: 1729130
+  - id: 722103
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:satellite:6.6:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:satellite:6.6:*:*:*:*:*:*:*
+  - id: 766493
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:theforeman:foreman-tasks:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:theforeman:foreman-tasks:*:*:*:*:*:*:*:*
+  - id: 766492
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-10198
+    reference_id: CVE-2019-10198
+  - id: 189830
+    url: https://access.redhat.com/errata/RHSA-2019:3172
+    reference_id: RHSA-2019:3172
+weaknesses: []

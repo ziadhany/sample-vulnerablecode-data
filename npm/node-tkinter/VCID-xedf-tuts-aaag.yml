@@ -1,0 +1,40 @@
+vulnerability_id: VCID-xedf-tuts-aaag
+aliases:
+  - CVE-2017-16062
+  - GHSA-mwcv-m549-5cm8
+summary: |
+  Malicious package (Typosquatting)
+  node-tkinter is a malicious module published with the intent to hijack environment variables. It has been unpublished by npm.
+severities:
+  - id: 269848
+    reference_id: 37232
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 269846
+    reference_id: 37232
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+  - id: 705652
+    reference_id: 1466856
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 687655
+    url: https://nodesecurity.io/advisories/501
+    reference_id:
+  - id: 1466857
+    url: https://www.npmjs.com/advisories/501
+    reference_id:
+  - id: 687656
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:node-tkinter_project:node-tkinter:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:node-tkinter_project:node-tkinter:*:*:*:*:*:node.js:*:*
+  - id: 37232
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-16062
+    reference_id: CVE-2017-16062
+  - id: 1466856
+    url: https://github.com/advisories/GHSA-mwcv-m549-5cm8
+    reference_id: GHSA-mwcv-m549-5cm8
+weaknesses: []

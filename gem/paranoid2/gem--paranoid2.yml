@@ -1,0 +1,6 @@
+package: pkg:gem/paranoid2
+versions:
+  - purl: pkg:gem/paranoid2@1.1.6
+    affected_by_vulnerabilities:
+      - VCID-1rqv-p6wv-aaag
+    fixing_vulnerabilities: []

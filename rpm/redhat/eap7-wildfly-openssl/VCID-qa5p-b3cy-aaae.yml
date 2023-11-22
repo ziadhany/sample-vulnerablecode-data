@@ -1,0 +1,119 @@
+vulnerability_id: VCID-qa5p-b3cy-aaae
+aliases:
+  - CVE-2019-14838
+summary: 'CVE-2019-14838 wildfly-core: Incorrect privileges for ''Monitor'', ''Auditor'' and
+  ''Deployer'' user by default'
+severities:
+  - id: 70015
+    reference_id: '199968'
+    scoring_system: cvssv3
+    value: '5.2'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:H/UI:R/S:U/C:N/I:L/A:H
+  - id: 70007
+    reference_id: '199960'
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 383101
+    reference_id: 779322
+    scoring_system: cvssv2
+    value: '4.0'
+    scoring_elements: AV:N/AC:L/Au:S/C:N/I:P/A:N
+  - id: 383099
+    reference_id: 779322
+    scoring_system: cvssv3
+    value: '4.9'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:N
+  - id: 52339
+    reference_id: 177155
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 52338
+    reference_id: 177154
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 779310
+    url: https://access.redhat.com/errata/RHSA-2019:3082
+    reference_id:
+  - id: 779311
+    url: https://access.redhat.com/errata/RHSA-2019:3083
+    reference_id:
+  - id: 779312
+    url: https://access.redhat.com/errata/RHSA-2019:4018
+    reference_id:
+  - id: 779313
+    url: https://access.redhat.com/errata/RHSA-2019:4019
+    reference_id:
+  - id: 779314
+    url: https://access.redhat.com/errata/RHSA-2019:4020
+    reference_id:
+  - id: 779315
+    url: https://access.redhat.com/errata/RHSA-2019:4021
+    reference_id:
+  - id: 779316
+    url: https://access.redhat.com/errata/RHSA-2019:4040
+    reference_id:
+  - id: 779317
+    url: https://access.redhat.com/errata/RHSA-2019:4041
+    reference_id:
+  - id: 779318
+    url: https://access.redhat.com/errata/RHSA-2019:4042
+    reference_id:
+  - id: 779319
+    url: https://access.redhat.com/errata/RHSA-2019:4045
+    reference_id:
+  - id: 779320
+    url: https://access.redhat.com/errata/RHSA-2020:0728
+    reference_id:
+  - id: '199968'
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2019-14838.json
+    reference_id:
+  - id: 779321
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2019-14838
+    reference_id:
+  - id: '199960'
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1751227
+    reference_id: 1751227
+  - id: 779323
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:data_grid:7.3.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:data_grid:7.3.4:*:*:*:*:*:*:*
+  - id: 779324
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:7.2.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:7.2.4:*:*:*:*:*:*:*
+  - id: 779325
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:wildfly_core:7.0.0:-:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:wildfly_core:7.0.0:-:*:*:*:*:*:*
+  - id: 779326
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:wildfly_core:7.0.0:alpha1:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:wildfly_core:7.0.0:alpha1:*:*:*:*:*:*
+  - id: 779327
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:wildfly_core:7.0.0:alpha2:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:wildfly_core:7.0.0:alpha2:*:*:*:*:*:*
+  - id: 779328
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:wildfly_core:7.0.0:alpha3:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:wildfly_core:7.0.0:alpha3:*:*:*:*:*:*
+  - id: 779329
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:wildfly_core:7.0.0:alpha4:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:wildfly_core:7.0.0:alpha4:*:*:*:*:*:*
+  - id: 779330
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:wildfly_core:7.0.0:alpha5:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:wildfly_core:7.0.0:alpha5:*:*:*:*:*:*
+  - id: 779331
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:wildfly_core:7.0.0:beta1:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:wildfly_core:7.0.0:beta1:*:*:*:*:*:*
+  - id: 779332
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:wildfly_core:7.0.0:cr1:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:wildfly_core:7.0.0:cr1:*:*:*:*:*:*
+  - id: 779322
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-14838
+    reference_id: CVE-2019-14838
+  - id: 177155
+    url: https://access.redhat.com/errata/RHSA-2020:2067
+    reference_id: RHSA-2020:2067
+  - id: 177154
+    url: https://access.redhat.com/errata/RHSA-2020:2565
+    reference_id: RHSA-2020:2565
+weaknesses: []

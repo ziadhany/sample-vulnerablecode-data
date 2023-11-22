@@ -1,0 +1,6 @@
+package: pkg:pypi/aptdaemon
+versions:
+  - purl: pkg:pypi/aptdaemon@1.1.1
+    affected_by_vulnerabilities:
+      - VCID-p7yy-u2nv-aaad
+    fixing_vulnerabilities: []

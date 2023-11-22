@@ -1,0 +1,22 @@
+package: pkg:hex/xain
+versions:
+  - purl: pkg:hex/xain@0.5.2
+    affected_by_vulnerabilities:
+      - VCID-2yfy-r9kh-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:hex/xain@0.5.3
+    affected_by_vulnerabilities:
+      - VCID-2yfy-r9kh-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:hex/xain@0.6.0
+    affected_by_vulnerabilities:
+      - VCID-2yfy-r9kh-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:hex/xain@0.6.1
+    affected_by_vulnerabilities:
+      - VCID-2yfy-r9kh-aaas
+    fixing_vulnerabilities: []
+  - purl: pkg:hex/xain@0.6.2
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-2yfy-r9kh-aaas

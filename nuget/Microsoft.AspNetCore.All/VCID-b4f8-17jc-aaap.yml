@@ -1,0 +1,47 @@
+vulnerability_id: VCID-b4f8-17jc-aaap
+aliases:
+  - CVE-2018-8269
+  - GHSA-mv2r-q4g5-j8q5
+summary: Microsoft.Data.OData Library improperly handles web requests
+severities:
+  - id: 358349
+    reference_id: 16442
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 358347
+    reference_id: 16442
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: '1982'
+    reference_id: 16443
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 946760
+    url: https://github.com/aspnet/Announcements/issues/385
+    reference_id:
+  - id: 946724
+    url: https://github.com/github/advisory-database/issues/302
+    reference_id:
+  - id: 759876
+    url: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8269
+    reference_id:
+  - id: 16445
+    url: https://www.exploit-db.com/exploits/46101/
+    reference_id:
+  - id: 16446
+    url: http://www.securityfocus.com/bid/105322
+    reference_id:
+  - id: 759877
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:microsoft.data.odata:-:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:microsoft.data.odata:-:*:*:*:*:*:*:*
+  - id: 16442
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-8269
+    reference_id: CVE-2018-8269
+  - id: 16443
+    url: https://github.com/advisories/GHSA-mv2r-q4g5-j8q5
+    reference_id: GHSA-mv2r-q4g5-j8q5
+weaknesses: []

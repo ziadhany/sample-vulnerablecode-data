@@ -1,0 +1,12 @@
+package: pkg:maven/com.sun.faces/project
+versions:
+  - purl: pkg:maven/com.sun.faces/project@2.2.0
+    affected_by_vulnerabilities:
+      - VCID-5dxe-kwgt-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.sun.faces/project@2.4.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-3mm3-bcq2-aaaf
+      - VCID-5dxe-kwgt-aaah
+      - VCID-adf6-3pcu-aaaj

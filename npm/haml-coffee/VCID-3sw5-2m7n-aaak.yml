@@ -1,0 +1,40 @@
+vulnerability_id: VCID-3sw5-2m7n-aaak
+aliases:
+  - CVE-2021-32818
+  - GHSA-m7mf-vm62-7x3q
+summary: |
+  Cross-site Scripting
+  haml-coffee is a JavaScript templating solution. haml-coffee mixes pure template data with engine configuration options through the Express render API. More specifically, haml-coffee supports overriding a series of HTML helper functions through its configuration options. A vulnerable application that passes user controlled request objects to the haml-coffee template engine may introduce RCE vulnerabilities. Additionally control over the escapeHtml parameter through template configuration pollution ensures that haml-coffee would not sanitize template inputs that may result in reflected Cross Site Scripting attacks against downstream applications.
+severities:
+  - id: 541093
+    reference_id: 32914
+    scoring_system: cvssv2
+    value: '3.5'
+    scoring_elements: AV:N/AC:M/Au:S/C:N/I:P/A:N
+  - id: 541091
+    reference_id: 32914
+    scoring_system: cvssv3
+    value: '5.4'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N
+  - id: 706758
+    reference_id: 1468390
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 885138
+    url: https://securitylab.github.com/advisories/GHSL-2021-025-haml-coffee/
+    reference_id:
+  - id: 885139
+    url: https://www.npmjs.com/package/haml-coffee
+    reference_id:
+  - id: 885140
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:haml-coffee_project:haml-coffee:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:haml-coffee_project:haml-coffee:*:*:*:*:*:node.js:*:*
+  - id: 32914
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-32818
+    reference_id: CVE-2021-32818
+  - id: 1468390
+    url: https://github.com/advisories/GHSA-m7mf-vm62-7x3q
+    reference_id: GHSA-m7mf-vm62-7x3q
+weaknesses: []

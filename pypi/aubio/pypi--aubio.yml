@@ -1,0 +1,116 @@
+package: pkg:pypi/aubio
+versions:
+  - purl: pkg:pypi/aubio@0.4.0
+    affected_by_vulnerabilities:
+      - VCID-dxr5-n98h-aaaf
+      - VCID-ebsp-fdzq-aaac
+      - VCID-rjc1-h55r-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aubio@0.4.3
+    affected_by_vulnerabilities:
+      - VCID-2x24-vevc-aaag
+      - VCID-6sx4-nwbk-aaas
+      - VCID-dxr5-n98h-aaaf
+      - VCID-ebsp-fdzq-aaac
+      - VCID-hjbg-pjg6-aaaj
+      - VCID-mfp7-1217-aaar
+      - VCID-r7uz-5yyp-aaar
+      - VCID-rjc1-h55r-aaae
+      - VCID-whad-h8dn-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aubio@0.4.3a1
+    affected_by_vulnerabilities:
+      - VCID-2x24-vevc-aaag
+      - VCID-6sx4-nwbk-aaas
+      - VCID-dxr5-n98h-aaaf
+      - VCID-ebsp-fdzq-aaac
+      - VCID-hjbg-pjg6-aaaj
+      - VCID-mfp7-1217-aaar
+      - VCID-r7uz-5yyp-aaar
+      - VCID-rjc1-h55r-aaae
+      - VCID-whad-h8dn-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aubio@0.4.3a2
+    affected_by_vulnerabilities:
+      - VCID-2x24-vevc-aaag
+      - VCID-6sx4-nwbk-aaas
+      - VCID-dxr5-n98h-aaaf
+      - VCID-ebsp-fdzq-aaac
+      - VCID-hjbg-pjg6-aaaj
+      - VCID-mfp7-1217-aaar
+      - VCID-r7uz-5yyp-aaar
+      - VCID-rjc1-h55r-aaae
+      - VCID-whad-h8dn-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aubio@0.4.3.post1
+    affected_by_vulnerabilities:
+      - VCID-2x24-vevc-aaag
+      - VCID-6sx4-nwbk-aaas
+      - VCID-dxr5-n98h-aaaf
+      - VCID-ebsp-fdzq-aaac
+      - VCID-hjbg-pjg6-aaaj
+      - VCID-mfp7-1217-aaar
+      - VCID-r7uz-5yyp-aaar
+      - VCID-rjc1-h55r-aaae
+      - VCID-whad-h8dn-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aubio@0.4.4
+    affected_by_vulnerabilities:
+      - VCID-2x24-vevc-aaag
+      - VCID-6sx4-nwbk-aaas
+      - VCID-dxr5-n98h-aaaf
+      - VCID-ebsp-fdzq-aaac
+      - VCID-hjbg-pjg6-aaaj
+      - VCID-mfp7-1217-aaar
+      - VCID-r7uz-5yyp-aaar
+      - VCID-rjc1-h55r-aaae
+      - VCID-whad-h8dn-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aubio@0.4.5
+    affected_by_vulnerabilities:
+      - VCID-2x24-vevc-aaag
+      - VCID-6sx4-nwbk-aaas
+      - VCID-dxr5-n98h-aaaf
+      - VCID-ebsp-fdzq-aaac
+      - VCID-hjbg-pjg6-aaaj
+      - VCID-mfp7-1217-aaar
+      - VCID-r7uz-5yyp-aaar
+      - VCID-rjc1-h55r-aaae
+      - VCID-whad-h8dn-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aubio@0.4.6
+    affected_by_vulnerabilities:
+      - VCID-2x24-vevc-aaag
+      - VCID-6sx4-nwbk-aaas
+      - VCID-dxr5-n98h-aaaf
+      - VCID-ebsp-fdzq-aaac
+      - VCID-hjbg-pjg6-aaaj
+      - VCID-mfp7-1217-aaar
+      - VCID-r7uz-5yyp-aaar
+      - VCID-rjc1-h55r-aaae
+      - VCID-whad-h8dn-aaaf
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aubio@0.4.7
+    affected_by_vulnerabilities:
+      - VCID-dxr5-n98h-aaaf
+      - VCID-ebsp-fdzq-aaac
+      - VCID-rjc1-h55r-aaae
+    fixing_vulnerabilities:
+      - VCID-2x24-vevc-aaag
+      - VCID-6sx4-nwbk-aaas
+      - VCID-hjbg-pjg6-aaaj
+      - VCID-mfp7-1217-aaar
+      - VCID-r7uz-5yyp-aaar
+      - VCID-whad-h8dn-aaaf
+  - purl: pkg:pypi/aubio@0.4.8
+    affected_by_vulnerabilities:
+      - VCID-dxr5-n98h-aaaf
+      - VCID-ebsp-fdzq-aaac
+      - VCID-rjc1-h55r-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:pypi/aubio@0.4.9
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-dxr5-n98h-aaaf
+      - VCID-ebsp-fdzq-aaac
+      - VCID-rjc1-h55r-aaae

@@ -1,0 +1,40 @@
+vulnerability_id: VCID-tt47-q1yp-aaaf
+aliases:
+  - CVE-2019-9737
+  - GHSA-2j5v-fc74-j9q2
+summary: |
+  Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')
+  Editor.md 1.5.0 has DOM-based XSS via vectors involving the '<EMBED SRC="data:image/svg+xml' substring.
+severities:
+  - id: 423263
+    reference_id: 31943
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+  - id: 423261
+    reference_id: 31943
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+  - id: 706106
+    reference_id: 31945
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 31944
+    url: https://github.com/pandao/editor.md/issues/662
+    reference_id:
+  - id: 31946
+    url: https://www.npmjs.com/advisories/794
+    reference_id:
+  - id: 738722
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:ipandao:editor.md:1.5.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:ipandao:editor.md:1.5.0:*:*:*:*:*:*:*
+  - id: 31943
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-9737
+    reference_id: CVE-2019-9737
+  - id: 31945
+    url: https://github.com/advisories/GHSA-2j5v-fc74-j9q2
+    reference_id: GHSA-2j5v-fc74-j9q2
+weaknesses: []

@@ -1,0 +1,6 @@
+package: pkg:gem/jquery-ujs
+versions:
+  - purl: pkg:gem/jquery-ujs@1.0.4
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-zvqa-f2mq-aaaq

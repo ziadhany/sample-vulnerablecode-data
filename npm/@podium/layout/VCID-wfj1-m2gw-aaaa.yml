@@ -1,0 +1,52 @@
+vulnerability_id: VCID-wfj1-m2gw-aaaa
+aliases:
+  - CVE-2022-24822
+  - GHSA-3hjg-vc7r-rcrw
+summary: |
+  Uncaught Exception
+  Podium is a library for building micro frontends. @podium/layout is a module for building a Podium layout server, and @podium/proxy is a module for proxying HTTP requests from a layout server to a podlet server. In @podium/layout prior to version 4.6.110 and @podium/proxy prior to version 4.2.74, an attacker using the `Trailer` header as part of the request against proxy endpoints has the ability to take down the server. All Podium layouts that include podlets with proxy endpoints are affected. `@podium/layout`, which is the main way developers/users is vulnerable to this exploit, has been patched in version `4.6.110`. All earlier versions is vulnerable.`@podium/proxy`, which is the source of the vulnerability and is used by `@podium/layout` has been patched in version `4.2.74`. All earlier versions is vulnerable. It is not easily possible to work around this issue without upgrading.
+severities:
+  - id: 590195
+    reference_id: 35741
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 590193
+    reference_id: 35741
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 707022
+    reference_id: 35746
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 35742
+    url: https://github.com/podium-lib/layout/commit/fe43e655432b0a5f07b6475f67babcc2588fb039
+    reference_id:
+  - id: 35744
+    url: https://github.com/podium-lib/layout/releases/tag/v4.6.110
+    reference_id:
+  - id: 35743
+    url: https://github.com/podium-lib/proxy/commit/9698a40df081217ce142d4de71f929baaa339cdf
+    reference_id:
+  - id: 35745
+    url: https://github.com/podium-lib/proxy/releases/tag/v4.2.74
+    reference_id:
+  - id: 917768
+    url: https://github.com/podium-lib/proxy/security/advisories/GHSA-3hjg-vc7r-rcrw
+    reference_id:
+  - id: 917769
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:finn:podium_layout:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:finn:podium_layout:*:*:*:*:*:node.js:*:*
+  - id: 917770
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:finn:podium_proxy:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:finn:podium_proxy:*:*:*:*:*:node.js:*:*
+  - id: 35741
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-24822
+    reference_id: CVE-2022-24822
+  - id: 35746
+    url: https://github.com/advisories/GHSA-3hjg-vc7r-rcrw
+    reference_id: GHSA-3hjg-vc7r-rcrw
+weaknesses: []

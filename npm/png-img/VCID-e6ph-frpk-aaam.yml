@@ -1,0 +1,46 @@
+vulnerability_id: VCID-e6ph-frpk-aaam
+aliases:
+  - CVE-2020-28248
+  - GHSA-q5wr-fvpq-p67g
+summary: |
+  Integer Overflow or Wraparound
+  An integer overflow in the `PngImg::InitStorage_()` function of png-img leads to an under-allocation of heap memory and subsequently an exploitable heap-based buffer overflow when loading a crafted PNG file.
+severities:
+  - id: 468750
+    reference_id: 36193
+    scoring_system: cvssv2
+    value: '6.8'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:P/A:P
+  - id: 468748
+    reference_id: 36193
+    scoring_system: cvssv3
+    value: '8.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+  - id: 706201
+    reference_id: 1467734
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 838626
+    url: https://github.com/gemini-testing/png-img
+    reference_id:
+  - id: 838627
+    url: https://github.com/gemini-testing/png-img/commit/14ac462a32ca4b3b78f56502ac976d5b0222ce3d
+    reference_id:
+  - id: 838628
+    url: https://github.com/gemini-testing/png-img/compare/v3.0.0...v3.1.0
+    reference_id:
+  - id: 838629
+    url: https://securitylab.github.com/advisories/GHSL-2020-142-gemini-png-img
+    reference_id:
+  - id: 838630
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:png-img_project:png-img:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:png-img_project:png-img:*:*:*:*:*:*:*:*
+  - id: 36193
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-28248
+    reference_id: CVE-2020-28248
+  - id: 1467734
+    url: https://github.com/advisories/GHSA-q5wr-fvpq-p67g
+    reference_id: GHSA-q5wr-fvpq-p67g
+weaknesses: []

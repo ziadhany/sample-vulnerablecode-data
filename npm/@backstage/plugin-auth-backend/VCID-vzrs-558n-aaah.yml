@@ -1,0 +1,40 @@
+vulnerability_id: VCID-vzrs-558n-aaah
+aliases:
+  - CVE-2021-43776
+  - GHSA-w7fj-336r-vw49
+summary: |
+  Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')
+  Backstage is an open platform for building developer portals.This attack can potentially allow the attacker to exfiltrate access tokens or other secrets from the user's browser. The default CSP does prevent this attack, but it is expected that some deployments have these policies disabled due to incompatibilities. This is vulnerability is patched in version `0.4.9` of `@backstage/plugin-auth-backend`.
+severities:
+  - id: 567793
+    reference_id: 37447
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+  - id: 567791
+    reference_id: 37447
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+  - id: 706869
+    reference_id: 37449
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 903117
+    url: https://github.com/backstage/backstage/security/advisories/GHSA-w7fj-336r-vw49
+    reference_id:
+  - id: 37448
+    url: https://github.com/backstage/backstage/tree/master/plugins/auth-backend
+    reference_id:
+  - id: 903118
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:linuxfoundation:auth_backend:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:linuxfoundation:auth_backend:*:*:*:*:*:node.js:*:*
+  - id: 37447
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-43776
+    reference_id: CVE-2021-43776
+  - id: 37449
+    url: https://github.com/advisories/GHSA-w7fj-336r-vw49
+    reference_id: GHSA-w7fj-336r-vw49
+weaknesses: []

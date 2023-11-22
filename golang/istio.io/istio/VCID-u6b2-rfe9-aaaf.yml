@@ -1,0 +1,64 @@
+vulnerability_id: VCID-u6b2-rfe9-aaaf
+aliases:
+  - CVE-2022-29224
+summary: 'CVE-2022-29224 envoy: Segfault in GrpcHealthCheckerImpl'
+severities:
+  - id: 5453
+    reference_id: 39259
+    scoring_system: cvssv3
+    value: '5.9'
+    scoring_elements: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 5452
+    reference_id: 39258
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 628107
+    reference_id: 922886
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:N/A:P
+  - id: 628105
+    reference_id: 922886
+    scoring_system: cvssv3
+    value: '5.9'
+    scoring_elements: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 5449
+    reference_id: 39256
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 638832
+    reference_id: 951966
+    scoring_system: rhas
+    value: Critical
+    scoring_elements:
+references:
+  - id: 39259
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-29224.json
+    reference_id:
+  - id: 922884
+    url: https://github.com/envoyproxy/envoy/commit/9b1c3962172a972bc0359398af6daa3790bb59db
+    reference_id:
+  - id: 922885
+    url: https://github.com/envoyproxy/envoy/security/advisories/GHSA-m4j9-86g3-8f49
+    reference_id:
+  - id: 39258
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=2088738
+    reference_id: 2088738
+  - id: 780349
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:envoyproxy:envoy:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:envoyproxy:envoy:*:*:*:*:*:*:*:*
+  - id: 922886
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-29224
+    reference_id: CVE-2022-29224
+  - id: 1470887
+    url: https://istio.io/latest/news/security/ISTIO-SECURITY-2022-005/
+    reference_id: ISTIO-SECURITY-2022-005
+  - id: 39256
+    url: https://access.redhat.com/errata/RHSA-2022:5003
+    reference_id: RHSA-2022:5003
+  - id: 951966
+    url: https://access.redhat.com/errata/RHSA-2022:5004
+    reference_id: RHSA-2022:5004
+weaknesses: []

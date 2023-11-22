@@ -1,0 +1,195 @@
+package: pkg:rpm/redhat/python-amqp
+versions:
+  - purl: pkg:rpm/redhat/python-amqp@1.4.5-1?arch=el6sat
+    affected_by_vulnerabilities:
+      - VCID-1yrw-e49x-aaas
+      - VCID-2ne6-wkuq-aaan
+      - VCID-2vne-6txv-aaaa
+      - VCID-3pj4-1xv5-aaae
+      - VCID-6f2h-b6xh-aaam
+      - VCID-8k6k-s8p1-aaaf
+      - VCID-bptg-k9td-aaaf
+      - VCID-brrg-w1wu-aaad
+      - VCID-c196-2ujb-aaar
+      - VCID-eppu-krjj-aaac
+      - VCID-f1fn-3z4v-aaar
+      - VCID-gcz7-s9d8-aaan
+      - VCID-gk4s-6xep-aaap
+      - VCID-k6hs-tp56-aaan
+      - VCID-mjx8-ycsn-aaag
+      - VCID-n9k5-awr3-aaas
+      - VCID-rbr1-1m1x-aaaf
+      - VCID-sxf1-hnwu-aaaq
+      - VCID-u486-npjf-aaar
+      - VCID-w5pa-u7x8-aaad
+      - VCID-wbve-vkbf-aaam
+      - VCID-wpep-e823-aaas
+      - VCID-ypjz-as1z-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/python-amqp@1.4.5-1?arch=el7sat
+    affected_by_vulnerabilities:
+      - VCID-1yrw-e49x-aaas
+      - VCID-2ne6-wkuq-aaan
+      - VCID-2vne-6txv-aaaa
+      - VCID-3pj4-1xv5-aaae
+      - VCID-6f2h-b6xh-aaam
+      - VCID-8k6k-s8p1-aaaf
+      - VCID-bptg-k9td-aaaf
+      - VCID-brrg-w1wu-aaad
+      - VCID-c196-2ujb-aaar
+      - VCID-eppu-krjj-aaac
+      - VCID-f1fn-3z4v-aaar
+      - VCID-gcz7-s9d8-aaan
+      - VCID-gk4s-6xep-aaap
+      - VCID-k6hs-tp56-aaan
+      - VCID-mjx8-ycsn-aaag
+      - VCID-n9k5-awr3-aaas
+      - VCID-rbr1-1m1x-aaaf
+      - VCID-sxf1-hnwu-aaaq
+      - VCID-u486-npjf-aaar
+      - VCID-w5pa-u7x8-aaad
+      - VCID-wbve-vkbf-aaam
+      - VCID-wpep-e823-aaas
+      - VCID-ypjz-as1z-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/python-amqp@1.4.6-1?arch=el6_6sat
+    affected_by_vulnerabilities:
+      - VCID-2r63-z5t2-aaap
+      - VCID-7fvv-tax9-aaag
+      - VCID-7s9f-rfa3-aaaf
+      - VCID-8ugw-7akm-aaah
+      - VCID-gz85-2k1e-aaab
+      - VCID-mf3u-4t39-aaab
+      - VCID-uawc-cwm4-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/python-amqp@1.4.6-1?arch=el7sat
+    affected_by_vulnerabilities:
+      - VCID-2r63-z5t2-aaap
+      - VCID-55ga-282t-aaah
+      - VCID-7fvv-tax9-aaag
+      - VCID-7s9f-rfa3-aaaf
+      - VCID-8ugw-7akm-aaah
+      - VCID-gz85-2k1e-aaab
+      - VCID-mf3u-4t39-aaab
+      - VCID-uawc-cwm4-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/python-amqp@1.4.9-1?arch=el6sat
+    affected_by_vulnerabilities:
+      - VCID-asgj-9qjg-aaaf
+      - VCID-fse4-6yqv-aaaq
+      - VCID-j9hu-3awy-aaar
+      - VCID-ngfh-qspj-aaam
+      - VCID-us5b-bv9a-aaaa
+      - VCID-xntu-77nf-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/python-amqp@1.4.9-1?arch=el7sat
+    affected_by_vulnerabilities:
+      - VCID-asgj-9qjg-aaaf
+      - VCID-fse4-6yqv-aaaq
+      - VCID-gf6a-pqd5-aaag
+      - VCID-j9hu-3awy-aaar
+      - VCID-n311-z2c8-aaad
+      - VCID-ngfh-qspj-aaam
+      - VCID-sw16-2dmn-aaac
+      - VCID-us5b-bv9a-aaaa
+      - VCID-xntu-77nf-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/python-amqp@2.2.2-3?arch=el7sat
+    affected_by_vulnerabilities:
+      - VCID-37rn-gt5b-aaab
+      - VCID-4fxt-kkh8-aaan
+      - VCID-4xzv-kp3h-aaan
+      - VCID-5nqk-znrf-aaab
+      - VCID-86cc-pw8u-aaaa
+      - VCID-88my-hd9q-aaam
+      - VCID-9c29-3454-aaab
+      - VCID-9jcc-2gjw-aaae
+      - VCID-a8mw-s4pr-aaab
+      - VCID-c8j9-tbvg-aaaq
+      - VCID-cgb4-5jxd-aaah
+      - VCID-cw2s-4p8e-aaag
+      - VCID-ean7-wkmd-aaac
+      - VCID-enj5-ba38-aaas
+      - VCID-eps5-dhv3-aaam
+      - VCID-esta-bsrw-aaah
+      - VCID-gm2v-j1q8-aaab
+      - VCID-h3jt-mtpc-aaab
+      - VCID-hxm6-fgzs-aaam
+      - VCID-ja9x-8z86-aaag
+      - VCID-jbw5-5xat-aaaa
+      - VCID-mc9t-adza-aaak
+      - VCID-mjez-6y4p-aaaj
+      - VCID-mp6s-39hb-aaam
+      - VCID-nd3n-xrcv-aaan
+      - VCID-nupt-j8jb-aaar
+      - VCID-pydt-nu2k-aaar
+      - VCID-q8ax-dhju-aaab
+      - VCID-qjx3-vgza-aaak
+      - VCID-qp18-7kq8-aaab
+      - VCID-r5ac-x57y-aaap
+      - VCID-vdpj-r7pr-aaaf
+      - VCID-xham-1avc-aaaj
+      - VCID-zwyg-ab9c-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/python-amqp@2.2.2-3?arch=el7ui
+    affected_by_vulnerabilities:
+      - VCID-cw2s-4p8e-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/python-amqp@2.2.2-5?arch=el7sat
+    affected_by_vulnerabilities:
+      - VCID-1rm6-bsbu-aaam
+      - VCID-2pnz-pceq-aaan
+      - VCID-2pu9-dr4c-aaas
+      - VCID-3d7x-hvq1-aaad
+      - VCID-3sj8-9xug-aaap
+      - VCID-4q2p-kb2w-aaar
+      - VCID-4ube-rm8g-aaam
+      - VCID-4w75-wzwz-aaar
+      - VCID-54jv-na1n-aaac
+      - VCID-76nh-pw41-aaar
+      - VCID-7me3-3wxs-aaac
+      - VCID-88cw-7m98-aaah
+      - VCID-88dg-349s-aaap
+      - VCID-8cwn-mamx-aaab
+      - VCID-8gt6-hg94-aaac
+      - VCID-94jd-rgvr-aaas
+      - VCID-9z2v-67w9-aaan
+      - VCID-adan-1pt3-aaad
+      - VCID-bp5a-qr4t-aaad
+      - VCID-bx2w-gk4f-aaaf
+      - VCID-by8q-f3h8-aaaf
+      - VCID-byh6-2vn3-aaaa
+      - VCID-cw2z-su4w-aaar
+      - VCID-d96z-ne4f-aaae
+      - VCID-efvk-eu3s-aaaf
+      - VCID-f3h3-7htd-aaar
+      - VCID-f3uu-yu8c-aaaq
+      - VCID-fj9q-869j-aaap
+      - VCID-fpuu-b2rb-aaak
+      - VCID-gh4n-hy9b-aaaq
+      - VCID-hexc-rwtm-aaae
+      - VCID-juj3-jyhg-aaas
+      - VCID-k5ed-khh4-aaaj
+      - VCID-kwwj-765a-aaap
+      - VCID-kz2t-1jdd-aaaf
+      - VCID-psxz-je1e-aaap
+      - VCID-qkms-sdd6-aaah
+      - VCID-rt2v-jprf-aaas
+      - VCID-sc9x-9frn-aaae
+      - VCID-t8mm-96zp-aaag
+      - VCID-thw8-v921-aaac
+      - VCID-urgd-kgye-aaak
+      - VCID-utum-9m1g-aaan
+      - VCID-vqtk-e5du-aaas
+      - VCID-w15x-4t64-aaaa
+      - VCID-w4a2-967h-aaan
+      - VCID-wc8h-7ucw-aaac
+      - VCID-wnuk-tmsw-aaas
+      - VCID-wpbd-m9bh-aaak
+      - VCID-x3m2-ek7t-aaaa
+      - VCID-zjs5-tpt3-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/python-amqp@2.4.1-1?arch=el8ost
+    affected_by_vulnerabilities:
+      - VCID-2cqt-v8wb-aaac
+    fixing_vulnerabilities: []

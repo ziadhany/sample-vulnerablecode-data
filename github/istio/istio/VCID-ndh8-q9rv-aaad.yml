@@ -1,0 +1,71 @@
+vulnerability_id: VCID-ndh8-q9rv-aaad
+aliases:
+  - CVE-2020-12605
+summary: Envoy version 1.14.2, 1.13.2, 1.12.4 or earlier may consume excessive amounts of memory
+  when processing HTTP/1.1 headers with long field names or requests with long URLs.
+severities:
+  - id: 611254
+    reference_id: 932254
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 611253
+    reference_id: 932253
+    scoring_system: rhbs
+    value: high
+    scoring_elements:
+  - id: 436595
+    reference_id: 816302
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 436593
+    reference_id: 816302
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 611250
+    reference_id: 932251
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 611249
+    reference_id: 932250
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 932254
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2020-12605.json
+    reference_id:
+  - id: 816301
+    url: https://github.com/envoyproxy/envoy/security/advisories/GHSA-fjxc-jj43-f777
+    reference_id:
+  - id: 816300
+    url: https://github.com/envoyproxy/envoy-setec/issues/137
+    reference_id:
+  - id: 932253
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1844252
+    reference_id: 1844252
+  - id: 780349
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:envoyproxy:envoy:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:envoyproxy:envoy:*:*:*:*:*:*:*:*
+  - id: 816296
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:envoyproxy:envoy:1.13.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:envoyproxy:envoy:1.13.2:*:*:*:*:*:*:*
+  - id: 816297
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:envoyproxy:envoy:1.14.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:envoyproxy:envoy:1.14.2:*:*:*:*:*:*:*
+  - id: 816302
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-12605
+    reference_id: CVE-2020-12605
+  - id: 1474013
+    url: https://istio.io/latest/news/security/ISTIO-SECURITY-2020-007/
+    reference_id: ISTIO-SECURITY-2020-007
+  - id: 932251
+    url: https://access.redhat.com/errata/RHSA-2020:2798
+    reference_id: RHSA-2020:2798
+  - id: 932250
+    url: https://access.redhat.com/errata/RHSA-2020:2864
+    reference_id: RHSA-2020:2864
+weaknesses: []

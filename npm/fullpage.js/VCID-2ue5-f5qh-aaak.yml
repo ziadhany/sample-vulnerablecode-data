@@ -1,0 +1,43 @@
+vulnerability_id: VCID-2ue5-f5qh-aaak
+aliases:
+  - CVE-2022-1330
+  - GHSA-h3cq-j957-vhxg
+summary: |
+  Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')
+  stored xss due to unsantized anchor url in GitHub repository alvarotrigo/fullpage.js prior to 4.0.4. stored xss .
+severities:
+  - id: 578922
+    reference_id: 33271
+    scoring_system: cvssv2
+    value: '3.5'
+    scoring_elements: AV:N/AC:M/Au:S/C:N/I:P/A:N
+  - id: 578920
+    reference_id: 33271
+    scoring_system: cvssv3
+    value: '5.4'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N
+  - id: 706924
+    reference_id: 34167
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 33272
+    url: https://github.com/alvarotrigo/fullpage.js/commit/e7a5db42711700c8a584e61b5e532a64039fe92b
+    reference_id:
+  - id: 34166
+    url: https://github.com/alvarotrigo/fullPage.js/pull/4360
+    reference_id:
+  - id: 33273
+    url: https://huntr.dev/bounties/08d2a6d0-772f-4b05-834e-86343f263c35
+    reference_id:
+  - id: 910492
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:fullpage_project:fullpage:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:fullpage_project:fullpage:*:*:*:*:*:node.js:*:*
+  - id: 33271
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-1330
+    reference_id: CVE-2022-1330
+  - id: 34167
+    url: https://github.com/advisories/GHSA-h3cq-j957-vhxg
+    reference_id: GHSA-h3cq-j957-vhxg
+weaknesses: []

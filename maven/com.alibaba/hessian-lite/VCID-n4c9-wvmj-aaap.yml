@@ -1,0 +1,34 @@
+vulnerability_id: VCID-n4c9-wvmj-aaap
+aliases:
+  - CVE-2022-39198
+  - GHSA-5qwq-g2hx-r6f7
+summary: Hessian Lite for Apache Dubbo deserialization vulnerability
+severities:
+  - id: 647909
+    reference_id: 1418014
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 1418010
+    url: https://github.com/apache/dubbo-hessian-lite/releases/tag/v3.2.13
+    reference_id:
+  - id: 1418011
+    url: https://github.com/apache/dubbo/releases/tag/dubbo-2.7.18
+    reference_id:
+  - id: 1418012
+    url: https://github.com/apache/dubbo/releases/tag/dubbo-3.0.12
+    reference_id:
+  - id: 1418013
+    url: https://github.com/apache/dubbo/releases/tag/dubbo-3.1.1
+    reference_id:
+  - id: 1418009
+    url: https://lists.apache.org/thread/8d3zqrkoy4jh8dy37j4rd7g9jodzlvkk
+    reference_id:
+  - id: 1418008
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-39198
+    reference_id: CVE-2022-39198
+  - id: 1418014
+    url: https://github.com/advisories/GHSA-5qwq-g2hx-r6f7
+    reference_id: GHSA-5qwq-g2hx-r6f7
+weaknesses: []

@@ -1,0 +1,18 @@
+package: pkg:maven/com.caucho/resin
+versions:
+  - purl: pkg:maven/com.caucho/resin@4.0.52
+    affected_by_vulnerabilities:
+      - VCID-nxss-3fp8-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.caucho/resin@4.0.53
+    affected_by_vulnerabilities:
+      - VCID-nxss-3fp8-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.caucho/resin@4.0.56
+    affected_by_vulnerabilities:
+      - VCID-nxss-3fp8-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.caucho/resin@4.0.59
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-nxss-3fp8-aaah

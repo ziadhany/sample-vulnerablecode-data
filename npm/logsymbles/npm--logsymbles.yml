@@ -1,0 +1,10 @@
+package: pkg:npm/logsymbles
+versions:
+  - purl: pkg:npm/logsymbles@0.0.0
+    affected_by_vulnerabilities:
+      - VCID-1aks-wabq-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/logsymbles@0.0.1-security
+    affected_by_vulnerabilities:
+      - VCID-1aks-wabq-aaam
+    fixing_vulnerabilities: []

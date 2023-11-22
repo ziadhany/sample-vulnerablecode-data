@@ -1,0 +1,31 @@
+vulnerability_id: VCID-xf68-p48r-aaaf
+aliases:
+  - CVE-2014-1834
+summary: |
+  Arbitrary Command Execution
+  The echor Gem for Ruby contains a flaw in `backplane.rb` in the `perform_request` function that is triggered when a semi-colon `;` is injected into a username or password. This may allow a context-dependent attacker to inject arbitrary commands if the gem is used in a RoR application.
+severities:
+  - id: 177027
+    reference_id: 557115
+    scoring_system: cvssv2
+    value: '4.6'
+    scoring_elements: AV:L/AC:L/Au:N/C:P/I:P/A:P
+  - id: 177025
+    reference_id: 557115
+    scoring_system: cvssv3
+    value: '7.8'
+    scoring_elements: CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+references:
+  - id: 39098
+    url: http://osvdb.org/show/osvdb/102129
+    reference_id:
+  - id: 557114
+    url: http://www.openwall.com/lists/oss-security/2014/01/31/10
+    reference_id:
+  - id: 557116
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:echor_project:echor:0.1.6:*:*:*:*:ruby:*:*
+    reference_id: cpe:2.3:a:echor_project:echor:0.1.6:*:*:*:*:ruby:*:*
+  - id: 557115
+    url: https://nvd.nist.gov/vuln/detail/CVE-2014-1834
+    reference_id: CVE-2014-1834
+weaknesses: []

@@ -1,0 +1,41 @@
+vulnerability_id: VCID-nce6-8j7b-aaak
+aliases:
+  - CVE-2014-0234
+summary: 'CVE-2014-0234 OpenShift Enterprise openshift-origin-broker: default password creation'
+severities:
+  - id: 174455
+    reference_id: 551213
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 174453
+    reference_id: 551213
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+references:
+  - id: 551208
+    url: http://openwall.com/lists/oss-security/2014/06/05/19
+    reference_id:
+  - id: 186243
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2014-0234.json
+    reference_id:
+  - id: 551210
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1097008
+    reference_id:
+  - id: 551211
+    url: https://github.com/openshift/openshift-extras/blob/master/README.md
+    reference_id:
+  - id: 551212
+    url: https://rhn.redhat.com/errata/RHSA-2014-0487.html
+    reference_id:
+  - id: 551209
+    url: http://www.securityfocus.com/bid/67657
+    reference_id:
+  - id: 159207
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift:*:*:*:*:enterprise:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift:*:*:*:*:enterprise:*:*:*
+  - id: 551213
+    url: https://nvd.nist.gov/vuln/detail/CVE-2014-0234
+    reference_id: CVE-2014-0234
+weaknesses: []

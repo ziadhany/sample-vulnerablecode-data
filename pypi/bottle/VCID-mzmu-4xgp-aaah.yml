@@ -1,0 +1,15 @@
+vulnerability_id: VCID-mzmu-4xgp-aaah
+aliases:
+  - OSVDB-106526
+summary: |
+  Content-Type Insufficient Restrictions Bypass
+  There is a flaw in the json() function in bottle.py. The issue is due to the program using insufficient restrictions when parsing JSON content-types. This may allow a remote attacker to bypass access restrictions.
+severities: []
+references:
+  - id: 23601
+    url: http://osvdb.org/show/osvdb/106526
+    reference_id:
+  - id: 4594
+    url: https://github.com/defnull/bottle/issues/616
+    reference_id:
+weaknesses: []

@@ -1,0 +1,23 @@
+vulnerability_id: VCID-jcsa-87mm-aaaa
+aliases:
+  - GHSA-5vj8-3v2h-h38v
+  - GMS-2020-750
+summary: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+  in next.
+severities:
+  - id: 704642
+    reference_id: 35888
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 35886
+    url: https://github.com/masasron/vulnerability-research/tree/master/CVE-2018-6184/LFI
+    reference_id:
+  - id: 35887
+    url: https://www.npmjs.com/advisories/1538
+    reference_id:
+  - id: 35888
+    url: https://github.com/advisories/GHSA-5vj8-3v2h-h38v
+    reference_id: GHSA-5vj8-3v2h-h38v
+weaknesses: []

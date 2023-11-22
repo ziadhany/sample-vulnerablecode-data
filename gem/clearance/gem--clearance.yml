@@ -1,0 +1,338 @@
+package: pkg:gem/clearance
+versions:
+  - purl: pkg:gem/clearance@0.10.0
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@0.10.1
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@0.10.2
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@0.10.3.2
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@0.10.4
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@0.10.5
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@0.11.0
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@0.11.1
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@0.11.2
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@0.12.0
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@0.13.0
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@0.13.2
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@0.14.0
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@0.15.0
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@0.16.0
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@0.16.1
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@0.16.2
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@0.16.3
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@0.8.2
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@0.8.3
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@0.8.4
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@0.8.5
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@0.8.6
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@0.8.7
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@0.8.8
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@0.9.0.rc1
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@0.9.0.rc2
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@0.9.0.rc3
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@0.9.0.rc4
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@0.9.0.rc5
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@0.9.0.rc6
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@0.9.0.rc7
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@0.9.0.rc8
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@0.9.0.rc9
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@0.9.1
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@1.0.0.rc1
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@1.0.0.rc2
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@1.0.0.rc3
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@1.0.0.rc4
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@1.0.0.rc6
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@1.0.0.rc7
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@1.0.0.rc8
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@1.1.0
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@1.10.1
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@1.11.0
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@1.12.0
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@1.12.1
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@1.13.0
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@1.14.0
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@1.14.1
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@1.14.2
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@1.15.0
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@1.15.1
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@1.16.0
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@1.16.1
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@1.16.2
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@1.17.0
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@1.2.0
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@1.2.1
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@1.3.0
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@1.4.0
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@1.4.1
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@1.4.2
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@1.4.3
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@1.5.0
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@1.5.1
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@1.6.0
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@1.6.1
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@1.7.0
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@1.8.0
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@1.8.1
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@1.9.0
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@2.0.0.beta1
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@2.0.0.beta2
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@2.1.0
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@2.2.0
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@2.2.1
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@2.3.0
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@2.3.1
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@2.4.0
+    affected_by_vulnerabilities:
+      - VCID-adfr-fbge-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/clearance@2.5.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-adfr-fbge-aaad

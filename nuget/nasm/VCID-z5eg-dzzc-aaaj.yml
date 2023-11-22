@@ -1,0 +1,44 @@
+vulnerability_id: VCID-z5eg-dzzc-aaaj
+aliases:
+  - CVE-2019-6290
+summary: |
+  Uncontrolled Recursion
+  An infinite recursion issue was discovered in eval.c in Netwide Assembler (NASM) There is a stack exhaustion problem resulting from infinite recursion in the functions expr, rexp, bexpr and cexpr in certain scenarios involving lots of '{' characters. Remote attackers could leverage this vulnerability to cause a denial-of-service via a crafted asm file.
+severities:
+  - id: 65684
+    reference_id: '194601'
+    scoring_system: cvssv3
+    value: '5.5'
+    scoring_elements: CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+  - id: 65683
+    reference_id: '194600'
+    scoring_system: rhbs
+    value: low
+    scoring_elements:
+  - id: 412738
+    reference_id: 37745
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:N/A:P
+  - id: 412736
+    reference_id: 37745
+    scoring_system: cvssv3
+    value: '5.5'
+    scoring_elements: CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+references:
+  - id: '194601'
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2019-6290.json
+    reference_id:
+  - id: 37746
+    url: https://bugzilla.nasm.us/show_bug.cgi?id=3392548
+    reference_id:
+  - id: '194600'
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1668319
+    reference_id: 1668319
+  - id: 377740
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:nasm:netwide_assembler:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:nasm:netwide_assembler:*:*:*:*:*:*:*:*
+  - id: 37745
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-6290
+    reference_id: CVE-2019-6290
+weaknesses: []

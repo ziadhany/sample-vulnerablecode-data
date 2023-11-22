@@ -1,0 +1,17 @@
+vulnerability_id: VCID-eece-v8sf-aaam
+aliases:
+  - GMS-2015-30
+summary: |
+  LDAP Injection
+  This library is vulnerable to LDAP injection through the "username" parameter.
+severities:
+  - id: 708471
+    reference_id: 33694
+    scoring_system: cvssv3
+    value: '5.3'
+    scoring_elements:
+references:
+  - id: 33694
+    url: http://www.openwall.com/lists/oss-security/2015/09/18/4
+    reference_id:
+weaknesses: []

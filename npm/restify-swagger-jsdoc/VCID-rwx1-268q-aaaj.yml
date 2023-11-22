@@ -1,0 +1,19 @@
+vulnerability_id: VCID-rwx1-268q-aaaj
+aliases:
+  - GHSA-gvff-25cc-4f66
+  - GMS-2020-476
+summary: Relative Path Traversal in restify-swagger-jsdoc.
+severities:
+  - id: 704942
+    reference_id: 30567
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 30566
+    url: https://www.npmjs.com/advisories/1037
+    reference_id:
+  - id: 30567
+    url: https://github.com/advisories/GHSA-gvff-25cc-4f66
+    reference_id: GHSA-gvff-25cc-4f66
+weaknesses: []

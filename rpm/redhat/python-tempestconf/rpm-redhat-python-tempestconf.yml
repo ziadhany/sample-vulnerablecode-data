@@ -1,0 +1,10 @@
+package: pkg:rpm/redhat/python-tempestconf
+versions:
+  - purl: pkg:rpm/redhat/python-tempestconf@2.3.0-0.20191004163034.594614f?arch=el8ost
+    affected_by_vulnerabilities:
+      - VCID-2cqt-v8wb-aaac
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/python-tempestconf@2.4.0-1?arch=el7ost
+    affected_by_vulnerabilities:
+      - VCID-k33w-6kfy-aaar
+    fixing_vulnerabilities: []

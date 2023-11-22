@@ -1,0 +1,43 @@
+vulnerability_id: VCID-educ-r5xh-aaag
+aliases:
+  - CVE-2021-23771
+  - GHSA-8g4m-cjm2-96wq
+summary: |
+  Sandbox escape in notevil and argencoders-notevil
+  This affects all versions of package notevil; all versions of package argencoders-notevil. It is vulnerable to Sandbox Escape leading to Prototype pollution. The package fails to restrict access to the main context, allowing an attacker to add or modify an object's prototype. **Note:** This vulnerability derives from an incomplete fix in [SNYK-JS-NOTEVIL-608878](https://security.snyk.io/vuln/SNYK-JS-NOTEVIL-608878).
+severities:
+  - id: 515879
+    reference_id: 34409
+    scoring_system: cvssv2
+    value: '6.4'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:N
+  - id: 515877
+    reference_id: 34409
+    scoring_system: cvssv3
+    value: '6.5'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
+  - id: 706655
+    reference_id: 34412
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 34410
+    url: https://snyk.io/vuln/SNYK-JS-ARGENCODERSNOTEVIL-2388587
+    reference_id:
+  - id: 34411
+    url: https://snyk.io/vuln/SNYK-JS-NOTEVIL-2385946
+    reference_id:
+  - id: 868846
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:argencoders-notevil_project:argencoders-notevil:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:argencoders-notevil_project:argencoders-notevil:*:*:*:*:*:node.js:*:*
+  - id: 868847
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:notevil_project:notevil:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:notevil_project:notevil:*:*:*:*:*:node.js:*:*
+  - id: 34409
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-23771
+    reference_id: CVE-2021-23771
+  - id: 34412
+    url: https://github.com/advisories/GHSA-8g4m-cjm2-96wq
+    reference_id: GHSA-8g4m-cjm2-96wq
+weaknesses: []

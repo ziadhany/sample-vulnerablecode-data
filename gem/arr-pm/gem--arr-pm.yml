@@ -1,0 +1,46 @@
+package: pkg:gem/arr-pm
+versions:
+  - purl: pkg:gem/arr-pm@0.0.10
+    affected_by_vulnerabilities:
+      - VCID-ex1k-bp2g-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/arr-pm@0.0.11
+    affected_by_vulnerabilities:
+      - VCID-ex1k-bp2g-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/arr-pm@0.0.12
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-ex1k-bp2g-aaag
+  - purl: pkg:gem/arr-pm@0.0.2
+    affected_by_vulnerabilities:
+      - VCID-ex1k-bp2g-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/arr-pm@0.0.3
+    affected_by_vulnerabilities:
+      - VCID-ex1k-bp2g-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/arr-pm@0.0.4
+    affected_by_vulnerabilities:
+      - VCID-ex1k-bp2g-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/arr-pm@0.0.5
+    affected_by_vulnerabilities:
+      - VCID-ex1k-bp2g-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/arr-pm@0.0.6
+    affected_by_vulnerabilities:
+      - VCID-ex1k-bp2g-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/arr-pm@0.0.7
+    affected_by_vulnerabilities:
+      - VCID-ex1k-bp2g-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/arr-pm@0.0.8
+    affected_by_vulnerabilities:
+      - VCID-ex1k-bp2g-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/arr-pm@0.0.9
+    affected_by_vulnerabilities:
+      - VCID-ex1k-bp2g-aaag
+    fixing_vulnerabilities: []

@@ -1,0 +1,27 @@
+vulnerability_id: VCID-q8nm-b5zb-aaaf
+aliases:
+  - CVE-2014-4920
+  - GHSA-vpqv-mqvc-pcx2
+summary: |
+  Reflective XSS Vulnerability
+  The gem contains a flaw that enables a reflected cross-site scripting (XSS) attack. This flaw exists because the bootstrap_flash helper method does not validate input when handling flash messages before returning it to users. This may allow a context-dependent attacker to create a specially crafted request that would execute arbitrary script code in a user's browser session within the trust relationship between their browser and the server.
+severities:
+  - id: 708173
+    reference_id: 1472429
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 1472428
+    url: https://nvisium.com/blog/2014/03/28/reflected-xss-vulnerability-in-twitter
+    reference_id:
+  - id: 39125
+    url: https://nvisium.com/blog/2014/03/28/reflected-xss-vulnerability-in-twitter/
+    reference_id:
+  - id: 1472427
+    url: https://github.com/rubysec/ruby-advisory-db/blob/master/gems/twitter-bootstrap-rails/CVE-2014-4920.yml
+    reference_id: CVE-2014-4920.YML
+  - id: 1472429
+    url: https://github.com/advisories/GHSA-vpqv-mqvc-pcx2
+    reference_id: GHSA-vpqv-mqvc-pcx2
+weaknesses: []

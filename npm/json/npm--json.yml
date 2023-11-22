@@ -1,0 +1,66 @@
+package: pkg:npm/json
+versions:
+  - purl: pkg:npm/json@0.0.10
+    affected_by_vulnerabilities:
+      - VCID-huph-4ku8-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/json@0.0.11
+    affected_by_vulnerabilities:
+      - VCID-huph-4ku8-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/json@0.0.12
+    affected_by_vulnerabilities:
+      - VCID-huph-4ku8-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/json@0.0.13
+    affected_by_vulnerabilities:
+      - VCID-huph-4ku8-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/json@0.0.14
+    affected_by_vulnerabilities:
+      - VCID-huph-4ku8-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/json@0.0.8
+    affected_by_vulnerabilities:
+      - VCID-huph-4ku8-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/json@0.0.9
+    affected_by_vulnerabilities:
+      - VCID-huph-4ku8-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/json@10.0.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-huph-4ku8-aaad
+  - purl: pkg:npm/json@8.0.0
+    affected_by_vulnerabilities:
+      - VCID-huph-4ku8-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/json@9.0.0
+    affected_by_vulnerabilities:
+      - VCID-huph-4ku8-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/json@9.0.1
+    affected_by_vulnerabilities:
+      - VCID-huph-4ku8-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/json@9.0.2
+    affected_by_vulnerabilities:
+      - VCID-huph-4ku8-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/json@9.0.3
+    affected_by_vulnerabilities:
+      - VCID-huph-4ku8-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/json@9.0.4
+    affected_by_vulnerabilities:
+      - VCID-huph-4ku8-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/json@9.0.5
+    affected_by_vulnerabilities:
+      - VCID-huph-4ku8-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/json@9.0.6
+    affected_by_vulnerabilities:
+      - VCID-huph-4ku8-aaad
+    fixing_vulnerabilities: []

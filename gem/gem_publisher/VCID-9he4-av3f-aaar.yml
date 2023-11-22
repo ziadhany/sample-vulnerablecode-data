@@ -1,0 +1,31 @@
+vulnerability_id: VCID-9he4-av3f-aaar
+aliases:
+  - CVE-2019-10426
+summary: |
+  Cleartext Storage of Sensitive Information
+  Jenkins Gem Publisher Plugin stores credentials unencrypted in its global configuration file on the Jenkins master where they can be viewed by users with access to the master file system.
+severities:
+  - id: 368279
+    reference_id: 38949
+    scoring_system: cvssv2
+    value: '2.1'
+    scoring_elements: AV:L/AC:L/Au:N/C:P/I:N/A:N
+  - id: 368277
+    reference_id: 38949
+    scoring_system: cvssv3
+    value: '3.3'
+    scoring_elements: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N
+references:
+  - id: 38950
+    url: https://jenkins.io/security/advisory/2019-09-25/#SECURITY-1573
+    reference_id:
+  - id: 767620
+    url: http://www.openwall.com/lists/oss-security/2019/09/25/3
+    reference_id:
+  - id: 767676
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:jenkins:gem_publisher:*:*:*:*:*:jenkins:*:*
+    reference_id: cpe:2.3:a:jenkins:gem_publisher:*:*:*:*:*:jenkins:*:*
+  - id: 38949
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-10426
+    reference_id: CVE-2019-10426
+weaknesses: []

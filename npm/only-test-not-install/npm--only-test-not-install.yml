@@ -1,0 +1,10 @@
+package: pkg:npm/only-test-not-install
+versions:
+  - purl: pkg:npm/only-test-not-install@0.0.0
+    affected_by_vulnerabilities:
+      - VCID-ar85-gym2-aaaj
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/only-test-not-install@0.0.1-security
+    affected_by_vulnerabilities:
+      - VCID-ar85-gym2-aaaj
+    fixing_vulnerabilities: []

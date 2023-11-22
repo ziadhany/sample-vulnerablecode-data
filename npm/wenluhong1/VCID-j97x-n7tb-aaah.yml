@@ -1,0 +1,12 @@
+vulnerability_id: VCID-j97x-n7tb-aaah
+aliases:
+  - GMS-2017-326
+summary: |
+  Directory Traversal
+  `wenluhong1` is vulnerable to a directory traversal issue, giving an attacker access to the filesystem by placing "../" in the url.
+severities: []
+references:
+  - id: 32575
+    url: https://github.com/JacksonGL/NPM-Vuln-PoC/blob/master/directory-traversal/wenluhong1
+    reference_id:
+weaknesses: []

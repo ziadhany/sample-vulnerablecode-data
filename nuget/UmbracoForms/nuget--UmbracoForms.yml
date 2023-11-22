@@ -1,0 +1,6 @@
+package: pkg:nuget/UmbracoForms
+versions:
+  - purl: pkg:nuget/UmbracoForms@8.4.1
+    affected_by_vulnerabilities:
+      - VCID-zyky-1mbr-aaaq
+    fixing_vulnerabilities: []

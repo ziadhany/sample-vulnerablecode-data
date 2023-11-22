@@ -1,0 +1,230 @@
+package: pkg:gem/authlogic
+versions:
+  - purl: pkg:gem/authlogic@0.10.4
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@1.1.0
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@1.1.1
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@1.1.2
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@1.2.0
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@1.2.1
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@1.2.2
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@1.3.0
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@1.3.1
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@1.3.2
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@1.3.3
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@1.3.4
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@1.3.5
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@1.3.6
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@1.3.7
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@1.3.8
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@1.3.9
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@1.4.0
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@1.4.1
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@1.4.2
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@1.4.3
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@2.0.1
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@2.0.11
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@2.0.12
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@2.0.13
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@2.0.14
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@2.0.2
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@2.0.3
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@2.0.4
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@2.0.5
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@2.0.6
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@2.0.7
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@2.0.8
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@2.0.9
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@2.1.0
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@2.1.1
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@2.1.10
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@2.1.11
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@2.1.2
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@2.1.3
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@2.1.4
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@2.1.5
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@2.1.6
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@2.1.7
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@2.1.8
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@3.0.0
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@3.0.1
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@3.0.2
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@3.0.3
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@3.1.0
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@3.1.1
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@3.1.2
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@3.1.3
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@3.2.0
+    affected_by_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/authlogic@3.3.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-a3wx-n5cy-aaab

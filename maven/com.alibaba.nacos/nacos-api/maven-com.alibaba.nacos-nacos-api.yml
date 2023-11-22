@@ -1,0 +1,255 @@
+package: pkg:maven/com.alibaba.nacos/nacos-api
+versions:
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@0.2.0
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+      - VCID-kvbj-qnms-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@0.2.1
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+      - VCID-kvbj-qnms-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@0.2.1-RC1
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+      - VCID-kvbj-qnms-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@0.3.0
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+      - VCID-kvbj-qnms-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@0.3.0-RC1
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+      - VCID-kvbj-qnms-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@0.4.0
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+      - VCID-kvbj-qnms-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@0.5.0
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+      - VCID-kvbj-qnms-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@0.6.0
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+      - VCID-kvbj-qnms-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@0.6.1
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+      - VCID-kvbj-qnms-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@0.6.2
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+      - VCID-kvbj-qnms-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@0.7.0
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+      - VCID-kvbj-qnms-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@0.8.0
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+      - VCID-kvbj-qnms-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@0.8.1
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+      - VCID-kvbj-qnms-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@0.8.2
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+      - VCID-kvbj-qnms-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@0.9.0
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+      - VCID-kvbj-qnms-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@0.9.1
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+      - VCID-kvbj-qnms-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+      - VCID-kvbj-qnms-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@1.0.0-RC1
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+      - VCID-kvbj-qnms-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@1.0.0-RC2
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+      - VCID-kvbj-qnms-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@1.0.0-RC3
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+      - VCID-kvbj-qnms-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@1.0.0-RC4
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+      - VCID-kvbj-qnms-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+      - VCID-kvbj-qnms-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@1.1.0
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+      - VCID-kvbj-qnms-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@1.1.1
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+      - VCID-kvbj-qnms-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@1.1.2
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+      - VCID-kvbj-qnms-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@1.1.3
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+      - VCID-kvbj-qnms-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@1.1.4
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+      - VCID-kvbj-qnms-aaae
+      - VCID-mpz2-9cwe-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@1.2.0
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+      - VCID-kvbj-qnms-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@1.2.0-beta.0
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+      - VCID-kvbj-qnms-aaae
+    fixing_vulnerabilities:
+      - VCID-mpz2-9cwe-aaab
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@1.2.0-beta.1
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+      - VCID-kvbj-qnms-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@1.2.1
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+      - VCID-kvbj-qnms-aaae
+    fixing_vulnerabilities:
+      - VCID-mpz2-9cwe-aaab
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@1.3.0
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+      - VCID-kvbj-qnms-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@1.3.1
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+      - VCID-kvbj-qnms-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@1.3.1-BETA
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+      - VCID-kvbj-qnms-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@1.3.1-BETA.1
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+      - VCID-kvbj-qnms-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@1.3.2
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+      - VCID-kvbj-qnms-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@1.3.3
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+      - VCID-kvbj-qnms-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@1.4.0
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+      - VCID-kvbj-qnms-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@1.4.0-BETA
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+      - VCID-kvbj-qnms-aaae
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@1.4.1
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+    fixing_vulnerabilities:
+      - VCID-kvbj-qnms-aaae
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@1.4.2
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@1.4.3
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@1.4.4
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@1.4.5
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@2.0.0-ALPHA.1
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@2.0.0-ALPHA.2
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@2.0.0-BETA
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@2.0.1
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@2.0.2
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@2.0.3
+    affected_by_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+      - VCID-xup3-vcng-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.alibaba.nacos/nacos-api@2.0.4
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-hv9t-hk7c-aaaa
+      - VCID-xup3-vcng-aaah

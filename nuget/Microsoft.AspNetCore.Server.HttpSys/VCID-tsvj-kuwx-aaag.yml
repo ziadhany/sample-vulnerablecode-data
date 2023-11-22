@@ -1,0 +1,46 @@
+vulnerability_id: VCID-tsvj-kuwx-aaag
+aliases:
+  - CVE-2019-1075
+  - GHSA-prrf-397v-83xh
+summary: |
+  URL Redirection to Untrusted Site ('Open Redirect')
+  A spoofing vulnerability exists in ASP.NET Core that could lead to an open redirect, aka 'ASP.NET Core Spoofing Vulnerability'.
+severities:
+  - id: 369557
+    reference_id: 37627
+    scoring_system: cvssv2
+    value: '5.8'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:P/A:N
+  - id: 369555
+    reference_id: 37627
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+  - id: 630559
+    reference_id: 946751
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 946750
+    url: https://github.com/aspnet/Announcements/issues/373
+    reference_id:
+  - id: 946724
+    url: https://github.com/github/advisory-database/issues/302
+    reference_id:
+  - id: 768255
+    url: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-1075
+    reference_id:
+  - id: 759926
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:asp.net_core:2.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:asp.net_core:2.1:*:*:*:*:*:*:*
+  - id: 764052
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:asp.net_core:2.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:asp.net_core:2.2:*:*:*:*:*:*:*
+  - id: 37627
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-1075
+    reference_id: CVE-2019-1075
+  - id: 946751
+    url: https://github.com/advisories/GHSA-prrf-397v-83xh
+    reference_id: GHSA-prrf-397v-83xh
+weaknesses: []

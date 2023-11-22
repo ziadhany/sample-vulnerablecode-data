@@ -1,0 +1,12 @@
+vulnerability_id: VCID-xvne-dpq5-aaad
+aliases:
+  - GMS-2016-49
+summary: |
+  ReDoS via long string of semicolons
+  Tough-cookie contain a vulnerable regular expression that, under certain conditions involving long strings of semicolons in the "Set-Cookie" header, causes the event loop to block for excessive amounts of time.
+severities: []
+references:
+  - id: 34985
+    url: https://github.com/SalesforceEng/tough-cookie/pull/68
+    reference_id:
+weaknesses: []

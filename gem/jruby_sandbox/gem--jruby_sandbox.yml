@@ -1,0 +1,38 @@
+package: pkg:gem/jruby_sandbox
+versions:
+  - purl: pkg:gem/jruby_sandbox@0.1.0
+    affected_by_vulnerabilities:
+      - VCID-jzw7-qsx4-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jruby_sandbox@0.1.1
+    affected_by_vulnerabilities:
+      - VCID-jzw7-qsx4-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jruby_sandbox@0.1.2
+    affected_by_vulnerabilities:
+      - VCID-jzw7-qsx4-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jruby_sandbox@0.1.3
+    affected_by_vulnerabilities:
+      - VCID-jzw7-qsx4-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jruby_sandbox@0.1.4
+    affected_by_vulnerabilities:
+      - VCID-jzw7-qsx4-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jruby_sandbox@0.2.0
+    affected_by_vulnerabilities:
+      - VCID-jzw7-qsx4-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jruby_sandbox@0.2.1
+    affected_by_vulnerabilities:
+      - VCID-jzw7-qsx4-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jruby_sandbox@0.2.2
+    affected_by_vulnerabilities:
+      - VCID-jzw7-qsx4-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/jruby_sandbox@0.2.3
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-jzw7-qsx4-aaam

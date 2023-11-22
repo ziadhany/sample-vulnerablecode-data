@@ -1,0 +1,14 @@
+package: pkg:npm/network-manager
+versions:
+  - purl: pkg:npm/network-manager@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-yvwy-ab83-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/network-manager@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-yvwy-ab83-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/network-manager@1.0.2
+    affected_by_vulnerabilities:
+      - VCID-yvwy-ab83-aaam
+    fixing_vulnerabilities: []

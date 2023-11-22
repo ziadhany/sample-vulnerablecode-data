@@ -1,0 +1,62 @@
+vulnerability_id: VCID-j7h8-he58-aaah
+aliases:
+  - CVE-2015-5326
+summary: Cross-site scripting (XSS) vulnerability in the slave overview page in Jenkins before
+  1.638 and LTS before 1.625.2 allows remote authenticated users with certain permissions to
+  inject arbitrary web script or HTML via the slave offline status message.
+severities:
+  - id: 52662
+    reference_id: 177545
+    scoring_system: rhbs
+    value: low
+    scoring_elements:
+  - id: 38149
+    reference_id: 159216
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+  - id: 51875
+    reference_id: 176575
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 52209
+    reference_id: 177000
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 158438
+    url: http://rhn.redhat.com/errata/RHSA-2016-0489.html
+    reference_id:
+  - id: 177546
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2015-5326.json
+    reference_id:
+  - id: 159203
+    url: https://wiki.jenkins-ci.org/display/SECURITY/Jenkins+Security+Advisory+2015-11-11
+    reference_id:
+  - id: 177545
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1282369
+    reference_id: 1282369
+  - id: 159205
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:jenkins:jenkins:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:jenkins:jenkins:*:*:*:*:*:*:*:*
+  - id: 159206
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:jenkins:jenkins:*:*:*:*:lts:*:*:*
+    reference_id: cpe:2.3:a:jenkins:jenkins:*:*:*:*:lts:*:*:*
+  - id: 158468
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift:2.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift:2.0:*:*:*:*:*:*:*
+  - id: 159207
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:openshift:*:*:*:*:enterprise:*:*:*
+    reference_id: cpe:2.3:a:redhat:openshift:*:*:*:*:enterprise:*:*:*
+  - id: 159216
+    url: https://nvd.nist.gov/vuln/detail/CVE-2015-5326
+    reference_id: CVE-2015-5326
+  - id: 176575
+    url: https://access.redhat.com/errata/RHSA-2016:0070
+    reference_id: RHSA-2016:0070
+  - id: 177000
+    url: https://access.redhat.com/errata/RHSA-2016:0489
+    reference_id: RHSA-2016:0489
+weaknesses: []

@@ -1,0 +1,23 @@
+vulnerability_id: VCID-bfct-aq1q-aaaa
+aliases:
+  - CVE-2015-7822
+summary: |
+  Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')
+  Multiple cross-site scripting (XSS) vulnerabilities in Kentico CMS allow remote attackers to inject arbitrary web script or HTML via a (1) parameter name to CMSModules/AdminControls/Pages/UIPage.aspx or the (2) CMSBodyClass cookie variable to the default URI.
+severities:
+  - id: 204209
+    reference_id: 37821
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:P/A:N
+references:
+  - id: 37816
+    url: http://packetstormsecurity.com/files/133981/Kentico-CMS-8.2-Cross-Site-Scripting-Open-Redirect.html
+    reference_id:
+  - id: 615534
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:kentico:kentico_cms:8.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:kentico:kentico_cms:8.2:*:*:*:*:*:*:*
+  - id: 37821
+    url: https://nvd.nist.gov/vuln/detail/CVE-2015-7822
+    reference_id: CVE-2015-7822
+weaknesses: []

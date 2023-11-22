@@ -1,0 +1,30 @@
+vulnerability_id: VCID-pu1b-a8fb-aaaj
+aliases:
+  - GHSA-2p3c-p3qw-69r4
+  - GMS-2022-5387
+summary: Cross-Site Request Forgery (CSRF) in apollo-server.
+severities:
+  - id: 704516
+    reference_id: 1462841
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 704515
+    reference_id: 1462838
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 1462840
+    url: https://github.com/apollographql/apollo-server/commit/82d44985ddca8e61557957d67f41e9c1a705a5ca
+    reference_id:
+  - id: 1462839
+    url: https://github.com/jaydenseric/graphql-multipart-request-spec/pull/64
+    reference_id:
+  - id: 1462841
+    url: https://github.com/advisories/GHSA-2p3c-p3qw-69r4
+    reference_id: GHSA-2p3c-p3qw-69r4
+  - id: 1462838
+    url: https://github.com/apollographql/apollo-server/security/advisories/GHSA-2p3c-p3qw-69r4
+    reference_id: GHSA-2p3c-p3qw-69r4
+weaknesses: []

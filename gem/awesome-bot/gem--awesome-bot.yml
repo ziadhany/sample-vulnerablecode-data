@@ -1,0 +1,6 @@
+package: pkg:gem/awesome-bot
+versions:
+  - purl: pkg:gem/awesome-bot@0
+    affected_by_vulnerabilities:
+      - VCID-g3ck-rv1a-aaas
+    fixing_vulnerabilities: []

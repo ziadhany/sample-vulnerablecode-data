@@ -1,0 +1,23 @@
+vulnerability_id: VCID-nwr4-ejnm-aaam
+aliases:
+  - GHSA-49mg-94fc-2fx6
+  - GMS-2020-413
+summary: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+  in npm-git-publish.
+severities:
+  - id: 704562
+    reference_id: 31280
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 31278
+    url: https://hackerone.com/reports/730121
+    reference_id:
+  - id: 31279
+    url: https://www.npmjs.com/advisories/1458
+    reference_id:
+  - id: 31280
+    url: https://github.com/advisories/GHSA-49mg-94fc-2fx6
+    reference_id: GHSA-49mg-94fc-2fx6
+weaknesses: []

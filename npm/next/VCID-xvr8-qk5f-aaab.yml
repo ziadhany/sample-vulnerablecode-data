@@ -1,0 +1,37 @@
+vulnerability_id: VCID-xvr8-qk5f-aaab
+aliases:
+  - CVE-2017-16877
+  - GHSA-3f5c-4qxj-vmpf
+summary: |
+  Path Traversal
+  Next has directory traversal under the `/_next` and `/static` request namespace, allowing attackers to obtain sensitive information.
+severities:
+  - id: 272304
+    reference_id: 35874
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 272302
+    reference_id: 35874
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+  - id: 705808
+    reference_id: 1467172
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 689529
+    url: https://github.com/zeit/next.js/releases/tag/2.4.1
+    reference_id:
+  - id: 689530
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:zeit:next.js:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:zeit:next.js:*:*:*:*:*:*:*:*
+  - id: 35874
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-16877
+    reference_id: CVE-2017-16877
+  - id: 1467172
+    url: https://github.com/advisories/GHSA-3f5c-4qxj-vmpf
+    reference_id: GHSA-3f5c-4qxj-vmpf
+weaknesses: []

@@ -1,0 +1,8 @@
+package: pkg:gem/sidekiq-pro
+versions:
+  - purl: pkg:gem/sidekiq-pro@0
+    affected_by_vulnerabilities:
+      - VCID-b81d-2w7w-aaam
+      - VCID-kbkj-mbzs-aaad
+      - VCID-wrz9-jcy5-aaak
+    fixing_vulnerabilities: []

@@ -1,0 +1,516 @@
+package: pkg:maven/com.erudika/para-core
+versions:
+  - purl: pkg:maven/com.erudika/para-core@1.13
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.14
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.14.1
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.16
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.16.1
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.16.2
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.17
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.17.1
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.18.0
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.18.1
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.18.2
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.18.3
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.18.4
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.18.5
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.18.6
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.18.7
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.18.8
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.18.9
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.19.0
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.20.0
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.21.0
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.21.1
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.22.0
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.23.0
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.23.1
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.24.0
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.24.1
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.24.2
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.24.3
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.24.4
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.24.5
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.25.0
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.25.1
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.25.2
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.25.3
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.25.4
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.25.5
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.26.0
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.26.1
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.26.2
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.27.0
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.28.0
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.28.1
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.28.2
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.28.3
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.28.4
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.28.5
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.29.0
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.29.1
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.29.2
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.30.0
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.30.1
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.30.2
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.31.0
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.31.1
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.31.2
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.31.3
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.32.0
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.33.0
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.33.1
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.34.0
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.34.1
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.34.2
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.34.3
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.35.0
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.36.0
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.36.1
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.37.0
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.37.1
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.38.0
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.38.1
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.38.2
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.38.3
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.38.4
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.39.0
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.39.1
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.40.0
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.41.0
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.41.1
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.41.2
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.41.3
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.42.0
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.42.1
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.42.2
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.43.0
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.43.1
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.43.2
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.43.3
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.43.4
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.44.0
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.45.0
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.45.1
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.45.10
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.45.11
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+  - purl: pkg:maven/com.erudika/para-core@1.45.2
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.45.3
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.45.4
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.45.5
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.45.6
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.45.7
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.45.8
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.45.9
+    affected_by_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.erudika/para-core@1.46.0
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-7fsc-s5ww-aaaj
+      - VCID-y4nv-59mc-aaah

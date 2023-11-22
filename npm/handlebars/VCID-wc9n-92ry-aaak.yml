@@ -1,0 +1,15 @@
+vulnerability_id: VCID-wc9n-92ry-aaak
+aliases:
+  - GMS-2015-33
+summary: |
+  XSS vulnerability due to improper value escaping
+  The library does not properly escape attribute values making XSS exploits possible.
+severities: []
+references:
+  - id: 35082
+    url: https://github.com/wycats/handlebars.js/commit/83b8e846a3569bd366cf0b6bdc1e4604d1a2077e
+    reference_id:
+  - id: 35083
+    url: https://github.com/wycats/handlebars.js/issues/1114
+    reference_id:
+weaknesses: []

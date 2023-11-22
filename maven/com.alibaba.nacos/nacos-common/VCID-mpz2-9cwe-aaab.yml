@@ -1,0 +1,41 @@
+vulnerability_id: VCID-mpz2-9cwe-aaab
+aliases:
+  - CVE-2020-19676
+  - GHSA-qf76-pr7x-h7r4
+summary: Incorrect Access Control in Nacos
+severities:
+  - id: 453396
+    reference_id: 10524
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 453394
+    reference_id: 10524
+    scoring_system: cvssv3
+    value: '5.3'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+  - id: 1019
+    reference_id: 10528
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 10525
+    url: https://github.com/alibaba/nacos/issues/1105
+    reference_id:
+  - id: 10526
+    url: https://github.com/alibaba/nacos/issues/2284
+    reference_id:
+  - id: 10527
+    url: https://github.com/alibaba/nacos/releases/tag/1.2.0
+    reference_id:
+  - id: 828724
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:alibaba:nacos:1.1.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:alibaba:nacos:1.1.4:*:*:*:*:*:*:*
+  - id: 10524
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-19676
+    reference_id: CVE-2020-19676
+  - id: 10528
+    url: https://github.com/advisories/GHSA-qf76-pr7x-h7r4
+    reference_id: GHSA-qf76-pr7x-h7r4
+weaknesses: []

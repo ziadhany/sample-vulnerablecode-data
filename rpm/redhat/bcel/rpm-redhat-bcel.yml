@@ -1,0 +1,26 @@
+package: pkg:rpm/redhat/bcel
+versions:
+  - purl: pkg:rpm/redhat/bcel@5.1-16.2.1.2.jdk6.ep5?arch=el5
+    affected_by_vulnerabilities:
+      - VCID-knue-dqnh-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/bcel@5.2-8.1.ep5?arch=el4
+    affected_by_vulnerabilities:
+      - VCID-aafu-m6st-aaaq
+      - VCID-dbpv-cue2-aaan
+      - VCID-gcak-7hnb-aaad
+      - VCID-gyt6-3ggt-aaaj
+      - VCID-hkqr-snht-aaan
+      - VCID-rxf1-1k5a-aaam
+      - VCID-t9hu-6b2h-aaae
+      - VCID-w4v5-xn5g-aaag
+      - VCID-w5ba-fmfs-aaam
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/bcel@5.2-8.1.ep5?arch=el5
+    affected_by_vulnerabilities:
+      - VCID-dbpv-cue2-aaan
+    fixing_vulnerabilities: []
+  - purl: pkg:rpm/redhat/bcel@5.2-9.ep5?arch=el6
+    affected_by_vulnerabilities:
+      - VCID-dbpv-cue2-aaan
+    fixing_vulnerabilities: []

@@ -1,0 +1,40 @@
+vulnerability_id: VCID-666g-a2rd-aaan
+aliases:
+  - CVE-2019-10804
+  - GHSA-3fw4-4h3m-892h
+summary: |
+  Injection Vulnerability
+  The serial-number package allows execution of arbritary commands. The `cmdPrefix` argument in serialNumber function is used by the `exec` function without any validation.
+severities:
+  - id: 369791
+    reference_id: 37008
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 369789
+    reference_id: 37008
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 706013
+    reference_id: 1467482
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 768378
+    url: https://github.com/es128/serial-number/blob/master/index.js#L106
+    reference_id:
+  - id: 768379
+    url: https://snyk.io/vuln/SNYK-JS-SERIALNUMBER-559010
+    reference_id:
+  - id: 768380
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:serial-number_project:serial-number:*:*:*:*:*:node.js:*:*
+    reference_id: cpe:2.3:a:serial-number_project:serial-number:*:*:*:*:*:node.js:*:*
+  - id: 37008
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-10804
+    reference_id: CVE-2019-10804
+  - id: 1467482
+    url: https://github.com/advisories/GHSA-3fw4-4h3m-892h
+    reference_id: GHSA-3fw4-4h3m-892h
+weaknesses: []

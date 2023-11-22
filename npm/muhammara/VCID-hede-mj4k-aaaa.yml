@@ -1,0 +1,45 @@
+vulnerability_id: VCID-hede-mj4k-aaaa
+aliases:
+  - CVE-2022-25892
+  - GHSA-9cv5-4wqv-9w94
+summary: |
+  Uncontrolled Resource Consumption
+  The package muhammara before 2.6.1, from 3.1.0 and before 3.1.1; all versions of package hummus is vulnerable to Denial of Service (DoS) when supplied with a maliciously crafted PDF file to be parsed.
+severities:
+  - id: 707057
+    reference_id: 1463606
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 1463560
+    url: https://github.com/galkahana/HummusJS/commit/a9bf2520ab5abb69f9328906e406fbebfb36159a
+    reference_id:
+  - id: 1463483
+    url: https://github.com/galkahana/HummusJS/issues/463
+    reference_id:
+  - id: 1463484
+    url: https://github.com/julianhille/MuhammaraJS/commit/1890fb555eaf171db79b73fdc3ea543bbd63c002
+    reference_id:
+  - id: 1463479
+    url: https://github.com/julianhille/MuhammaraJS/commit/90b278d09f16062d93a4160ef0a54d449d739c51
+    reference_id:
+  - id: 1463482
+    url: https://github.com/julianhille/MuhammaraJS/issues/214
+    reference_id:
+  - id: 1463481
+    url: https://security.snyk.io/vuln/SNYK-JS-HUMMUS-3091138
+    reference_id:
+  - id: 1463480
+    url: https://security.snyk.io/vuln/SNYK-JS-MUHAMMARA-3060320
+    reference_id:
+  - id: 1463478
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-25892
+    reference_id: CVE-2022-25892
+  - id: 1463606
+    url: https://github.com/advisories/GHSA-9cv5-4wqv-9w94
+    reference_id: GHSA-9cv5-4wqv-9w94
+  - id: 1463605
+    url: https://github.com/julianhille/MuhammaraJS/security/advisories/GHSA-f64j-4x74-p42m
+    reference_id: GHSA-f64j-4x74-p42m
+weaknesses: []

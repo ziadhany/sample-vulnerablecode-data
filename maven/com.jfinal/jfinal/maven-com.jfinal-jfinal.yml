@@ -1,0 +1,339 @@
+package: pkg:maven/com.jfinal/jfinal
+versions:
+  - purl: pkg:maven/com.jfinal/jfinal@1.4.0
+    affected_by_vulnerabilities:
+      - VCID-35jq-tdqm-aaac
+      - VCID-48du-g8fh-aaar
+      - VCID-mnfy-5bag-aaan
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@1.5
+    affected_by_vulnerabilities:
+      - VCID-35jq-tdqm-aaac
+      - VCID-48du-g8fh-aaar
+      - VCID-mnfy-5bag-aaan
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@1.6
+    affected_by_vulnerabilities:
+      - VCID-35jq-tdqm-aaac
+      - VCID-48du-g8fh-aaar
+      - VCID-mnfy-5bag-aaan
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@1.8
+    affected_by_vulnerabilities:
+      - VCID-35jq-tdqm-aaac
+      - VCID-48du-g8fh-aaar
+      - VCID-mnfy-5bag-aaan
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@1.9
+    affected_by_vulnerabilities:
+      - VCID-35jq-tdqm-aaac
+      - VCID-48du-g8fh-aaar
+      - VCID-mnfy-5bag-aaan
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@2.0
+    affected_by_vulnerabilities:
+      - VCID-35jq-tdqm-aaac
+      - VCID-48du-g8fh-aaar
+      - VCID-mnfy-5bag-aaan
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@2.1
+    affected_by_vulnerabilities:
+      - VCID-35jq-tdqm-aaac
+      - VCID-48du-g8fh-aaar
+      - VCID-mnfy-5bag-aaan
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@2.2
+    affected_by_vulnerabilities:
+      - VCID-35jq-tdqm-aaac
+      - VCID-48du-g8fh-aaar
+      - VCID-mnfy-5bag-aaan
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@3.0
+    affected_by_vulnerabilities:
+      - VCID-35jq-tdqm-aaac
+      - VCID-48du-g8fh-aaar
+      - VCID-mnfy-5bag-aaan
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@3.1
+    affected_by_vulnerabilities:
+      - VCID-35jq-tdqm-aaac
+      - VCID-48du-g8fh-aaar
+      - VCID-mnfy-5bag-aaan
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@3.2
+    affected_by_vulnerabilities:
+      - VCID-35jq-tdqm-aaac
+      - VCID-48du-g8fh-aaar
+      - VCID-mnfy-5bag-aaan
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@3.3
+    affected_by_vulnerabilities:
+      - VCID-35jq-tdqm-aaac
+      - VCID-48du-g8fh-aaar
+      - VCID-mnfy-5bag-aaan
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@3.4
+    affected_by_vulnerabilities:
+      - VCID-35jq-tdqm-aaac
+      - VCID-48du-g8fh-aaar
+      - VCID-mnfy-5bag-aaan
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@3.5
+    affected_by_vulnerabilities:
+      - VCID-35jq-tdqm-aaac
+      - VCID-48du-g8fh-aaar
+      - VCID-mnfy-5bag-aaan
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@3.6
+    affected_by_vulnerabilities:
+      - VCID-35jq-tdqm-aaac
+      - VCID-48du-g8fh-aaar
+      - VCID-mnfy-5bag-aaan
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@3.7
+    affected_by_vulnerabilities:
+      - VCID-35jq-tdqm-aaac
+      - VCID-48du-g8fh-aaar
+      - VCID-mnfy-5bag-aaan
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@3.8
+    affected_by_vulnerabilities:
+      - VCID-35jq-tdqm-aaac
+      - VCID-48du-g8fh-aaar
+      - VCID-mnfy-5bag-aaan
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@4.0
+    affected_by_vulnerabilities:
+      - VCID-35jq-tdqm-aaac
+      - VCID-48du-g8fh-aaar
+      - VCID-mnfy-5bag-aaan
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@4.1
+    affected_by_vulnerabilities:
+      - VCID-35jq-tdqm-aaac
+      - VCID-48du-g8fh-aaar
+      - VCID-mnfy-5bag-aaan
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@4.2
+    affected_by_vulnerabilities:
+      - VCID-35jq-tdqm-aaac
+      - VCID-48du-g8fh-aaar
+      - VCID-mnfy-5bag-aaan
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@4.3
+    affected_by_vulnerabilities:
+      - VCID-35jq-tdqm-aaac
+      - VCID-48du-g8fh-aaar
+      - VCID-mnfy-5bag-aaan
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@4.4
+    affected_by_vulnerabilities:
+      - VCID-35jq-tdqm-aaac
+      - VCID-mnfy-5bag-aaan
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities:
+      - VCID-48du-g8fh-aaar
+  - purl: pkg:maven/com.jfinal/jfinal@4.5
+    affected_by_vulnerabilities:
+      - VCID-35jq-tdqm-aaac
+      - VCID-mnfy-5bag-aaan
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities:
+      - VCID-48du-g8fh-aaar
+  - purl: pkg:maven/com.jfinal/jfinal@4.6
+    affected_by_vulnerabilities:
+      - VCID-35jq-tdqm-aaac
+      - VCID-mnfy-5bag-aaan
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@4.7
+    affected_by_vulnerabilities:
+      - VCID-35jq-tdqm-aaac
+      - VCID-mnfy-5bag-aaan
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@4.8
+    affected_by_vulnerabilities:
+      - VCID-35jq-tdqm-aaac
+      - VCID-mnfy-5bag-aaan
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@4.9
+    affected_by_vulnerabilities:
+      - VCID-35jq-tdqm-aaac
+      - VCID-mnfy-5bag-aaan
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@4.9.01
+    affected_by_vulnerabilities:
+      - VCID-35jq-tdqm-aaac
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities:
+      - VCID-mnfy-5bag-aaan
+  - purl: pkg:maven/com.jfinal/jfinal@4.9.02
+    affected_by_vulnerabilities:
+      - VCID-35jq-tdqm-aaac
+      - VCID-mnfy-5bag-aaan
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@4.9.03
+    affected_by_vulnerabilities:
+      - VCID-35jq-tdqm-aaac
+      - VCID-mnfy-5bag-aaan
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@4.9.04
+    affected_by_vulnerabilities:
+      - VCID-35jq-tdqm-aaac
+      - VCID-mnfy-5bag-aaan
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@4.9.05
+    affected_by_vulnerabilities:
+      - VCID-35jq-tdqm-aaac
+      - VCID-mnfy-5bag-aaan
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@4.9.06
+    affected_by_vulnerabilities:
+      - VCID-35jq-tdqm-aaac
+      - VCID-mnfy-5bag-aaan
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@4.9.07
+    affected_by_vulnerabilities:
+      - VCID-35jq-tdqm-aaac
+      - VCID-mnfy-5bag-aaan
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@4.9.08
+    affected_by_vulnerabilities:
+      - VCID-35jq-tdqm-aaac
+      - VCID-mnfy-5bag-aaan
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@4.9.09
+    affected_by_vulnerabilities:
+      - VCID-35jq-tdqm-aaac
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities:
+      - VCID-mnfy-5bag-aaan
+  - purl: pkg:maven/com.jfinal/jfinal@4.9.10
+    affected_by_vulnerabilities:
+      - VCID-35jq-tdqm-aaac
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@4.9.11
+    affected_by_vulnerabilities:
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities:
+      - VCID-35jq-tdqm-aaac
+  - purl: pkg:maven/com.jfinal/jfinal@4.9.12
+    affected_by_vulnerabilities:
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@4.9.13
+    affected_by_vulnerabilities:
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@4.9.14
+    affected_by_vulnerabilities:
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@4.9.15
+    affected_by_vulnerabilities:
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@4.9.16
+    affected_by_vulnerabilities:
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@4.9.17
+    affected_by_vulnerabilities:
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@4.9.18
+    affected_by_vulnerabilities:
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@4.9.19
+    affected_by_vulnerabilities:
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@4.9.20
+    affected_by_vulnerabilities:
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@4.9.21
+    affected_by_vulnerabilities:
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@4.9.22
+    affected_by_vulnerabilities:
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@4.9.23
+    affected_by_vulnerabilities:
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@5.0.0
+    affected_by_vulnerabilities:
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@5.0.1
+    affected_by_vulnerabilities:
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@5.0.2
+    affected_by_vulnerabilities:
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@5.0.3
+    affected_by_vulnerabilities:
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@5.0.4
+    affected_by_vulnerabilities:
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@5.0.5
+    affected_by_vulnerabilities:
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@5.0.6
+    affected_by_vulnerabilities:
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@5.0.7
+    affected_by_vulnerabilities:
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@5.0.8
+    affected_by_vulnerabilities:
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []
+  - purl: pkg:maven/com.jfinal/jfinal@5.1.0
+    affected_by_vulnerabilities:
+      - VCID-z3mz-qmp3-aaag
+    fixing_vulnerabilities: []

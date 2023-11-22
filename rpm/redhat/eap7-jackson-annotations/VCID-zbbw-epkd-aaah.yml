@@ -1,0 +1,111 @@
+vulnerability_id: VCID-zbbw-epkd-aaah
+aliases:
+  - CVE-2017-12167
+summary: It was found in EAP 7 before 7.0.9 that properties based files of the management and
+  the application realm configuration that contain user to role mapping are world readable allowing
+  access to users and roles information to all the users logged in to the system.
+severities:
+  - id: 620730
+    reference_id: 939099
+    scoring_system: cvssv3
+    value: '5.5'
+    scoring_elements: CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+  - id: 620729
+    reference_id: 939098
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 257457
+    reference_id: 675917
+    scoring_system: cvssv2
+    value: '2.1'
+    scoring_elements: AV:L/AC:L/Au:N/C:P/I:N/A:N
+  - id: 257455
+    reference_id: 675917
+    scoring_system: cvssv3
+    value: '5.5'
+    scoring_elements: CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+  - id: 47918
+    reference_id: 172494
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 47919
+    reference_id: 172495
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 47915
+    reference_id: 172491
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 47912
+    reference_id: 172488
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 619182
+    reference_id: 938016
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 619184
+    reference_id: 938018
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 619183
+    reference_id: 938017
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 619181
+    reference_id: 938015
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 939099
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2017-12167.json
+    reference_id:
+  - id: 675916
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2017-12167
+    reference_id:
+  - id: 675915
+    url: http://www.securityfocus.com/bid/100903
+    reference_id:
+  - id: 939098
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1491612
+    reference_id: 1491612
+  - id: 157730
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:jboss_enterprise_application_platform:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:jboss_enterprise_application_platform:*:*:*:*:*:*:*:*
+  - id: 675917
+    url: https://nvd.nist.gov/vuln/detail/CVE-2017-12167
+    reference_id: CVE-2017-12167
+  - id: 172494
+    url: https://access.redhat.com/errata/RHSA-2017:3454
+    reference_id: RHSA-2017:3454
+  - id: 172495
+    url: https://access.redhat.com/errata/RHSA-2017:3455
+    reference_id: RHSA-2017:3455
+  - id: 172491
+    url: https://access.redhat.com/errata/RHSA-2017:3456
+    reference_id: RHSA-2017:3456
+  - id: 172488
+    url: https://access.redhat.com/errata/RHSA-2017:3458
+    reference_id: RHSA-2017:3458
+  - id: 938016
+    url: https://access.redhat.com/errata/RHSA-2018:0002
+    reference_id: RHSA-2018:0002
+  - id: 938018
+    url: https://access.redhat.com/errata/RHSA-2018:0003
+    reference_id: RHSA-2018:0003
+  - id: 938017
+    url: https://access.redhat.com/errata/RHSA-2018:0004
+    reference_id: RHSA-2018:0004
+  - id: 938015
+    url: https://access.redhat.com/errata/RHSA-2018:0005
+    reference_id: RHSA-2018:0005
+weaknesses: []

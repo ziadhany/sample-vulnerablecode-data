@@ -1,0 +1,38 @@
+vulnerability_id: VCID-adtr-ddrd-aaar
+aliases:
+  - CVE-2022-30765
+  - GHSA-8ppf-x4gr-2x7g
+summary: SQL injection in calibreweb
+severities:
+  - id: 600960
+    reference_id: 20430
+    scoring_system: cvssv2
+    value: '7.5'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:P/A:P
+  - id: 600958
+    reference_id: 20430
+    scoring_system: cvssv3
+    value: '9.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  - id: 3199
+    reference_id: 20433
+    scoring_system: cvssv3.1_qr
+    value: CRITICAL
+    scoring_elements:
+references:
+  - id: 20431
+    url: https://github.com/janeczku/calibre-web/blob/master/SECURITY.md
+    reference_id:
+  - id: 20432
+    url: https://github.com/janeczku/calibre-web/releases/tag/0.6.18
+    reference_id:
+  - id: 924609
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:calibre-web_project:calibre-web:0.6.18:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:calibre-web_project:calibre-web:0.6.18:*:*:*:*:*:*:*
+  - id: 20430
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-30765
+    reference_id: CVE-2022-30765
+  - id: 20433
+    url: https://github.com/advisories/GHSA-8ppf-x4gr-2x7g
+    reference_id: GHSA-8ppf-x4gr-2x7g
+weaknesses: []

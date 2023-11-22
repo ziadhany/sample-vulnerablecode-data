@@ -1,0 +1,33 @@
+vulnerability_id: VCID-vhk7-3a1d-aaak
+aliases:
+  - CVE-2023-25015
+  - GHSA-p4xx-w6fr-c4w9
+summary: |
+  Cross-Site Request Forgery (CSRF)
+  Clockwork Web before 0.1.2, when Rails before 5.2 is used, allows CSRF.
+severities:
+  - id: 708263
+    reference_id: 1471929
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 1471926
+    url: https://github.com/ankane/clockwork_web/commit/ec2896503ee231588547c2fad4cb93a94e78f857
+    reference_id:
+  - id: 1471927
+    url: https://github.com/ankane/clockwork_web/compare/v0.1.1...v0.1.2
+    reference_id:
+  - id: 1471925
+    url: https://github.com/ankane/clockwork_web/issues/4
+    reference_id:
+  - id: 1471924
+    url: https://nvd.nist.gov/vuln/detail/CVE-2023-25015
+    reference_id: CVE-2023-25015
+  - id: 1471928
+    url: https://github.com/rubysec/ruby-advisory-db/blob/master/gems/clockwork_web/CVE-2023-25015.yml
+    reference_id: CVE-2023-25015.YML
+  - id: 1471929
+    url: https://github.com/advisories/GHSA-p4xx-w6fr-c4w9
+    reference_id: GHSA-p4xx-w6fr-c4w9
+weaknesses: []

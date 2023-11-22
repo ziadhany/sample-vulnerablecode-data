@@ -1,0 +1,46 @@
+package: pkg:gem/sha3
+versions:
+  - purl: pkg:gem/sha3@0.1.0
+    affected_by_vulnerabilities:
+      - VCID-awv4-rzmw-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/sha3@0.1.1
+    affected_by_vulnerabilities:
+      - VCID-awv4-rzmw-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/sha3@0.2.0
+    affected_by_vulnerabilities:
+      - VCID-awv4-rzmw-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/sha3@0.2.2
+    affected_by_vulnerabilities:
+      - VCID-awv4-rzmw-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/sha3@0.2.3
+    affected_by_vulnerabilities:
+      - VCID-awv4-rzmw-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/sha3@0.2.5
+    affected_by_vulnerabilities:
+      - VCID-awv4-rzmw-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/sha3@0.2.6
+    affected_by_vulnerabilities:
+      - VCID-awv4-rzmw-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/sha3@1.0.1
+    affected_by_vulnerabilities:
+      - VCID-awv4-rzmw-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/sha3@1.0.2
+    affected_by_vulnerabilities:
+      - VCID-awv4-rzmw-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/sha3@1.0.3
+    affected_by_vulnerabilities:
+      - VCID-awv4-rzmw-aaap
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/sha3@1.0.4
+    affected_by_vulnerabilities:
+      - VCID-awv4-rzmw-aaap
+    fixing_vulnerabilities: []

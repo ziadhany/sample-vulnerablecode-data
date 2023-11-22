@@ -1,0 +1,25 @@
+vulnerability_id: VCID-t8tr-tzz2-aaak
+aliases:
+  - CVE-2022-4350
+  - GHSA-p46c-m4j7-mjvq
+summary: Mingsoft MCMS vulnerable to Cross-site Scripting
+severities:
+  - id: 703092
+    reference_id: 1463316
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 1463314
+    url: https://gitee.com/mingSoft/MCMS/issues/I5MT8Y
+    reference_id:
+  - id: 1463315
+    url: https://vuldb.com/?id.215112
+    reference_id:
+  - id: 1463313
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-4350
+    reference_id: CVE-2022-4350
+  - id: 1463316
+    url: https://github.com/advisories/GHSA-p46c-m4j7-mjvq
+    reference_id: GHSA-p46c-m4j7-mjvq
+weaknesses: []

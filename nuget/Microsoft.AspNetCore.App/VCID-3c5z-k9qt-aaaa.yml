@@ -1,0 +1,61 @@
+vulnerability_id: VCID-3c5z-k9qt-aaaa
+aliases:
+  - CVE-2018-8409
+  - GHSA-j378-6mmw-hqfr
+summary: Denial of service vulnerability exists when System.IO.Pipelines improperly handles
+  requests
+severities:
+  - id: 50090
+    reference_id: 174579
+    scoring_system: cvssv3
+    value: '5.1'
+    scoring_elements: CVSS:3.0/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: 50089
+    reference_id: 174578
+    scoring_system: rhbs
+    value: low
+    scoring_elements:
+  - id: 358812
+    reference_id: 16461
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:N/I:N/A:P
+  - id: 358810
+    reference_id: 16461
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+  - id: '1985'
+    reference_id: 16462
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 174579
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2018-8409.json
+    reference_id:
+  - id: 760239
+    url: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8409
+    reference_id:
+  - id: 16464
+    url: http://www.securityfocus.com/bid/105223
+    reference_id:
+  - id: 174578
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1626263
+    reference_id: 1626263
+  - id: 759926
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:asp.net_core:2.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:asp.net_core:2.1:*:*:*:*:*:*:*
+  - id: 760240
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:.net_core:2.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:.net_core:2.1:*:*:*:*:*:*:*
+  - id: 760241
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:microsoft:system.io.pipelines:-:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:microsoft:system.io.pipelines:-:*:*:*:*:*:*:*
+  - id: 16461
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-8409
+    reference_id: CVE-2018-8409
+  - id: 16462
+    url: https://github.com/advisories/GHSA-j378-6mmw-hqfr
+    reference_id: GHSA-j378-6mmw-hqfr
+weaknesses: []

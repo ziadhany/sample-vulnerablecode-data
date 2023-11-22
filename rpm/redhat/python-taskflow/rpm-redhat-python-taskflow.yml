@@ -1,0 +1,6 @@
+package: pkg:rpm/redhat/python-taskflow
+versions:
+  - purl: pkg:rpm/redhat/python-taskflow@3.7.1-0.20190920075933.f0eae2c?arch=el8ost
+    affected_by_vulnerabilities:
+      - VCID-2cqt-v8wb-aaac
+    fixing_vulnerabilities: []

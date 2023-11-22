@@ -1,0 +1,32 @@
+vulnerability_id: VCID-b5ax-11h7-aaas
+aliases:
+  - CVE-2018-1000126
+  - PYSEC-2018-113
+summary: Ajenti version 2 contains an Information Disclosure vulnerability in Line 176 of the
+  code source that can result in user and system enumeration as well as data from the /etc/ajenti/config.yml
+  file. This attack appears to be exploitable via network connectivity to the web application.
+severities:
+  - id: 307414
+    reference_id: 9536
+    scoring_system: cvssv2
+    value: '5.0'
+    scoring_elements: AV:N/AC:L/Au:N/C:P/I:N/A:N
+  - id: 307412
+    reference_id: 9536
+    scoring_system: cvssv3
+    value: '7.5'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+references:
+  - id: 1430
+    url: https://medium.com/stolabs/security-issues-on-ajenti-d2b7526eaeee
+    reference_id:
+  - id: 1431
+    url: https://pypi.org/project/ajenti-panel
+    reference_id:
+  - id: 721368
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:ajenti:ajenti:2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:ajenti:ajenti:2:*:*:*:*:*:*:*
+  - id: 9536
+    url: https://nvd.nist.gov/vuln/detail/CVE-2018-1000126
+    reference_id: CVE-2018-1000126
+weaknesses: []

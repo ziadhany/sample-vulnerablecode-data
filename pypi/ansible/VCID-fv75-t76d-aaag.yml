@@ -1,0 +1,80 @@
+vulnerability_id: VCID-fv75-t76d-aaag
+aliases:
+  - CVE-2020-1734
+  - GHSA-h39q-95q5-9jfp
+  - PYSEC-2020-6
+summary: A flaw was found in the pipe lookup plugin of ansible. Arbitrary commands can be run,
+  when the pipe lookup plugin uses subprocess.Popen() with shell=True, by overwriting ansible
+  facts and the variable is not escaped by quote plugin. An attacker could take advantage and
+  run arbitrary commands by overwriting the ansible facts.
+severities:
+  - id: 54979
+    reference_id: 180107
+    scoring_system: cvssv3
+    value: '7.4'
+    scoring_elements: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:L
+  - id: 450590
+    reference_id: 22284
+    scoring_system: cvssv2
+    value: '3.7'
+    scoring_elements: AV:L/AC:H/Au:N/C:P/I:P/A:P
+  - id: 450588
+    reference_id: 22284
+    scoring_system: cvssv3
+    value: '7.4'
+    scoring_elements: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:L
+  - id: 4405
+    reference_id: 25017
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+references:
+  - id: 1472530
+    url: https://access.redhat.com/errata/RHBA-2020:0547
+    reference_id:
+  - id: 1472531
+    url: https://access.redhat.com/errata/RHBA-2020:1539
+    reference_id:
+  - id: 180107
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2020-1734.json
+    reference_id:
+  - id: 7231
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2020-1734
+    reference_id:
+  - id: 7232
+    url: https://github.com/ansible/ansible/issues/67792
+    reference_id:
+  - id: 659828
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:ansible_engine:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:ansible_engine:*:*:*:*:*:*:*:*
+  - id: 826985
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:ansible_engine:2.8.8:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:ansible_engine:2.8.8:*:*:*:*:*:*:*
+  - id: 826986
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:ansible_engine:2.9.5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:ansible_engine:2.9.5:*:*:*:*:*:*:*
+  - id: 655192
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:ansible_tower:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:ansible_tower:*:*:*:*:*:*:*:*
+  - id: 826987
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:ansible_tower:3.4.5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:ansible_tower:3.4.5:*:*:*:*:*:*:*
+  - id: 826988
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:ansible_tower:3.5.5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:ansible_tower:3.5.5:*:*:*:*:*:*:*
+  - id: 826989
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:ansible_tower:3.6.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:ansible_tower:3.6.3:*:*:*:*:*:*:*
+  - id: 1472532
+    url: https://access.redhat.com/security/cve/CVE-2020-1734
+    reference_id: CVE-2020-1734
+  - id: 22284
+    url: https://nvd.nist.gov/vuln/detail/CVE-2020-1734
+    reference_id: CVE-2020-1734
+  - id: 25017
+    url: https://github.com/advisories/GHSA-h39q-95q5-9jfp
+    reference_id: GHSA-h39q-95q5-9jfp
+  - id: 180106
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1801804
+    reference_id: RHBA-2020:1539
+weaknesses: []

@@ -1,0 +1,75 @@
+vulnerability_id: VCID-qg6f-nunh-aaaj
+aliases:
+  - CVE-2019-10199
+  - GHSA-p5xp-6vpf-jwvh
+summary: Improper Input Validation and Cross-Site Request Forgery in Keycloak
+severities:
+  - id: 76254
+    reference_id: 207198
+    scoring_system: cvssv3
+    value: '4.6'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:N
+  - id: 76253
+    reference_id: 207197
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 367168
+    reference_id: 14302
+    scoring_system: cvssv2
+    value: '6.8'
+    scoring_elements: AV:N/AC:M/Au:N/C:P/I:P/A:P
+  - id: 367166
+    reference_id: 14302
+    scoring_system: cvssv3
+    value: '8.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+  - id: 1573
+    reference_id: 14304
+    scoring_system: cvssv3.1_qr
+    value: HIGH
+    scoring_elements:
+  - id: 76250
+    reference_id: 207195
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 52339
+    reference_id: 177155
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+  - id: 69832
+    reference_id: '199687'
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 207198
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2019-10199.json
+    reference_id:
+  - id: 14303
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2019-10199
+    reference_id:
+  - id: 207197
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1729261
+    reference_id: 1729261
+  - id: 568146
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:redhat:keycloak:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:redhat:keycloak:*:*:*:*:*:*:*:*
+  - id: 14302
+    url: https://nvd.nist.gov/vuln/detail/CVE-2019-10199
+    reference_id: CVE-2019-10199
+  - id: 14304
+    url: https://github.com/advisories/GHSA-p5xp-6vpf-jwvh
+    reference_id: GHSA-p5xp-6vpf-jwvh
+  - id: 207195
+    url: https://access.redhat.com/errata/RHSA-2019:2483
+    reference_id: RHSA-2019:2483
+  - id: 177155
+    url: https://access.redhat.com/errata/RHSA-2020:2067
+    reference_id: RHSA-2020:2067
+  - id: '199687'
+    url: https://access.redhat.com/errata/RHSA-2020:2366
+    reference_id: RHSA-2020:2366
+weaknesses: []

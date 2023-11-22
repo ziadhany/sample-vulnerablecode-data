@@ -1,0 +1,15 @@
+vulnerability_id: VCID-1s8n-5zp4-aaad
+aliases:
+  - GHSA-gjc9-932x-c59p
+  - GMS-2020-342
+summary: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+  in leaflet-gpx.
+severities: []
+references:
+  - id: 36592
+    url: https://www.npmjs.com/advisories/937
+    reference_id:
+  - id: 36593
+    url: https://github.com/advisories/GHSA-gjc9-932x-c59p
+    reference_id: GHSA-gjc9-932x-c59p
+weaknesses: []

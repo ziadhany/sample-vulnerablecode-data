@@ -1,0 +1,68 @@
+vulnerability_id: VCID-5aqc-46fw-aaah
+aliases:
+  - CVE-2021-22132
+  - GHSA-5fvx-2jj3-6mff
+summary: Insufficiently Protected Credentials in Elasticsearch
+severities:
+  - id: 607704
+    reference_id: 929657
+    scoring_system: cvssv3
+    value: '4.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:N/A:N
+  - id: 607703
+    reference_id: 929656
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 511090
+    reference_id: 2428
+    scoring_system: cvssv2
+    value: '2.1'
+    scoring_elements: AV:N/AC:H/Au:S/C:P/I:N/A:N
+  - id: 511088
+    reference_id: 2428
+    scoring_system: cvssv3
+    value: '4.8'
+    scoring_elements: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:N/A:N
+  - id: 409
+    reference_id: 2431
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 638927
+    reference_id: 952044
+    scoring_system: rhas
+    value: Moderate
+    scoring_elements:
+references:
+  - id: 929657
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-22132.json
+    reference_id:
+  - id: 2429
+    url: https://discuss.elastic.co/t/elasticsearch-7-10-2-security-update/261164
+    reference_id:
+  - id: 2430
+    url: https://security.netapp.com/advisory/ntap-20210219-0004/
+    reference_id:
+  - id: 389
+    url: https://www.oracle.com/security-alerts/cpuapr2022.html
+    reference_id:
+  - id: 929656
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1923181
+    reference_id: '1923181'
+  - id: 159755
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:elastic:elasticsearch:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:elastic:elasticsearch:*:*:*:*:*:*:*:*
+  - id: 766943
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:oracle:communications_cloud_native_core_automated_test_suite:1.8.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:oracle:communications_cloud_native_core_automated_test_suite:1.8.0:*:*:*:*:*:*:*
+  - id: 2428
+    url: https://nvd.nist.gov/vuln/detail/CVE-2021-22132
+    reference_id: CVE-2021-22132
+  - id: 2431
+    url: https://github.com/advisories/GHSA-5fvx-2jj3-6mff
+    reference_id: GHSA-5fvx-2jj3-6mff
+  - id: 952044
+    url: https://access.redhat.com/errata/RHSA-2022:5606
+    reference_id: RHSA-2022:5606
+weaknesses: []

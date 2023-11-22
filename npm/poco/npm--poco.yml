@@ -1,0 +1,20 @@
+package: pkg:npm/poco
+versions:
+  - purl: pkg:npm/poco@0.0.0-alpha
+    affected_by_vulnerabilities:
+      - VCID-kt5x-pfcg-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/poco@0.0.1
+    affected_by_vulnerabilities:
+      - VCID-fdwf-qfgr-aaak
+      - VCID-kt5x-pfcg-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/poco@1.5.4
+    affected_by_vulnerabilities:
+      - VCID-fdwf-qfgr-aaak
+      - VCID-kt5x-pfcg-aaad
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/poco@1.7.7
+    affected_by_vulnerabilities:
+      - VCID-fdwf-qfgr-aaak
+    fixing_vulnerabilities: []

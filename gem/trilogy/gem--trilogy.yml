@@ -1,0 +1,14 @@
+package: pkg:gem/trilogy
+versions:
+  - purl: pkg:gem/trilogy@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-j3z9-4xv8-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/trilogy@2.1.0
+    affected_by_vulnerabilities:
+      - VCID-j3z9-4xv8-aaah
+    fixing_vulnerabilities: []
+  - purl: pkg:gem/trilogy@2.1.1
+    affected_by_vulnerabilities: []
+    fixing_vulnerabilities:
+      - VCID-j3z9-4xv8-aaah

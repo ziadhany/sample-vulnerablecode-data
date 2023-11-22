@@ -1,0 +1,115 @@
+vulnerability_id: VCID-gjyt-m1m5-aaas
+aliases:
+  - CVE-2016-6812
+  - GHSA-vw2c-5wph-v92r
+summary: |
+  Cross-site Scripting
+  The HTTP transport module in Apache CXF uses `FormattedServiceListWriter` to provide an HTML page which lists the names and absolute URL addresses of the available service endpoints. The module calculates the base URL using the current `HttpServletRequest` which is used by `FormattedServiceListWriter` to build the service endpoint absolute URLs. If the unexpected matrix parameters have been injected into the request URL then these matrix parameters will find their way back to the client in the services list page which represents an XSS risk to the client.
+severities:
+  - id: 625247
+    reference_id: 942243
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+  - id: 625246
+    reference_id: 942242
+    scoring_system: rhbs
+    value: medium
+    scoring_elements:
+  - id: 236350
+    reference_id: 26244
+    scoring_system: cvssv2
+    value: '4.3'
+    scoring_elements: AV:N/AC:M/Au:N/C:N/I:P/A:N
+  - id: 236348
+    reference_id: 26244
+    scoring_system: cvssv3
+    value: '6.1'
+    scoring_elements: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+  - id: 630227
+    reference_id: 946246
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+  - id: 47954
+    reference_id: 172520
+    scoring_system: rhas
+    value: Important
+    scoring_elements:
+references:
+  - id: 654419
+    url: http://cxf.apache.org/security-advisories.data/CVE-2016-6812.txt.asc
+    reference_id:
+  - id: 942243
+    url: https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2016-6812.json
+    reference_id:
+  - id: 26248
+    url: https://issues.apache.org/jira/browse/CXF-6216
+    reference_id:
+  - id: 10867
+    url: https://lists.apache.org/thread.html/r36e44ffc1a9b365327df62cdfaabe85b9a5637de102cea07d79b2dbf@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10866
+    url: https://lists.apache.org/thread.html/rc774278135816e7afc943dc9fc78eb0764f2c84a2b96470a0187315c@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10872
+    url: https://lists.apache.org/thread.html/rd49aabd984ed540c8ff7916d4d79405f3fa311d2fdbcf9ed307839a6@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10860
+    url: https://lists.apache.org/thread.html/rec7160382badd3ef4ad017a22f64a266c7188b9ba71394f0d321e2d4@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10862
+    url: https://lists.apache.org/thread.html/rfb87e0bf3995e7d560afeed750fac9329ff5f1ad49da365129b7f89e@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 10873
+    url: https://lists.apache.org/thread.html/rff42cfa5e7d75b7c1af0e37589140a8f1999e578a75738740b244bd4@%3Ccommits.cxf.apache.org%3E
+    reference_id:
+  - id: 26246
+    url: http://www.securityfocus.com/bid/97582
+    reference_id:
+  - id: 26247
+    url: http://www.securitytracker.com/id/1037543
+    reference_id:
+  - id: 942242
+    url: https://bugzilla.redhat.com/show_bug.cgi?id=1406810
+    reference_id: 1406810
+  - id: 158434
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:*:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:*:*:*:*:*:*:*:*
+  - id: 654420
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:3.1.0:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:3.1.0:*:*:*:*:*:*:*
+  - id: 654421
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:3.1.1:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:3.1.1:*:*:*:*:*:*:*
+  - id: 654422
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:3.1.2:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:3.1.2:*:*:*:*:*:*:*
+  - id: 654423
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:3.1.3:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:3.1.3:*:*:*:*:*:*:*
+  - id: 654424
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:3.1.4:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:3.1.4:*:*:*:*:*:*:*
+  - id: 654425
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:3.1.5:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:3.1.5:*:*:*:*:*:*:*
+  - id: 654426
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:3.1.6:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:3.1.6:*:*:*:*:*:*:*
+  - id: 654427
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:3.1.7:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:3.1.7:*:*:*:*:*:*:*
+  - id: 654428
+    url: https://nvd.nist.gov/vuln/search/results?adv_search=true&isCpeNameSearch=true&query=cpe:2.3:a:apache:cxf:3.1.8:*:*:*:*:*:*:*
+    reference_id: cpe:2.3:a:apache:cxf:3.1.8:*:*:*:*:*:*:*
+  - id: 26244
+    url: https://nvd.nist.gov/vuln/detail/CVE-2016-6812
+    reference_id: CVE-2016-6812
+  - id: 946246
+    url: https://github.com/advisories/GHSA-vw2c-5wph-v92r
+    reference_id: GHSA-vw2c-5wph-v92r
+  - id: 172520
+    url: https://access.redhat.com/errata/RHSA-2017:0868
+    reference_id: RHSA-2017:0868
+weaknesses: []

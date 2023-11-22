@@ -1,0 +1,12 @@
+vulnerability_id: VCID-ju52-jv7b-aaab
+aliases:
+  - GMS-2017-238
+summary: |
+  Directory Traversal
+  `mockserve` is vulnerable to a directory traversal issue, giving an attacker access to the filesystem by placing "../" in the url./n
+severities: []
+references:
+  - id: 34314
+    url: https://github.com/JacksonGL/NPM-Vuln-PoC/blob/master/directory-traversal/mockserve
+    reference_id:
+weaknesses: []

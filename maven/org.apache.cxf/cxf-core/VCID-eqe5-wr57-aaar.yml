@@ -1,0 +1,22 @@
+vulnerability_id: VCID-eqe5-wr57-aaar
+aliases:
+  - CVE-2022-46363
+  - GHSA-3w37-5p3p-jv92
+summary: Apache CXF vulnerable to Exposure of Sensitive Information
+severities:
+  - id: 703126
+    reference_id: 1463440
+    scoring_system: cvssv3.1_qr
+    value: MODERATE
+    scoring_elements:
+references:
+  - id: 1463439
+    url: https://lists.apache.org/thread/pdzo1qgyplf4y523tnnzrcm7hoco3l8c
+    reference_id:
+  - id: 1463438
+    url: https://nvd.nist.gov/vuln/detail/CVE-2022-46363
+    reference_id: CVE-2022-46363
+  - id: 1463440
+    url: https://github.com/advisories/GHSA-3w37-5p3p-jv92
+    reference_id: GHSA-3w37-5p3p-jv92
+weaknesses: []

@@ -1,0 +1,22 @@
+package: pkg:npm/post-loader
+versions:
+  - purl: pkg:npm/post-loader@1.0.0
+    affected_by_vulnerabilities:
+      - VCID-fy73-jawe-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/post-loader@1.1.0
+    affected_by_vulnerabilities:
+      - VCID-fy73-jawe-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/post-loader@1.1.1
+    affected_by_vulnerabilities:
+      - VCID-fy73-jawe-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/post-loader@1.1.2
+    affected_by_vulnerabilities:
+      - VCID-fy73-jawe-aaab
+    fixing_vulnerabilities: []
+  - purl: pkg:npm/post-loader@2.0.0
+    affected_by_vulnerabilities:
+      - VCID-fy73-jawe-aaab
+    fixing_vulnerabilities: []

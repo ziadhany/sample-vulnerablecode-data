@@ -1,0 +1,12 @@
+vulnerability_id: VCID-tknd-s69k-aaac
+aliases:
+  - GMS-2017-228
+summary: |
+  Directory Traversal
+  `welcomyzt` is vulnerable to a directory traversal issue, giving an attacker access to the filesystem by placing "../" in the URL.
+severities: []
+references:
+  - id: 37122
+    url: https://github.com/JacksonGL/NPM-Vuln-PoC/blob/master/directory-traversal/pooledwebsocket
+    reference_id:
+weaknesses: []
