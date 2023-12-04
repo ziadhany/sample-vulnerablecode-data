@@ -128,7 +128,4 @@ references:
   - id: 181427
     url: https://access.redhat.com/errata/RHSA-2019:3744
     reference_id: RHSA-2019:3744
-  - id: 181428
-    url: https://access.redhat.com/errata/RHSA-2019:3789
-    reference_id: RHSA-2019:3789
 weaknesses: []

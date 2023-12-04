@@ -4,7 +4,8 @@ versions:
     affected_by_vulnerabilities: []
     fixing_vulnerabilities:
       - VCID-bk4y-gyh6-aaae
-  - purl: pkg:alpine/alpine@2.23-r0?arch=aarch64&distroversion=v3.12&reponame=community
+      - VCID-9uzp-geyd-aaak
+  - purl: pkg:alpine/alpine@2.24-r0?arch=aarch64&distroversion=v3.12&reponame=community
     affected_by_vulnerabilities: []
     fixing_vulnerabilities:
       - VCID-bk4y-gyh6-aaae

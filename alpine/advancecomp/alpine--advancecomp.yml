@@ -172,7 +172,3 @@ versions:
     affected_by_vulnerabilities: []
     fixing_vulnerabilities:
       - VCID-g3j9-zdd6-aaad
-  - purl: pkg:alpine/advancecomp@2.1-r2?arch=x86_64&distroversion=v3.16&reponame=community
-    affected_by_vulnerabilities: []
-    fixing_vulnerabilities:
-      - VCID-g3j9-zdd6-aaad
